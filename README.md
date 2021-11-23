@@ -1,4 +1,4 @@
-# pi-apps-website
+# website
 The homepage for [Pi-Apps](http://pi-apps-coders.github.io/website)
 
 GitHub repository for [Pi-Apps](https://github.com/Botspot/pi-apps/)
