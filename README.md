@@ -1,10 +1,10 @@
 # pi-apps-website
-The homepage for [Pi-Apps](http://ryanfortner.github.io/pi-apps-website)
+The homepage for [Pi-Apps](http://pi-apps-coders.github.io/website)
 
 GitHub repository for [Pi-Apps](https://github.com/Botspot/pi-apps/)
 
 
-This repository is managed from [here](https://github.com/ryanfortner/pi-apps-website).
+This repository is managed from [here](https://github.com/Pi-Apps-Coders/website).
 
 ### Note:
 The website uses the following:
