@@ -78,6 +78,78 @@
 		<img class="pure-img" src="./assets/main window.png">
 	</div>
 	<br></br>
+	<h2 id="guide-to-installing">Installing:</h3>
+		<h3 id="installing">To install Pi-Apps, make sure you have an Internet connection. Run this command in a terminal:
+		</h2>
+		  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash</span>
+		</code></pre></div></div>
+		  <div class="tooltip">
+		  <button class="button2" onclick="copyToClipboard('#p1')" onmouseout="outFunc()"><span class="tooltiptext" id="CopyTooltip1">Copy to clipboard</span></button>
+		</div>
+		<h2 id="uninstalling">Uninstalling:</h2>
+		<h3 id="guide-to-uninstalling">To uninstall Pi-Apps, execute this command. It will not uninstall any apps installed using Pi Apps.</h3>
+		  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">~/pi-apps/uninstall</span>
+		</code></pre></div></div>
+		  <div class="tooltip">
+		  <button class="button2" onclick="copyToClipboard('#p2')" onmouseout="outFunc()"><span class="tooltiptext" id="CopyTooltip2">Copy to clipboard</span></button>
+		</div>
+		
+		<p style="display: none;" id="p1">wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+		</p>
+		<p style="display: none;" id="p2">~/pi-apps/uninstall
+		</p>
+		<!-- Script for copy button -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script>
+		function copyToClipboard(element) {
+		  var $temp = $("<input>");
+		  $("body").append($temp);
+		  $temp.val($(element).text()).select();
+		  document.execCommand("copy");
+		  $temp.remove();
+		  var tooltip1 = document.getElementById("CopyTooltip1");
+		  var tooltip2 = document.getElementById("CopyTooltip2");
+		  var tooltip3 = document.getElementById("CopyTooltip3");
+		  tooltip1.innerHTML = "Copied!";
+		  tooltip2.innerHTML = "Copied!";
+		  tooltip3.innerHTML = "Copied!";
+		}
+		
+		function Copy(id) {
+		  if ( id == "1" ) {
+			var copyText1 = document.getElementById("CopyText1");
+			copyText1.select();
+			copyText1.setSelectionRange(0, 99999);
+			document.execCommand("copy");
+			var tooltip = document.getElementById("CopyTooltip1");
+			tooltip.innerHTML = "Copied!";
+			alert("Copied the text: " + copyText.value);
+		  } else if (id == "2") {
+			var copyText2 = document.getElementById("CopyText2");
+			copyText2.select();
+			copyText2.setSelectionRange(0, 99999);
+			document.execCommand("copy");
+			var tooltip = document.getElementById("CopyTooltip2");
+			tooltip.innerHTML = "Copied!";
+		  } else if (id == "2") {
+			var copyText3 = document.getElementById("CopyText3");
+			copyText3.select();
+			copyText3.setSelectionRange(0, 99999);
+			document.execCommand("copy");
+			var tooltip = document.getElementById("CopyTooltip3");
+			tooltip.innerHTML = "Copied!";
+		  }
+		}
+		
+		function outFunc() {
+		  var tooltip1 = document.getElementById("CopyTooltip1");
+		  var tooltip2 = document.getElementById("CopyTooltip2");
+		  var tooltip3 = document.getElementById("CopyTooltip3");
+		  tooltip1.innerHTML = "Copy to clipboard";
+		  tooltip2.innerHTML = "Copy to clipboard";
+		  tooltip3.innerHTML = "Copy to clipboard";
+		}
+		</script>
 	<div class="ribbon l-box-lrg pure-g">
 		<div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
 			<img class="pure-img-responsive" alt="File Icons" width="300" src="./assets/logo.png">
