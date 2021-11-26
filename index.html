@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="./stylesheets/grids-responsive-min.css">
 	<link rel="stylesheet" href="./stylesheets/extra.css">
 	<style>
-		.cliboard_btn {
+		.clipboard_btn {
 			padding: 16px 32px;
                 	margin: 4px 2px;
                 	box-sizing: border-box;
@@ -94,14 +94,14 @@
 		  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash</span>
 		</code></pre></div></div>
 		  <div class="tooltip">
-		  <button class="clipboard_btn" onclick="copyToClipboard('#p1')" onmouseout="outFunc()"><span class="tooltiptext" id="CopyTooltip1">Copy to clipboard</span></button>
+		  <button class="clipboard_btn" onclick="copyToClipboard('#p1')" onmouseout="outFunc()"><span class="tooltiptext" id="CopyTooltip1">Copy to clipboard</span></>
 		</div>
 		<h2 id="uninstalling">Uninstalling:</h2>
 		<h3 id="guide-to-uninstalling">To uninstall Pi-Apps, execute this command. It will not uninstall any apps installed using Pi Apps.</h3>
 		  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">~/pi-apps/uninstall</span>
 		</code></pre></div></div>
 		  <div class="tooltip">
-		  <button class="cliboard_btn" onclick="copyToClipboard('#p2')" onmouseout="outFunc()"><span class="tooltiptext" id="CopyTooltip2">Copy to clipboard</span></button>
+		  <button class="clipboard_btn" onclick="copyToClipboard('#p2')" onmouseout="outFunc()"><span class="tooltiptext" id="CopyTooltip2">Copy to clipboard</span></button>
 		</div>
 		
 		<p style="display: none;" id="p1">wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
