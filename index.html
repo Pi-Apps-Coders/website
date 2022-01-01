@@ -1,141 +1,142 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pi Apps</title>
-	<meta name="description" content='The most popular app store for Raspberry Pi computers. 100% open-source bash scripts (including the GUI).'>
-	<meta name="keywords" content="RaspberryPi, PiApps, Apps, Debian, Apt, APT, Raspbian, Pi, AppStore">
-	<link rel="icon" type="image/png" href="https://github.com/Botspot/pi-apps/blob/master/icons/logo.png?raw=true">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="./stylesheets/pure-min.css">
-	<link rel="stylesheet" href="./stylesheets/grids-responsive-min.css">
-	<link rel="stylesheet" href="./stylesheets/extra.min.css">
-	<style>
-		.clipboard_btn {
-			padding: 16px 32px;
-                	margin: 4px 2px;
-                	box-sizing: border-box;
-                	border: 2px solid gray;
-                	border-radius: 5px;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img src="https://pi-apps.io/assets/proglogo.png" alt="" class='img-fluid' width='150'>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style='color: white;'>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Install</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Support</a>
+              </li>                            
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Screenshots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Github</a>
+              </li>
+          </div>
+        </div>
+      </nav>
 
-<body>/
-	<div class="header">
-		<div class=" home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-			<a class="pure-menu-heading" href="index.html"><img style="max-height: 45px;" src="./assets/proglogo.png" alt="Pi-Apps Logo"/></a>
-			<ul class="header-links" style="position: relative;top: 10px;">
-			<li class="pure-menu-selected"><a href="#">Home</a></li>
-			<li><a href="https://github.com/Botspot/pi-apps#to-install-pi-apps">Install</a></li>
-			<li><a href="https://github.com/Botspot/pi-apps/issues/new/choose">Support</a></li>
-			<li><a href="screenshots.html">Screenshots</a></li>
-			<li><a href="https://docs.pi-apps.io">Docs</a></li>
-			<li><a href="https://github.com/Botspot/pi-apps">GitHub</a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="content">
-		<br>
-		<br>
-		<p align="center">
-			<img src="./assets/proglogo.png" alt="Pi-Apps logo">
-		</p>
-		<h3 class="content-head is-center">The Raspberry Pi App Store</h3>
-		<div class="pure-g">
-			<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-				<h3 class="content-subhead">
-					<i class="fa fa-users fa-2x"></i>
-					Simplicity
-					</h3>
-				<p>
-					Featuring an easy to use interface, you can install programs with a click of a button.
-				</p>
-			</div>
-			<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-				<h3 class="content-subhead">
-					<i class="fa fa-plus-circle fa-2x"></i>
-					100+ Apps and Counting
-					</h3>
-				<p>
-					Pi-Apps contains a wide selection of useful programs, such as Zoom, Minecraft Java, Firefox Rapid Release, and much more.
-				</p>
-			</div>
-			<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-				<h3 class="content-subhead">
-					<i class="fa fa-life-ring fa-2x"></i>
-					Community
-					</h3>
-				<p>
-					Pi-Apps has a great, supportive community, where you can get help if anything doesn't work like it should.
-				</p>
-			</div>
-			<div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-				<h3 class="content-subhead">
-				<i class="fa fa-tags fa-2x"></i>
-				Compatibility
-				</h3>
-				<p>
-					Pi-Apps is compatible with Debian-based operating systems for Raspberry Pies, like Raspberry Pi OS and Ubuntu.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="pure-u-1">
-		<img class="pure-img" src="./assets/main window.png">
-	</div>
-	<br></br>
-	<div class="is-center">
-		<h2 id="guide-to-installing">Installing:</h3>
-		<h3 id="installing">To install Pi-Apps, make sure you have an Internet connection and then run the following command in a terminal:
-		</h2>
-		  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash</span>
-		</code></pre></div></div>
-		  <div class="tooltip">
-		  <button class="clipboard_btn" onclick="copyToClipboard('p1')"><span class="tooltiptext" id="p1-tooltip">Copy to clipboard</span></>
-		</div>
-		<h2 id="uninstalling">Uninstalling:</h2>
-		<h3 id="guide-to-uninstalling">To uninstall Pi-Apps, execute this command. It will not uninstall any apps installed using Pi Apps.</h3>
-		  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">~/pi-apps/uninstall</span>
-		</code></pre></div></div>
-		  <div class="tooltip">
-		  <button class="clipboard_btn" onclick="copyToClipboard('p2')"><span class="tooltiptext" id="p2-tooltip">Copy to clipboard</span></button>
-		</div>
-		<!-- Script for copy button -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="./assets/copy.js"></script>
-	</div>
-	<br></br>
-	<div class="ribbon l-box-lrg pure-g">
-		<div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-			<img class="pure-img-responsive" alt="File Icons" width="300" src="./assets/logo.png">
-		</div>
-		<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-			<h2 class="content-head content-head-ribbon">Pi-Apps for Raspberry Pi</h2>
-			<hr>
-			<p>
-				The most popular app store for Raspberry Pi computers. 100% open-source bash scripts (including the GUI).
-			</p>
-			<div class="is-center">
-				<a href="https://github.com/Botspot/pi-apps#to-install-pi-apps" class="pure-button pure-button-primary"><i class="fa fa-download"> Install</i></a>
-				<!--<a href="https://github.com/Botspot/pi-apps" class="pure-button pure-button-primary"><i class="fa fa-smile-o"> Donate</i></a>-->
-				<a href="https://github.com/Botspot/pi-apps" target="_blank" class="pure-button pure-button-primary">
-					<i class="fa fa-github" aria-hidden="true"> GitHub</i></a>
-			</div>
-			<div class="is-center">
-				<a class="github-button" href="https://github.com/Botspot/pi-apps" data-icon="octicon-star" data-style="mega" data-count-href="/jamiemcg/remarkable/stargazers" data-count-api="/repos/Botspot/pi-apps#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star jamiemcg/remarkable on GitHub">Star</a>
-				
-				<a class="github-button" href="https://github.com/Botspot" data-style="mega" data-count-href="/Botspot/followers" data-count-api="/users/Botspot#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @Botspot on GitHub">Follow @Botspot</a>
-			</div>
-		</div>
-	</div>
-	<div class="footer l-box is-center">
-		<a class="my_link_ribbon" href="https://github.com/ryanfortner" target="_blank">Site maintained by Ryan Fortner</a> <script>document.write(new Date().getFullYear())</script> | <a class="my_link_ribbon" href="license.txt" target="_blank">License</a> |
-		<a class="my_link_ribbon" href="https://github.com/Botspot/pi-apps" target="_blank">GitHub</a>
-	</div>
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
+      <div class="container-fluid justify-content-center align-item-center py-3">
+          <div class="row justify-content-center">
+              <div class="col-6 text-center">
+                    <img src="./assets/proglogo.png" alt="" class='img-fluid'>
+                    <h6 class='py-3'>The most popular app store for Raspberry Pi computers. 100% open-source bash scripts (including the GUI).</h6>
+                </div>
+          </div>
+      </div>
+
+      <div class="container-fluid py-5">
+          <div class="row row-cols-2 row-cols-lg-4">
+              <div class="col mb-3">
+                <div class="card h-100" style="">
+                    <div class="card-body">
+                      <h5 class="card-title">Simplicity</h5>
+                      <p class="card-text">Featuring an easy to use interface, you can install programs with a click of a button.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col mb-3">
+                <div class="card h-100" >
+                    <div class="card-body">
+                      <h5 class="card-title">100+ Apps and Counting</h5>
+                      <p class="card-text">Pi-Apps contains a wide selection of useful programs, such as Zoom, Minecraft Java, Firefox Rapid Release, and much more.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Community</h5>
+                      <p class="card-text">Pi-Apps has a great, supportive community, where you can get help if anything doesn't work like it should.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" >
+                    <div class="card-body">
+                      <h5 class="card-title">Compatibility</h5>
+                      <p class="card-text">Pi-Apps is compatible with Debian-based operating systems for Raspberry Pies, like Raspberry Pi OS and Ubuntu.                    </p>
+                    </div>
+                  </div>
+              </div>                                          
+          </div>
+      </div>
+
+      <div class="container text-center pb-3 ">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-5 col-sm-10">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="assets/main window.png" class="d-block w-100 img-fluid custom-size" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="https://github.com/Botspot/pi-apps/raw/master/icons/screenshots/app%20list.png?raw=true" class="d-block w-100 img-fluid custom-size" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://github.com/Botspot/pi-apps/raw/master/icons/screenshots/updates%20available.png?raw=true" class="d-block w-100 img-fluid custom-size" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://github.com/Botspot/pi-apps/raw/master/icons/screenshots/settings.png?raw=true" class="d-block w-100 img-fluid custom-size" alt="...">
+                </div>                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class='custom-footer pb-3 mt-auto text-center'>
+        <div class="container py-3">
+            <hr style='color: aliceblue;'>
+            <div class="row align-baseline">
+                <div class="col-4" style="color: #6FBEF3;">
+                    <img src="assets/logo.png" alt="" width='30' height='30' class="d-inline-block">      
+                    PI-APPS FOR RASPBERRY PI
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4">
+                    
+				    <a class="github-button" href="https://github.com/Botspot/pi-apps" data-icon="octicon-star" data-style="mega" data-count-href="/jamiemcg/remarkable/stargazers" data-count-api="/repos/Botspot/pi-apps#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star jamiemcg/remarkable on GitHub">Star</a>
+				    <a class="github-button" href="https://github.com/Botspot" data-style="mega" data-count-href="/Botspot/followers" data-count-api="/users/Botspot#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @Botspot on GitHub">Follow @Botspot</a>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/custom.css">
+    <script src="assets/bootstrap.min.js"></script>
 </body>
-
 </html>

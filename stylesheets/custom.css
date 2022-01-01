@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #2d3e50;
+    
+}
+
+.navbar-dark .navbar-nav .show  > .nav-link, .navbar-dark .navbar-nav .nav-link.active {
+    color: #6FBEF3;
+ }
+
+ .card {
+    padding: 15px; /* JUST TO LOOK COOL */
+    border: 1px solid #eee;  /* JUST TO LOOK COOL */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+    transition: all .3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 19px 43px rgba(0, 0, 0, 0.22);
+    transform: translate3d(0px, -1px, 0px);
+}
+
+.custom-footer {
+    background-color: #2d3e50;
+}
+
+a {
+    color: white;
+}
+
+.img-fluid {
+    border-radius: 4%;
+}
+
+.custom-size {
+    height: 30em;
+}
