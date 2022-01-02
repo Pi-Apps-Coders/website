@@ -23,19 +23,39 @@
 </head>
 
 <body>
-	<div class="header">
-		<div class=" home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-			<a class="pure-menu-heading" href="index.html"><img style="max-height: 45px;" src="./assets/proglogo.png" alt="Pi-Apps Logo"/></a>
-			<ul class="header-links" style="position: relative;top: 10px;">
-		        <li><a href="index.html">Home</a></li>
-			<li><a href="https://github.com/Botspot/pi-apps#to-install-pi-apps">Install</a></li>
-			<li><a href="https://github.com/Botspot/pi-apps/issues/new/choose">Support</a></li>
-			<li class="pure-menu-selected"><a href="#">Screenshots</a></li>
-			<li><a href="https://docs.pi-apps.io">Docs</a></li>
-			<li><a href="https://github.com/Botspot/pi-apps">GitHub</a></li>
-			</ul>
-		</div>
-	</div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img src="https://pi-apps.io/assets/proglogo.png" alt="" class='img-fluid' width='150'>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="install.html">Install</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="support.html">Support</a>
+              </li>                            
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style='color: white;'>Screenshots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://docs.pi-apps.io">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://github.com/Botspot/pi-apps">Github</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+
 		<div class="content">
 			<br>
 			<h2 class="content-head is-center">Screenshots</h2>
@@ -86,10 +106,32 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer l-box is-center">
-		<a class="my_link_ribbon" href="https://github.com/ryanfortner" target="_blank">Site maintained by Ryan Fortner</a> <script>document.write(new Date().getFullYear())</script> | <a class="my_link_ribbon" href="license.txt" target="_blank">License</a> |
-		<a class="my_link_ribbon" href="https://github.com/Botspot/pi-apps" target="_blank">GitHub</a>
-	</div>
+
+
+	<footer class='custom-footer pb-3 mt-auto text-center'>
+        <div class="container py-3">
+            <hr style='color: aliceblue;'>
+            <div class="row align-baseline">
+                <div class="col-4" style="color: #6FBEF3;">
+                    <img src="assets/logo.png" alt="" width='30' height='30' class="d-inline-block">      
+                    PI-APPS FOR RASPBERRY PI
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4">
+              
+
+            
+				    <a class="github-button" href="https://github.com/Botspot/pi-apps" data-icon="octicon-star" data-style="mega" data-count-href="/jamiemcg/remarkable/stargazers" data-count-api="/repos/Botspot/pi-apps#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star jamiemcg/remarkable on GitHub">Star</a>
+				    <a class="github-button" href="https://github.com/Botspot" data-style="mega" data-count-href="/Botspot/followers" data-count-api="/users/Botspot#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @Botspot on GitHub">Follow @Botspot</a>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/custom.css">
+    <script src="assets/bootstrap.min.js"></script>
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 

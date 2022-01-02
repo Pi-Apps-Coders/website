@@ -28,9 +28,51 @@ a {
 }
 
 .img-fluid {
-    border-radius: 4%;
+    border-radius: 2%;
 }
 
 .custom-size {
-    height: 30em;
+    height: 35em;
+}
+
+
+.code {
+    background-color: #2d3e50;
+    padding: 0.5em;
+    border-radius: 15px;
+}
+
+code {
+    color: white;
+}
+
+.btn-copy {
+    background-color: #2d3e50;
+    border: 0.1em solid;
+    color: #ffffff;
+}
+
+.btn-copy-success{
+    background-color: white;
+    border: 0.1em solid;
+    color: green;
+}
+
+.btn-copy-success:hover{
+    background-color: white;
+    border: 0.1em solid;
+    color: green;
+}
+
+
+
+.btn-copy:hover {
+    background-color: white;
+    color: #2d3e50;
+    border: 0.1em solid;
+
+}
+
+.btn:focus {
+    box-shadow:0 0 0 0rem;
 }
