@@ -1,11 +1,5 @@
 # website
-The homepage for [Pi-Apps](https://pi-apps.io/)
-
-The [documentation page](https://docs.pi-apps.io) for Pi-Apps
-
-GitHub repository for [Pi-Apps](https://github.com/Botspot/pi-apps/)
-
-This repository is managed from [here](https://github.com/Pi-Apps-Coders/website).
+This website is the homepage for Pi-Apps: https://github.com/Botspot/pi-apps
 
 ### Credits
 This website wouldn't be possible without the following:
