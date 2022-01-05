@@ -76,3 +76,13 @@ code {
 .btn:focus {
     box-shadow:0 0 0 0rem;
 }
+
+.btn-submit {
+    background-color: #2d3e50;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #2c3742;
+    color: white;
+}
