@@ -86,3 +86,14 @@ code {
     background-color: #2c3742;
     color: white;
 }
+
+.carousel .item {
+    height: 300px;
+}
+  
+.item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+}
