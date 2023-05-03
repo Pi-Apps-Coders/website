@@ -1,0 +1,1183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>nav{padding:.5em;overflow:auto;display:flex;justify-content:center;background-color:var(--background);border-radius:0 0 1em 1em}.main-menu{padding:0;margin:0;display:flex;justify-content:center;flex-wrap:wrap}.links,.navbar{display:flex;align-items:center;justify-content:center;padding:0;flex-wrap:wrap}.social-links i{font-size:1.75em;margin:.25em;color:var(--primary-text)}.social-links i:hover{color:var(--link);cursor:pointer}.links .button{margin:.25em}.navbar{flex-direction:column}.navbar a{display:flex;align-items:center}.nav-item{display:inline-block;font-size:1.2em;margin:.5em}.nav-item a{color:var(--primary-text);text-decoration:none}.nav-item-active{font-weight:700;font-size:1.25em}.hero{position:relative;color:#fff;z-index:0}.hero-description{color:#fff}.hero-title{font-size:3em}header .container{flex-direction:column}header .links{flex-direction:column}@media (min-width:56em){nav{justify-content:space-between}.navbar{flex-direction:row}header .container{flex-direction:row}header .links{flex-direction:row}}code[class*=language-],pre[class*=language-]{font-size:14px;line-height:1.375;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;background:var(--code)}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#75715e}.token.punctuation{color:#f8f8f2}.token.namespace{opacity:.7}.token.boolean,.token.number,.token.operator{color:#fd971f}.token.property{color:#f4bf75}.token.tag{color:#66d9ef}.token.string{color:#a1efe4}.token.selector{color:#ae81ff}.token.attr-name{color:#fd971f}.language-css .token.string,.style .token.string,.token.entity,.token.url{color:#a1efe4}.token.attr-value,.token.control,.token.directive,.token.keyword,.token.unit{color:#a6e22e}.token.atrule,.token.regex,.token.statement{color:#a1efe4}.token.placeholder,.token.variable{color:#66d9ef}.token.deleted{text-decoration:line-through}.token.inserted{border-bottom:1px dotted #f9f8f5;text-decoration:none}.token.italic{font-style:italic}.token.bold,.token.important{font-weight:700}.token.important{color:#f92672}.token.entity{cursor:help}pre>code.highlight{outline:.4em solid #f92672;outline-offset:0.4em}@media (prefers-color-scheme:light){.token.punctuation{color:#cf222e}.token.boolean,.token.number,.token.operator{color:#c07016}.token.string{color:#0a338e}.language-css .token.string,.style .token.string,.token.entity,.token.url{color:#0a338e}.token.attr-value,.token.control,.token.directive,.token.keyword,.token.unit{color:#cf222e}.token.placeholder,.token.variable{color:#00afd2}}#userinput{width:100%;font-size:1.25em;padding:.2em .2em .2em .2em;border:.05em solid #ddd;margin-left:.2em;margin-bottom:.2em}.wiki-content h1,.wiki-content h2{border-bottom:2px solid var(--primary-text-muted)}.wiki-content,.wiki-content-thin,.wiki-toc,.wiki-toc-right,.wiki-toc-right-no-pad{margin-top:1em;overflow-wrap:break-word}.wiki-toc-right-no-pad ul{list-style-type:none;margin:0;padding-left:20px}.wiki-toc,.wiki-toc-right,.wiki-toc-right-no-pad{background-color:var(--accent);border-radius:1em;padding:1em;font-size:1rem;flex:1}.wiki-toc{overflow:hidden;height:min-content}.wiki-toc-right,.wiki-toc-right-no-pad{overflow:auto;height:calc(100vh - 1em - 4em - 1.25em)}.wiki-toc-right-no-pad{padding-left:0;padding-right:1em}.wiki-toc-list{display:flex;flex-wrap:wrap;justify-content:space-between;padding-left:0;padding-right:0;margin:0;list-style:none}.wiki-toc-list li{line-height:1.466666666667}.wiki-toc-list ul{padding:0 0 .75em 0;margin:0;list-style:none}.wiki-toc-list ul ul{padding-bottom:0;padding-left:.625rem}.wiki-toc-list ul ul>li:not(.wiki-toc-active)>ul>li:not(.wiki-toc-active){display:none}.wiki-toc-list a{padding:.15em .25em;display:block}.wiki-toc-list a:not(:hover){text-decoration:none}.wiki-toc-list li{margin:0;padding:0}.wiki-toc-list>li{flex-grow:1;flex-basis:14.375rem}.wiki-toc-list>li>a{color:var(--primary-text);font-weight:700;border-bottom:1px solid #ddd;margin-bottom:.25em}.wiki-toc-list li.wiki-toc-active>a{background-color:var(--accent)}.wiki-toc-list li.wiki-toc-active>ul,.wiki-toc-list ul.wiki-toc-active{display:block}.wiki-cat-list-active{font-weight:700}.inlinelist{padding:0}.inlinelist-no-nest ol,.inlinelist-no-nest ul{display:none}.wiki-tag{display:inline}.wiki-tag a{display:inline-flex;text-transform:uppercase;font-size:.75em;padding:.08333333333333em .3333333333333em;margin:.5em .5em .5em 0;color:var(--primary-text);border:1px solid var(--accent);border-radius:.25em;text-decoration:none;line-height:1.8}.wiki-tag:hover a{text-decoration:underline}.wiki-tag-active a{font-weight:700}@media (min-width:56em){.wiki-content{width:80%}.wiki-content-thin{width:60%}.wiki-toc,.wiki-toc-right,.wiki-toc-right-no-pad{position:sticky;top:-1px}.wiki-toc{margin-right:1em}.wiki-toc-right,.wiki-toc-right-no-pad{margin-left:1em}}.simple-install-content{margin-top:1em}.download-tab-list{list-style:none;display:flex;justify-content:flex-start;list-style:none;padding:0;margin-bottom:0;border-radius:1em 1em 0 0;background-color:var(--accent);flex-wrap:wrap;overflow:hidden}.download-tab-list li{flex-grow:1;display:block}.download-tab-list a{color:var(--primary-text);font-size:1.2em;text-decoration:none;display:flex;justify-content:center;padding:.75em .5em}.download-tab-list a:hover{background-color:var(--accent-light)}.download-tab-list i{color:var(--primary-text);font-size:1.2em;text-decoration:none;display:flex;justify-content:center;margin-right:.25em}.download-tab-active a{background-color:var(--background)}.download-content{background-color:var(--background);padding:1em;border-radius:0 0 1em 1em}.download-content .column div{width:100%}.download-content .button{width:100%;display:block;margin-bottom:1em;margin-left:0}@media (min-width:56em){.download-tab-list a{border-radius:1rem 1rem 0 0}.download-content .column div{width:80%}}.postlist{list-style:none;padding:0}.postlist-item{background-color:var(--background);border-radius:1em;padding:1em;display:flex;flex-wrap:wrap;align-items:baseline;counter-increment:start-from -1;line-height:1.8}.postlist :first-child{margin-top:0}.postlist{margin-top:0}.postlist-item:before{display:inline-block;pointer-events:none;content:"" counter(start-from,decimal-leading-zero) ". ";line-height:100%;text-align:right}.postlist-date,.postlist-item:before{font-size:.8125em;color:var(--darkgray)}.postlist-item:not(:first-child){margin-top:2em}.postlist-date{word-spacing:-0.5px}.postlist-link{font-size:1.2em;padding-left:.25em;padding-right:1em;text-underline-position:from-font;text-underline-offset:0;text-decoration-thickness:1px}.postlist-item-active .postlist-link{font-weight:500}.postlist-description{width:100%;border-left:var(--primary) .25em solid;padding:.5em;margin-top:.33em}.tmpl-home .postlist-link{font-size:1.1875em;font-weight:700}.post-tag{display:inline-flex;align-items:center;justify-content:center;text-transform:uppercase;font-size:.75em;padding:.08333333333333em .3333333333333em;margin-left:1em;color:var(--primary-text);border:1px solid var(--accent);border-radius:.25em;text-decoration:none;line-height:1.8}a.post-tag,a.post-tag:visited{color:inherit}a.post-tag:focus,a.post-tag:hover{background-color:var(--lightgray)}.postlist-item>.post-tag{align-self:center}.user-list{display:flex;flex-wrap:wrap;align-content:space-around;list-style:none;padding:0}.user-info{position:relative;margin:.5em;width:5em;border-radius:1em;overflow:hidden;background-color:var(--background);text-decoration:none;color:var(--primary-text);max-height:5em}.user-contrib{width:3em;background-color:var(--accent)}.user-contrib:hover{border:.2em solid var(--primary)}.user-info img{display:block;width:100%;height:auto}.user-name{color:#fff;font-size:.8em;overflow-wrap:anywhere;padding:.5em;text-align:center}.user-info-overlay{position:absolute;display:flex;align-items:center;justify-content:center;top:0;bottom:0;left:0;right:0;opacity:0;transition:.3s ease;background-color:var(--primary)}.user-info:hover .user-info-overlay{opacity:1}:root{--primary-text:#fff;--primary-text-muted:#aaa;--grad-primary:#df6277ff;--background:#15181c;--accent:#21242b;--accent-light:#313540;--code:#313540;--disabled:#666;--primary:hsl(350, 56%, 50%);--link:hsl(214, 46%, 52%);--info:hsl(274, 32%, 42%);--success:hsl(145, 27%, 59%);--warn:hsl(49, 85%, 69%);--danger:hsl(17, 95%, 70%);--primary-dark:hsl(350, 56%, 50%);--link-dark:hsl(214, 46%, 42%);--info-dark:hsl(274, 32%, 32%);--success-dark:hsl(145, 27%, 49%);--warn-dark:hsl(49, 85%, 60%);--danger-dark:hsl(17, 95%, 65%);--primary-light:hsl(350, 66%, 70%);--link-light:hsl(214, 46%, 67%);--info-light:hsl(274, 32%, 56%);--success-light:hsl(145, 27%, 67%);--warn-light:hsl(49, 85%, 79%);--danger-light:hsl(17, 95%, 80%);background-color:var(--background);color-scheme:dark}@media (prefers-color-scheme:light){:root{--code:#F6F8FA;--primary-text:#333;--primary-text-muted:#666;--background:#ffffff;--accent:#e0e0e0;--accent-light:#d0d0d0;background-color:var(--background);color-scheme:light}}*{box-sizing:border-box}body,html{padding:0;margin:0;font-family:Inter,-apple-system,system-ui,sans-serif;color:var(--primary-text)}.bg{height:100vh;width:100vw;position:fixed;background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('/img/background/fruit.jpg');background-position:center;background-repeat:no-repeat;background-size:cover}*{box-sizing:border-box}p:last-child{margin-bottom:0}.tmpl-post li,iframe,img,p{max-width:min(100%)}.tmpl-post li,p{line-height:1.45}a{color:var(--link)}table{margin:1em 0}table td,table th{padding-right:1em}blockquote{border-left:var(--primary) .25em solid;padding:.5em;margin:0}code{font-family:Consolas,Menlo,Monaco,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L","Courier New",Courier,monospace;line-height:1.5}pre{border-radius:1em}:not(pre)>code{border-radius:.15em}.top{margin-top:1em}pre{font-size:14px;line-height:1.375;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;padding:1em;margin:.5em 0;background-color:var(--code);color:#fff;overflow:auto}code{word-break:break-all;color:#f8f8f2;background-color:var(--code)}:not(pre)>code{background-color:#afb8C133;padding:.18em}@media (prefers-color-scheme:light){code{color:#1f2328}}.highlight-line{display:block;padding:.125em 1em;text-decoration:none;color:inherit}.highlight-line:empty:before{content:" "}.highlight-line+br{display:none}.highlight-line-isdir{color:#b00808;background-color:#222}.highlight-line-active{background-color:#444;background-color:hsla(0,0%,27%,.8)}.highlight-line-add{background-color:#45844b}.highlight-line-remove{background-color:#902f2f}.container{max-width:120em;margin:0 auto;position:relative}.content{background-color:var(--background);border-radius:1em;padding:1em}.center{text-align:center;margin:auto}.infobox{background-color:var(--accent);padding:1em;border-radius:1em}.button{display:inline-block;border:none;position:relative;color:#fff;padding:.5em 1.5em;list-style:none;font-size:1.2em;font-family:Inter,sans-serif;font-weight:600;text-decoration:none;background-color:var(--primary);border-radius:.365em;transition:.2s ease;background-position-x:100%;cursor:pointer}.button[disabled]{opacity:.5;pointer-events:none}.button:hover{background-color:var(--primary-dark)}.button.type-link{background-color:var(--link)}.button.type-link:hover{background-color:var(--link-dark)}.button.type-info{background-color:var(--info)}.button.type-info:hover{background-color:var(--info-dark)}.button.type-success{background-color:var(--success)}.button.type-success:hover{background-color:var(--success-dark)}.button.type-warn{background-color:var(--warn);color:#000}.button.type-warn:hover{background-color:var(--warn-dark);color:#000}.button.type-danger{background-color:var(--danger)}.button.type-danger:hover{background-color:var(--danger-dark)}.button.size-large{font-size:1.5em}.button.size-small{font-size:1em}.direct-link{text-decoration:none;font-style:normal;margin-left:.1em}a.direct-link,a.direct-link:visited{color:transparent}:hover>a.direct-link,:hover>a.direct-link:visited,a.direct-link:focus,a.direct-link:focus:visited{color:#aaa}.download-links{padding:0}.download-links li{display:inline;margin:.25em}.row{display:flex;flex-direction:column}.column{display:flex;align-items:center;justify-content:center;padding:1em;text-align:center}.column img{height:auto}.subtitle{font-size:1.5em;text-align:center}.cards{display:flex;flex-wrap:wrap;flex-direction:column;gap:1em}.card{flex:1;padding:1em;text-align:center;background-color:var(--accent)}.card .button{width:100%;margin:0}.notification{border-radius:1em;position:relative;padding:1.25rem 2.5rem 1.25rem 1.5rem;margin-bottom:1em;color:#fff}.notification.type-primary{background-color:var(--primary)}.notification.type-link{background-color:var(--link)}.notification.type-info{background-color:var(--info)}.notification.type-success{background-color:var(--success)}.notification.type-warn{background-color:var(--warn);color:#000}.notification.type-danger{background-color:var(--danger)}.footer{text-align:center;padding:2em;color:#fff}@media (min-width:56em){.row{flex-direction:row}.row-reverse{flex-direction:row-reverse}.column{flex:50%}.wiki-content{padding-left:1em}.cards{flex-direction:row;justify-content:space-between}.card{align-self:flex-start}}</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi-Apps - Documentation</title>
+    <meta name="description" content="Raspberry Pi App Store for Open Source Projects.">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Pi-Apps">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Pi-Apps">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/inter/index.css">
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/inter/600.css">
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/inter/700.css">
+    <link rel="stylesheet" href="/assets/forkawesome/css/fork-awesome.min.css">
+    <!-- incredibly based web app to make mod lists at https://moddermore.vercel.app -->
+  </head>
+  <body>
+    <header>
+  <div class="bg"></div>
+  <nav class="container">
+    <div class="navbar">
+      <a class="home" href="/" aria-label="Pi-Apps">
+        <picture>
+          <source srcset="/img/proglogo-white-noglow-64.png 1x, /img/proglogo-white-noglow-128.png 2x, /img/proglogo-white-noglow-256.png 3x" media="(prefers-color-scheme: dark)">
+          <source srcset="/img/proglogo-black-noglow-64.png 1x, /img/proglogo-black-noglow-128.png 2x, /img/proglogo-black-noglow-256.png 3x" media="(prefers-color-scheme: light)">
+          <img src="/img/proglogo-white-noglow-256.png" alt="Pi-Apps logo" style="height: 4em" />
+        </picture>
+      </a>
+      <ul class="main-menu">
+        <li class="nav-item">
+          <a href="/about/">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="/wiki/">Wiki</a>
+        </li>
+        <li class="nav-item">
+          <a href="/wiki/getting-started/apps-list/">Apps List</a>
+        </li>
+        <li class="nav-item">
+          <a href="/#get-involved">Community</a>
+        </li>
+      </ul>
+    </div>
+    <div class="links">
+      <div class="social-links">
+        <a href="https://discord.gg/RXSTvaUvuu" target="_blank" aria-label="Discord"><i class="fa fa-discord"></i></a>
+        <a href="https://github.com/Botspot/pi-apps" target="_blank" aria-label="GitHub"><i class="fa fa-github"></i></a>
+      </div>
+      <div>
+        <a class="button" href="/install/">Install</a>
+      </div>
+    </div>
+  </nav>
+
+  
+</header>
+
+
+<main class="container tmpl-wiki">
+  <div class="row row-reverse">
+  <div class="wiki-content content">
+    <h1 id="inside-pi-apps:-everything-a-power-user-should-know" tabindex="-1">Inside Pi-Apps: everything a power-user should know <a class="direct-link" href="#inside-pi-apps:-everything-a-power-user-should-know" aria-hidden="true">#</a></h1>
+<p>This guide will attempt to explain how Pi-Apps works. By nature, this cannot be complete, so feel free to look through the scripts yourself and ask the Pi-Apps developers questions.</p>
+<p><div class="table-of-contents"><ul><li><a href="#introduction">Introduction </a></li><li><a href="#the-app-folder">The app-folder </a></li><li><a href="#the-main-pi-apps-folder">The main Pi-Apps folder </a></li><li><a href="#the-app-status-folder">The App Status folder </a></li><li><a href="#the-manage-script">The manage script </a></li><li><a href="#the-updater-script">The updater script </a></li><li><a href="#the-api-script">The api script </a></li><li><a href="#the-gui-script">The gui script </a></li><li><a href="#the-createapp-script">The createapp script </a></li><li><a href="#the-settings-script">The settings script </a></li><li><a href="#the-preload-script">The preload script </a></li><li><a href="#the-preload-daemon-script">The preload-daemon script </a></li><li><a href="#the-terminal-run-script">The terminal-run script </a></li><li><a href="#the-categoryedit-script">The categoryedit script </a></li><li><a href="#the-logviewer-script">The logviewer script </a></li><li><a href="#the-viewlog-script">The viewlog script </a></li><li><a href="#automatic-app-updaters">Automatic App Updaters </a></li></ul></div></p>
+<h2 id="introduction" tabindex="-1">Introduction <a class="direct-link" href="#introduction" aria-hidden="true">#</a></h2>
+<ul>
+<li>Pi-Apps is written in <strong><code>bash</code></strong>. This is a scripting language for Linux, with origins in the 80s. Bash is not a compiled language like C, it's an interpreted language, similar to Python and Windows .bat files.<br>
+Bash serves a different purpose than a compiled language: orchestrating OS-level events and prioritizing programming-time over execution-time. It is system-dependent and architecture-dependent.<br>
+You probably interact with <code>bash</code> without even realizing it! Nearly all Linux distributions today use a <strong>bash terminal</strong>. <em>If you have ever opened a terminal, you have interacted with bash.</em></li>
+<li>Pi-Apps is comprised of <strong>bash scripts</strong>. These are text files that are filled with bash commands. To illustrate this, you can often <em>open</em> a bash script, <em>copy</em> the contents, and <em>paste</em> it into a bash terminal. And it will work exactly the same as if you executed the file! In fact, if Pi-Apps was reorganized into a single standalone bash script, you could <em>copy and paste the entire thing</em> into a terminal and have a working app store!</li>
+<li>If Pi-Apps is only bash scripts, <strong>how does it display a GUI</strong>? (graphical user interface) Good question. When Pi-Apps was just a concept, I knew that bash was the obvious choice for installing apps. And that makes sense: if you normally install an application by running commands in a <em>bash-terminal</em>, it only makes sense to use a <em>bash-script</em>.<br>
+Bash was the best choice for installing apps, but what about the GUI? Most GUIs are made in C, C++, Python or JavaScript with GTK, Qt, or Electron. These were workable options, but for long-term maintainability and convenience I wanted to only use <strong>one language for the whole thing</strong>. Someone suggested <code>zenity</code> - a simple dialog program meant for bash scripts. I tried it, but was soon frustrated by its limitations. Then I discovered <strong><code>yad</code></strong> - an improved version of zenity with many more options. Pi-Apps uses <code>yad</code> for everything.</li>
+</ul>
+<h2 id="the-app-folder" tabindex="-1">The app-folder <a class="direct-link" href="#the-app-folder" aria-hidden="true">#</a></h2>
+<p>It makes sense to start here. After all, what is an app store without apps?<br>
+Basically, for every app, there is a <strong>folder</strong>. This folder is called an &quot;<strong>app-folder</strong>&quot;. On a default pi-apps installation, all app-folders are located in <code>/home/pi/pi-apps/apps</code>.<br>
+The folder's name is the app's name. The Arduino app is a folder located at <code>apps/Arduino</code>.<br>
+There are a few files in each app-folder:</p>
+<ul>
+<li><code>install</code> - This is a bash script to install the app.
+<ul>
+<li>Naming the script &quot;install&quot; indicates that it is compatible with 32-bit and 64-bit CPU architectures.</li>
+<li>All apps have access to the <code>arch</code> variable that contains <code>64</code> (for arm64) or <code>32</code> (for armhf) if per-architecure changes are necessary.</li>
+</ul>
+</li>
+<li><code>install-32</code> - This is a bash script to install the app on 32-bit operating systems.
+<ul>
+<li>Naming the script &quot;install-32&quot; indicates that it is designed for the 32-bit CPU architecture only.</li>
+<li>If no &quot;install-64&quot; script exists, <strong>then this app will only be displayed on 32-bit systems.</strong></li>
+</ul>
+</li>
+<li><code>install-64</code> - This is a bash script to install the app on 64-bit operating systems.
+<ul>
+<li>Naming the script &quot;install-64&quot; indicates that it is designed for the 64-bit CPU architecture only.</li>
+<li>If no &quot;install-32&quot; script exists, then <strong>this app will only be displayed on 64-bit systems.</strong></li>
+</ul>
+</li>
+<li><code>uninstall</code> - This script uninstalls the app.
+<ul>
+<li>It must undo all changes made during install, but with one exception: <strong>It must not permanently delete any user-generated config!</strong> <a href="https://github.com/Botspot/pi-apps/issues/44">We don't want people's Minecraft worlds being deleted during an update.</a></li>
+</ul>
+</li>
+<li><code>icon-24.png</code> - This is a 24x24 pixel icon that is displayed in the app list.</li>
+<li><code>icon-64.png</code> - This is a 64x64 pixel icon that is displayed in the Details page.</li>
+<li><code>description</code> - This is a text file to explain what the app is, how it works, and why anybody would want it.
+<ul>
+<li>The first line of this file is used as the <strong>tooltip</strong> (mouse hover-text) in the list of apps.</li>
+</ul>
+</li>
+<li><code>credits</code> - Contains credits for the app. This file may mention who created the app originally, who compiled it, who submitted it to Pi-Apps, etc. Few apps use this file.</li>
+<li><code>website</code> - This is a text file containing the website URL of a given project.
+<ul>
+<li>Usually it points to a website where users can learn more about the app.</li>
+</ul>
+</li>
+</ul>
+<h2 id="the-main-pi-apps-folder" tabindex="-1">The main Pi-Apps folder <a class="direct-link" href="#the-main-pi-apps-folder" aria-hidden="true">#</a></h2>
+<p>The Pi-Apps folder contains several main subfolders. These folders have special characteristics and are treated differently during updates.</p>
+<ul>
+<li>The <code>data</code> folder and <code>logs</code> folder contain files that should <em><strong>never be updated</strong></em>. They contains settings, cached files, app-status files, log files, etc.</li>
+<li>The <code>apps</code> folder contains apps. During an update it this folder is handled differently too.</li>
+<li>Other folders like <code>icons</code> and <code>etc</code> are handled the same as individual files in the main pi-apps folder.</li>
+</ul>
+<h2 id="the-app-status-folder" tabindex="-1">The App Status folder <a class="direct-link" href="#the-app-status-folder" aria-hidden="true">#</a></h2>
+<p>Pi-Apps keeps track of each app's status: installed or uninstalled. (as well as a few other possible values)<br>
+Each app's status is located in the <code>data/status</code> folder.<br>
+For example, on a default Pi-Apps installation, the status file for <strong>arduino</strong> is located at: <code>/home/pi/pi-apps/data/status/Arduino</code>.<br>
+Each file in this folder will contain one of these possible values:</p>
+<ul>
+<li><code>installed</code> - The app is currently installed.</li>
+<li><code>uninstalled</code> - The app is currently uninstalled.</li>
+<li><code>corrupted</code> - The app failed to install/uninstall.</li>
+<li><code>disabled</code> - The app is in a disabled state: it will not be installed under any circumstances.
+<ul>
+<li>This status is useful for TwisterOS where Box86 comes pre-installed. We don't want Pi-Apps installing Box86 under any circumstances, even if another app requires it to be installed.</li>
+</ul>
+</li>
+</ul>
+<p>As mentioned earlier, Pi-Apps runs on bash scripts. Each script has a certain job to do, and together they make Pi-Apps work.<br>
+Below is a concise explanation for how each script works:</p>
+<h2 id="the-manage-script" tabindex="-1">The <code>manage</code> script <a class="direct-link" href="#the-manage-script" aria-hidden="true">#</a></h2>
+<h4 id="location:" tabindex="-1">Location: <a class="direct-link" href="#location:" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/manage</code>.</p>
+<h4 id="purpose:" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:" aria-hidden="true">#</a></h4>
+<p>The <code>manage</code> script will install apps, uninstall apps, and update apps. It can be compared to the <code>apt</code> tool on Debian Linux.</p>
+<h4 id="usage:" tabindex="-1">Usage: <a class="direct-link" href="#usage:" aria-hidden="true">#</a></h4>
+<p>The manage script won't do much if you run it standalone:</p>
+<pre class="language-bash"><code class="language-bash">$ ~/pi-apps/manage</code></pre>
+<p>You need to specify an operation, and in most cases, which app to operate on.<br>
+You need to tell the <code>manage</code> script to <em>do</em> something.</p>
+<pre class="language-bash"><code class="language-bash">$ ~/pi-apps/manage <span class="token function">install</span> Arduino</code></pre>
+<p>Now we're getting somewhere! You just installed the Arduino app.<br>
+The <code>manage</code> script supports these <strong>modes</strong>:</p>
+<ul>
+<li><code>install</code>: installs the specified app.<br>
+Several things occur before the app's installation script is run:
+<ul>
+<li>The specified app must exist.</li>
+<li>The app must not be disabled. If it is, the <code>manage</code> script exits with an exit-code of zero.</li>
+<li>If your system is unsupported (determined by the <code>is_supported_system</code> function in the api script), a warning will appear, along with a 10-second wait-time.</li>
+<li>The app's installation script is determined. Depending on the app and on your system's CPU architecture, the script-name may be &quot;<code>install</code>&quot;, &quot;<code>install-32</code>&quot;, or &quot;<code>install-64</code>&quot;.</li>
+<li>Determine a unique filename for the log-file to be generated. (This file will store the entire output of the installation process.)</li>
+<li>Finally, the app's installation script is executed.
+<ul>
+<li>It is executed with the <code>nice</code> command, to lower the priority of the process so that the rest of the system remains responsive, even while compiling.</li>
+<li>Its output is redirected to the log-file, <em>and</em> to stdout. (usually the terminal)</li>
+</ul>
+</li>
+<li>If the app's installation script <strong>succeeded</strong> (if it exited with a exit status of <code>0</code>):
+<ul>
+<li>The the log-file is renamed to <code>install-success-$app</code></li>
+<li>The <code>manage</code> script exits with a exit status of <code>0</code>.</li>
+</ul>
+</li>
+<li>However, if the app's installation script failed (any exit status except <code>0</code>):
+<ul>
+<li>The the log-file will be renamed to <code>install-fail-$app</code>.</li>
+<li>The <code>manage</code> script exits with a exit status of <code>1</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>uninstall</code>: exactly like the <code>install</code> mode except that it uninstalls the specified app.
+<ul>
+<li>These two modes are so similar that they share the same code!</li>
+</ul>
+</li>
+<li><code>install-if-not-installed</code>: Installs the specified app, only if it has not already been installed.
+<ul>
+<li>This mode is especially useful for apps that <strong>need another app to be installed first</strong>.<br>
+For example, the <strong><code>Wine (x86)</code></strong> app requires Box86. It accomplishes that with this command:</li>
+</ul>
+<pre class="language-bash"><code class="language-bash"><span class="token string">"<span class="token variable">${DIRECTORY}</span>/manage"</span> install-if-not-installed Box86 <span class="token operator">||</span> error <span class="token string">"Box86 failed to install somehow!"</span></code></pre>
+</li>
+<li><code>multi-install</code>: installs multiple apps, one at a time. How to specify multiple apps? By using a <em><strong>multi-line argument</strong></em>, like this:<pre class="language-bash"><code class="language-bash">$ ~/pi-apps/manage multi-install <span class="token string">"Arduino
+BalenaEtcher
+CloudBuddy
+Downgrade Chromium"</span></code></pre>
+Note about <code>multi-install</code>: This mode includes<br>
+elements.
+<ul>
+<li>Before installing anything, <code>manage</code> will check if any apps are <strong>already installed</strong>. If so, a <code>yad</code> dialog will appear and ask if you <em>really</em> want to install that app again.
+<ul>
+<li>If you choose &quot;No&quot;, the app is removed from the list of apps to install.</li>
+</ul>
+</li>
+<li>Then, each app will be installed, one at a time.
+<ul>
+<li>It does this by running the manage script in the <code>install</code> mode, once for each app</li>
+</ul>
+</li>
+<li>If any apps fail to install, a <code>yad</code> dialog will appear and ask permission to send the error log to Pi-Apps developers.</li>
+</ul>
+</li>
+<li><code>multi-uninstall</code>: exactly like <code>multi-install</code> except that it uninstalls the list of apps.
+<ul>
+<li>These two modes are so similar that they share the same code!</li>
+</ul>
+</li>
+<li><code>check-all</code>: This mode is the Pi-Apps equivalent to an <code>apt update</code>. It lists updatable apps.
+<ul>
+<li>It downloads the latest pi-apps repository to the <code>update/pi-apps</code> folder. (using <code>git clone</code> or <code>git pull</code>, as appropriate) Now, there are two versions of Pi-Apps on the local filesystem: the &quot;<strong>local version</strong>&quot; and the &quot;<strong>latest version</strong>&quot;.</li>
+<li>Each app-folder is compared.
+<ul>
+<li>If the app-folder <em><strong>only</strong></em> exists in the local version, then no action is taken.</li>
+<li>If the app-folder <em><strong>only</strong></em> exists in the online version, then it must be a new app and is added to the list of updatable apps.</li>
+<li>If the app-folder exists in both locations and the <strong>contents do match</strong>, then no action is taken.</li>
+<li>If the app-folder exists in both locations but the <strong>contents don't match</strong>, the online version must have received an update. As a result, the app is added to the list of updatable apps.</li>
+</ul>
+</li>
+<li>Finally, the list of updatable apps (one app per line) is written to standard output and the script exits.</li>
+</ul>
+</li>
+<li><code>update</code>: This mode will update a single app. (like an <code>apt upgrade</code>)<br>
+It copies the new version from the update folder to the main folder, reinstalling if necessary.
+<ul>
+<li>First, the app may need to be installed, or it may not:
+<ul>
+<li>If the app is currently installed, <em>and</em> its current installation script does not match the online version, then the app is uninstalled.</li>
+</ul>
+</li>
+<li>Then the current (old) app-folder is sent to the system's <strong>Trash</strong> folder.
+<ul>
+<li>This is a failsafe: just in case you made changes to the app-folder, you have an option to restore those changes. (as opposed to permanent deletion)</li>
+</ul>
+</li>
+<li>The app-folder is copied from the <code>update/pi-apps/apps</code> folder to the main <code>apps</code> folder.</li>
+<li>If the app was uninstalled earlier, it will now be installed back.</li>
+</ul>
+</li>
+<li><code>update-all</code>: This mode will check for app-updates and install them without any user-interaction.<br>
+The <code>manage</code> script will run itself in the <code>check-all</code> mode, then, for every app that <code>check-all</code> mentioned, it will <code>update</code> each app.</li>
+</ul>
+<h2 id="the-updater-script" tabindex="-1">The <code>updater</code> script <a class="direct-link" href="#the-updater-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-1" tabindex="-1">Location: <a class="direct-link" href="#location:-1" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/updater</code>.</p>
+<h4 id="purpose:-1" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-1" aria-hidden="true">#</a></h4>
+<p>This script handles Pi-Apps updates, both for apps and for files. Apps do not have version numbers, so updating involves comparing the installation-script of the existing app-folder with the installation-script of the new app-folder.</p>
+<h4 id="usage:-1" tabindex="-1">Usage: <a class="direct-link" href="#usage:-1" aria-hidden="true">#</a></h4>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/updater gui</code></pre>
+<p>This will check for updatable apps and files, then will display them in a graphical list, (using <code>yad</code> of course), and will give you the option to update certain items and not others.<br>
+But that's not all you can do with this script. The <code>updater</code> script supports multiple <strong>modes</strong>, useful for a variety of situations:</p>
+<ul>
+<li><code>gui</code> - Check for updates and list them graphically.
+<ul>
+<li>This is the <strong>default mode</strong> if you did not specify one.</li>
+<li>If you choose to update anything, a <strong>terminal</strong> will appear to update apps.</li>
+</ul>
+</li>
+<li><code>gui-yes</code> - Exactly the same as the <code>gui</code> mode, except that the updates are automatically applied in a terminal.</li>
+<li><code>autostarted</code> or <code>onboot</code> - This mode is intended to be <strong>run on boot</strong>.
+<ul>
+<li>First, determine if the <strong>update-interval</strong> setting allows an update-check today.
+<ul>
+<li>If not, the script exits.</li>
+</ul>
+</li>
+<li>Then, make sure that <strong>at least one app has been installed</strong>.
+<ul>
+<li>This is accomplished by checking if there are any files in the <code>data/status</code> folder.<br>
+A fresh installation of Pi-Apps will not have any files in that folder, because no apps have been installed yet.</li>
+<li>If there are no files in that folder, the script will exit.</li>
+</ul>
+</li>
+<li>After that, assuming there are updates available, display a <strong>notification</strong> in the lower-right corner of the screen.
+<ul>
+<li>This notification is designed to not interfere with <strong>typing</strong>.</li>
+</ul>
+</li>
+<li>If you click <strong>Details</strong>, you will see the graphical list of updates, just like with the <code>gui</code> mode.</li>
+<li>Once updates are complete, another notification will appear to say &quot;Pi-Apps updates complete.&quot;</li>
+</ul>
+</li>
+<li><code>cli</code> - This mode is intended to be run in a <strong>terminal</strong>. It checks for updates, lists the updates, and prompts for a Y/N answer.</li>
+<li><code>cli-yes</code> - Check for updates, then <strong>automatically apply</strong> them all.</li>
+<li><code>set-status</code> - <strong>Check for updates</strong> and then exit.
+<ul>
+<li>The list of updatable <strong>apps</strong> is written to <code>&quot;${DIRECTORY}/data/update-status/updatable-apps&quot;</code>, with the DIRECTORY variable being the location of your Pi-Apps folder. (default: <code>/home/pi/pi-apps</code>)</li>
+<li>The list of updatable <strong>files</strong> is written to <code>&quot;${DIRECTORY}/data/update-status/updatable-files&quot;</code>.</li>
+<li>The script will exit with code <code>0</code> if updates are available, otherwise <code>1</code>.</li>
+</ul>
+</li>
+<li><code>get-status</code> - Check if an <strong>update <em>was</em> available</strong> the last time <code>set-status</code> was run.
+<ul>
+<li>This is based on the <strong>length</strong> of the <code>updatable-files</code> and <code>updatable-apps</code> files.</li>
+<li>Doing it this way allows for an <strong>instant</strong> update-check - necessary for a gui to run quickly. Nobody wants to wait for an update-check to finish before Pi-Apps will launch.</li>
+<li>The script will exit with code <code>0</code> if updates are available, otherwise <code>1</code>.</li>
+</ul>
+</li>
+</ul>
+<p>Updater also supports a <strong>fast mode</strong>. This is necessary for the Pi-Apps GUI, where you don't want to wait a few seconds after clicking the &quot;Updates&quot; category. Using the fast mode will rely on the previous update-check. It won't check for updates, it will simply display them.<br>
+To use the fast mode:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/updater gui fast</code></pre>
+<h2 id="the-api-script" tabindex="-1">The <code>api</code> script <a class="direct-link" href="#the-api-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-2" tabindex="-1">Location: <a class="direct-link" href="#location:-2" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/api</code>.</p>
+<h4 id="purpose:-2" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-2" aria-hidden="true">#</a></h4>
+<p>This script is a collection of <strong>functions</strong> that do various things. Functions are small chunks of bash-code that can be run like a normal command.</p>
+<h4 id="usage:-2" tabindex="-1">Usage: <a class="direct-link" href="#usage:-2" aria-hidden="true">#</a></h4>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">source</span> ~/pi-apps/api</code></pre>
+<p>You can now run any of the functions inside the api script as if they were real commands.<br>
+Alternatively, the <code>api</code> script supports running a single function <em>without</em> being sourced:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/api apt_lock_wait</code></pre>
+<h4 id="list-of-functions:" tabindex="-1">List of functions: <a class="direct-link" href="#list-of-functions:" aria-hidden="true">#</a></h4>
+<p>Note: new functions are added often. If you don't see a function on this list but do see it in the api, please let us know.</p>
+<ul>
+<li><code>error</code> - display a custom message in red and exit with an exit status of <code>1</code>.<br>
+Usage:<pre class="language-bash"><code class="language-bash">error <span class="token string">"The command 'sudo apt update' failed!"</span></code></pre>
+This is often seen at the end of a command with the <code>||</code> operator:<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> update <span class="token operator">||</span> error <span class="token string">"The command 'sudo apt update' failed!"</span></code></pre>
+</li>
+<li><code>warning</code> - Display a custom message in yellow and prefix it with &quot;WARNING: &quot;.
+<ul>
+<li>Useful for everything where something is wrong but it's not a fatal error.</li>
+<li>This function outputs to <code>stderr</code>.</li>
+</ul>
+</li>
+<li><code>status</code> - Display a custom message in light-blue.
+<ul>
+<li>Used by scripts to indicate current status, like &quot;Downloading...&quot;, &quot;Extracting...&quot;, and &quot;Please wait.&quot;</li>
+<li>This function outputs to <code>stderr</code>.</li>
+<li>Some scripts don't want the ending newline, so this function allows for flags to be passed to the <code>echo</code> command.</li>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">status <span class="token parameter variable">-n</span> <span class="token string">"Downloading... "</span></code></pre>
+</li>
+</ul>
+</li>
+<li><code>status_green</code> - Display a custom message in green.
+<ul>
+<li>Used by scripts to indicate the success of an action, like &quot;Installed FreeCAD successfully&quot;, &quot;Update complete&quot;, and &quot;All packages have been purged successfully.&quot;</li>
+<li>This function outputs to <code>stderr</code>.</li>
+</ul>
+</li>
+<li><code>generate_logo</code> - Displays the Pi-Apps logo in a terminal.
+<ul>
+<li>Note: Some keen users may notice that the logo looks different on Debian <em><strong>Bullseye</strong></em> than on older releases. This is necessary to avoid trying to display missing characters. See: <a href="https://github.com/Botspot/pi-apps/issues/1441">https://github.com/Botspot/pi-apps/issues/1441</a></li>
+</ul>
+</li>
+<li><code>add_english</code> - Ensures an English locale is installed so that log-diagnosing tools can function properly.
+<ul>
+<li>This was added in <a href="https://github.com/Botspot/pi-apps/pull/1031">PR #1031</a></li>
+</ul>
+</li>
+</ul>
+<p>Apt/dpkg/package functions below.</p>
+<ul>
+<li><code>package_info</code> - List everything <code>dpkg</code> knows about the specified package.
+<ul>
+<li>This retrieves a block of text from the <code>/var/lib/dpkg/status</code> file.</li>
+<li>This only works if the package is currently installed.</li>
+</ul>
+</li>
+<li><code>package_installed</code> - determine if the specified package is installed.
+<ul>
+<li>Returns an exit code of <code>0</code> if the package is installed, otherwise it returns <code>1</code>.</li>
+</ul>
+</li>
+<li><code>package_available</code> - determine if the specified package is able to be installed with <code>apt</code>.
+<ul>
+<li>This uses <code>grep</code> to search the <code>/var/lib/apt/lists/</code> folder.</li>
+<li>Returns an exit code of <code>0</code> if the package was found, otherwise it returns <code>1</code>.</li>
+</ul>
+</li>
+<li><code>package_dependencies</code> - List the dependencies of a package
+<ul>
+<li>This simply isolates a line from the output of the <code>package_info</code> function.</li>
+<li>This is <em>much</em> faster than doing an <code>apt-cache search</code>.</li>
+<li>This only works if the package is currently installed.</li>
+</ul>
+</li>
+<li><code>package_latest_version</code> - Return the latest available version of the specified package.
+<ul>
+<li>This function is useful for apps that depend on a recent version of a package.</li>
+</ul>
+</li>
+<li><code>package_is_new_enough</code> - Given a package and a version threshold, determine if the package-version is greater than the threshold.
+<ul>
+<li>This function is an extension of the <code>package_latest_version</code> function above, to simplify scripting.</li>
+<li>If the package has a higher version than the threshold value, the return code is <code>0</code>, otherwise it returns <code>1</code>.</li>
+<li>Example usage, from the Mission Planner app:<pre class="language-bash"><code class="language-bash">status <span class="token parameter variable">-n</span> <span class="token string">"Is the mono-complete package new enough? "</span>
+
+<span class="token keyword">if</span> package_is_new_enough mono-complete <span class="token number">6.8</span>.0 <span class="token punctuation">;</span><span class="token keyword">then</span>
+  status_green <span class="token string">'Yes'</span> <span class="token comment">#answer the question asked above</span>
+<span class="token keyword">else</span>
+  status_green <span class="token string">'No'</span> <span class="token comment">#answer the question asked above</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">"Adding Mono repository..."</span>
+  install_packages apt-transport-https dirmngr gnupg ca-certificates <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+  <span class="token function">sudo</span> apt-key adv <span class="token parameter variable">--keyserver</span> hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF <span class="token operator">||</span> error <span class="token string">"Failed to add a key to the repos!"</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">"deb https://download.mono-project.com/repo/debian stable-raspbianbuster main"</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> /etc/apt/sources.list.d/mono-official-stable.list
+<span class="token keyword">fi</span>
+install_packages mono-complete <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span></code></pre>
+</li>
+</ul>
+</li>
+<li><code>anything_installed_from_repo</code> - Check if any apt-packages have been installed from the given repository-URL.
+<ul>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">anything_installed_from_repo http://archive.raspberrypi.org/debian/</code></pre>
+</li>
+<li>Returns with code <code>0</code> if a package was found, otherwise <code>1</code>. It also returns the name of the package that was found.</li>
+<li>This function is mainly intended to be used by the <code>remove_repofile_if_unused</code> function, which is described below.</li>
+</ul>
+</li>
+<li><code>remove_repofile_if_unused</code> - Given a path to an apt-repository file, determine if it is being used and remove it if it's unnecessary.
+<ul>
+<li>This function is very useful for apps that have to add their own APT repository. Some apps share repositories, so it's important to check if the <code>/etc/apt/sources.list.d/XXXX.list</code> file is in use before removing it.</li>
+<li>This function uses the <code>anything_installed_from_repo</code> function, and if it returns <code>1</code> for all URLs found in the file, then the file is deemed unnecessary and is removed.</li>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">remove_repofile_if_unused /etc/apt/sources.list.d/mono-official-stable.list</code></pre>
+For testing, you can tell the function to not actually delete anything by adding the <code>test</code> flag:<pre class="language-bash"><code class="language-bash">remove_repofile_if_unused /etc/apt/sources.list.d/mono-official-stable.list <span class="token builtin class-name">test</span></code></pre>
+In this mode, it will return text like &quot;<code>The given repository is not in use and can be deleted:</code>&quot;.<br>
+You can also pass a repo key to the 3rd argument to the function and it will delete it alongside the repo if it is unused:<pre class="language-bash"><code class="language-bash">remove_repofile_if_unused /etc/apt/sources.list.d/brave-browser-release.list <span class="token string">""</span> /usr/share/keyrings/brave-browser-archive-keyring.gpg</code></pre>
+</li>
+</ul>
+</li>
+<li><code>apt_lock_wait</code> - waits until apt locks are released.</li>
+<li><code>less_apt</code> - Reduce the output of an <code>apt</code> operation.
+<ul>
+<li>Example usage:<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> update <span class="token operator"><span class="token file-descriptor important">2</span>></span><span class="token file-descriptor important">&amp;1</span> <span class="token operator">|</span> less_apt</code></pre>
+</li>
+</ul>
+</li>
+<li><code>apt_update</code> - A wrapper function to run <code>sudo apt update</code>.
+<ul>
+<li>This will wait for apt locks to be released, handle status information, and display helpful tips if packages are upgradable or autoremovable.</li>
+<li>Arguments to the function will be passed on to the <code>apt</code> command.</li>
+</ul>
+</li>
+</ul>
+<p>Below are three functions that manage <strong>the Pi-Apps local APT repository</strong>.<br>
+This is a special folder (<code>/tmp/pi-apps-local-packages</code>) used by the <code>install_packages</code> function to handle installing local deb files. Installing local packages from a repository improves dependency-handling, condenses the operation into one <code>apt</code> operation, and allows the packages to be specified in any order.</p>
+<ul>
+<li><code>repo_add</code> - Add the specified deb file(s) to the local repository.
+<ul>
+<li>This simply copies specified files to the <code>/tmp/pi-apps-local-packages</code> folder.</li>
+</ul>
+</li>
+<li><code>repo_refresh</code> - Index the local repository, create a <code>Packages</code> file, and a <code>source.list</code>.
+<ul>
+<li>At this point, you can make <code>apt</code> use the repository by passing this flag to it: <code>-o Dir::Etc::SourceList=/tmp/pi-apps-local-packages/source.list</code></li>
+</ul>
+</li>
+<li><code>repo_rm</code> - Removes the local repository.</li>
+<li><code>app_to_pkgname</code> - Convert an app-name to an <code>apt</code>-compatible package name.
+<ul>
+<li>This function generates the name to use for creating dummy apt packages. The naming scheme is: <code>pi-apps-XXXXXXXX</code> (each <code>X</code> can be any lowercase letter or number)</li>
+<li>View which dummy packages are installed now by running <code>apt search pi-apps-</code> in a terminal.</li>
+</ul>
+</li>
+<li><code>install_packages</code> - Used by apps to install packages.
+<ul>
+<li>Some background information first:
+<ul>
+<li>Goal: Pi-Apps is designed for people who install an app, try it out, then later uninstall it. You should not have to think twice before installing an app. Users should have confidence that <strong>uninstalling the app will undo all changes and restore all disk-space.</strong></li>
+<li>Problem: Many apps need to install apt <strong>packages</strong> in order to work. On the surface, this does not seem like a big problem at all: if &quot;app1&quot; installs &quot;package1&quot;, &quot;package2&quot;, and &quot;package3&quot;, then those packages should be purged while uninstalling &quot;app1&quot;. What's the problem with that? <strong>Dependencies.</strong></li>
+</ul>
+</li>
+<li>What if some other utility requires &quot;package1&quot; to function? Now that you uninstalled &quot;app1&quot;, &quot;package1&quot; just got uninstalled.
+<ul>
+<li>Best-case scenario: that utility will not work anymore.</li>
+<li>Worst-case scenario: you just broke an essential part of your system and it will fail to boot.</li>
+</ul>
+</li>
+<li>Solution: When uninstalling an app, <strong>only remove packages that are not required by anything else</strong>. To accomplish this, we can't just install packages the normal way with <code>sudo apt install</code>. Instead, we need to generate a <strong>dummy deb</strong> - a custom apt package that lists &quot;package1&quot;, &quot;package2&quot;, and &quot;package3&quot; as <strong>dependencies</strong>. Later, when the app is being uninstalled, the dummy deb is removed and a simple <code>apt autoremove</code> is enough to safely remove the packages.</li>
+<li>The <code>install_packages</code> function replaces the old <code>pkg-install</code> script which has been removed from pi-apps.</li>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">install_packages package1 /path/to/package2.deb https://example.com/package3.deb package4-* <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span></code></pre>
+</li>
+<li>First, each argument is analyzed.
+<ul>
+<li>If it's a URL, the file is downloaded and added to the local repository.</li>
+<li>If it's a deb-file, it's added to the local repository.</li>
+<li>If it contains regex (regular expression, aka the <code>*</code> character), a list of packages is generated using the <code>apt-cache search</code> command.</li>
+</ul>
+</li>
+<li>Next, the local repository is initialized. (if necessary)</li>
+<li>Now an <code>apt_update</code> takes place.</li>
+<li>It's time to configure and install an empty apt-package that &quot;depends on&quot; the packages we want to install. We refer to it as a &quot;dummy deb&quot;.
+<ul>
+<li>First the name of the dummy deb is determined, using the <code>app_to_pkgname</code> function.</li>
+<li>If the dummy deb is <em>already</em> installed, <code>install_packages</code> will inherit its dependencies and then re-install the dummy deb. This means that <strong>the <code>install-packages</code> function can be used multiple times</strong> in an app's script because it's accumulative.</li>
+<li>The dummy deb is created, packaged, and finally installed.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>purge_packages</code> - Used by apps to remove packages that they previously installed.
+<ul>
+<li>This function accepts no arguments. It reads the <code>$app</code> variable, purges its associated dummy deb, and autoremoves any packages that are no longer necessary.</li>
+</ul>
+</li>
+<li><code>get_icon_from_package</code> - Given a package (or space-separated list of packages), this function will automatically find the program icon for it.
+<ul>
+<li>This is useful for the <code>createapp</code> script to automatically find a suitable icon for package-apps you're trying to add.</li>
+<li>This uses <code>dpkg-query</code> to list all files each package installed. The list is filteres to only show <code>.png</code> files in <code>/icons/</code> or <code>/pixmaps/</code> folders.</li>
+<li>The list is sorted by filesize to find the picture with the most pixels.</li>
+</ul>
+</li>
+<li><code>ubuntu_ppa_installer</code> - Given a ppa name, this function will automatically add the apt repo and key for the current ubuntu dist to the users apt sources.list.d directory.
+<ul>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">ubuntu_ppa_installer <span class="token string">"ubuntu-mozilla-security/rust-next"</span> <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span></code></pre>
+</li>
+<li>Removing the repo should be performed as part of an app uninstall script by using the existing pi-apps function <code>remove_repofile_if_unused</code>. Repo .list filenames are standardized so the following convention should be used for removal.</li>
+<li>Example removal:<pre class="language-bash"><code class="language-bash"><span class="token assign-left variable">ppa_name</span><span class="token operator">=</span><span class="token string">"ubuntu-mozilla-security/rust-next"</span>
+<span class="token assign-left variable">ppa_dist</span><span class="token operator">=</span><span class="token string">"<span class="token variable">$__os_codename</span>"</span>
+remove_repofile_if_unused /etc/apt/sources.list.d/<span class="token variable">${ppa_name<span class="token operator">%</span><span class="token operator">/</span>*}</span>-ubuntu-<span class="token variable">${ppa_name<span class="token operator">#</span>*<span class="token operator">/</span>}</span>-<span class="token variable">${ppa_dist}</span>.list</code></pre>
+</li>
+</ul>
+</li>
+<li><code>debian_ppa_installer</code> - Given a ppa name, dist, and key this function will automatically add the apt repo and key for the specified ubuntu dist to the users apt sources.list.d directory.
+<ul>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">debian_ppa_installer <span class="token string">"ubuntu-mozilla-security/rust-next"</span> <span class="token string">"bionic"</span> <span class="token string">"AF316E81A155146718A6FBD7A6DCF7707EBC211F"</span> <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span></code></pre>
+</li>
+<li>Removing the repo should be performed as part of an app uninstall script by using the existing pi-apps function <code>remove_repofile_if_unused</code>. Repo .list filenames are standardized so the following convention should be used for removal.</li>
+<li>Example removal:<pre class="language-bash"><code class="language-bash"><span class="token assign-left variable">ppa_name</span><span class="token operator">=</span><span class="token string">"ubuntu-mozilla-security/rust-next"</span>
+<span class="token assign-left variable">ppa_dist</span><span class="token operator">=</span><span class="token string">"focal"</span>
+remove_repofile_if_unused /etc/apt/sources.list.d/<span class="token variable">${ppa_name<span class="token operator">%</span><span class="token operator">/</span>*}</span>-ubuntu-<span class="token variable">${ppa_name<span class="token operator">#</span>*<span class="token operator">/</span>}</span>-<span class="token variable">${ppa_dist}</span>.list</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<p>End of apt functions. Flatpak functions below.</p>
+<ul>
+<li><code>flatpak_install</code> - Install an app from Flatpak. This function simplifies the process for script-writers and improves terminal-output.
+<ul>
+<li>This should only be used in install-64 scripts as there is no arm32 support on flathub anymore</li>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">flatpak_install org.librepcb.LibrePCB <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span></code></pre>
+Script-writers: Don't forget to install the flatpak package first! (<code>install_packages flatpak || exit 1</code>)<br>
+Also, a menu entry needs to be created. See the LibrePCB app, it's better to show than to explain. ;)</li>
+</ul>
+</li>
+<li><code>flatpak_uninstall</code> - Uninstall an app from Flatpak. This function simplifies the process for script-writers and has been designed to avoid false errors.
+<ul>
+<li>For example, if <code>flatpak</code> is already uninstalled, then trying to run <code>flatpak</code> will return an error.</li>
+<li>Similarly, if the flatpak-app is already uninstalled, then <code>flatpak</code> will return an error!</li>
+<li>This function solves both of those edge-cases and prevents unnecessary errors from ocurring.</li>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">flatpak_uninstall org.librepcb.LibrePCB <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span></code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<p>End of Flatpak functions. App functions below.</p>
+<ul>
+<li>
+<p><code>list_apps</code> - List all apps that match a given criteria. (In a newline-separated format)</p>
+<ul>
+<li><code>list_apps local</code> will list apps that exist locally.</li>
+<li><code>list_apps</code> is the same as <code>list_apps local</code>.</li>
+<li><code>list_apps app</code> will list all apps, both local and online.</li>
+<li><code>list_apps installed</code> will list apps that are currently installed.</li>
+<li><code>list_apps corrupted</code> will list apps that are currently corrupted.</li>
+<li><code>list_apps disabled</code> will list apps that are currently disabled.</li>
+<li><code>list_apps uninstalled</code> will list apps that are currently uninstalled.</li>
+<li><code>list_apps have_status</code> will list apps that currently have a known status. (A clean Pi-Apps installation won't have any status files)</li>
+<li><code>list_apps missing_status</code> will list apps that don't have status files.</li>
+<li><code>list_apps cpu_installable</code> will list apps that have an installation script compatible with your operating system's CPU architecture.
+<ul>
+<li>If &quot;app1&quot; only has an <code>install-64</code> script but your system is 32-bit, then &quot;app1&quot; will be excluded from this list.</li>
+<li>Likewise, if &quot;app1&quot; only has an <code>install-32</code> script but your system is 64-bit, then &quot;app1&quot; will be excluded from this list.</li>
+</ul>
+</li>
+<li><code>list_apps package</code> will list apps that don't have scripts but have a <code>packages</code> file.</li>
+<li><code>list_apps standard</code> will list apps that do have scripts and don't have a <code>packages</code> file.</li>
+<li><code>list_apps hidden</code> will list apps that are in the special &quot;hidden&quot; category.</li>
+<li><code>list_apps visible</code> will list apps that are <strong>not</strong> in the special &quot;hidden&quot; category.</li>
+<li><code>list_apps online</code> will list apps that exist in the <code>update/pi-apps/apps</code> folder.</li>
+<li><code>list_apps online_only</code> will list apps that are <strong>only</strong> in the <code>update/pi-apps/apps</code> folder.</li>
+<li><code>list_apps local_only</code> will list apps that are <strong>not</strong> in the <code>update/pi-apps/apps</code> folder.</li>
+</ul>
+</li>
+<li>
+<p><code>list_intersect</code> - Takes two lists of apps and <em>intersects</em> them, meaning that only apps that are listed in <strong>both</strong> lists are returned.<br>
+For example, this will show apps that are both cpu_installable and visible:</p>
+<pre class="language-bash"><code class="language-bash">list_apps cpu_installable <span class="token operator">|</span> list_intersect <span class="token string">"<span class="token variable"><span class="token variable">$(</span>list_apps visible<span class="token variable">)</span></span>"</span></code></pre>
+</li>
+<li>
+<p><code>list_subtract</code> - Takes two lists of apps and <em>subtracts</em> one from other, meaning that only apps listed in the first list and <strong>not</strong> in the second list, are returned.<br>
+For example, this will show apps that are <em>not</em> compatible with your system's architecture:</p>
+<pre class="language-bash"><code class="language-bash">list_apps <span class="token builtin class-name">local</span> <span class="token operator">|</span> list_subtract <span class="token string">"<span class="token variable"><span class="token variable">$(</span>list_apps cpu_installable<span class="token variable">)</span></span>"</span></code></pre>
+</li>
+<li>
+<p><code>read_category_files</code> - Generates a list of categories; data compiled from the <code>data/category-overrides</code> and <code>etc/categories</code> files, with added support for unlisted apps.</p>
+</li>
+<li>
+<p><code>app_categories</code> - Format the categories file, then list all apps, as if they were inside folders, based on the categories file. Also lists all apps under special &quot;Installed&quot; and &quot;All Apps&quot; categories.</p>
+</li>
+<li>
+<p><code>shlink_link</code> - Increase/decrease the &quot;number of users&quot; a certain app has.</p>
+<ul>
+<li>There are two <a href="https://shlink.io/">shlink</a> links for every app: one link for installing it, and one link for uninstalling it.</li>
+<li>Assuming the &quot;Enable Analytics&quot; setting was not turned off, this function will &quot;click&quot; one of those links.</li>
+<li>How this link system works:
+<ul>
+<li>A Github Actions <a href="https://github.com/Botspot/pi-apps/blob/master/.github/workflows/create_shlink_links.yml">script</a> on the main Pi-Apps repository automatically creates install/uninstall shlinks for every new app that is added.</li>
+<li>The Pi-Apps server running a shlink instance (at <a href="https://pi-apps-analytics.linkpc.net">https://pi-apps-analytics.linkpc.net</a>) will record the number of &quot;clicks&quot; for each link.</li>
+<li>Another Github Actions script uploads shlink's statistics to the <a href="https://github.com/Botspot/pi-apps-analytics">pi-apps-analytics</a> repository, which can then be retrieved by Pi-Apps clients through the <code>usercount</code> function, explained below.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><code>usercount</code> - returns the number of users an app has, based on the current number in the <a href="https://github.com/Botspot/pi-apps-analytics">pi-apps-analytics</a> repository.<br>
+To display the number of users for the Arduino app:</p>
+<pre class="language-bash"><code class="language-bash">usercount Arduino</code></pre>
+</li>
+<li>
+<p><code>script_name</code> - returns name of install script(s) for the specified app. Possible outputs: '', 'install', 'install-32', 'install-64', 'install-32 install-64'<br>
+Usage:</p>
+<pre class="language-bash"><code class="language-bash">script_name Arduino</code></pre>
+</li>
+<li>
+<p><code>script_name_cpu</code> - Given an app, this returns the name of the app's installation script that would be run if you ran it.</p>
+<ul>
+<li>For example, if your operating system is 32-bit and the app has an <code>install-32</code> script, this function would return &quot;install-32&quot;.</li>
+<li>If your operating system is 64-bit and the app has an <code>install-64</code> script, this function would return &quot;install-64&quot;.</li>
+<li>If the app has an <code>install</code> script, this function would return &quot;install&quot;.</li>
+<li>If the app has an <code>packages</code> script, this function would return &quot;packages&quot;.</li>
+<li>If none of the above, don't return anything.</li>
+</ul>
+</li>
+<li>
+<p><code>app_status</code> - return the given app's current status.</p>
+<ul>
+<li>If the app's status file does not exist, this function returns 'uninstalled'.</li>
+<li>Otherwise, this function returns the contents of the app's status file.</li>
+</ul>
+</li>
+<li>
+<p><code>app_type</code> - Determine if an app is a <code>standard</code> app or if it's a <code>package</code>.</p>
+</li>
+<li>
+<p><code>will_reinstall</code> - Return an exit code of <code>0</code> if the specified app would be reinstalled during an update, otherwise return an exit code of <code>1</code>.</p>
+<ul>
+<li>If the app's existing installation script is not identical to the new version of the installation script, AND the app is currently installed, exit with a code of <code>0</code>, otherwise exit <code>1</code>.</li>
+</ul>
+</li>
+<li>
+<p><code>app_search</code> - Search all apps for the specified search query.</p>
+<ul>
+<li>In each app-folder, this will search for matches in the following files:
+<ul>
+<li><code>description</code></li>
+<li><code>credits</code></li>
+<li><code>website</code></li>
+</ul>
+</li>
+<li>It hides incompatible and invisible apps before displaying the results. (list of app names, one per line)</li>
+</ul>
+</li>
+<li>
+<p><code>app_search_gui</code> - A graphical front-end for the <code>app_search</code> function.</p>
+<ul>
+<li>This displays all results from <code>app_search</code> in a graphical list.</li>
+<li>One app should be selected from the list before clicking OK.
+<ul>
+<li>If only one app is displayed in the list, no need to select it.</li>
+</ul>
+</li>
+<li>The chosen app (if any) is returned.</li>
+</ul>
+</li>
+<li>
+<p><code>generate_app_icons</code> - Resize a specified image and place the icons in the specified app-folder.</p>
+<ul>
+<li>This requires imagemagick to be installed. If it's missing, a dialog box will appear and ask permission to install it.</li>
+<li>Example usage:<pre class="language-bash"><code class="language-bash">generate_app_icons /path/to/my-image.png my-app</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p><code>refresh_pkgapp_status</code> - For the specified package-app, if dpkg thinks it's installed, then mark it as installed.</p>
+</li>
+<li>
+<p><code>refresh_all_pkgapp_status</code> - For every package-app, if dpkg thinks it's installed, then mark it as installed.</p>
+</li>
+<li>
+<p><code>refresh_app_list</code> - Forcibly regenerate the app list for the GUI. This overrides the usual shortcuts made by the <code>preload</code> script and guarantees that the app list will really be regenerated. It's useful for the <code>updater</code>, where unforeseen changes in script design may cause the app list to be displayed improperly.</p>
+</li>
+</ul>
+<p>Logfile functions below.</p>
+<ul>
+<li><code>get_logfile</code> - Find the most recent logfile for the specified app.</li>
+<li><code>log_diagnose</code> - Search a specified logfile for phrases that indicate non-errors.
+<ul>
+<li>Many errors are not Pi-Apps's fault. Most are outside of Pi-Apps's control, but caused by user-interference, Internet problems, or apt configuration errors.</li>
+<li>Errors are categorized into three types: <code>system</code>, <code>internet</code>, <code>package</code>, and unknown.
+<ul>
+<li>If a known phrase is identified, the <code>$error_type</code> variable is set to either <code>system</code> or <code>internet</code> or <code>package</code>.</li>
+<li>If no phrases were identified, the <code>$error_type</code> variable will be set to <code>unknown</code>. Only when the error_type is &quot;unknown&quot; will Pi-Apps allow the user to send an error report.</li>
+</ul>
+</li>
+<li>Each detected error has an accompanying caption for the user to read. This caption explains what the problem is and how to fix it.
+<ul>
+<li>As multiple error messages might be identified, the error captions are stored in an <strong>array</strong> variable called <code>$error_caption</code>. Storing explanations in an array allows multiple explanations to be displayed to the user.</li>
+</ul>
+</li>
+<li>Before exiting, this function returns the collected information. The first line is the value of <code>$error_type</code>, while subsequent lines are the value(s) of <code>$error_caption</code>.</li>
+</ul>
+</li>
+<li><code>format_logfile</code> - Log files store the entire output of all apps being installed or uninstalled. This function formats the logfile to improve its readability.
+<ul>
+<li>Unwanted patterns are removed, like terminal color-codes, long arrays of periods, etc.</li>
+<li>All instances of the <code>\r</code> character are replaced by the <code>\n</code> character.</li>
+<li>A header is added to the file, containing the output from <code>get_device_info</code>.</li>
+</ul>
+</li>
+<li><code>send_error_report</code> - Sends a log file to the Pi-Apps developers.</li>
+<li><code>send_error_report_gui</code> - A graphical front-end for <code>send_error_report</code> - asks the user permission before sending an error log.
+<ul>
+<li>Please note that this is currently not being used. The <code>manage</code> script has its own error-reporting gui and directly uses <code>send_error_report</code>.</li>
+</ul>
+</li>
+</ul>
+<p>Below are all functions that don't have anything to do with apps.</p>
+<ul>
+<li><code>runonce</code> - this function runs code only once, ever. Used by other scripts to run one-time workarounds to ensure a smooth transition as Pi-Apps evolves.
+<ul>
+<li>For example, this is a real usage of <code>runonce</code> in the Pi-Apps <code>gui</code> script:<pre class="language-bash"><code class="language-bash"><span class="token comment">#ensure curl is installed</span>
+runonce <span class="token operator">&lt;&lt;</span><span class="token string">"EOF"
+  if ! command -v curl >/dev/null ;then
+    sudo apt install -y curl
+  fi
+EOF</span></code></pre>
+It installs <code>curl</code> on the system, but only tries once.</li>
+<li>This works by hashing the entire command first, using <code>sha256sum</code>.</li>
+<li>If the hash matches a line in the <code>data/runonce_hashes</code> file, nothing occurs. Otherwise, the command is executed.</li>
+</ul>
+</li>
+<li><code>text_editor</code> - Use a text editor to open a file.
+<ul>
+<li>This obeys your choice of &quot;Preferred text editor&quot;:<pre><code>text_editor /path/to/your.file
+</code></pre>
+</li>
+</ul>
+</li>
+<li><code>view_file</code> - Display a maximized <code>yad</code> window to view a file. This is used to view logfiles.</li>
+<li><code>is_supported_system</code> - determines if your operating system is supported. This returns an exit-code of <code>0</code> if supported, otherwise<code>1</code>.<br>
+If any of the below criteria are true, then your system is unsupported:
+<ul>
+<li>The kernel matches &quot;x86&quot; or &quot;i686 or &quot;i386&quot;.</li>
+<li>The <code>/proc/version</code> file matches &quot;Android&quot;.</li>
+<li>The operating system's <code>PRETTY_NAME</code> matches &quot;stretch&quot;, &quot;wheezy&quot;, &quot;jessie&quot;, &quot;manjaro&quot; or &quot;Ubuntu 16&quot;.</li>
+<li>The kernel matches &quot;armv6*&quot;.</li>
+<li>The script is being run as <code>root</code>.</li>
+<li>The system has less than 500MB of free space.</li>
+</ul>
+</li>
+<li><code>get_device_info</code> - summarizes the current system setup for debug use.
+<ul>
+<li>To view the output on your  system, run this command:</li>
+</ul>
+<pre><code>~/pi-apps/api get_device_info
+</code></pre>
+<ul>
+<li>This function is used in the <code>format_log_file</code> function.</li>
+</ul>
+</li>
+<li><code>get_codename</code> - Simple function to return the codename of the operating system.
+<ul>
+<li>On Raspberry Pi OS Bullseye, this function returns: <code>bullseye</code></li>
+<li>This is useful for scripts that need to do different things depending on the exact system they are running on. The MultiMC5 app is a great example of this.</li>
+</ul>
+</li>
+<li><code>enable_module</code> - Always load a defined kernel module on system boot
+<ul>
+<li>It creates a file <code>/etc/modules-load.d/${module}.conf</code> for which tells a systemd service to load the defined module at boot.</li>
+<li>Run this function as part of your install script instead of a <code>modprobe</code> in a .desktop file or startup script<pre class="language-bash"><code class="language-bash">enable_module fuse <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span></code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<p>Command interceptors below:</p>
+<ul>
+<li><code>git_clone</code> - Wrapper function for the <code>git clone</code> command with improvements:
+<ul>
+<li>Status information is displayed. (&quot;Downloading XXXXXX repository...&quot;)</li>
+<li><code>git</code>'s output is suppressed. But if the operation fails, its full output will be displayed in the error message.</li>
+<li>Before cloning the repo, the destination folder is removed. This prevents the common error &quot;<code>Fatal: destination path 'XXXXXX' already exists and is not an empty directory.</code>&quot;.</li>
+<li>There may be times when an app-script doesn't want the output suppressed, or status information, or the folder removed first. That's why this function is an &quot;opt-in&quot; function; script-writers have to consciencely switch to <code>git_clone</code> if they want to.</li>
+</ul>
+</li>
+<li><code>wget</code> - This function overrides the <code>wget</code> command in all app-scripts. To speed up app-installation, it uses the <code>aria2c</code> tool when possible. Aria2c is faster and more reliable than wget, but it can't be used in all situations.
+<ul>
+<li>To determine if <code>aria2c</code> can be used, this function parses all flags given to it. It stores the url and the output filename.
+<ul>
+<li>If any flags other than <code>-q</code>, <code>-O</code>, and <code>-qO</code> are passed, <code>wget</code> is used.</li>
+<li>If the <code>aria2c</code> command does not exist, <code>wget</code> is used.</li>
+<li>If the output is not a file but is being sent to <code>stdout</code> (using the <code>-qO-</code> flag, for example), <code>wget</code> is used.</li>
+</ul>
+</li>
+<li>If <code>aria2c</code> is enabled, it runs with the following flags:<br>
+<code>-c -x 16 -s 16 -m 10 --retry-wait 30 --console-log-level=error --show-console-readout=false --summary-interval=0 &quot;$url&quot; --dir '/' -o &quot;${file:1}&quot; --allow-overwrite</code>
+<ul>
+<li>If the <code>-q</code> flag was passed, the <code>--quiet</code> flag is sent to aria2c.</li>
+</ul>
+</li>
+<li>Otherwise, if aria2c was ruled out, <code>wget</code> is run as it normally would.</li>
+<li>This function is designed to operate seamlessly in 100% of cases. App-developers <em>should not have to even know</em> that this function is really translating <code>wget</code> commands to <code>aria2c</code> - it should operate exactly the same as <code>wget</code>, but faster.</li>
+</ul>
+</li>
+<li><code>chmod</code> - Wrapper function for the <code>chmod</code> command with status information.
+<ul>
+<li>This displays &quot;<code>Making executable: /path/to/file</code>&quot;.</li>
+</ul>
+</li>
+<li><code>unzip</code> - Wrapper function for the <code>unzip</code> command with status information.
+<ul>
+<li>This displays &quot;<code>Extracting: /path/to/file</code>&quot;.</li>
+</ul>
+</li>
+</ul>
+<p>And with that, we come to the end of functions in the <code>api</code> script. If you see a function that's not listed here, please let us know.</p>
+<h2 id="the-gui-script" tabindex="-1">The <code>gui</code> script <a class="direct-link" href="#the-gui-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-3" tabindex="-1">Location: <a class="direct-link" href="#location:-3" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/gui</code>.</p>
+<h4 id="purpose:-3" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-3" aria-hidden="true">#</a></h4>
+<p>This script handles Pi-Apps's entire user-interface.</p>
+<h4 id="usage:-3" tabindex="-1">Usage: <a class="direct-link" href="#usage:-3" aria-hidden="true">#</a></h4>
+<p>To run Pi-Apps:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/gui</code></pre>
+<p>To start Pi-Apps at a specific app:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/gui Arduino</code></pre>
+<p>To start Pi-Apps on a specific category:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/gui <span class="token string">'All Apps/'</span></code></pre>
+<h4 id="how-it-works:" tabindex="-1">How it works: <a class="direct-link" href="#how-it-works:" aria-hidden="true">#</a></h4>
+<ol>
+<li>The <code>api</code> script is sourced.</li>
+<li>The pi-apps logo is displayed in the terminal (using the <code>generate_logo</code> function)</li>
+<li>A series of <code>runonce</code> entries are executed in the background.</li>
+<li>The message of the day is determined.
+<ul>
+<li>To save time, it's stored in <code>data/announcements</code>.</li>
+<li>If that file is missing or it's more than a day old, it is downloaded from <a href="https://github.com/Botspot/pi-apps-announcements">the pi-apps-announcements repository</a>.</li>
+<li>One random line is taken from the file and used as the message for this session.</li>
+</ul>
+</li>
+<li>We now come to a <code>while</code> loop that runs the GUI. Inside is an <code>if</code> statement that obeys the following values of the <code>$action</code> variable:
+<ul>
+<li><code>main-window</code> - Handles the app list.
+<ul>
+<li>This may be a yad window or an xlunch window, depending on the &quot;App List Style&quot; setting.</li>
+<li>Xlunch is compiled, if necessary.</li>
+</ul>
+</li>
+<li><code>details</code> - Displays the details of the current app.</li>
+<li><code>search</code> - Sets the <code>$app</code> variable to the output of the <code>app_search_gui</code> function.</li>
+<li>The rest of the modes need no explanation. They are: <code>exit</code>, <code>back</code>, <code>install</code>, <code>uninstall</code>, <code>scripts</code>, <code>edit</code>, <code>credits</code>, <code>enable</code>, <code>viewlog</code>, <code>mind-reading</code>, <code>view-updates</code>, <code>unknown</code>.</li>
+</ul>
+</li>
+</ol>
+<h2 id="the-createapp-script" tabindex="-1">The <code>createapp</code> script <a class="direct-link" href="#the-createapp-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-4" tabindex="-1">Location: <a class="direct-link" href="#location:-4" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/createapp</code>.</p>
+<h4 id="purpose:-4" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-4" aria-hidden="true">#</a></h4>
+<p>A GUI to help you create/edit an app.</p>
+<h4 id="usage:-4" tabindex="-1">Usage: <a class="direct-link" href="#usage:-4" aria-hidden="true">#</a></h4>
+<p>To create a new app:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/createapp</code></pre>
+<p>To edit an existing app:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/createapp Arduino</code></pre>
+<h4 id="how-it-works:-1" tabindex="-1">How it works: <a class="direct-link" href="#how-it-works:-1" aria-hidden="true">#</a></h4>
+<p>This script is one long <code>while</code> loop with a <code>case</code> statement for each step. (similar to the <code>gui</code> script)<br>
+Each dialog allows you to go forward or backward and the current step is stored in the <code>$step</code> variable.<br>
+That's about it. View the script to see how each step works.</p>
+<h2 id="the-settings-script" tabindex="-1">The <code>settings</code> script <a class="direct-link" href="#the-settings-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-5" tabindex="-1">Location: <a class="direct-link" href="#location:-5" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/settings</code>.</p>
+<h4 id="purpose:-5" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-5" aria-hidden="true">#</a></h4>
+<p>To manage settings for Pi-Apps.</p>
+<h4 id="usage:-5" tabindex="-1">Usage: <a class="direct-link" href="#usage:-5" aria-hidden="true">#</a></h4>
+<p>To launch the graphical settings window:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/settings</code></pre>
+<p>To check for missing setting-values and fill them with the default values, use this flag:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/settings refresh</code></pre>
+<p>To revert all settings to their default values:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/settings revert</code></pre>
+<h4 id="how-it-works:-2" tabindex="-1">How it works: <a class="direct-link" href="#how-it-works:-2" aria-hidden="true">#</a></h4>
+<p>Each setting is stored in <em>two</em> places in the main pi-apps folder:</p>
+<ul>
+<li>The setting's possible values, default value, and explanation is stored in the <code>etc/setting-params</code> folder.
+<ul>
+<li>For example, the <code>etc/setting-params/App List Style</code> file contains:<pre class="language-bash"><code class="language-bash"><span class="token comment">#Pi-Apps can display the apps as a compact list (yad), or as a group of larger icons. (xlunch)</span>
+yad
+xlunch-dark
+xlunch-dark-3d
+xlunch-light-3d</code></pre>
+</li>
+<li>All commented lines are the explanation, also known as the tooltip.
+<ul>
+<li>For this file, it is:<pre class="language-bash"><code class="language-bash"><span class="token comment">#Pi-Apps can display the apps as a compact list (yad), or as a group of larger icons. (xlunch)</span></code></pre>
+</li>
+</ul>
+</li>
+<li>The first uncommented line is the default value for the setting.
+<ul>
+<li>For this file, it is:<pre class="language-bash"><code class="language-bash">yad</code></pre>
+</li>
+</ul>
+</li>
+<li>Subsequent uncommented lines are additional possible values.
+<ul>
+<li>For this file, they are:<pre class="language-bash"><code class="language-bash">xlunch-dark
+xlunch-dark-3d
+xlunch-light-3d</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>The setting's current value is stored in the <code>data/settings</code> folder. This is a single file that contains a single-line value.
+<ul>
+<li>For example, if I set the app list style to &quot;xlunch-dark-3d&quot;, the <code>data/settings/App List Style</code> file will contain &quot;<code>xlunch-dark-3d</code>&quot;.</li>
+</ul>
+</li>
+</ul>
+<p>This dual-file/dual-folder approach is necessary to retain your choice, while allowing there to be future updates to settings, and/or their possible values. (Remember, the <code>data</code> directory is never updated but the <code>etc</code> folder is.)</p>
+<h2 id="the-preload-script" tabindex="-1">The <code>preload</code> script <a class="direct-link" href="#the-preload-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-6" tabindex="-1">Location: <a class="direct-link" href="#location:-6" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/preload</code>.</p>
+<h4 id="purpose:-6" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-6" aria-hidden="true">#</a></h4>
+<p>To generate the app-list for a given category, and prioritizing minimum execution-time.</p>
+<h4 id="usage:-6" tabindex="-1">Usage: <a class="direct-link" href="#usage:-6" aria-hidden="true">#</a></h4>
+<p>To generate the app-list of the &quot;Installed&quot; category for yad:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/preload yad <span class="token string">'Installed'</span></code></pre>
+<p>To generate the app-list for xlunch for the main page (no category)</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/preload /home/pi/pi-apps/preload xlunch <span class="token string">''</span></code></pre>
+<h4 id="how-it-works:-3" tabindex="-1">How it works: <a class="direct-link" href="#how-it-works:-3" aria-hidden="true">#</a></h4>
+<p>This script is designed for maximum speed. As a result, it uses many tricks to run faster.</p>
+<ol>
+<li>Compile the <code>genapplist-yad</code> program. This is a C program designed to improve preloading times, but if it fails, a bash-based fallback is used.
+<ul>
+<li>It uses <code>gcc</code> to compile the <code>/etc/genapplist-yad.c</code>file to the <code>/etc/genapplist-yad</code> binary.</li>
+<li>This program is tested; if it fails to produce 5 lines of output for one input app, the program is deleted to use the bash-based fallback.</li>
+</ul>
+</li>
+<li>Determine if it's <strong>necessary</strong> to generate the app-list.
+<ul>
+<li>If nothing has been modified in the <code>apps</code> folder, the <code>settings</code> folder, the <code>update-status</code> folder, the <code>etc</code> folder, the <code>api</code> script, the <code>preload</code> script, and the <code>categories</code> file, <strong>skip</strong> generating the app-list, <strong>return the contents</strong> of the previous app-list in the <code>data/preload</code> folder, and <strong>exit</strong>.</li>
+</ul>
+</li>
+<li>If it is necessary to generate the app-list, use the <code>app_categories</code> function to generate a list of all apps in their respective categories.</li>
+<li>Limit the list of apps to the current category. (so if we're viewing the &quot;Installed&quot; category, hide all apps that are not in there.)</li>
+<li>If the &quot;Shuffle App list&quot; setting is enabled, shuffle the list of apps and categories now.
+<ul>
+<li>Note: categories are always displayed above apps.</li>
+</ul>
+</li>
+<li>Remove apps that are not compatible with the operating system's CPU architecture.</li>
+<li>Generate the list of visible categories.</li>
+<li>Generate the list of visible apps.
+<ul>
+<li>If the GUI-mode is yad, use the <code>genapplist-yad</code> program if it exists.</li>
+<li>Otherwise, generate the list of apps the slower bash-based way.</li>
+</ul>
+</li>
+<li>Save the resulting app-list to a file in the <code>data/preload</code> folder. (so that next time <code>preload</code> is run, it might not have to generate anything)</li>
+<li>In the background, place all app-icons in the disk cache. This improves load-time.</li>
+<li>Output the resulting app-list.</li>
+<li>Run the <code>preload-daemon</code> script in the background to preload other categories. That way, when using Pi-Apps, by the time you click any category, it has just been preloaded and is ready-to-go.</li>
+</ol>
+<h2 id="the-preload-daemon-script" tabindex="-1">The <code>preload-daemon</code> script <a class="direct-link" href="#the-preload-daemon-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-7" tabindex="-1">Location: <a class="direct-link" href="#location:-7" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/etc/preload-daemon</code>.<br>
+This file is located in the <code>etc</code> folder because it's one of the smaller scripts.</p>
+<h4 id="purpose:-7" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-7" aria-hidden="true">#</a></h4>
+<p>To generate the app-list for all categories.</p>
+<h4 id="usage:-7" tabindex="-1">Usage: <a class="direct-link" href="#usage:-7" aria-hidden="true">#</a></h4>
+<p>Preload all categories for <code>yad</code>, repeating every 30 seconds for a total of 20 times:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/etc/preload-daemon yad</code></pre>
+<p>Preload all categories for <code>xlunch</code> only once:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/etc/preload-daemon xlunch once</code></pre>
+<h2 id="the-terminal-run-script" tabindex="-1">The <code>terminal-run</code> script <a class="direct-link" href="#the-terminal-run-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-8" tabindex="-1">Location: <a class="direct-link" href="#location:-8" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/etc/terminal-run</code>.<br>
+This file is located in the <code>etc</code> folder because it's one of the smaller scripts.</p>
+<h4 id="purpose:-8" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-8" aria-hidden="true">#</a></h4>
+<p>This script may be Botspot's <em>greatest contribution to the open-source world</em>. Apart from this script, there is no reliable way to:</p>
+<ul>
+<li>Run a <em>newline-separated</em> list of commands in a new terminal window.</li>
+<li>Set the terminal's title, as desired.</li>
+<li>Keep the script running until the terminal has been closed.</li>
+<li>Support a variety of terminals.</li>
+</ul>
+<h4 id="usage:-8" tabindex="-1">Usage: <a class="direct-link" href="#usage:-8" aria-hidden="true">#</a></h4>
+<p>This command will run two commands in a terminal and set the terminal's title to &quot;Upgrading your packages&quot;:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/etc/terminal-run <span class="token string">'sudo apt update
+sudo apt upgrade'</span> <span class="token string">"Upgrading your packages"</span></code></pre>
+<p>The <code>terminal-run</code> script will not exit until the terminal closes.</p>
+<h4 id="how-it-works:-4" tabindex="-1">How it works: <a class="direct-link" href="#how-it-works:-4" aria-hidden="true">#</a></h4>
+<p>As mentioned earlier, this script supports running a <em><strong>list</strong></em> of commands in a terminal. That may sound easy enough, but it's not.</p>
+<ul>
+<li>Terminals are not designed to support this. Most terminals can, with some clever tricks, but it varies on a case-by-case basis.</li>
+</ul>
+<p>As mentioned earlier, this script will keep running until the terminal has been closed. How is that possible?</p>
+<ul>
+<li>Before running any commands in a terminal, a special file is created in the <code>/tmp</code> folder. This file is empty for now.</li>
+<li>Then, the terminal is instructed to write its PID (process ID) <em>to the file</em>.</li>
+<li>Now, while the terminal is running, the <code>terminal-run</code> script can regularly check if that PID process is still running.
+<ul>
+<li>It does this by periodically checking if the <code>/proc/${PID}</code> folder exists.</li>
+</ul>
+</li>
+<li>When the PID stops, it indicates that the terminal has been closed. Now the <code>terminal-run</code> script exits.</li>
+</ul>
+<p>Supported terminals:</p>
+<ul>
+<li>lxterminal</li>
+<li>xfce4-terminal</li>
+<li>mate-terminal</li>
+<li>xterm</li>
+<li>konsole</li>
+<li>terminator</li>
+<li>gnome-terminal</li>
+<li>x-terminal-emulator</li>
+</ul>
+<p>Debug mode: if you set the <code>DEBUG</code> variable to <code>1</code>, <code>terminal-run</code> will output the name of the currently-used terminal.</p>
+<ul>
+<li>This is useful for debugging, when no terminal appears and we want to know which terminal was being used.</li>
+</ul>
+<h2 id="the-categoryedit-script" tabindex="-1">The <code>categoryedit</code> script <a class="direct-link" href="#the-categoryedit-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-9" tabindex="-1">Location: <a class="direct-link" href="#location:-9" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/etc/categoryedit</code>.<br>
+This file is located in the <code>etc</code> folder because it's one of the smaller scripts.</p>
+<h4 id="purpose:-9" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-9" aria-hidden="true">#</a></h4>
+<p>Manage Pi-Apps categories.<br>
+As of commit <a href="https://github.com/Botspot/pi-apps/commit/ab1fcb5a114ab720df1712aaf151a9733e18a94c">https://github.com/Botspot/pi-apps/commit/ab1fcb5a114ab720df1712aaf151a9733e18a94c</a>, there are <em>two</em> categories files: a local one and a global one. The global file is kept updated like any other file, while the local file is empty by default but can contain <strong>overrides</strong>.<br>
+The global categories file: <code>/home/pi/pi-apps/etc/categories</code><br>
+The local categories file: <code>/home/pi/pi-apps/data/category-overrides</code></p>
+<h4 id="usage:-9" tabindex="-1">Usage: <a class="direct-link" href="#usage:-9" aria-hidden="true">#</a></h4>
+<p>Run the category editor:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/etc/categoryedit</code></pre>
+<p>Move the Arduino app to the Internet category:</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/etc/categoryedit Arduino Internet</code></pre>
+<p>Move the Arduino app to the top level (no category):</p>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/etc/categoryedit Arduino</code></pre>
+<h2 id="the-logviewer-script" tabindex="-1">The <code>logviewer</code> script <a class="direct-link" href="#the-logviewer-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-10" tabindex="-1">Location: <a class="direct-link" href="#location:-10" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/etc/logviewer</code>.<br>
+This file is located in the <code>etc</code> folder because it's one of the smaller scripts.</p>
+<h4 id="purpose:-10" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-10" aria-hidden="true">#</a></h4>
+<p>Browse the list of log files, opening any files that you click on with the <code>viewlog</code> script.</p>
+<h4 id="usage:-10" tabindex="-1">Usage: <a class="direct-link" href="#usage:-10" aria-hidden="true">#</a></h4>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/etc/logviewer</code></pre>
+<h2 id="the-viewlog-script" tabindex="-1">The <code>viewlog</code> script <a class="direct-link" href="#the-viewlog-script" aria-hidden="true">#</a></h2>
+<h4 id="location:-11" tabindex="-1">Location: <a class="direct-link" href="#location:-11" aria-hidden="true">#</a></h4>
+<p>On a default pi-apps installation, you will find this script at <code>/home/pi/pi-apps/etc/viewlog</code>.<br>
+This file is located in the <code>etc</code> folder because it's one of the smaller scripts.</p>
+<h4 id="purpose:-11" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-11" aria-hidden="true">#</a></h4>
+<p>View the specified log file in a text editor.</p>
+<h4 id="usage:-11" tabindex="-1">Usage: <a class="direct-link" href="#usage:-11" aria-hidden="true">#</a></h4>
+<pre class="language-bash"><code class="language-bash">~/pi-apps/etc/viewlog ~/pi-apps/logs/install-success-Arduino.log</code></pre>
+<p>Notes:</p>
+<ul>
+<li>This script will kill previous instances of itself.</li>
+<li>This script <strong>does not obey</strong> the &quot;Preferred text editor&quot; setting.
+<ul>
+<li>Why? Viewing a log in <em><strong><code>geany</code></strong></em> (the default &quot;Preferred text editor&quot; setting) is cumbersome and breaks the whole concept of closing the editor once you click on a new logfile.</li>
+</ul>
+</li>
+</ul>
+<h2 id="automatic-app-updaters" tabindex="-1">Automatic App Updaters <a class="direct-link" href="#automatic-app-updaters" aria-hidden="true">#</a></h2>
+<h4 id="location:-12" tabindex="-1">Location: <a class="direct-link" href="#location:-12" aria-hidden="true">#</a></h4>
+<p>These are scripts which reside on the github repo for pi-apps specificially for keeping app versions updated with their upstream projects and repos. These automatic app updaters are found in the <code>.github/workflows/updates</code> folder.<br>
+Each script/app in pi-apps which has automatic version updating functionality has a script in this folder. The script name is the same as the app name.</p>
+<h4 id="purpose:-12" tabindex="-1">Purpose: <a class="direct-link" href="#purpose:-12" aria-hidden="true">#</a></h4>
+<p>To keep versions of apps in pi-apps up to date with the latest fixes, features, and improvements.</p>
+<h4 id="what-can-updater-script-do:" tabindex="-1">What can updater script do: <a class="direct-link" href="#what-can-updater-script-do:" aria-hidden="true">#</a></h4>
+<p>Updater scripts have access to a few special functions and scripts that normal pi-apps install scripts do not have access to.<br>
+It is easier to explain with an example of an updater script.</p>
+<h4 id="github-release-example:" tabindex="-1">Github release example:<br> <a class="direct-link" href="#github-release-example:" aria-hidden="true">#</a></h4>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token assign-left variable">webVer</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span>get_release angryip/ipscan<span class="token variable">)</span></span>
+<span class="token assign-left variable">all_url</span><span class="token operator">=</span><span class="token string">"https://github.com/angryip/ipscan/releases/download/<span class="token variable">${webVer}</span>/ipscan_<span class="token variable">${webVer}</span>_all.deb"</span>
+
+<span class="token builtin class-name">source</span> <span class="token variable">$GITHUB_WORKSPACE</span>/.github/workflows/update_github_script.sh</code></pre>
+<p>This is Angry IP scanners's update script. New releases of the .deb are posted on the <code>angrypi/scan</code> github, so once a week, the pi-apps github actions runs this script to check for new releases of Angry IP Scanner.<br>
+There are a few special functions designed for github scripts to use, so that they can obtain the latest app version.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function-name function">get_release</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">curl</span> <span class="token parameter variable">--silent</span> <span class="token string">"https://api.github.com/repos/<span class="token variable">$1</span>/releases/latest"</span> <span class="token operator">|</span> jq <span class="token parameter variable">-r</span> <span class="token string">'.tag_name'</span> <span class="token operator">|</span> <span class="token function">sed</span> s/v//g
+<span class="token punctuation">}</span>
+<span class="token function-name function">get_release_raw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">curl</span> <span class="token parameter variable">--silent</span> <span class="token string">"https://api.github.com/repos/<span class="token variable">$1</span>/releases/latest"</span> <span class="token operator">|</span> jq <span class="token parameter variable">-r</span> <span class="token string">'.tag_name'</span>
+<span class="token punctuation">}</span>
+<span class="token function-name function">get_prerelease</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">curl</span> <span class="token parameter variable">--silent</span> <span class="token string">"https://api.github.com/repos/<span class="token variable">$1</span>/releases"</span> <span class="token operator">|</span> jq <span class="token parameter variable">-r</span> <span class="token string">'map(select(.prerelease)) | first | .tag_name'</span> <span class="token operator">|</span> <span class="token function">sed</span> s/v//g
+<span class="token punctuation">}</span>
+<span class="token function-name function">get_prerelease_raw</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">curl</span> <span class="token parameter variable">--silent</span> <span class="token string">"https://api.github.com/repos/<span class="token variable">$1</span>/releases"</span> <span class="token operator">|</span> jq <span class="token parameter variable">-r</span> <span class="token string">'map(select(.prerelease)) | first | .tag_name'</span>
+<span class="token punctuation">}</span></code></pre>
+<p><code>get_release</code> followed by the app <code>githubowner/reponame</code> will obtain the latest github release version number<br><br>
+<code>get_prerelease</code> followed by the app <code>githubowner/reponame</code> will obtain the latest github prerelease version number.</p>
+<p>For pi-apps install scripts written with this in mind, this version number can be used to automatically generate a pi-apps PR with the updated version. Simply set the URL of the deb/binary found on the github with the <code>webVer</code> variable substituted in <code>all_url</code> for install scripts, <code>armhf_url</code> for install-32 scripts, and <code>arm64_url</code> for install-64 scripts, and call the update_github_script. Pi-apps install scripts should be formated with a <code>version</code> varaible for this automatic script to update with the latest version.<br><br>
+See angry ip scanners's <code>install</code> file for an example:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token assign-left variable">version</span><span class="token operator">=</span><span class="token number">3.8</span>.2
+install_packages openjdk-11-jdk <span class="token function">rpm</span> fakeroot <span class="token string">"https://github.com/angryip/ipscan/releases/download/<span class="token variable">${version}</span>/ipscan_<span class="token variable">${version}</span>_all.deb"</span> <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span></code></pre>
+<h4 id="debian-repo-example:" tabindex="-1">Debian repo example:<br> <a class="direct-link" href="#debian-repo-example:" aria-hidden="true">#</a></h4>
+<p>For apps which are published to a debian repo, but it is not desired to add the repo to a users install, the update_debian_repo_script can be used to automatically update an apps install scripts.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token assign-left variable">armhf_webPackages</span><span class="token operator">=</span><span class="token string">"https://packagecloud.io/ookla/speedtest-cli/ubuntu/dists/bionic/main/binary-armhf/Packages"</span>
+<span class="token assign-left variable">arm64_webPackages</span><span class="token operator">=</span><span class="token string">"https://packagecloud.io/ookla/speedtest-cli/ubuntu/dists/bionic/main/binary-arm64/Packages"</span>
+<span class="token assign-left variable">armhf_packagename</span><span class="token operator">=</span><span class="token string">"speedtest"</span>
+<span class="token assign-left variable">arm64_packagename</span><span class="token operator">=</span><span class="token string">"speedtest"</span>
+
+<span class="token comment"># The corresponding appname in pi-apps will have its corresponding filepath= variable update</span>
+<span class="token comment"># the filepath variable will contain the full filepath of the debian package with the version included</span>
+
+<span class="token builtin class-name">source</span> <span class="token variable">$GITHUB_WORKSPACE</span>/.github/workflows/update_debian_repo_script.sh</code></pre>
+<p>Debian repos contain what is called a <code>Packages</code> file, this file contains all the control data for all packages hosted on that repo under that distro, and architecture. Shown above is the speedtest-cli updater script.<br><br>
+The package used on pi-apps is hosted at the <code>packagecloud.io/ookla/speedtest-cli</code> repo, so we specify the location of the <code>Packages</code> file on that repo using <code>armhf_webPackages</code> and <code>arm64_webPackages</code>.<br><br>
+We then specify what the package name we would like to have checked from that repo is named, in this case, its <code>speedtest</code> set to the variables <code>armhf_packagename</code> <code>arm64_packagename</code>.<br><br>
+Finally, to update the pi-apps scripts, we call the update_debian_repo_script as shown.</p>
+<p>The corresponding app install scripts in pi-apps should contain a <code>filepath</code> variable (<code>filepath_32</code> and <code>filepath_64</code> if there are separate armhf and arm64 filenames in the same <code>install</code> script) with the entire URL path of the .deb file contained.<br><br>
+See speedtest-cli's <code>install</code> file for an example:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token assign-left variable">filepath_32</span><span class="token operator">=</span><span class="token string">"https://packagecloud.io/ookla/speedtest-cli/ubuntu/pool/bionic/main/s/speedtest/speedtest_1.2.0.84-1.ea6b6773cf_armhf.deb"</span>
+<span class="token assign-left variable">filepath_64</span><span class="token operator">=</span><span class="token string">"https://packagecloud.io/ookla/speedtest-cli/ubuntu/pool/bionic/main/s/speedtest/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb"</span>
+
+<span class="token keyword">case</span> <span class="token string">"<span class="token variable">$arch</span>"</span> <span class="token keyword">in</span>
+  <span class="token string">"64"</span><span class="token punctuation">)</span> install_packages <span class="token string">"<span class="token variable">${filepath_64}</span>"</span> <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+  <span class="token string">"32"</span><span class="token punctuation">)</span> install_packages <span class="token string">"<span class="token variable">${filepath_32}</span>"</span> <span class="token operator">||</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+  *<span class="token punctuation">)</span> error <span class="token string">"arch variable is not set, can not continue"</span> <span class="token punctuation">;</span><span class="token punctuation">;</span>
+<span class="token keyword">esac</span></code></pre>
+<h4 id="updated-apps-verification-qemu-armhfarm64-chroot:" tabindex="-1">Updated apps verification QEMU armhf/arm64 Chroot:<br> <a class="direct-link" href="#updated-apps-verification-qemu-armhfarm64-chroot:" aria-hidden="true">#</a></h4>
+<p>The github actions tests the install and uninstall scripts of each updated app on a Buster armhf PiOS and Bullseye arm64 PiOS image before creating a pull request for the automatic updates. If any script fails for a particular app on either image then the changes are dropped for that app and an error message is added to the pull request comment.</p>
+<p>This is accompished by running pi-apps in github actions through a QEMU powered chroot (since github actions does not have armhf/arm64 hosted runners). The QEMU chroot is setup using <a href="https://github.com/theofficialgman/arm-runner-action">https://github.com/theofficialgman/arm-runner-action</a> which is a fork of <a href="https://github.com/pguyot/arm-runner-action">https://github.com/pguyot/arm-runner-action</a> with added functionality to run commands as the <code>runner</code> user, github action's default non-root user.</p>
+<p>This method of testing is NOT foolproof and app developers should make sure that their scripts error and exit in the event of an install or uninstall failure. Running in QEMU is also NOT the same as running on bare-metal arm hardware. An exception for <a href="https://github.com/Botspot/pi-apps/commit/10e55a74ea26ca4e4a11aad68dab1ce62a4d099f">one app has already had to be made due to issues</a>.</p>
+
+    
+    
+    <hr>
+    <h3>Pages in Development:</h3>
+    <ul class="inlinelist inlinelist-no-nest"><li class="wiki-tag wiki-tag-active"><a href="/wiki/development/DOCUMENTATION/">Documentation</a></li>
+<li class="wiki-tag"><a href="/wiki/development/Directory-tree/">Directory Tree</a></li>
+<li class="wiki-tag"><a href="/wiki/development/Creating-an-app/">Creating an App</a></li></ul>
+    
+
+    
+  </div>
+  <div class="wiki-toc"><ul class="wiki-toc-list"><li><a href="/wiki/">Overview</a><ul><li><a href="/wiki/overview/feedback-bugs/">Feedback & Bugs</a></li>
+<li><a href="/wiki/overview/copying/">Copying</a></li></ul></li>
+<li><a href="/wiki/getting-started/">Getting Started</a><ul><li><a href="/wiki/getting-started/installing-pi-apps/">Installing Pi-Apps</a></li>
+<li><a href="/wiki/getting-started/running-pi-apps/">Running Pi-Apps</a></li>
+<li><a href="/wiki/getting-started/updating-pi-apps/">Updating Pi-Apps</a></li>
+<li><a href="/wiki/getting-started/command-line-interface/">Command Line Interface</a></li>
+<li><a href="/wiki/getting-started/change-themes/">Change Themes</a></li>
+<li><a href="/wiki/getting-started/apps-list/">Apps List</a></li></ul></li>
+<li><a href="/wiki/development/">Development</a><ul><li class="wiki-toc-active"><a href="/wiki/development/DOCUMENTATION/">Documentation</a></li>
+<li><a href="/wiki/development/Directory-tree/">Directory Tree</a></li>
+<li><a href="/wiki/development/Creating-an-app/">Creating an App</a></li></ul></li></ul>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="footer">
+    <div class="container">
+        <a href="https://github.com/Pi-Apps-Coders/website/edit/master/./src/wiki/development/DOCUMENTATION.md" class="elv-externalexempt button type-link size-small">Edit this page</a>
+    </div>
+</div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Pi-Apps",
+  "language": "en",
+  "home_page_url": "https://pi-apps.io/",
+  "feed_url": "https://pi-apps.io/feed/feed.json",
+  "description": "Raspberry Pi App Store for Open Source Projects.",
+  "author": {
+    "name": "Pi-Apps",
+    "url": "https://pi-apps.io/about/"
+  },
+  "items": [
+  ]
+}
