@@ -1,0 +1,6 @@
+{
+  "layout": "layouts/install.njk",
+  "tags": [
+      "install"
+  ]
+}

@@ -1,0 +1,15 @@
+---
+layout: layouts/main.njk
+eleventyComputed:
+  hero:
+    title: "Install the latest version of Pi-Apps"
+---
+<style>
+  .background {
+    filter: brightness(80%);
+  }
+</style>
+
+{{ collections.download | eleventyNavigation | eleventyNavigationToHtml({ activeKey: eleventyNavigation.key, listClass: 'download-tab-list', activeListItemClass: 'download-tab-active' }) | safe }}
+
+{{ content | safe }}

@@ -1,0 +1,22 @@
+{
+  "title": "Pi-Apps",
+  "url": "https://pi-apps.io/",
+  "githubEdit": "https://github.com/Pi-Apps-Coders/website/edit/master/",
+  "language": "en",
+  "description": "Raspberry Pi App Store for Open Source Projects.",
+  "feed": {
+    "subtitle": "Raspberry Pi App Store for Open Source Projects.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://pi-apps.io/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://pi-apps.io/feed/feed.json"
+  },
+  "author": {
+    "name": "Pi-Apps",
+    "email": "youremailaddress@example.com",
+    "url": "https://pi-apps.io/about/"
+  }
+}
