@@ -121,6 +121,10 @@ pre>code.highlight {
 }
 
 @media (prefers-color-scheme: light) {
+  .token.punctuation {
+    color: #CF222E;
+  }
+  
   .token.operator,
   .token.boolean,
   .token.number {
