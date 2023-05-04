@@ -26,6 +26,7 @@ jobs:
           git clone --depth 1 https://github.com/Botspot/pi-apps.git /tmp/pi-apps
           cd $GITHUB_WORKSPACE
           cd src/wiki/getting-started
+          sed -i 's;\\"https://github.com/Botspot/pi-apps/blob/master/apps/$script_url/icon-64.png?raw=true\\";"/img/app-icons/$script/icon-64.png";g' /tmp/pi-apps/.github/workflows/update-wiki.sh
           GITHUB_WORKSPACE=/tmp/pi-apps /tmp/pi-apps/.github/workflows/update-wiki.sh
           cat Apps-List.md
           echo "---
@@ -37,6 +38,9 @@ jobs:
           cat Apps-List.md >> apps-list.md
           sed -i 's/blob/raw/' apps-list.md
           sed -i 's/^# /## /' apps-list.md
+
+          cd /tmp/pi-apps/apps
+          cp --parent ./*/icon-64.png $GITHUB_WORKSPACE/img/app-icons/
 
       - name: Push changes to repo
         uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
