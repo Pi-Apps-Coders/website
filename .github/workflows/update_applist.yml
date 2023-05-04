@@ -41,13 +41,12 @@ jobs:
             order: 6
           ---" > apps-list.md
           cat Apps-List.md >> apps-list.md
-          sed -i 's/blob/raw/' apps-list.md
           sed -i 's/^# /## /' apps-list.md
           
-          rm -rf $GITHUB_WORKSPACE/img/app-icons
-          mkdir -p $GITHUB_WORKSPACE/img/app-icons/
+          rm -rf $GITHUB_WORKSPACE/src/img/app-icons
+          mkdir -p $GITHUB_WORKSPACE/src/img/app-icons/
           cd /tmp/pi-apps/apps
-          cp --parent ./*/icon-64.png $GITHUB_WORKSPACE/img/app-icons/
+          cp --parent ./*/icon-64.png $GITHUB_WORKSPACE/src/img/app-icons/
 
       - name: Push changes to repo
         uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
