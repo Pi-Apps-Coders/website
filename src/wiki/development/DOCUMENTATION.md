@@ -81,12 +81,12 @@ On a default pi-apps installation, you will find this script at `/home/pi/pi-app
 The `manage` script will install apps, uninstall apps, and update apps. It can be compared to the `apt` tool on Debian Linux.
 #### Usage:
 The manage script won't do much if you run it standalone:
-```
+```bash
 $ ~/pi-apps/manage
+```
 You need to specify an operation, and in most cases, which app to operate on.
-```
 You need to tell the `manage` script to *do* something.
-```
+```bash
 $ ~/pi-apps/manage install Arduino
 ```
 Now we're getting somewhere! You just installed the Arduino app.
@@ -210,11 +210,11 @@ Alternatively, the `api` script supports running a single function *without* bei
 Note: new functions are added often. If you don't see a function on this list but do see it in the api, please let us know.
 - `error` - display a custom message in red and exit with a return code of `1`.
   Usage:
-  ```
+  ```bash
   error "The command 'sudo apt update' failed!"
   ```
   This is often seen at the end of a command with the `||` operator:
-  ```
+  ```bash
   sudo apt update || error "The command 'sudo apt update' failed!"
   ```
 - `warning` - Display a custom message in yellow and prefix it with "WARNING: ".
@@ -411,12 +411,12 @@ End of Flatpak functions. App functions below.
   - `list_apps local_only` will list apps that are **not** in the `update/pi-apps/apps` folder.
 - `list_intersect` - Takes two lists of apps and *intersects* them, meaning that only apps that are listed in **both** lists are returned.
   For example, this will show apps that are both cpu_installable and visible:
-  ```
+  ```bash
   list_apps cpu_installable | list_intersect "$(list_apps visible)"
   ```
 - `list_subtract` - Takes two lists of apps and *subtracts* one from other, meaning that only apps listed in the first list and **not** in the second list, are returned.
   For example, this will show apps that are *not* compatible with your system's architecture:
-  ```
+  ```bash
   list_apps local | list_subtract "$(list_apps cpu_installable)"
   ```
 - `read_category_files` - Generates a list of categories; data compiled from the `data/category-overrides` and `etc/categories` files, with added support for unlisted apps.
@@ -431,12 +431,12 @@ End of Flatpak functions. App functions below.
     - Another Github Actions script uploads shlink's statistics to the [pi-apps-analytics](https://github.com/Botspot/pi-apps-analytics) repository, which can then be retrieved by Pi-Apps clients through the `usercount` function, explained below. 
 - `usercount` - returns the number of users an app has, based on the current number in the [pi-apps-analytics](https://github.com/Botspot/pi-apps-analytics) repository.
   To display the number of users for the Arduino app:
-  ```
+  ```bash
   usercount Arduino
   ```
 - `script_name` - returns name of install script(s) for the specified app. Possible outputs: '', 'install', 'install-32', 'install-64', 'install-32 install-64'
   Usage:
-  ```
+  ```bash
   script_name Arduino
   ```
 - `script_name_cpu` - Given an app, this returns the name of the app's installation script that would be run if you ran it.
@@ -630,7 +630,7 @@ To revert all settings to their default values:
 Each setting is stored in *two* places in the main pi-apps folder:
 - The setting's possible values, default value, and explanation is stored in the `etc/setting-params` folder.
   - For example, the `etc/setting-params/App List Style` file contains:
-    ```
+    ```bash
     #Pi-Apps can display the apps as a compact list (yad), or as a group of larger icons. (xlunch)
     yad
     xlunch-dark
@@ -639,17 +639,17 @@ Each setting is stored in *two* places in the main pi-apps folder:
     ```
   - All commented lines are the explanation, also known as the tooltip.
     - For this file, it is:
-      ```
+      ```bash
       #Pi-Apps can display the apps as a compact list (yad), or as a group of larger icons. (xlunch)
       ```
   - The first uncommented line is the default value for the setting.
     - For this file, it is:
-      ```
+      ```bash
       yad
       ```
   - Subsequent uncommented lines are additional possible values.
     - For this file, they are:
-      ```
+      ```bash
       xlunch-dark
       xlunch-dark-3d
       xlunch-light-3d
@@ -805,7 +805,7 @@ Updater scripts have access to a few special functions and scripts that normal p
 It is easier to explain with an example of an updater script.
 
 #### Github release example:<br>
-```
+```bash
 #!/bin/bash
 
 webVer=$(get_release angryip/ipscan)
@@ -815,7 +815,7 @@ source $GITHUB_WORKSPACE/.github/workflows/update_github_script.sh
 ```
 This is Angry IP scanners's update script. New releases of the .deb are posted on the `angrypi/scan` github, so a few times a day, the pi-apps github actions runs this script to check for new releases of Angry IP Scanner.
 There are a few special functions designed for github scripts to use, so that they can obtain the latest app version.
-```
+```bash
 get_release() {
   curl --silent "https://api.github.com/repos/$1/releases/latest" | jq -r '.tag_name' | sed s/v//g
 }
@@ -828,7 +828,7 @@ get_prerelease() {
 
 For pi-apps install scripts written with this in mind, this version number can be used to automatically generate a pi-apps PR with the updated version. Simply set the URL of the deb/binary found on the github with the `webVer` variable substituted in `all_url` for install scripts, `armhf_url` for install-32 scripts, and `arm64_url` for install-64 scripts, and call the update_github_script. Pi-apps install scripts should be formated with a `version` varaible for this automatic script to update with the latest version.<br>
 See angry ip scanners's `install` file for an example:
-```
+```bash
 #!/bin/bash
 
 version=3.8.2
@@ -838,7 +838,7 @@ install_packages openjdk-11-jdk rpm fakeroot "https://github.com/angryip/ipscan/
 #### Debian repo example:<br>
 For apps which are published to a debian repo, but it is not desired to add the repo to a users install, the update_debian_repo_script can be used to automatically update an apps install scripts.
 
-```
+```bash
 #!/bin/bash
 
 armhf_webPackages="https://apt.raspbian-addons.org/debian/dists/precise/main/binary-armhf/Packages"
@@ -858,7 +858,7 @@ Finally, to update the pi-apps scripts, we call the update_debian_repo_script as
 
 The corresponding app install scripts in pi-apps should contain a `filename` variable (`filename_32` and `filename_64` if there are separate armhf and arm64 filenames in the same `install` script) with the entire URL path of the .deb file contained.<br>
 See antimicrox's `install-64` file for an example:
-```
+```bash
 #!/bin/bash
 
 filepath="https://apt.raspbian-addons.org/debian/pool/main/a/antimicrox/antimicrox_3.2.1_arm64.deb"
