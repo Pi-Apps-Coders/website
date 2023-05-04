@@ -33,7 +33,6 @@ jobs:
           cd src/wiki/getting-started
           sed -i 's;\\"https://github.com/Botspot/pi-apps/blob/master/apps/$script_url/icon-64.png?raw=true\\";\\"/img/app-icons/$script/icon-64.png\\";g' /tmp/pi-apps/.github/workflows/update-wiki.sh
           GITHUB_WORKSPACE=/tmp/pi-apps /tmp/pi-apps/.github/workflows/update-wiki.sh
-          cat Apps-List.md
           echo "---
           layout: layouts/wiki-toc.njk
           eleventyNavigation:
@@ -43,6 +42,8 @@ jobs:
           ---" > apps-list.md
           cat Apps-List.md >> apps-list.md
           sed -i 's/^# /## /' apps-list.md
+
+          rm Apps-List.md
           
           rm -rf $GITHUB_WORKSPACE/src/img/app-icons
           mkdir -p $GITHUB_WORKSPACE/src/img/app-icons/
