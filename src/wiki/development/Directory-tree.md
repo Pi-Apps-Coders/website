@@ -37,10 +37,10 @@ eleventyNavigation:
        - `LIST-*` These files contain the app list for a given category. The entire file's contents is piped into the YAD dialog box when the time comes.
      - `settings/` This stores the user's settings saved by the 'Pi-Apps Settings' window. Each file contains one setting. For example, the file `settings/Preferred text editor` contains "geany" by default.
      - `status/` This folder stores all installation information for all apps.
-     If you install Zoom, then the `status/Zoom` file will be created, containing "installed". Installed apps will have this status icon in the app list: ![installed](/img/installed.png?raw=true)  
-     If installation was unsuccessful, then the file will contain "corrupted", and the corresponding icon looks like: ![corrupted](/img/corrupted.png?raw=true)  
-     If the app has been uninstalled successfully, the file contains "uninstalled" and the icon is ![uninstalled](/img/uninstalled.png?raw=true)  
-     If the app has never been installed or uninstalled, then its `status` file will not exist. The icon for that is: ![none](/img/none.png?raw=true). Notice the subtle difference between this icon and the "uninstalled" icon.
+     If you install Zoom, then the `status/Zoom` file will be created, containing "installed". Installed apps will be green in the apps list.  
+     If installation was unsuccessful, then the file will contain "corrupted", and the corresponding color is yellow.
+     If the app has been uninstalled successfully, the file contains "uninstalled", and the corresponding color is red.
+     If the app has never been installed or uninstalled, then its `status` file will not exist.
      - `update-status/` This folder keeps track of which apps can be updated. Each file's name is of an app, so `update-status/Zoom` stores the update status of the Zoom app. This folder is refreshed whenever `~/pi-apps/manage check-all` is run.
      "latest" means that app is up to date.
      "new" means that app is new from the repository. (in other words, it does not exist locally)
