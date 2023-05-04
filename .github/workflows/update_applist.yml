@@ -26,7 +26,7 @@ jobs:
           git clone --depth 1 https://github.com/Botspot/pi-apps.git /tmp/pi-apps
           cd $GITHUB_WORKSPACE
           cd src/wiki/getting-started
-          /tmp/pi-apps/.github/workflows/update-wiki.sh
+          GITHUB_WORKSPACE=/tmp/pi-apps /tmp/pi-apps/.github/workflows/update-wiki.sh
           cat Apps-List.md
 
       - name: Push changes to repo
