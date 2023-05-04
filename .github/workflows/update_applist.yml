@@ -1,6 +1,9 @@
 name: Update Applist
 # Controls when the workflow will run
 on:
+  push:
+    paths:
+    - '.github/workflows/update_applist.sh'
   # run at 2:00 UTC every day
   schedule:
      - cron: '0 2 * * *'
