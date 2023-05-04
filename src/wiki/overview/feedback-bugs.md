@@ -2,7 +2,7 @@
 eleventyNavigation:
   key: Feedback & Bugs
   parent: Overview
-  order: 2
+  order: 1
 ---
 
 # Feedback and Bugs

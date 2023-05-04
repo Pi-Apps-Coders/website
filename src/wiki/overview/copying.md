@@ -2,7 +2,7 @@
 eleventyNavigation:
   key: Copying
   parent: Overview
-  order: 5
+  order: 2
 ---
 
 ## Pi-Apps
