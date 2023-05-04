@@ -2,11 +2,11 @@
     border-bottom: 2px solid var(--primary-text-muted);
 }
 
-.wiki-content, .wiki-content-thin, .wiki-toc, .wiki-toc-right {
+.wiki-content, .wiki-content-thin, .wiki-toc, .wiki-toc-right, .wiki-toc-right-no-pad {
   margin-top: 1em;
 }
 
-.wiki-toc, .wiki-toc-right {
+.wiki-toc, .wiki-toc-right, .wiki-toc-right-no-pad {
   background-color: var(--accent);
   border-radius: 1em;
   padding: 1em;
@@ -15,7 +15,7 @@
   flex: 1;
 }
 
-.wiki-toc-right {
+.wiki-toc-right-no-pad {
   padding-left: 0;
   padding-right: 1em;
 }
@@ -146,7 +146,7 @@
   .wiki-toc {
     margin-right: 1em;
   }
-  .wiki-toc-right {
+  .wiki-toc-right, .wiki-toc-right-no-pad {
     margin-left: 1em;
   }
 }

@@ -95,8 +95,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginTOC, {
     tags: ['h2', 'h3'],
-    wrapper: 'div',
-    wrapperClass: 'wiki-toc-right'
+    wrapper: '',
+    wrapperClass: '',
+    ul: true,
   });
 
   // Add shortcodes

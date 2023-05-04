@@ -3,9 +3,16 @@ layout: layouts/main.njk
 templateClass: tmpl-wiki
 ---
 <div class="row row-reverse">
-  {{ content | toc | safe }}
-
-  <div class="wiki-content-thin content">
+  <div class="wiki-toc-right-no-pad">
+    {{ content | toc | safe }}
+    <div class="wiki-toc-right">
+      {%- if eleventyNavigation -%}
+        {%- set navKey = eleventyNavigation.key -%}
+      {%- endif -%}
+      {{ collections.wiki | eleventyNavigation | eleventyNavigationToHtml({ activeKey: navKey, listClass: 'wiki-toc-list', activeListItemClass: 'wiki-toc-active' }) | safe }}
+    </div>
+  </div>
+  <div class="wiki-content content">
     {{ content | safe }}
     
     {% if eleventyNavigation and eleventyNavigation.key %}
@@ -18,11 +25,5 @@ templateClass: tmpl-wiki
     {% endif %}
 
     {% endif %}
-  </div>
-  <div class="wiki-toc">
-    {%- if eleventyNavigation -%}
-      {%- set navKey = eleventyNavigation.key -%}
-    {%- endif -%}
-    {{ collections.wiki | eleventyNavigation | eleventyNavigationToHtml({ activeKey: navKey, listClass: 'wiki-toc-list', activeListItemClass: 'wiki-toc-active' }) | safe }}
   </div>
 </div>
