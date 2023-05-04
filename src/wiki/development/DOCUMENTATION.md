@@ -47,11 +47,13 @@ There are a few files in each app-folder:
 - `install-64` - This is a bash script to install the app on 64-bit operating systems.
   - Naming the script "install-64" indicates that it is designed for the 64-bit CPU architecture only.
   - If no "install-32" script exists, then **this app will only be displayed on 64-bit systems.**
-- `uninstall` - This is a bash script to uninstall the app.
-- `icon-24.png` and `icon-64.png` - These are the app's icons.
+- `uninstall` - This script uninstalls the app. 
+  - It must undo all changes made during install, but with one exception: **It must not permanently delete any user-generated config!** [We don't want people's Minecraft worlds being deleted during an update.](https://github.com/Botspot/pi-apps/issues/44)
+- `icon-24.png` - This is a 24x24 pixel icon that is displayed in the app list.
+- `icon-64.png` - This is a 64x64 pixel icon that is displayed in the Details page.
 - `description` - This is a text file to explain what the app is, how it works, and why anybody would want it.
   - The first line of this file is used as the **tooltip** (mouse hover-text) in the list of apps.
-- `credits` - This is a text file to give credit to the person who made the app.
+- `credits` - Contains credits for the app. This file may mention who created the app originally, who compiled it, who submitted it to Pi-Apps, etc. Few apps use this file.
 - `website` - This is a text file containing the website URL of a given project.
   - Usually it points to a website where users can learn more about the app.
 ## The main Pi-Apps folder
