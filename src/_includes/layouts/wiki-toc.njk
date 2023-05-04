@@ -3,7 +3,9 @@ layout: layouts/main.njk
 templateClass: tmpl-wiki
 ---
 <div class="row row-reverse">
-  <div class="wiki-content content">
+  {{ content | toc | safe }}
+
+  <div class="wiki-content-thin content">
     {{ content | safe }}
     
     {% if eleventyNavigation and eleventyNavigation.key %}

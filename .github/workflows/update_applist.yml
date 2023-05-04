@@ -35,6 +35,7 @@ jobs:
           GITHUB_WORKSPACE=/tmp/pi-apps /tmp/pi-apps/.github/workflows/update-wiki.sh
           cat Apps-List.md
           echo "---
+          layout: layouts/wiki-toc.njk
           eleventyNavigation:
             key: Apps List
             parent: Getting Started

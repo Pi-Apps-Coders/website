@@ -2,17 +2,22 @@
     border-bottom: 2px solid var(--primary-text-muted);
 }
 
-.wiki-content, .wiki-toc {
+.wiki-content, .wiki-content-thin, .wiki-toc, .wiki-toc-right {
   margin-top: 1em;
 }
 
-.wiki-toc {
+.wiki-toc, .wiki-toc-right {
   background-color: var(--accent);
   border-radius: 1em;
   padding: 1em;
   font-size: 1rem;
   /* Reset */
   flex: 1;
+}
+
+.wiki-toc-right {
+  padding-left: 0;
+  padding-right: 1em;
 }
 
 .wiki-toc-list {
@@ -135,7 +140,13 @@
   .wiki-content {
     width: 80%
   }
+  .wiki-content-thin {
+    width: 60%
+  }
   .wiki-toc {
     margin-right: 1em;
+  }
+  .wiki-toc-right {
+    margin-left: 1em;
   }
 }
