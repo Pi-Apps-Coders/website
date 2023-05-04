@@ -159,6 +159,11 @@ code {
   background-color: var(--code);
 }
 
+:not(pre)>code {
+  background-color: #AFB8C133;
+  padding: 0.18em;
+}
+
 @media (prefers-color-scheme: light) {
   code {
     color: #1F2328;
