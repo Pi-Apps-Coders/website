@@ -169,7 +169,7 @@ module.exports = function (eleventyConfig) {
       level: [1, 2, 3, 4],
     }),
     slugify: eleventyConfig.getFilter("slug"),
-  }).use(markdownItTableOfContents, {"includeLevel": [1,2,3]});
+  }).use(markdownItTableOfContents, {"includeLevel": [2]});
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   return {

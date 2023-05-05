@@ -7,25 +7,9 @@ eleventyNavigation:
 
 # Inside Pi-Apps: everything a power-user should know
 This guide will attempt to explain how Pi-Apps works. By nature, this cannot be complete, so feel free to look through the scripts yourself and ask the Pi-Apps developers questions.
-## Table of contents
-- [Introduction](#introduction)
-- [The app-folder](#the-app-folder)
-- [The main Pi-Apps folder](#the-main-pi-apps-folder)
-- [The App Status folder](#the-app-status-folder)
-- [The `manage` script](#the-manage-script)
-- [The `updater` script](#the-updater-script)
-- [The `api` script and available functions](#the-api-script)
-- [The `gui` script](#the-gui-script)
-- [The `createapp` script](#the-createapp-script)
-- [The `settings` script](#the-settings-script)
-- [The `preload` script](#the-preload-script)
-- [The `preload-daemon` script](#the-preload-daemon-script)
-- [The `terminal-run` script](#the-terminal-run-script)
-- [The `categoryedit` script](#the-categoryedit-script)
-- [The `logviewer` script](#the-logviewer-script)
-- [The `viewlog` script](#the-viewlog-script)
-- [Automatic app updaters](#automatic-app-updaters)
-# How Pi-Apps works
+
+[[toc]]
+
 ## Introduction
 - Pi-Apps is written in **`bash`**. This is a scripting language for Linux, with origins in the 80s. Bash is not a compiled language like C, it's an interpreted language, similar to Python and Windows .bat files.  
   Bash serves a different purpose than a compiled language: orchestrating OS-level events and prioritizing programming-time over execution-time. It is system-dependent and architecture-dependent.  
