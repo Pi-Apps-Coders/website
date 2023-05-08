@@ -6,7 +6,14 @@
   margin-top: 1em;
 }
 
+.wiki-toc-right-no-pad ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+}
+
 .wiki-toc, .wiki-toc-right, .wiki-toc-right-no-pad {
+  overflow: hidden;
   background-color: var(--accent);
   border-radius: 1em;
   padding: 1em;
