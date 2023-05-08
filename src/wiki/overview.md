@@ -13,7 +13,7 @@ Pi-Apps, a well-maintained collection of app installation-scripts that you can r
 
 If your application is on Pi-Apps, please consider adding this pretty badge/hyperlink to your README (dark and light modes available):  
 
-[![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)  [![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge-light.png?raw=true)](https://github.com/Botspot/pi-apps)
+[![badge](/img/badge.png)](https://github.com/Botspot/pi-apps)  [![badge](/img/badge-light.png)](https://github.com/Botspot/pi-apps)
 
 Embed code (Dark):  
 ```
