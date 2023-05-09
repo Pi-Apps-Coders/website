@@ -7,9 +7,7 @@ eleventyNavigation:
 
 # Welcome to the Pi-Apps Wiki!
 
-If you're new to Pi-Apps and not quite sure where to begin, please go to [Getting Started](./getting-started).
-
-Pi-Apps, a well-maintained collection of app installation-scripts that you can run with one click.
+Just select a topic from the list on the left or below. If you're new to Pi-Apps, the [Getting Started](./getting-started) section is a good place to begin.
 
 If your application is on Pi-Apps, please consider adding this pretty badge/hyperlink to your README (dark and light modes available):  
 
