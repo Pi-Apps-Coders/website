@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Update Buddy
-
-### <img src="/img/app-icons/Update Buddy/icon-64.png" height=32> ***[Update Buddy](https://github.com/Botspot/pi-apps/tree/master/apps/Update%20Buddy)***
-https://github.com/Botspot/update-buddy<br />
-ARM32/ARM64 - 12661 Users!!
+## Install <img src="/img/app-icons/Update Buddy/icon-64.png" height=24> ***[Update Buddy](https://github.com/Botspot/pi-apps/tree/master/apps/Update%20Buddy)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Automatically check for APT updates on boot.
-If anything can be upgraded, asks permission to upgrade.
-To run: should run automatically on startup.
-To run in a terminal: ~/update-buddy/onstartup.sh
+~/pi-apps/manage install "Update Buddy"
 ```

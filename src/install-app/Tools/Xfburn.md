@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Xfburn
-
-### <img src="/img/app-icons/Xfburn/icon-64.png" height=32> ***[Xfburn](https://github.com/Botspot/pi-apps/tree/master/apps/Xfburn)***
-https://docs.xfce.org/apps/xfburn/start - @Rak1ta (GitHub)<br />
-ARM32/ARM64 - 17033 Users!!
+## Install <img src="/img/app-icons/Xfburn/icon-64.png" height=24> ***[Xfburn](https://github.com/Botspot/pi-apps/tree/master/apps/Xfburn)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Xfburn is a tool to help burning CDs and DVDs. It fits well in the Xfce Desktop Environment but can be used anywhere.
-
-To run: Menu -> Multimedia -> Xfburn
-To run in terminal: xfburn
+~/pi-apps/manage install "Xfburn"
 ```

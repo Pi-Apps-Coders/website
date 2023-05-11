@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Amiberry
-
-### <img src="/img/app-icons/Amiberry/icon-64.png" height=32> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***
-https://github.com/midwan/amiberry/ - Program created by Dimitris Panokostas (midwan) on GitHub.
-Debian packages created by @ryanfortner (GitHub)
-Scripts created by @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 2840 Users!
+## Install <img src="/img/app-icons/Amiberry/icon-64.png" height=24> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Amiberry is a well-optimized, high-performance emulator for running Amiga games on low-power ARM boards like Raspberry Pi.
-
-Run it via the main Menu > Games > Amiberry.
+~/pi-apps/manage install "Amiberry"
 ```

@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Epiphany
-
-### <img src="/img/app-icons/Epiphany/icon-64.png" height=32> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***
-https://gitlab.gnome.org/GNOME/epiphany - open-sorcerrer64<br />
-ARM32/ARM64 - 4682 Users!
+## Install <img src="/img/app-icons/Epiphany/icon-64.png" height=24> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Epiphany is a lightweight web browser based on the WebKit rendering engine. It is also known as GNOME Web.
-
-Epiphany is the default web browser for GNOME desktop and elementary OS. Epiphany was the default web browser for Raspberry Pi OS (then, Raspbian) until 28th Sep 2016, when ditched for chromium. 
-
-To run: Menu  -> Internet -> Epiphany Web Browser
+~/pi-apps/manage install "Epiphany"
 ```

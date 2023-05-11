@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Conky Rings
-
-### <img src="/img/app-icons/Conky Rings/icon-64.png" height=32> ***[Conky Rings](https://github.com/Botspot/pi-apps/tree/master/apps/Conky%20Rings)***
-https://github.com/Botspot/rpi_conky/tree/master/conky_rings - phoenixbyrd for the files
-ryanfortner for the scripts
-Botspot for coloring the theme<br />
-ARM32/ARM64 - 4288 Users!
+## Install <img src="/img/app-icons/Conky Rings/icon-64.png" height=24> ***[Conky Rings](https://github.com/Botspot/pi-apps/tree/master/apps/Conky%20Rings)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Animated gauges and graphs of your system, on your desktop.
-Displays system uptime, core-specific CPU usage, CPU speed, CPU temperature, top 5 processes by CPU usage, storage usage for boot and root partitions, RAM usage, SWAP usage, top 5 processes by RAM usage, and describes the current Linux environment.
+~/pi-apps/manage install "Conky Rings"
 ```

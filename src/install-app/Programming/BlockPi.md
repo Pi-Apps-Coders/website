@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install BlockPi
-
-### <img src="/img/app-icons/BlockPi/icon-64.png" height=32> ***[BlockPi](https://github.com/Botspot/pi-apps/tree/master/apps/BlockPi)***
-https://github.com/alienzhangyw/BlockPi - Botspot made the app's install scripts<br />
-ARM32/ARM64 - 4244 Users!
+## Install <img src="/img/app-icons/BlockPi/icon-64.png" height=24> ***[BlockPi](https://github.com/Botspot/pi-apps/tree/master/apps/BlockPi)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Create python programs using drag-n-drop blocks
-A visual programming editor app for Raspberry Pi, built on Google Blockly, made for RPi users or kids to learn coding.
-
-To run: Menu -> Programming -> BlockPi
-To run in a terminal: /opt/BlockPi/blockpi
+~/pi-apps/manage install "BlockPi"
 ```

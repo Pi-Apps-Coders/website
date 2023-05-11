@@ -8,23 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Timeshift
-
-### <img src="/img/app-icons/Timeshift/icon-64.png" height=32> ***[Timeshift](https://github.com/Botspot/pi-apps/tree/master/apps/Timeshift)***
-https://github.com/linuxmint/timeshift - app created by: teejee2008 
-https://github.com/teejee2008/
-
-maintenance taken on by linuxmint:
-https://github.com/linuxmint/timeshift
-
-Added and updated on pi-apps: Itai-Nelken and theofficialgman
-https://github.com/Itai-Nelken/
-https://github.com/theofficialgman<br />
-ARM32/ARM64 - 5373 Users!
+## Install <img src="/img/app-icons/Timeshift/icon-64.png" height=24> ***[Timeshift](https://github.com/Botspot/pi-apps/tree/master/apps/Timeshift)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-System restore tool for Linux that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS.
-Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.
-
-To run GUI: Menu -> Tools -> Timeshift
-to run CLI interface from terminal: timeshift
+~/pi-apps/manage install "Timeshift"
 ```

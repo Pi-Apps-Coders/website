@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Chromium
-
-### <img src="/img/app-icons/Chromium/icon-64.png" height=32> ***[Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium)***
-Botspot<br />
-ARM32/ARM64 - 172437 Users!!
+## Install <img src="/img/app-icons/Chromium/icon-64.png" height=24> ***[Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Open-source version of Google Chrome.
-If you are using Raspberry Pi OS, this browser has been optimized by the Raspberry Pi Foundation to include hardware acceleration and other various performance improvements.
-
-To play Netflix, Spotify, or other protected multimedia streams, see the Chromium Widevine app.
-To install an older version of Chromium, see the Downgrade Chromium app.
-To improve Chromium with features such as Google sync, dark mode, performance improvements, and reducing SD card writes, see the Better Chromium app.
+~/pi-apps/manage install "Chromium"
 ```

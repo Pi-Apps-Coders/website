@@ -8,18 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install GIMP
-
-### <img src="/img/app-icons/GIMP/icon-64.png" height=32> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
-https://www.gimp.org/ - Made by The GIMP Team
-Added to Pi Apps by Lightstrike on Discord<br />
-ARM32/ARM64 - 33435 Users!!
+## Install <img src="/img/app-icons/GIMP/icon-64.png" height=24> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Create images and edit photographs
-
-GIMP stands for "GNU Image Manipulation Program".
-Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.
-
-To run: Menu -> Graphics -> GNU Image Manipulation Program
-To run in terminal: gimp
+~/pi-apps/manage install "GIMP"
 ```

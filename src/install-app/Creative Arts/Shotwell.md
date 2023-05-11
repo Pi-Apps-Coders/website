@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Shotwell
-
-### <img src="/img/app-icons/Shotwell/icon-64.png" height=32> ***[Shotwell](https://github.com/Botspot/pi-apps/tree/master/apps/Shotwell)***
-https://shotwell-project.org/doc/html/ - Botspot<br />
-ARM32/ARM64 - 14882 Users!!
+## Install <img src="/img/app-icons/Shotwell/icon-64.png" height=24> ***[Shotwell](https://github.com/Botspot/pi-apps/tree/master/apps/Shotwell)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Organize, edit, and publish your photos.
-To run: Menu -> Graphics -> Shotwell
-To run in terminal: shotwell
+~/pi-apps/manage install "Shotwell"
 ```

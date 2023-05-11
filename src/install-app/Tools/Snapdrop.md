@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Snapdrop
-
-### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
-https://github.com/RobinLinus/snapdrop - @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 5660 Users!
+## Install <img src="/img/app-icons/Snapdrop/icon-64.png" height=24> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
-To run: Menu -> Internet -> Snapdrop
-To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
-Now drag and drop files to the website, and the other device will see the files and download them.
+~/pi-apps/manage install "Snapdrop"
 ```

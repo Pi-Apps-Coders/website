@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Boxy SVG
-
-### <img src="/img/app-icons/Boxy SVG/icon-64.png" height=32> ***[Boxy SVG](https://github.com/Botspot/pi-apps/tree/master/apps/Boxy%20SVG)***
-https://boxy-svg.com/ - Botspot<br />
-ARM32/ARM64 - 3866 Users!
+## Install <img src="/img/app-icons/Boxy SVG/icon-64.png" height=24> ***[Boxy SVG](https://github.com/Botspot/pi-apps/tree/master/apps/Boxy%20SVG)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-The best vector graphics image editor for Raspberry Pi.
-Performance is excellent, and I (Botspot) use it on my RPi for for all graphics editing. (Including the Pi-Apps logo!)
-
-Note: also see the Inkscape app.
+~/pi-apps/manage install "Boxy SVG"
 ```

@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Clam Antivirus
-
-### <img src="/img/app-icons/Clam Antivirus/icon-64.png" height=32> ***[Clam Antivirus](https://github.com/Botspot/pi-apps/tree/master/apps/Clam%20Antivirus)***
-https://gitlab.com/dave_m/clamtk<br />
-ARM32/ARM64 - 10432 Users!!
+## Install <img src="/img/app-icons/Clam Antivirus/icon-64.png" height=24> ***[Clam Antivirus](https://github.com/Botspot/pi-apps/tree/master/apps/Clam%20Antivirus)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Open-source antivirus for your pi
-Run with the command "clamtk" or go to Menu > Utility > ClamTK.
- ∙ Open source
- ∙ Install it, set a schedule and forget it
- ∙ Scans your entire filesystem
- ∙ Moves suspicious files to quaratine 
- ∙ Has a GUI to control it
+~/pi-apps/manage install "Clam Antivirus"
 ```

@@ -8,21 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Remarkable
-
-### <img src="/img/app-icons/Remarkable/icon-64.png" height=32> ***[Remarkable](https://github.com/Botspot/pi-apps/tree/master/apps/Remarkable)***
-https://remarkableapp.github.io - Added to Pi-Apps by Itai-Nelken.
-Thanks to seiferteric on GitHub for providing the DEB package fix.<br />
-ARM32/ARM64 - 1491 Users
+## Install <img src="/img/app-icons/Remarkable/icon-64.png" height=24> ***[Remarkable](https://github.com/Botspot/pi-apps/tree/master/apps/Remarkable)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A fully featured Markdown editor for Linux.
-Remarkable has many features including:
-- Live Preview with Synchronized Scrolling
-- Syntax Highlighting
-- GitHub Flavored Markdown Support
-- HTML and PDF Export
-- Dialogs for adding images, links and tables
-- Styles
-- Custom CSS Support
-- Keyboard Shortcuts
+~/pi-apps/manage install "Remarkable"
 ```

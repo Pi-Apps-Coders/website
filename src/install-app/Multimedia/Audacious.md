@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Audacious
-
-### <img src="/img/app-icons/Audacious/icon-64.png" height=32> ***[Audacious](https://github.com/Botspot/pi-apps/tree/master/apps/Audacious)***
-https://audacious-media-player.org/ - Botspot<br />
-ARM32/ARM64 - 20775 Users!!
+## Install <img src="/img/app-icons/Audacious/icon-64.png" height=24> ***[Audacious](https://github.com/Botspot/pi-apps/tree/master/apps/Audacious)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Lightweight but flexible audio player
-This is a playlist-style audio player, allowing you to drag folders and files to the list. It includes numerous audio effects, visualizations, and skins - even several Winamp ones!
-To run: Menu -> Sound & Video -> Audacious
-To run in a terminal: audacious
+~/pi-apps/manage install "Audacious"
 ```

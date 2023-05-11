@@ -8,24 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install BleachBit
-
-### <img src="/img/app-icons/BleachBit/icon-64.png" height=32> ***[BleachBit](https://github.com/Botspot/pi-apps/tree/master/apps/BleachBit)***
-https://www.bleachbit.org/<br />
-ARM32/ARM64 - 5768 Users!
+## Install <img src="/img/app-icons/BleachBit/icon-64.png" height=24> ***[BleachBit](https://github.com/Botspot/pi-apps/tree/master/apps/BleachBit)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer. Not outdated like the APT repo's BleachBit.
-
-Like CCleaner on Windows, BleachBit frees space by deleting unimportant files and helps maintain your privacy by deleting sensitive data. 
-And, just like CCleaner, there’s more you can do with BleachBit than just clicking a single button.
-
-Better than free, BleachBit is open source.
-
-Comparison to APT version:
-- Nicer GUI look
-- With Abort function
-- With many function not included in APT version (Shred path from clipboard,make chaff and etc)
-- Clean deeper
-- Official dark theme support
-- Support showing debug messages
+~/pi-apps/manage install "BleachBit"
 ```

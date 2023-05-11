@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Geekbench
-
-### <img src="/img/app-icons/Geekbench/icon-64.png" height=32> ***[Geekbench](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench)***
-https://www.geekbench.com/<br />
-ARM32/ARM64 - 4747 Users!
+## Install <img src="/img/app-icons/Geekbench/icon-64.png" height=24> ***[Geekbench](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Geekbench 5 is a cross-platform benchmark that measures your system's performance with the press of a button. 
-How will your mobile device or desktop computer perform when push comes to crunch? 
-How will it compare to the newest devices on the market? 
-Find out today with Geekbench 5.
-
-To run in terminal: geekbench
+~/pi-apps/manage install "Geekbench"
 ```

@@ -8,24 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Marathon
-
-### <img src="/img/app-icons/Marathon/icon-64.png" height=32> ***[Marathon](https://github.com/Botspot/pi-apps/tree/master/apps/Marathon)***
-https://https://alephone.lhowon.org - Rak1ta on github for the install scripts
-theofficialgman for tweaking them and adding them to pi-apps
-The developers at https://github.com/Aleph-One-Marathon<br />
-ARM32/ARM64 - 602 Users
+## Install <img src="/img/app-icons/Marathon/icon-64.png" height=24> ***[Marathon](https://github.com/Botspot/pi-apps/tree/master/apps/Marathon)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Marathon, Marathon 2 and Marathon Infinity are single and online multiplayer old school 1st person shooter games.
-Aleph One is the open source continuation of Bungie™’s Marathon® 2 game engine and played these games.
-Many third party scenarios and net maps are also available. Available for Mac OS X, Windows, and Linux.
-This package includes the Marathon trilogy.
-
-To run:
-  Menu -> Games -> Marathon, Marathon 2, or Marathon Infinity
-
-To run in a terminal: 
-  /usr/local/bin/alephone ~/AlephOneData/Marathon/
-  /usr/local/bin/alephone ~/AlephOneData/Marathon_2/
-  /usr/local/bin/alephone ~/AlephOneData/Marathon_Infinity/
+~/pi-apps/manage install "Marathon"
 ```

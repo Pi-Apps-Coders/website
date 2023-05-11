@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Vivaldi
-
-### <img src="/img/app-icons/Vivaldi/icon-64.png" height=32> ***[Vivaldi](https://github.com/Botspot/pi-apps/tree/master/apps/Vivaldi)***
-https://vivaldi.com - Big thanks to chunky-milk for app idea and install script:
-https://github.com/chunky-milk/pi-bashscripts-files/tree/main/vivaldi
-
-Icon, description, and everything else required by pi-apps by Itai-Nelken<br />
-ARM32/ARM64 - 7063 Users!
+## Install <img src="/img/app-icons/Vivaldi/icon-64.png" height=24> ***[Vivaldi](https://github.com/Botspot/pi-apps/tree/master/apps/Vivaldi)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Fast, private browser with unique features.
-
-Official Vivaldi browser for ARM Linux.
+~/pi-apps/manage install "Vivaldi"
 ```

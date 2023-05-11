@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Lightpad
-
-### <img src="/img/app-icons/Lightpad/icon-64.png" height=32> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***
-https://github.com/libredeb/lightpad - Installation Script Made By RPICoder
-App Added To Pi-Apps by RPICoder<br />
-ARM32/ARM64 - 6075 Users!
+## Install <img src="/img/app-icons/Lightpad/icon-64.png" height=24> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-LightPad is a lightweight, simple and powerful application launcher.
-To run: Menu -> Accessories -> Lightpad
-To run in a terminal: com.github.libredeb.lightpad
+~/pi-apps/manage install "Lightpad"
 ```

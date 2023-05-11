@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Steam Link
-
-### <img src="/img/app-icons/Steam Link/icon-64.png" height=32> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
-Botspot<br />
-ARM32/ARM64 - 6779 Users!
+## Install <img src="/img/app-icons/Steam Link/icon-64.png" height=24> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-The Steam Link app brings desktop gaming to your Raspberry Pi. Just pair a controller to your device, connect to a computer running Steam on the same local network, and start playing your existing Steam games.
-To run: Menu -> Games -> Steam Link
-To run in a terminal: steamlink
+~/pi-apps/manage install "Steam Link"
 ```

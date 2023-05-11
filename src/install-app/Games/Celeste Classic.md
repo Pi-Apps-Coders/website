@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Celeste Classic
-
-### <img src="/img/app-icons/Celeste Classic/icon-64.png" height=32> ***[Celeste Classic](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste%20Classic)***
-lemon32767 for the classic celeste port
-theofficialgman for better controller support additions and the pi-apps script
-Matt Thorson and Noel Berry for making the original game<br />
-ARM32/ARM64 - 1285 Users
+## Install <img src="/img/app-icons/Celeste Classic/icon-64.png" height=24> ***[Celeste Classic](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste%20Classic)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-This is a C source port of the original celeste (Celeste classic) for the PICO-8, designed to be portable.
-
-This game can be played with controllers or with keyboard. The general mapping is found here: https://github.com/lemon32767/ccleste#controls
-
-To run: Menu -> Games -> Celeste Classic
+~/pi-apps/manage install "Celeste Classic"
 ```

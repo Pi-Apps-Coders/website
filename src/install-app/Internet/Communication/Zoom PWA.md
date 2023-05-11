@@ -8,19 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Zoom PWA
-
-### <img src="/img/app-icons/Zoom PWA/icon-64.png" height=32> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***
-https://github.com/Botspot/zoom-pwa - Botspot<br />
-ARM32/ARM64 - 1628 Users!
+## Install <img src="/img/app-icons/Zoom PWA/icon-64.png" height=24> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Web-app for Zoom
-This is basically a web browser running Zoom's new Progressive Web App. Performance is better in some ways and worse in others.
-This app should be considered a backup option, only used if the regular Zoom app doesn't work at all.
-Both versions can be installed at the same time and will not interfere with each another.
-
-Note: this app requires you to have chromium-browser, chromium, or google-chrome installed. Let us know if your Chromium-based browser is not detected by the script.
-
-To run: Menu -> Internet -> Zoom PWA
-To run in a terminal: cat ~/.local/share/applications/chrome-gbmplfifepjenigdepeahbecfkcalfhg-Zoom-PWA.desktop | grep Exec | sed 's/Exec=//g' | bash
+~/pi-apps/manage install "Zoom PWA"
 ```

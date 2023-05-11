@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install NixNote2
-
-### <img src="/img/app-icons/NixNote2/icon-64.png" height=32> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***
-https://github.com/baumgarr/Nixnote2 - Botspot<br />
-ARM32/ARM64 - 1360 Users
+## Install <img src="/img/app-icons/NixNote2/icon-64.png" height=24> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Take notes, organize your schedule, and save websites with this offline and open-source Evernote client.
-To run: Menu -> Internet -> NixNote2
-To run in a terminal: nixnote2
+~/pi-apps/manage install "NixNote2"
 ```

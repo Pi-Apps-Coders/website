@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install AnyDesk
-
-### <img src="/img/app-icons/AnyDesk/icon-64.png" height=32> ***[AnyDesk](https://github.com/Botspot/pi-apps/tree/master/apps/AnyDesk)***
-https://anydesk.com/en/downloads/raspberry-pi - @fabianmendes just brought it to the pi-apps.<br />
-ARM32 ONLY - 6615 Users!
+## Install <img src="/img/app-icons/AnyDesk/icon-64.png" height=24> ***[AnyDesk](https://github.com/Botspot/pi-apps/tree/master/apps/AnyDesk)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-AnyDesk is the ultimate remote desktop solution for editing and maintaining a desktop or server from a remote location using Linux on Raspberry Pi.
-Enjoy smooth and seamless remote operation of external computer systems.
-
-AnyDesk is free for private use and offers flexible license models for organizations.
-
-Run from Menu -> Internet -> AnyDesk
-Run from Terminal: anydesk
+~/pi-apps/manage install "AnyDesk"
 ```

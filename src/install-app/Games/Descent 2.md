@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Descent 2
-
-### <img src="/img/app-icons/Descent 2/icon-64.png" height=32> ***[Descent 2](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%202)***
-https://www.dxx-rebirth.com/<br />
-ARM32 ONLY - 2125 Users!
+## Install <img src="/img/app-icons/Descent 2/icon-64.png" height=24> ***[Descent 2](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%202)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-D2X-Rebirth - source port of Descent 2: Counterstrike from 1996
-This package installs the shareware version, if you own the full game you can copy the game data to ~/.d2x-rebirth directory (replacing existing files).
-To run: Menu -> Games -> Descent 2
-To run in a terminal: ~/.d1x-rebirth/d1x-rebirth-rpi -hogdir ~/.d1x-rebirth
-To exit: select "Quit" in the game's main menu.
+~/pi-apps/manage install "Descent 2"
 ```

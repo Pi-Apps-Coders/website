@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Ulauncher
-
-### <img src="/img/app-icons/Ulauncher/icon-64.png" height=32> ***[Ulauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Ulauncher)***
-https://ulauncher.io/ - RPiCoder on Discord recommended this.
-Botspot made the scripts.<br />
-ARM32/ARM64 - 6272 Users!
+## Install <img src="/img/app-icons/Ulauncher/icon-64.png" height=24> ***[Ulauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Ulauncher)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-All-in-one application launcher, Google search engine, calculator, file manager...
-This is the best app launcher I've ever seen, though it can be a bit slow when searching. - Botspot
+~/pi-apps/manage install "Ulauncher"
 ```

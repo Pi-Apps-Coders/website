@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Neofetch
-
-### <img src="/img/app-icons/Neofetch/icon-64.png" height=32> ***[Neofetch](https://github.com/Botspot/pi-apps/tree/master/apps/Neofetch)***
-https://github.com/dylanaraps/neofetch - App Credit: dylanaraps - (GitHub: https://github.com/dylanaraps)
-Patches: theofficialgman<br />
-ARM32/ARM64 - 24518 Users!!
+## Install <img src="/img/app-icons/Neofetch/icon-64.png" height=24> ***[Neofetch](https://github.com/Botspot/pi-apps/tree/master/apps/Neofetch)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-An aesthetically pleasing bash script to show system information.
-
-To run in terminal: 'neofetch'
-
-This version of Neofetch is better than what can be found by default from APT. It correctly detects CPU and GPU info on ARM systems - details which are hidden in the official version.
+~/pi-apps/manage install "Neofetch"
 ```

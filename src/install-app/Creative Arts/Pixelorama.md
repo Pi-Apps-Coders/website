@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Pixelorama
-
-### <img src="/img/app-icons/Pixelorama/icon-64.png" height=32> ***[Pixelorama](https://github.com/Botspot/pi-apps/tree/master/apps/Pixelorama)***
-https://orama-interactive.itch.io/pixelorama - Emmanouil Papadeas for writing Pixelorama
-
-theofficialgman for compiling godot and Pixelorama<br />
-ARM32/ARM64 - 567 Users
+## Install <img src="/img/app-icons/Pixelorama/icon-64.png" height=24> ***[Pixelorama](https://github.com/Botspot/pi-apps/tree/master/apps/Pixelorama)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Pixelorama is a free and open source pixel art editor, proudly created with the Godot Engine, by Orama Interactive.
-Whether you want to make animated pixel art, game graphics, tiles and any kind of pixel art you want, Pixelorama has you covered with its variety of tools and features. Free to use for everyone, forever!
+~/pi-apps/manage install "Pixelorama"
 ```

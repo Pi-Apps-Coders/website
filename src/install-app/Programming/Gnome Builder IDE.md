@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Gnome Builder IDE
-
-### <img src="/img/app-icons/Gnome Builder IDE/icon-64.png" height=32> ***[Gnome Builder IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Builder%20IDE)***
-https://wiki.gnome.org/Apps/Builder<br />
-ARM64 ONLY - 39 Users
+## Install <img src="/img/app-icons/Gnome Builder IDE/icon-64.png" height=24> ***[Gnome Builder IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Builder%20IDE)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Builder is an actively developed Integrated Development Environment for GNOME.
-It combines integrated support for essential GNOME technologies such as GTK+, GLib, and GNOME APIs with features that any developer will appreciate, like syntax highlighting and snippets.
-
-You can rely on predictable releases of Builder with each new release of GNOME every six months.
+~/pi-apps/manage install "Gnome Builder IDE"
 ```

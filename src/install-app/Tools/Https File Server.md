@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Https File Server
-
-### <img src="/img/app-icons/Https File Server/icon-64.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
-http://www.rejetto.com/hfs/?f=intro<br />
-ARM32 ONLY - 1473 Users
+## Install <img src="/img/app-icons/Https File Server/icon-64.png" height=24> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Simple file-sharing webserver. Other computers on your local network can connect to your computer from the web browser and download files you share.
-Or, you can enable port forwarding on your router so that anyone on the Internet can download your files.
-This app uses Wine to run a windows exe file.
-
-To launch: Menu -> Applications -> HTTPS File Server
+~/pi-apps/manage install "Https File Server"
 ```

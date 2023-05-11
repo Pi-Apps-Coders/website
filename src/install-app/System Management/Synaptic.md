@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Synaptic
-
-### <img src="/img/app-icons/Synaptic/icon-64.png" height=32> ***[Synaptic](https://github.com/Botspot/pi-apps/tree/master/apps/Synaptic)***
-https://www.lifewire.com/guide-to-synaptic-package-manager-220570y - Botspot<br />
-ARM32/ARM64 - 19867 Users!!
+## Install <img src="/img/app-icons/Synaptic/icon-64.png" height=24> ***[Synaptic](https://github.com/Botspot/pi-apps/tree/master/apps/Synaptic)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Advanced APT-package-management tool
-To run: Menu -> Preferences -> Synaptic Package Manager
-To run in terminal: sudo synaptic
+~/pi-apps/manage install "Synaptic"
 ```

@@ -8,12 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install PiGro
-
-### <img src="/img/app-icons/PiGro/icon-64.png" height=32> ***[PiGro](https://github.com/Botspot/pi-apps/tree/master/apps/PiGro)***
-https://github.com/actionschnitzel/PiGro-Aid-<br />
-ARM32/ARM64 - 10483 Users!!
+## Install <img src="/img/app-icons/PiGro/icon-64.png" height=24> ***[PiGro](https://github.com/Botspot/pi-apps/tree/master/apps/PiGro)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-PiGro is a program designed to make all Debian-based distributions easier to use on the Pi.
-The most common terminal commands can be executed with one click.
+~/pi-apps/manage install "PiGro"
 ```

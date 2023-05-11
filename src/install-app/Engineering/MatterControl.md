@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install MatterControl
-
-### <img src="/img/app-icons/MatterControl/icon-64.png" height=32> ***[MatterControl](https://github.com/Botspot/pi-apps/tree/master/apps/MatterControl)***
-https://mattercontrol.com - Botspot and theofficialgman<br />
-ARM32/ARM64 - 832 Users
+## Install <img src="/img/app-icons/MatterControl/icon-64.png" height=24> ***[MatterControl](https://github.com/Botspot/pi-apps/tree/master/apps/MatterControl)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-MatterControl is an all-in-one program to create, edit, slice, and manage your 3D prints.
-While not quite as popular as Cura or PrusaSlicer, this program offers features and supports printers that alternative programs don't.
-
-To run: Menu -> Accessories -> MatterControl
-To run in a terminal: mattercontrol
-Please note that when the window first opens that it will be black. Resizing or maximizing the window will solve this problem.
+~/pi-apps/manage install "MatterControl"
 ```

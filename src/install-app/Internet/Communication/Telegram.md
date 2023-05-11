@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Telegram
-
-### <img src="/img/app-icons/Telegram/icon-64.png" height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
-https://github.com/telegramdesktop/tdesktop<br />
-ARM64 ONLY - 5900 Users!
+## Install <img src="/img/app-icons/Telegram/icon-64.png" height=24> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Telegram is a free and open source, cross-platform, cloud-based instant messaging software. This service also provides end-to-end encrypted video calling, VoIP, file sharing and several other features. 
-
-To run: Menu -> Internet -> Telegram Desktop
-To run from terminal: flatpak run org.telegram.desktop
+~/pi-apps/manage install "Telegram"
 ```

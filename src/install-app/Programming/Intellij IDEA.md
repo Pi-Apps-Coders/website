@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Intellij IDEA
-
-### <img src="/img/app-icons/Intellij IDEA/icon-64.png" height=32> ***[Intellij IDEA](https://github.com/Botspot/pi-apps/tree/master/apps/Intellij%20IDEA)***
-https://www.jetbrains.com/idea/ - Thanks to GlacierPark19 for suggesting this app be added.
-Botspot made it.<br />
-ARM32/ARM64 - 3086 Users!
+## Install <img src="/img/app-icons/Intellij IDEA/icon-64.png" height=24> ***[Intellij IDEA](https://github.com/Botspot/pi-apps/tree/master/apps/Intellij%20IDEA)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-IntelliJ IDEA is an IDE designed to maximize developer productivity.
-It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
+~/pi-apps/manage install "Intellij IDEA"
 ```

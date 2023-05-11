@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Screenshot
-
-### <img src="/img/app-icons/Screenshot/icon-64.png" height=32> ***[Screenshot](https://github.com/Botspot/pi-apps/tree/master/apps/Screenshot)***
-https://apps.gnome.org/app/org.gnome.Screenshot - Botspot<br />
-ARM32/ARM64 - 16353 Users!!
+## Install <img src="/img/app-icons/Screenshot/icon-64.png" height=24> ***[Screenshot](https://github.com/Botspot/pi-apps/tree/master/apps/Screenshot)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Simple interface for capturing screenshots, similar to the Windows Snipping Tool.
-To run: Menu -> Accessories -> Screenshot
-To run in terminal: gnome-screenshot
+~/pi-apps/manage install "Screenshot"
 ```

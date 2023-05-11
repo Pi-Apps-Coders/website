@@ -8,18 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Powerline-Shell
-
-### <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=32> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***
-https://github.com/techcoder20/RPI-PowerlineShell-Installer.git - Installation Script Created By RPICoder
-Added To Pi Apps By Botspot<br />
-ARM32/ARM64 - 3148 Users!
+## Install <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=24> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh:
-
--Shows some important details about the git/svn/hg/fossil branch
--Changes color if the last command exited with a failure code
--If you're too deep into a directory tree, shortens the displayed path with an ellipsis
--Shows the current Python virtualenv environment
--It's easy to customize and extend.
+~/pi-apps/manage install "Powerline-Shell"
 ```

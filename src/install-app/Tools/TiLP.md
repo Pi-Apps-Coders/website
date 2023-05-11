@@ -8,11 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install TiLP
-
-### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
-https://github.com/debrouxl/tilp_and_gfm - @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 544 Users
+## Install <img src="/img/app-icons/TiLP/icon-64.png" height=24> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-TiLP is a linking program for Texas Instruments graphing calculators. It can transfer apps, programs, and more to a calculator.
+~/pi-apps/manage install "TiLP"
 ```

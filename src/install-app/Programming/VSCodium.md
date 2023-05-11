@@ -8,12 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install VSCodium
-
-### <img src="/img/app-icons/VSCodium/icon-64.png" height=32> ***[VSCodium](https://github.com/Botspot/pi-apps/tree/master/apps/VSCodium)***
-https://vscodium.com/ - Added to pi-apps by @ryanfortner (Github)<br />
-ARM32/ARM64 - 3096 Users!
+## Install <img src="/img/app-icons/VSCodium/icon-64.png" height=24> ***[VSCodium](https://github.com/Botspot/pi-apps/tree/master/apps/VSCodium)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Visual Studio Code builds without the telemetry and tracking.
-Microsoft's vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under this not-FLOSS license and contains telemetry/tracking.
+~/pi-apps/manage install "VSCodium"
 ```

@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install LibreOffice
-
-### <img src="/img/app-icons/LibreOffice/icon-64.png" height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
-https://www.libreoffice.org - Botspot<br />
-ARM32/ARM64 - 73343 Users!!
+## Install <img src="/img/app-icons/LibreOffice/icon-64.png" height=24> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
-To run: Menu -> Office -> LibreOffice
-To run in terminal: libreoffice
-To make it look and feel like Microsoft Office, see the "Libreoffice MS Theme" app!
+~/pi-apps/manage install "LibreOffice"
 ```

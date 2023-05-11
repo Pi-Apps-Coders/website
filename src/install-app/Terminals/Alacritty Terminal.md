@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Alacritty Terminal
-
-### <img src="/img/app-icons/Alacritty Terminal/icon-64.png" height=32> ***[Alacritty Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Alacritty%20Terminal)***
-https://github.com/alacritty/alacritty - theofficialgman for building the debs.
-barnumbirr on github for making the debian sources.<br />
-ARM32/ARM64 - 2125 Users!
+## Install <img src="/img/app-icons/Alacritty Terminal/icon-64.png" height=24> ***[Alacritty Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Alacritty%20Terminal)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A fast, cross-platform, OpenGL terminal emulator
-
-Run from Menu: Menu -> System Tools -> Alacritty
-Run from Terminal: alacritty
+~/pi-apps/manage install "Alacritty Terminal"
 ```

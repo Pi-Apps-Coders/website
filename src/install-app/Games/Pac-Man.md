@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Pac-Man
-
-### <img src="/img/app-icons/Pac-Man/icon-64.png" height=32> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***
-https://github.com/ebuc99/pacman - Pac-Man source code from ebuc99 on github https://github.com/ebuc99/pacman<br />
-ARM32/ARM64 - 5015 Users!
+## Install <img src="/img/app-icons/Pac-Man/icon-64.png" height=24> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Pac-Man clone in SLD2 and C/C++
-To run: Menu -> Games -> Pacman (SDL)
-To run in a terminal: pacman_sdl
+~/pi-apps/manage install "Pac-Man"
 ```

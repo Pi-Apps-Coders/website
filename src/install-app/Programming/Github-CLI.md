@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Github-CLI
-
-### <img src="/img/app-icons/Github-CLI/icon-64.png" height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
-https://cli.github.com/ - Added to pi-apps by Itai-Nelken<br />
-ARM32/ARM64 - 5221 Users!
+## Install <img src="/img/app-icons/Github-CLI/icon-64.png" height=24> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-gh is GitHub on the command line.
-It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
-
-to run (terminal only): gh
+~/pi-apps/manage install "Github-CLI"
 ```

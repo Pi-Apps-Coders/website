@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install KeePassXC
-
-### <img src="/img/app-icons/KeePassXC/icon-64.png" height=32> ***[KeePassXC](https://github.com/Botspot/pi-apps/tree/master/apps/KeePassXC)***
-https://github.com/keepassxreboot/keepassxc - @ryanfortner (GitHub) for the scripts
-@raspbian-addons maintainers for the deb<br />
-ARM32/ARM64 - 1513 Users!
+## Install <img src="/img/app-icons/KeePassXC/icon-64.png" height=24> ***[KeePassXC](https://github.com/Botspot/pi-apps/tree/master/apps/KeePassXC)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.
-Run via the Main Menu > Accessories > KeePassXC
+~/pi-apps/manage install "KeePassXC"
 ```

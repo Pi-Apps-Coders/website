@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Lego Digital Designer
-
-### <img src="/img/app-icons/Lego Digital Designer/icon-64.png" height=32> ***[Lego Digital Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Lego%20Digital%20Designer)***
-https://github.com/Botspot/lego-digital-designer-rpi - Botspot<br />
-ARM32 ONLY - 3086 Users!
+## Install <img src="/img/app-icons/Lego Digital Designer/icon-64.png" height=24> ***[Lego Digital Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Lego%20Digital%20Designer)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Play with virtual Lego blocks and create your own plans!
-This is Lego's official (discontinued) brick design program. With it, you can build your own sets within the editor and paint the pieces any color you wish.
-Afterwards, you can generate step-by-step building plans and print them out. Or you could place your creation into a desert background and take a picture of it to share with friends.
-
-This program runs extremely well on RPi. The only problem I (Botspot) could find was the sound effects don't work.
+~/pi-apps/manage install "Lego Digital Designer"
 ```

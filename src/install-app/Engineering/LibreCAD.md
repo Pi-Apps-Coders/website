@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install LibreCAD
-
-### <img src="/img/app-icons/LibreCAD/icon-64.png" height=32> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***
-https://librecad.org/ - @Jai-JAP for adding this app to pi-apps<br />
-ARM32/ARM64 - 2650 Users!
+## Install <img src="/img/app-icons/LibreCAD/icon-64.png" height=24> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Open Source 2D-CAD
-LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. Support and documentation are free from our large, dedicated community of users, contributors and developers.
-
-Documentation available at: https://dokuwiki.librecad.org/doku.php
-
-To run: Menu -> Graphics -> LibreCAD
+~/pi-apps/manage install "LibreCAD"
 ```

@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Conky
-
-### <img src="/img/app-icons/Conky/icon-64.png" height=32> ***[Conky](https://github.com/Botspot/pi-apps/tree/master/apps/Conky)***
-https://github.com/Botspot/rpi_conky<br />
-ARM32/ARM64 - 22712 Users!!
+## Install <img src="/img/app-icons/Conky/icon-64.png" height=24> ***[Conky](https://github.com/Botspot/pi-apps/tree/master/apps/Conky)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Monitors CPU, RAM, disk usage, and more.
-This sits on your desktop, refreshing once a second, with pretty graphs showing you all you need to know.
-To run: it should autostart on boot.
-To run in a terminal: conky
+~/pi-apps/manage install "Conky"
 ```

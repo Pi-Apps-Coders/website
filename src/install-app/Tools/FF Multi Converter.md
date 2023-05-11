@@ -8,22 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install FF Multi Converter
-
-### <img src="/img/app-icons/FF Multi Converter/icon-64.png" height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
-https://sites.google.com/site/ffmulticonverter/ - Thanks to Crilum on GitHub for writing the scripts.
-Thanks to ilstad on GitHub and all Contributors for creating FF Multi Converter!<br />
-ARM32/ARM64 - 2576 Users!
+## Install <img src="/img/app-icons/FF Multi Converter/icon-64.png" height=24> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-FF Multi Converter is a simple graphical application for Linux which enables you to convert audio,
-video, image and document files.
-
-It uses FFmpeg for audio/video files, the ImageMagick software suite for image conversions and
-unoconv for document files.
-
-The goal of FF Multi Converter is to gather the most popular multimedia types in one application
-and provide conversion options for them easily through a user-friendly graphical interface.
-
-Run from Menu: Menu -> Accesories -> FF Multi Converter
-Run from Terminal: ffmulticonverter
+~/pi-apps/manage install "FF Multi Converter"
 ```

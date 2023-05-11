@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Disk Usage Analyzer
-
-### <img src="/img/app-icons/Disk Usage Analyzer/icon-64.png" height=32> ***[Disk Usage Analyzer](https://github.com/Botspot/pi-apps/tree/master/apps/Disk%20Usage%20Analyzer)***
-https://wiki.gnome.org/Apps/DiskUsageAnalyzer - Botspot<br />
-ARM32/ARM64 - 33851 Users!!
+## Install <img src="/img/app-icons/Disk Usage Analyzer/icon-64.png" height=24> ***[Disk Usage Analyzer](https://github.com/Botspot/pi-apps/tree/master/apps/Disk%20Usage%20Analyzer)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Ever wonder where you put that big file, or why your SD card is full? Now you can, with a glance at a pie chart.
-To run: Menu -> System Tools -> Disk Usage Analyzer
-To run in a terminal: baobab
+~/pi-apps/manage install "Disk Usage Analyzer"
 ```

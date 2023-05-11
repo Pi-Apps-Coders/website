@@ -8,42 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Minecraft Java MultiMC5
-
-### <img src="/img/app-icons/Minecraft Java MultiMC5/icon-64.png" height=32> ***[Minecraft Java MultiMC5](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20MultiMC5)***
-https://github.com/MultiMC/Launcher - Install script written by theofficialgman based on the version for the L4T Megascript<br />
-ARM32/ARM64 - 11367 Users!!
+## Install <img src="/img/app-icons/Minecraft Java MultiMC5/icon-64.png" height=24> ***[Minecraft Java MultiMC5](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20MultiMC5)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-CUSTOM BUILD of MultiMC5/Launcher. MultiMC is an alternative launcher for Minecraft. It allows you to have multiple, cleanly separated instances of Minecraft (each with their own mods, resource packs, saves, etc) and helps you manage them and their associated options with a simple and powerful interface. 
-
-This is a buildscript for MultiMC5 (necessary for licensing reasons). Expect a 1+ hour build and install time.
-All users are encouraged to instead install Prism Launcher (a PolyMC/MultiMC5 fork with many additional features) which is a prebuilt deb.
-
-Features of the launcher:
-- Microsoft, Mojang, and PC GamePass Account support
-- Modrinth FTB ATLauncher and Technic Modpack ONLY browser
-- Automatic Java 8/17 installation
-- Fabric, Forge, and Quilt mod loading
-- Supports minecraft versions from the old beta/alphas all the way up the latest snapshots
-
-Features NOT in this launcher (but available in others):
-- Mod browser
-- Curseforge Modpack browser
-- Mod/Modpack updater
-- Old Snapshots
-
-NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Starlight Fabric Mods.
-
-Minecraft Java MultiMC5 for ARM
-To run: Menu -> Games -> MultiMC
-To run in a terminal: ~/MultiMC/install/MultiMC
-
-IMPORTANT: How to choose the correct Java version: https://github.com/MultiMC/Launcher/wiki/Using-the-right-Java#setting-up-java-in-multimc
-The MultiMC5 Wiki can be found here: https://github.com/MultiMC/MultiMC5/wiki
-If you need help installing Optifine: https://github.com/MultiMC/MultiMC5/wiki/MultiMC-and-OptiFine
-
-theofficialgman's custom meta repo is used for arm32 and arm64 native libraries. (https://github.com/theofficialgman/meta-multimc)
-This supports all currently released versions of minecraft.
-
-Note: MultiMC5 GitHub/Discord does NOT support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord or Pi-Apps GitHub issues.
+~/pi-apps/manage install "Minecraft Java MultiMC5"
 ```

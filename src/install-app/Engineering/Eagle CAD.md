@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Eagle CAD
-
-### <img src="/img/app-icons/Eagle CAD/icon-64.png" height=32> ***[Eagle CAD](https://github.com/Botspot/pi-apps/tree/master/apps/Eagle%20CAD)***
-http://eagle.autodesk.com/eagle/software-versions/1 - Botspot made this app.<br />
-ARM32 ONLY - 2204 Users!
+## Install <img src="/img/app-icons/Eagle CAD/icon-64.png" height=24> ***[Eagle CAD](https://github.com/Botspot/pi-apps/tree/master/apps/Eagle%20CAD)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Design printed circuit boards.
-This is Eagle CAD's last 32-bit Linux release (7.7.0), emulated using Box86. Subsequent Eagle releases dropped 32-bit support.
-
-To run: Menu -> Programming -> Eagle
-To run in a terminal: eagle
+~/pi-apps/manage install "Eagle CAD"
 ```

@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Guake Terminal
-
-### <img src="/img/app-icons/Guake Terminal/icon-64.png" height=32> ***[Guake Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Guake%20Terminal)***
-http://guake-project.org/ - Botspot<br />
-ARM32/ARM64 - 1599 Users!
+## Install <img src="/img/app-icons/Guake Terminal/icon-64.png" height=24> ***[Guake Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Guake%20Terminal)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Guake is a top-down terminal, inspirated by the famous terminal used in Quake.
-
-You can show and hide your terminal with a single key stroke, execute a command, and then go back to your previous task without breaking your workflow.
-
-To run: Press F12. (Guake runs automatically on startup)
-To run manually: Menu -> System Tools -> Guake Terminal
-To run in a terminal: guake
+~/pi-apps/manage install "Guake Terminal"
 ```

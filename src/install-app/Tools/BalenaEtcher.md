@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install BalenaEtcher
-
-### <img src="/img/app-icons/BalenaEtcher/icon-64.png" height=32> ***[BalenaEtcher](https://github.com/Botspot/pi-apps/tree/master/apps/BalenaEtcher)***
-https://github.com/Pi-Apps-Coders/files/blob/main/CompileCommands.md#balenaetcher - @theofficialgman (GitHub)
-@Itai-Nelken (GitHub)
-@ryanfortner (GitHub)<br />
-ARM32/ARM64 - 27368 Users!!
+## Install <img src="/img/app-icons/BalenaEtcher/icon-64.png" height=24> ***[BalenaEtcher](https://github.com/Botspot/pi-apps/tree/master/apps/BalenaEtcher)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Flash SD cards with a disk image. Many file types supported.
-To run: Menu -> Accessories -> balenaEtcher
-To run in a terminal: balena-etcher
+~/pi-apps/manage install "BalenaEtcher"
 ```

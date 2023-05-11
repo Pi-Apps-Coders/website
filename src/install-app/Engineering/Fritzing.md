@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Fritzing
-
-### <img src="/img/app-icons/Fritzing/icon-64.png" height=32> ***[Fritzing](https://github.com/Botspot/pi-apps/tree/master/apps/Fritzing)***
-https://fritzing.org/ - theofficialgman for writing the install script<br />
-ARM32/ARM64 - 1921 Users!
+## Install <img src="/img/app-icons/Fritzing/icon-64.png" height=24> ***[Fritzing](https://github.com/Botspot/pi-apps/tree/master/apps/Fritzing)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-The Fritzing application is an Electronic Design Automation software with a low entry barrier, suited for the needs of makers and hobbyists.
-It offers a unique real-life "breadboard" view, and a parts library with many commonly used high-level components. Fritzing makes it very easy to communicate about circuits, as well as to turn them into PCB layouts ready for production. 
-
-To run: Menu -> Programming/Development -> Fritzing
-To run in a terminal: Fritzing --parts $HOME/.local/share/fritzing/parts
+~/pi-apps/manage install "Fritzing"
 ```

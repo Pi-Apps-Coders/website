@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install YouTubuddy
-
-### <img src="/img/app-icons/YouTubuddy/icon-64.png" height=32> ***[YouTubuddy](https://github.com/Botspot/pi-apps/tree/master/apps/YouTubuddy)***
-https://github.com/Botspot/youtubuddy - Botspot added this to Pi-Apps.<br />
-ARM32/ARM64 - 15805 Users!!
+## Install <img src="/img/app-icons/YouTubuddy/icon-64.png" height=24> ***[YouTubuddy](https://github.com/Botspot/pi-apps/tree/master/apps/YouTubuddy)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Simple YouTube search engine, downloader and player.
-- No web browser required! Easily search for videos and play them with a few clicks.
-- Extremely lightweight - one bash script.
-- Perfect for downloading/playing batches of videos with a few clicks.
-- Supports searches, playlist URLs, and direct YouTube links. In addition, this supports URLs to many other video sites for easy downloading.
+~/pi-apps/manage install "YouTubuddy"
 ```

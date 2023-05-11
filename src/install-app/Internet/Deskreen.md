@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Deskreen
-
-### <img src="/img/app-icons/Deskreen/icon-64.png" height=32> ***[Deskreen](https://github.com/Botspot/pi-apps/tree/master/apps/Deskreen)***
-https://deskreen.com/ - Thanks to pavlobu and all contibuters for developing Deskreen.
-Thanks to Crilum on GitHub for making the scripts.
-Thanks to ryanfortner on GitHub for having and hosting the debs!<br />
-ARM32/ARM64 - 2016 Users!
+## Install <img src="/img/app-icons/Deskreen/icon-64.png" height=24> ***[Deskreen](https://github.com/Botspot/pi-apps/tree/master/apps/Deskreen)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Share your desktop to your browser, and turn any device into a second screen!
-
-How to run: Menu -> Programming -> Deskreen
-or run from your Terminal: deskreen
+~/pi-apps/manage install "Deskreen"
 ```

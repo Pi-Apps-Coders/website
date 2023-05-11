@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Thunderbird
-
-### <img src="/img/app-icons/Thunderbird/icon-64.png" height=32> ***[Thunderbird](https://github.com/Botspot/pi-apps/tree/master/apps/Thunderbird)***
-https://www.thunderbird.net/features - Botspot<br />
-ARM32/ARM64 - 15446 Users!!
+## Install <img src="/img/app-icons/Thunderbird/icon-64.png" height=24> ***[Thunderbird](https://github.com/Botspot/pi-apps/tree/master/apps/Thunderbird)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Email client with many features like a tabbed interface, smart spam filter, address book, search and filter tools, encryption, and numerous add-ons.
-To run: Menu -> Internet -> Thunderbird
-To run in a terminal: thunderbird
+~/pi-apps/manage install "Thunderbird"
 ```

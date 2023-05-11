@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install AstroMenace
-
-### <img src="/img/app-icons/AstroMenace/icon-64.png" height=32> ***[AstroMenace](https://github.com/Botspot/pi-apps/tree/master/apps/AstroMenace)***
-https://github.com/viewizard/astromenace - All contributer in github page
-added to pi-apps by Painadath
-samuelpainadath@gmail.com<br />
-ARM32/ARM64 - 3401 Users!
+## Install <img src="/img/app-icons/AstroMenace/icon-64.png" height=24> ***[AstroMenace](https://github.com/Botspot/pi-apps/tree/master/apps/AstroMenace)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Immerse into a decisive battle against tons of cunning foes, face the terrifying bosses and protect your homeland throughout 15 diverse levels of the game. The hardcore gameplay of AstroMenace, packed with pure non-stop action, will become a full scale test for your basic instinct of survival.
+~/pi-apps/manage install "AstroMenace"
 ```

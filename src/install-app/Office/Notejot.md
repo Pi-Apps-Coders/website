@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Notejot
-
-### <img src="/img/app-icons/Notejot/icon-64.png" height=32> ***[Notejot](https://github.com/Botspot/pi-apps/tree/master/apps/Notejot)***
-https://github.com/lainsce/notejot - Thanks to:
- - @lainsce on GitHub for creating the app!
- - @Crilum on GitHub for adding this app to Pi-Apps<br />
-ARM64 ONLY - 450 Users
+## Install <img src="/img/app-icons/Notejot/icon-64.png" height=24> ***[Notejot](https://github.com/Botspot/pi-apps/tree/master/apps/Notejot)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A minimalist note-taking app with Markdown support
-
-Run from Menu: Menu -> Accessories -> Notejot
-Run from Terminal: flatpak run io.github.lainsce.Notejot
+~/pi-apps/manage install "Notejot"
 ```

@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Notepad ++
-
-### <img src="/img/app-icons/Notepad ++/icon-64.png" height=32> ***[Notepad ++](https://github.com/Botspot/pi-apps/tree/master/apps/Notepad%20++)***
-https://notepad-plus-plus.org/ - App added to pi-apps by RPICoder<br />
-ARM32 ONLY - 8471 Users!
+## Install <img src="/img/app-icons/Notepad ++/icon-64.png" height=24> ***[Notepad ++](https://github.com/Botspot/pi-apps/tree/master/apps/Notepad%20++)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Notepad++ is a free source code editor and Notepad replacement that supports several languages. 
-To Run:  Menu -> Accessories -> Notepad++
-
-This app runs with the help of box86 and wine.
+~/pi-apps/manage install "Notepad ++"
 ```

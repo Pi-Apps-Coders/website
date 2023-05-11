@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install BlueJ Java IDE
-
-### <img src="/img/app-icons/BlueJ Java IDE/icon-64.png" height=32> ***[BlueJ Java IDE](https://github.com/Botspot/pi-apps/tree/master/apps/BlueJ%20Java%20IDE)***
-https://bluej.org - open-sorcerer64<br />
-ARM32/ARM64 - 25952 Users!!
+## Install <img src="/img/app-icons/BlueJ Java IDE/icon-64.png" height=24> ***[BlueJ Java IDE](https://github.com/Botspot/pi-apps/tree/master/apps/BlueJ%20Java%20IDE)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A simple but powerful Java IDE.
-
-BlueJ is an integrated development environment for the Java programming language, developed mainly for educational purposes.
-
-To run: Menu -> Programming -> BlueJ Java IDE
+~/pi-apps/manage install "BlueJ Java IDE"
 ```

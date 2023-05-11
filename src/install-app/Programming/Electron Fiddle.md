@@ -8,20 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Electron Fiddle
-
-### <img src="/img/app-icons/Electron Fiddle/icon-64.png" height=32> ***[Electron Fiddle](https://github.com/Botspot/pi-apps/tree/master/apps/Electron%20Fiddle)***
-https://www.electronjs.org/fiddle - Thanks to:
- - All contributers to Electron, and Electron Fiddle.
- - Crilum on GitHub for making the scripts.<br />
-ARM32/ARM64 - 579 Users
+## Install <img src="/img/app-icons/Electron Fiddle/icon-64.png" height=24> ***[Electron Fiddle](https://github.com/Botspot/pi-apps/tree/master/apps/Electron%20Fiddle)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Electron Fiddle lets you create and play with small Electron experiments. 
-
-It greets you with a quick-start template after opening – change a few things, choose the version of Electron you want to run it with, and play around.
-Then, save your Fiddle either as a GitHub Gist or to a local folder.
-Once pushed to GitHub, anyone can quickly try your Fiddle out by just entering it in the address bar.
-
-Run from menu: Menu -> Accesories -> Electron Fiddle
-Run from Terminal: electron-fiddle
+~/pi-apps/manage install "Electron Fiddle"
 ```

@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Tabby
-
-### <img src="/img/app-icons/Tabby/icon-64.png" height=32> ***[Tabby](https://github.com/Botspot/pi-apps/tree/master/apps/Tabby)***
-https://tabby.sh/ - Thanks to:
- - Eugeny and all contributors for creating Tabby!
- - @Jai-JAP on GitHub for armv7l & arm64 builds & for the simple scripts<br />
-ARM32/ARM64 - 1149 Users
+## Install <img src="/img/app-icons/Tabby/icon-64.png" height=24> ***[Tabby](https://github.com/Botspot/pi-apps/tree/master/apps/Tabby)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
- A terminal for a more modern age 
-Tabby (formerly Terminus) is a highly configurable terminal emulator, SSH and serial client for Windows, macOS and Linux.
-
-Run from Terminal: tabby
-Run from Menu: Menu -> Accessories -> Tabby
+~/pi-apps/manage install "Tabby"
 ```

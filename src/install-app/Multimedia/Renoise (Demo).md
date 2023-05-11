@@ -8,30 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Renoise (Demo)
-
-### <img src="/img/app-icons/Renoise (Demo)/icon-64.png" height=32> ***[Renoise (Demo)](https://github.com/Botspot/pi-apps/tree/master/apps/Renoise%20(Demo))***
-https://renoise.com - Thanks to:
- - Renoise developer for making Renoise, and providing Raspberry Pi builds!
- - @Crilum on GitHub for adding teh app to Pi-Apps<br />
-ARM32/ARM64 - 210 Users
+## Install <img src="/img/app-icons/Renoise (Demo)/icon-64.png" height=24> ***[Renoise (Demo)](https://github.com/Botspot/pi-apps/tree/master/apps/Renoise%20(Demo))***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Renoise is a cross-platform Digital Audio Workstation with a unique top-down approach to music composition known as a tracker interface.
-
-Already known to be a very feature-complete software, version 3 improves on core features such as the native sampler and instrument. 
-
-This version is only a demo, you can buy the full version at: https://www.renoise.com/shop
-Renoise Demo Restrictions
-
- · No ASIO support on Windows
- · Rendering to .wav is disabled
- · Rendering/resampling selections is disabled
- · Rendering/freezing plugin instruments to samples is disabled
- · Nag screens
- · As ReWire Master, only the first stereo input bus will be available
- · As ReWire Slave, Renoise will occasionally generate a small subtle hiss
-
-
-To Run from Menu: Menu -> Sound and Video -> Renoise
-To run in Terminal: renoise
+~/pi-apps/manage install "Renoise (Demo)"
 ```

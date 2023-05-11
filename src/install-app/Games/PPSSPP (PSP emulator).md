@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install PPSSPP (PSP emulator)
-
-### <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png" height=32> ***[PPSSPP (PSP emulator)](https://github.com/Botspot/pi-apps/tree/master/apps/PPSSPP%20(PSP%20emulator))***
-http://ppsspp.org - Added to pi-apps by @ryanfortner (Github)<br />
-ARM32/ARM64 - 11169 Users!!
+## Install <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png" height=24> ***[PPSSPP (PSP emulator)](https://github.com/Botspot/pi-apps/tree/master/apps/PPSSPP%20(PSP%20emulator))***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A PSP emulator that can run PSP games in full HD and can upscale textures also.
-
-How to run: Menu > Games > PPSSPP
+~/pi-apps/manage install "PPSSPP (PSP emulator)"
 ```

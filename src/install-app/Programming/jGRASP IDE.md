@@ -8,12 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install jGRASP IDE
-
-### <img src="/img/app-icons/jGRASP IDE/icon-64.png" height=32> ***[jGRASP IDE](https://github.com/Botspot/pi-apps/tree/master/apps/jGRASP%20IDE)***
-https://www.jgrasp.org/index.html - Botspot made this app.<br />
-ARM32/ARM64 - 914 Users
+## Install <img src="/img/app-icons/jGRASP IDE/icon-64.png" height=24> ***[jGRASP IDE](https://github.com/Botspot/pi-apps/tree/master/apps/jGRASP%20IDE)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-An IDE with visualizations for improving software comprehensibility.
-This IDE is used by many learning institutions and colleges for their classes.
+~/pi-apps/manage install "jGRASP IDE"
 ```

@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Temps
-
-### <img src="/img/app-icons/Temps/icon-64.png" height=32> ***[Temps](https://github.com/Botspot/pi-apps/tree/master/apps/Temps)***
-https://github.com/musicpro/temps - Thanks to Crilum on GitHub for making the scripts.
-Thanks to jackd248 on GitHub for the original temps.
-Thanks to promusic on GitHub for forking and continuing development on this awesome app!<br />
-ARM32/ARM64 - 1661 Users!
+## Install <img src="/img/app-icons/Temps/icon-64.png" height=24> ***[Temps](https://github.com/Botspot/pi-apps/tree/master/apps/Temps)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Temps is a modern and minimal menubar application based on Electron with actual weather information and forecast.
-
-Run from: Menu -> Accessories -> Temps
-or from Terminal: temps
-
+~/pi-apps/manage install "Temps"
 ```

@@ -8,20 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Inkscape
-
-### <img src="/img/app-icons/Inkscape/icon-64.png" height=32> ***[Inkscape](https://github.com/Botspot/pi-apps/tree/master/apps/Inkscape)***
-https://inkscape.org - 1Spinne in issue #1262<br />
-ARM32/ARM64 - 8442 Users!
+## Install <img src="/img/app-icons/Inkscape/icon-64.png" height=24> ***[Inkscape](https://github.com/Botspot/pi-apps/tree/master/apps/Inkscape)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Popular free vector graphics editor
-
-Whether you are an illustrator, designer, web designer or just someone who needs to create some vector imagery, Inkscape is for you!
-
-Flexible drawing tools
-Broad file format compatibility
-Powerful text tool
-Bezier and spiro curves
-
-Note: Also see the Boxy SVG tool.
+~/pi-apps/manage install "Inkscape"
 ```

@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Scratch 2
-
-### <img src="/img/app-icons/Scratch 2/icon-64.png" height=32> ***[Scratch 2](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%202)***
-https://github.com/Botspot/scratch2 - Botspot<br />
-ARM32 ONLY - 2475 Users!
+## Install <img src="/img/app-icons/Scratch 2/icon-64.png" height=24> ***[Scratch 2](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%202)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Scratch 2 was removed from RPiOS in January. Install it back with this app!
-Scratch 2 is significantly faster than Scratch 3. It uses far less CPU, and generally will run better than Scratch 3 on older Pies.
-To run: Menu -> Programming -> Scratch 2.
-To run in a terminal: scratch2
+~/pi-apps/manage install "Scratch 2"
 ```

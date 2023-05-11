@@ -8,12 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install All Is Well
-
-### <img src="/img/app-icons/All Is Well/icon-64.png" height=32> ***[All Is Well](https://github.com/Botspot/pi-apps/tree/master/apps/All%20Is%20Well)***
-https://github.com/spectrumgamer75/All-is-well<br />
-ARM32/ARM64 - 16564 Users!!
+## Install <img src="/img/app-icons/All Is Well/icon-64.png" height=24> ***[All Is Well](https://github.com/Botspot/pi-apps/tree/master/apps/All%20Is%20Well)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux.
-It will also fix any broken packages and dependencies. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
+~/pi-apps/manage install "All Is Well"
 ```

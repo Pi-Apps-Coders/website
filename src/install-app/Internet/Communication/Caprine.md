@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Caprine
-
-### <img src="/img/app-icons/Caprine/icon-64.png" height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
-https://sindresorhus.com/caprine/<br />
-ARM32/ARM64 - 1849 Users!
+## Install <img src="/img/app-icons/Caprine/icon-64.png" height=24> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Caprine is an unofficial and privacy focused Facebook Messenger app with many useful features. 
-Built with Electron, Caprine features a Dark mode, keyboard shortcuts, ability to toggle last seen/typing indicators, work chat support, code blocks, custom text size, and an interface that adapts to resizing windows.
-
-Caprine is a third-party app and is not affiliated with Facebook. 
+~/pi-apps/manage install "Caprine"
 ```

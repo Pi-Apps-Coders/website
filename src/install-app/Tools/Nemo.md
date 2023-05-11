@@ -8,18 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Nemo
-
-### <img src="/img/app-icons/Nemo/icon-64.png" height=32> ***[Nemo](https://github.com/Botspot/pi-apps/tree/master/apps/Nemo)***
-https://github.com/linuxmint/nemo - open-sorcerer64
-linuxmint<br />
-ARM32/ARM64 - 4000 Users!
+## Install <img src="/img/app-icons/Nemo/icon-64.png" height=24> ***[Nemo](https://github.com/Botspot/pi-apps/tree/master/apps/Nemo)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-File manager and graphical shell for Cinnamon, also works well on other desktop environments.
-
-Nemo is the official file manager for the Cinnamon desktop. It allows one to browse directories, preview files, and launch applications associated with them.
-It is also responsible for handling the icons on the Cinnamon desktop. It works on local and remote filesystems. Several icon themes and components for viewing different kinds of files are available in separate packages.
-
-To run: Menu -> Accessories -> Files
-To run in terminal: nemo
+~/pi-apps/manage install "Nemo"
 ```

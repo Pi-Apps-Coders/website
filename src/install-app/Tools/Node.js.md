@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Node.js
-
-### <img src="/img/app-icons/Node.js/icon-64.png" height=32> ***[Node.js](https://github.com/Botspot/pi-apps/tree/master/apps/Node.js)***
-https://nodesource.com/ - Script by ilobilo
-Script improved by Itai-Nelken<br />
-ARM32/ARM64 - 5812 Users!
+## Install <img src="/img/app-icons/Node.js/icon-64.png" height=24> ***[Node.js](https://github.com/Botspot/pi-apps/tree/master/apps/Node.js)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-JavaScript code outside a web browser.
-Node.js is used for all npm packages and is the foundation of Electron.
-As usual, this app will keep it updated.
+~/pi-apps/manage install "Node.js"
 ```

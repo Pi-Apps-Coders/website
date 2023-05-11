@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install MuseScore
-
-### <img src="/img/app-icons/MuseScore/icon-64.png" height=32> ***[MuseScore](https://github.com/Botspot/pi-apps/tree/master/apps/MuseScore)***
-https://musescore.org - Botspot
-theofficialgman for appimages<br />
-ARM32/ARM64 - 1584 Users!
+## Install <img src="/img/app-icons/MuseScore/icon-64.png" height=24> ***[MuseScore](https://github.com/Botspot/pi-apps/tree/master/apps/MuseScore)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Professional music notation software - LATEST MuseScore 4!
-To run: Menu -> Sound & Video -> MuseScore 4
-To run in terminal: mscore
+~/pi-apps/manage install "MuseScore"
 ```

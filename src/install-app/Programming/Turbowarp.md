@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Turbowarp
-
-### <img src="/img/app-icons/Turbowarp/icon-64.png" height=32> ***[Turbowarp](https://github.com/Botspot/pi-apps/tree/master/apps/Turbowarp)***
-https://turbowarp.org/ - App added to pi-apps by Raspberry Pi News (bit.ly/rpnsite)
-
-Made by the TurboWarp dev team (https://github.com/TurboWarp/)<br />
-ARM32/ARM64 - 2122 Users!
+## Install <img src="/img/app-icons/Turbowarp/icon-64.png" height=24> ***[Turbowarp](https://github.com/Botspot/pi-apps/tree/master/apps/Turbowarp)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Scratch 3 Desktop, but runs much faster. Also known as 'TurboWarp'
-TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Also has dark mode, addons, and more. It even works when you're offline, just like the original Scratch Desktop.
-
-To run: Menu -> Programming -> TurboWarp
+~/pi-apps/manage install "Turbowarp"
 ```

@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Cawbird
-
-### <img src="/img/app-icons/Cawbird/icon-64.png" height=32> ***[Cawbird](https://github.com/Botspot/pi-apps/tree/master/apps/Cawbird)***
-https://ibboard.co.uk/cawbird/ - IBBoard for continuously developing Cawbird.<br />
-ARM32/ARM64 - 476 Users
+## Install <img src="/img/app-icons/Cawbird/icon-64.png" height=24> ***[Cawbird](https://github.com/Botspot/pi-apps/tree/master/apps/Cawbird)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Cawbird is a fork of the Corebird GTK Twitter client that continues to work with Twitter.
-
-Cawbird works with the new APIs and includes a few fixes and modifications that have historically been patched in to IBBoard's custom Corebird build on his personal Open Build Service account.
+~/pi-apps/manage install "Cawbird"
 ```

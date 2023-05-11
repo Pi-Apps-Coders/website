@@ -8,19 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Doom 3
-
-### <img src="/img/app-icons/Doom 3/icon-64.png" height=32> ***[Doom 3](https://github.com/Botspot/pi-apps/tree/master/apps/Doom%203)***
-https://github.com/techcoder20/RPIDoom3Installer.git - Script Created By RPI Coder
-Added To Pi apps by Botspot
-
-Testers:
-Lukefrenner
-Botspot
-Nikolay Dubnov<br />
-ARM32/ARM64 - 16980 Users!!
+## Install <img src="/img/app-icons/Doom 3/icon-64.png" height=24> ***[Doom 3](https://github.com/Botspot/pi-apps/tree/master/apps/Doom%203)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Doom 3 is a 2004 horror first-person shooter video game developed by id Software and published by Activision.
-In this game a massive demonic invasion has overwhelmed the Union Aerospace Corporation's (UAC) Mars Research Facility, leaving only chaos and horror in its wake.
-As one of only a few survivors, you must fight your way to hell and back against a horde of evil monsters.
+~/pi-apps/manage install "Doom 3"
 ```

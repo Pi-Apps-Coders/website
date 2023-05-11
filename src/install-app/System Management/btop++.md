@@ -8,20 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install btop++
-
-### <img src="/img/app-icons/btop++/icon-64.png" height=32> ***[btop++](https://github.com/Botspot/pi-apps/tree/master/apps/btop++)***
-https://github.com/aristocratos/btop - Thanks to:
- - aristocratos and all contributers.
- - Crilum on GitHub for writing the scripts.<br />
-ARM32/ARM64 - 4089 Users!
+## Install <img src="/img/app-icons/btop++/icon-64.png" height=24> ***[btop++](https://github.com/Botspot/pi-apps/tree/master/apps/btop++)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Awesome terminal resource monitor and task manager, similar to htop.
-
-Run from Terminal: btop
-
-btop shows CPU, memory, network, and disk usage, along with a task manager.
-btop is also very user customizable, with different layouts and ways of displaying CPU, memory, network and disk usage.
-
-If you want to look at screenshots of btop, go to the GitHub README.
+~/pi-apps/manage install "btop++"
 ```

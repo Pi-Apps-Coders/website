@@ -8,19 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install AbiWord
-
-### <img src="/img/app-icons/AbiWord/icon-64.png" height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
-http://www.abisource.com/ -  open-sorcerer64<br />
-ARM32/ARM64 - 2307 Users!
+## Install <img src="/img/app-icons/AbiWord/icon-64.png" height=24> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A free and open-source alternative to Microsoft Word.  
-
-AbiWord is a lightweight word processor compatible with a wide variety of file formats. It doesn't have all the bells and whistles of Microsoft Word or Libre Office's Writer, but it is more than enough for the average user.
-The source code is available at https://gitlab.gnome.org/World/AbiWord
-
-NOTE: AbiWord uses .abw extension by default.
-
-To run: Menu -> Office -> Abiword.
-To run in terminal:  abiword.
+~/pi-apps/manage install "AbiWord"
 ```

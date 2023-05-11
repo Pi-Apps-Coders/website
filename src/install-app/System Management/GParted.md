@@ -8,18 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install GParted
-
-### <img src="/img/app-icons/GParted/icon-64.png" height=32> ***[GParted](https://github.com/Botspot/pi-apps/tree/master/apps/GParted)***
-https://gparted.org - Botspot<br />
-ARM32/ARM64 - 45868 Users!!
+## Install <img src="/img/app-icons/GParted/icon-64.png" height=24> ***[GParted](https://github.com/Botspot/pi-apps/tree/master/apps/GParted)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Graphically manage disk partitions
-With GParted you can resize, copy, and move partitions without data loss, enabling you to:
-- Grow or shrink your C: drive
-- Create space for new operating systems
-- Attempt data rescue from lost partitions
-
-To run: Menu -> System Tools -> GParted
-To run in a terminal: sudo gparted
+~/pi-apps/manage install "GParted"
 ```

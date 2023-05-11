@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Sysmon
-
-### <img src="/img/app-icons/Sysmon/icon-64.png" height=32> ***[Sysmon](https://github.com/Botspot/pi-apps/tree/master/apps/Sysmon)***
-https://github.com/t0xic0der/sysmon - @t0xic0der on GitHub for the creation of the app
-@ryanfortner on GitHub for the scripts<br />
-ARM32/ARM64 - 2254 Users!
+## Install <img src="/img/app-icons/Sysmon/icon-64.png" height=24> ***[Sysmon](https://github.com/Botspot/pi-apps/tree/master/apps/Sysmon)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Monitor your Raspberry Pi using a web browser on another computer.
-This is a background service that hosts a website at <your Pi's IP address>:6969. Using any computer on your local network, you can go to that website and view many useful statistics. (And some useless ones too)
-
-For testing purposes, you can look at the website from the Pi itself by launching Chromium browser and going to http://localhost:6969
-
-As mentioned earlier, the website is only visible to computers in the local network.
+~/pi-apps/manage install "Sysmon"
 ```

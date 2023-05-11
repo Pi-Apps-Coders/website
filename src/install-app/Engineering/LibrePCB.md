@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install LibrePCB
-
-### <img src="/img/app-icons/LibrePCB/icon-64.png" height=32> ***[LibrePCB](https://github.com/Botspot/pi-apps/tree/master/apps/LibrePCB)***
-https://librepcb.org/<br />
-ARM64 ONLY - 3127 Users!
+## Install <img src="/img/app-icons/LibrePCB/icon-64.png" height=24> ***[LibrePCB](https://github.com/Botspot/pi-apps/tree/master/apps/LibrePCB)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-LibrePCB is a free, cross-platform, easy-to-use electronic design automation suite to draw schematics and design printed circuit boards – for makers, students and professionals, from beginners to experts.
-
-This software just lets you develop electronics the right way.
-No costs. No restrictions. No online account. No unnecessary complexity.
+~/pi-apps/manage install "LibrePCB"
 ```

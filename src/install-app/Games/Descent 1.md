@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Descent 1
-
-### <img src="/img/app-icons/Descent 1/icon-64.png" height=32> ***[Descent 1](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%201)***
-https://www.dxx-rebirth.com/<br />
-ARM32 ONLY - 2306 Users!
+## Install <img src="/img/app-icons/Descent 1/icon-64.png" height=24> ***[Descent 1](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%201)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-D1X-Rebirth - source port of Descent: First Strike from 1995
-This package installs the shareware version, if you own the full game you can copy the game data to ~/.d1x-rebirth directory (replacing existing files).
-To run: Menu -> Games -> Descent 1
-To run in a terminal: ~/.d1x-rebirth/d1x-rebirth-rpi -hogdir ~/.d1x-rebirth
-To exit: select "Quit" in the game's main menu.
+~/pi-apps/manage install "Descent 1"
 ```

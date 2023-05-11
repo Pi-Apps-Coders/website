@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install VMware Horizon Client
-
-### <img src="/img/app-icons/VMware Horizon Client/icon-64.png" height=32> ***[VMware Horizon Client](https://github.com/Botspot/pi-apps/tree/master/apps/VMware%20Horizon%20Client)***
-https://www.vmware.com/products/horizon<br />
-ARM32 ONLY - 470 Users
+## Install <img src="/img/app-icons/VMware Horizon Client/icon-64.png" height=24> ***[VMware Horizon Client](https://github.com/Botspot/pi-apps/tree/master/apps/VMware%20Horizon%20Client)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-VMware Horizon Client allows your end users to connect to their VMware Horizon View VM from a device of choice.
-
-The Horizon Client app communicates with the View Connection Server, which acts as a broker between the client device and View desktops. Users enter credentials into Horizon Client and the View Connection Server authenticates them and then finds their virtual desktops.
-
-IT administrators can also use Horizon Client and the View Connection Server to deliver Microsoft Remote Desktop Session Host (RDSH) desktops and applications from an RDSH farm or to deliver VMware ThinApp applications within Horizon View.
+~/pi-apps/manage install "VMware Horizon Client"
 ```

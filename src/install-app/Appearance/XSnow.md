@@ -8,16 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install XSnow
-
-### <img src="/img/app-icons/XSnow/icon-64.png" height=32> ***[XSnow](https://github.com/Botspot/pi-apps/tree/master/apps/XSnow)***
-https://www.ratrabbit.nl/ratrabbit/xsnow/ - Thanks to Willem Vermin for developing this project.<br />
-ARM32/ARM64 - 1085 Users
+## Install <img src="/img/app-icons/XSnow/icon-64.png" height=24> ***[XSnow](https://github.com/Botspot/pi-apps/tree/master/apps/XSnow)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-This turns your desktop wallpaper into an animated winter wonderland!
-Features falling snowflakes, flying birds, scenery like trees and deer, the moon, Santa, flapping birds, and more.
-Over time, snow will begin to collect on the top of your windows.
-
-To run: Menu -> Games -> xsnow
-To run in terminal: xsnow
+~/pi-apps/manage install "XSnow"
 ```

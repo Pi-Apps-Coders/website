@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Codex
-
-### <img src="/img/app-icons/Codex/icon-64.png" height=32> ***[Codex](https://github.com/Botspot/pi-apps/tree/master/apps/Codex)***
-https://github.com/jcv8000/Codex<br />
-ARM32/ARM64 - 1387 Users
+## Install <img src="/img/app-icons/Codex/icon-64.png" height=24> ***[Codex](https://github.com/Botspot/pi-apps/tree/master/apps/Codex)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A free note-taking software for programmers and Computer Science students.
-
-To run: Menu -> Accessories -> Codex
+~/pi-apps/manage install "Codex"
 ```

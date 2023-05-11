@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Steam
-
-### <img src="/img/app-icons/Steam/icon-64.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
-ARM64 ONLY - 18363 Users!!
+## Install <img src="/img/app-icons/Steam/icon-64.png" height=24> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-This emulates the Linux x86_64 version of Steam using Box86 and Box64.
-
-In most cases, you WILL need to REBOOT before running Steam for the first time to prevent errors.
-To run: Menu -> Games -> Steam
+~/pi-apps/manage install "Steam"
 ```

@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Flow
-
-### <img src="/img/app-icons/Flow/icon-64.png" height=32> ***[Flow](https://github.com/Botspot/pi-apps/tree/master/apps/Flow)***
-https://www.ekioh.com/flow-browser/ - Botspot<br />
-ARM32/ARM64 - 1017 Users
+## Install <img src="/img/app-icons/Flow/icon-64.png" height=24> ***[Flow](https://github.com/Botspot/pi-apps/tree/master/apps/Flow)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-High-performance browser built from the ground up without relying on Chromium.
-This is a closed source web browser specifically designed for running on the Raspberry Pi platform. It makes extensive usage of the GPU, and it outperforms many faster computers on the same benchmark.
-
-This is a preview version, and you are bound to find places where it does not work well. Javascript support is still buggy, and other features are missing. But when Flow Browser works, the result is impressive.
-
-To run: Menu -> Internet -> Flow Browser
-To run in a terminal: flow
+~/pi-apps/manage install "Flow"
 ```

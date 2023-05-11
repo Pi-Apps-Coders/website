@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Syncthing
-
-### <img src="/img/app-icons/Syncthing/icon-64.png" height=32> ***[Syncthing](https://github.com/Botspot/pi-apps/tree/master/apps/Syncthing)***
-https://syncthing.net - @theofficialgman on GitHub for the scripts<br />
-ARM32/ARM64 - 927 Users
+## Install <img src="/img/app-icons/Syncthing/icon-64.png" height=24> ***[Syncthing](https://github.com/Botspot/pi-apps/tree/master/apps/Syncthing)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-A sync manager that syncs folders to different devices no matter where you are!
-to start, go to Internet => Syncthing start
-Terminal: syncthing.
+~/pi-apps/manage install "Syncthing"
 ```

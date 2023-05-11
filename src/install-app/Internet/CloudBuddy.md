@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install CloudBuddy
-
-### <img src="/img/app-icons/CloudBuddy/icon-64.png" height=32> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
-https://github.com/Botspot/cloudbuddy - Botspot made, Botspot added.<br />
-ARM32/ARM64 - 4621 Users!
+## Install <img src="/img/app-icons/CloudBuddy/icon-64.png" height=24> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-CloudBuddy is the ultimate wizard for cloud storage. Google Drive, Onedrive, Dropbox, and many more.
-Botspot made this gui frontend for the popular rclone tool to connect to your cloud drives, download from them, upload to them, mount them to your file manager, and more. In addition, CloudBuddy features an interactive file browser to easily generate shareable links and to perform various server-side operations.
-
-To run: Menu -> Internet -> CloudBuddy
-To run in terminal: ~/cloudbuddy/main.sh
+~/pi-apps/manage install "CloudBuddy"
 ```

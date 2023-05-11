@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Transmission
-
-### <img src="/img/app-icons/Transmission/icon-64.png" height=32> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***
-https://transmissionbt.com - Botspot<br />
-ARM32/ARM64 - 10518 Users!!
+## Install <img src="/img/app-icons/Transmission/icon-64.png" height=24> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Lightweight BitTorrent client
-Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
-
-To run: Menu -> Internet -> Transmission
-
-Also see the Deluge app.
-Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Transmission at your own risk.
+~/pi-apps/manage install "Transmission"
 ```

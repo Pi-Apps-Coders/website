@@ -8,13 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install QEMU
-
-### <img src="/img/app-icons/QEMU/icon-64.png" height=32> ***[QEMU](https://github.com/Botspot/pi-apps/tree/master/apps/QEMU)***
-https://www.qemu.org/ - Added to Pi-Apps by Itai-Nelken
-debs compiled and packaged using QEMU2DEB (tool by Itai-Nelken) by ryanfortner.<br />
-ARM32/ARM64 - 7587 Users!
+## Install <img src="/img/app-icons/QEMU/icon-64.png" height=24> ***[QEMU](https://github.com/Botspot/pi-apps/tree/master/apps/QEMU)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-QEMU is a generic and open source machine emulator and virtualizer.
-QEMU 6.1 for Buster, system QEMU for other distros (Bullseye is currently using 7.0).
+~/pi-apps/manage install "QEMU"
 ```

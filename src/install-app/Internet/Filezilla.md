@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Filezilla
-
-### <img src="/img/app-icons/Filezilla/icon-64.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
-https://filezilla-project.org/ - Botspot<br />
-ARM32/ARM64 - 9348 Users!
+## Install <img src="/img/app-icons/Filezilla/icon-64.png" height=24> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Download and upload files via FTP, FTPS, and HTTP
-This all allows you to connect to file-sharing servers on your home network or on the world wide web.
-To run: Menu -> Internet -> Filezilla
-To run in terminal: filezilla
-Note: For more cloud-storage, see the CloudBuddy app.
+~/pi-apps/manage install "Filezilla"
 ```

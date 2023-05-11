@@ -8,30 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Chromium Widevine
-
-### <img src="/img/app-icons/Chromium Widevine/icon-64.png" height=32> ***[Chromium Widevine](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium%20Widevine)***
-https://github.com/Botspot/chromium-v84-widevine<br />
-ARM32 ONLY - 17173 Users!!
+## Install <img src="/img/app-icons/Chromium Widevine/icon-64.png" height=24> ***[Chromium Widevine](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium%20Widevine)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Widevine DRM support for any version of chromium-browser.
-This adds ChromeOS's Widevine video decoding library to Chromium, and creates a second menu button with a ChromeOS user-agent. All websites will think your Pi is a Chromebook!
-Unlike Ventz's Chromium Media Edition, or even the official libwidevinecdm0 package, this app is unique to support all versions of Chromium, before version 84 and after version 84. Feel free to downgrade your browser for better video performance! (Using the "Downgrade Chromium" app)
-
-To run: Menu -> Internet -> Chromium Widevine.
-To test DRM: https://bitmovin.com/demos/drm
-For normal browsing, it's advisable to use the standard Chromium launcher.
-
-This is known to work on these websites:
-• Netflix
-• Hulu
-• Amazon Prime
-• Disney+
-• HBO
-• Spotify
-• Pandora
-• Hoopla
-• MUBI
-• BritBox
-• Bell Satellite TV
+~/pi-apps/manage install "Chromium Widevine"
 ```

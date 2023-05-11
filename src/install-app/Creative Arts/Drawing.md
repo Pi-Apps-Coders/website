@@ -8,17 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Drawing
-
-### <img src="/img/app-icons/Drawing/icon-64.png" height=32> ***[Drawing](https://github.com/Botspot/pi-apps/tree/master/apps/Drawing)***
-https://github.com/maoschanz/drawing - Botspot<br />
-ARM32/ARM64 - 2878 Users!
+## Install <img src="/img/app-icons/Drawing/icon-64.png" height=24> ***[Drawing](https://github.com/Botspot/pi-apps/tree/master/apps/Drawing)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Simple program used to hand-draw png images.
-
-To run: Menu -> Graphics -> Drawing
-To run in terminal: drawing
-
-Note: This serves a different purpose than Microsoft Paint. If you want a Paint-style tool, install Kolourpaint:
-sudo apt install kolourpaint
+~/pi-apps/manage install "Drawing"
 ```

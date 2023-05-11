@@ -8,14 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Sonic Pi
-
-### <img src="/img/app-icons/Sonic Pi/icon-64.png" height=32> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
-https://sonic-pi.net/#rp<br />
-ARM32/ARM64 - 1414 Users
+## Install <img src="/img/app-icons/Sonic Pi/icon-64.png" height=24> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Write code to make music. Latest version of Sonic Pi.
-
-To run: Menu -> Programming -> Sonic Pi
-To run in a terminal: sonic-pi
+~/pi-apps/manage install "Sonic Pi"
 ```

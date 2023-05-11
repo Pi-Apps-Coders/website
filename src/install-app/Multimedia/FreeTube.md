@@ -8,15 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install FreeTube
-
-### <img src="/img/app-icons/FreeTube/icon-64.png" height=32> ***[FreeTube](https://github.com/Botspot/pi-apps/tree/master/apps/FreeTube)***
-https://freetubeapp.io/ - Installation Script and added to Pi-Apps by RPICoder<br />
-ARM32/ARM64 - 14008 Users!!
+## Install <img src="/img/app-icons/FreeTube/icon-64.png" height=24> ***[FreeTube](https://github.com/Botspot/pi-apps/tree/master/apps/FreeTube)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Privacy-friendly YouTube player.
-Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript.
-
-FreeTube has an interface similar to YouTube, but is slower and more innefficient than YouTubuddy. Try both and see which one you prefer!
-Disabling the compositor improves playback performance.
+~/pi-apps/manage install "FreeTube"
 ```

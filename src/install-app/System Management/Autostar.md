@@ -8,19 +8,10 @@ Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Autostar
-
-### <img src="/img/app-icons/Autostar/icon-64.png" height=32> ***[Autostar](https://github.com/Botspot/pi-apps/tree/master/apps/Autostar)***
-https://github.com/Botspot/autostar - Botspot made, Botspot added.<br />
-ARM32/ARM64 - 5805 Users!
+## Install <img src="/img/app-icons/Autostar/icon-64.png" height=24> ***[Autostar](https://github.com/Botspot/pi-apps/tree/master/apps/Autostar)***
+Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
 ```
-Simple utility to make programs run on boot. The sky's the limit.
-People use this to:
-- Launch a website automatically, on boot.
-- Start a backup.
-- Launch your favorite apps on boot so they are ready to use sooner.
-- See what other apps have added autostart entries, and customize/disable them.
-
-To run: Menu -> Preferences -> AutoStar
-To run in terminal: ~/autostar/main.sh
+~/pi-apps/manage install "Autostar"
 ```
