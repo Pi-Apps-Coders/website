@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Sonic Pi/icon-64.png" height=32> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
 https://sonic-pi.net/#rp<br />
-ARM32/ARM64 - 1,414 Users
+ARM32/ARM64 - 1414 Users
 ```
 Write code to make music. Latest version of Sonic Pi.
 

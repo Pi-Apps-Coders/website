@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Kolourpaint/icon-64.png" height=32> ***[Kolourpaint](https://github.com/Botspot/pi-apps/tree/master/apps/Kolourpaint)***
 https://apps.kde.org/kolourpaint/ - Botspot<br />
-Package app - 2,993 Users!
+Package app - 2993 Users!
 ```
 An easy-to-use paint program.
 KolourPaint is a simple painting program to quickly create raster images. It is useful as a touch-up tool and simple image editing tasks.

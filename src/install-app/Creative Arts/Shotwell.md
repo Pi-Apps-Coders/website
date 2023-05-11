@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Shotwell/icon-64.png" height=32> ***[Shotwell](https://github.com/Botspot/pi-apps/tree/master/apps/Shotwell)***
 https://shotwell-project.org/doc/html/ - Botspot<br />
-Package app - 14,882 Users!!
+Package app - 14882 Users!!
 ```
 Organize, edit, and publish your photos.
 To run: Menu -> Graphics -> Shotwell

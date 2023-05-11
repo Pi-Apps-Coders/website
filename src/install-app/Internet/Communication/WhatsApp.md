@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 no website - Apps compiled using Nativefier and DEB packages hosted by cycool29
 Nativefier made by jiahaog.
 Thanks to Botspot for help with debugging the menu shortcut and for creating pi-apps!<br />
-ARM32/ARM64 - 7,565 Users!
+ARM32/ARM64 - 7565 Users!
 ```
 Nativefier Whatsapp Web webapp
 

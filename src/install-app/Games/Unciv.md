@@ -23,7 +23,7 @@ Enhanced Descriptions and Script Reviews by cycool29
 
 Tested by Botspot
   Github: https://github.com/Botspot<br />
-ARM32/ARM64 - 2,197 Users!
+ARM32/ARM64 - 2197 Users!
 ```
 An open-source, mod-friendly Android+Desktop remake of Civ V
 

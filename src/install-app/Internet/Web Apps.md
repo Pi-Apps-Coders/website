@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Web Apps/icon-64.png" height=32> ***[Web Apps](https://github.com/Botspot/pi-apps/tree/master/apps/Web%20Apps)***
 https://itsfoss.com/web-app-manager-linux-mint/ - linuxmint for maintaining the application
 theofficialgman for packaging it for pi-apps<br />
-ARM32/ARM64 - 5,990 Users!
+ARM32/ARM64 - 5990 Users!
 ```
 Run websites as if they were apps.
 This is Linux Mint's official Web Apps program. Using it, you can run any website as a standalone app.

@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Lego Digital Designer/icon-64.png" height=32> ***[Lego Digital Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Lego%20Digital%20Designer)***
 https://github.com/Botspot/lego-digital-designer-rpi - Botspot<br />
-ARM32 ONLY - 3,086 Users!
+ARM32 ONLY - 3086 Users!
 ```
 Play with virtual Lego blocks and create your own plans!
 This is Lego's official (discontinued) brick design program. With it, you can build your own sets within the editor and paint the pieces any color you wish.

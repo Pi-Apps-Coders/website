@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Inkscape/icon-64.png" height=32> ***[Inkscape](https://github.com/Botspot/pi-apps/tree/master/apps/Inkscape)***
 https://inkscape.org - 1Spinne in issue #1262<br />
-Package app - 8,442 Users!
+Package app - 8442 Users!
 ```
 Popular free vector graphics editor
 

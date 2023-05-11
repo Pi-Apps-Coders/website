@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://github.com/lakinduakash/linux-wifi-hotspot - Thanks to:
  - @lakinduakash on GitHub (as well as all contributors) for creating this app
  - @Crilum on GitHub for adding this app to Pi-Apps<br />
-ARM32/ARM64 - 3,083 Users!
+ARM32/ARM64 - 3083 Users!
 ```
 A feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface.
 

@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Update Buddy/icon-64.png" height=32> ***[Update Buddy](https://github.com/Botspot/pi-apps/tree/master/apps/Update%20Buddy)***
 https://github.com/Botspot/update-buddy<br />
-ARM32/ARM64 - 12,661 Users!!
+ARM32/ARM64 - 12661 Users!!
 ```
 Automatically check for APT updates on boot.
 If anything can be upgraded, asks permission to upgrade.

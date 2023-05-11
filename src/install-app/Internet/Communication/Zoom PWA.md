@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Zoom PWA/icon-64.png" height=32> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***
 https://github.com/Botspot/zoom-pwa - Botspot<br />
-ARM32/ARM64 - 1,628 Users!
+ARM32/ARM64 - 1628 Users!
 ```
 Web-app for Zoom
 This is basically a web browser running Zoom's new Progressive Web App. Performance is better in some ways and worse in others.

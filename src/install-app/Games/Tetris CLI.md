@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Tetris CLI/icon-64.png" height=32> ***[Tetris CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Tetris%20CLI)***
 https://github.com/k-vernooy/tetris - DEB packages hosted by ryanfortner<br />
-ARM32/ARM64 - 3,808 Users!
+ARM32/ARM64 - 3808 Users!
 ```
 ASCII/CLI rendition of the Tetris game.
 

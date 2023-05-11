@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Downgrade Chromium/icon-64.png" height=32> ***[Downgrade Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Downgrade%20Chromium)***
 https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=308303<br />
-ARM32/ARM64 - 3,998 Users!
+ARM32/ARM64 - 3998 Users!
 ```
 Change Chromium versions easily.
 Chromium 65, 72, 74, 78, 84, 86, 88, 92, and 95.

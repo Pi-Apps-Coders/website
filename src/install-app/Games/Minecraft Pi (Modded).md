@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://discord.com/invite/aDqejQGMMy - Game mods made by TheBrokenRail#5376 on Discord
 
 Ported to Pi-Apps by TheBrokenRail#5376 on Discord with a little help from Botspot.<br />
-ARM32/ARM64 - 38,114 Users!!
+ARM32/ARM64 - 38114 Users!!
 ```
 A modded version of Minecraft: Pi Edition with things like survival mode, multiplayer support, and more!
 

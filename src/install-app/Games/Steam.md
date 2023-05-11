@@ -11,7 +11,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ## Install Steam (ARM64 ONLY)
 
 ### <img src="/img/app-icons/Steam/icon-64.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
-ARM64 ONLY - 18,363 Users!!
+ARM64 ONLY - 18363 Users!!
 ```
 This emulates the Linux x86_64 version of Steam using Box86 and Box64.
 

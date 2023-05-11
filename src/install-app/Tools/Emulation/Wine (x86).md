@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Wine (x86)/icon-64.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
 https://www.winehq.org/ - Script by Itai-Nelken and Botspot<br />
-ARM32 ONLY - 43,119 Users!!
+ARM32 ONLY - 43119 Users!!
 ```
 Run x86 Windows apps with a box86-emulated version of x86 wine.
 To run: wine path/to/file.exe

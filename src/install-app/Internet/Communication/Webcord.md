@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Webcord/icon-64.png" height=32> ***[Webcord](https://github.com/Botspot/pi-apps/tree/master/apps/Webcord)***
 https://github.com/SpacingBat3/WebCord/ - Discord app by SpacingBat3<br />
-ARM32/ARM64 - 35,400 Users!!
+ARM32/ARM64 - 35400 Users!!
 ```
 Fast Discord client for ARM that mimics the official Discord client.
 The app runs independent to chromium and can be hidden to the system tray unlike other solutions out there.

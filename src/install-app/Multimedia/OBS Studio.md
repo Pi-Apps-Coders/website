@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/OBS Studio/icon-64.png" height=32> ***[OBS Studio](https://github.com/Botspot/pi-apps/tree/master/apps/OBS%20Studio)***
 https://obsproject.com/ - Install script made by Botspot and RPICoder :)<br />
-ARM32/ARM64 - 17,813 Users!!
+ARM32/ARM64 - 17813 Users!!
 ```
 Free and open source software for video recording and live streaming.
 

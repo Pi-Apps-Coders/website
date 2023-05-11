@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png" height=32> ***[Pi-Apps Terminal Plugin (bash)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(bash))***
 https://github.com/Itai-Nelken/PiApps-terminal_bash-edition - Created and added to pi-apps by Itai-Nelken<br />
-ARM32/ARM64 - 2,413 Users!
+ARM32/ARM64 - 2413 Users!
 ```
 Pi-apps terminal is a script that lets you use pi-apps from the terminal, its written in bash.
 It has all the commands you will ever need:

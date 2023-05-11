@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png" height=32> ***[PPSSPP (PSP emulator)](https://github.com/Botspot/pi-apps/tree/master/apps/PPSSPP%20(PSP%20emulator))***
 http://ppsspp.org - Added to pi-apps by @ryanfortner (Github)<br />
-ARM32/ARM64 - 11,169 Users!!
+ARM32/ARM64 - 11169 Users!!
 ```
 A PSP emulator that can run PSP games in full HD and can upscale textures also.
 

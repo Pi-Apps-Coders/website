@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Scrcpy/icon-64.png" height=32> ***[Scrcpy](https://github.com/Botspot/pi-apps/tree/master/apps/Scrcpy)***
 https://github.com/Genymobile/scrcpy<br />
-ARM32/ARM64 - 10,472 Users!!
+ARM32/ARM64 - 10472 Users!!
 ```
 Connect and control your Android smartphone.
 This is similar to a remote desktop, where you can view the device's screen and navigate it normally.

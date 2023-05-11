@@ -11,7 +11,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ## Install Color Emoji font (ARM32/ARM64)
 
 ### <img src="/img/app-icons/Color Emoji font/icon-64.png" height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
-ARM32/ARM64 - 5,747 Users!
+ARM32/ARM64 - 5747 Users!
 ```
 Installs two fonts to display all emojis in the Unicode Emoji 13.0.
 This installs Noto Color Emoji font.

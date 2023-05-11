@@ -20,7 +20,7 @@ https://github.com/linuxmint/timeshift
 Added and updated on pi-apps: Itai-Nelken and theofficialgman
 https://github.com/Itai-Nelken/
 https://github.com/theofficialgman<br />
-ARM32/ARM64 - 5,373 Users!
+ARM32/ARM64 - 5373 Users!
 ```
 System restore tool for Linux that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS.
 Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.

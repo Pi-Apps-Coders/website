@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Nautilus/icon-64.png" height=32> ***[Nautilus](https://github.com/Botspot/pi-apps/tree/master/apps/Nautilus)***
 https://wiki.gnome.org/Apps/Files - Botspot<br />
-Package app - 17,052 Users!!
+Package app - 17052 Users!!
 ```
 Feature-rich file manager for the GNOME desktop
 To run: Menu -> Accessories -> Nautilus

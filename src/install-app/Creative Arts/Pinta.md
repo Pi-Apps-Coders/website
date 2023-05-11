@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Pinta/icon-64.png" height=32> ***[Pinta](https://github.com/Botspot/pi-apps/tree/master/apps/Pinta)***
 https://www.pinta-project.com/ - Botspot<br />
-Package app - 2,231 Users!
+Package app - 2231 Users!
 ```
 A powerful painting program including numberous adjustments, drawing tools, multiple layers, and a flexible interface.
 

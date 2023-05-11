@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Windows Screensavers/icon-64.png" height=32> ***[Windows Screensavers](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Screensavers)***
 https://github.com/Botspot/Screensavers - Botspot<br />
-ARM32 ONLY - 2,125 Users!
+ARM32 ONLY - 2125 Users!
 ```
 14 Windows screensavers that run well on Raspberry Pi.
 

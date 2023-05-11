@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Descent 1/icon-64.png" height=32> ***[Descent 1](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%201)***
 https://www.dxx-rebirth.com/<br />
-ARM32 ONLY - 2,306 Users!
+ARM32 ONLY - 2306 Users!
 ```
 D1X-Rebirth - source port of Descent: First Strike from 1995
 This package installs the shareware version, if you own the full game you can copy the game data to ~/.d1x-rebirth directory (replacing existing files).

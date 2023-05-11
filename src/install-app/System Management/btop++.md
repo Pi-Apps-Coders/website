@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://github.com/aristocratos/btop - Thanks to:
  - aristocratos and all contributers.
  - Crilum on GitHub for writing the scripts.<br />
-ARM32/ARM64 - 4,089 Users!
+ARM32/ARM64 - 4089 Users!
 ```
 Awesome terminal resource monitor and task manager, similar to htop.
 

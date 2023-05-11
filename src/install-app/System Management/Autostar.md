@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Autostar/icon-64.png" height=32> ***[Autostar](https://github.com/Botspot/pi-apps/tree/master/apps/Autostar)***
 https://github.com/Botspot/autostar - Botspot made, Botspot added.<br />
-ARM32/ARM64 - 5,805 Users!
+ARM32/ARM64 - 5805 Users!
 ```
 Simple utility to make programs run on boot. The sky's the limit.
 People use this to:

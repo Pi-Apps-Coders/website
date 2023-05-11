@@ -15,7 +15,7 @@ https://flameshot.org/ - Flameshot.org for creating the tool + all github contri
 CleanMachine1 for the install scripts and suggestion
 Itai-Nelken for finding the .deb files for installing
 Chunky-Milk for hosting the .deb file in their Github<br />
-ARM32/ARM64 - 7,460 Users!
+ARM32/ARM64 - 7460 Users!
 ```
 A simple tool to take screenshots of your screen or just parts of the screen. It is similar to Microsoft's Snipping Tool.
 

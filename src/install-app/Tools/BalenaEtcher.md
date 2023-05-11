@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://github.com/Pi-Apps-Coders/files/blob/main/CompileCommands.md#balenaetcher - @theofficialgman (GitHub)
 @Itai-Nelken (GitHub)
 @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 27,368 Users!!
+ARM32/ARM64 - 27368 Users!!
 ```
 Flash SD cards with a disk image. Many file types supported.
 To run: Menu -> Accessories -> balenaEtcher

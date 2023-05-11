@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/SpeedTest-CLI/icon-64.png" height=32> ***[SpeedTest-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/SpeedTest-CLI)***
 https://www.speedtest.net/<br />
-ARM32/ARM64 - 13,528 Users!!
+ARM32/ARM64 - 13528 Users!!
 ```
 Test your internet speed from a terminal!
 Are you familiar with speedtest.net? This tool is created by the same team.

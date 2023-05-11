@@ -15,7 +15,7 @@ https://hyper.is - Thanks to:
  - vercel and all contributors for creating Hyper!
  - @Jai-JAP on GitHub for armv7l build & fixing arm64 build
  - @Crilum on GitHub for the simple scripts<br />
-ARM32/ARM64 - 1,281 Users
+ARM32/ARM64 - 1281 Users
 ```
 A modern electron terminal
 

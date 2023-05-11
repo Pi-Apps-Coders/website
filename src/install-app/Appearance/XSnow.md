@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/XSnow/icon-64.png" height=32> ***[XSnow](https://github.com/Botspot/pi-apps/tree/master/apps/XSnow)***
 https://www.ratrabbit.nl/ratrabbit/xsnow/ - Thanks to Willem Vermin for developing this project.<br />
-ARM32/ARM64 - 1,085 Users
+ARM32/ARM64 - 1085 Users
 ```
 This turns your desktop wallpaper into an animated winter wonderland!
 Features falling snowflakes, flying birds, scenery like trees and deer, the moon, Santa, flapping birds, and more.

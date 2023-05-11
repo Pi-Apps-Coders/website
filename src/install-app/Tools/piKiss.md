@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/piKiss/icon-64.png" height=32> ***[piKiss](https://github.com/Botspot/pi-apps/tree/master/apps/piKiss)***
 https://github.com/jmcerrejon/PiKISS<br />
-ARM32/ARM64 - 23,480 Users!!
+ARM32/ARM64 - 23480 Users!!
 ```
 A bunch of scripts with a menu to make your life easier. 
 To run: Menu -> System Tools -> PiKiss

@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/BleachBit/icon-64.png" height=32> ***[BleachBit](https://github.com/Botspot/pi-apps/tree/master/apps/BleachBit)***
 https://www.bleachbit.org/<br />
-ARM32/ARM64 - 5,768 Users!
+ARM32/ARM64 - 5768 Users!
 ```
 BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer. Not outdated like the APT repo's BleachBit.
 

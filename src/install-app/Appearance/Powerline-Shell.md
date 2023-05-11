@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=32> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***
 https://github.com/techcoder20/RPI-PowerlineShell-Installer.git - Installation Script Created By RPICoder
 Added To Pi Apps By Botspot<br />
-ARM32/ARM64 - 3,148 Users!
+ARM32/ARM64 - 3148 Users!
 ```
 A beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh:
 

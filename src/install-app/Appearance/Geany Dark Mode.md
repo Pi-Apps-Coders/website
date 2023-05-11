@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Geany Dark Mode/icon-64.png" height=32> ***[Geany Dark Mode](https://github.com/Botspot/pi-apps/tree/master/apps/Geany%20Dark%20Mode)***
 https://github.com/codebrainz/geany-themes - Botspot. Oh yeah.<br />
-ARM32/ARM64 - 3,672 Users!
+ARM32/ARM64 - 3672 Users!
 ```
 Proper appearance theme for the Geany text editor.
 Geany's default color scheme looks horrible. Fortunately, this app will make it look good.

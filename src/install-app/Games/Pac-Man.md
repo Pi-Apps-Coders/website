@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Pac-Man/icon-64.png" height=32> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***
 https://github.com/ebuc99/pacman - Pac-Man source code from ebuc99 on github https://github.com/ebuc99/pacman<br />
-ARM32/ARM64 - 5,015 Users!
+ARM32/ARM64 - 5015 Users!
 ```
 Pac-Man clone in SLD2 and C/C++
 To run: Menu -> Games -> Pacman (SDL)

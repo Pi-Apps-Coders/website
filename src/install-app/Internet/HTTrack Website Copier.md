@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://httrack.com - Thanks to:
  - Xavier Roche and all contributors for creating HTTrack!
  - Thanks to Crilum on GitHub for adding HTTrack to Pi-Apps!<br />
-Package app - 1,752 Users!
+Package app - 1752 Users!
 ```
 HTTrack is a free and easy-to-use offline browser utility.
 

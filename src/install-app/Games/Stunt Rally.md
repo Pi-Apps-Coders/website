@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Stunt Rally/icon-64.png" height=32> ***[Stunt Rally](https://github.com/Botspot/pi-apps/tree/master/apps/Stunt%20Rally)***
 http://stuntrally.tuxfamily.org/ - Compiled and packaged into a deb by Itai-Nelken and ryanfortner.
 Added to pi-apps by Itai-Nelken.<br />
-ARM32/ARM64 - 7,014 Users!
+ARM32/ARM64 - 7014 Users!
 ```
 Racing game with rally style driving, mostly on gravel.
 WARNING: at least 2GB of free disk space is needed!
