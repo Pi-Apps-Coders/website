@@ -104,34 +104,15 @@ title: Install $script on Debian / Pi OS / Ubuntu ($arch) | Pi-Apps
         # start with how to install pi-apps
         cat "$GITHUB_WORKSPACE/.github/workflows/install-pi-apps.md" >> "$markdown_full_path"
 
-        echo "## Install $script" >> "$markdown_full_path"
-        num_users="$(echo "$clicklist" | grep "[0-9] $script"'$' | awk '{print $1}' | head -n1)"
-        if [ ! -z "$num_users" ] && [ "$num_users" -gt 20 ];then
-          #list the number of users, using this printf command to add commas (,) for every thousand number
-          arch_users="$arch - $(printf "%'d" "$num_users") Users"
-          if [ "$num_users" -ge 10000 ];then
-            #if this app has over 10,000 users, add two exclamation points!!
-            arch_users+="!!"
-          elif [ "$num_users" -ge 1500 ];then
-            #if this app has over 1500 users, add an exclamation point!
-            arch_users+="!"
-          fi
-        else
-          arch_users="$arch"
-        fi
-        script_website=$(cat "$CODE_WORKSPACE/apps/$script/website" 2>/dev/null)
-        script_credits=$(cat "$CODE_WORKSPACE/apps/$script/credits" 2>/dev/null)
-        echo ""  >> "$markdown_full_path"
         script_url=$(echo $script | sed -e 's/ /%20/g')
-        echo "### <img src=\"/img/app-icons/$script/icon-64.png\" height=32> ***[$script](https://github.com/Botspot/pi-apps/tree/master/apps/$script_url)***" >> "$markdown_full_path"
-        [[ ! -z "$script_website" ]] && [[ ! -z "$script_credits" ]] && echo "$script_website - $script_credits<br />" >> "$markdown_full_path"
-        [[ ! -z "$script_website" ]] && [[ -z "$script_credits" ]] && echo "$script_website<br />" >> "$markdown_full_path"
-        [[ -z "$script_website" ]] && [[ ! -z "$script_credits" ]] && echo "$script_credits<br />" >> "$markdown_full_path"
-        sed -i '$a\' "$CODE_WORKSPACE/apps/$script/description"
-        echo "$arch_users" >> "$markdown_full_path"
-        echo '```' >> "$markdown_full_path"
-        cat "$CODE_WORKSPACE/apps/$script/description" >> "$markdown_full_path"
-        echo '```' >> "$markdown_full_path"
+        echo "## Install <img src=\"/img/app-icons/$script/icon-64.png\" height=24> ***[$script](https://github.com/Botspot/pi-apps/tree/master/apps/$script_url)***" >> "$markdown_full_path"
+
+        echo 'Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
+        
+You may also use the terminal to install apps through Pi-Apps
+```
+~/pi-apps/manage install "'"$script"'"
+```' >> "$markdown_full_path"
       fi
       iter=$(($iter + 1))
     done
