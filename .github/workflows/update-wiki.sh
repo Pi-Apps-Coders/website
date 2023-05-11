@@ -79,9 +79,9 @@ generate-install-pages() {
 
         echo "---
 title: Install $script on ARM Linux | Pi-Apps
----" > $markdown_full_path
+---" > "$markdown_full_path"
         
-        echo "# How to install $script on ARM Linux" >> $markdown_full_path
+        echo "# How to install $script on ARM Linux" >> "$markdown_full_path"
         # determine if app is arm64, arm32, or both
         if [[ -e "$CODE_WORKSPACE/apps/$script/install" ]]; then
           arch="ARM32/ARM64"
@@ -112,17 +112,17 @@ title: Install $script on ARM Linux | Pi-Apps
         fi
         script_website=$(cat "$CODE_WORKSPACE/apps/$script/website" 2>/dev/null)
         script_credits=$(cat "$CODE_WORKSPACE/apps/$script/credits" 2>/dev/null)
-        echo ""  >> $markdown_full_path
+        echo ""  >> "$markdown_full_path"
         script_url=$(echo $script | sed -e 's/ /%20/g')
-        echo "### <img src=\"/img/app-icons/$script/icon-64.png\" height=32> ***[$script](https://github.com/Botspot/pi-apps/tree/master/apps/$script_url)***" >> $markdown_full_path
-        [[ ! -z "$script_website" ]] && [[ ! -z "$script_credits" ]] && echo "$script_website - $script_credits<br />" >> $markdown_full_path
-        [[ ! -z "$script_website" ]] && [[ -z "$script_credits" ]] && echo "$script_website<br />" >> $markdown_full_path
-        [[ -z "$script_website" ]] && [[ ! -z "$script_credits" ]] && echo "$script_credits<br />" >> $markdown_full_path
+        echo "### <img src=\"/img/app-icons/$script/icon-64.png\" height=32> ***[$script](https://github.com/Botspot/pi-apps/tree/master/apps/$script_url)***" >> "$markdown_full_path"
+        [[ ! -z "$script_website" ]] && [[ ! -z "$script_credits" ]] && echo "$script_website - $script_credits<br />" >> "$markdown_full_path"
+        [[ ! -z "$script_website" ]] && [[ -z "$script_credits" ]] && echo "$script_website<br />" >> "$markdown_full_path"
+        [[ -z "$script_website" ]] && [[ ! -z "$script_credits" ]] && echo "$script_credits<br />" >> "$markdown_full_path"
         sed -i '$a\' "$CODE_WORKSPACE/apps/$script/description"
-        echo "$arch_users" >> $markdown_full_path
-        echo '```' >> $markdown_full_path
-        cat "$CODE_WORKSPACE/apps/$script/description" >> $markdown_full_path
-        echo '```' >> $markdown_full_path
+        echo "$arch_users" >> "$markdown_full_path"
+        echo '```' >> "$markdown_full_path"
+        cat "$CODE_WORKSPACE/apps/$script/description" >> "$markdown_full_path"
+        echo '```' >> "$markdown_full_path"
       fi
       iter=$(($iter + 1))
     done
