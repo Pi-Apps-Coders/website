@@ -1972,19 +1972,6 @@ Lastly, connect RX from the Raspberry Pi to TX on the RVR.
 There you go! You are now ready to run your programs.
 ```
 
-### <img src="/img/app-icons/StackEdit/icon-64.png" height=32> ***[StackEdit](https://github.com/Botspot/pi-apps/tree/master/apps/StackEdit)***
-https://stackedit.io/ - Added to pi-apps by Itai-Nelken.
-webapps compiled by Itai-Nelken using nativefier.
-nativefier by jiahaog.<br />
-ARM32/ARM64 - 1003 Users
-```
-Full-featured, open-source Markdown editor.
-StackEdit uses the same markdown library as Stack Overflow and is fully compatible with Github README.md files as well.
-This is Botspot's preferred tool to write the README for all his repositories.
-To run: Menu -> Programming -> StackEdit
-To run in a terminal: ~/stackedit/StackEdit
-```
-
 ### <img src="/img/app-icons/Sublime Text/icon-64.png" height=32> ***[Sublime Text](https://github.com/Botspot/pi-apps/tree/master/apps/Sublime%20Text)***
 https://www.sublimetext.com/ - Added to pi-apps by Itai Nelken<br />
 ARM32/ARM64 - 5724 Users!
