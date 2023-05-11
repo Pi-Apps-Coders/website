@@ -1,3 +1,6 @@
+---
+title: Install Chiaki on ARM Linux | Pi-Apps
+---
 # How to install Chiaki on ARM Linux
 
 ### <img src="/img/app-icons/Chiaki/icon-64.png" height=32> ***[Chiaki](https://github.com/Botspot/pi-apps/tree/master/apps/Chiaki)***

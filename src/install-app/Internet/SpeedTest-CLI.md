@@ -1,3 +1,6 @@
+---
+title: Install SpeedTest-CLI on ARM Linux | Pi-Apps
+---
 # How to install SpeedTest-CLI on ARM Linux
 
 ### <img src="/img/app-icons/SpeedTest-CLI/icon-64.png" height=32> ***[SpeedTest-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/SpeedTest-CLI)***

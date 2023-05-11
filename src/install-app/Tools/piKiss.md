@@ -1,3 +1,6 @@
+---
+title: Install piKiss on ARM Linux | Pi-Apps
+---
 # How to install piKiss on ARM Linux
 
 ### <img src="/img/app-icons/piKiss/icon-64.png" height=32> ***[piKiss](https://github.com/Botspot/pi-apps/tree/master/apps/piKiss)***

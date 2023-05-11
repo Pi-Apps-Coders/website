@@ -1,3 +1,6 @@
+---
+title: Install Amiberry on ARM Linux | Pi-Apps
+---
 # How to install Amiberry on ARM Linux
 
 ### <img src="/img/app-icons/Amiberry/icon-64.png" height=32> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***

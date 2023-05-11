@@ -1,3 +1,6 @@
+---
+title: Install Ulauncher on ARM Linux | Pi-Apps
+---
 # How to install Ulauncher on ARM Linux
 
 ### <img src="/img/app-icons/Ulauncher/icon-64.png" height=32> ***[Ulauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Ulauncher)***

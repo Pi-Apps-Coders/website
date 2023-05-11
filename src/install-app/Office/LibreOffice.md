@@ -1,3 +1,6 @@
+---
+title: Install LibreOffice on ARM Linux | Pi-Apps
+---
 # How to install LibreOffice on ARM Linux
 
 ### <img src="/img/app-icons/LibreOffice/icon-64.png" height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***

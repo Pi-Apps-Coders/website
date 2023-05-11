@@ -1,3 +1,6 @@
+---
+title: Install Caprine on ARM Linux | Pi-Apps
+---
 # How to install Caprine on ARM Linux
 
 ### <img src="/img/app-icons/Caprine/icon-64.png" height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***

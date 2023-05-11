@@ -1,3 +1,6 @@
+---
+title: Install OpenSCAD on ARM Linux | Pi-Apps
+---
 # How to install OpenSCAD on ARM Linux
 
 ### <img src="/img/app-icons/OpenSCAD/icon-64.png" height=32> ***[OpenSCAD](https://github.com/Botspot/pi-apps/tree/master/apps/OpenSCAD)***

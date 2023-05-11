@@ -1,3 +1,6 @@
+---
+title: Install WhatsApp on ARM Linux | Pi-Apps
+---
 # How to install WhatsApp on ARM Linux
 
 ### <img src="/img/app-icons/WhatsApp/icon-64.png" height=32> ***[WhatsApp](https://github.com/Botspot/pi-apps/tree/master/apps/WhatsApp)***

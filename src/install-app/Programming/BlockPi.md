@@ -1,3 +1,6 @@
+---
+title: Install BlockPi on ARM Linux | Pi-Apps
+---
 # How to install BlockPi on ARM Linux
 
 ### <img src="/img/app-icons/BlockPi/icon-64.png" height=32> ***[BlockPi](https://github.com/Botspot/pi-apps/tree/master/apps/BlockPi)***

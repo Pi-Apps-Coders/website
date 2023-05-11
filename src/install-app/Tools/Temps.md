@@ -1,3 +1,6 @@
+---
+title: Install Temps on ARM Linux | Pi-Apps
+---
 # How to install Temps on ARM Linux
 
 ### <img src="/img/app-icons/Temps/icon-64.png" height=32> ***[Temps](https://github.com/Botspot/pi-apps/tree/master/apps/Temps)***

@@ -1,3 +1,6 @@
+---
+title: Install StepMania on ARM Linux | Pi-Apps
+---
 # How to install StepMania on ARM Linux
 
 ### <img src="/img/app-icons/StepMania/icon-64.png" height=32> ***[StepMania](https://github.com/Botspot/pi-apps/tree/master/apps/StepMania)***

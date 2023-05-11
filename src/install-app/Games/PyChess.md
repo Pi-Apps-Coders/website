@@ -1,3 +1,6 @@
+---
+title: Install PyChess on ARM Linux | Pi-Apps
+---
 # How to install PyChess on ARM Linux
 
 ### <img src="/img/app-icons/PyChess/icon-64.png" height=32> ***[PyChess](https://github.com/Botspot/pi-apps/tree/master/apps/PyChess)***

@@ -1,3 +1,6 @@
+---
+title: Install Thunderbird on ARM Linux | Pi-Apps
+---
 # How to install Thunderbird on ARM Linux
 
 ### <img src="/img/app-icons/Thunderbird/icon-64.png" height=32> ***[Thunderbird](https://github.com/Botspot/pi-apps/tree/master/apps/Thunderbird)***

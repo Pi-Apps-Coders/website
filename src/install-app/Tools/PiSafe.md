@@ -1,3 +1,6 @@
+---
+title: Install PiSafe on ARM Linux | Pi-Apps
+---
 # How to install PiSafe on ARM Linux
 
 ### <img src="/img/app-icons/PiSafe/icon-64.png" height=32> ***[PiSafe](https://github.com/Botspot/pi-apps/tree/master/apps/PiSafe)***

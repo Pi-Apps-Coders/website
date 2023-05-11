@@ -1,3 +1,6 @@
+---
+title: Install Deskreen on ARM Linux | Pi-Apps
+---
 # How to install Deskreen on ARM Linux
 
 ### <img src="/img/app-icons/Deskreen/icon-64.png" height=32> ***[Deskreen](https://github.com/Botspot/pi-apps/tree/master/apps/Deskreen)***

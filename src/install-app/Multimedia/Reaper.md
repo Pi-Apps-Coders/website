@@ -1,3 +1,6 @@
+---
+title: Install Reaper on ARM Linux | Pi-Apps
+---
 # How to install Reaper on ARM Linux
 
 ### <img src="/img/app-icons/Reaper/icon-64.png" height=32> ***[Reaper](https://github.com/Botspot/pi-apps/tree/master/apps/Reaper)***

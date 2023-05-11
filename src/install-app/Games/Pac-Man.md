@@ -1,3 +1,6 @@
+---
+title: Install Pac-Man on ARM Linux | Pi-Apps
+---
 # How to install Pac-Man on ARM Linux
 
 ### <img src="/img/app-icons/Pac-Man/icon-64.png" height=32> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***

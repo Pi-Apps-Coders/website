@@ -1,3 +1,6 @@
+---
+title: Install Cawbird on ARM Linux | Pi-Apps
+---
 # How to install Cawbird on ARM Linux
 
 ### <img src="/img/app-icons/Cawbird/icon-64.png" height=32> ***[Cawbird](https://github.com/Botspot/pi-apps/tree/master/apps/Cawbird)***

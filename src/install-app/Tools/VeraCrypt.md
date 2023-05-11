@@ -1,3 +1,6 @@
+---
+title: Install VeraCrypt on ARM Linux | Pi-Apps
+---
 # How to install VeraCrypt on ARM Linux
 
 ### <img src="/img/app-icons/VeraCrypt/icon-64.png" height=32> ***[VeraCrypt](https://github.com/Botspot/pi-apps/tree/master/apps/VeraCrypt)***

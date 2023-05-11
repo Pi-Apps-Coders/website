@@ -1,3 +1,6 @@
+---
+title: Install Mu on ARM Linux | Pi-Apps
+---
 # How to install Mu on ARM Linux
 
 ### <img src="/img/app-icons/Mu/icon-64.png" height=32> ***[Mu](https://github.com/Botspot/pi-apps/tree/master/apps/Mu)***

@@ -1,3 +1,6 @@
+---
+title: Install Zoom on ARM Linux | Pi-Apps
+---
 # How to install Zoom on ARM Linux
 
 ### <img src="/img/app-icons/Zoom/icon-64.png" height=32> ***[Zoom](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom)***

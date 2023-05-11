@@ -1,3 +1,6 @@
+---
+title: Install PeaZip on ARM Linux | Pi-Apps
+---
 # How to install PeaZip on ARM Linux
 
 ### <img src="/img/app-icons/PeaZip/icon-64.png" height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***

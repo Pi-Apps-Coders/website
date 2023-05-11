@@ -1,3 +1,6 @@
+---
+title: Install XMRig on ARM Linux | Pi-Apps
+---
 # How to install XMRig on ARM Linux
 
 ### <img src="/img/app-icons/XMRig/icon-64.png" height=32> ***[XMRig](https://github.com/Botspot/pi-apps/tree/master/apps/XMRig)***

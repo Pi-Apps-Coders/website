@@ -1,3 +1,6 @@
+---
+title: Install AnyDesk on ARM Linux | Pi-Apps
+---
 # How to install AnyDesk on ARM Linux
 
 ### <img src="/img/app-icons/AnyDesk/icon-64.png" height=32> ***[AnyDesk](https://github.com/Botspot/pi-apps/tree/master/apps/AnyDesk)***

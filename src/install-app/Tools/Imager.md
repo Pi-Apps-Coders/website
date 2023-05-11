@@ -1,3 +1,6 @@
+---
+title: Install Imager on ARM Linux | Pi-Apps
+---
 # How to install Imager on ARM Linux
 
 ### <img src="/img/app-icons/Imager/icon-64.png" height=32> ***[Imager](https://github.com/Botspot/pi-apps/tree/master/apps/Imager)***

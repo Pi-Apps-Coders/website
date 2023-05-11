@@ -1,3 +1,6 @@
+---
+title: Install Godot on ARM Linux | Pi-Apps
+---
 # How to install Godot on ARM Linux
 
 ### <img src="/img/app-icons/Godot/icon-64.png" height=32> ***[Godot](https://github.com/Botspot/pi-apps/tree/master/apps/Godot)***

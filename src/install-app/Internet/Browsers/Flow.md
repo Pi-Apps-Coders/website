@@ -1,3 +1,6 @@
+---
+title: Install Flow on ARM Linux | Pi-Apps
+---
 # How to install Flow on ARM Linux
 
 ### <img src="/img/app-icons/Flow/icon-64.png" height=32> ***[Flow](https://github.com/Botspot/pi-apps/tree/master/apps/Flow)***

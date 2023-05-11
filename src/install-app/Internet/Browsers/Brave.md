@@ -1,3 +1,6 @@
+---
+title: Install Brave on ARM Linux | Pi-Apps
+---
 # How to install Brave on ARM Linux
 
 ### <img src="/img/app-icons/Brave/icon-64.png" height=32> ***[Brave](https://github.com/Botspot/pi-apps/tree/master/apps/Brave)***

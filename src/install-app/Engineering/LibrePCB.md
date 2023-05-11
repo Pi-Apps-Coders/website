@@ -1,3 +1,6 @@
+---
+title: Install LibrePCB on ARM Linux | Pi-Apps
+---
 # How to install LibrePCB on ARM Linux
 
 ### <img src="/img/app-icons/LibrePCB/icon-64.png" height=32> ***[LibrePCB](https://github.com/Botspot/pi-apps/tree/master/apps/LibrePCB)***

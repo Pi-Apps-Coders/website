@@ -1,3 +1,6 @@
+---
+title: Install Snapdrop on ARM Linux | Pi-Apps
+---
 # How to install Snapdrop on ARM Linux
 
 ### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***

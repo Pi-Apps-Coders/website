@@ -1,3 +1,6 @@
+---
+title: Install Epiphany on ARM Linux | Pi-Apps
+---
 # How to install Epiphany on ARM Linux
 
 ### <img src="/img/app-icons/Epiphany/icon-64.png" height=32> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***

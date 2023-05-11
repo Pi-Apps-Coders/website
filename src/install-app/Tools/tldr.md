@@ -1,3 +1,6 @@
+---
+title: Install tldr on ARM Linux | Pi-Apps
+---
 # How to install tldr on ARM Linux
 
 ### <img src="/img/app-icons/tldr/icon-64.png" height=32> ***[tldr](https://github.com/Botspot/pi-apps/tree/master/apps/tldr)***

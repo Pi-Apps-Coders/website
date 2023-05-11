@@ -1,3 +1,6 @@
+---
+title: Install PiGro on ARM Linux | Pi-Apps
+---
 # How to install PiGro on ARM Linux
 
 ### <img src="/img/app-icons/PiGro/icon-64.png" height=32> ***[PiGro](https://github.com/Botspot/pi-apps/tree/master/apps/PiGro)***

@@ -1,3 +1,6 @@
+---
+title: Install Webcord on ARM Linux | Pi-Apps
+---
 # How to install Webcord on ARM Linux
 
 ### <img src="/img/app-icons/Webcord/icon-64.png" height=32> ***[Webcord](https://github.com/Botspot/pi-apps/tree/master/apps/Webcord)***

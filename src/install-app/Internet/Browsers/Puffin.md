@@ -1,3 +1,6 @@
+---
+title: Install Puffin on ARM Linux | Pi-Apps
+---
 # How to install Puffin on ARM Linux
 
 ### <img src="/img/app-icons/Puffin/icon-64.png" height=32> ***[Puffin](https://github.com/Botspot/pi-apps/tree/master/apps/Puffin)***

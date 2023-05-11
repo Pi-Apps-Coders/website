@@ -1,3 +1,6 @@
+---
+title: Install Audacity on ARM Linux | Pi-Apps
+---
 # How to install Audacity on ARM Linux
 
 ### <img src="/img/app-icons/Audacity/icon-64.png" height=32> ***[Audacity](https://github.com/Botspot/pi-apps/tree/master/apps/Audacity)***

@@ -1,3 +1,6 @@
+---
+title: Install Nemo on ARM Linux | Pi-Apps
+---
 # How to install Nemo on ARM Linux
 
 ### <img src="/img/app-icons/Nemo/icon-64.png" height=32> ***[Nemo](https://github.com/Botspot/pi-apps/tree/master/apps/Nemo)***

@@ -1,3 +1,6 @@
+---
+title: Install Telegram on ARM Linux | Pi-Apps
+---
 # How to install Telegram on ARM Linux
 
 ### <img src="/img/app-icons/Telegram/icon-64.png" height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***

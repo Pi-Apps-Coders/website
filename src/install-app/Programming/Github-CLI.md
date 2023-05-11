@@ -1,3 +1,6 @@
+---
+title: Install Github-CLI on ARM Linux | Pi-Apps
+---
 # How to install Github-CLI on ARM Linux
 
 ### <img src="/img/app-icons/Github-CLI/icon-64.png" height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***

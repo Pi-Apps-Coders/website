@@ -1,3 +1,6 @@
+---
+title: Install Deluge on ARM Linux | Pi-Apps
+---
 # How to install Deluge on ARM Linux
 
 ### <img src="/img/app-icons/Deluge/icon-64.png" height=32> ***[Deluge](https://github.com/Botspot/pi-apps/tree/master/apps/Deluge)***

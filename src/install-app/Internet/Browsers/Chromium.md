@@ -1,3 +1,6 @@
+---
+title: Install Chromium on ARM Linux | Pi-Apps
+---
 # How to install Chromium on ARM Linux
 
 ### <img src="/img/app-icons/Chromium/icon-64.png" height=32> ***[Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium)***

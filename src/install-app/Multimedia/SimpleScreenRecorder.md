@@ -1,3 +1,6 @@
+---
+title: Install SimpleScreenRecorder on ARM Linux | Pi-Apps
+---
 # How to install SimpleScreenRecorder on ARM Linux
 
 ### <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=32> ***[SimpleScreenRecorder](https://github.com/Botspot/pi-apps/tree/master/apps/SimpleScreenRecorder)***

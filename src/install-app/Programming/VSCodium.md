@@ -1,3 +1,6 @@
+---
+title: Install VSCodium on ARM Linux | Pi-Apps
+---
 # How to install VSCodium on ARM Linux
 
 ### <img src="/img/app-icons/VSCodium/icon-64.png" height=32> ***[VSCodium](https://github.com/Botspot/pi-apps/tree/master/apps/VSCodium)***

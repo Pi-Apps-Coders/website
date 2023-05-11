@@ -1,3 +1,6 @@
+---
+title: Install Filezilla on ARM Linux | Pi-Apps
+---
 # How to install Filezilla on ARM Linux
 
 ### <img src="/img/app-icons/Filezilla/icon-64.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***

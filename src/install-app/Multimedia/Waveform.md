@@ -1,3 +1,6 @@
+---
+title: Install Waveform on ARM Linux | Pi-Apps
+---
 # How to install Waveform on ARM Linux
 
 ### <img src="/img/app-icons/Waveform/icon-64.png" height=32> ***[Waveform](https://github.com/Botspot/pi-apps/tree/master/apps/Waveform)***

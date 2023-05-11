@@ -1,3 +1,6 @@
+---
+title: Install Remarkable on ARM Linux | Pi-Apps
+---
 # How to install Remarkable on ARM Linux
 
 ### <img src="/img/app-icons/Remarkable/icon-64.png" height=32> ***[Remarkable](https://github.com/Botspot/pi-apps/tree/master/apps/Remarkable)***

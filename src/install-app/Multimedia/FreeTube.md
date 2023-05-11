@@ -1,3 +1,6 @@
+---
+title: Install FreeTube on ARM Linux | Pi-Apps
+---
 # How to install FreeTube on ARM Linux
 
 ### <img src="/img/app-icons/FreeTube/icon-64.png" height=32> ***[FreeTube](https://github.com/Botspot/pi-apps/tree/master/apps/FreeTube)***

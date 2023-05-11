@@ -1,3 +1,6 @@
+---
+title: Install Steam on ARM Linux | Pi-Apps
+---
 # How to install Steam on ARM Linux
 
 ### <img src="/img/app-icons/Steam/icon-64.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***

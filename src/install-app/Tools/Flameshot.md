@@ -1,3 +1,6 @@
+---
+title: Install Flameshot on ARM Linux | Pi-Apps
+---
 # How to install Flameshot on ARM Linux
 
 ### <img src="/img/app-icons/Flameshot/icon-64.png" height=32> ***[Flameshot](https://github.com/Botspot/pi-apps/tree/master/apps/Flameshot)***

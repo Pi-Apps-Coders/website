@@ -1,3 +1,6 @@
+---
+title: Install Geekbench on ARM Linux | Pi-Apps
+---
 # How to install Geekbench on ARM Linux
 
 ### <img src="/img/app-icons/Geekbench/icon-64.png" height=32> ***[Geekbench](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench)***

@@ -1,3 +1,6 @@
+---
+title: Install TeamViewer on ARM Linux | Pi-Apps
+---
 # How to install TeamViewer on ARM Linux
 
 ### <img src="/img/app-icons/TeamViewer/icon-64.png" height=32> ***[TeamViewer](https://github.com/Botspot/pi-apps/tree/master/apps/TeamViewer)***

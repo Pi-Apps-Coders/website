@@ -1,3 +1,6 @@
+---
+title: Install Tabby on ARM Linux | Pi-Apps
+---
 # How to install Tabby on ARM Linux
 
 ### <img src="/img/app-icons/Tabby/icon-64.png" height=32> ***[Tabby](https://github.com/Botspot/pi-apps/tree/master/apps/Tabby)***

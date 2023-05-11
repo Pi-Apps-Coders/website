@@ -1,3 +1,6 @@
+---
+title: Install ArmCord on ARM Linux | Pi-Apps
+---
 # How to install ArmCord on ARM Linux
 
 ### <img src="/img/app-icons/ArmCord/icon-64.png" height=32> ***[ArmCord](https://github.com/Botspot/pi-apps/tree/master/apps/ArmCord)***

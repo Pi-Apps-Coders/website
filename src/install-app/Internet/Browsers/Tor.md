@@ -1,3 +1,6 @@
+---
+title: Install Tor on ARM Linux | Pi-Apps
+---
 # How to install Tor on ARM Linux
 
 ### <img src="/img/app-icons/Tor/icon-64.png" height=32> ***[Tor](https://github.com/Botspot/pi-apps/tree/master/apps/Tor)***

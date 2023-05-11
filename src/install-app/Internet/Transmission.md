@@ -1,3 +1,6 @@
+---
+title: Install Transmission on ARM Linux | Pi-Apps
+---
 # How to install Transmission on ARM Linux
 
 ### <img src="/img/app-icons/Transmission/icon-64.png" height=32> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***

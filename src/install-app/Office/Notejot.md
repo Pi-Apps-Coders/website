@@ -1,3 +1,6 @@
+---
+title: Install Notejot on ARM Linux | Pi-Apps
+---
 # How to install Notejot on ARM Linux
 
 ### <img src="/img/app-icons/Notejot/icon-64.png" height=32> ***[Notejot](https://github.com/Botspot/pi-apps/tree/master/apps/Notejot)***

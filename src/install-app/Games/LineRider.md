@@ -1,3 +1,6 @@
+---
+title: Install LineRider on ARM Linux | Pi-Apps
+---
 # How to install LineRider on ARM Linux
 
 ### <img src="/img/app-icons/LineRider/icon-64.png" height=32> ***[LineRider](https://github.com/Botspot/pi-apps/tree/master/apps/LineRider)***

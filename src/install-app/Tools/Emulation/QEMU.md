@@ -1,3 +1,6 @@
+---
+title: Install QEMU on ARM Linux | Pi-Apps
+---
 # How to install QEMU on ARM Linux
 
 ### <img src="/img/app-icons/QEMU/icon-64.png" height=32> ***[QEMU](https://github.com/Botspot/pi-apps/tree/master/apps/QEMU)***

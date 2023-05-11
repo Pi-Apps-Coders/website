@@ -1,3 +1,6 @@
+---
+title: Install Screenshot on ARM Linux | Pi-Apps
+---
 # How to install Screenshot on ARM Linux
 
 ### <img src="/img/app-icons/Screenshot/icon-64.png" height=32> ***[Screenshot](https://github.com/Botspot/pi-apps/tree/master/apps/Screenshot)***

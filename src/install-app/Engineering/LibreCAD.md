@@ -1,3 +1,6 @@
+---
+title: Install LibreCAD on ARM Linux | Pi-Apps
+---
 # How to install LibreCAD on ARM Linux
 
 ### <img src="/img/app-icons/LibreCAD/icon-64.png" height=32> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***

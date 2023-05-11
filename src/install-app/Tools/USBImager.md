@@ -1,3 +1,6 @@
+---
+title: Install USBImager on ARM Linux | Pi-Apps
+---
 # How to install USBImager on ARM Linux
 
 ### <img src="/img/app-icons/USBImager/icon-64.png" height=32> ***[USBImager](https://github.com/Botspot/pi-apps/tree/master/apps/USBImager)***

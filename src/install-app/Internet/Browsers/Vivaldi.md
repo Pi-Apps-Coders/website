@@ -1,3 +1,6 @@
+---
+title: Install Vivaldi on ARM Linux | Pi-Apps
+---
 # How to install Vivaldi on ARM Linux
 
 ### <img src="/img/app-icons/Vivaldi/icon-64.png" height=32> ***[Vivaldi](https://github.com/Botspot/pi-apps/tree/master/apps/Vivaldi)***

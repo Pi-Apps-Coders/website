@@ -1,3 +1,6 @@
+---
+title: Install Arduino on ARM Linux | Pi-Apps
+---
 # How to install Arduino on ARM Linux
 
 ### <img src="/img/app-icons/Arduino/icon-64.png" height=32> ***[Arduino](https://github.com/Botspot/pi-apps/tree/master/apps/Arduino)***

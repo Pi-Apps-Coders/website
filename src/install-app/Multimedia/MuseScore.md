@@ -1,3 +1,6 @@
+---
+title: Install MuseScore on ARM Linux | Pi-Apps
+---
 # How to install MuseScore on ARM Linux
 
 ### <img src="/img/app-icons/MuseScore/icon-64.png" height=32> ***[MuseScore](https://github.com/Botspot/pi-apps/tree/master/apps/MuseScore)***

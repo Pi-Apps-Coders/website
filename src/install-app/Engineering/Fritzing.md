@@ -1,3 +1,6 @@
+---
+title: Install Fritzing on ARM Linux | Pi-Apps
+---
 # How to install Fritzing on ARM Linux
 
 ### <img src="/img/app-icons/Fritzing/icon-64.png" height=32> ***[Fritzing](https://github.com/Botspot/pi-apps/tree/master/apps/Fritzing)***

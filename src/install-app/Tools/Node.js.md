@@ -1,3 +1,6 @@
+---
+title: Install Node.js on ARM Linux | Pi-Apps
+---
 # How to install Node.js on ARM Linux
 
 ### <img src="/img/app-icons/Node.js/icon-64.png" height=32> ***[Node.js](https://github.com/Botspot/pi-apps/tree/master/apps/Node.js)***

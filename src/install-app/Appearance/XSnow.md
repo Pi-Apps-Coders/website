@@ -1,3 +1,6 @@
+---
+title: Install XSnow on ARM Linux | Pi-Apps
+---
 # How to install XSnow on ARM Linux
 
 ### <img src="/img/app-icons/XSnow/icon-64.png" height=32> ***[XSnow](https://github.com/Botspot/pi-apps/tree/master/apps/XSnow)***

@@ -1,3 +1,6 @@
+---
+title: Install Scrcpy on ARM Linux | Pi-Apps
+---
 # How to install Scrcpy on ARM Linux
 
 ### <img src="/img/app-icons/Scrcpy/icon-64.png" height=32> ***[Scrcpy](https://github.com/Botspot/pi-apps/tree/master/apps/Scrcpy)***

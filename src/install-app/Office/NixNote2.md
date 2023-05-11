@@ -1,3 +1,6 @@
+---
+title: Install NixNote2 on ARM Linux | Pi-Apps
+---
 # How to install NixNote2 on ARM Linux
 
 ### <img src="/img/app-icons/NixNote2/icon-64.png" height=32> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***

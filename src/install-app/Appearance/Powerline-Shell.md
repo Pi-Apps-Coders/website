@@ -1,3 +1,6 @@
+---
+title: Install Powerline-Shell on ARM Linux | Pi-Apps
+---
 # How to install Powerline-Shell on ARM Linux
 
 ### <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=32> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***

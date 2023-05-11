@@ -1,3 +1,6 @@
+---
+title: Install Marathon on ARM Linux | Pi-Apps
+---
 # How to install Marathon on ARM Linux
 
 ### <img src="/img/app-icons/Marathon/icon-64.png" height=32> ***[Marathon](https://github.com/Botspot/pi-apps/tree/master/apps/Marathon)***

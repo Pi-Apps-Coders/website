@@ -1,3 +1,6 @@
+---
+title: Install Lightpad on ARM Linux | Pi-Apps
+---
 # How to install Lightpad on ARM Linux
 
 ### <img src="/img/app-icons/Lightpad/icon-64.png" height=32> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***

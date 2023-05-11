@@ -1,3 +1,6 @@
+---
+title: Install Codex on ARM Linux | Pi-Apps
+---
 # How to install Codex on ARM Linux
 
 ### <img src="/img/app-icons/Codex/icon-64.png" height=32> ***[Codex](https://github.com/Botspot/pi-apps/tree/master/apps/Codex)***

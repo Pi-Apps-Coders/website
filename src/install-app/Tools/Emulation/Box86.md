@@ -1,3 +1,6 @@
+---
+title: Install Box86 on ARM Linux | Pi-Apps
+---
 # How to install Box86 on ARM Linux
 
 ### <img src="/img/app-icons/Box86/icon-64.png" height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***

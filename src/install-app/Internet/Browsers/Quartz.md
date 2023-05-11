@@ -1,3 +1,6 @@
+---
+title: Install Quartz on ARM Linux | Pi-Apps
+---
 # How to install Quartz on ARM Linux
 
 ### <img src="/img/app-icons/Quartz/icon-64.png" height=32> ***[Quartz](https://github.com/Botspot/pi-apps/tree/master/apps/Quartz)***

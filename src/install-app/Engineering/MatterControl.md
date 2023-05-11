@@ -1,3 +1,6 @@
+---
+title: Install MatterControl on ARM Linux | Pi-Apps
+---
 # How to install MatterControl on ARM Linux
 
 ### <img src="/img/app-icons/MatterControl/icon-64.png" height=32> ***[MatterControl](https://github.com/Botspot/pi-apps/tree/master/apps/MatterControl)***

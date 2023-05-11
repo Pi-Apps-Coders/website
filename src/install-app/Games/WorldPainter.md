@@ -1,3 +1,6 @@
+---
+title: Install WorldPainter on ARM Linux | Pi-Apps
+---
 # How to install WorldPainter on ARM Linux
 
 ### <img src="/img/app-icons/WorldPainter/icon-64.png" height=32> ***[WorldPainter](https://github.com/Botspot/pi-apps/tree/master/apps/WorldPainter)***

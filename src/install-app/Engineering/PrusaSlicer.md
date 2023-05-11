@@ -1,3 +1,6 @@
+---
+title: Install PrusaSlicer on ARM Linux | Pi-Apps
+---
 # How to install PrusaSlicer on ARM Linux
 
 ### <img src="/img/app-icons/PrusaSlicer/icon-64.png" height=32> ***[PrusaSlicer](https://github.com/Botspot/pi-apps/tree/master/apps/PrusaSlicer)***

@@ -1,3 +1,6 @@
+---
+title: Install LMMS on ARM Linux | Pi-Apps
+---
 # How to install LMMS on ARM Linux
 
 ### <img src="/img/app-icons/LMMS/icon-64.png" height=32> ***[LMMS](https://github.com/Botspot/pi-apps/tree/master/apps/LMMS)***

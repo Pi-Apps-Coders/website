@@ -1,3 +1,6 @@
+---
+title: Install eDEX-UI on ARM Linux | Pi-Apps
+---
 # How to install eDEX-UI on ARM Linux
 
 ### <img src="/img/app-icons/eDEX-UI/icon-64.png" height=32> ***[eDEX-UI](https://github.com/Botspot/pi-apps/tree/master/apps/eDEX-UI)***

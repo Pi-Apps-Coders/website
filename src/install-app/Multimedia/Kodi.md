@@ -1,3 +1,6 @@
+---
+title: Install Kodi on ARM Linux | Pi-Apps
+---
 # How to install Kodi on ARM Linux
 
 ### <img src="/img/app-icons/Kodi/icon-64.png" height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***

@@ -1,3 +1,6 @@
+---
+title: Install Browsh on ARM Linux | Pi-Apps
+---
 # How to install Browsh on ARM Linux
 
 ### <img src="/img/app-icons/Browsh/icon-64.png" height=32> ***[Browsh](https://github.com/Botspot/pi-apps/tree/master/apps/Browsh)***

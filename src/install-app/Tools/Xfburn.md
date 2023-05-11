@@ -1,3 +1,6 @@
+---
+title: Install Xfburn on ARM Linux | Pi-Apps
+---
 # How to install Xfburn on ARM Linux
 
 ### <img src="/img/app-icons/Xfburn/icon-64.png" height=32> ***[Xfburn](https://github.com/Botspot/pi-apps/tree/master/apps/Xfburn)***
