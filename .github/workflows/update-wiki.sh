@@ -76,8 +76,12 @@ generate-install-pages() {
       if [[ "${script_category[$iter]}" == "$category" ]] && [[ -e "$CODE_WORKSPACE/apps/$script" ]]; then
         mkdir -p "$GITHUB_WORKSPACE/src/install-app/$category"
         markdown_full_path="$GITHUB_WORKSPACE/src/install-app/$category/$script.md"
+
+        echo "---
+title: Install $script on ARM Linux | Pi-Apps
+---" > $markdown_full_path
         
-        echo "# How to install $script on ARM Linux" > $markdown_full_path
+        echo "# How to install $script on ARM Linux" >> $markdown_full_path
         # determine if app is arm64, arm32, or both
         if [[ -e "$CODE_WORKSPACE/apps/$script/install" ]]; then
           arch="ARM32/ARM64"
