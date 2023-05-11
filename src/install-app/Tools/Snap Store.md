@@ -1,11 +1,18 @@
 ---
 title: Install Snap Store on ARM Linux | Pi-Apps
 ---
-# How to install Snap Store on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Snap Store
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Snap Store (ARM32/ARM64)
 
 ### <img src="/img/app-icons/Snap Store/icon-64.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
 https://snapcraft.io/store - Installation script and made by RPICoder<br />
-ARM32/ARM64 - 22969 Users!!
+ARM32/ARM64 - 22,969 Users!!
 ```
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross‐platform and dependency‐free.
 Snaps are discoverable and installable from the Snap Store, the app store for Linux with an audience of millions.

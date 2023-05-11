@@ -1,11 +1,18 @@
 ---
 title: Install Pi-Apps Terminal Plugin (python) on ARM Linux | Pi-Apps
 ---
-# How to install Pi-Apps Terminal Plugin (python) on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Pi-Apps Terminal Plugin (python)
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Pi-Apps Terminal Plugin (python) (ARM32 ONLY)
 
 ### <img src="/img/app-icons/Pi-Apps Terminal Plugin (python)/icon-64.png" height=32> ***[Pi-Apps Terminal Plugin (python)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(python))***
 https://github.com/techcoder20/PiAppsTerminalAdvanced - App made by and added to pi-apps by RPICoder<br />
-ARM32 ONLY - 1271 Users
+ARM32 ONLY - 1,271 Users
 ```
 This is a terminal version of pi apps but with more features.
 

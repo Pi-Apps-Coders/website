@@ -1,11 +1,18 @@
 ---
 title: Install PeaZip on ARM Linux | Pi-Apps
 ---
-# How to install PeaZip on ARM Linux
+# Install Pi-Apps on ARM Linux and Install PeaZip
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install PeaZip (ARM64 ONLY)
 
 ### <img src="/img/app-icons/PeaZip/icon-64.png" height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***
 https://peazip.github.io - @ryanfortner (GitHub)<br />
-ARM64 ONLY - 1393 Users
+ARM64 ONLY - 1,393 Users
 ```
 PeaZip is free file archiver utility, based on Open Source technologies of 7-Zip, p7zip, Brotli, FreeArc, PAQ, Zstandard, and PEA projects.
 

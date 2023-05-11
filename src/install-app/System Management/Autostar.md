@@ -1,11 +1,18 @@
 ---
 title: Install Autostar on ARM Linux | Pi-Apps
 ---
-# How to install Autostar on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Autostar
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Autostar (ARM32/ARM64)
 
 ### <img src="/img/app-icons/Autostar/icon-64.png" height=32> ***[Autostar](https://github.com/Botspot/pi-apps/tree/master/apps/Autostar)***
 https://github.com/Botspot/autostar - Botspot made, Botspot added.<br />
-ARM32/ARM64 - 5805 Users!
+ARM32/ARM64 - 5,805 Users!
 ```
 Simple utility to make programs run on boot. The sky's the limit.
 People use this to:

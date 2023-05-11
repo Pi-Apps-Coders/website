@@ -1,11 +1,18 @@
 ---
 title: Install Wine (x86) on ARM Linux | Pi-Apps
 ---
-# How to install Wine (x86) on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Wine (x86)
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Wine (x86) (ARM32 ONLY)
 
 ### <img src="/img/app-icons/Wine (x86)/icon-64.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
 https://www.winehq.org/ - Script by Itai-Nelken and Botspot<br />
-ARM32 ONLY - 43119 Users!!
+ARM32 ONLY - 43,119 Users!!
 ```
 Run x86 Windows apps with a box86-emulated version of x86 wine.
 To run: wine path/to/file.exe

@@ -1,12 +1,19 @@
 ---
 title: Install WPS Office on ARM Linux | Pi-Apps
 ---
-# How to install WPS Office on ARM Linux
+# Install Pi-Apps on ARM Linux and Install WPS Office
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install WPS Office (ARM32/ARM64)
 
 ### <img src="/img/app-icons/WPS Office/icon-64.png" height=32> ***[WPS Office](https://github.com/Botspot/pi-apps/tree/master/apps/WPS%20Office)***
 https://www.wps.com - Botspot figured out how to install WPS Office on PiOS64. (dependency handling)
 Botspot figured out how to install WPS Office on PiOS32. (chroot setup)<br />
-ARM32/ARM64 - 3227 Users!
+ARM32/ARM64 - 3,227 Users!
 ```
 This is a Chinese clone of Microsoft Office.
 It includes Word, Excel, PowerPoint, a PDF viewer, and a web browser. It appears to be free software and you don't need to create an account to use it.

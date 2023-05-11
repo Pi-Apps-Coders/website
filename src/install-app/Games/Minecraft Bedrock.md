@@ -1,13 +1,20 @@
 ---
 title: Install Minecraft Bedrock on ARM Linux | Pi-Apps
 ---
-# How to install Minecraft Bedrock on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Minecraft Bedrock
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Minecraft Bedrock (ARM32/ARM64)
 
 ### <img src="/img/app-icons/Minecraft Bedrock/icon-64.png" height=32> ***[Minecraft Bedrock](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Bedrock)***
 https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/appimage - Install script written by RaspberryPiNews on YT
 Appimage made by ChristopherHX on Github
 Program made by everyone at [minecraft-linux](https://github.com/minecraft-linux) on Github<br />
-ARM32/ARM64 - 22841 Users!!
+ARM32/ARM64 - 22,841 Users!!
 ```
 Unofficial launcher for Minecraft Bedrock edition
 NOTE: For better performance and smooth FPS, we recommend an older Bedrock version like 1.16.40 as it doesn't contain renderdragon or RTX code.

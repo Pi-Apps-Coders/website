@@ -1,12 +1,19 @@
 ---
 title: Install OpenSCAD on ARM Linux | Pi-Apps
 ---
-# How to install OpenSCAD on ARM Linux
+# Install Pi-Apps on ARM Linux and Install OpenSCAD
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install OpenSCAD (ARM32/ARM64)
 
 ### <img src="/img/app-icons/OpenSCAD/icon-64.png" height=32> ***[OpenSCAD](https://github.com/Botspot/pi-apps/tree/master/apps/OpenSCAD)***
 http://www.openscad.org/
 https://github.com/koendv/openscad-raspberrypi<br />
-ARM32/ARM64 - 2642 Users!
+ARM32/ARM64 - 2,642 Users!
 ```
 OpenSCAD is software for creating solid 3D CAD models.
 

@@ -1,12 +1,19 @@
 ---
 title: Install Web Apps on ARM Linux | Pi-Apps
 ---
-# How to install Web Apps on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Web Apps
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Web Apps (ARM32/ARM64)
 
 ### <img src="/img/app-icons/Web Apps/icon-64.png" height=32> ***[Web Apps](https://github.com/Botspot/pi-apps/tree/master/apps/Web%20Apps)***
 https://itsfoss.com/web-app-manager-linux-mint/ - linuxmint for maintaining the application
 theofficialgman for packaging it for pi-apps<br />
-ARM32/ARM64 - 5990 Users!
+ARM32/ARM64 - 5,990 Users!
 ```
 Run websites as if they were apps.
 This is Linux Mint's official Web Apps program. Using it, you can run any website as a standalone app.

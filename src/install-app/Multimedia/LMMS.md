@@ -1,13 +1,20 @@
 ---
 title: Install LMMS on ARM Linux | Pi-Apps
 ---
-# How to install LMMS on ARM Linux
+# Install Pi-Apps on ARM Linux and Install LMMS
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install LMMS (Package app)
 
 ### <img src="/img/app-icons/LMMS/icon-64.png" height=32> ***[LMMS](https://github.com/Botspot/pi-apps/tree/master/apps/LMMS)***
 https://lmms.io - Thanks to:
  - the LMMS community for developing LMMS
  - @Crilum on GitHub for adding LMMS to Pi-Apps <br />
-Package app - 2028 Users!
+Package app - 2,028 Users!
 ```
 LMMS (Let’s Make Music) is a free, open-source and cross-platform software for making music on your computer, made by musicians, for musicians. It comes with a user-friendly and modern interface.
 

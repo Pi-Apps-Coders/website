@@ -1,11 +1,18 @@
 ---
 title: Install Telegram on ARM Linux | Pi-Apps
 ---
-# How to install Telegram on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Telegram
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Telegram (ARM64 ONLY)
 
 ### <img src="/img/app-icons/Telegram/icon-64.png" height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
 https://github.com/telegramdesktop/tdesktop<br />
-ARM64 ONLY - 5900 Users!
+ARM64 ONLY - 5,900 Users!
 ```
 Telegram is a free and open source, cross-platform, cloud-based instant messaging software. This service also provides end-to-end encrypted video calling, VoIP, file sharing and several other features. 
 

@@ -1,11 +1,18 @@
 ---
 title: Install Minecraft Java MultiMC5 on ARM Linux | Pi-Apps
 ---
-# How to install Minecraft Java MultiMC5 on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Minecraft Java MultiMC5
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Minecraft Java MultiMC5 (ARM32/ARM64)
 
 ### <img src="/img/app-icons/Minecraft Java MultiMC5/icon-64.png" height=32> ***[Minecraft Java MultiMC5](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20MultiMC5)***
 https://github.com/MultiMC/Launcher - Install script written by theofficialgman based on the version for the L4T Megascript<br />
-ARM32/ARM64 - 11367 Users!!
+ARM32/ARM64 - 11,367 Users!!
 ```
 CUSTOM BUILD of MultiMC5/Launcher. MultiMC is an alternative launcher for Minecraft. It allows you to have multiple, cleanly separated instances of Minecraft (each with their own mods, resource packs, saves, etc) and helps you manage them and their associated options with a simple and powerful interface. 
 

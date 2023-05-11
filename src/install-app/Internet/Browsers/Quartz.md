@@ -1,7 +1,14 @@
 ---
 title: Install Quartz on ARM Linux | Pi-Apps
 ---
-# How to install Quartz on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Quartz
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Quartz (ARM32/ARM64)
 
 ### <img src="/img/app-icons/Quartz/icon-64.png" height=32> ***[Quartz](https://github.com/Botspot/pi-apps/tree/master/apps/Quartz)***
 https://github.com/ksharindam/quartz-browser-qt5<br />

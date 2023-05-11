@@ -1,13 +1,20 @@
 ---
 title: Install Celeste Classic on ARM Linux | Pi-Apps
 ---
-# How to install Celeste Classic on ARM Linux
+# Install Pi-Apps on ARM Linux and Install Celeste Classic
+## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+
+Installing Pi-Apps is as simple as runing this one command in a terminal
+```bash
+wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
+```
+## Install Celeste Classic (ARM32/ARM64)
 
 ### <img src="/img/app-icons/Celeste Classic/icon-64.png" height=32> ***[Celeste Classic](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste%20Classic)***
 lemon32767 for the classic celeste port
 theofficialgman for better controller support additions and the pi-apps script
 Matt Thorson and Noel Berry for making the original game<br />
-ARM32/ARM64 - 1285 Users
+ARM32/ARM64 - 1,285 Users
 ```
 This is a C source port of the original celeste (Celeste classic) for the PICO-8, designed to be portable.
 
