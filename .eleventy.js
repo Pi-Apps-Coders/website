@@ -86,6 +86,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/_includes/components/forkawesome": "assets/forkawesome",
   });
+  eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
 
 
   // Add plugins
