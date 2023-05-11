@@ -1,3 +1,5 @@
+#!/bin/bash
+
 generate-wiki() {
 
   readarray -t categories < <(cat $CODE_WORKSPACE/etc/categories | sed 's/$/|/g' | awk -F'|' '{print $2}' | sort - | uniq)
