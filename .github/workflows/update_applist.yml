@@ -6,6 +6,7 @@ on:
       - master
     paths:
     - '.github/workflows/update_applist.yml'
+    - '.github/workflows/update-wiki.sh'
   # run at 2:00 UTC every day
   schedule:
      - cron: '0 2 * * *'
