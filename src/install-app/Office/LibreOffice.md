@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/LibreOffice/icon-64.png" height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
 https://www.libreoffice.org - Botspot<br />
-ARM32/ARM64 - 73,343 Users!!
+ARM32/ARM64 - 73343 Users!!
 ```
 Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
 To run: Menu -> Office -> LibreOffice

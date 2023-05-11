@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/appimage - Install script written by RaspberryPiNews on YT
 Appimage made by ChristopherHX on Github
 Program made by everyone at [minecraft-linux](https://github.com/minecraft-linux) on Github<br />
-ARM32/ARM64 - 22,841 Users!!
+ARM32/ARM64 - 22841 Users!!
 ```
 Unofficial launcher for Minecraft Bedrock edition
 NOTE: For better performance and smooth FPS, we recommend an older Bedrock version like 1.16.40 as it doesn't contain renderdragon or RTX code.

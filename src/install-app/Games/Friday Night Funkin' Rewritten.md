@@ -15,7 +15,7 @@ https://github.com/HTV04/funkin-rewritten - HTV04 For this Engine.
 LOVE2D devs
 AM7999#8935 For putting this up on Pi-Apps
 And ninjamuffin99 for the original Friday Night Funkin' Game<br />
-ARM32/ARM64 - 1,407 Users
+ARM32/ARM64 - 1407 Users
 ```
 Friday Night Funkin’ is a musical rhythm game where you compete in freestyle music battles.
 The father of your girlfriend is always a pain, because no matter what you do, you may never be good enough for his daughter. In Friday Night Funkin, you are the "Boyfriend", and this cliché comes together in a colorful and musical mash. The fun of Friday and the stress of meeting your significant other's father will make your knees shake and your heart tingle.

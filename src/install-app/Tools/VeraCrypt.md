@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/VeraCrypt/icon-64.png" height=32> ***[VeraCrypt](https://github.com/Botspot/pi-apps/tree/master/apps/VeraCrypt)***
 https://www.veracrypt.fr/en/Documentation.html - nielsbaloe on Github suggested this be added.
 Botspot added it.<br />
-ARM32/ARM64 - 3,655 Users!
+ARM32/ARM64 - 3655 Users!
 ```
 Open source disk encryption software
 - Creates a virtual encrypted disk within a file and mounts it as a real disk.

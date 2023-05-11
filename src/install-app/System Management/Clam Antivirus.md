@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Clam Antivirus/icon-64.png" height=32> ***[Clam Antivirus](https://github.com/Botspot/pi-apps/tree/master/apps/Clam%20Antivirus)***
 https://gitlab.com/dave_m/clamtk<br />
-ARM32/ARM64 - 10,432 Users!!
+ARM32/ARM64 - 10432 Users!!
 ```
 Open-source antivirus for your pi
 Run with the command "clamtk" or go to Menu > Utility > ClamTK.

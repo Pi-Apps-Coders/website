@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://gitlab.com/gazlene/droidbuddy - Made by gazlene#8088 on Discord
 
 Added to pi-apps by Raspberry Pi News and Botspot<br />
-ARM32/ARM64 - 9,541 Users!
+ARM32/ARM64 - 9541 Users!
 ```
 A GUI for Android device recovery and maintenance.
 

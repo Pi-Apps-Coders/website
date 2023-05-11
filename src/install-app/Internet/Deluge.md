@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Deluge/icon-64.png" height=32> ***[Deluge](https://github.com/Botspot/pi-apps/tree/master/apps/Deluge)***
 https://www.deluge-torrent.org - Botspot<br />
-ARM32/ARM64 - 4,839 Users!
+ARM32/ARM64 - 4839 Users!
 ```
 Lightweight BitTorrent client
 Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.

@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/eDEX-UI/icon-64.png" height=32> ***[eDEX-UI](https://github.com/Botspot/pi-apps/tree/master/apps/eDEX-UI)***
 https://github.com/GitSquared/edex-ui<br />
-ARM32/ARM64 - 6,821 Users!
+ARM32/ARM64 - 6821 Users!
 ```
 Futuristic hacker terminal
 Inspired from Hollywood, this terminal is beautiful to look at and will impress your friends. It's a fully-functional bash terminal, system monitor, file manager, and on-screen keyboard, all in one fullscreen window.

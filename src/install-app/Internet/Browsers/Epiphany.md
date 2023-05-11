@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Epiphany/icon-64.png" height=32> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***
 https://gitlab.gnome.org/GNOME/epiphany - open-sorcerrer64<br />
-ARM32/ARM64 - 4,682 Users!
+ARM32/ARM64 - 4682 Users!
 ```
 Epiphany is a lightweight web browser based on the WebKit rendering engine. It is also known as GNOME Web.
 

@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/FreeTube/icon-64.png" height=32> ***[FreeTube](https://github.com/Botspot/pi-apps/tree/master/apps/FreeTube)***
 https://freetubeapp.io/ - Installation Script and added to Pi-Apps by RPICoder<br />
-ARM32/ARM64 - 14,008 Users!!
+ARM32/ARM64 - 14008 Users!!
 ```
 Privacy-friendly YouTube player.
 Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript.

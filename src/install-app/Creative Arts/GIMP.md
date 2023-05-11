@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/GIMP/icon-64.png" height=32> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
 https://www.gimp.org/ - Made by The GIMP Team
 Added to Pi Apps by Lightstrike on Discord<br />
-ARM32/ARM64 - 33,435 Users!!
+ARM32/ARM64 - 33435 Users!!
 ```
 Create images and edit photographs
 

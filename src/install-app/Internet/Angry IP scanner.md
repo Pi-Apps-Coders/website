@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Angry IP scanner/icon-64.png" height=32> ***[Angry IP scanner](https://github.com/Botspot/pi-apps/tree/master/apps/Angry%20IP%20scanner)***
 https://angryip.org - @Itai-Nelken (GitHub)
 @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 15,395 Users!!
+ARM32/ARM64 - 15395 Users!!
 ```
 Scans local networks as well as Internet
 IP Range, Random or file in any format.

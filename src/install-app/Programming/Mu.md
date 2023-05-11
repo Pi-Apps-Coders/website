@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Mu/icon-64.png" height=32> ***[Mu](https://github.com/Botspot/pi-apps/tree/master/apps/Mu)***
 https://codewith.mu/ - Botspot<br />
-ARM32/ARM64 - 19,078 Users!!
+ARM32/ARM64 - 19078 Users!!
 ```
 A simple Python editor for beginner programmers.
 This is probably the simplest Python code editor available, with an intuitive UI designed to make sense on first run. Mu is the recommended Python IDE by the Raspberry Pi Foundation.

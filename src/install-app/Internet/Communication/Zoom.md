@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Zoom/icon-64.png" height=32> ***[Zoom](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom)***
 https://github.com/Botspot/pi-apps/issues/188<br />
-ARM32/ARM64 - 19,615 Users!!
+ARM32/ARM64 - 19615 Users!!
 ```
 Zoom video calls on the Raspberry Pi.
 This is the full desktop app, so you can do virtual backgrounds and Gallery View!

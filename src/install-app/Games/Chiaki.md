@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://github.com/Fredrum/chiaki/wiki/Chiaki-for-the-Raspberry-Pi - Chiaki software implementation by Florian Märkl: https://github.com/thestr4ng3r
 Raspberry Pi fork implementation by Blueroom VR: https://github.com/Fredrum
 Added to Pi-Apps by Markieautarkie: https://github.com/Markieautarkie<br />
-ARM32/ARM64 - 1,610 Users!
+ARM32/ARM64 - 1610 Users!
 ```
 Chiaki is a free and open source software client which enables PlayStation 4/5 remote play on the Raspberry Pi.
 

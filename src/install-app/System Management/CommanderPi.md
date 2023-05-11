@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/CommanderPi/icon-64.png" height=32> ***[CommanderPi](https://github.com/Botspot/pi-apps/tree/master/apps/CommanderPi)***
 https://github.com/Jack477/CommanderPi<br />
-ARM32/ARM64 - 30,554 Users!!
+ARM32/ARM64 - 30554 Users!!
 ```
 Easy RaspberryPi4 GUI system management
 Using CommanderPi, you can change overclock settings, bootloader settings, switch kernels, and view performance diagnostics.

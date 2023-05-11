@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Github Desktop/icon-64.png" height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
 https://desktop.github.com/ - Added to pi-apps and compiled by theofficialgman<br />
-ARM32/ARM64 - 2,868 Users!
+ARM32/ARM64 - 2868 Users!
 ```
 Github Desktop is a GUI git client.
 Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.

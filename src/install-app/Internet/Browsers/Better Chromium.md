@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Better Chromium/icon-64.png" height=32> ***[Better Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Better%20Chromium)***
 Botspot<br />
-ARM32/ARM64 - 11,858 Users!!
+ARM32/ARM64 - 11858 Users!!
 ```
 Make the most of your browser.
 This is a collection of improvements for various aspects of Chromium.

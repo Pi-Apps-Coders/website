@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Box64/icon-64.png" height=32> ***[Box64](https://github.com/Botspot/pi-apps/tree/master/apps/Box64)***
 https://github.com/ptitSeb/box64 - ptitseb for creating box64
 debs made by @ryanfortner (GitHub)<br />
-ARM64 ONLY - 12,382 Users!!
+ARM64 ONLY - 12382 Users!!
 ```
 Easily emulate x86_64 linux apps on ARM64.
 

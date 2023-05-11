@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Pi-Apps Terminal Plugin (python)/icon-64.png" height=32> ***[Pi-Apps Terminal Plugin (python)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(python))***
 https://github.com/techcoder20/PiAppsTerminalAdvanced - App made by and added to pi-apps by RPICoder<br />
-ARM32 ONLY - 1,271 Users
+ARM32 ONLY - 1271 Users
 ```
 This is a terminal version of pi apps but with more features.
 

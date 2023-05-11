@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 lemon32767 for the classic celeste port
 theofficialgman for better controller support additions and the pi-apps script
 Matt Thorson and Noel Berry for making the original game<br />
-ARM32/ARM64 - 1,285 Users
+ARM32/ARM64 - 1285 Users
 ```
 This is a C source port of the original celeste (Celeste classic) for the PICO-8, designed to be portable.
 

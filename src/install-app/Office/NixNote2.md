@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/NixNote2/icon-64.png" height=32> ***[NixNote2](https://github.com/Botspot/pi-apps/tree/master/apps/NixNote2)***
 https://github.com/baumgarr/Nixnote2 - Botspot<br />
-ARM32/ARM64 - 1,360 Users
+ARM32/ARM64 - 1360 Users
 ```
 Take notes, organize your schedule, and save websites with this offline and open-source Evernote client.
 To run: Menu -> Internet -> NixNote2

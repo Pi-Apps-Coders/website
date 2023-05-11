@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Chromium Widevine/icon-64.png" height=32> ***[Chromium Widevine](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium%20Widevine)***
 https://github.com/Botspot/chromium-v84-widevine<br />
-ARM32 ONLY - 17,173 Users!!
+ARM32 ONLY - 17173 Users!!
 ```
 Widevine DRM support for any version of chromium-browser.
 This adds ChromeOS's Widevine video decoding library to Chromium, and creates a second menu button with a ChromeOS user-agent. All websites will think your Pi is a Chromebook!

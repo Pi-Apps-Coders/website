@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Box86/icon-64.png" height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***
 https://github.com/ptitSeb/box86 - Itai-Nelken for his box86 debs and script creation<br />
-ARM32/ARM64 - 60,989 Users!!
+ARM32/ARM64 - 60989 Users!!
 ```
 Easily emulate x86 linux apps on ARM32.
 Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux, like ARM (host system needs to be 32bit little-endian).

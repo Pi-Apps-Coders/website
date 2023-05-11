@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/OpenSCAD/icon-64.png" height=32> ***[OpenSCAD](https://github.com/Botspot/pi-apps/tree/master/apps/OpenSCAD)***
 http://www.openscad.org/
 https://github.com/koendv/openscad-raspberrypi<br />
-ARM32/ARM64 - 2,642 Users!
+ARM32/ARM64 - 2642 Users!
 ```
 OpenSCAD is software for creating solid 3D CAD models.
 

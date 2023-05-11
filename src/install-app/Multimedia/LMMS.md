@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://lmms.io - Thanks to:
  - the LMMS community for developing LMMS
  - @Crilum on GitHub for adding LMMS to Pi-Apps <br />
-ARM32/ARM64 - 2,028 Users!
+ARM32/ARM64 - 2028 Users!
 ```
 LMMS (Let’s Make Music) is a free, open-source and cross-platform software for making music on your computer, made by musicians, for musicians. It comes with a user-friendly and modern interface.
 

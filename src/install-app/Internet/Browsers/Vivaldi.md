@@ -15,7 +15,7 @@ https://vivaldi.com - Big thanks to chunky-milk for app idea and install script:
 https://github.com/chunky-milk/pi-bashscripts-files/tree/main/vivaldi
 
 Icon, description, and everything else required by pi-apps by Itai-Nelken<br />
-ARM32/ARM64 - 7,063 Users!
+ARM32/ARM64 - 7063 Users!
 ```
 Fast, private browser with unique features.
 

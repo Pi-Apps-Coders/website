@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Remarkable/icon-64.png" height=32> ***[Remarkable](https://github.com/Botspot/pi-apps/tree/master/apps/Remarkable)***
 https://remarkableapp.github.io - Added to Pi-Apps by Itai-Nelken.
 Thanks to seiferteric on GitHub for providing the DEB package fix.<br />
-ARM32/ARM64 - 1,491 Users
+ARM32/ARM64 - 1491 Users
 ```
 A fully featured Markdown editor for Linux.
 Remarkable has many features including:

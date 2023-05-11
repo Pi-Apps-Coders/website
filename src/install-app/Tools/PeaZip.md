@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/PeaZip/icon-64.png" height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***
 https://peazip.github.io - @ryanfortner (GitHub)<br />
-ARM64 ONLY - 1,393 Users
+ARM64 ONLY - 1393 Users
 ```
 PeaZip is free file archiver utility, based on Open Source technologies of 7-Zip, p7zip, Brotli, FreeArc, PAQ, Zstandard, and PEA projects.
 

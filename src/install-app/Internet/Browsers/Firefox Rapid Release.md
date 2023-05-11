@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://firefox.com - Scripts made by chunky-milk
 Added to Pi-Apps by Tejas Singh YT
 Original Web-Browser made by Mozilla Foundation.<br />
-ARM32/ARM64 - 21,708 Users!!
+ARM32/ARM64 - 21708 Users!!
 ```
 Latest stable Mozilla Firefox version available. (Downloaded from Ubuntu Repo)
 Mozilla Firefox, is a free and open-source web browser developed by the Mozilla Foundation.

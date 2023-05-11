@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/BlueJ Java IDE/icon-64.png" height=32> ***[BlueJ Java IDE](https://github.com/Botspot/pi-apps/tree/master/apps/BlueJ%20Java%20IDE)***
 https://bluej.org - open-sorcerer64<br />
-ARM32/ARM64 - 25,952 Users!!
+ARM32/ARM64 - 25952 Users!!
 ```
 A simple but powerful Java IDE.
 

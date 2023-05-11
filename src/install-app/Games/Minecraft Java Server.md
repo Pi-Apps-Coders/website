@@ -16,7 +16,7 @@ Mojang for creating the Minecraft server.
 theofficialgman who wrote the script
 GYKGAMER for the initial idea/implementation
 Crilum for bugtesting<br />
-ARM32/ARM64 - 4,737 Users!
+ARM32/ARM64 - 4737 Users!
 ```
 This is a simple tool to create a Minecraft server: Vanilla, Fabric, Forge, Paper, Bukkit, Spigot, Sponge, Purpur and Tuinity are supported
 

@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Kodi/icon-64.png" height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***
 https://kodi.tv/about - Botspot<br />
-ARM32/ARM64 - 8,752 Users!
+ARM32/ARM64 - 8752 Users!
 ```
 Kodi is the ultimate entertainment center.
 Kodi excels at:

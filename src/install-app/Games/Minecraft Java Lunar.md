@@ -16,7 +16,7 @@ The ARM fork of Lunar Client is maintained by gl91306 on Github: https://github.
 ARM lwjgl2/3 libs from theofficialgman
 Install script written by RaspberryPiNews on Youtube/mobilegmYT on Github
 Scripts re-written by Botspot and theofficialgman<br />
-ARM32/ARM64 - 41,491 Users!!
+ARM32/ARM64 - 41491 Users!!
 ```
 Lunar Client is an all-in-one modpack integrated Launcher available for ONLY popular versions of Minecraft.
 

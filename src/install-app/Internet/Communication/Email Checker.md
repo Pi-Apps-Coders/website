@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Email Checker/icon-64.png" height=32> ***[Email Checker](https://github.com/Botspot/pi-apps/tree/master/apps/Email%20Checker)***
 https://github.com/Botspot/raspi-email-checker<br />
-ARM32/ARM64 - 1,846 Users!
+ARM32/ARM64 - 1846 Users!
 ```
 Continuously checks for new emails and display a notification if there are any.
 When you click install, a window will appear for you to enter the email account's information and the time interval to check.

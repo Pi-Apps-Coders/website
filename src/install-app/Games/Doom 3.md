@@ -18,7 +18,7 @@ Testers:
 Lukefrenner
 Botspot
 Nikolay Dubnov<br />
-ARM32/ARM64 - 16,980 Users!!
+ARM32/ARM64 - 16980 Users!!
 ```
 Doom 3 is a 2004 horror first-person shooter video game developed by id Software and published by Activision.
 In this game a massive demonic invasion has overwhelmed the Union Aerospace Corporation's (UAC) Mars Research Facility, leaving only chaos and horror in its wake.

@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Nemo/icon-64.png" height=32> ***[Nemo](https://github.com/Botspot/pi-apps/tree/master/apps/Nemo)***
 https://github.com/linuxmint/nemo - open-sorcerer64
 linuxmint<br />
-ARM32/ARM64 - 4,000 Users!
+ARM32/ARM64 - 4000 Users!
 ```
 File manager and graphical shell for Cinnamon, also works well on other desktop environments.
 

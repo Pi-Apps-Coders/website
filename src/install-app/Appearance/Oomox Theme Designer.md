@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Oomox Theme Designer/icon-64.png" height=32> ***[Oomox Theme Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Oomox%20Theme%20Designer)***
 https://github.com/themix-project/oomox<br />
-ARM32/ARM64 - 1,976 Users!
+ARM32/ARM64 - 1976 Users!
 ```
 A tool to customize icons, xrdb and GTK themes. 
 

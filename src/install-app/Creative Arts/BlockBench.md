@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://github.com/JannisX11/blockbench - JannisX11 (GitHub) for creating the program
 ryanfortner (GitHub) for writing scripts, and hosting the debs
 cycool29 (GitHub) for compiling debs<br />
-ARM32/ARM64 - 2,010 Users!
+ARM32/ARM64 - 2010 Users!
 ```
 Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures. Models can be exported into standardized formats, to be shared, rendered, 3D-printed, or used in game engines. There are also multiple dedicated formats for Minecraft Java and Bedrock Edition with format-specific features.
 

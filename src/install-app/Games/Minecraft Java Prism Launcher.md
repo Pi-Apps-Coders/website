@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png" height=32> ***[Minecraft Java Prism Launcher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Prism%20Launcher)***
 https://prismlauncher.org/ - Prism Launcher contributors: https://github.com/PrismLauncher/PrismLauncher/graphs/contributors
 theofficialgman for packaging arm32/arm64 debs<br />
-ARM32/ARM64 - 1,571 Users!
+ARM32/ARM64 - 1571 Users!
 ```
 Prism Launcher is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.
 

@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/More RAM/icon-64.png" height=32> ***[More RAM](https://github.com/Botspot/pi-apps/tree/master/apps/More%20RAM)***
 https://forums.raspberrypi.com/viewtopic.php?t=327238 - Botspot<br />
-ARM32/ARM64 - 19,578 Users!!
+ARM32/ARM64 - 19578 Users!!
 ```
 Of course Pi-Apps lets you download more RAM!
 Have you ever been using your Raspberry Pi when the screen froze? Most likely, your system ran out of RAM.

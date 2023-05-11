@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/Neofetch/icon-64.png" height=32> ***[Neofetch](https://github.com/Botspot/pi-apps/tree/master/apps/Neofetch)***
 https://github.com/dylanaraps/neofetch - App Credit: dylanaraps - (GitHub: https://github.com/dylanaraps)
 Patches: theofficialgman<br />
-ARM32/ARM64 - 24,518 Users!!
+ARM32/ARM64 - 24518 Users!!
 ```
 An aesthetically pleasing bash script to show system information.
 

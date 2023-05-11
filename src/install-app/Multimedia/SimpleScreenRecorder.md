@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=32> ***[SimpleScreenRecorder](https://github.com/Botspot/pi-apps/tree/master/apps/SimpleScreenRecorder)***
 https://www.maartenbaert.be/simplescreenrecorder/ - App Made by: MaartenBaert
 Suggestion from Kolpix<br />
-ARM32/ARM64 - 4,988 Users!
+ARM32/ARM64 - 4988 Users!
 ```
 Feature-rich screen recorder for X11 and OpenGL
 Simple Screen Recorder is, despite its name, an actually feature-rich screen recorder. The name reflects the fact that it is simple to use unlike many other free screen recording applications available. It can be easily configured to start recording from an intuitive wizard-like interface.

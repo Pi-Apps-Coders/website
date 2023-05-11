@@ -13,7 +13,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 ### <img src="/img/app-icons/PiKISS GUI/icon-64.png" height=32> ***[PiKISS GUI](https://github.com/Botspot/pi-apps/tree/master/apps/PiKISS%20GUI)***
 https://github.com/Jai-JAP/PiKISS-GUI - @krishenriksen on Github for creating PiKISS-GUI.
 @Jai-JAP on Github for modifying the app to add semi-automated app syncs from piKISS & adding this app to Pi-Apps.<br />
-ARM32/ARM64 - 5,665 Users!
+ARM32/ARM64 - 5665 Users!
 ```
 PiKISS GUI is a GTK frontend for PiKISS
 

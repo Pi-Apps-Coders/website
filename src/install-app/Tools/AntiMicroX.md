@@ -15,7 +15,7 @@ https://antimicrox.github.io/ - Thanks to:
  - All contributers for creating AntiMicroX.
  - ryanfortner for his information on how to build AntiMicroX.
  - Crilum on GitHub for writing the install/uninstall scripts.<br />
-ARM32/ARM64 - 2,982 Users!
+ARM32/ARM64 - 2982 Users!
 ```
 A graphical program used to map keyboard buttons and mouse controls to a gamepad.
 

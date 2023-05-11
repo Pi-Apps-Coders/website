@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Flow/icon-64.png" height=32> ***[Flow](https://github.com/Botspot/pi-apps/tree/master/apps/Flow)***
 https://www.ekioh.com/flow-browser/ - Botspot<br />
-ARM32/ARM64 - 1,017 Users
+ARM32/ARM64 - 1017 Users
 ```
 High-performance browser built from the ground up without relying on Chromium.
 This is a closed source web browser specifically designed for running on the Raspberry Pi platform. It makes extensive usage of the GPU, and it outperforms many faster computers on the same benchmark.

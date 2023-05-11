@@ -12,7 +12,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 
 ### <img src="/img/app-icons/Windows Flasher/icon-64.png" height=32> ***[Windows Flasher](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Flasher)***
 https://github.com/Botspot/wor-flasher - Botspot<br />
-ARM32/ARM64 - 19,207 Users!!
+ARM32/ARM64 - 19207 Users!!
 ```
 Install Windows 10 or Windows 11 on a Raspberry Pi SD card.
 This tool is a 100% legal way to use any Debian or Ubuntu Linux operating system to flash a RPi's SD card with the necessary files to run Windows 10 or 11.

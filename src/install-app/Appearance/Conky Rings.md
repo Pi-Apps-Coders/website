@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://github.com/Botspot/rpi_conky/tree/master/conky_rings - phoenixbyrd for the files
 ryanfortner for the scripts
 Botspot for coloring the theme<br />
-ARM32/ARM64 - 4,288 Users!
+ARM32/ARM64 - 4288 Users!
 ```
 Animated gauges and graphs of your system, on your desktop.
 Displays system uptime, core-specific CPU usage, CPU speed, CPU temperature, top 5 processes by CPU usage, storage usage for boot and root partitions, RAM usage, SWAP usage, top 5 processes by RAM usage, and describes the current Linux environment.

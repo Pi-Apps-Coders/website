@@ -14,7 +14,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 https://deskreen.com/ - Thanks to pavlobu and all contibuters for developing Deskreen.
 Thanks to Crilum on GitHub for making the scripts.
 Thanks to ryanfortner on GitHub for having and hosting the debs!<br />
-ARM32/ARM64 - 2,016 Users!
+ARM32/ARM64 - 2016 Users!
 ```
 Share your desktop to your browser, and turn any device into a second screen!
 
