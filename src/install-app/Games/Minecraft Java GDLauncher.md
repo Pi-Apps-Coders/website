@@ -1,18 +1,18 @@
 ---
-title: Install Minecraft Java GDLauncher on ARM Linux | Pi-Apps
+title: Install Minecraft Java GDLauncher on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
 ---
-# Install Pi-Apps on ARM Linux and Install Minecraft Java GDLauncher
-## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+# Install Pi-Apps and Minecraft Java GDLauncher on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+## Install Pi-Apps
 
 Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Minecraft Java GDLauncher (ARM32/ARM64)
+## Install Minecraft Java GDLauncher
 
 ### <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=32> ***[Minecraft Java GDLauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20GDLauncher)***
 https://gdevs.io/ - theofficialgman<br />
-ARM32/ARM64 - 1875 Users!
+ARM32/ARM64 - 1,875 Users!
 ```
 GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. This is a CUSTOM BUILD of GDLauncher for ARM32/ARM64 support.
 

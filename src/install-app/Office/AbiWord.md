@@ -1,18 +1,18 @@
 ---
-title: Install AbiWord on ARM Linux | Pi-Apps
+title: Install AbiWord on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
 ---
-# Install Pi-Apps on ARM Linux and Install AbiWord
-## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+# Install Pi-Apps and AbiWord on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+## Install Pi-Apps
 
 Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install AbiWord (Package app)
+## Install AbiWord
 
 ### <img src="/img/app-icons/AbiWord/icon-64.png" height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
 http://www.abisource.com/ -  open-sorcerer64<br />
-Package app - 2307 Users!
+ARM32/ARM64 - 2,307 Users!
 ```
 A free and open-source alternative to Microsoft Word.  
 

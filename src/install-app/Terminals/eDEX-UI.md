@@ -1,18 +1,18 @@
 ---
-title: Install eDEX-UI on ARM Linux | Pi-Apps
+title: Install eDEX-UI on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
 ---
-# Install Pi-Apps on ARM Linux and Install eDEX-UI
-## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+# Install Pi-Apps and eDEX-UI on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+## Install Pi-Apps
 
 Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install eDEX-UI (ARM32/ARM64)
+## Install eDEX-UI
 
 ### <img src="/img/app-icons/eDEX-UI/icon-64.png" height=32> ***[eDEX-UI](https://github.com/Botspot/pi-apps/tree/master/apps/eDEX-UI)***
 https://github.com/GitSquared/edex-ui<br />
-ARM32/ARM64 - 6821 Users!
+ARM32/ARM64 - 6,821 Users!
 ```
 Futuristic hacker terminal
 Inspired from Hollywood, this terminal is beautiful to look at and will impress your friends. It's a fully-functional bash terminal, system monitor, file manager, and on-screen keyboard, all in one fullscreen window.

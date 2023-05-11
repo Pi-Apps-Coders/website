@@ -1,19 +1,19 @@
 ---
-title: Install Minecraft Java Prism Launcher on ARM Linux | Pi-Apps
+title: Install Minecraft Java Prism Launcher on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
 ---
-# Install Pi-Apps on ARM Linux and Install Minecraft Java Prism Launcher
-## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+# Install Pi-Apps and Minecraft Java Prism Launcher on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+## Install Pi-Apps
 
 Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Minecraft Java Prism Launcher (ARM32/ARM64)
+## Install Minecraft Java Prism Launcher
 
 ### <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png" height=32> ***[Minecraft Java Prism Launcher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Prism%20Launcher)***
 https://prismlauncher.org/ - Prism Launcher contributors: https://github.com/PrismLauncher/PrismLauncher/graphs/contributors
 theofficialgman for packaging arm32/arm64 debs<br />
-ARM32/ARM64 - 1571 Users!
+ARM32/ARM64 - 1,571 Users!
 ```
 Prism Launcher is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.
 

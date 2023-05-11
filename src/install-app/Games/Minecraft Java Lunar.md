@@ -1,14 +1,14 @@
 ---
-title: Install Minecraft Java Lunar on ARM Linux | Pi-Apps
+title: Install Minecraft Java Lunar on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
 ---
-# Install Pi-Apps on ARM Linux and Install Minecraft Java Lunar
-## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+# Install Pi-Apps and Minecraft Java Lunar on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+## Install Pi-Apps
 
 Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Minecraft Java Lunar (ARM32/ARM64)
+## Install Minecraft Java Lunar
 
 ### <img src="/img/app-icons/Minecraft Java Lunar/icon-64.png" height=32> ***[Minecraft Java Lunar](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Lunar)***
 https://www.lunarclient.com/ - Lunar Client is developed by MoonsworthLLC
@@ -16,7 +16,7 @@ The ARM fork of Lunar Client is maintained by gl91306 on Github: https://github.
 ARM lwjgl2/3 libs from theofficialgman
 Install script written by RaspberryPiNews on Youtube/mobilegmYT on Github
 Scripts re-written by Botspot and theofficialgman<br />
-ARM32/ARM64 - 41491 Users!!
+ARM32/ARM64 - 41,491 Users!!
 ```
 Lunar Client is an all-in-one modpack integrated Launcher available for ONLY popular versions of Minecraft.
 

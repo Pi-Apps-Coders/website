@@ -1,20 +1,20 @@
 ---
-title: Install Linux Wifi Hotspot on ARM Linux | Pi-Apps
+title: Install Linux Wifi Hotspot on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
 ---
-# Install Pi-Apps on ARM Linux and Install Linux Wifi Hotspot
-## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+# Install Pi-Apps and Linux Wifi Hotspot on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+## Install Pi-Apps
 
 Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Linux Wifi Hotspot (ARM32/ARM64)
+## Install Linux Wifi Hotspot
 
 ### <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png" height=32> ***[Linux Wifi Hotspot](https://github.com/Botspot/pi-apps/tree/master/apps/Linux%20Wifi%20Hotspot)***
 https://github.com/lakinduakash/linux-wifi-hotspot - Thanks to:
  - @lakinduakash on GitHub (as well as all contributors) for creating this app
  - @Crilum on GitHub for adding this app to Pi-Apps<br />
-ARM32/ARM64 - 3083 Users!
+ARM32/ARM64 - 3,083 Users!
 ```
 A feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface.
 

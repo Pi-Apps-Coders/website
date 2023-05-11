@@ -1,18 +1,18 @@
 ---
-title: Install Xtreme Download Manager on ARM Linux | Pi-Apps
+title: Install Xtreme Download Manager on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
 ---
-# Install Pi-Apps on ARM Linux and Install Xtreme Download Manager
-## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+# Install Pi-Apps and Xtreme Download Manager on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+## Install Pi-Apps
 
 Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Xtreme Download Manager (ARM32/ARM64)
+## Install Xtreme Download Manager
 
 ### <img src="/img/app-icons/Xtreme Download Manager/icon-64.png" height=32> ***[Xtreme Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Xtreme%20Download%20Manager)***
 https://xtremedownloadmanager.com<br />
-ARM32/ARM64 - 4935 Users!
+ARM32/ARM64 - 4,935 Users!
 ```
 Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, save and convert streaming videos from thousands of websites, resume broken/dead downloads and schedule downloads.
 

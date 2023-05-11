@@ -1,18 +1,18 @@
 ---
-title: Install Downgrade Chromium on ARM Linux | Pi-Apps
+title: Install Downgrade Chromium on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
 ---
-# Install Pi-Apps on ARM Linux and Install Downgrade Chromium
-## Install Pi-Apps: <img src="https://www.vectorlogo.zone/logos/debian/debian-icon.svg" height="20" /> Debian / <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
+# Install Pi-Apps and Downgrade Chromium on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+## Install Pi-Apps
 
 Installing Pi-Apps is as simple as runing this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
-## Install Downgrade Chromium (ARM32/ARM64)
+## Install Downgrade Chromium
 
 ### <img src="/img/app-icons/Downgrade Chromium/icon-64.png" height=32> ***[Downgrade Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Downgrade%20Chromium)***
 https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=308303<br />
-ARM32/ARM64 - 3998 Users!
+ARM32/ARM64 - 3,998 Users!
 ```
 Change Chromium versions easily.
 Chromium 65, 72, 74, 78, 84, 86, 88, 92, and 95.
