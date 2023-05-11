@@ -71,7 +71,6 @@ generate-install-pages() {
     if [[ "$category" == "hidden" ]]; then
       continue
     fi
-    # echo "## $category"
     iter=0
     for script in "${script_name[@]}"; do
       if [[ "${script_category[$iter]}" == "$category" ]] && [[ -e "$CODE_WORKSPACE/apps/$script" ]]; then
@@ -144,12 +143,13 @@ eleventyNavigation:
   order: 6
 ---" > apps-list.md
 
+# generate wiki pages
 generate-wiki >>apps-list.md
 
-mkdir -p $GITHUB_WORKSPACE/src/install-app
+# generate simple app install pages (for search engine optimization)
 generate-install-pages
 
-# get the latest app icons
+# copy the latest app icons from pi-apps repo to website
 rm -rf $GITHUB_WORKSPACE/src/img/app-icons
 mkdir -p $GITHUB_WORKSPACE/src/img/app-icons/
 cd /tmp/pi-apps/apps

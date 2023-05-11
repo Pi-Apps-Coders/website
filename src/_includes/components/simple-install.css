@@ -1,0 +1,7 @@
+.simple-install-content h1, .simple-install-content h2 {
+  border-bottom: 2px solid var(--primary-text-muted);
+}
+
+.simple-install-content {
+margin-top: 1em;
+}
