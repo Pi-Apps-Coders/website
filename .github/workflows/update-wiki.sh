@@ -76,12 +76,16 @@ generate-install-pages() {
       if [[ "${script_category[$iter]}" == "$category" ]] && [[ -e "$CODE_WORKSPACE/apps/$script" ]]; then
         mkdir -p "$GITHUB_WORKSPACE/src/install-app/$category"
         markdown_full_path="$GITHUB_WORKSPACE/src/install-app/$category/$script.md"
-
+        
+        # set title
         echo "---
 title: Install $script on ARM Linux | Pi-Apps
----" > "$markdown_full_path"
+---
+# Install Pi-Apps on ARM Linux and Install $script" > "$markdown_full_path"
+
+        # start with how to install pi-apps
+        cat "$GITHUB_WORKSPACE/.github/workflows/install-pi-apps.md" >> "$markdown_full_path"
         
-        echo "# How to install $script on ARM Linux" >> "$markdown_full_path"
         # determine if app is arm64, arm32, or both
         if [[ -e "$CODE_WORKSPACE/apps/$script/install" ]]; then
           arch="ARM32/ARM64"
@@ -96,6 +100,7 @@ title: Install $script on ARM Linux | Pi-Apps
         else
           arch="Package app"
         fi
+        echo "## Install $script ($arch)" >> "$markdown_full_path"
         num_users="$(echo "$clicklist" | grep "[0-9] $script"'$' | awk '{print $1}' | head -n1)"
         if [ ! -z "$num_users" ] && [ "$num_users" -gt 20 ];then
           #list the number of users, using this printf command to add commas (,) for every thousand number
