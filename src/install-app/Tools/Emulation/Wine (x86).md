@@ -1,0 +1,18 @@
+---
+title: Install Wine (x86) on ARM Linux | Pi-Apps
+---
+# How to install Wine (x86) on ARM Linux
+
+### <img src="/img/app-icons/Wine (x86)/icon-64.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
+https://www.winehq.org/ - Script by Itai-Nelken and Botspot<br />
+ARM32 ONLY - 43119 Users!!
+```
+Run x86 Windows apps with a box86-emulated version of x86 wine.
+To run: wine path/to/file.exe
+To configure wine: go to 'Wine configuration' in main menu or type in terminal: wine winecfg
+Not all Windows applications will work under Wine. It's a good idea to check online if your program can run, or if something can be tweaked to make it work.
+
+Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
+
+Need support with running a game or app with wine and box86? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
+```

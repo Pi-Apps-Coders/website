@@ -1,0 +1,32 @@
+---
+title: Install Minecraft Java GDLauncher on ARM Linux | Pi-Apps
+---
+# How to install Minecraft Java GDLauncher on ARM Linux
+
+### <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=32> ***[Minecraft Java GDLauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20GDLauncher)***
+https://gdevs.io/ - theofficialgman<br />
+ARM32/ARM64 - 1875 Users!
+```
+GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. This is a CUSTOM BUILD of GDLauncher for ARM32/ARM64 support.
+
+Features of the launcher:
+- Microsoft, Mojang, and PC GamePass Account support
+- Curseforge and FTB Mod and Modpack browser and updater
+- Automatic Java 8/17 installation
+- Fabric and Forge mod loading
+
+Features NOT in this launcher (but available in others):
+- Modrinth ATLauncher and Technic Mod and Modpack browser and updater
+- Quilt mod loading
+- Old Snapshots
+
+NOTE: The use of performance enhancing mods is highly encouraged, such as optifine with Optifabric and Fabric/Forge or Sodium/Lithium/Starlight Fabric Mods.
+
+To run: Menu -> Games -> GDLauncher
+To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 gdlauncher
+
+theofficialgman's custom meta repo is used for arm32 and arm64 native libraries. (https://github.com/theofficialgman/piston-meta-arm32 https://github.com/theofficialgman/piston-meta-arm64)
+This supports all currently released versions of minecraft.
+
+Note: GDLauncher GitHub/Discord does NOT support this CUSTOM BUILD, any issues should be directed to the Pi-Apps Discord or Pi-Apps GitHub issues.
+```
