@@ -5,7 +5,8 @@ templateClass: tmpl-wiki
 <div class="row row-reverse">
   <div class="wiki-toc-right-no-pad">
     {{ content | toc | safe }}
-    <div class="wiki-toc-right">
+    <hr>
+    <div>
       {%- if eleventyNavigation -%}
         {%- set navKey = eleventyNavigation.key -%}
       {%- endif -%}
