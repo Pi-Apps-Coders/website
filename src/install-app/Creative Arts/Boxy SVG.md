@@ -15,7 +15,7 @@ wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bas
 - [Switchroot L4T Ubuntu Bionic](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide): fully supported (incompatible apps are hidden)
 - [Raspberry Pi Ubuntu](https://ubuntu.com/desktop/flavours) (GNOME, Mate, KDE, Budgie, etc) and [Raspberry Pi Pop_OS!](https://pop.system76.com/): you may encounter errors installing or running some apps
 - [Nvidia Jetson](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [Pine64](https://www.pine64.org/), [Orange Pi](http://www.orangepi.org/), [Radxa](https://rockpi.org/), [Bananna Pi](https://banana-pi.org/), [Khadas](https://www.khadas.com/), [Inovato](https://www.inovato.com/), [Libre Computer](https://libre.computer/), and other ARM Debian/Ubuntu Based Devices: not actively tested, most apps should work (pi-specific apps are hidden)
-## Install <img src="/img/app-icons/Boxy SVG/icon-64.png" height=24> ***[Boxy SVG](https://github.com/Botspot/pi-apps/tree/master/apps/Boxy%20SVG)***
+## Install <img src="/img/app-icons/Boxy SVG/icon-64.png" height=24> ***[Boxy SVG](/wiki/getting-started/apps-list/#boxy-svg)***
 Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
         
 You may also use the terminal to install apps through Pi-Apps
