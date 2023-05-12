@@ -6,12 +6,10 @@ templateClass: tmpl-wiki
   <div class="wiki-toc-right-no-pad">
     {{ content | toc | safe }}
     <hr>
-    <div>
-      {%- if eleventyNavigation -%}
-        {%- set navKey = eleventyNavigation.key -%}
-      {%- endif -%}
-      {{ collections.wiki | eleventyNavigation | eleventyNavigationToHtml({ activeKey: navKey, listClass: 'wiki-toc-list', activeListItemClass: 'wiki-toc-active' }) | safe }}
-    </div>
+    {%- if eleventyNavigation -%}
+      {%- set navKey = eleventyNavigation.key -%}
+    {%- endif -%}
+    {{ collections.wiki | eleventyNavigation | eleventyNavigationToHtml({ activeKey: navKey, listClass: 'wiki-toc-list', activeListItemClass: 'wiki-toc-active' }) | safe }}
   </div>
   <div class="wiki-content content">
     {{ content | safe }}
