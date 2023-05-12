@@ -150,10 +150,13 @@ To run in a terminal:
 https://boxy-svg.com/ - Botspot<br />
 ARM32/ARM64 - 3867 Users!
 ```
-The best vector graphics image editor for Raspberry Pi.
-Performance is excellent, and I (Botspot) use it on my RPi for for all graphics editing. (Including the Pi-Apps logo!)
+Quick and streamlined vector graphics creator.
+Boxy SVG is both simple but powerful, capable of whipping up a quick logo design in minutes or building the most sophisticated digital artwork. Unlike Inkscape or other Linux SVG editors, Boxy SVG uses Chromium's rendering engine for the SVG - the most complete and stable way for making your vector image appear as intended. It is easy to export to PNG, PDF, or numerous other image formats.
 
-Note: also see the Inkscape app.
+All Pi-Apps logos and Botspot branding is made using Bosy SVG, a free tool with an audience of millions.
+
+To run: Menu -> Graphics -> Boxy SVG
+To run in a terminal: boxy-svg
 ```
 
 ### <img src="/img/app-icons/Dot Matrix/icon-64.png" height=32> ***[Dot Matrix](https://github.com/Botspot/pi-apps/tree/master/apps/Dot%20Matrix)***
