@@ -105,7 +105,9 @@ title: Install $script on Debian / Pi OS / Ubuntu ($arch) | Pi-Apps
         cat "$GITHUB_WORKSPACE/.github/workflows/install-pi-apps.md" >> "$markdown_full_path"
 
         script_url=$(echo $script | sed -e 's/ /%20/g')
-        echo "## Install <img src=\"/img/app-icons/$script/icon-64.png\" height=24> ***[$script](https://github.com/Botspot/pi-apps/tree/master/apps/$script_url)***" >> "$markdown_full_path"
+        script_wiki_url="/wiki/getting-started/apps-list/#$(echo $script | sed -e 's/ /-/g' | tr '[:upper:]' '[:lower:]')"
+        # example relative wiki link: /wiki/getting-started/apps-list/#friday-night-funkin'-rewritten
+        echo "## Install <img src=\"/img/app-icons/$script/icon-64.png\" height=24> ***[$script]($script_wiki_url)***" >> "$markdown_full_path"
 
         echo 'Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
         
