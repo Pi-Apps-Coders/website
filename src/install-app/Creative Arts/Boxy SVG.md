@@ -1,24 +1,38 @@
 ---
-title: Install Boxy SVG on Debian / Pi OS / Ubuntu (ARM32/ARM64) | Pi-Apps
+title: Install Boxy SVG on Raspberry Pi | Pi-Apps
 ---
-# Install Pi-Apps and Boxy SVG on <img src=https://www.vectorlogo.zone/logos/debian/debian-icon.svg height=20 /> Debian / <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=20 /> Pi OS / <img src=https://www.vectorlogo.zone/logos/ubuntu/ubuntu-icon.svg height=20 /> Ubuntu (ARM32/ARM64)
+# Install <img src="/img/app-icons/Boxy SVG/icon-64.png" height=24> Boxy SVG on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+
+## <img src="/img/app-icons/Boxy SVG/icon-64.png"> Boxy SVG
+> Quick and streamlined vector graphics creator.
+> Boxy SVG is both simple but powerful, capable of whipping up a quick logo design in minutes or building the most sophisticated digital artwork. Unlike Inkscape or other Linux SVG editors, Boxy SVG uses Chromium's rendering engine for the SVG - the most complete and stable way for making your vector image appear as intended. It is easy to export to PNG, PDF, or numerous other image formats.
+>
+> All Pi-Apps logos and Botspot branding is made using Bosy SVG, a free tool with an audience of millions.
+>
+> To run: Menu -> Graphics -> Boxy SVG
+> To run in a terminal: boxy-svg
+
+Fortunately, Boxy SVG is very easy to install on your Raspberry Pi in just two steps.
+1. Install Pi-Apps - the best app installer for Raspberry Pi
+2. Use Pi-Apps to install Boxy SVG
+
 ## Install Pi-Apps
 
-Installing Pi-Apps is as simple as runing this one command in a terminal
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Raspberry Pi with just a few clicks. 
+
+Open a terminal and run this command to install Pi-Apps:
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
+Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/pi-apps
 
-### Supported systems:
+## Install Boxy SVG
 
-- [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/) (32-bit/64-bit) (Buster/Bullseye): fully supported.
-- [Switchroot L4T Ubuntu Bionic](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide): fully supported (incompatible apps are hidden)
-- [Raspberry Pi Ubuntu](https://ubuntu.com/desktop/flavours) (GNOME, Mate, KDE, Budgie, etc) and [Raspberry Pi Pop_OS!](https://pop.system76.com/): you may encounter errors installing or running some apps
-- [Nvidia Jetson](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [Pine64](https://www.pine64.org/), [Orange Pi](http://www.orangepi.org/), [Radxa](https://rockpi.org/), [Bananna Pi](https://banana-pi.org/), [Khadas](https://www.khadas.com/), [Inovato](https://www.inovato.com/), [Libre Computer](https://libre.computer/), and other ARM Debian/Ubuntu Based Devices: not actively tested, most apps should work (pi-specific apps are hidden)
-## Install <img src="/img/app-icons/Boxy SVG/icon-64.png" height=24> ***[Boxy SVG](/wiki/getting-started/apps-list/#boxy-svg)***
-Pi-Apps has a wonderful GUI to install apps from that you can read about [here](/wiki/getting-started/running-pi-apps/)
-        
-You may also use the terminal to install apps through Pi-Apps
-```
-~/pi-apps/manage install "Boxy SVG"
-```
+Now that you have Pi-Apps installed, it is time to install Boxy SVG.  
+First launch Pi-Apps from your start menu:  
+`screenshot of that goes here`  
+Then click on the Creative Arts category.
+`screenshot of that goes here`  
+Now scroll to find Boxy SVG.  
+`screenshot of that goes here`  
+Just click Install!
