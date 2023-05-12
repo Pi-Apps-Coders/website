@@ -1,5 +1,6 @@
 {
   "layout": "layouts/install.njk",
+  "title": "Install Instructions",
   "tags": [
       "install"
   ]
