@@ -124,21 +124,35 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
     echo "$markdown_full_path" | sed "s_${GITHUB_WORKSPACE}/src_https://pi-apps.io_g"' ; s_\.md$_/index.html_g'
     
     #handle category image - double-layer categories must be rendered
-    if grep -q / <<<"$category" && [ ! -f "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png" ];then
-      #not designed for three category folders deep, only two.
+    # png generation is the main cause of slowdown in the script and if the svg matches then restore the previous png
+    # need to move into the workspace git directory to execute the git commands
+    CPWD="$(pwd)"
+    cd "$GITHUB_WORKSPACE"
+    if grep -q / <<<"$category";then
+      #future work: not designed for three category folders deep, only two.
       local mainfolder="$(echo "$category" | awk -F/ '{print $1}')"
       local subfolder="$(echo "$category" | awk -F/ '{print $2}')"
       
       sed "s_replace with base64 from first category layer_$(base64 "$GITHUB_WORKSPACE/src/img/category-selections/$mainfolder.png" -w 0)_g ; \
         s_replace with base64 from category icon-24_$(base64 "$CODE_WORKSPACE/icons/categories/$mainfolder.png" -w 0)_g ; \
         s/Emulation/$subfolder/g" "$GITHUB_WORKSPACE/src/img/category-selections/two-layer-template.svg" > "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg"
-      export-svg "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
-      
+      if ! git diff --exit-code "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" >/dev/null;then
+        export-svg "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
+      else
+        git restore "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
+      fi      
       categorymessage="Then click on the $mainfolder category, which leads to the $subfolder category."
     else
       #app is in single category
+      #future work: add generation commands for creating the first layer SVGs
+      # if ! git diff --exit-code "$GITHUB_WORKSPACE/src/img/category-selections/$category.svg" >/dev/null;then
+      #   export-svg "$GITHUB_WORKSPACE/src/img/category-selections/$category.svg" "$GITHUB_WORKSPACE/src/img/category-selections/$category.png"
+      # else
+      #   git restore "$GITHUB_WORKSPACE/src/img/category-selections/$category.png"
+      # fi
       categorymessage="Then click on the $category category."
     fi
+    cd "$CPWD"
     
     # determine if app is arm64, arm32, or both
     if [ -e "$CODE_WORKSPACE/apps/$app/install" ]; then
