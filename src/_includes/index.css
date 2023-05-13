@@ -208,7 +208,7 @@ code {
 }
 
 .container {
-  max-width: 90em;
+  max-width: 120em;
   margin: 0 auto;
   position: relative;
 }
