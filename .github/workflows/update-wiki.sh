@@ -332,6 +332,6 @@ cp --parent ./*/icon-24.png $GITHUB_WORKSPACE/src/img/app-icons/
 
 # generate simple app install pages (for search engine optimization)
 echo "generating install pages"
-rm -rf "$GITHUB_WORKSPACE/src/install-app/*.md"
+find "$GITHUB_WORKSPACE/src/install-app/" -name "*.md" -type f -delete
 #app=Chromium category=Internet/Browsers generate-install-page
 generate-install-pages
