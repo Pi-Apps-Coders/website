@@ -112,7 +112,14 @@ export-svg() {
 generate-install-page() { #Generate app install guide for one app. Assumes GITHUB_WORKSPACE, CODE_WORKSPACE, $category, and $app variables are set and are valid
   
   mkdir -p "$GITHUB_WORKSPACE/src/install-app"
-  markdown_full_path="$GITHUB_WORKSPACE/src/install-app/install-$(echo "$app" | tr '[A-Z]' '[a-z]' | tr -d "\+\(\)\.\-\'" | tr ' ' '-')-on-raspberry-pi.md"
+
+  # note: there are if statements below that depend on this wording, if you decide to change these, make sure to change the if statements below as well
+  hardware_list=("Raspberry Pi" "Nintendo Switch" "Nvidia Jetson" "Linux ARM Device")
+  for hardware in "${hardware_list[@]}"; do
+  ## start of loop
+  echo "Generating simple install pagest for $hardware"
+
+  markdown_full_path="$GITHUB_WORKSPACE/src/install-app/install-$(echo "$app" | tr '[A-Z]' '[a-z]' | tr -d "\+\(\)\.\-\'" | tr ' ' '-')-on-$(echo "$hardware" | tr '[A-Z]' '[a-z]' | tr ' ' '-').md"
 
   echo "$app"
   
@@ -134,42 +141,97 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
   fi
   
   # determine if app is arm64, arm32, or both
-  if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
-    archmessage="$app will run on either PiOS 32-bit or 64-bit."
-  elif [[ -e "$CODE_WORKSPACE/apps/$app/install-32" ]]; then
-    if [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
+  if [[ "$hardware" == "Raspberry Pi" ]]; then
+    if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
       archmessage="$app will run on either PiOS 32-bit or 64-bit."
+    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-32" ]]; then
+      if [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
+        archmessage="$app will run on either PiOS 32-bit or 64-bit."
+      else
+        archmessage="$app will only run on PiOS 32-bit. Pi-Apps will not let you install $app on PiOS 64-bit."
+      fi
+    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
+      archmessage="$app will only run on PiOS 64-bit. Pi-Apps will not let you install $app on PiOS 32-bit."
     else
-      archmessage="$app will only run on PiOS 32-bit. Pi-Apps will not let you install $app on PiOS 64-bit."
+      # this would normally say package app but for the sake of the website we use ARM32/ARM64
+      archmessage="$app will run on either PiOS 32-bit or 64-bit."
     fi
-  elif [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
-    archmessage="$app will only run on PiOS 64-bit. Pi-Apps will not let you install $app on PiOS 32-bit."
+  elif [[ "$hardware" == "Nintendo Switch" ]] || [[ "$hardware" == "Nvidia Jetson" ]]; then
+    if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-jetson-18.04"; then
+      # skip generating webpage if app is hidden on jetson-18.04
+      continue
+    fi
+    if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
+      archmessage="$app will run on L4T Ubuntu ARM64."
+    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-32" ]]; then
+      if [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
+        archmessage="$app will run on L4T Ubuntu ARM64."
+      else
+        # skip generating webpage as these platforms do not have 32bit OS support.
+        continue
+      fi
+    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
+      archmessage="$app will run on L4T Ubuntu ARM64."
+    else
+      # this would normally say package app but for the sake of the website we use ARM32/ARM64
+      archmessage="$app will run on L4T Ubuntu ARM64."
+    fi
   else
-    # this would normally say package app but for the sake of the website we use ARM32/ARM64
-    archmessage="$app will run on either PiOS 32-bit or 64-bit."
+    if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
+      archmessage="$app will run on either an ARM32 OS or ARM64 OS."
+    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-32" ]]; then
+      if [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
+        archmessage="$app will run on either an ARM32 OS or ARM64 OS."
+      else
+        archmessage="$app will only run on an ARM32 OS. Pi-Apps will not let you install $app on an ARM64 OS."
+      fi
+    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
+      archmessage="$app will only run on an ARM64 OS. Pi-Apps will not let you install $app on an ARM32 OS."
+    else
+      # this would normally say package app but for the sake of the website we use ARM32/ARM64
+      archmessage="$app will run on either an ARM32 OS or ARM64 OS."
+    fi
   fi
+
+  if [[ "$hardware" == "Raspberry Pi" ]]; then
+    hw_compat_message="## Compatibility
+For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bullseye**.
+Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3 and the Pi 4."
+    hw_img="<img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> "
+  elif [[ "$hardware" == "Nintendo Switch" ]]; then
+    hw_compat_message="## Compatibility
+For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide), which is currently version **5.1.0 Ubuntu Bionic**."
+    hw_img="<img src=https://switchroot.org/logo.png height=24> "
+  elif [[ "$hardware" == "Nvidia Jetson" ]]; then
+    hw_compat_message="## Compatibility
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson."
+    hw_img="<img src=https://assets.nvidiagrid.net/favicon.ico height=24> "
+  else
+    hw_compat_message="## Compatibility
+For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer."
+    hw_img=""
+  fi
+
   
   cat <<EOF > "$markdown_full_path"
 ---
-title: Install $app on Raspberry Pi | Pi-Apps
+title: Install $app on $hardware | Pi-Apps
 ---
-# Install <img src="/img/app-icons/$app/icon-64.png" height=24> $app on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/$app/icon-64.png" height=24> $app on ${hw_img}$hardware
 
 ## <img src="/img/app-icons/$app/icon-64.png"> $app
 $(cat "$CODE_WORKSPACE/apps/$app/description" | sed 's/^/> /g')
 
-Fortunately, $app is very easy to install on your Raspberry Pi in just two steps.
-1. Install Pi-Apps - the best app installer for Raspberry Pi.
+Fortunately, $app is very easy to install on your $hardware in just two steps.
+1. Install Pi-Apps - the best app installer for $hardware.
 2. Use Pi-Apps to install $app.
 
-## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bullseye**.
-Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3 and the Pi 4.
+$hw_compat_message
 $archmessage
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Raspberry Pi with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your $hardware with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 \`\`\`bash
@@ -188,7 +250,7 @@ Now scroll down to find $app in the list.
 <img src="/img/app-icons/$app/app-selection.png">
 Just click Install and Pi-Apps will install $app for you!
 
-Pi-Apps is a free and open source tool made by Botspot and other contributors. Find out more at https://pi-apps.io
+Pi-Apps is a free and open source tool made by [Botspot and other contributors](/about/#contributors). Find out more at https://pi-apps.io
 
 EOF
   num_users="$(echo "$clicklist" | grep "[0-9] $app"'$' | awk '{print $1}' | head -n1)"
@@ -204,6 +266,9 @@ EOF
       s/Epiphany/$app/g" "$GITHUB_WORKSPACE/src/img/app-selection.svg" > "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg"
     export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
   fi
+
+  ## end of loop
+  done
   
 }
 
