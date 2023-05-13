@@ -68,18 +68,39 @@ export-svg() {
   if true;then
     #use svgexport
     if ! command -v svgexport >/dev/null ;then
-      apt install nodejs -y
-      npm install -g svgexport --unsafe-perm=true
+      sudo apt install nodejs -y
+      sudo npm install -g svgexport --unsafe-perm=true
     fi
-    #replace chrome binary with chromium binary, if available. Chromium is not installed on Github Actions machine
-    if [ -f /usr/lib/chromium-browser/chromium-browser ];then
-      #chromium-browser binary is for PiOS 64-bit
-      rm ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome
-      ln -s /usr/lib/chromium-browser/chromium-browser $(echo ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux)/chrome
-    elif [ -f /usr/lib/chromium-browser/chromium-browser-v7 ];then
-      #chromium-browser-v7 is for PiOS 32-bit
-      rm ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome
-      ln -s /usr/lib/chromium-browser/chromium-browser-v7  $(echo ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux)/chrome
+
+    #replace chrome binary with chromium binary, if necessary
+    if [ -f /usr/local/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome ];then
+      file_arch="$(file /usr/local/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome | cut -d, -f2 | tr '-' '_' | tr -d ' ')"
+    elif [ -f ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome ]; then
+      file_arch="$(file ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome | cut -d, -f2 | tr '-' '_' | tr -d ' ')"
+    fi
+    if [[ "$file_arch" != "$(uname -m)" ]]; then
+      if ! command -v chromium-browser >/dev/null ;then
+        sudo apt install chromium-browser -y
+      fi
+      if [ -f /usr/lib/chromium-browser/chromium-browser ];then
+        #chromium-browser binary is for PiOS 64-bit
+        if [ -f /usr/local/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome ];then
+          sudo rm /usr/local/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome
+          sudo ln -s /usr/lib/chromium-browser/chromium-browser /usr/local/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome
+        elif [ -f ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome ]; then
+          rm ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome
+          ln -s /usr/lib/chromium-browser/chromium-browser $(echo ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux)/chrome
+        fi
+      elif [ -f /usr/lib/chromium-browser/chromium-browser-v7 ];then
+        #chromium-browser-v7 is for PiOS 32-bit
+        if [ -f /usr/local/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome ];then
+          sudo rm /usr/local/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome
+          sudo ln -s /usr/lib/chromium-browser/chromium-browser-v7 /usr/local/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome
+        elif [ -f ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome ]; then
+          rm ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux/chrome
+          ln -s /usr/lib/chromium-browser/chromium-browser-v7 $(echo ~/.nvm/versions/node/*/lib/node_modules/svgexport/node_modules/puppeteer/.local-chromium/linux-756035/chrome-linux)/chrome
+        fi
+      fi
     fi
     svgexport "$1" "$2"
   else
