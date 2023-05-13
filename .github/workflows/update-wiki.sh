@@ -32,7 +32,7 @@ generate-wiki() {
         num_users="$(echo "$clicklist" | grep "[0-9] $script"'$' | awk '{print $1}' | head -n1)"
         if [ ! -z "$num_users" ] && [ "$num_users" -gt 20 ];then
           #list the number of users, using this printf command to add commas (,) for every thousand number
-          arch_users="$arch - $(printf "%'d" "$num_users") Users"
+          arch_users="$arch - $(printf "$num_users" | sed ':a;s/\B[0-9]\{3\}\>/,&/;ta') Users"
           if [ "$num_users" -ge 10000 ];then
             #if this app has over 10,000 users, add two exclamation points!!
             arch_users+="!!"
