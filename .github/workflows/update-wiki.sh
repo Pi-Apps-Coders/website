@@ -117,7 +117,7 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
   hardware_list=("Raspberry Pi" "Nintendo Switch" "Nvidia Jetson" "Linux ARM Device")
   for hardware in "${hardware_list[@]}"; do
   ## start of loop
-  echo "Generating simple install pagest for $hardware"
+  echo "Generating simple install pages for $hardware"
 
   markdown_full_path="$GITHUB_WORKSPACE/src/install-app/install-$(echo "$app" | tr '[A-Z]' '[a-z]' | tr -d "\+\(\)\.\-\'" | tr ' ' '-')-on-$(echo "$hardware" | tr '[A-Z]' '[a-z]' | tr ' ' '-').md"
 
@@ -159,6 +159,7 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
   elif [[ "$hardware" == "Nintendo Switch" ]] || [[ "$hardware" == "Nvidia Jetson" ]]; then
     if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-jetson-18.04"; then
       # skip generating webpage if app is hidden on jetson-18.04
+      echo "Skipping page generation for $app on $hardware"
       continue
     fi
     if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
@@ -168,6 +169,7 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
         archmessage="$app will run on L4T Ubuntu ARM64."
       else
         # skip generating webpage as these platforms do not have 32bit OS support.
+        echo "Skipping page generation for $app on $hardware"
         continue
       fi
     elif [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
@@ -179,6 +181,7 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
   else
     if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-non-raspberry"; then
       # skip generating webpage if app is hidden on non-raspberry
+      echo "Skipping page generation for $app on $hardware"
       continue
     fi
     if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
