@@ -206,20 +206,20 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
 
     if [[ "$hardware" == "Raspberry Pi" ]]; then
       hw_compat_message="## Compatibility
-  For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bullseye**.
-  Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3 and the Pi 4."
+For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bullseye**.
+Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3 and the Pi 4."
       hw_img="<img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> "
     elif [[ "$hardware" == "Nintendo Switch" ]]; then
       hw_compat_message="## Compatibility
-  For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide), which is currently version **5.1.0 Ubuntu Bionic**."
+For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide), which is currently version **5.1.0 Ubuntu Bionic**."
       hw_img="<img src=https://switchroot.org/logo.png height=24> "
     elif [[ "$hardware" == "Nvidia Jetson" ]]; then
       hw_compat_message="## Compatibility
-  For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson."
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson."
       hw_img="<img src=https://assets.nvidiagrid.net/favicon.ico height=24> "
     else
       hw_compat_message="## Compatibility
-  For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer."
+For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer."
       hw_img=""
     fi
 
