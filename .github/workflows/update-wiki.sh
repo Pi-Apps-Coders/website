@@ -229,7 +229,7 @@ For the best chance of this working, we recommend using the latest version of [S
       hw_img="<img src=https://switchroot.org/logo.png height=24> "
     elif [[ "$hardware" == "Nvidia Jetson" ]]; then
       hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson."
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson TX1, Jetson Nano, Jetson TX2, Jetson Xavier, or Jetson Orin)."
       hw_img="<img src=https://assets.nvidiagrid.net/favicon.ico height=24> "
     else
       hw_compat_message="## Compatibility
