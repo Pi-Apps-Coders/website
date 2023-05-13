@@ -116,111 +116,115 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
   # note: there are if statements below that depend on this wording, if you decide to change these, make sure to change the if statements below as well
   hardware_list=("Raspberry Pi" "Nintendo Switch" "Nvidia Jetson" "Linux ARM Device")
   for hardware in "${hardware_list[@]}"; do
-  ## start of loop
-  echo "Generating simple install pages for $hardware"
+    ## start of loop
+    echo "Generating install page for $app on $hardware"
 
-  markdown_full_path="$GITHUB_WORKSPACE/src/install-app/install-$(echo "$app" | tr '[A-Z]' '[a-z]' | tr -d "\+\(\)\.\-\'" | tr ' ' '-')-on-$(echo "$hardware" | tr '[A-Z]' '[a-z]' | tr ' ' '-').md"
-
-  echo "$app"
-  
-  #handle category image - double-layer categories must be rendered
-  if grep -q / <<<"$category" && [ ! -f "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png" ];then
-    #not designed for three category folders deep, only two.
-    local mainfolder="$(echo "$category" | awk -F/ '{print $1}')"
-    local subfolder="$(echo "$category" | awk -F/ '{print $2}')"
+    markdown_full_path="$GITHUB_WORKSPACE/src/install-app/install-$(echo "$app" | tr '[A-Z]' '[a-z]' | tr -d "\+\(\)\.\-\'\_" | tr ' ' '-')-on-$(echo "$hardware" | tr '[A-Z]' '[a-z]' | tr ' ' '-').md"
     
-    sed "s_replace with base64 from first category layer_$(base64 "$GITHUB_WORKSPACE/src/img/category-selections/$mainfolder.png" -w 0)_g ; \
-      s_replace with base64 from category icon-24_$(base64 "$CODE_WORKSPACE/icons/categories/$mainfolder.png" -w 0)_g ; \
-      s/Emulation/$subfolder/g" "$GITHUB_WORKSPACE/src/img/category-selections/two-layer-template.svg" > "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg"
-    export-svg "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
+    echo "$markdown_full_path" | sed "s_${GITHUB_WORKSPACE}/src_https://pi-apps.io_g"' ; s_\.md$_/index.html_g'
     
-    categorymessage="Then click on the $mainfolder category, which leads to the $subfolder category."
-  else
-    #app is in single category
-    categorymessage="Then click on the $category category."
-  fi
-  
-  # determine if app is arm64, arm32, or both
-  if [[ "$hardware" == "Raspberry Pi" ]]; then
-    if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
-      archmessage="$app will run on either PiOS 32-bit or 64-bit."
-    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-32" ]]; then
-      if [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
-        archmessage="$app will run on either PiOS 32-bit or 64-bit."
+    #handle category image - double-layer categories must be rendered
+    if grep -q / <<<"$category" && [ ! -f "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png" ];then
+      #not designed for three category folders deep, only two.
+      local mainfolder="$(echo "$category" | awk -F/ '{print $1}')"
+      local subfolder="$(echo "$category" | awk -F/ '{print $2}')"
+      
+      sed "s_replace with base64 from first category layer_$(base64 "$GITHUB_WORKSPACE/src/img/category-selections/$mainfolder.png" -w 0)_g ; \
+        s_replace with base64 from category icon-24_$(base64 "$CODE_WORKSPACE/icons/categories/$mainfolder.png" -w 0)_g ; \
+        s/Emulation/$subfolder/g" "$GITHUB_WORKSPACE/src/img/category-selections/two-layer-template.svg" > "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg"
+      export-svg "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
+      
+      categorymessage="Then click on the $mainfolder category, which leads to the $subfolder category."
+    else
+      #app is in single category
+      categorymessage="Then click on the $category category."
+    fi
+    
+    # determine if app is arm64, arm32, or both
+    if [ -e "$CODE_WORKSPACE/apps/$app/install" ]; then
+      arch="both"
+    elif [ -e "$CODE_WORKSPACE/apps/$app/install-32" ]; then
+      if [ -e "$CODE_WORKSPACE/apps/$app/install-64" ]; then
+        arch="both"
       else
-        archmessage="$app will only run on PiOS 32-bit. Pi-Apps will not let you install $app on PiOS 64-bit."
+        arch="32"
       fi
-    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
-      archmessage="$app will only run on PiOS 64-bit. Pi-Apps will not let you install $app on PiOS 32-bit."
+    elif [ -e "$CODE_WORKSPACE/apps/$app/install-64" ]; then
+      arch="64"
     else
       # this would normally say package app but for the sake of the website we use ARM32/ARM64
-      archmessage="$app will run on either PiOS 32-bit or 64-bit."
+      arch="both"
     fi
-  elif [[ "$hardware" == "Nintendo Switch" ]] || [[ "$hardware" == "Nvidia Jetson" ]]; then
-    if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-jetson-18.04"; then
-      # skip generating webpage if app is hidden on jetson-18.04
-      echo "Skipping page generation for $app on $hardware"
-      continue
-    fi
-    if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
-      archmessage="$app will run on L4T Ubuntu ARM64."
-    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-32" ]]; then
-      if [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
-        archmessage="$app will run on L4T Ubuntu ARM64."
-      else
-        # skip generating webpage as these platforms do not have 32bit OS support.
+    if [ "$hardware" == "Raspberry Pi" ]; then
+      case "$arch" in
+        both)
+          archmessage="$app will run on either PiOS 32-bit or 64-bit."
+          ;;
+        32)
+          archmessage="$app will only run on PiOS 32-bit. Pi-Apps will not let you install $app on PiOS 64-bit."
+          ;;
+        64)
+          archmessage="$app will only run on PiOS 64-bit. Pi-Apps will not let you install $app on PiOS 32-bit."
+          ;;
+      esac
+    elif [ "$hardware" == "Nintendo Switch" ] || [ "$hardware" == "Nvidia Jetson" ]; then
+      if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-jetson-18.04"; then
+        # skip generating webpage if app is hidden on jetson-18.04
         echo "Skipping page generation for $app on $hardware"
         continue
       fi
-    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
-      archmessage="$app will run on L4T Ubuntu ARM64."
+      case "$arch" in
+        both)
+          archmessage="$app will run on L4T Ubuntu ARM64."
+          ;;
+        32)
+          echo "Skipping page generation for $app on $hardware because it is 32-bit only"
+          continue
+          ;;
+        64)
+          archmessage="$app will run on L4T Ubuntu ARM64."
+          ;;
+      esac
     else
-      # this would normally say package app but for the sake of the website we use ARM32/ARM64
-      archmessage="$app will run on L4T Ubuntu ARM64."
-    fi
-  else
-    if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-non-raspberry"; then
-      # skip generating webpage if app is hidden on non-raspberry
-      echo "Skipping page generation for $app on $hardware"
-      continue
-    fi
-    if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
-      archmessage="$app will run on either an ARM32 OS or ARM64 OS."
-    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-32" ]]; then
-      if [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
-        archmessage="$app will run on either an ARM32 OS or ARM64 OS."
-      else
-        archmessage="$app will only run on an ARM32 OS. Pi-Apps will not let you install $app on an ARM64 OS."
+      if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-non-raspberry"; then
+        # skip generating webpage if app is hidden on non-raspberry
+        echo "Skipping page generation for $app on $hardware"
+        continue
       fi
-    elif [[ -e "$CODE_WORKSPACE/apps/$app/install-64" ]]; then
-      archmessage="$app will only run on an ARM64 OS. Pi-Apps will not let you install $app on an ARM32 OS."
-    else
-      # this would normally say package app but for the sake of the website we use ARM32/ARM64
-      archmessage="$app will run on either an ARM32 OS or ARM64 OS."
+      case "$arch" in
+        both)
+          archmessage="$app will run on either an ARM32 OS or ARM64 OS."
+          ;;
+        32)
+          archmessage="$app will only run on an ARM32 OS. Pi-Apps will not let you install $app on an ARM64 OS."
+          ;;
+        64)
+          archmessage="$app will only run on an ARM64 OS. Pi-Apps will not let you install $app on an ARM32 OS."
+          ;;
+      esac
     fi
-  fi
 
-  if [[ "$hardware" == "Raspberry Pi" ]]; then
-    hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bullseye**.
-Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3 and the Pi 4."
-    hw_img="<img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> "
-  elif [[ "$hardware" == "Nintendo Switch" ]]; then
-    hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide), which is currently version **5.1.0 Ubuntu Bionic**."
-    hw_img="<img src=https://switchroot.org/logo.png height=24> "
-  elif [[ "$hardware" == "Nvidia Jetson" ]]; then
-    hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson."
-    hw_img="<img src=https://assets.nvidiagrid.net/favicon.ico height=24> "
-  else
-    hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer."
-    hw_img=""
-  fi
+    if [[ "$hardware" == "Raspberry Pi" ]]; then
+      hw_compat_message="## Compatibility
+  For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bullseye**.
+  Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3 and the Pi 4."
+      hw_img="<img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> "
+    elif [[ "$hardware" == "Nintendo Switch" ]]; then
+      hw_compat_message="## Compatibility
+  For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide), which is currently version **5.1.0 Ubuntu Bionic**."
+      hw_img="<img src=https://switchroot.org/logo.png height=24> "
+    elif [[ "$hardware" == "Nvidia Jetson" ]]; then
+      hw_compat_message="## Compatibility
+  For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson."
+      hw_img="<img src=https://assets.nvidiagrid.net/favicon.ico height=24> "
+    else
+      hw_compat_message="## Compatibility
+  For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer."
+      hw_img=""
+    fi
 
-  
-  cat <<EOF > "$markdown_full_path"
+    
+    cat <<EOF > "$markdown_full_path"
 ---
 title: Install $app on $hardware | Pi-Apps
 ---
@@ -260,21 +264,21 @@ Just click Install and Pi-Apps will install $app for you!
 Pi-Apps is a free and open source tool made by [Botspot and other contributors](/about/#contributors). Find out more at https://pi-apps.io
 
 EOF
-  num_users="$(echo "$clicklist" | grep "[0-9] $app"'$' | awk '{print $1}' | head -n1)"
-  #generate depiction of app in list. It starts with SVG, fills in the app name, icon, website, and usercount, then converts that to PNG
-  # only generate if image does not already exist
-  # images are cleared at the start of running the CI but not within the loop
-  # allows skipping redundant work for additional systems
-   if [ ! -f "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png" ];then
-    sed "s_replace with base64 from icon-24_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-24.png" -w 0)_g ; \
-      s_replace with base64 from icon-64_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-64.png" -w 0)_g ; \
-      s/4,662/$num_users/g ; \
-      s;https://gitlab.gnome.org/GNOME/epiphany;$(head -n1 "$CODE_WORKSPACE/apps/$app/website" || echo "none");g ; \
-      s/Epiphany/$app/g" "$GITHUB_WORKSPACE/src/img/app-selection.svg" > "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg"
-    export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
-  fi
+    num_users="$(echo "$clicklist" | grep "[0-9] $app"'$' | awk '{print $1}' | head -n1)"
+    #generate depiction of app in list. It starts with SVG, fills in the app name, icon, website, and usercount, then converts that to PNG
+    # only generate if image does not already exist
+    # images are cleared at the start of running the CI but not within the loop
+    # allows skipping redundant work for additional systems
+     if [ ! -f "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png" ];then
+      sed "s_replace with base64 from icon-24_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-24.png" -w 0)_g ; \
+        s_replace with base64 from icon-64_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-64.png" -w 0)_g ; \
+        s/4,662/$num_users/g ; \
+        s;https://gitlab.gnome.org/GNOME/epiphany;$(head -n1 "$CODE_WORKSPACE/apps/$app/website" || echo "none");g ; \
+        s/Epiphany/$app/g" "$GITHUB_WORKSPACE/src/img/app-selection.svg" > "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg"
+      export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
+    fi
 
-  ## end of loop
+    # end of loop that generates a page for every hardware type
   done
   
 }
