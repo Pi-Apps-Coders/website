@@ -177,6 +177,10 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
       archmessage="$app will run on L4T Ubuntu ARM64."
     fi
   else
+    if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-non-raspberry"; then
+      # skip generating webpage if app is hidden on non-raspberry
+      continue
+    fi
     if [[ -e "$CODE_WORKSPACE/apps/$app/install" ]]; then
       archmessage="$app will run on either an ARM32 OS or ARM64 OS."
     elif [[ -e "$CODE_WORKSPACE/apps/$app/install-32" ]]; then
