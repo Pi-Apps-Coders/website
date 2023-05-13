@@ -193,12 +193,17 @@ Pi-Apps is a free and open source tool made by Botspot and other contributors. F
 EOF
   num_users="$(echo "$clicklist" | grep "[0-9] $app"'$' | awk '{print $1}' | head -n1)"
   #generate depiction of app in list. It starts with SVG, fills in the app name, icon, website, and usercount, then converts that to PNG
-  sed "s_replace with base64 from icon-24_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-24.png" -w 0)_g ; \
-    s_replace with base64 from icon-64_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-64.png" -w 0)_g ; \
-    s/4,662/$num_users/g ; \
-    s;https://gitlab.gnome.org/GNOME/epiphany;$(head -n1 "$CODE_WORKSPACE/apps/$app/website" || echo "none");g ; \
-    s/Epiphany/$app/g" "$GITHUB_WORKSPACE/src/img/app-selection.svg" > "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg"
-  export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
+  # only generate if image does not already exist
+  # images are cleared at the start of running the CI but not within the loop
+  # allows skipping redundant work for additional systems
+   if [ ! -f "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png" ];then
+    sed "s_replace with base64 from icon-24_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-24.png" -w 0)_g ; \
+      s_replace with base64 from icon-64_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-64.png" -w 0)_g ; \
+      s/4,662/$num_users/g ; \
+      s;https://gitlab.gnome.org/GNOME/epiphany;$(head -n1 "$CODE_WORKSPACE/apps/$app/website" || echo "none");g ; \
+      s/Epiphany/$app/g" "$GITHUB_WORKSPACE/src/img/app-selection.svg" > "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg"
+    export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
+  fi
   
 }
 
