@@ -24,11 +24,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
       # Runs a set of commands using the runners shell
       - name: Generate pi-apps applist and install webpages
         run: |
           sudo apt update
           sudo apt install gnuplot jq moreutils -y
+          sudo npm install -g svgexport --unsafe-perm=true
           $GITHUB_WORKSPACE/.github/workflows/update-wiki.sh
 
       - name: Push changes to repo
