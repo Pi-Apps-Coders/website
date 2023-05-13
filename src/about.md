@@ -27,9 +27,12 @@ Pi-Apps now serves **over 1,000,000 people** and hosts [over 200 apps](/wiki/get
 
 <ul class="user-list">
   {% for user in contributors.users %}
-  <li class="user-info user-contrib">
-    <a href="{{user[1]}}">
-      <img src="{{user[0]}}" alt="Avatar">
+  <li class="user-info">
+    <a href="{{user[2]}}">
+      <img src="{{user[1]}}" alt="Avatar">
+      <div class="user-info-overlay">
+        <div class="user-name">{{user[0]}}</div>
+      </div>
     </a>
   </li>
   {% endfor %}

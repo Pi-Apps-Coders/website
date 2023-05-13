@@ -9,13 +9,13 @@
 .user-info {
     position: relative; 
     margin: 0.5em;
-    width: 10em;
+    width: 5em;
     border-radius: 1em;
     overflow: hidden;
     background-color:var(--background);
     text-decoration: none;
     color: var(--primary-text);
-    max-height: 10em;
+    max-height: 5em;
 }
 
 .user-contrib {
@@ -36,8 +36,9 @@
 
 .user-name {
     color: white;
-    font-size: 1.2em;
-    overflow-wrap: break-word;
+    font-size: 0.8em;
+    overflow-wrap: anywhere;
+    padding: 0.5em;
     text-align: center;
 }
 
