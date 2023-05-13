@@ -7,7 +7,7 @@ hero:
   title: About Pi-Apps
 eleventyNavigation:
   key: About
-  order: 3
+  order: 2
 ---
 <div class="content">
 
