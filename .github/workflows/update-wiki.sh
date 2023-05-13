@@ -275,7 +275,18 @@ EOF
         s/4,662/$num_users/g ; \
         s;https://gitlab.gnome.org/GNOME/epiphany;$(head -n1 "$CODE_WORKSPACE/apps/$app/website" || echo "none");g ; \
         s/Epiphany/$app/g" "$GITHUB_WORKSPACE/src/img/app-selection.svg" > "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg"
-      export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
+
+      # only generate png if svg does not match the previous git entry
+      # png generation is the main cause of slowdown in the script and if the svg matches then restore the previous png
+      # need to move into the workspace git directory to execute the git commands
+      CPWD="$(pwd)"
+      cd "$GITHUB_WORKSPACE"
+      if ! git diff --exit-code "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" >/dev/null;then
+        export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
+      else
+        git restore "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
+      fi
+      cd "$CPWD"
     fi
 
     # end of loop that generates a page for every hardware type
