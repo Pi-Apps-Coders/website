@@ -32,6 +32,8 @@ jobs:
         run: |
           sudo apt update
           sudo apt install gnuplot jq moreutils -y
+          wget https://archive.raspberrypi.org/debian/pool/main/f/fonts-piboto/fonts-piboto_1.2_all.deb -P /tmp
+          sudo apt install -y /tmp/fonts-piboto_1.2_all.deb
           sudo npm install -g svgexport --unsafe-perm=true
           $GITHUB_WORKSPACE/.github/workflows/update-wiki.sh
 
