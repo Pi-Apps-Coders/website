@@ -13,11 +13,12 @@
 }
 
 .wiki-toc, .wiki-toc-right, .wiki-toc-right-no-pad {
-  overflow: hidden;
+  overflow: auto;
   background-color: var(--accent);
   border-radius: 1em;
   padding: 1em;
   font-size: 1rem;
+  height: calc(100vh - 1em - 4em - 1.25em) ;
   /* Reset */
   flex: 1;
 }
