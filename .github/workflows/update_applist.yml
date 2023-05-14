@@ -69,6 +69,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v3
+        with:
+          # build off of master branch commit regardless of what commit this CI was triggered by
+          # necessary since the update-applist job pushes to master during this workflow if it is run
+          ref: master
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
