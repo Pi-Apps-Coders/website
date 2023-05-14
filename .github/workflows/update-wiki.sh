@@ -242,6 +242,8 @@ For the best chance of this working, we recommend using the latest LTS of Ubuntu
 ---
 title: Install $app on $hardware | Pi-Apps
 ---
+<div class="simple-install-content content">
+
 # Install <img src="/img/app-icons/$app/icon-64.png" height=24> $app on ${hw_img}$hardware
 
 ## <img src="/img/app-icons/$app/icon-64.png"> $app
@@ -250,9 +252,13 @@ $(cat "$CODE_WORKSPACE/apps/$app/description" | sed 's/^/> /g')
 Fortunately, $app is very easy to install on your $hardware in just two steps.
 1. Install Pi-Apps - the best app installer for $hardware.
 2. Use Pi-Apps to install $app.
+</div>
+<div class="simple-install-content content">
 
 $hw_compat_message
 $archmessage
+</div>
+<div class="simple-install-content content">
 
 ## Install Pi-Apps
 
@@ -263,6 +269,8 @@ Open a terminal and run this command to install Pi-Apps:
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 \`\`\`
 Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/pi-apps
+</div>
+<div class="simple-install-content content">
 
 ## Install $app
 
@@ -274,9 +282,11 @@ $categorymessage
 Now scroll down to find $app in the list.
 <img src="/img/app-icons/$app/app-selection.png">
 Just click Install and Pi-Apps will install $app for you!
+</div>
+<div class="simple-install-content content">
 
 Pi-Apps is a free and open source tool made by [Botspot and other contributors](/about/#contributors). Find out more at https://pi-apps.io
-
+</div>
 EOF
     num_users="$(echo "$clicklist" | grep "[0-9] $app"'$' | awk '{print $1}' | head -n1)"
     #generate depiction of app in list. It starts with SVG, fills in the app name, icon, website, and usercount, then converts that to PNG
