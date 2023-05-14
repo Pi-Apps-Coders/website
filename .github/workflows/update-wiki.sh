@@ -207,13 +207,13 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
       fi
       case "$arch" in
         both)
-          archmessage="$app will run on either an ARM32 OS or ARM64 OS."
+          archmessage="$app will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS."
           ;;
         32)
-          archmessage="$app will only run on an ARM32 OS. Pi-Apps will not let you install $app on an ARM64 OS."
+          archmessage="$app will only run on an Ubuntu/Debian ARM32 OS. Pi-Apps will not let you install $app on an Ubuntu/Debian ARM64 OS."
           ;;
         64)
-          archmessage="$app will only run on an ARM64 OS. Pi-Apps will not let you install $app on an ARM32 OS."
+          archmessage="$app will only run on an Ubuntu/Debian ARM64 OS. Pi-Apps will not let you install $app on an Ubuntu/Debian ARM32 OS."
           ;;
       esac
     fi
