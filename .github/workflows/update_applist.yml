@@ -1,12 +1,9 @@
-name: Update Applist
+name: Update and Build
 # Controls when the workflow will run
 on:
   push:
     branches:
       - master
-    paths:
-    - '.github/workflows/update_applist.yml'
-    - '.github/workflows/update-wiki.sh'
   # run at 2:00 UTC every day
   schedule:
      - cron: '0 2 * * *'
@@ -17,7 +14,25 @@ on:
     types: [update applist]
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  # JOB to run change detection
+  changes:
+    runs-on: ubuntu-latest
+    # Set job outputs to values from filter step
+    outputs:
+      applist: ${{ steps.filter.outputs.applist }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            applist:
+              - '.github/workflows/update_applist.yml'
+              - '.github/workflows/update-wiki.sh'
+
   update-applist:
+    needs: changes
+    if: ${{ needs.changes.outputs.applist == 'true' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -42,3 +57,35 @@ jobs:
           message: |
             Update applist, run by GitHub Actions
 
+  build:
+    needs: update-applist
+    if: always()
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies & build
+        run: |
+          npm ci
+          npm run build
+          cp CNAME _site/CNAME
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./_site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          user_name: 'github-actions[bot]'
+          user_email: '41898282+github-actions[bot]@users.noreply.github.com'
+          
