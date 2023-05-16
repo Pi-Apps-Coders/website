@@ -13,13 +13,17 @@
 }
 
 .wiki-toc, .wiki-toc-right, .wiki-toc-right-no-pad {
-  overflow: hidden;
   background-color: var(--accent);
   border-radius: 1em;
   padding: 1em;
   font-size: 1rem;
   /* Reset */
   flex: 1;
+}
+
+.wiki-toc {
+  overflow: hidden;
+  height: min-content;
 }
 
 .wiki-toc-right, .wiki-toc-right-no-pad {
@@ -155,6 +159,10 @@
   }
   .wiki-content-thin {
     width: 60%
+  }
+  .wiki-toc, .wiki-toc-right, .wiki-toc-right-no-pad {
+    position: sticky;
+    top: -1px;
   }
   .wiki-toc {
     margin-right: 1em;
