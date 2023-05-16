@@ -29,6 +29,8 @@ jobs:
             applist:
               - '.github/workflows/update_applist.yml'
               - '.github/workflows/update-wiki.sh'
+              - 'src/img/category-selections/*.svg'
+              - 'src/img/*.svg'
 
   update-applist:
     needs: changes
