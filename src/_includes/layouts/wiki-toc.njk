@@ -4,6 +4,7 @@ templateClass: tmpl-wiki
 ---
 <div class="row row-reverse">
   <div class="wiki-toc-right-no-pad">
+    <input type="text" id="userinput" onkeyup="filterapps()" placeholder="Search apps list..">
     {{ content | toc | safe }}
     <hr>
     {%- if eleventyNavigation -%}
@@ -26,3 +27,51 @@ templateClass: tmpl-wiki
     {% endif %}
   </div>
 </div>
+
+<script>
+function getElementByXpath(path) {
+  return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+}
+
+function getChildNodes(node) {
+    var children = new Array();
+    for(var child in node.childNodes) {
+        if(node.childNodes[child].nodeType == 1) {
+            children.push(child);
+        }
+    }
+    return children;
+}
+
+function filterapps() {
+  // Declare variables
+  var input, filter, ul, li, a, i, j, j2, txtValue, top_hide;
+  input = document.getElementById('userinput');
+  filter = input.value.toUpperCase();
+  root_ul = getElementByXpath("//html/body/main/div/div[1]/ul[1]");
+
+  // Loop through all top row (categories) list items
+  for (j = 0; j < getChildNodes(root_ul).length; j++) {
+    j2 = j+1;
+    top_hide = 0;
+    ul = getElementByXpath("//html/body/main/div/div[1]/ul[1]/li[" + j2 + "]/ul[1]");
+    li = ul.getElementsByTagName('li'); 
+    // Loop through all second row (apps) list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+        top_hide += 1;
+      }
+    }
+    if (top_hide >= li.length ) {
+      getElementByXpath("//html/body/main/div/div[1]/ul[1]/li[" + j2 + "]").style.display = "none";
+    } else {
+      getElementByXpath("//html/body/main/div/div[1]/ul[1]/li[" + j2 + "]").style.display = "";
+    }
+  }
+}
+</script>
