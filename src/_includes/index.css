@@ -421,7 +421,7 @@ a.direct-link:focus:visited,
 }
 
 
-@media (min-width: 64em) {
+@media (min-width: 56em) {
 
   /* landing page */
   .row {

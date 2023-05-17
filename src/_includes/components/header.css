@@ -87,7 +87,7 @@ header .links {
   flex-direction: column;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 56em) {
   nav {
     justify-content: space-between;
   }

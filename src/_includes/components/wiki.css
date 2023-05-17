@@ -163,7 +163,7 @@
   font-weight: 700;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 56em) {
   .wiki-content {
     width: 80%
   }

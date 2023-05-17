@@ -59,7 +59,7 @@
     margin-left: 0;
 }
 
-@media (min-width: 64em) {
+@media (min-width: 56em) {
     .download-tab-list a {
         border-radius: 1rem 1rem 0 0;
     }
