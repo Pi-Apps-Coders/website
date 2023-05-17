@@ -5,7 +5,7 @@ templateClass: tmpl-wiki
 <div class="row row-reverse">
   <div class="wiki-toc-right-no-pad">
     <input type="text" id="userinput" onkeyup="filterapps()" placeholder="Search apps list..">
-    {{ content | toc | safe }}
+    <div id="apps-list">  {{ content | toc | safe }} </div>
     <hr>
     {%- if eleventyNavigation -%}
       {%- set navKey = eleventyNavigation.key -%}
@@ -29,33 +29,20 @@ templateClass: tmpl-wiki
 </div>
 
 <script>
-function getElementByXpath(path) {
-  return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-}
-
-function getChildNodes(node) {
-    var children = new Array();
-    for(var child in node.childNodes) {
-        if(node.childNodes[child].nodeType == 1) {
-            children.push(child);
-        }
-    }
-    return children;
-}
-
 function filterapps() {
   // Declare variables
-  var input, filter, ul, li, a, i, j, j2, txtValue, top_hide;
+  var input, filter, root_div, root_li, top_hide, li, a, j, i, txtValue;
   input = document.getElementById('userinput');
   filter = input.value.toUpperCase();
-  root_ul = getElementByXpath("//html/body/main/div/div[1]/ul[1]");
+  root_div = document.getElementById("apps-list");
+  // getting the elements by tag name returns the top level ul with the lower level ul inside it alongside the lower level ul
+  // we only want the top level ul with the lower level ul inside so get the first index
+  root_li = root_div.getElementsByTagName("ul")[0].children;
 
   // Loop through all top row (categories) list items
-  for (j = 0; j < getChildNodes(root_ul).length; j++) {
-    j2 = j+1;
+  for (j = 0; j < root_li.length; j++) {
     top_hide = 0;
-    ul = getElementByXpath("//html/body/main/div/div[1]/ul[1]/li[" + j2 + "]/ul[1]");
-    li = ul.getElementsByTagName('li'); 
+    li = root_li[j].getElementsByTagName("li");
     // Loop through all second row (apps) list items, and hide those who don't match the search query
     for (i = 0; i < li.length; i++) {
       a = li[i].getElementsByTagName("a")[0];
@@ -67,10 +54,10 @@ function filterapps() {
         top_hide += 1;
       }
     }
-    if (top_hide >= li.length ) {
-      getElementByXpath("//html/body/main/div/div[1]/ul[1]/li[" + j2 + "]").style.display = "none";
+    if (top_hide == li.length ) {
+      root_li[j].style.display = "none";
     } else {
-      getElementByXpath("//html/body/main/div/div[1]/ul[1]/li[" + j2 + "]").style.display = "";
+      root_li[j].style.display = "";
     }
   }
 }
