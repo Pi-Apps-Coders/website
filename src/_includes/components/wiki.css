@@ -13,6 +13,7 @@
 
 .wiki-content, .wiki-content-thin, .wiki-toc, .wiki-toc-right, .wiki-toc-right-no-pad {
   margin-top: 1em;
+  overflow-wrap: break-word;
 }
 
 .wiki-toc-right-no-pad ul {
