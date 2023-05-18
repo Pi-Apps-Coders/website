@@ -296,7 +296,6 @@ EOF
      if [ ! -f "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png" ];then
       sed "s_replace with base64 from icon-24_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-24.png" -w 0)_g ; \
         s_replace with base64 from icon-64_$(base64 "$GITHUB_WORKSPACE/src/img/app-icons/$app/icon-64.png" -w 0)_g ; \
-        s/4,662/$num_users/g ; \
         s;https://gitlab.gnome.org/GNOME/epiphany;$(head -n1 "$CODE_WORKSPACE/apps/$app/website" || echo "none");g ; \
         s/Epiphany/$app/g" "$GITHUB_WORKSPACE/src/img/app-selection.svg" > "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg"
 
