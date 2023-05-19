@@ -34,6 +34,7 @@
   --danger-light: hsl(17, 95%, 80%);
   
   background-color: var(--background);
+  color-scheme: dark;
 }
 
 @media (prefers-color-scheme: light) {
@@ -46,6 +47,7 @@
     --accent-light: #d0d0d0;
     
     background-color: var(--background);
+    color-scheme: light;
   }
 }
 
