@@ -95,7 +95,7 @@ That ⏫ is roughly equivalent to something like `sudo apt update && sudo apt in
 And to **remove** all packages your app installed earlier:  
 `purge_packages || exit 1`  
  - Shortcut: create small text files using `echo` inside the install script. Many scripts use this technique to create menu button files:
-```
+```bash
 echo "[Desktop Entry]
 Name=Ultimaker Cura
 GenericName=3D Printing Software
@@ -134,10 +134,10 @@ fi
 ```
 Script explanation:  
 - These run scripts that have resided in Arduino's folder. ⏬ They will remove the menu buttons for us and take care of most of the uninstall process.  
-```
+```bash
 sudo $HOME/.local/share/$VERSION/uninstall.sh
 ```
 - And this will delete the Arduino folder if the uninstall and install scripts are not found. ⏬
-```
+```bash
 rm -rf $HOME/.local/share/$VERSION
 ```
