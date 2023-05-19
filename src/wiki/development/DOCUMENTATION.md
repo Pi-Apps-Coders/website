@@ -797,14 +797,20 @@ all_url="https://github.com/angryip/ipscan/releases/download/${webVer}/ipscan_${
 
 source $GITHUB_WORKSPACE/.github/workflows/update_github_script.sh
 ```
-This is Angry IP scanners's update script. New releases of the .deb are posted on the `angrypi/scan` github, so a few times a day, the pi-apps github actions runs this script to check for new releases of Angry IP Scanner.
+This is Angry IP scanners's update script. New releases of the .deb are posted on the `angrypi/scan` github, so once a week, the pi-apps github actions runs this script to check for new releases of Angry IP Scanner.
 There are a few special functions designed for github scripts to use, so that they can obtain the latest app version.
 ```bash
 get_release() {
   curl --silent "https://api.github.com/repos/$1/releases/latest" | jq -r '.tag_name' | sed s/v//g
 }
+get_release_raw() {
+  curl --silent "https://api.github.com/repos/$1/releases/latest" | jq -r '.tag_name'
+}
 get_prerelease() {
   curl --silent "https://api.github.com/repos/$1/releases" | jq -r 'map(select(.prerelease)) | first | .tag_name' | sed s/v//g
+}
+get_prerelease_raw() {
+  curl --silent "https://api.github.com/repos/$1/releases" | jq -r 'map(select(.prerelease)) | first | .tag_name'
 }
 ```
 `get_release` followed by the app `githubowner/reponame` will obtain the latest github release version number<br>
@@ -825,29 +831,34 @@ For apps which are published to a debian repo, but it is not desired to add the 
 ```bash
 #!/bin/bash
 
-armhf_webPackages="https://apt.raspbian-addons.org/debian/dists/precise/main/binary-armhf/Packages"
-arm64_webPackages="https://apt.raspbian-addons.org/debian/dists/precise/main/binary-arm64/Packages"
-armhf_packagename="antimicrox"
-arm64_packagename="antimicrox"
+armhf_webPackages="https://packagecloud.io/ookla/speedtest-cli/ubuntu/dists/bionic/main/binary-armhf/Packages"
+arm64_webPackages="https://packagecloud.io/ookla/speedtest-cli/ubuntu/dists/bionic/main/binary-arm64/Packages"
+armhf_packagename="speedtest"
+arm64_packagename="speedtest"
 
 # The corresponding appname in pi-apps will have its corresponding filepath= variable update
 # the filepath variable will contain the full filepath of the debian package with the version included
 
 source $GITHUB_WORKSPACE/.github/workflows/update_debian_repo_script.sh
 ```
-Debian repos contain what is called a `Packages` file, this file contains all the control data for all packages hosted on that repo under that distro, and architecture. Shown above is the anitmicrox updater script.<br>
-The package used on pi-apps is hosted at the `raspbian-addons` repo, so we specify the location of the `Packages` file on that repo using `armhf_webPackages` and `arm64_webPackages`.<br>
-We then specify what the package name we would like to have checked from that repo is named, in this case, its `antimicrox` set to the variables `armhf_packagename` `arm64_packagename`.<br>
+Debian repos contain what is called a `Packages` file, this file contains all the control data for all packages hosted on that repo under that distro, and architecture. Shown above is the speedtest-cli updater script.<br>
+The package used on pi-apps is hosted at the `packagecloud.io/ookla/speedtest-cli` repo, so we specify the location of the `Packages` file on that repo using `armhf_webPackages` and `arm64_webPackages`.<br>
+We then specify what the package name we would like to have checked from that repo is named, in this case, its `speedtest` set to the variables `armhf_packagename` `arm64_packagename`.<br>
 Finally, to update the pi-apps scripts, we call the update_debian_repo_script as shown.
 
-The corresponding app install scripts in pi-apps should contain a `filename` variable (`filename_32` and `filename_64` if there are separate armhf and arm64 filenames in the same `install` script) with the entire URL path of the .deb file contained.<br>
-See antimicrox's `install-64` file for an example:
+The corresponding app install scripts in pi-apps should contain a `filepath` variable (`filepath_32` and `filepath_64` if there are separate armhf and arm64 filenames in the same `install` script) with the entire URL path of the .deb file contained.<br>
+See speedtest-cli's `install` file for an example:
 ```bash
 #!/bin/bash
 
-filepath="https://apt.raspbian-addons.org/debian/pool/main/a/antimicrox/antimicrox_3.2.1_arm64.deb"
+filepath_32="https://packagecloud.io/ookla/speedtest-cli/ubuntu/pool/bionic/main/s/speedtest/speedtest_1.2.0.84-1.ea6b6773cf_armhf.deb"
+filepath_64="https://packagecloud.io/ookla/speedtest-cli/ubuntu/pool/bionic/main/s/speedtest/speedtest_1.2.0.84-1.ea6b6773cf_arm64.deb"
 
-install_packages "${filepath}" || exit 1
+case "$arch" in
+  "64") install_packages "${filepath_64}" || exit 1 ;;
+  "32") install_packages "${filepath_32}" || exit 1 ;;
+  *) error "arch variable is not set, can not continue" ;;
+esac
 ```
 
 #### Updated apps verification QEMU armhf/arm64 Chroot:<br>
