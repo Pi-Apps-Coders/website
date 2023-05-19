@@ -85,12 +85,12 @@ The `manage` script supports these **modes**:
   - Finally, the app's installation script is executed.
     - It is executed with the `nice` command, to lower the priority of the process so that the rest of the system remains responsive, even while compiling.
     - Its output is redirected to the log-file, *and* to stdout. (usually the terminal)
-  - If the app's installation script **succeeded** (if it exited with a return code of `0`):
+  - If the app's installation script **succeeded** (if it exited with a exit status of `0`):
     - The the log-file is renamed to `install-success-$app`
-    - The `manage` script exits with a return code of `0`.
-  - However, if the app's installation script failed (any return code except `0`):
+    - The `manage` script exits with a exit status of `0`.
+  - However, if the app's installation script failed (any exit status except `0`):
     - The the log-file will be renamed to `install-fail-$app`.
-    - The `manage` script exits with a return code of `1`.
+    - The `manage` script exits with a exit status of `1`.
 - `uninstall`: exactly like the `install` mode except that it uninstalls the specified app.
   - These two modes are so similar that they share the same code!
 - `install-if-not-installed`: Installs the specified app, only if it has not already been installed.
@@ -192,7 +192,7 @@ Alternatively, the `api` script supports running a single function *without* bei
 ```
 #### List of functions:
 Note: new functions are added often. If you don't see a function on this list but do see it in the api, please let us know.
-- `error` - display a custom message in red and exit with a return code of `1`.
+- `error` - display a custom message in red and exit with an exit status of `1`.
   Usage:
   ```bash
   error "The command 'sudo apt update' failed!"
@@ -238,7 +238,7 @@ Apt/dpkg/package functions below.
   - This function is useful for apps that depend on a recent version of a package.
 - `package_is_new_enough` - Given a package and a version threshold, determine if the package-version is greater than the threshold.
   - This function is an extension of the `package_latest_version` function above, to simplify scripting.
-  - If the package has a higher version than the threshold value, the return coide is `0`, otherwise it returns `1`.
+  - If the package has a higher version than the threshold value, the return code is `0`, otherwise it returns `1`.
   - Example usage, from the Mission Planner app:
     ```bash
     status -n "Is the mono-complete package new enough? "
