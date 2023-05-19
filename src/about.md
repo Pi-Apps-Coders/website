@@ -13,7 +13,7 @@ eleventyNavigation:
 
 # What is Pi-Apps?
 
-Let's be honest: **Linux is harder to master than Windows.** Sometimes it's not user-friendly, and following an outdated tutorial may break your Raspberry Pi's operating system.  
+Let's be honest: **Linux is harder to master than Windows.** Sometimes it's not user-friendly, and following an outdated or poorly written tutorial may break your device's operating system.  
 There is no centralized software repository, except for the `apt` repositories which lack many desktop applications.  
 Surely there is a better way! **There is.**  
 Introducing Pi-Apps, a well-maintained collection of app installation-scripts that you can run with **one click**.
