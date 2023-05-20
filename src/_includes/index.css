@@ -162,7 +162,6 @@ code {
 }
 
 :not(pre)>code {
-  background-color: #AFB8C133;
   padding: 0.18em;
 }
 
