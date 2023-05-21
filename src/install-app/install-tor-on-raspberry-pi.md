@@ -7,6 +7,9 @@ title: Install Tor on Raspberry Pi | Pi-Apps
 
 ## <img src="/img/app-icons/Tor/icon-64.png"> Tor
 > The Tor Browser is a web broswer that anonymizes your web traffic using the Tor network, making it easy to protect your identity online.
+> 
+> To run: Menu -> Internet -> Tor Browser
+> To run in a terminal: ~/tor-browser/Browser/start-tor-browser
 
 Fortunately, Tor is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

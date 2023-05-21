@@ -1282,6 +1282,9 @@ https://sourceforge.net/projects/tor-browser-ports/files/<br />
 ARM32/ARM64 - 15,937 Users!!
 ```
 The Tor Browser is a web broswer that anonymizes your web traffic using the Tor network, making it easy to protect your identity online.
+
+To run: Menu -> Internet -> Tor Browser
+To run in a terminal: ~/tor-browser/Browser/start-tor-browser
 ```
 
 ### <img src="/img/app-icons/Vivaldi/icon-64.png" height=32> ***[Vivaldi](https://github.com/Botspot/pi-apps/tree/master/apps/Vivaldi)***
