@@ -24,9 +24,9 @@ Pi-Apps now serves **over 1,000,000 people** and hosts [over 200 apps](/wiki/get
 
 It depends! Some application binaries come directly from their official developer and pi-apps only has to provide a simple install/uninstall script (eg: [Arduino](/wiki/getting-started/apps-list/#arduino), [btop++](/wiki/getting-started/apps-list/#btop++), [System Monitoring Center](/wiki/getting-started/apps-list/#system-monitoring-center), [GitHub CLI](/wiki/getting-started/apps-list/#github-cli), etc). Others are custom built and/or ported to ARM Linux by pi-apps developers and contributors (eg: [GitHub Desktop](/wiki/getting-started/apps-list/#github-desktop), [Minecraft Java Prism](/wiki/getting-started/apps-list/#minecraft-java-prism-launcher)/[GDLauncher](/wiki/getting-started/apps-list/#minecraft-java-gdlauncher)/[MultiMC](/wiki/getting-started/apps-list/#minecraft-java-multimc5)/[Lunar Client](/wiki/getting-started/apps-list/#minecraft-java-lunar), [Balena Etcher](/wiki/getting-started/apps-list/#balenaetcher), [MuseScore 4](/wiki/getting-started/apps-list/#musescore), etc).
 
-# Who wrote pi-apps?
+# Who wrote Pi-Apps?
 
-Pi-Apps's main developer is GitHub user [Botspot](https://github.com/Botspot). There are also two additional maintainers, [theofficialgman](https://github.com/theofficialgman) and [Itai-Nelken](https://github.com/Itai-Nelken). Pi-Apps has many other developers and contributors, you can find them listed below sorted by number of commits contributed to the pi-apps.
+Pi-Apps's main developer is GitHub user [Botspot](https://github.com/Botspot). There are also two additional maintainers, [theofficialgman](https://github.com/theofficialgman) and [Itai-Nelken](https://github.com/Itai-Nelken). Pi-Apps has many other developers and contributors, you can find them listed below sorted by number of commits contributed to the Pi-Apps.
 
 </div>
 <div class="infobox top">
