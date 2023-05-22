@@ -9,6 +9,9 @@ title: Install Persepolis Download Manager on Nvidia Jetson | Pi-Apps
 > Persepolis is a Download Manager and a GUI For aria2. 
 > 
 > It's written in Python. Persepolis is a Sample of Free and open source software. It's developed For GNU/Linux Distributions, BSDs, macOS and Microsoft Windows. 
+> 
+> To run: Menu -> Internet -> Persepolis Download Manager
+> To run in a terminal: persepolis
 
 Fortunately, Persepolis Download Manager is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

@@ -8,14 +8,14 @@ title: Install AndroidBuddy on Nintendo Switch | Pi-Apps
 ## <img src="/img/app-icons/AndroidBuddy/icon-64.png"> AndroidBuddy
 > A GUI for Android device recovery and maintenance.
 > 
-> To run: Menu > Accessories > AndroidBuddy
-> To run in a temrinal: python3 ~/droidbuddy/main.py
-> 
 > Features: 
 > - APK Installation: Install an Android application package with ease.
 > - Screen viewing and interaction: Control your device through an scrcpy window.
 > - Recover files: Allows you to back up music, downloads, photos or all of your device's files.
 > - AND MORE! Check out the website for more info.
+> 
+> To run: Menu > Accessories > AndroidBuddy
+> To run in a temrinal: python3 ~/droidbuddy/main.py
 
 Fortunately, AndroidBuddy is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

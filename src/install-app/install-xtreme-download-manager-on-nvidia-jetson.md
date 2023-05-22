@@ -13,6 +13,9 @@ title: Install Xtreme Download Manager on Nvidia Jetson | Pi-Apps
 > XDM has built in video converter which lets you convert downloaded videos to popular MP4 and MP3 formats.
 > 
 > Support for HTTP, HTTPS, FTP, DASH, HLS, HDS protocols, firewalls, proxy servers, PAC scripts, file redirects, cookies, authorization, download queue, scheduler and many more feature makes XDM a very useful tool
+> 
+> To run: Menu -> Internet -> Xtreme Download Manager
+> To run in a terminal: /opt/xdman/xdman
 
 Fortunately, Xtreme Download Manager is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

@@ -10,7 +10,7 @@ title: Install Timeshift on Raspberry Pi | Pi-Apps
 > Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.
 > 
 > To run GUI: Menu -> Tools -> Timeshift
-> to run CLI interface from terminal: timeshift
+> To run CLI interface from terminal: timeshift
 
 Fortunately, Timeshift is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

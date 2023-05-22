@@ -10,7 +10,8 @@ title: Install Epiphany on Nvidia Jetson | Pi-Apps
 > 
 > Epiphany is the default web browser for GNOME desktop and elementary OS. Epiphany was the default web browser for Raspberry Pi OS (then, Raspbian) until 28th Sep 2016, when ditched for chromium. 
 > 
-> To run: Menu  -> Internet -> Epiphany Web Browser
+> To run: Menu -> Internet -> Epiphany Web Browser
+> To run in a terminal: epiphany-browser
 
 Fortunately, Epiphany is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

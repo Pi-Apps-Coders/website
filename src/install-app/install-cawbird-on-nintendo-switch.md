@@ -9,6 +9,9 @@ title: Install Cawbird on Nintendo Switch | Pi-Apps
 > Cawbird is a fork of the Corebird GTK Twitter client that continues to work with Twitter.
 > 
 > Cawbird works with the new APIs and includes a few fixes and modifications that have historically been patched in to IBBoard's custom Corebird build on his personal Open Build Service account.
+> 
+> To run: Menu -> Internet -> Cawbird
+> To run in a terminal: cawbird
 
 Fortunately, Cawbird is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

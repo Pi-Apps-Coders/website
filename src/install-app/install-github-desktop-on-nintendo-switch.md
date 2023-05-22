@@ -9,8 +9,8 @@ title: Install Github Desktop on Nintendo Switch | Pi-Apps
 > Github Desktop is a GUI git client.
 > Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.
 > 
-> Run from Menu: Menu -> Accessories -> Github Desktop
-> Run from Terminal: github-desktop
+> To run: Menu -> Accessories -> Github Desktop
+> To run in a terminal: github-desktop
 
 Fortunately, Github Desktop is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

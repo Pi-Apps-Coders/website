@@ -7,7 +7,9 @@ title: Install KeePassXC on Linux ARM Device | Pi-Apps
 
 ## <img src="/img/app-icons/KeePassXC/icon-64.png"> KeePassXC
 > KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.
-> Run via the Main Menu > Accessories > KeePassXC
+> 
+> To run: Menu -> Accessories -> KeePassXC
+> To run in a terminal: keepassxc
 
 Fortunately, KeePassXC is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

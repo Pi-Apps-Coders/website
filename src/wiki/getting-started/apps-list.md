@@ -100,6 +100,9 @@ ARM32/ARM64 - 6,310 Users!
 ```
 All-in-one application launcher, Google search engine, calculator, file manager...
 This is the best app launcher I've ever seen, though it can be a bit slow when searching. - Botspot
+
+To run: Menu -> Accessories -> Ulauncher
+To run in a terminal: ulauncher
 ```
 
 ### <img src="/img/app-icons/Windows Screensavers/icon-64.png" height=32> ***[Windows Screensavers](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Screensavers)***
@@ -140,10 +143,8 @@ ARM32/ARM64 - 2,034 Users!
 ```
 Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures. Models can be exported into standardized formats, to be shared, rendered, 3D-printed, or used in game engines. There are also multiple dedicated formats for Minecraft Java and Bedrock Edition with format-specific features.
 
-To run:
-Menu -> Programming -> Blockbench
-To run in a terminal:
-/opt/Blockbench/blockbench
+To run: Menu -> Programming -> Blockbench
+To run in a terminal: /opt/Blockbench/blockbench
 ```
 
 ### <img src="/img/app-icons/Boxy SVG/icon-64.png" height=32> ***[Boxy SVG](https://github.com/Botspot/pi-apps/tree/master/apps/Boxy%20SVG)***
@@ -206,10 +207,13 @@ Popular free vector graphics editor
 
 Whether you are an illustrator, designer, web designer or just someone who needs to create some vector imagery, Inkscape is for you!
 
-Flexible drawing tools
-Broad file format compatibility
-Powerful text tool
-Bezier and spiro curves
+- Flexible drawing tools
+- Broad file format compatibility
+- Powerful text tool
+- Bezier and spiro curves
+
+To run: Menu -> Graphics -> Inkscape
+To run in a terminal: inkscape
 
 Note: Also see the Boxy SVG tool.
 ```
@@ -241,6 +245,9 @@ It is perfect for sketching and painting, and presents an end–to–end solutio
 Krita is a great choice for creating concept art, comics, textures for rendering and matte paintings. Krita supports many colorspaces like RGB and CMYK at 8 and 16 bits integer channels, as well as 16 and 32 bits floating point channels.
 
 Have fun painting with the advanced brush engines, amazing filters and many handy features that make Krita enormously productive.
+
+To run: Menu -> Games -> Krita
+To run in a terminal: krita
 ```
 
 ### <img src="/img/app-icons/Lego Digital Designer/icon-64.png" height=32> ***[Lego Digital Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Lego%20Digital%20Designer)***
@@ -272,6 +279,9 @@ ARM32/ARM64 - 590 Users
 ```
 Pixelorama is a free and open source pixel art editor, proudly created with the Godot Engine, by Orama Interactive.
 Whether you want to make animated pixel art, game graphics, tiles and any kind of pixel art you want, Pixelorama has you covered with its variety of tools and features. Free to use for everyone, forever!
+
+To run: Menu -> Graphics -> Pixelorama
+To run in a terminal: pixelorama
 ```
 
 ### <img src="/img/app-icons/Shotwell/icon-64.png" height=32> ***[Shotwell](https://github.com/Botspot/pi-apps/tree/master/apps/Shotwell)***
@@ -280,7 +290,7 @@ Package app - 15,247 Users!!
 ```
 Organize, edit, and publish your photos.
 To run: Menu -> Graphics -> Shotwell
-To run in terminal: shotwell
+To run in a terminal: shotwell
 ```
 ## Engineering
 
@@ -325,6 +335,7 @@ LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. Sup
 Documentation available at: https://dokuwiki.librecad.org/doku.php
 
 To run: Menu -> Graphics -> LibreCAD
+To run in a terminal: librecad
 ```
 
 ### <img src="/img/app-icons/LibrePCB/icon-64.png" height=32> ***[LibrePCB](https://github.com/Botspot/pi-apps/tree/master/apps/LibrePCB)***
@@ -333,8 +344,9 @@ ARM64 ONLY - 3,155 Users!
 ```
 LibrePCB is a free, cross-platform, easy-to-use electronic design automation suite to draw schematics and design printed circuit boards – for makers, students and professionals, from beginners to experts.
 
-This software just lets you develop electronics the right way.
-No costs. No restrictions. No online account. No unnecessary complexity.
+This software just lets you develop electronics the right way. No costs. No restrictions. No online account. No unnecessary complexity.
+To run: Menu -> Programming -> LibrePCB
+To run in a terminal: flatpak run --file-forwarding org.librepcb.LibrePCB
 ```
 
 ### <img src="/img/app-icons/MatterControl/icon-64.png" height=32> ***[MatterControl](https://github.com/Botspot/pi-apps/tree/master/apps/MatterControl)***
@@ -355,6 +367,9 @@ ARM32/ARM64 - 1,407 Users
 ```
 Software used to control autonomous vehicles.
 Mission Planner is a free, open-source ground station for communicating with autonomous aircraft, vehicles, or boats running Ardupilot firmware. It's used to monitor such vehicles, view logs, and create waypoint missions.
+
+To run: Menu -> Programming -> Mission Planner
+To run in a terminal: LIBGL_ALWAYS_SOFTWARE=1 mono ~/MissionPlanner-latest/MissionPlanner.exe
 ```
 
 ### <img src="/img/app-icons/OpenSCAD/icon-64.png" height=32> ***[OpenSCAD](https://github.com/Botspot/pi-apps/tree/master/apps/OpenSCAD)***
@@ -398,7 +413,8 @@ ARM32/ARM64 - 2,868 Users!
 ```
 Amiberry is a well-optimized, high-performance emulator for running Amiga games on low-power ARM boards like Raspberry Pi.
 
-Run it via the main Menu > Games > Amiberry.
+To run: Menu -> Games -> Amiberry
+To run in a terminal: /opt/amiberry/amiberry
 ```
 
 ### <img src="/img/app-icons/AstroMenace/icon-64.png" height=32> ***[AstroMenace](https://github.com/Botspot/pi-apps/tree/master/apps/AstroMenace)***
@@ -408,6 +424,9 @@ samuelpainadath@gmail.com<br />
 ARM32/ARM64 - 3,431 Users!
 ```
 Immerse into a decisive battle against tons of cunning foes, face the terrifying bosses and protect your homeland throughout 15 diverse levels of the game. The hardcore gameplay of AstroMenace, packed with pure non-stop action, will become a full scale test for your basic instinct of survival.
+
+To run: Menu -> Games -> AstroMenace
+To run in a terminal: ~/astromenace-master/astromenace
 ```
 
 ### <img src="/img/app-icons/Celeste Classic/icon-64.png" height=32> ***[Celeste Classic](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste%20Classic)***
@@ -421,6 +440,7 @@ This is a C source port of the original celeste (Celeste classic) for the PICO-8
 This game can be played with controllers or with keyboard. The general mapping is found here: https://github.com/lemon32767/ccleste#controls
 
 To run: Menu -> Games -> Celeste Classic
+To run in a terminal: /usr/local/share/celeste/ccleste
 ```
 
 ### <img src="/img/app-icons/Chiaki/icon-64.png" height=32> ***[Chiaki](https://github.com/Botspot/pi-apps/tree/master/apps/Chiaki)***
@@ -462,6 +482,7 @@ It has been free-to-play and free-to-win since development started and will alwa
 It's also open source, so everyone is invited to help improve it with great new ideas!
 
 To run: Menu -> Games -> DDnet
+To run in a terminal: DDNet
 
 If you want to host an online Server you have to activate Port Forwarding in your Router Settings. 
 You have to create a Port Forwarding with the protocol udp and the Port of your Server (standard is 8303) 
@@ -502,6 +523,9 @@ ARM32/ARM64 - 17,042 Users!!
 Doom 3 is a 2004 horror first-person shooter video game developed by id Software and published by Activision.
 In this game a massive demonic invasion has overwhelmed the Union Aerospace Corporation's (UAC) Mars Research Facility, leaving only chaos and horror in its wake.
 As one of only a few survivors, you must fight your way to hell and back against a horde of evil monsters.
+
+To run: Menu -> Games -> Doom3Demo
+To run in a terminal: cd ~/Doom3Demo ; ~/Doom3Demo/dhewm3
 ```
 
 ### <img src="/img/app-icons/Friday Night Funkin' Rewritten/icon-64.png" height=32> ***[Friday Night Funkin' Rewritten](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Rewritten)***
@@ -590,11 +614,13 @@ ARM32/ARM64 - 22,918 Users!!
 Unofficial launcher for Minecraft Bedrock edition
 NOTE: For better performance and smooth FPS, we recommend an older Bedrock version like 1.16.40 as it doesn't contain renderdragon or RTX code.
 
-Run with the menu app "Minecraft Bedrock Launcher" or with the command "GALLIUM_HUD=simple,fps /opt/MCBedrock.AppImage"
  ∙ Sign in with a Google Play account with Minecraft purchased
  ∙ Active comunity to ask for help
  ∙ FPS Counter mod
  ∙ And much more!
+
+To run: Menu -> Games -> Minecraft Bedrock Launcher
+To run in a terminal: GALLIUM_HUD=simple,fps /opt/MCBedrock.AppImage
 ```
 
 ### <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=32> ***[Minecraft Java GDLauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20GDLauncher)***
@@ -770,6 +796,9 @@ F5 to switch to 3rd person view
 Notes:
 To make a crafting table, press "E" and then go to the Craft menu in the upper left-hand corner. Click on what you want to craft, then click the big button with all of the stuff needed to craft the item to craft it.
 Mouse scroll doesn't exist, you need to use your mouse to drag stuff like the crafting menu.
+
+To run: Menu -> Games -> Minecraft Pi (Modded)
+To run in a terminal: ~/.local/bin/com.thebrokenrail.MCPIRebornClient.AppImage
 ```
 
 ### <img src="/img/app-icons/Pac-Man/icon-64.png" height=32> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***
@@ -787,7 +816,8 @@ ARM32/ARM64 - 11,252 Users!!
 ```
 A PSP emulator that can run PSP games in full HD and can upscale textures also.
 
-How to run: Menu > Games > PPSSPP
+To run: Menu > Games > PPSSPP
+To run in a terminal: ~/ppsspp/PPSSPPSDL
 ```
 
 ### <img src="/img/app-icons/Project OutFox/icon-64.png" height=32> ***[Project OutFox](https://github.com/Botspot/pi-apps/tree/master/apps/Project%20OutFox)***
@@ -820,7 +850,6 @@ PyChess is a chess client for playing and analyzing chess games. It is intended 
 When you get sick of playing computer players you can login to FICS (the Free Internet Chess Server) and play against people all over the world. PyChess has a built-in Timeseal client, so you won't lose clock time during a game due to lag. PyChess also has pre-move support, which means you can make (or start making) a move before your opponent has made their move.
 PyChess has many other features including: - CECP and UCI chess engine support with customizable engine configurations - Polyglot opening book support - Hint and Spy move arrows.
 
-
 To run: Menu -> Accessories -> pychess
 To run in terminal: pychess
 ```
@@ -835,6 +864,7 @@ Every game is a unique challenge, with four different playable characters, rando
 The game is simple to get into, but strategy is required if you want to win!
 
 To run: Menu -> Games -> Shattered Pixel Dungeon
+To run in a terminal: /usr/lib/jvm/java-11-openjdk-arm64/bin/java -jar /home/pi/.local/bin/ShatteredPD-Desktop.jar
 
 Saves and configs are stored in: ~/.local/share/.shatteredpixel/shattered-pixel-dungeon
 ```
@@ -912,7 +942,7 @@ ASCII/CLI rendition of the Tetris game.
 As one of the most recognizable and influential video game brands in the world, it’s no wonder why there are hundreds of millions of Tetris products being played, worn, and enjoyed by fans in their everyday lives. For over thirty-five years, the game and brand have truly transcended the barriers of culture and language, resulting in a fun and exciting playing experience for everyone, everywhere!
 
 To run: Menu -> Games -> Tetris CLI
-In terminal: tetris
+To run in a terminal: tetris
 ```
 
 ### <img src="/img/app-icons/Unciv/icon-64.png" height=32> ***[Unciv](https://github.com/Botspot/pi-apps/tree/master/apps/Unciv)***
@@ -939,6 +969,7 @@ Build your civilization, research technologies, expand your cities and
 defeat your foes!
 
 To run: Menu -> Games -> Unciv
+To run in a terminal: ~/Unciv/Unciv.sh
 ```
 
 ### <img src="/img/app-icons/WorldPainter/icon-64.png" height=32> ***[WorldPainter](https://github.com/Botspot/pi-apps/tree/master/apps/WorldPainter)***
@@ -949,6 +980,9 @@ ARM32/ARM64 - 1,178 Users
 WorldPainter is an interactive map generator for Minecraft.
 It allows you to "paint" landscapes using similar tools as a regular paint program.
 Sculpt and mould the terrain, paint materials, trees, snow and ice, etc. onto it, and much more.
+
+To run: Menu -> Games -> WorldPainter
+To run in a terminal: /opt/worldpainter/worldpainter
 ```
 ## Internet
 
@@ -963,6 +997,9 @@ Exports results into many formats,
 Extensible with many data fetchers,
 Provides command-line interface,
 Free and open-source.
+
+To run: Angry IP Scanner
+To run in a terminal: ipscan
 
 Warning, using this improperly may get you in a lot of trouble. Be sure you're within legal limits.
 ```
@@ -1013,8 +1050,8 @@ ARM32/ARM64 - 2,052 Users!
 ```
 Share your desktop to your browser, and turn any device into a second screen!
 
-How to run: Menu -> Programming -> Deskreen
-or run from your Terminal: deskreen
+To run: Menu -> Programming -> Deskreen
+To run in a terminal: deskreen
 ```
 
 ### <img src="/img/app-icons/Filezilla/icon-64.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
@@ -1055,6 +1092,9 @@ ARM32/ARM64 - 926 Users
 Persepolis is a Download Manager and a GUI For aria2. 
 
 It's written in Python. Persepolis is a Sample of Free and open source software. It's developed For GNU/Linux Distributions, BSDs, macOS and Microsoft Windows. 
+
+To run: Menu -> Internet -> Persepolis Download Manager
+To run in a terminal: persepolis
 ```
 
 ### <img src="/img/app-icons/SpeedTest-CLI/icon-64.png" height=32> ***[SpeedTest-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/SpeedTest-CLI)***
@@ -1087,6 +1127,7 @@ Lightweight BitTorrent client
 Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
 
 To run: Menu -> Internet -> Transmission
+To run in a terminal: transmission-gtk
 
 Also see the Deluge app.
 Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Transmission at your own risk.
@@ -1117,6 +1158,9 @@ XDM seamlessly integrates with Google Chrome, Mozilla Firefox Quantum, Opera, Vi
 XDM has built in video converter which lets you convert downloaded videos to popular MP4 and MP3 formats.
 
 Support for HTTP, HTTPS, FTP, DASH, HLS, HDS protocols, firewalls, proxy servers, PAC scripts, file redirects, cookies, authorization, download queue, scheduler and many more feature makes XDM a very useful tool
+
+To run: Menu -> Internet -> Xtreme Download Manager
+To run in a terminal: /opt/xdman/xdman
 ```
 ## Internet/Browsers
 
@@ -1149,6 +1193,9 @@ ARM64 ONLY - 651 Users
 The new Brave browser blocks ads and trackers that slow you down and invade your privacy.
 Discover a new way of thinking about how the web can work.
 3x faster than Chrome. Better protection from Google and Big Tech.
+
+To run: Menu -> Internet -> Brave Web Browser
+To run in a terminal: brave-browser-stable
 ```
 
 ### <img src="/img/app-icons/Browsh/icon-64.png" height=32> ***[Browsh](https://github.com/Botspot/pi-apps/tree/master/apps/Browsh)***
@@ -1174,6 +1221,9 @@ If you are using Raspberry Pi OS, this browser has been optimized by the Raspber
 To play Netflix, Spotify, or other protected multimedia streams, see the Chromium Widevine app.
 To install an older version of Chromium, see the Downgrade Chromium app.
 To improve Chromium with features such as Google sync, dark mode, performance improvements, and reducing SD card writes, see the Better Chromium app.
+
+To run: Menu -> Internet -> Chromium Web Browser
+To run in a terminal: chromium-browser
 ```
 
 ### <img src="/img/app-icons/Downgrade Chromium/icon-64.png" height=32> ***[Downgrade Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Downgrade%20Chromium)***
@@ -1197,7 +1247,8 @@ Epiphany is a lightweight web browser based on the WebKit rendering engine. It i
 
 Epiphany is the default web browser for GNOME desktop and elementary OS. Epiphany was the default web browser for Raspberry Pi OS (then, Raspbian) until 28th Sep 2016, when ditched for chromium. 
 
-To run: Menu  -> Internet -> Epiphany Web Browser
+To run: Menu -> Internet -> Epiphany Web Browser
+To run in a terminal: epiphany-browser
 ```
 
 ### <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=32> ***[Firefox Rapid Release](https://github.com/Botspot/pi-apps/tree/master/apps/Firefox%20Rapid%20Release)***
@@ -1249,7 +1300,7 @@ experience, while offering full customization and a growing collection of
 extensions and themes to make the browser truly your own.
 
 To run: Menu -> Internet -> Pale Moon
-To run in terminal: palemoon
+To run in a terminal: palemoon
 ```
 
 ### <img src="/img/app-icons/Puffin/icon-64.png" height=32> ***[Puffin](https://github.com/Botspot/pi-apps/tree/master/apps/Puffin)***
@@ -1275,6 +1326,9 @@ This browser is aimed at ease of use, faster page loading, very short startup ti
 This has minimal settings to avoid confusion.Yet it has most useful settings, such as load images on/off, javascript on/off, change font.
 
 To save pages to read later, print feature can be used to save as pdf. And it can also export the whole page as png image.
+
+To run: Menu -> Internet -> Quartz Browser
+To run in a terminal: quartz_browser
 ```
 
 ### <img src="/img/app-icons/Tor/icon-64.png" height=32> ***[Tor](https://github.com/Botspot/pi-apps/tree/master/apps/Tor)***
@@ -1295,8 +1349,10 @@ Icon, description, and everything else required by pi-apps by Itai-Nelken<br />
 ARM32/ARM64 - 7,116 Users!
 ```
 Fast, private browser with unique features.
-
 Official Vivaldi browser for ARM Linux.
+
+To run: Menu -> Internet -> Vivaldi
+To run in a terminal: vivaldi-stable
 ```
 ## Internet/Communication
 
@@ -1306,7 +1362,8 @@ ARM32/ARM64 - 1,269 Users
 ```
 ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 
-Run from the Menu > Internet > ArmCord, or simply run `armcord` in a terminal.
+To run: Menu -> Internet -> ArmCord
+To run in a terminal: armcord
 ```
 
 ### <img src="/img/app-icons/Caprine/icon-64.png" height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
@@ -1317,6 +1374,9 @@ Caprine is an unofficial and privacy focused Facebook Messenger app with many us
 Built with Electron, Caprine features a Dark mode, keyboard shortcuts, ability to toggle last seen/typing indicators, work chat support, code blocks, custom text size, and an interface that adapts to resizing windows.
 
 Caprine is a third-party app and is not affiliated with Facebook. 
+
+To run: Menu -> Internet -> Caprine
+To run in a terminal: /opt/Caprine/caprine
 ```
 
 ### <img src="/img/app-icons/Cawbird/icon-64.png" height=32> ***[Cawbird](https://github.com/Botspot/pi-apps/tree/master/apps/Cawbird)***
@@ -1326,6 +1386,9 @@ ARM32/ARM64 - 483 Users
 Cawbird is a fork of the Corebird GTK Twitter client that continues to work with Twitter.
 
 Cawbird works with the new APIs and includes a few fixes and modifications that have historically been patched in to IBBoard's custom Corebird build on his personal Open Build Service account.
+
+To run: Menu -> Internet -> Cawbird
+To run in a terminal: cawbird
 ```
 
 ### <img src="/img/app-icons/Email Checker/icon-64.png" height=32> ***[Email Checker](https://github.com/Botspot/pi-apps/tree/master/apps/Email%20Checker)***
@@ -1346,6 +1409,7 @@ Microsoft Teams is a proprietary business communication platform developed by Mi
 Teams primarily competes with the similar service Slack, offering workspace chat and videoconferencing, file storage, and application integration. 
 
 To run: Menu -> Internet -> Teams
+To run in a terminal: /opt/teams-for-linux/run-teams.sh
 
 Build with nativefier. 
 ```
@@ -1398,6 +1462,7 @@ WeChat Desktop App:
 - Everything from gifs to emojis to images all work
 
 To run: Menu -> Internet -> WeChat
+to run in a terminal: WINEPREFIX=$HOME/.config/wechat-prefix wine "$HOME/.config/wechat-prefix/drive_c/Program Files/Tencent/WeChat/WeChat.exe"
 ```
 
 ### <img src="/img/app-icons/WhatsApp/icon-64.png" height=32> ***[WhatsApp](https://github.com/Botspot/pi-apps/tree/master/apps/WhatsApp)***
@@ -1411,8 +1476,8 @@ Nativefier Whatsapp Web webapp
 A simple Whatsapp Web chromium webapp wrapped in electron with nativefier.
 it has a tray icon, so it doesn't take space on the taskbar, but keeps running in the background.
 
-To run:
-menu>internet>Whatsapp Web
+To run: Menu -> Internet -> Whatsapp Web
+To run in a terminal: /opt/WhatsApp/WhatsApp
 ```
 
 ### <img src="/img/app-icons/Zoom/icon-64.png" height=32> ***[Zoom](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom)***
@@ -1475,6 +1540,9 @@ This app displays a cat. It can type on the keyboard or move the mouse. It mirro
 
 Default keyboard shortcuts: Z and X to tap on the keyboard, C to wear sunglasses, and V to wave.
 
+To run: Menu -> Sound & Video -> Bongo Cam
+To run in a terminal: ~/bongocam/bongo
+
 Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/Settings
 NOTE: The app files are stored in ~/bongocam/
 ```
@@ -1514,6 +1582,9 @@ Use YouTube without advertisements and prevent Google from tracking you with the
 
 FreeTube has an interface similar to YouTube, but is slower and more innefficient than YouTubuddy. Try both and see which one you prefer!
 Disabling the compositor improves playback performance.
+
+To run: Menu -> Internet -> FreeTube
+To run in a terminal: /opt/FreeTube/freetube
 ```
 
 ### <img src="/img/app-icons/Kodi/icon-64.png" height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***
@@ -1554,6 +1625,9 @@ Features:
  - Fine tune patterns, notes, chords and melodies using Piano Roll Editor
  - Full user-defined track-based automation and computer-controlled automation sources
  - Import of MIDI files and Hydrogen project files
+
+To run: Menu -> Sound & Video -> LMMS
+To run in a terminal: lmms
 ```
 
 ### <img src="/img/app-icons/MuseScore/icon-64.png" height=32> ***[MuseScore](https://github.com/Botspot/pi-apps/tree/master/apps/MuseScore)***
@@ -1634,6 +1708,9 @@ It can record the entire screen or part of it directly.  The recording can be pa
 It has a Qt-based graphical user interface.
 
 Its complexity becomes apparent in its powerful features. It allows one to record X11 screen areas and fullscreen OpenGL applications including sound supporting both ALSA, PulseAudio, JACK and OSS. It uses libavformat to encode the recorded material into a variety of video formats. Scaling the recorded video is possible as well as configuring the encoding quality for the codec chosen directly from the user interface.
+
+To run: Menu -> Sound & Video -> SimpleScreenRecorder
+To run in a terminal: simplescreenrecorder
 ```
 
 ### <img src="/img/app-icons/Sonic Pi/icon-64.png" height=32> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
@@ -1678,6 +1755,9 @@ Simple YouTube search engine, downloader and player.
 - Extremely lightweight - one bash script.
 - Perfect for downloading/playing batches of videos with a few clicks.
 - Supports searches, playlist URLs, and direct YouTube links. In addition, this supports URLs to many other video sites for easy downloading.
+
+To run: Menu -> Internet -> YouTubuddy
+To run in a terminal: ~/youtubuddy/gui
 ```
 ## Office
 
@@ -1693,7 +1773,7 @@ The source code is available at https://gitlab.gnome.org/World/AbiWord
 NOTE: AbiWord uses .abw extension by default.
 
 To run: Menu -> Office -> Abiword.
-To run in terminal:  abiword.
+To run in terminal: abiword.
 ```
 
 ### <img src="/img/app-icons/Libreoffice MS theme/icon-64.png" height=32> ***[Libreoffice MS theme](https://github.com/Botspot/pi-apps/tree/master/apps/Libreoffice%20MS%20theme)***
@@ -1712,7 +1792,7 @@ Package app - 74,203 Users!!
 ```
 Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
 To run: Menu -> Office -> LibreOffice
-To run in terminal: libreoffice
+To run in a terminal: libreoffice
 To make it look and feel like Microsoft Office, see the "Libreoffice MS Theme" app!
 ```
 
@@ -1799,6 +1879,7 @@ A simple but powerful Java IDE.
 BlueJ is an integrated development environment for the Java programming language, developed mainly for educational purposes.
 
 To run: Menu -> Programming -> BlueJ Java IDE
+To run in a terminal: bluej
 ```
 
 ### <img src="/img/app-icons/Codex/icon-64.png" height=32> ***[Codex](https://github.com/Botspot/pi-apps/tree/master/apps/Codex)***
@@ -1808,6 +1889,7 @@ ARM32/ARM64 - 1,400 Users
 A free note-taking software for programmers and Computer Science students.
 
 To run: Menu -> Accessories -> Codex
+To run in a terminal: ~/codex/Codex
 ```
 
 ### <img src="/img/app-icons/Electron Fiddle/icon-64.png" height=32> ***[Electron Fiddle](https://github.com/Botspot/pi-apps/tree/master/apps/Electron%20Fiddle)***
@@ -1822,8 +1904,8 @@ It greets you with a quick-start template after opening – change a few things,
 Then, save your Fiddle either as a GitHub Gist or to a local folder.
 Once pushed to GitHub, anyone can quickly try your Fiddle out by just entering it in the address bar.
 
-Run from menu: Menu -> Accesories -> Electron Fiddle
-Run from Terminal: electron-fiddle
+To run: Menu -> Accesories -> Electron Fiddle
+To run in a terminal: electron-fiddle
 ```
 
 ### <img src="/img/app-icons/Github-CLI/icon-64.png" height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
@@ -1833,7 +1915,7 @@ ARM32/ARM64 - 5,255 Users!
 gh is GitHub on the command line.
 It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
 
-to run (terminal only): gh
+To run in a terminal: gh
 ```
 
 ### <img src="/img/app-icons/Github Desktop/icon-64.png" height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
@@ -1843,8 +1925,8 @@ ARM32/ARM64 - 2,941 Users!
 Github Desktop is a GUI git client.
 Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.
 
-Run from Menu: Menu -> Accessories -> Github Desktop
-Run from Terminal: github-desktop
+To run: Menu -> Accessories -> Github Desktop
+To run in a terminal: github-desktop
 ```
 
 ### <img src="/img/app-icons/Gnome Builder IDE/icon-64.png" height=32> ***[Gnome Builder IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Builder%20IDE)***
@@ -1864,6 +1946,9 @@ ARM32/ARM64 - 3,102 Users!
 ```
 IntelliJ IDEA is an IDE designed to maximize developer productivity.
 It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
+
+To run: Menu -> Programming -> IntelliJ IDEA
+To run in a terminal: /opt/ideaIC/bin/idea.sh
 ```
 
 ### <img src="/img/app-icons/jGRASP IDE/icon-64.png" height=32> ***[jGRASP IDE](https://github.com/Botspot/pi-apps/tree/master/apps/jGRASP%20IDE)***
@@ -1872,6 +1957,9 @@ ARM32/ARM64 - 918 Users
 ```
 An IDE with visualizations for improving software comprehensibility.
 This IDE is used by many learning institutions and colleges for their classes.
+
+To run: Menu -> Programming -> jGRASP
+To run in a terminal: ~/jgrasp/bin/jgrasp
 ```
 
 ### <img src="/img/app-icons/Mu/icon-64.png" height=32> ***[Mu](https://github.com/Botspot/pi-apps/tree/master/apps/Mu)***
@@ -1880,6 +1968,9 @@ Package app - 19,542 Users!!
 ```
 A simple Python editor for beginner programmers.
 This is probably the simplest Python code editor available, with an intuitive UI designed to make sense on first run. Mu is the recommended Python IDE by the Raspberry Pi Foundation.
+
+To run: Menu -> Programming -> mu
+To run in a terminal: mu-editor
 ```
 
 ### <img src="/img/app-icons/Notepad ++/icon-64.png" height=32> ***[Notepad ++](https://github.com/Botspot/pi-apps/tree/master/apps/Notepad%20++)***
@@ -1887,7 +1978,7 @@ https://notepad-plus-plus.org/ - App added to pi-apps by RPICoder<br />
 ARM32 ONLY - 8,500 Users!
 ```
 Notepad++ is a free source code editor and Notepad replacement that supports several languages. 
-To Run:  Menu -> Accessories -> Notepad++
+To run: Menu -> Accessories -> Notepad++
 
 This app runs with the help of box86 and wine.
 ```
@@ -1932,6 +2023,9 @@ Remarkable has many features including:
 - Styles
 - Custom CSS Support
 - Keyboard Shortcuts
+
+To run: Menu -> Accessories -> Remarkable
+To run in a terminal: remarkable
 ```
 
 ### <img src="/img/app-icons/Scratch 2/icon-64.png" height=32> ***[Scratch 2](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%202)***
@@ -1985,10 +2079,12 @@ ARM32/ARM64 - 5,774 Users!
 Cross-platform source code editor with a Python application programming interface.
 It natively supports many programming languages and markup languages. Additional features can be added with plugins.
 
-To run: Menu -> Programming -> Sublime Text
-
 On armhf based Operating Systems, this runs Sublime Text 2 with the Box86 emulator.
 However on arm64 based Operating Systems this runs the latest Sublime Text 4 without any emulation.
+
+To run: Menu -> Programming -> Sublime Text
+To run in a terminal if you are using a 32-bit OS: box86 ~/'Sublime Text 2'/sublime_text
+To run in a terminal if you are using a 64-bit OS: /opt/sublime_text/sublime_text
 ```
 
 ### <img src="/img/app-icons/Turbowarp/icon-64.png" height=32> ***[Turbowarp](https://github.com/Botspot/pi-apps/tree/master/apps/Turbowarp)***
@@ -2001,6 +2097,7 @@ Scratch 3 Desktop, but runs much faster. Also known as 'TurboWarp'
 TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Also has dark mode, addons, and more. It even works when you're offline, just like the original Scratch Desktop.
 
 To run: Menu -> Programming -> TurboWarp
+To run in a terminal: /opt/TurboWarp/turbowarp-desktop
 ```
 
 ### <img src="/img/app-icons/Visual Studio Code/icon-64.png" height=32> ***[Visual Studio Code](https://github.com/Botspot/pi-apps/tree/master/apps/Visual%20Studio%20Code)***
@@ -2014,6 +2111,8 @@ Features include support for debugging, syntax highlighting, intelligent code co
 It supports most popular coding languages including Python, JavaScript, and more.
 Note: If you are using Raspberry Pi OS, you don't need to install this app. Just run "sudo apt install code" in the terminal. Pi-Apps will still continue to ship VSCode so that non-PiOS users can still have access to it.
 
+To run: Menu -> Programming -> Visual Studio Code
+To run in a terminal: code
 ```
 
 ### <img src="/img/app-icons/VSCodium/icon-64.png" height=32> ***[VSCodium](https://github.com/Botspot/pi-apps/tree/master/apps/VSCodium)***
@@ -2022,6 +2121,9 @@ ARM32/ARM64 - 3,117 Users!
 ```
 Visual Studio Code builds without the telemetry and tracking.
 Microsoft's vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under this not-FLOSS license and contains telemetry/tracking.
+
+To run: Menu -> Programming -> VSCodium
+To run: codium
 ```
 ## System Management
 
@@ -2031,6 +2133,9 @@ ARM32/ARM64 - 16,689 Users!!
 ```
 ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux.
 It will also fix any broken packages and dependencies. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
+
+To run: Menu -> Accessories -> All Is Well
+To run in a terminal: ~/All-is-well/aiw/aiwrpi.sh 'All Is Well'
 ```
 
 ### <img src="/img/app-icons/Autostar/icon-64.png" height=32> ***[Autostar](https://github.com/Botspot/pi-apps/tree/master/apps/Autostar)***
@@ -2066,6 +2171,9 @@ Comparison to APT version:
 - Clean deeper
 - Official dark theme support
 - Support showing debug messages
+
+To run: Menu -> Accessories -> BleachBit
+To run in a terminal: bleachbit
 ```
 
 ### <img src="/img/app-icons/btop++/icon-64.png" height=32> ***[btop++](https://github.com/Botspot/pi-apps/tree/master/apps/btop++)***
@@ -2076,7 +2184,7 @@ ARM32/ARM64 - 4,142 Users!
 ```
 Awesome terminal resource monitor and task manager, similar to htop.
 
-Run from Terminal: btop
+To run in a terminal: btop
 
 btop shows CPU, memory, network, and disk usage, along with a task manager.
 btop is also very user customizable, with different layouts and ways of displaying CPU, memory, network and disk usage.
@@ -2137,7 +2245,7 @@ ARM32/ARM64 - 24,621 Users!!
 ```
 An aesthetically pleasing bash script to show system information.
 
-To run in terminal: 'neofetch'
+To run in a terminal: 'neofetch'
 
 This version of Neofetch is better than what can be found by default from APT. It correctly detects CPU and GPU info on ARM systems - details which are hidden in the official version.
 ```
@@ -2161,6 +2269,9 @@ Doing backups the easy way. Plugin your USB drive and let the Pika do the rest f
  - Recover files or folders via your file browser
 
 Pika Backup is designed to save your personal data and does not support complete system recovery. Pika Backup is powered by the well-tested BorgBackup software.
+
+To run: Menu -> Accessories -> Pika Backup
+To run in a terminal: flatpak run org.gnome.World.PikaBackup
 ```
 
 ### <img src="/img/app-icons/Pi Power Tools/icon-64.png" height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
@@ -2188,8 +2299,9 @@ https://syncthing.net - @theofficialgman on GitHub for the scripts<br />
 ARM32/ARM64 - 955 Users
 ```
 A sync manager that syncs folders to different devices no matter where you are!
-to start, go to Internet => Syncthing start
-Terminal: syncthing.
+
+To run: Menu -> Internet -> Syncthing
+To run in a terminal: syncthing
 ```
 
 ### <img src="/img/app-icons/Sysmon/icon-64.png" height=32> ***[Sysmon](https://github.com/Botspot/pi-apps/tree/master/apps/Sysmon)***
@@ -2211,7 +2323,9 @@ https://github.com/KrispyCamel4u/SysMonTask - @KrispyCamel4u (GitHub) for the pr
 ARM32/ARM64 - 3,333 Users!
 ```
 Linux system monitor similar to the Windows task manager, written in Python.
-Run via the Main Menu > System Tools > SysMonTask.
+
+To run: Menu -> System Tools -> SysMonTask
+To run in a terminal: sysmontask
 ```
 
 ### <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=32> ***[System Monitoring Center](https://github.com/Botspot/pi-apps/tree/master/apps/System%20Monitoring%20Center)***
@@ -2221,7 +2335,8 @@ ARM32/ARM64 - 5,590 Users!
 ```
 Graphical Linux System Monitor that provides information about CPU/RAM/Disk/Network/GPU performance, sensors, processes, users, startup programs, services and system info.
 
-Run via the Main Menu > System Tools > System Monitoring Center.
+To run: Menu -> System Tools -> System Monitoring Center
+To run in a terminal: system-monitoring-center
 ```
 
 ### <img src="/img/app-icons/Timeshift/icon-64.png" height=32> ***[Timeshift](https://github.com/Botspot/pi-apps/tree/master/apps/Timeshift)***
@@ -2240,7 +2355,7 @@ System restore tool for Linux that provides functionality similar to the System 
 Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.
 
 To run GUI: Menu -> Tools -> Timeshift
-to run CLI interface from terminal: timeshift
+To run CLI interface from terminal: timeshift
 ```
 
 ### <img src="/img/app-icons/Update Buddy/icon-64.png" height=32> ***[Update Buddy](https://github.com/Botspot/pi-apps/tree/master/apps/Update%20Buddy)***
@@ -2284,7 +2399,9 @@ ARM32/ARM64 - 6,855 Users!
 Futuristic hacker terminal
 Inspired from Hollywood, this terminal is beautiful to look at and will impress your friends. It's a fully-functional bash terminal, system monitor, file manager, and on-screen keyboard, all in one fullscreen window.
 Oh, and it has sound effects.
+
 To run: Menu -> System Tools -> eDEX-UI. This new version loads in about 10 seconds! (instead of 2 minutes like Novaspirit's old version)
+To run in a terminal: /opt/eDEX-UI/edex-ui
 
 To exit eDEX-UI, press Alt+F4, or run this command in the terminal: exit
 Change settings with Ctrl+Shift+S.
@@ -2357,14 +2474,14 @@ ARM32/ARM64 - 9,610 Users!
 ```
 A GUI for Android device recovery and maintenance.
 
-To run: Menu > Accessories > AndroidBuddy
-To run in a temrinal: python3 ~/droidbuddy/main.py
-
 Features: 
 - APK Installation: Install an Android application package with ease.
 - Screen viewing and interaction: Control your device through an scrcpy window.
 - Recover files: Allows you to back up music, downloads, photos or all of your device's files.
 - AND MORE! Check out the website for more info.
+
+To run: Menu > Accessories > AndroidBuddy
+To run in a temrinal: python3 ~/droidbuddy/main.py
 ```
 
 ### <img src="/img/app-icons/AntiMicroX/icon-64.png" height=32> ***[AntiMicroX](https://github.com/Botspot/pi-apps/tree/master/apps/AntiMicroX)***
@@ -2404,7 +2521,8 @@ Features include:
 - Adjustable DPI for mice
 - and more!
 
-Run from Menu > Preferences > ckb-next, or simply run `ckb-next` in a terminal.
+To run: Menu -> Preferences -> ckb-next
+To run in a terminal: ckb-next
 
 **DISCLAIMER**: this is NOT an official Corsair product and does not come with a warranty. Also, not all Corsair products are fully supported. Use at your own risk.
 ```
@@ -2422,7 +2540,8 @@ This development makes everything related to DuinoCoin even easier, based exclus
 
 ElectronJs has been used for this purpose.
 
-To run the program: Main Menu -> Accessories -> Ducopanel
+To run: Menu -> Accessories -> Ducopanel
+To run in a terminal: ducopanel
 ```
 
 ### <img src="/img/app-icons/FF Multi Converter/icon-64.png" height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
@@ -2439,8 +2558,8 @@ unoconv for document files.
 The goal of FF Multi Converter is to gather the most popular multimedia types in one application
 and provide conversion options for them easily through a user-friendly graphical interface.
 
-Run from Menu: Menu -> Accesories -> FF Multi Converter
-Run from Terminal: ffmulticonverter
+To run: Menu -> Accesories -> FF Multi Converter
+To run in a terminal: ffmulticonverter
 ```
 
 ### <img src="/img/app-icons/Flameshot/icon-64.png" height=32> ***[Flameshot](https://github.com/Botspot/pi-apps/tree/master/apps/Flameshot)***
@@ -2452,7 +2571,7 @@ ARM32/ARM64 - 7,518 Users!
 ```
 A simple tool to take screenshots of your screen or just parts of the screen. It is similar to Microsoft's Snipping Tool.
 
-To launch: Menu -> Graphics -> Flameshot
+To run: Menu -> Graphics -> Flameshot
 To use: find the flameshot icon in your taskbar (system tray) and click it to open Flameshot.
 To run in a terminal: flameshot
 ```
@@ -2466,7 +2585,7 @@ How will your mobile device or desktop computer perform when push comes to crunc
 How will it compare to the newest devices on the market? 
 Find out today with Geekbench 5.
 
-To run in terminal: geekbench
+To run in a terminal: geekbench
 ```
 
 ### <img src="/img/app-icons/Https File Server/icon-64.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
@@ -2496,7 +2615,9 @@ https://github.com/keepassxreboot/keepassxc - @ryanfortner (GitHub) for the scri
 ARM32/ARM64 - 1,535 Users!
 ```
 KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.
-Run via the Main Menu > Accessories > KeePassXC
+
+To run: Menu -> Accessories -> KeePassXC
+To run in a terminal: keepassxc
 ```
 
 ### <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png" height=32> ***[Linux Wifi Hotspot](https://github.com/Botspot/pi-apps/tree/master/apps/Linux%20Wifi%20Hotspot)***
@@ -2601,6 +2722,8 @@ ARM32/ARM64 - 5,872 Users!
 JavaScript code outside a web browser.
 Node.js is used for all npm packages and is the foundation of Electron.
 As usual, this app will keep it updated.
+
+To run in a terminal: node
 ```
 
 ### <img src="/img/app-icons/PeaZip/icon-64.png" height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***
@@ -2610,6 +2733,9 @@ ARM64 ONLY - 1,427 Users
 PeaZip is free file archiver utility, based on Open Source technologies of 7-Zip, p7zip, Brotli, FreeArc, PAQ, Zstandard, and PEA projects.
 
 Cross-platform, full-featured but user-friendly alternative to WinRar, WinZip and similar general purpose archive manager applications, open and extract 200+ archive formats: 001, 7Z, ACE, ARC, ARJ, BR, BZ2, CAB, DMG, GZ, ISO, LHA, PAQ, PEA, RAR, TAR, UDF, WIM, XZ, ZIP, ZIPX, ZST - view full list of supported archive file formats for archiving and for extraction.
+
+To run: PeaZip
+To run in a terminal: flatpak run --file-forwarding io.github.peazip.PeaZip
 ```
 
 ### <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png" height=32> ***[Pi-Apps Terminal Plugin (bash)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(bash))***
@@ -2664,6 +2790,9 @@ ARM32/ARM64 - 10,523 Users!!
 ```
 PiGro is a program designed to make all Debian-based distributions easier to use on the Pi.
 The most common terminal commands can be executed with one click.
+
+To run: Menu -> System Tools -> PiGro
+To run in a terminal: cd ~/PiGro-Aid- ; ~/PiGro-Aid-/start.sh
 ```
 
 ### <img src="/img/app-icons/PiKISS GUI/icon-64.png" height=32> ***[PiKISS GUI](https://github.com/Botspot/pi-apps/tree/master/apps/PiKISS%20GUI)***
@@ -2741,6 +2870,7 @@ ARM32/ARM64 - 5,708 Users!
 ```
 Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
 To run: Menu -> Internet -> Snapdrop
+To run in a terminal: /opt/snapdrop/Snapdrop
 To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
 Now drag and drop files to the website, and the other device will see the files and download them.
 ```
@@ -2750,7 +2880,12 @@ https://snapcraft.io/store - Installation script and made by RPICoder<br />
 ARM32/ARM64 - 23,078 Users!!
 ```
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross‐platform and dependency‐free.
-Snaps are discoverable and installable from the Snap Store, the app store for Linux with an audience of millions.
+This makes it easy to find and install Snaps.
+
+Beware that Snap packages can be slow and buggy, especially on Raspberry Pi computers. Many would advise finding non-Snap ways to install apps you use often.
+
+To run: Menu -> Preferences -> Snap Store
+To run in a terminal: snap-store
 ```
 
 ### <img src="/img/app-icons/Temps/icon-64.png" height=32> ***[Temps](https://github.com/Botspot/pi-apps/tree/master/apps/Temps)***
@@ -2761,9 +2896,8 @@ ARM32/ARM64 - 1,684 Users!
 ```
 Temps is a modern and minimal menubar application based on Electron with actual weather information and forecast.
 
-Run from: Menu -> Accessories -> Temps
-or from Terminal: temps
-
+To run: Menu -> Accessories -> Temps
+To run in a terminal: temps
 ```
 
 ### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
@@ -2771,6 +2905,9 @@ https://github.com/debrouxl/tilp_and_gfm - @ryanfortner (GitHub)<br />
 Package app - 549 Users
 ```
 TiLP is a linking program for Texas Instruments graphing calculators. It can transfer apps, programs, and more to a calculator.
+
+To run: Menu -> Accessories -> TILP
+To run in a terminal: tilp
 ```
 
 ### <img src="/img/app-icons/tldr/icon-64.png" height=32> ***[tldr](https://github.com/Botspot/pi-apps/tree/master/apps/tldr)***
@@ -2810,6 +2947,9 @@ Open source disk encryption software
 - Encryption can be hardware-accelerated on modern processors.
 - Provides plausible deniability, in case an adversary forces you to reveal the password: Hidden volume (steganography) and hidden operating system.
 - More information about the features of VeraCrypt may be found in the documentation.
+
+To run: Menu -> Accessories -> VeraCrypt
+To run in a terminal: veracrypt
 ```
 
 ### <img src="/img/app-icons/VMware Horizon Client/icon-64.png" height=32> ***[VMware Horizon Client](https://github.com/Botspot/pi-apps/tree/master/apps/VMware%20Horizon%20Client)***
@@ -2821,6 +2961,9 @@ VMware Horizon Client allows your end users to connect to their VMware Horizon V
 The Horizon Client app communicates with the View Connection Server, which acts as a broker between the client device and View desktops. Users enter credentials into Horizon Client and the View Connection Server authenticates them and then finds their virtual desktops.
 
 IT administrators can also use Horizon Client and the View Connection Server to deliver Microsoft Remote Desktop Session Host (RDSH) desktops and applications from an RDSH farm or to deliver VMware ThinApp applications within Horizon View.
+
+To run: Menu -> Internet -> VMware Horizon Client
+To run in a terminal: vmware-view
 ```
 
 ### <img src="/img/app-icons/Windows Flasher/icon-64.png" height=32> ***[Windows Flasher](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Flasher)***
@@ -2901,6 +3044,8 @@ Easily emulate x86 linux apps on ARM32.
 Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux, like ARM (host system needs to be 32bit little-endian).
 Because Box86 uses the native versions of some "system" libraries, like libc, libm, SDL and OpenGL, it's easy to integrate and use, and performance can be surprisingly high in some cases.
 Box86 now integrates a DynaRec (dynamic recompiler) for the ARM platform, providing a speed boost between 5 to 10 times faster than only using the interpreter.
+
+To run in a terminal: box86
 ```
 
 ### <img src="/img/app-icons/QEMU/icon-64.png" height=32> ***[QEMU](https://github.com/Botspot/pi-apps/tree/master/apps/QEMU)***
@@ -2910,6 +3055,8 @@ ARM32/ARM64 - 7,635 Users!
 ```
 QEMU is a generic and open source machine emulator and virtualizer.
 QEMU 6.1 for Buster, system QEMU for other distros (Bullseye is currently using 7.0).
+
+To see all QEMU commands you can run: open a terminal, type 'qemu', and press the Tab key a couple times.
 ```
 
 ### <img src="/img/app-icons/Wine (x86)/icon-64.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***

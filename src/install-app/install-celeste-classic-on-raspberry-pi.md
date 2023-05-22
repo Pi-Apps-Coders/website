@@ -11,6 +11,7 @@ title: Install Celeste Classic on Raspberry Pi | Pi-Apps
 > This game can be played with controllers or with keyboard. The general mapping is found here: https://github.com/lemon32767/ccleste#controls
 > 
 > To run: Menu -> Games -> Celeste Classic
+> To run in a terminal: /usr/local/share/celeste/ccleste
 
 Fortunately, Celeste Classic is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

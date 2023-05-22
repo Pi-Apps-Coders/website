@@ -8,6 +8,9 @@ title: Install PiGro on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/PiGro/icon-64.png"> PiGro
 > PiGro is a program designed to make all Debian-based distributions easier to use on the Pi.
 > The most common terminal commands can be executed with one click.
+> 
+> To run: Menu -> System Tools -> PiGro
+> To run in a terminal: cd ~/PiGro-Aid- ; ~/PiGro-Aid-/start.sh
 
 Fortunately, PiGro is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

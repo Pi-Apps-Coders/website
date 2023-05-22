@@ -19,6 +19,9 @@ title: Install Pika Backup on Nvidia Jetson | Pi-Apps
 >  - Recover files or folders via your file browser
 > 
 > Pika Backup is designed to save your personal data and does not support complete system recovery. Pika Backup is powered by the well-tested BorgBackup software.
+> 
+> To run: Menu -> Accessories -> Pika Backup
+> To run in a terminal: flatpak run org.gnome.World.PikaBackup
 
 Fortunately, Pika Backup is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

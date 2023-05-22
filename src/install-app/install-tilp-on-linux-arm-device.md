@@ -7,6 +7,9 @@ title: Install TiLP on Linux ARM Device | Pi-Apps
 
 ## <img src="/img/app-icons/TiLP/icon-64.png"> TiLP
 > TiLP is a linking program for Texas Instruments graphing calculators. It can transfer apps, programs, and more to a calculator.
+> 
+> To run: Menu -> Accessories -> TILP
+> To run in a terminal: tilp
 
 Fortunately, TiLP is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

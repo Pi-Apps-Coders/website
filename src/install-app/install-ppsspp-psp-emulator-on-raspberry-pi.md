@@ -8,7 +8,8 @@ title: Install PPSSPP (PSP emulator) on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png"> PPSSPP (PSP emulator)
 > A PSP emulator that can run PSP games in full HD and can upscale textures also.
 > 
-> How to run: Menu > Games > PPSSPP
+> To run: Menu > Games > PPSSPP
+> To run in a terminal: ~/ppsspp/PPSSPPSDL
 
 Fortunately, PPSSPP (PSP emulator) is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

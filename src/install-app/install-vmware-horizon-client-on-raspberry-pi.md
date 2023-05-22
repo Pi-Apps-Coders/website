@@ -11,6 +11,9 @@ title: Install VMware Horizon Client on Raspberry Pi | Pi-Apps
 > The Horizon Client app communicates with the View Connection Server, which acts as a broker between the client device and View desktops. Users enter credentials into Horizon Client and the View Connection Server authenticates them and then finds their virtual desktops.
 > 
 > IT administrators can also use Horizon Client and the View Connection Server to deliver Microsoft Remote Desktop Session Host (RDSH) desktops and applications from an RDSH farm or to deliver VMware ThinApp applications within Horizon View.
+> 
+> To run: Menu -> Internet -> VMware Horizon Client
+> To run in a terminal: vmware-view
 
 Fortunately, VMware Horizon Client is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

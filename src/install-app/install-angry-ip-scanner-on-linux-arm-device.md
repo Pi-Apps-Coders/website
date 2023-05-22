@@ -13,6 +13,9 @@ title: Install Angry IP scanner on Linux ARM Device | Pi-Apps
 > Provides command-line interface,
 > Free and open-source.
 > 
+> To run: Angry IP Scanner
+> To run in a terminal: ipscan
+> 
 > Warning, using this improperly may get you in a lot of trouble. Be sure you're within legal limits.
 
 Fortunately, Angry IP scanner is very easy to install on your Linux ARM Device in just two steps.

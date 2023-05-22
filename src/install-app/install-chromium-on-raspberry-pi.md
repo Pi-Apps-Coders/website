@@ -12,6 +12,9 @@ title: Install Chromium on Raspberry Pi | Pi-Apps
 > To play Netflix, Spotify, or other protected multimedia streams, see the Chromium Widevine app.
 > To install an older version of Chromium, see the Downgrade Chromium app.
 > To improve Chromium with features such as Google sync, dark mode, performance improvements, and reducing SD card writes, see the Better Chromium app.
+> 
+> To run: Menu -> Internet -> Chromium Web Browser
+> To run in a terminal: chromium-browser
 
 Fortunately, Chromium is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

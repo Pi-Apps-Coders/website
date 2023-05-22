@@ -8,8 +8,8 @@ title: Install Deskreen on Nvidia Jetson | Pi-Apps
 ## <img src="/img/app-icons/Deskreen/icon-64.png"> Deskreen
 > Share your desktop to your browser, and turn any device into a second screen!
 > 
-> How to run: Menu -> Programming -> Deskreen
-> or run from your Terminal: deskreen
+> To run: Menu -> Programming -> Deskreen
+> To run in a terminal: deskreen
 
 Fortunately, Deskreen is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

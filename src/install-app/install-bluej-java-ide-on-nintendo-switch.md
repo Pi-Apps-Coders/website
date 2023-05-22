@@ -11,6 +11,7 @@ title: Install BlueJ Java IDE on Nintendo Switch | Pi-Apps
 > BlueJ is an integrated development environment for the Java programming language, developed mainly for educational purposes.
 > 
 > To run: Menu -> Programming -> BlueJ Java IDE
+> To run in a terminal: bluej
 
 Fortunately, BlueJ Java IDE is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

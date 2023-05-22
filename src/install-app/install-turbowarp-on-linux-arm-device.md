@@ -10,6 +10,7 @@ title: Install Turbowarp on Linux ARM Device | Pi-Apps
 > TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Also has dark mode, addons, and more. It even works when you're offline, just like the original Scratch Desktop.
 > 
 > To run: Menu -> Programming -> TurboWarp
+> To run in a terminal: /opt/TurboWarp/turbowarp-desktop
 
 Fortunately, Turbowarp is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

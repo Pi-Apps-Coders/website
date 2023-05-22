@@ -7,7 +7,9 @@ title: Install SysMonTask on Nintendo Switch | Pi-Apps
 
 ## <img src="/img/app-icons/SysMonTask/icon-64.png"> SysMonTask
 > Linux system monitor similar to the Windows task manager, written in Python.
-> Run via the Main Menu > System Tools > SysMonTask.
+> 
+> To run: Menu -> System Tools -> SysMonTask
+> To run in a terminal: sysmontask
 
 Fortunately, SysMonTask is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

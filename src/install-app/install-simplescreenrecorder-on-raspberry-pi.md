@@ -14,6 +14,9 @@ title: Install SimpleScreenRecorder on Raspberry Pi | Pi-Apps
 > It has a Qt-based graphical user interface.
 > 
 > Its complexity becomes apparent in its powerful features. It allows one to record X11 screen areas and fullscreen OpenGL applications including sound supporting both ALSA, PulseAudio, JACK and OSS. It uses libavformat to encode the recorded material into a variety of video formats. Scaling the recorded video is possible as well as configuring the encoding quality for the codec chosen directly from the user interface.
+> 
+> To run: Menu -> Sound & Video -> SimpleScreenRecorder
+> To run in a terminal: simplescreenrecorder
 
 Fortunately, SimpleScreenRecorder is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

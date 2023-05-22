@@ -7,7 +7,7 @@ title: Install Notepad ++ on Raspberry Pi | Pi-Apps
 
 ## <img src="/img/app-icons/Notepad ++/icon-64.png"> Notepad ++
 > Notepad++ is a free source code editor and Notepad replacement that supports several languages. 
-> To Run:  Menu -> Accessories -> Notepad++
+> To run: Menu -> Accessories -> Notepad++
 > 
 > This app runs with the help of box86 and wine.
 

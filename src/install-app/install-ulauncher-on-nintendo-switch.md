@@ -8,6 +8,9 @@ title: Install Ulauncher on Nintendo Switch | Pi-Apps
 ## <img src="/img/app-icons/Ulauncher/icon-64.png"> Ulauncher
 > All-in-one application launcher, Google search engine, calculator, file manager...
 > This is the best app launcher I've ever seen, though it can be a bit slow when searching. - Botspot
+> 
+> To run: Menu -> Accessories -> Ulauncher
+> To run in a terminal: ulauncher
 
 Fortunately, Ulauncher is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

@@ -15,8 +15,8 @@ title: Install FF Multi Converter on Raspberry Pi | Pi-Apps
 > The goal of FF Multi Converter is to gather the most popular multimedia types in one application
 > and provide conversion options for them easily through a user-friendly graphical interface.
 > 
-> Run from Menu: Menu -> Accesories -> FF Multi Converter
-> Run from Terminal: ffmulticonverter
+> To run: Menu -> Accesories -> FF Multi Converter
+> To run in a terminal: ffmulticonverter
 
 Fortunately, FF Multi Converter is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

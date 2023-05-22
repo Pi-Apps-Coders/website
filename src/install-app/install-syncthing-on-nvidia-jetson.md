@@ -7,8 +7,9 @@ title: Install Syncthing on Nvidia Jetson | Pi-Apps
 
 ## <img src="/img/app-icons/Syncthing/icon-64.png"> Syncthing
 > A sync manager that syncs folders to different devices no matter where you are!
-> to start, go to Internet => Syncthing start
-> Terminal: syncthing.
+> 
+> To run: Menu -> Internet -> Syncthing
+> To run in a terminal: syncthing
 
 Fortunately, Syncthing is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

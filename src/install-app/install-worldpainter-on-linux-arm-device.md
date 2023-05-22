@@ -9,6 +9,9 @@ title: Install WorldPainter on Linux ARM Device | Pi-Apps
 > WorldPainter is an interactive map generator for Minecraft.
 > It allows you to "paint" landscapes using similar tools as a regular paint program.
 > Sculpt and mould the terrain, paint materials, trees, snow and ice, etc. onto it, and much more.
+> 
+> To run: Menu -> Games -> WorldPainter
+> To run in a terminal: /opt/worldpainter/worldpainter
 
 Fortunately, WorldPainter is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

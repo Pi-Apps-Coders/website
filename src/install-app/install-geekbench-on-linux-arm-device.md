@@ -11,7 +11,7 @@ title: Install Geekbench on Linux ARM Device | Pi-Apps
 > How will it compare to the newest devices on the market? 
 > Find out today with Geekbench 5.
 > 
-> To run in terminal: geekbench
+> To run in a terminal: geekbench
 
 Fortunately, Geekbench is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

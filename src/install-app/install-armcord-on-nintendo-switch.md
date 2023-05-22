@@ -8,7 +8,8 @@ title: Install ArmCord on Nintendo Switch | Pi-Apps
 ## <img src="/img/app-icons/ArmCord/icon-64.png"> ArmCord
 > ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 > 
-> Run from the Menu > Internet > ArmCord, or simply run `armcord` in a terminal.
+> To run: Menu -> Internet -> ArmCord
+> To run in a terminal: armcord
 
 Fortunately, ArmCord is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

@@ -7,8 +7,10 @@ title: Install Vivaldi on Raspberry Pi | Pi-Apps
 
 ## <img src="/img/app-icons/Vivaldi/icon-64.png"> Vivaldi
 > Fast, private browser with unique features.
-> 
 > Official Vivaldi browser for ARM Linux.
+> 
+> To run: Menu -> Internet -> Vivaldi
+> To run in a terminal: vivaldi-stable
 
 Fortunately, Vivaldi is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

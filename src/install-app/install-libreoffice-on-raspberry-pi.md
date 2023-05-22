@@ -8,7 +8,7 @@ title: Install LibreOffice on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/LibreOffice/icon-64.png"> LibreOffice
 > Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
 > To run: Menu -> Office -> LibreOffice
-> To run in terminal: libreoffice
+> To run in a terminal: libreoffice
 > To make it look and feel like Microsoft Office, see the "Libreoffice MS Theme" app!
 
 Fortunately, LibreOffice is very easy to install on your Raspberry Pi in just two steps.

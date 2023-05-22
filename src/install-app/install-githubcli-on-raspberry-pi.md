@@ -9,7 +9,7 @@ title: Install Github-CLI on Raspberry Pi | Pi-Apps
 > gh is GitHub on the command line.
 > It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
 > 
-> to run (terminal only): gh
+> To run in a terminal: gh
 
 Fortunately, Github-CLI is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

@@ -15,6 +15,7 @@ title: Install Unciv on Linux ARM Device | Pi-Apps
 > defeat your foes!
 > 
 > To run: Menu -> Games -> Unciv
+> To run in a terminal: ~/Unciv/Unciv.sh
 
 Fortunately, Unciv is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

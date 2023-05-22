@@ -10,6 +10,9 @@ title: Install Caprine on Raspberry Pi | Pi-Apps
 > Built with Electron, Caprine features a Dark mode, keyboard shortcuts, ability to toggle last seen/typing indicators, work chat support, code blocks, custom text size, and an interface that adapts to resizing windows.
 > 
 > Caprine is a third-party app and is not affiliated with Facebook. 
+> 
+> To run: Menu -> Internet -> Caprine
+> To run in a terminal: /opt/Caprine/caprine
 
 Fortunately, Caprine is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

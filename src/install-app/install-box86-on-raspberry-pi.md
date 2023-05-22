@@ -10,6 +10,8 @@ title: Install Box86 on Raspberry Pi | Pi-Apps
 > Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux, like ARM (host system needs to be 32bit little-endian).
 > Because Box86 uses the native versions of some "system" libraries, like libc, libm, SDL and OpenGL, it's easy to integrate and use, and performance can be surprisingly high in some cases.
 > Box86 now integrates a DynaRec (dynamic recompiler) for the ARM platform, providing a speed boost between 5 to 10 times faster than only using the interpreter.
+> 
+> To run in a terminal: box86
 
 Fortunately, Box86 is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

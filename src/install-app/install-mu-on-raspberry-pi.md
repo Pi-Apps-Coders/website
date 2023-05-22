@@ -8,6 +8,9 @@ title: Install Mu on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/Mu/icon-64.png"> Mu
 > A simple Python editor for beginner programmers.
 > This is probably the simplest Python code editor available, with an intuitive UI designed to make sense on first run. Mu is the recommended Python IDE by the Raspberry Pi Foundation.
+> 
+> To run: Menu -> Programming -> mu
+> To run in a terminal: mu-editor
 
 Fortunately, Mu is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

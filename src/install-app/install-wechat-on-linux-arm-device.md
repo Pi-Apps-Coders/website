@@ -17,6 +17,7 @@ title: Install Wechat on Linux ARM Device | Pi-Apps
 > - Everything from gifs to emojis to images all work
 > 
 > To run: Menu -> Internet -> WeChat
+> to run in a terminal: WINEPREFIX=$HOME/.config/wechat-prefix wine "$HOME/.config/wechat-prefix/drive_c/Program Files/Tencent/WeChat/WeChat.exe"
 
 Fortunately, Wechat is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

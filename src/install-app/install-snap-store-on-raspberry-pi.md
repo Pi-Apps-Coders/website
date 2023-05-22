@@ -7,7 +7,12 @@ title: Install Snap Store on Raspberry Pi | Pi-Apps
 
 ## <img src="/img/app-icons/Snap Store/icon-64.png"> Snap Store
 > Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross‐platform and dependency‐free.
-> Snaps are discoverable and installable from the Snap Store, the app store for Linux with an audience of millions.
+> This makes it easy to find and install Snaps.
+> 
+> Beware that Snap packages can be slow and buggy, especially on Raspberry Pi computers. Many would advise finding non-Snap ways to install apps you use often.
+> 
+> To run: Menu -> Preferences -> Snap Store
+> To run in a terminal: snap-store
 
 Fortunately, Snap Store is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

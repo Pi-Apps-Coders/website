@@ -8,6 +8,9 @@ title: Install jGRASP IDE on Nintendo Switch | Pi-Apps
 ## <img src="/img/app-icons/jGRASP IDE/icon-64.png"> jGRASP IDE
 > An IDE with visualizations for improving software comprehensibility.
 > This IDE is used by many learning institutions and colleges for their classes.
+> 
+> To run: Menu -> Programming -> jGRASP
+> To run in a terminal: ~/jgrasp/bin/jgrasp
 
 Fortunately, jGRASP IDE is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

@@ -8,7 +8,7 @@ title: Install Flameshot on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/Flameshot/icon-64.png"> Flameshot
 > A simple tool to take screenshots of your screen or just parts of the screen. It is similar to Microsoft's Snipping Tool.
 > 
-> To launch: Menu -> Graphics -> Flameshot
+> To run: Menu -> Graphics -> Flameshot
 > To use: find the flameshot icon in your taskbar (system tray) and click it to open Flameshot.
 > To run in a terminal: flameshot
 

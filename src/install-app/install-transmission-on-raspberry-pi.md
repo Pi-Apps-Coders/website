@@ -10,6 +10,7 @@ title: Install Transmission on Raspberry Pi | Pi-Apps
 > Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
 > 
 > To run: Menu -> Internet -> Transmission
+> To run in a terminal: transmission-gtk
 > 
 > Also see the Deluge app.
 > Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Transmission at your own risk.

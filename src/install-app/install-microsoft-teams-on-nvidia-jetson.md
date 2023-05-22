@@ -10,6 +10,7 @@ title: Install Microsoft Teams on Nvidia Jetson | Pi-Apps
 > Teams primarily competes with the similar service Slack, offering workspace chat and videoconferencing, file storage, and application integration. 
 > 
 > To run: Menu -> Internet -> Teams
+> To run in a terminal: /opt/teams-for-linux/run-teams.sh
 > 
 > Build with nativefier. 
 

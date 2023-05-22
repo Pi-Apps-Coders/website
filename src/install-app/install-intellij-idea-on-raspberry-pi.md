@@ -8,6 +8,9 @@ title: Install Intellij IDEA on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/Intellij IDEA/icon-64.png"> Intellij IDEA
 > IntelliJ IDEA is an IDE designed to maximize developer productivity.
 > It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
+> 
+> To run: Menu -> Programming -> IntelliJ IDEA
+> To run in a terminal: /opt/ideaIC/bin/idea.sh
 
 Fortunately, Intellij IDEA is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

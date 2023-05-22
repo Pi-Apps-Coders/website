@@ -9,6 +9,9 @@ title: Install Brave on Linux ARM Device | Pi-Apps
 > The new Brave browser blocks ads and trackers that slow you down and invade your privacy.
 > Discover a new way of thinking about how the web can work.
 > 3x faster than Chrome. Better protection from Google and Big Tech.
+> 
+> To run: Menu -> Internet -> Brave Web Browser
+> To run in a terminal: brave-browser-stable
 
 Fortunately, Brave is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

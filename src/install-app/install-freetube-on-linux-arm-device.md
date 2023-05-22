@@ -11,6 +11,9 @@ title: Install FreeTube on Linux ARM Device | Pi-Apps
 > 
 > FreeTube has an interface similar to YouTube, but is slower and more innefficient than YouTubuddy. Try both and see which one you prefer!
 > Disabling the compositor improves playback performance.
+> 
+> To run: Menu -> Internet -> FreeTube
+> To run in a terminal: /opt/FreeTube/freetube
 
 Fortunately, FreeTube is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

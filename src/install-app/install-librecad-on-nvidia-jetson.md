@@ -12,6 +12,7 @@ title: Install LibreCAD on Nvidia Jetson | Pi-Apps
 > Documentation available at: https://dokuwiki.librecad.org/doku.php
 > 
 > To run: Menu -> Graphics -> LibreCAD
+> To run in a terminal: librecad
 
 Fortunately, LibreCAD is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

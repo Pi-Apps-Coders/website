@@ -9,6 +9,8 @@ title: Install Node.js on Raspberry Pi | Pi-Apps
 > JavaScript code outside a web browser.
 > Node.js is used for all npm packages and is the foundation of Electron.
 > As usual, this app will keep it updated.
+> 
+> To run in a terminal: node
 
 Fortunately, Node.js is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

@@ -8,6 +8,9 @@ title: Install All Is Well on Linux ARM Device | Pi-Apps
 ## <img src="/img/app-icons/All Is Well/icon-64.png"> All Is Well
 > ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux.
 > It will also fix any broken packages and dependencies. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
+> 
+> To run: Menu -> Accessories -> All Is Well
+> To run in a terminal: ~/All-is-well/aiw/aiwrpi.sh 'All Is Well'
 
 Fortunately, All Is Well is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

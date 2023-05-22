@@ -14,7 +14,8 @@ title: Install Ducopanel on Nvidia Jetson | Pi-Apps
 > 
 > ElectronJs has been used for this purpose.
 > 
-> To run the program: Main Menu -> Accessories -> Ducopanel
+> To run: Menu -> Accessories -> Ducopanel
+> To run in a terminal: ducopanel
 
 Fortunately, Ducopanel is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

@@ -8,6 +8,8 @@ title: Install QEMU on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/QEMU/icon-64.png"> QEMU
 > QEMU is a generic and open source machine emulator and virtualizer.
 > QEMU 6.1 for Buster, system QEMU for other distros (Bullseye is currently using 7.0).
+> 
+> To see all QEMU commands you can run: open a terminal, type 'qemu', and press the Tab key a couple times.
 
 Fortunately, QEMU is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

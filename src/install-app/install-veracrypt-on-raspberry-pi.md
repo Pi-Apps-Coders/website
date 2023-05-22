@@ -15,6 +15,9 @@ title: Install VeraCrypt on Raspberry Pi | Pi-Apps
 > - Encryption can be hardware-accelerated on modern processors.
 > - Provides plausible deniability, in case an adversary forces you to reveal the password: Hidden volume (steganography) and hidden operating system.
 > - More information about the features of VeraCrypt may be found in the documentation.
+> 
+> To run: Menu -> Accessories -> VeraCrypt
+> To run in a terminal: veracrypt
 
 Fortunately, VeraCrypt is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

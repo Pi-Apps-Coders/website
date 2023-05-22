@@ -11,6 +11,8 @@ title: Install Visual Studio Code on Linux ARM Device | Pi-Apps
 > It supports most popular coding languages including Python, JavaScript, and more.
 > Note: If you are using Raspberry Pi OS, you don't need to install this app. Just run "sudo apt install code" in the terminal. Pi-Apps will still continue to ship VSCode so that non-PiOS users can still have access to it.
 > 
+> To run: Menu -> Programming -> Visual Studio Code
+> To run in a terminal: code
 
 Fortunately, Visual Studio Code is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

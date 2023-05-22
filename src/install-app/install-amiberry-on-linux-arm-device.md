@@ -8,7 +8,8 @@ title: Install Amiberry on Linux ARM Device | Pi-Apps
 ## <img src="/img/app-icons/Amiberry/icon-64.png"> Amiberry
 > Amiberry is a well-optimized, high-performance emulator for running Amiga games on low-power ARM boards like Raspberry Pi.
 > 
-> Run it via the main Menu > Games > Amiberry.
+> To run: Menu -> Games -> Amiberry
+> To run in a terminal: /opt/amiberry/amiberry
 
 Fortunately, Amiberry is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

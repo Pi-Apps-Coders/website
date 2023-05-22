@@ -12,8 +12,8 @@ title: Install Electron Fiddle on Raspberry Pi | Pi-Apps
 > Then, save your Fiddle either as a GitHub Gist or to a local folder.
 > Once pushed to GitHub, anyone can quickly try your Fiddle out by just entering it in the address bar.
 > 
-> Run from menu: Menu -> Accesories -> Electron Fiddle
-> Run from Terminal: electron-fiddle
+> To run: Menu -> Accesories -> Electron Fiddle
+> To run in a terminal: electron-fiddle
 
 Fortunately, Electron Fiddle is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

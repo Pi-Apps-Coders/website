@@ -11,6 +11,9 @@ title: Install Bongo Cam on Linux ARM Device | Pi-Apps
 > 
 > Default keyboard shortcuts: Z and X to tap on the keyboard, C to wear sunglasses, and V to wave.
 > 
+> To run: Menu -> Sound & Video -> Bongo Cam
+> To run in a terminal: ~/bongocam/bongo
+> 
 > Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/Settings
 > NOTE: The app files are stored in ~/bongocam/
 

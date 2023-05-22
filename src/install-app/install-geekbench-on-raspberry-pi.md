@@ -11,7 +11,7 @@ title: Install Geekbench on Raspberry Pi | Pi-Apps
 > How will it compare to the newest devices on the market? 
 > Find out today with Geekbench 5.
 > 
-> To run in terminal: geekbench
+> To run in a terminal: geekbench
 
 Fortunately, Geekbench is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

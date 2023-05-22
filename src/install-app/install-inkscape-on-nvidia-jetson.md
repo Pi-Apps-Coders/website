@@ -10,10 +10,13 @@ title: Install Inkscape on Nvidia Jetson | Pi-Apps
 > 
 > Whether you are an illustrator, designer, web designer or just someone who needs to create some vector imagery, Inkscape is for you!
 > 
-> Flexible drawing tools
-> Broad file format compatibility
-> Powerful text tool
-> Bezier and spiro curves
+> - Flexible drawing tools
+> - Broad file format compatibility
+> - Powerful text tool
+> - Bezier and spiro curves
+> 
+> To run: Menu -> Graphics -> Inkscape
+> To run in a terminal: inkscape
 > 
 > Note: Also see the Boxy SVG tool.
 

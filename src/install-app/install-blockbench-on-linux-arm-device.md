@@ -8,10 +8,8 @@ title: Install BlockBench on Linux ARM Device | Pi-Apps
 ## <img src="/img/app-icons/BlockBench/icon-64.png"> BlockBench
 > Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures. Models can be exported into standardized formats, to be shared, rendered, 3D-printed, or used in game engines. There are also multiple dedicated formats for Minecraft Java and Bedrock Edition with format-specific features.
 > 
-> To run:
-> Menu -> Programming -> Blockbench
-> To run in a terminal:
-> /opt/Blockbench/blockbench
+> To run: Menu -> Programming -> Blockbench
+> To run in a terminal: /opt/Blockbench/blockbench
 
 Fortunately, BlockBench is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

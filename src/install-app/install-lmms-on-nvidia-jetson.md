@@ -18,6 +18,9 @@ title: Install LMMS on Nvidia Jetson | Pi-Apps
 >  - Fine tune patterns, notes, chords and melodies using Piano Roll Editor
 >  - Full user-defined track-based automation and computer-controlled automation sources
 >  - Import of MIDI files and Hydrogen project files
+> 
+> To run: Menu -> Sound & Video -> LMMS
+> To run in a terminal: lmms
 
 Fortunately, LMMS is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

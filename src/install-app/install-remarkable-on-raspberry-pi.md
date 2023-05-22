@@ -16,6 +16,9 @@ title: Install Remarkable on Raspberry Pi | Pi-Apps
 > - Styles
 > - Custom CSS Support
 > - Keyboard Shortcuts
+> 
+> To run: Menu -> Accessories -> Remarkable
+> To run in a terminal: remarkable
 
 Fortunately, Remarkable is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

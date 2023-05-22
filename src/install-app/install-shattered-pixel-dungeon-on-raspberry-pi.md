@@ -11,6 +11,7 @@ title: Install Shattered Pixel Dungeon on Raspberry Pi | Pi-Apps
 > The game is simple to get into, but strategy is required if you want to win!
 > 
 > To run: Menu -> Games -> Shattered Pixel Dungeon
+> To run in a terminal: /usr/lib/jvm/java-11-openjdk-arm64/bin/java -jar /home/pi/.local/bin/ShatteredPD-Desktop.jar
 > 
 > Saves and configs are stored in: ~/.local/share/.shatteredpixel/shattered-pixel-dungeon
 

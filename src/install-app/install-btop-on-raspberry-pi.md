@@ -8,7 +8,7 @@ title: Install btop++ on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/btop++/icon-64.png"> btop++
 > Awesome terminal resource monitor and task manager, similar to htop.
 > 
-> Run from Terminal: btop
+> To run in a terminal: btop
 > 
 > btop shows CPU, memory, network, and disk usage, along with a task manager.
 > btop is also very user customizable, with different layouts and ways of displaying CPU, memory, network and disk usage.

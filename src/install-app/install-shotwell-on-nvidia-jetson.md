@@ -8,7 +8,7 @@ title: Install Shotwell on Nvidia Jetson | Pi-Apps
 ## <img src="/img/app-icons/Shotwell/icon-64.png"> Shotwell
 > Organize, edit, and publish your photos.
 > To run: Menu -> Graphics -> Shotwell
-> To run in terminal: shotwell
+> To run in a terminal: shotwell
 
 Fortunately, Shotwell is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

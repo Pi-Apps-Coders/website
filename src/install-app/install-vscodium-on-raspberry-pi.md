@@ -8,6 +8,9 @@ title: Install VSCodium on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/VSCodium/icon-64.png"> VSCodium
 > Visual Studio Code builds without the telemetry and tracking.
 > Microsoft's vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under this not-FLOSS license and contains telemetry/tracking.
+> 
+> To run: Menu -> Programming -> VSCodium
+> To run: codium
 
 Fortunately, VSCodium is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

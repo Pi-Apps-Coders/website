@@ -14,7 +14,7 @@ title: Install AbiWord on Raspberry Pi | Pi-Apps
 > NOTE: AbiWord uses .abw extension by default.
 > 
 > To run: Menu -> Office -> Abiword.
-> To run in terminal:  abiword.
+> To run in terminal: abiword.
 
 Fortunately, AbiWord is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

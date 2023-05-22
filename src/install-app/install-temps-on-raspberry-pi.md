@@ -8,9 +8,8 @@ title: Install Temps on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/Temps/icon-64.png"> Temps
 > Temps is a modern and minimal menubar application based on Electron with actual weather information and forecast.
 > 
-> Run from: Menu -> Accessories -> Temps
-> or from Terminal: temps
-> 
+> To run: Menu -> Accessories -> Temps
+> To run in a terminal: temps
 
 Fortunately, Temps is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

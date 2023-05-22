@@ -9,6 +9,9 @@ title: Install Doom 3 on Nintendo Switch | Pi-Apps
 > Doom 3 is a 2004 horror first-person shooter video game developed by id Software and published by Activision.
 > In this game a massive demonic invasion has overwhelmed the Union Aerospace Corporation's (UAC) Mars Research Facility, leaving only chaos and horror in its wake.
 > As one of only a few survivors, you must fight your way to hell and back against a horde of evil monsters.
+> 
+> To run: Menu -> Games -> Doom3Demo
+> To run in a terminal: cd ~/Doom3Demo ; ~/Doom3Demo/dhewm3
 
 Fortunately, Doom 3 is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

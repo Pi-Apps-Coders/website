@@ -9,6 +9,7 @@ title: Install Codex on Raspberry Pi | Pi-Apps
 > A free note-taking software for programmers and Computer Science students.
 > 
 > To run: Menu -> Accessories -> Codex
+> To run in a terminal: ~/codex/Codex
 
 Fortunately, Codex is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

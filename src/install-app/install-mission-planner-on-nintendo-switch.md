@@ -8,6 +8,9 @@ title: Install Mission Planner on Nintendo Switch | Pi-Apps
 ## <img src="/img/app-icons/Mission Planner/icon-64.png"> Mission Planner
 > Software used to control autonomous vehicles.
 > Mission Planner is a free, open-source ground station for communicating with autonomous aircraft, vehicles, or boats running Ardupilot firmware. It's used to monitor such vehicles, view logs, and create waypoint missions.
+> 
+> To run: Menu -> Programming -> Mission Planner
+> To run in a terminal: LIBGL_ALWAYS_SOFTWARE=1 mono ~/MissionPlanner-latest/MissionPlanner.exe
 
 Fortunately, Mission Planner is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

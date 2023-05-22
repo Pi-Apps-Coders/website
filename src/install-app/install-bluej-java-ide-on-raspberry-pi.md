@@ -11,6 +11,7 @@ title: Install BlueJ Java IDE on Raspberry Pi | Pi-Apps
 > BlueJ is an integrated development environment for the Java programming language, developed mainly for educational purposes.
 > 
 > To run: Menu -> Programming -> BlueJ Java IDE
+> To run in a terminal: bluej
 
 Fortunately, BlueJ Java IDE is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

@@ -20,6 +20,9 @@ title: Install BleachBit on Nintendo Switch | Pi-Apps
 > - Clean deeper
 > - Official dark theme support
 > - Support showing debug messages
+> 
+> To run: Menu -> Accessories -> BleachBit
+> To run in a terminal: bleachbit
 
 Fortunately, BleachBit is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

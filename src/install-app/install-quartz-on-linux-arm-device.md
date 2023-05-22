@@ -13,6 +13,9 @@ title: Install Quartz on Linux ARM Device | Pi-Apps
 > This has minimal settings to avoid confusion.Yet it has most useful settings, such as load images on/off, javascript on/off, change font.
 > 
 > To save pages to read later, print feature can be used to save as pdf. And it can also export the whole page as png image.
+> 
+> To run: Menu -> Internet -> Quartz Browser
+> To run in a terminal: quartz_browser
 
 Fortunately, Quartz is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

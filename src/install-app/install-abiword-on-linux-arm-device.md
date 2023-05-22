@@ -14,7 +14,7 @@ title: Install AbiWord on Linux ARM Device | Pi-Apps
 > NOTE: AbiWord uses .abw extension by default.
 > 
 > To run: Menu -> Office -> Abiword.
-> To run in terminal:  abiword.
+> To run in terminal: abiword.
 
 Fortunately, AbiWord is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

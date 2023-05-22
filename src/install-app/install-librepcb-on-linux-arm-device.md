@@ -8,8 +8,9 @@ title: Install LibrePCB on Linux ARM Device | Pi-Apps
 ## <img src="/img/app-icons/LibrePCB/icon-64.png"> LibrePCB
 > LibrePCB is a free, cross-platform, easy-to-use electronic design automation suite to draw schematics and design printed circuit boards – for makers, students and professionals, from beginners to experts.
 > 
-> This software just lets you develop electronics the right way.
-> No costs. No restrictions. No online account. No unnecessary complexity.
+> This software just lets you develop electronics the right way. No costs. No restrictions. No online account. No unnecessary complexity.
+> To run: Menu -> Programming -> LibrePCB
+> To run in a terminal: flatpak run --file-forwarding org.librepcb.LibrePCB
 
 Fortunately, LibrePCB is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

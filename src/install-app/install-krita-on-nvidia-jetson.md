@@ -13,6 +13,9 @@ title: Install Krita on Nvidia Jetson | Pi-Apps
 > Krita is a great choice for creating concept art, comics, textures for rendering and matte paintings. Krita supports many colorspaces like RGB and CMYK at 8 and 16 bits integer channels, as well as 16 and 32 bits floating point channels.
 > 
 > Have fun painting with the advanced brush engines, amazing filters and many handy features that make Krita enormously productive.
+> 
+> To run: Menu -> Games -> Krita
+> To run in a terminal: krita
 
 Fortunately, Krita is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

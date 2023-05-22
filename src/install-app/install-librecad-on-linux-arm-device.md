@@ -12,6 +12,7 @@ title: Install LibreCAD on Linux ARM Device | Pi-Apps
 > Documentation available at: https://dokuwiki.librecad.org/doku.php
 > 
 > To run: Menu -> Graphics -> LibreCAD
+> To run in a terminal: librecad
 
 Fortunately, LibreCAD is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

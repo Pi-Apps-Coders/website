@@ -13,6 +13,7 @@ title: Install DDNet on Nvidia Jetson | Pi-Apps
 > It's also open source, so everyone is invited to help improve it with great new ideas!
 > 
 > To run: Menu -> Games -> DDnet
+> To run in a terminal: DDNet
 > 
 > If you want to host an online Server you have to activate Port Forwarding in your Router Settings. 
 > You have to create a Port Forwarding with the protocol udp and the Port of your Server (standard is 8303) 

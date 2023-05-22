@@ -11,8 +11,8 @@ title: Install WhatsApp on Nvidia Jetson | Pi-Apps
 > A simple Whatsapp Web chromium webapp wrapped in electron with nativefier.
 > it has a tray icon, so it doesn't take space on the taskbar, but keeps running in the background.
 > 
-> To run:
-> menu>internet>Whatsapp Web
+> To run: Menu -> Internet -> Whatsapp Web
+> To run in a terminal: /opt/WhatsApp/WhatsApp
 
 Fortunately, WhatsApp is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

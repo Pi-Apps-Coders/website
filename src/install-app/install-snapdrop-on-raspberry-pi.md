@@ -8,6 +8,7 @@ title: Install Snapdrop on Raspberry Pi | Pi-Apps
 ## <img src="/img/app-icons/Snapdrop/icon-64.png"> Snapdrop
 > Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
 > To run: Menu -> Internet -> Snapdrop
+> To run in a terminal: /opt/snapdrop/Snapdrop
 > To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
 > Now drag and drop files to the website, and the other device will see the files and download them.
 

@@ -15,6 +15,7 @@ title: Install Unciv on Nvidia Jetson | Pi-Apps
 > defeat your foes!
 > 
 > To run: Menu -> Games -> Unciv
+> To run in a terminal: ~/Unciv/Unciv.sh
 
 Fortunately, Unciv is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

@@ -11,6 +11,9 @@ title: Install YouTubuddy on Raspberry Pi | Pi-Apps
 > - Extremely lightweight - one bash script.
 > - Perfect for downloading/playing batches of videos with a few clicks.
 > - Supports searches, playlist URLs, and direct YouTube links. In addition, this supports URLs to many other video sites for easy downloading.
+> 
+> To run: Menu -> Internet -> YouTubuddy
+> To run in a terminal: ~/youtubuddy/gui
 
 Fortunately, YouTubuddy is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

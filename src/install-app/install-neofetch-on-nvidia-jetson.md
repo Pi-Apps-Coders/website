@@ -8,7 +8,7 @@ title: Install Neofetch on Nvidia Jetson | Pi-Apps
 ## <img src="/img/app-icons/Neofetch/icon-64.png"> Neofetch
 > An aesthetically pleasing bash script to show system information.
 > 
-> To run in terminal: 'neofetch'
+> To run in a terminal: 'neofetch'
 > 
 > This version of Neofetch is better than what can be found by default from APT. It correctly detects CPU and GPU info on ARM systems - details which are hidden in the official version.
 

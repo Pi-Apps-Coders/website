@@ -15,7 +15,7 @@ title: Install Pale Moon on Linux ARM Device | Pi-Apps
 > extensions and themes to make the browser truly your own.
 > 
 > To run: Menu -> Internet -> Pale Moon
-> To run in terminal: palemoon
+> To run in a terminal: palemoon
 
 Fortunately, Pale Moon is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

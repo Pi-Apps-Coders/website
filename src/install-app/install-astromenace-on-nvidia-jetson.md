@@ -7,6 +7,9 @@ title: Install AstroMenace on Nvidia Jetson | Pi-Apps
 
 ## <img src="/img/app-icons/AstroMenace/icon-64.png"> AstroMenace
 > Immerse into a decisive battle against tons of cunning foes, face the terrifying bosses and protect your homeland throughout 15 diverse levels of the game. The hardcore gameplay of AstroMenace, packed with pure non-stop action, will become a full scale test for your basic instinct of survival.
+> 
+> To run: Menu -> Games -> AstroMenace
+> To run in a terminal: ~/astromenace-master/astromenace
 
 Fortunately, AstroMenace is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
