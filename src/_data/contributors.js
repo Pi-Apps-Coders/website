@@ -18,7 +18,7 @@ module.exports = async function () {
 
 	const info = []
 	for (i in pages) {
-		info.push([pages[i].login,pages[i].avatar_url, pages[i].html_url])
+		info.push([pages[i].login,pages[i].avatar_url, pages[i].html_url, pages[i].contributions])
 	}
 
 	return {
