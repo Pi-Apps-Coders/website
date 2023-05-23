@@ -3,7 +3,7 @@ title: Install Deskreen on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Deskreen/icon-64.png" height=24> Deskreen on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Deskreen/icon-64.png" height=24> Deskreen on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Deskreen/icon-64.png"> Deskreen
 > Share your desktop to your browser, and turn any device into a second screen!

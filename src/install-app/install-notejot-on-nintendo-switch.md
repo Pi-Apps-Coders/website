@@ -3,7 +3,7 @@ title: Install Notejot on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Notejot/icon-64.png" height=24> Notejot on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Notejot/icon-64.png" height=24> Notejot on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Notejot/icon-64.png"> Notejot
 > A minimalist note-taking app with Markdown support

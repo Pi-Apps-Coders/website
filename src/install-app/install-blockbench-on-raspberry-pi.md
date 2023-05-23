@@ -3,7 +3,7 @@ title: Install BlockBench on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/BlockBench/icon-64.png" height=24> BlockBench on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/BlockBench/icon-64.png" height=24> BlockBench on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/BlockBench/icon-64.png"> BlockBench
 > Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures. Models can be exported into standardized formats, to be shared, rendered, 3D-printed, or used in game engines. There are also multiple dedicated formats for Minecraft Java and Bedrock Edition with format-specific features.

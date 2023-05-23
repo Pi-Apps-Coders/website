@@ -3,7 +3,7 @@ title: Install Xfburn on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Xfburn/icon-64.png" height=24> Xfburn on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Xfburn/icon-64.png" height=24> Xfburn on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Xfburn/icon-64.png"> Xfburn
 > Xfburn is a tool to help burning CDs and DVDs. It fits well in the Xfce Desktop Environment but can be used anywhere.

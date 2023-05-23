@@ -3,7 +3,7 @@ title: Install BalenaEtcher on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/BalenaEtcher/icon-64.png" height=24> BalenaEtcher on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/BalenaEtcher/icon-64.png" height=24> BalenaEtcher on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/BalenaEtcher/icon-64.png"> BalenaEtcher
 > Flash SD cards with a disk image. Many file types supported.

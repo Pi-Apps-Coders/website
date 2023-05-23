@@ -3,7 +3,7 @@ title: Install Scratch 3 on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Scratch 3/icon-64.png" height=24> Scratch 3 on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Scratch 3/icon-64.png" height=24> Scratch 3 on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Scratch 3/icon-64.png"> Scratch 3
 > Enjoy learning computer programming with drag-n-drop blocks!

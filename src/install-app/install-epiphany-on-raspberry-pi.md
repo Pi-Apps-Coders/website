@@ -3,7 +3,7 @@ title: Install Epiphany on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Epiphany/icon-64.png" height=24> Epiphany on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Epiphany/icon-64.png" height=24> Epiphany on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Epiphany/icon-64.png"> Epiphany
 > Epiphany is a lightweight web browser based on the WebKit rendering engine. It is also known as GNOME Web.

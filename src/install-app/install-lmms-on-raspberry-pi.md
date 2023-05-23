@@ -3,7 +3,7 @@ title: Install LMMS on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/LMMS/icon-64.png" height=24> LMMS on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/LMMS/icon-64.png" height=24> LMMS on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/LMMS/icon-64.png"> LMMS
 > LMMS (Let’s Make Music) is a free, open-source and cross-platform software for making music on your computer, made by musicians, for musicians. It comes with a user-friendly and modern interface.

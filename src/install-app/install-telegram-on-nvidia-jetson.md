@@ -3,7 +3,7 @@ title: Install Telegram on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Telegram/icon-64.png" height=24> Telegram on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Telegram/icon-64.png" height=24> Telegram on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Telegram/icon-64.png"> Telegram
 > Telegram is a free and open source, cross-platform, cloud-based instant messaging software. This service also provides end-to-end encrypted video calling, VoIP, file sharing and several other features. 

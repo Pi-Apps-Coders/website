@@ -3,7 +3,7 @@ title: Install Geany Dark Mode on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Geany Dark Mode/icon-64.png" height=24> Geany Dark Mode on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Geany Dark Mode/icon-64.png" height=24> Geany Dark Mode on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Geany Dark Mode/icon-64.png"> Geany Dark Mode
 > Proper appearance theme for the Geany text editor.

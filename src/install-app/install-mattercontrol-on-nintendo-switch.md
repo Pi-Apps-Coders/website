@@ -3,7 +3,7 @@ title: Install MatterControl on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/MatterControl/icon-64.png" height=24> MatterControl on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/MatterControl/icon-64.png" height=24> MatterControl on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/MatterControl/icon-64.png"> MatterControl
 > MatterControl is an all-in-one program to create, edit, slice, and manage your 3D prints.

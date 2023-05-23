@@ -3,7 +3,7 @@ title: Install LineRider on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/LineRider/icon-64.png" height=24> LineRider on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/LineRider/icon-64.png" height=24> LineRider on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/LineRider/icon-64.png"> LineRider
 > Draw a track for a sledder to ride on. Make it sync with music and share your work with friends!

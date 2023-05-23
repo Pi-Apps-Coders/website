@@ -3,7 +3,7 @@ title: Install LibrePCB on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/LibrePCB/icon-64.png" height=24> LibrePCB on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/LibrePCB/icon-64.png" height=24> LibrePCB on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/LibrePCB/icon-64.png"> LibrePCB
 > LibrePCB is a free, cross-platform, easy-to-use electronic design automation suite to draw schematics and design printed circuit boards – for makers, students and professionals, from beginners to experts.

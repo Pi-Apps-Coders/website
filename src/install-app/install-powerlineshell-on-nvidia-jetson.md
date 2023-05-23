@@ -3,7 +3,7 @@ title: Install Powerline-Shell on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=24> Powerline-Shell on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=24> Powerline-Shell on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Powerline-Shell/icon-64.png"> Powerline-Shell
 > A beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh:

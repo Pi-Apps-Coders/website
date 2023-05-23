@@ -3,7 +3,7 @@ title: Install Zoom PWA on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Zoom PWA/icon-64.png" height=24> Zoom PWA on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Zoom PWA/icon-64.png" height=24> Zoom PWA on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Zoom PWA/icon-64.png"> Zoom PWA
 > Web-app for Zoom

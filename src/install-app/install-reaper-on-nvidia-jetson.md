@@ -3,7 +3,7 @@ title: Install Reaper on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Reaper/icon-64.png" height=24> Reaper on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Reaper/icon-64.png" height=24> Reaper on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Reaper/icon-64.png"> Reaper
 > REAPER is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.

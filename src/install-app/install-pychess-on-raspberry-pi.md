@@ -3,7 +3,7 @@ title: Install PyChess on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/PyChess/icon-64.png" height=24> PyChess on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/PyChess/icon-64.png" height=24> PyChess on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/PyChess/icon-64.png"> PyChess
 > PyChess is a chess client for playing and analyzing chess games. It is intended to be usable both for those totally new to chess as well as advanced users who want to use a computer to further enhance their play.

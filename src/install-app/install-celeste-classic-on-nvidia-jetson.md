@@ -3,7 +3,7 @@ title: Install Celeste Classic on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Celeste Classic/icon-64.png" height=24> Celeste Classic on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Celeste Classic/icon-64.png" height=24> Celeste Classic on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Celeste Classic/icon-64.png"> Celeste Classic
 > This is a C source port of the original celeste (Celeste classic) for the PICO-8, designed to be portable.

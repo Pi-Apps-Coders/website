@@ -3,7 +3,7 @@ title: Install KeePassXC on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/KeePassXC/icon-64.png" height=24> KeePassXC on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/KeePassXC/icon-64.png" height=24> KeePassXC on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/KeePassXC/icon-64.png"> KeePassXC
 > KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.

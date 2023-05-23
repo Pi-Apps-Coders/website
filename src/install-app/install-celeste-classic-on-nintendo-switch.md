@@ -3,7 +3,7 @@ title: Install Celeste Classic on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Celeste Classic/icon-64.png" height=24> Celeste Classic on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Celeste Classic/icon-64.png" height=24> Celeste Classic on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Celeste Classic/icon-64.png"> Celeste Classic
 > This is a C source port of the original celeste (Celeste classic) for the PICO-8, designed to be portable.

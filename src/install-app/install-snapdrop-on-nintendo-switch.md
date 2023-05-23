@@ -3,7 +3,7 @@ title: Install Snapdrop on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Snapdrop/icon-64.png" height=24> Snapdrop on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Snapdrop/icon-64.png" height=24> Snapdrop on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Snapdrop/icon-64.png"> Snapdrop
 > Share files with nearby devices on the local network. Inspired by Apple's Airdrop.

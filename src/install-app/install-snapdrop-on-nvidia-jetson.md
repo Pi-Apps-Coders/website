@@ -3,7 +3,7 @@ title: Install Snapdrop on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Snapdrop/icon-64.png" height=24> Snapdrop on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Snapdrop/icon-64.png" height=24> Snapdrop on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Snapdrop/icon-64.png"> Snapdrop
 > Share files with nearby devices on the local network. Inspired by Apple's Airdrop.

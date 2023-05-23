@@ -3,7 +3,7 @@ title: Install Ducopanel on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Ducopanel/icon-64.png" height=24> Ducopanel on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Ducopanel/icon-64.png" height=24> Ducopanel on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Ducopanel/icon-64.png"> Ducopanel
 > Desktop app to manage Duino-Coin miners and tools.

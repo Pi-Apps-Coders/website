@@ -3,7 +3,7 @@ title: Install Shattered Pixel Dungeon on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png" height=24> Shattered Pixel Dungeon on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png" height=24> Shattered Pixel Dungeon on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png"> Shattered Pixel Dungeon
 > Shattered Pixel Dungeon is a Roguelike Dungeon Crawler RPG with pixel art graphics.

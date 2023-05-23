@@ -3,7 +3,7 @@ title: Install Linux Wifi Hotspot on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png" height=24> Linux Wifi Hotspot on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png" height=24> Linux Wifi Hotspot on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png"> Linux Wifi Hotspot
 > A feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface.

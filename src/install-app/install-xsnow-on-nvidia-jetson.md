@@ -3,7 +3,7 @@ title: Install XSnow on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/XSnow/icon-64.png" height=24> XSnow on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/XSnow/icon-64.png" height=24> XSnow on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/XSnow/icon-64.png"> XSnow
 > This turns your desktop wallpaper into an animated winter wonderland!

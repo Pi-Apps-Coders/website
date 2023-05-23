@@ -3,7 +3,7 @@ title: Install Minecraft Java MultiMC5 on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Minecraft Java MultiMC5/icon-64.png" height=24> Minecraft Java MultiMC5 on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Minecraft Java MultiMC5/icon-64.png" height=24> Minecraft Java MultiMC5 on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Minecraft Java MultiMC5/icon-64.png"> Minecraft Java MultiMC5
 > CUSTOM BUILD of MultiMC5/Launcher. MultiMC is an alternative launcher for Minecraft. It allows you to have multiple, cleanly separated instances of Minecraft (each with their own mods, resource packs, saves, etc) and helps you manage them and their associated options with a simple and powerful interface. 

@@ -3,7 +3,7 @@ title: Install Sublime Text on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Sublime Text/icon-64.png" height=24> Sublime Text on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Sublime Text/icon-64.png" height=24> Sublime Text on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Sublime Text/icon-64.png"> Sublime Text
 > Cross-platform source code editor with a Python application programming interface.

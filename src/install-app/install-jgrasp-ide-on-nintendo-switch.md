@@ -3,7 +3,7 @@ title: Install jGRASP IDE on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/jGRASP IDE/icon-64.png" height=24> jGRASP IDE on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/jGRASP IDE/icon-64.png" height=24> jGRASP IDE on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/jGRASP IDE/icon-64.png"> jGRASP IDE
 > An IDE with visualizations for improving software comprehensibility.

@@ -3,7 +3,7 @@ title: Install Chiaki on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Chiaki/icon-64.png" height=24> Chiaki on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Chiaki/icon-64.png" height=24> Chiaki on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Chiaki/icon-64.png"> Chiaki
 > Chiaki is a free and open source software client which enables PlayStation 4/5 remote play on the Raspberry Pi.

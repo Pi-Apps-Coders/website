@@ -3,7 +3,7 @@ title: Install jGRASP IDE on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/jGRASP IDE/icon-64.png" height=24> jGRASP IDE on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/jGRASP IDE/icon-64.png" height=24> jGRASP IDE on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/jGRASP IDE/icon-64.png"> jGRASP IDE
 > An IDE with visualizations for improving software comprehensibility.

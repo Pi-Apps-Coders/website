@@ -3,7 +3,7 @@ title: Install OBS Studio on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/OBS Studio/icon-64.png" height=24> OBS Studio on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/OBS Studio/icon-64.png" height=24> OBS Studio on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/OBS Studio/icon-64.png"> OBS Studio
 > Free and open source software for video recording and live streaming.

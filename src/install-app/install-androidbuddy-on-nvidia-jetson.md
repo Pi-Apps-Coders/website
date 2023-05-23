@@ -3,7 +3,7 @@ title: Install AndroidBuddy on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/AndroidBuddy/icon-64.png" height=24> AndroidBuddy on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/AndroidBuddy/icon-64.png" height=24> AndroidBuddy on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/AndroidBuddy/icon-64.png"> AndroidBuddy
 > A GUI for Android device recovery and maintenance.

@@ -3,7 +3,7 @@ title: Install Mission Planner on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Mission Planner/icon-64.png" height=24> Mission Planner on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Mission Planner/icon-64.png" height=24> Mission Planner on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Mission Planner/icon-64.png"> Mission Planner
 > Software used to control autonomous vehicles.

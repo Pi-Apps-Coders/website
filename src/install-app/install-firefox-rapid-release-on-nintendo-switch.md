@@ -3,7 +3,7 @@ title: Install Firefox Rapid Release on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=24> Firefox Rapid Release on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=24> Firefox Rapid Release on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Firefox Rapid Release/icon-64.png"> Firefox Rapid Release
 > Latest stable Mozilla Firefox version available. (Downloaded from Ubuntu Repo)

@@ -3,7 +3,7 @@ title: Install Github-CLI on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Github-CLI/icon-64.png" height=24> Github-CLI on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Github-CLI/icon-64.png" height=24> Github-CLI on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Github-CLI/icon-64.png"> Github-CLI
 > gh is GitHub on the command line.

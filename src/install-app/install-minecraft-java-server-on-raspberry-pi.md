@@ -3,7 +3,7 @@ title: Install Minecraft Java Server on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Minecraft Java Server/icon-64.png" height=24> Minecraft Java Server on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Minecraft Java Server/icon-64.png" height=24> Minecraft Java Server on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Minecraft Java Server/icon-64.png"> Minecraft Java Server
 > This is a simple tool to create a Minecraft server: Vanilla, Fabric, Forge, Paper, Bukkit, Spigot, Sponge, Purpur and Tuinity are supported

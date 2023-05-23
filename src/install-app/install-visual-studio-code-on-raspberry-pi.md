@@ -3,7 +3,7 @@ title: Install Visual Studio Code on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Visual Studio Code/icon-64.png" height=24> Visual Studio Code on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Visual Studio Code/icon-64.png" height=24> Visual Studio Code on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Visual Studio Code/icon-64.png"> Visual Studio Code
 > Visual Studio Code is a free source-code editor made by Microsoft.

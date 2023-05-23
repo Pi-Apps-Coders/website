@@ -3,7 +3,7 @@ title: Install Color Emoji font on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Color Emoji font/icon-64.png" height=24> Color Emoji font on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Color Emoji font/icon-64.png" height=24> Color Emoji font on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Color Emoji font/icon-64.png"> Color Emoji font
 > Installs two fonts to display all emojis in the Unicode Emoji 13.0.

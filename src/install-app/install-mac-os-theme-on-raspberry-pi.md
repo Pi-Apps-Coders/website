@@ -3,7 +3,7 @@ title: Install Mac OS Theme on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Mac OS Theme/icon-64.png" height=24> Mac OS Theme on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Mac OS Theme/icon-64.png" height=24> Mac OS Theme on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Mac OS Theme/icon-64.png"> Mac OS Theme
 > Realistic Light/Dark Mac OS Big Sur appearance theme. Uses XFCE desktop.

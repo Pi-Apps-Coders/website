@@ -3,7 +3,7 @@ title: Install GIMP on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/GIMP/icon-64.png" height=24> GIMP on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/GIMP/icon-64.png" height=24> GIMP on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/GIMP/icon-64.png"> GIMP
 > Create images and edit photographs

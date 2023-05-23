@@ -3,7 +3,7 @@ title: Install Minecraft Java Prism Launcher on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png" height=24> Minecraft Java Prism Launcher on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png" height=24> Minecraft Java Prism Launcher on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png"> Minecraft Java Prism Launcher
 > Prism Launcher is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.

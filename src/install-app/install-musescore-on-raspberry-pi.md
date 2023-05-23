@@ -3,7 +3,7 @@ title: Install MuseScore on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/MuseScore/icon-64.png" height=24> MuseScore on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/MuseScore/icon-64.png" height=24> MuseScore on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/MuseScore/icon-64.png"> MuseScore
 > Professional music notation software - LATEST MuseScore 4!

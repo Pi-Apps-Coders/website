@@ -3,7 +3,7 @@ title: Install OpenSCAD on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/OpenSCAD/icon-64.png" height=24> OpenSCAD on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/OpenSCAD/icon-64.png" height=24> OpenSCAD on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/OpenSCAD/icon-64.png"> OpenSCAD
 > OpenSCAD is software for creating solid 3D CAD models.

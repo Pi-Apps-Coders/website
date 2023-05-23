@@ -3,7 +3,7 @@ title: Install Snapdrop on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Snapdrop/icon-64.png" height=24> Snapdrop on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Snapdrop/icon-64.png" height=24> Snapdrop on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Snapdrop/icon-64.png"> Snapdrop
 > Share files with nearby devices on the local network. Inspired by Apple's Airdrop.

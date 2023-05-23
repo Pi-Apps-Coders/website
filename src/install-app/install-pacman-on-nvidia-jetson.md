@@ -3,7 +3,7 @@ title: Install Pac-Man on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Pac-Man/icon-64.png" height=24> Pac-Man on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Pac-Man/icon-64.png" height=24> Pac-Man on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Pac-Man/icon-64.png"> Pac-Man
 > Pac-Man clone in SLD2 and C/C++

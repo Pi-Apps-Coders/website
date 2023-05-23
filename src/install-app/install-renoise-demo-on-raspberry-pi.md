@@ -3,7 +3,7 @@ title: Install Renoise (Demo) on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Renoise (Demo)/icon-64.png" height=24> Renoise (Demo) on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Renoise (Demo)/icon-64.png" height=24> Renoise (Demo) on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Renoise (Demo)/icon-64.png"> Renoise (Demo)
 > Renoise is a cross-platform Digital Audio Workstation with a unique top-down approach to music composition known as a tracker interface.

@@ -3,7 +3,7 @@ title: Install LibreOffice on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/LibreOffice/icon-64.png" height=24> LibreOffice on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/LibreOffice/icon-64.png" height=24> LibreOffice on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/LibreOffice/icon-64.png"> LibreOffice
 > Free office suite including a word editor, slideshow, spreadsheet, database, and image editor

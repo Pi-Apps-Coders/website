@@ -3,7 +3,7 @@ title: Install DDNet on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/DDNet/icon-64.png" height=24> DDNet on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/DDNet/icon-64.png" height=24> DDNet on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/DDNet/icon-64.png"> DDNet
 > DDRaceNetwork is a 2D cooperative platformer experience. Work together with up to 64 people and push your way through maps.

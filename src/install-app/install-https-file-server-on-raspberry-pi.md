@@ -3,7 +3,7 @@ title: Install Https File Server on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Https File Server/icon-64.png" height=24> Https File Server on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Https File Server/icon-64.png" height=24> Https File Server on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Https File Server/icon-64.png"> Https File Server
 > Simple file-sharing webserver. Other computers on your local network can connect to your computer from the web browser and download files you share.

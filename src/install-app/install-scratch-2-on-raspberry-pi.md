@@ -3,7 +3,7 @@ title: Install Scratch 2 on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Scratch 2/icon-64.png" height=24> Scratch 2 on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Scratch 2/icon-64.png" height=24> Scratch 2 on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Scratch 2/icon-64.png"> Scratch 2
 > Scratch 2 was removed from RPiOS in January. Install it back with this app!

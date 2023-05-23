@@ -3,7 +3,7 @@ title: Install Pi-Apps Terminal Plugin (bash) on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png" height=24> Pi-Apps Terminal Plugin (bash) on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png" height=24> Pi-Apps Terminal Plugin (bash) on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png"> Pi-Apps Terminal Plugin (bash)
 > Pi-apps terminal is a script that lets you use pi-apps from the terminal, its written in bash.

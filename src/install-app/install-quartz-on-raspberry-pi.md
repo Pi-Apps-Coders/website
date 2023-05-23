@@ -3,7 +3,7 @@ title: Install Quartz on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Quartz/icon-64.png" height=24> Quartz on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Quartz/icon-64.png" height=24> Quartz on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Quartz/icon-64.png"> Quartz
 > A useful fast Web Browser for Windows and Linux written in pyqt5 webkit.

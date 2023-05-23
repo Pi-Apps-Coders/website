@@ -3,7 +3,7 @@ title: Install TiLP on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/TiLP/icon-64.png" height=24> TiLP on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/TiLP/icon-64.png" height=24> TiLP on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/TiLP/icon-64.png"> TiLP
 > TiLP is a linking program for Texas Instruments graphing calculators. It can transfer apps, programs, and more to a calculator.

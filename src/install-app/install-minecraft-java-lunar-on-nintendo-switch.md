@@ -3,7 +3,7 @@ title: Install Minecraft Java Lunar on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Minecraft Java Lunar/icon-64.png" height=24> Minecraft Java Lunar on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Minecraft Java Lunar/icon-64.png" height=24> Minecraft Java Lunar on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Minecraft Java Lunar/icon-64.png"> Minecraft Java Lunar
 > Lunar Client is an all-in-one modpack integrated Launcher available for ONLY popular versions of Minecraft.

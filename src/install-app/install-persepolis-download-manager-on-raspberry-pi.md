@@ -3,7 +3,7 @@ title: Install Persepolis Download Manager on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=24> Persepolis Download Manager on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=24> Persepolis Download Manager on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Persepolis Download Manager/icon-64.png"> Persepolis Download Manager
 > Persepolis is a Download Manager and a GUI For aria2. 

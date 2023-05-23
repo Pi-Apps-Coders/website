@@ -3,7 +3,7 @@ title: Install Screenshot on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Screenshot/icon-64.png" height=24> Screenshot on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Screenshot/icon-64.png" height=24> Screenshot on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Screenshot/icon-64.png"> Screenshot
 > Simple interface for capturing screenshots, similar to the Windows Snipping Tool.

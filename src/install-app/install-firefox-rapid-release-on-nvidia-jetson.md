@@ -3,7 +3,7 @@ title: Install Firefox Rapid Release on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=24> Firefox Rapid Release on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=24> Firefox Rapid Release on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Firefox Rapid Release/icon-64.png"> Firefox Rapid Release
 > Latest stable Mozilla Firefox version available. (Downloaded from Ubuntu Repo)

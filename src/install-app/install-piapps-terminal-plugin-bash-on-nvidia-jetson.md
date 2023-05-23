@@ -3,7 +3,7 @@ title: Install Pi-Apps Terminal Plugin (bash) on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png" height=24> Pi-Apps Terminal Plugin (bash) on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png" height=24> Pi-Apps Terminal Plugin (bash) on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png"> Pi-Apps Terminal Plugin (bash)
 > Pi-apps terminal is a script that lets you use pi-apps from the terminal, its written in bash.

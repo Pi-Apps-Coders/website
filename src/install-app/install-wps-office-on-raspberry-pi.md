@@ -3,7 +3,7 @@ title: Install WPS Office on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/WPS Office/icon-64.png" height=24> WPS Office on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/WPS Office/icon-64.png" height=24> WPS Office on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/WPS Office/icon-64.png"> WPS Office
 > This is a Chinese clone of Microsoft Office.

@@ -3,7 +3,7 @@ title: Install Arduino on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Arduino/icon-64.png" height=24> Arduino on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Arduino/icon-64.png" height=24> Arduino on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Arduino/icon-64.png"> Arduino
 > Arduino IDE 1.8.X. Now called Arduino IDE Legacy, based on the Java and Python Frameworks.

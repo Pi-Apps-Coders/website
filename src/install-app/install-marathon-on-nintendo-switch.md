@@ -3,7 +3,7 @@ title: Install Marathon on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Marathon/icon-64.png" height=24> Marathon on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Marathon/icon-64.png" height=24> Marathon on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Marathon/icon-64.png"> Marathon
 > Marathon, Marathon 2 and Marathon Infinity are single and online multiplayer old school 1st person shooter games.

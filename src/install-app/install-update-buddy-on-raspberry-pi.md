@@ -3,7 +3,7 @@ title: Install Update Buddy on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Update Buddy/icon-64.png" height=24> Update Buddy on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Update Buddy/icon-64.png" height=24> Update Buddy on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Update Buddy/icon-64.png"> Update Buddy
 > Automatically check for APT updates on boot.

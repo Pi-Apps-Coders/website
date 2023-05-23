@@ -3,7 +3,7 @@ title: Install Cool Retro Term on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Cool Retro Term/icon-64.png" height=24> Cool Retro Term on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Cool Retro Term/icon-64.png" height=24> Cool Retro Term on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Cool Retro Term/icon-64.png"> Cool Retro Term
 > Simulates an old CRT terminal.

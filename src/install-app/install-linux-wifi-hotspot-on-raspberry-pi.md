@@ -3,7 +3,7 @@ title: Install Linux Wifi Hotspot on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png" height=24> Linux Wifi Hotspot on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png" height=24> Linux Wifi Hotspot on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png"> Linux Wifi Hotspot
 > A feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface.

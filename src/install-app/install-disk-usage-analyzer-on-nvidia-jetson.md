@@ -3,7 +3,7 @@ title: Install Disk Usage Analyzer on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Disk Usage Analyzer/icon-64.png" height=24> Disk Usage Analyzer on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Disk Usage Analyzer/icon-64.png" height=24> Disk Usage Analyzer on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Disk Usage Analyzer/icon-64.png"> Disk Usage Analyzer
 > Ever wonder where you put that big file, or why your SD card is full? Now you can, with a glance at a pie chart.

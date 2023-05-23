@@ -3,7 +3,7 @@ title: Install Syncthing on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Syncthing/icon-64.png" height=24> Syncthing on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Syncthing/icon-64.png" height=24> Syncthing on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Syncthing/icon-64.png"> Syncthing
 > A sync manager that syncs folders to different devices no matter where you are!

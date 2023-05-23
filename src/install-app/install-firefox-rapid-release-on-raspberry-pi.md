@@ -3,7 +3,7 @@ title: Install Firefox Rapid Release on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=24> Firefox Rapid Release on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=24> Firefox Rapid Release on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Firefox Rapid Release/icon-64.png"> Firefox Rapid Release
 > Latest stable Mozilla Firefox version available. (Downloaded from Ubuntu Repo)

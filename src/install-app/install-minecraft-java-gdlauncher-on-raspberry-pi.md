@@ -3,7 +3,7 @@ title: Install Minecraft Java GDLauncher on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=24> Minecraft Java GDLauncher on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=24> Minecraft Java GDLauncher on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png"> Minecraft Java GDLauncher
 > GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. This is a CUSTOM BUILD of GDLauncher for ARM32/ARM64 support.

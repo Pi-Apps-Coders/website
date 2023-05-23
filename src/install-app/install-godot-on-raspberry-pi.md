@@ -3,7 +3,7 @@ title: Install Godot on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Godot/icon-64.png" height=24> Godot on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Godot/icon-64.png" height=24> Godot on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Godot/icon-64.png"> Godot
 > Open Source Game Engine that runs fine on the Raspberry Pi (for 2d games).

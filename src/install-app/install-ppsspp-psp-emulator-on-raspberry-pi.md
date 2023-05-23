@@ -3,7 +3,7 @@ title: Install PPSSPP (PSP emulator) on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png" height=24> PPSSPP (PSP emulator) on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png" height=24> PPSSPP (PSP emulator) on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png"> PPSSPP (PSP emulator)
 > A PSP emulator that can run PSP games in full HD and can upscale textures also.

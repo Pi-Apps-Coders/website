@@ -3,7 +3,7 @@ title: Install KeePassXC on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/KeePassXC/icon-64.png" height=24> KeePassXC on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/KeePassXC/icon-64.png" height=24> KeePassXC on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/KeePassXC/icon-64.png"> KeePassXC
 > KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.

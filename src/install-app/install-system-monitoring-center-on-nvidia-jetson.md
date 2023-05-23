@@ -3,7 +3,7 @@ title: Install System Monitoring Center on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=24> System Monitoring Center on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=24> System Monitoring Center on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/System Monitoring Center/icon-64.png"> System Monitoring Center
 > Graphical Linux System Monitor that provides information about CPU/RAM/Disk/Network/GPU performance, sensors, processes, users, startup programs, services and system info.

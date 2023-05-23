@@ -3,7 +3,7 @@ title: Install Kolourpaint on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Kolourpaint/icon-64.png" height=24> Kolourpaint on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Kolourpaint/icon-64.png" height=24> Kolourpaint on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Kolourpaint/icon-64.png"> Kolourpaint
 > An easy-to-use paint program.

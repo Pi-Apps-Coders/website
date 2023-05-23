@@ -3,7 +3,7 @@ title: Install Arduino on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Arduino/icon-64.png" height=24> Arduino on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Arduino/icon-64.png" height=24> Arduino on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Arduino/icon-64.png"> Arduino
 > Arduino IDE 1.8.X. Now called Arduino IDE Legacy, based on the Java and Python Frameworks.

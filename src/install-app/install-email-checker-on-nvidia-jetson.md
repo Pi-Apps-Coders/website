@@ -3,7 +3,7 @@ title: Install Email Checker on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Email Checker/icon-64.png" height=24> Email Checker on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Email Checker/icon-64.png" height=24> Email Checker on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Email Checker/icon-64.png"> Email Checker
 > Continuously checks for new emails and display a notification if there are any.

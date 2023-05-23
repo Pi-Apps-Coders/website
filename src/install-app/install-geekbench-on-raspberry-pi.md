@@ -3,7 +3,7 @@ title: Install Geekbench on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Geekbench/icon-64.png" height=24> Geekbench on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Geekbench/icon-64.png" height=24> Geekbench on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Geekbench/icon-64.png"> Geekbench
 > Geekbench 5 is a cross-platform benchmark that measures your system's performance with the press of a button. 

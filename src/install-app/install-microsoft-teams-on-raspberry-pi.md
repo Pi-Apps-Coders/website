@@ -3,7 +3,7 @@ title: Install Microsoft Teams on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Microsoft Teams/icon-64.png" height=24> Microsoft Teams on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Microsoft Teams/icon-64.png" height=24> Microsoft Teams on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Microsoft Teams/icon-64.png"> Microsoft Teams
 > Microsoft Teams is a proprietary business communication platform developed by Microsoft, as part of the Microsoft 365 family of products. 

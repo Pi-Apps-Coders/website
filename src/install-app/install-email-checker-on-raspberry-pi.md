@@ -3,7 +3,7 @@ title: Install Email Checker on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Email Checker/icon-64.png" height=24> Email Checker on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Email Checker/icon-64.png" height=24> Email Checker on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Email Checker/icon-64.png"> Email Checker
 > Continuously checks for new emails and display a notification if there are any.

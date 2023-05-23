@@ -3,7 +3,7 @@ title: Install Doom 3 on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Doom 3/icon-64.png" height=24> Doom 3 on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Doom 3/icon-64.png" height=24> Doom 3 on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Doom 3/icon-64.png"> Doom 3
 > Doom 3 is a 2004 horror first-person shooter video game developed by id Software and published by Activision.

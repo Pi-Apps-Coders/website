@@ -3,7 +3,7 @@ title: Install Zoom PWA on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Zoom PWA/icon-64.png" height=24> Zoom PWA on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Zoom PWA/icon-64.png" height=24> Zoom PWA on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Zoom PWA/icon-64.png"> Zoom PWA
 > Web-app for Zoom

@@ -3,7 +3,7 @@ title: Install Geekbench on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Geekbench/icon-64.png" height=24> Geekbench on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Geekbench/icon-64.png" height=24> Geekbench on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Geekbench/icon-64.png"> Geekbench
 > Geekbench 5 is a cross-platform benchmark that measures your system's performance with the press of a button. 

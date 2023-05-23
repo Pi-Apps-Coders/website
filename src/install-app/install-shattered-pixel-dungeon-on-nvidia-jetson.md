@@ -3,7 +3,7 @@ title: Install Shattered Pixel Dungeon on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png" height=24> Shattered Pixel Dungeon on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png" height=24> Shattered Pixel Dungeon on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png"> Shattered Pixel Dungeon
 > Shattered Pixel Dungeon is a Roguelike Dungeon Crawler RPG with pixel art graphics.

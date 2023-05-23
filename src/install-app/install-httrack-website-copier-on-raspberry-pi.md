@@ -3,7 +3,7 @@ title: Install HTTrack Website Copier on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/HTTrack Website Copier/icon-64.png" height=24> HTTrack Website Copier on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/HTTrack Website Copier/icon-64.png" height=24> HTTrack Website Copier on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/HTTrack Website Copier/icon-64.png"> HTTrack Website Copier
 > HTTrack is a free and easy-to-use offline browser utility.

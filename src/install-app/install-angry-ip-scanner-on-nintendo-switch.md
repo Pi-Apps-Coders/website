@@ -3,7 +3,7 @@ title: Install Angry IP scanner on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Angry IP scanner/icon-64.png" height=24> Angry IP scanner on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Angry IP scanner/icon-64.png" height=24> Angry IP scanner on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Angry IP scanner/icon-64.png"> Angry IP scanner
 > Scans local networks as well as Internet

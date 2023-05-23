@@ -3,7 +3,7 @@ title: Install NixNote2 on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/NixNote2/icon-64.png" height=24> NixNote2 on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/NixNote2/icon-64.png" height=24> NixNote2 on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/NixNote2/icon-64.png"> NixNote2
 > Take notes, organize your schedule, and save websites with this offline and open-source Evernote client.

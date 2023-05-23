@@ -3,7 +3,7 @@ title: Install VeraCrypt on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/VeraCrypt/icon-64.png" height=24> VeraCrypt on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/VeraCrypt/icon-64.png" height=24> VeraCrypt on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/VeraCrypt/icon-64.png"> VeraCrypt
 > Open source disk encryption software

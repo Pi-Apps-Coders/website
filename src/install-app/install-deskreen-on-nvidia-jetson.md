@@ -3,7 +3,7 @@ title: Install Deskreen on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Deskreen/icon-64.png" height=24> Deskreen on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Deskreen/icon-64.png" height=24> Deskreen on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Deskreen/icon-64.png"> Deskreen
 > Share your desktop to your browser, and turn any device into a second screen!

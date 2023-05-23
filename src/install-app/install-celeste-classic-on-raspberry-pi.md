@@ -3,7 +3,7 @@ title: Install Celeste Classic on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Celeste Classic/icon-64.png" height=24> Celeste Classic on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Celeste Classic/icon-64.png" height=24> Celeste Classic on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Celeste Classic/icon-64.png"> Celeste Classic
 > This is a C source port of the original celeste (Celeste classic) for the PICO-8, designed to be portable.

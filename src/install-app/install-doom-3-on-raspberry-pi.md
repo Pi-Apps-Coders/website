@@ -3,7 +3,7 @@ title: Install Doom 3 on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Doom 3/icon-64.png" height=24> Doom 3 on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Doom 3/icon-64.png" height=24> Doom 3 on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Doom 3/icon-64.png"> Doom 3
 > Doom 3 is a 2004 horror first-person shooter video game developed by id Software and published by Activision.

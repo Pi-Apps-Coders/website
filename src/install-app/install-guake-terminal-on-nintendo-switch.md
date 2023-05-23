@@ -3,7 +3,7 @@ title: Install Guake Terminal on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Guake Terminal/icon-64.png" height=24> Guake Terminal on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Guake Terminal/icon-64.png" height=24> Guake Terminal on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Guake Terminal/icon-64.png"> Guake Terminal
 > Guake is a top-down terminal, inspirated by the famous terminal used in Quake.

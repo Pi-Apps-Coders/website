@@ -3,7 +3,7 @@ title: Install Scratch 3 on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Scratch 3/icon-64.png" height=24> Scratch 3 on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Scratch 3/icon-64.png" height=24> Scratch 3 on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Scratch 3/icon-64.png"> Scratch 3
 > Enjoy learning computer programming with drag-n-drop blocks!

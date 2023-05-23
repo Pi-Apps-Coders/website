@@ -3,7 +3,7 @@ title: Install AnyDesk on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/AnyDesk/icon-64.png" height=24> AnyDesk on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/AnyDesk/icon-64.png" height=24> AnyDesk on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/AnyDesk/icon-64.png"> AnyDesk
 > AnyDesk is the ultimate remote desktop solution for editing and maintaining a desktop or server from a remote location using Linux on Raspberry Pi.

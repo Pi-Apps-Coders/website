@@ -3,7 +3,7 @@ title: Install Color Emoji font on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Color Emoji font/icon-64.png" height=24> Color Emoji font on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Color Emoji font/icon-64.png" height=24> Color Emoji font on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Color Emoji font/icon-64.png"> Color Emoji font
 > Installs two fonts to display all emojis in the Unicode Emoji 13.0.

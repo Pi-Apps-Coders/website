@@ -3,7 +3,7 @@ title: Install Angry IP scanner on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Angry IP scanner/icon-64.png" height=24> Angry IP scanner on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Angry IP scanner/icon-64.png" height=24> Angry IP scanner on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Angry IP scanner/icon-64.png"> Angry IP scanner
 > Scans local networks as well as Internet

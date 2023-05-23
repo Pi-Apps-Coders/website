@@ -3,7 +3,7 @@ title: Install CloudBuddy on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/CloudBuddy/icon-64.png" height=24> CloudBuddy on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/CloudBuddy/icon-64.png" height=24> CloudBuddy on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/CloudBuddy/icon-64.png"> CloudBuddy
 > CloudBuddy is the ultimate wizard for cloud storage. Google Drive, Onedrive, Dropbox, and many more.

@@ -3,7 +3,7 @@ title: Install VMware Horizon Client on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/VMware Horizon Client/icon-64.png" height=24> VMware Horizon Client on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/VMware Horizon Client/icon-64.png" height=24> VMware Horizon Client on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/VMware Horizon Client/icon-64.png"> VMware Horizon Client
 > VMware Horizon Client allows your end users to connect to their VMware Horizon View VM from a device of choice.

@@ -3,7 +3,7 @@ title: Install Pycharm CE on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Pycharm CE/icon-64.png" height=24> Pycharm CE on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Pycharm CE/icon-64.png" height=24> Pycharm CE on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Pycharm CE/icon-64.png"> Pycharm CE
 > Python Community Edition IDE for Professional and Educational Developers.

@@ -3,7 +3,7 @@ title: Install Persepolis Download Manager on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=24> Persepolis Download Manager on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=24> Persepolis Download Manager on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Persepolis Download Manager/icon-64.png"> Persepolis Download Manager
 > Persepolis is a Download Manager and a GUI For aria2. 

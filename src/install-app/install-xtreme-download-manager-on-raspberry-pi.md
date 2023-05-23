@@ -3,7 +3,7 @@ title: Install Xtreme Download Manager on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Xtreme Download Manager/icon-64.png" height=24> Xtreme Download Manager on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Xtreme Download Manager/icon-64.png" height=24> Xtreme Download Manager on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Xtreme Download Manager/icon-64.png"> Xtreme Download Manager
 > Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, save and convert streaming videos from thousands of websites, resume broken/dead downloads and schedule downloads.

@@ -3,7 +3,7 @@ title: Install MatterControl on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/MatterControl/icon-64.png" height=24> MatterControl on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/MatterControl/icon-64.png" height=24> MatterControl on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/MatterControl/icon-64.png"> MatterControl
 > MatterControl is an all-in-one program to create, edit, slice, and manage your 3D prints.

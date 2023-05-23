@@ -3,7 +3,7 @@ title: Install SimpleScreenRecorder on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=24> SimpleScreenRecorder on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=24> SimpleScreenRecorder on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png"> SimpleScreenRecorder
 > Feature-rich screen recorder for X11 and OpenGL

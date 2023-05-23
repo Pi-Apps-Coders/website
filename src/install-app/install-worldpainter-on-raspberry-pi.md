@@ -3,7 +3,7 @@ title: Install WorldPainter on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/WorldPainter/icon-64.png" height=24> WorldPainter on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/WorldPainter/icon-64.png" height=24> WorldPainter on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/WorldPainter/icon-64.png"> WorldPainter
 > WorldPainter is an interactive map generator for Minecraft.

@@ -3,7 +3,7 @@ title: Install Microsoft PowerShell on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Microsoft PowerShell/icon-64.png" height=24> Microsoft PowerShell on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Microsoft PowerShell/icon-64.png" height=24> Microsoft PowerShell on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Microsoft PowerShell/icon-64.png"> Microsoft PowerShell
 > PowerShell is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.

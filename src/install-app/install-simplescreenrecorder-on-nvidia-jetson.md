@@ -3,7 +3,7 @@ title: Install SimpleScreenRecorder on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=24> SimpleScreenRecorder on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=24> SimpleScreenRecorder on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png"> SimpleScreenRecorder
 > Feature-rich screen recorder for X11 and OpenGL

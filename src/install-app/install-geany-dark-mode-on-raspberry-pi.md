@@ -3,7 +3,7 @@ title: Install Geany Dark Mode on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Geany Dark Mode/icon-64.png" height=24> Geany Dark Mode on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Geany Dark Mode/icon-64.png" height=24> Geany Dark Mode on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Geany Dark Mode/icon-64.png"> Geany Dark Mode
 > Proper appearance theme for the Geany text editor.

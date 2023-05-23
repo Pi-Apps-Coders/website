@@ -3,7 +3,7 @@ title: Install Sysmon on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Sysmon/icon-64.png" height=24> Sysmon on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Sysmon/icon-64.png" height=24> Sysmon on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Sysmon/icon-64.png"> Sysmon
 > Monitor your Raspberry Pi using a web browser on another computer.

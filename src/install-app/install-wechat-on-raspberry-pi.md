@@ -3,7 +3,7 @@ title: Install Wechat on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Wechat/icon-64.png" height=24> Wechat on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Wechat/icon-64.png" height=24> Wechat on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Wechat/icon-64.png"> Wechat
 > WeChat is a Chinese multi-purpose instant messaging, social media and mobile payment app developed by Tencent. 

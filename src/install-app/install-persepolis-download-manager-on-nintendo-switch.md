@@ -3,7 +3,7 @@ title: Install Persepolis Download Manager on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=24> Persepolis Download Manager on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=24> Persepolis Download Manager on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Persepolis Download Manager/icon-64.png"> Persepolis Download Manager
 > Persepolis is a Download Manager and a GUI For aria2. 

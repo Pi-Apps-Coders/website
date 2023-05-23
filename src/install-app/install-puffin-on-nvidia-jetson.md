@@ -3,7 +3,7 @@ title: Install Puffin on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Puffin/icon-64.png" height=24> Puffin on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Puffin/icon-64.png" height=24> Puffin on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Puffin/icon-64.png"> Puffin
 > Speeds up web browsing thanks to cloud servers.

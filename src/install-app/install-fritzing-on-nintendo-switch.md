@@ -3,7 +3,7 @@ title: Install Fritzing on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Fritzing/icon-64.png" height=24> Fritzing on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Fritzing/icon-64.png" height=24> Fritzing on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Fritzing/icon-64.png"> Fritzing
 > The Fritzing application is an Electronic Design Automation software with a low entry barrier, suited for the needs of makers and hobbyists.

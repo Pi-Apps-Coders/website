@@ -3,7 +3,7 @@ title: Install Box64 on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Box64/icon-64.png" height=24> Box64 on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Box64/icon-64.png" height=24> Box64 on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Box64/icon-64.png"> Box64
 > Easily emulate x86_64 linux apps on ARM64.

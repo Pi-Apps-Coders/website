@@ -3,7 +3,7 @@ title: Install XSnow on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/XSnow/icon-64.png" height=24> XSnow on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/XSnow/icon-64.png" height=24> XSnow on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/XSnow/icon-64.png"> XSnow
 > This turns your desktop wallpaper into an animated winter wonderland!

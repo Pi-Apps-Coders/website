@@ -3,7 +3,7 @@ title: Install Cawbird on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Cawbird/icon-64.png" height=24> Cawbird on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Cawbird/icon-64.png" height=24> Cawbird on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Cawbird/icon-64.png"> Cawbird
 > Cawbird is a fork of the Corebird GTK Twitter client that continues to work with Twitter.

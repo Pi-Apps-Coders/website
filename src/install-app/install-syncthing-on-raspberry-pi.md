@@ -3,7 +3,7 @@ title: Install Syncthing on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Syncthing/icon-64.png" height=24> Syncthing on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Syncthing/icon-64.png" height=24> Syncthing on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Syncthing/icon-64.png"> Syncthing
 > A sync manager that syncs folders to different devices no matter where you are!

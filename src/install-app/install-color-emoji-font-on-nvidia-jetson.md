@@ -3,7 +3,7 @@ title: Install Color Emoji font on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Color Emoji font/icon-64.png" height=24> Color Emoji font on <img src=https://assets.nvidiagrid.net/favicon.ico height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Color Emoji font/icon-64.png" height=24> Color Emoji font on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Color Emoji font/icon-64.png"> Color Emoji font
 > Installs two fonts to display all emojis in the Unicode Emoji 13.0.

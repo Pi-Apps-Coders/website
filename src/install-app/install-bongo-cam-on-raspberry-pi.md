@@ -3,7 +3,7 @@ title: Install Bongo Cam on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Bongo Cam/icon-64.png" height=24> Bongo Cam on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Bongo Cam/icon-64.png" height=24> Bongo Cam on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Bongo Cam/icon-64.png"> Bongo Cam
 > If you want to make a video but don't want to show your face, why not use this animated cat program?

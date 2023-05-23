@@ -3,7 +3,7 @@ title: Install CloudBuddy on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/CloudBuddy/icon-64.png" height=24> CloudBuddy on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/CloudBuddy/icon-64.png" height=24> CloudBuddy on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/CloudBuddy/icon-64.png"> CloudBuddy
 > CloudBuddy is the ultimate wizard for cloud storage. Google Drive, Onedrive, Dropbox, and many more.

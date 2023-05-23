@@ -3,7 +3,7 @@ title: Install Heroes 2 on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Heroes 2/icon-64.png" height=24> Heroes 2 on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Heroes 2/icon-64.png" height=24> Heroes 2 on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Heroes 2/icon-64.png"> Heroes 2
 > Free implementation of Heroes of Might and Magic II game engine.

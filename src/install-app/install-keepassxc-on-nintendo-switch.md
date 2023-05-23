@@ -3,7 +3,7 @@ title: Install KeePassXC on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/KeePassXC/icon-64.png" height=24> KeePassXC on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/KeePassXC/icon-64.png" height=24> KeePassXC on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/KeePassXC/icon-64.png"> KeePassXC
 > KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.

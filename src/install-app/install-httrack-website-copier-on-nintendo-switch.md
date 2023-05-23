@@ -3,7 +3,7 @@ title: Install HTTrack Website Copier on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/HTTrack Website Copier/icon-64.png" height=24> HTTrack Website Copier on <img src=https://switchroot.org/logo.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/HTTrack Website Copier/icon-64.png" height=24> HTTrack Website Copier on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/HTTrack Website Copier/icon-64.png"> HTTrack Website Copier
 > HTTrack is a free and easy-to-use offline browser utility.

@@ -3,7 +3,7 @@ title: Install Codex on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Codex/icon-64.png" height=24> Codex on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Codex/icon-64.png" height=24> Codex on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Codex/icon-64.png"> Codex
 > A free note-taking software for programmers and Computer Science students.

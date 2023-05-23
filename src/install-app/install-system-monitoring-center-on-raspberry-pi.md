@@ -3,7 +3,7 @@ title: Install System Monitoring Center on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=24> System Monitoring Center on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=24> System Monitoring Center on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/System Monitoring Center/icon-64.png"> System Monitoring Center
 > Graphical Linux System Monitor that provides information about CPU/RAM/Disk/Network/GPU performance, sensors, processes, users, startup programs, services and system info.

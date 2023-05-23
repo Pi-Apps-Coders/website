@@ -3,7 +3,7 @@ title: Install Scratch 3 on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Scratch 3/icon-64.png" height=24> Scratch 3 on <img src=https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Scratch 3/icon-64.png" height=24> Scratch 3 on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Scratch 3/icon-64.png"> Scratch 3
 > Enjoy learning computer programming with drag-n-drop blocks!
