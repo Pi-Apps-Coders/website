@@ -226,7 +226,7 @@ Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most R
     elif [[ "$hardware" == "Nintendo Switch" ]]; then
       hw_compat_message="## Compatibility
 For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide), which is currently version **5.1.0 Ubuntu Bionic**."
-      hw_img="<img src=/img/other-icons/switchroot-icon.png height=24> "
+      hw_img="<img src=/img/other-icons/switch-icon.svg height=24> "
     elif [[ "$hardware" == "Nvidia Jetson" ]]; then
       hw_compat_message="## Compatibility
 For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson TX1, Jetson Nano, Jetson TX2, Jetson Xavier, or Jetson Orin)."
