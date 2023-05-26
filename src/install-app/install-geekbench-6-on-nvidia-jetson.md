@@ -1,27 +1,27 @@
 ---
-title: Install Geekbench on Nvidia Jetson | Pi-Apps
+title: Install Geekbench 6 on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Geekbench/icon-64.png" height=24> Geekbench on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Geekbench 6/icon-64.png" height=24> Geekbench 6 on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
-## <img src="/img/app-icons/Geekbench/icon-64.png"> Geekbench
-> Geekbench 5 is a cross-platform benchmark that measures your system's performance with the press of a button. 
+## <img src="/img/app-icons/Geekbench 6/icon-64.png"> Geekbench 6
+> Geekbench 6 is a cross-platform benchmark that measures your system's performance with the press of a button. 
 > How will your mobile device or desktop computer perform when push comes to crunch? 
 > How will it compare to the newest devices on the market? 
-> Find out today with Geekbench 5.
+> Find out today with Geekbench 6.
 > 
-> To run in a terminal: geekbench
+> To run in a terminal: geekbench6
 
-Fortunately, Geekbench is very easy to install on your Nvidia Jetson in just two steps.
+Fortunately, Geekbench 6 is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
-2. Use Pi-Apps to install Geekbench.
+2. Use Pi-Apps to install Geekbench 6.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson TX1, Jetson Nano, Jetson TX2, Jetson Xavier, or Jetson Orin).
-Geekbench will run on L4T Ubuntu ARM64.
+Geekbench 6 will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
@@ -37,16 +37,16 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 </div>
 <div class="simple-install-content content">
 
-## Install Geekbench
+## Install Geekbench 6
 
-Now that you have Pi-Apps installed, it is time to install Geekbench.
+Now that you have Pi-Apps installed, it is time to install Geekbench 6.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
 Then click on the Tools category.
 <img src="/img/category-selections/Tools.png">
-Now scroll down to find Geekbench in the list.
-<img src="/img/app-icons/Geekbench/app-selection.png">
-Just click Install and Pi-Apps will install Geekbench for you!
+Now scroll down to find Geekbench 6 in the list.
+<img src="/img/app-icons/Geekbench 6/app-selection.png">
+Just click Install and Pi-Apps will install Geekbench 6 for you!
 </div>
 <div class="simple-install-content content">
 

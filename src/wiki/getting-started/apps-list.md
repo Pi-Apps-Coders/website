@@ -2576,16 +2576,28 @@ To use: find the flameshot icon in your taskbar (system tray) and click it to op
 To run in a terminal: flameshot
 ```
 
-### <img src="/img/app-icons/Geekbench/icon-64.png" height=32> ***[Geekbench](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench)***
+### <img src="/img/app-icons/Geekbench 5/icon-64.png" height=32> ***[Geekbench 5](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench%205)***
 https://www.geekbench.com/<br />
-ARM32/ARM64 - 4,821 Users!
+ARM32/ARM64
 ```
 Geekbench 5 is a cross-platform benchmark that measures your system's performance with the press of a button. 
 How will your mobile device or desktop computer perform when push comes to crunch? 
 How will it compare to the newest devices on the market? 
 Find out today with Geekbench 5.
 
-To run in a terminal: geekbench
+To run in a terminal: geekbench5
+```
+
+### <img src="/img/app-icons/Geekbench 6/icon-64.png" height=32> ***[Geekbench 6](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench%206)***
+https://www.geekbench.com/<br />
+ARM64 ONLY
+```
+Geekbench 6 is a cross-platform benchmark that measures your system's performance with the press of a button. 
+How will your mobile device or desktop computer perform when push comes to crunch? 
+How will it compare to the newest devices on the market? 
+Find out today with Geekbench 6.
+
+To run in a terminal: geekbench6
 ```
 
 ### <img src="/img/app-icons/Https File Server/icon-64.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
