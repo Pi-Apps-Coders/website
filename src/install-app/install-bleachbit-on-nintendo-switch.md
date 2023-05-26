@@ -3,7 +3,7 @@ title: Install BleachBit on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/BleachBit/icon-64.png" height=24> BleachBit on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/BleachBit/icon-64.png" height=24> BleachBit on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/BleachBit/icon-64.png"> BleachBit
 > BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer. Not outdated like the APT repo's BleachBit.

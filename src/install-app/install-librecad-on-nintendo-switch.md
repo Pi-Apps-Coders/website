@@ -3,7 +3,7 @@ title: Install LibreCAD on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/LibreCAD/icon-64.png" height=24> LibreCAD on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/LibreCAD/icon-64.png" height=24> LibreCAD on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/LibreCAD/icon-64.png"> LibreCAD
 > Open Source 2D-CAD

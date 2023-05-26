@@ -3,7 +3,7 @@ title: Install Pi-Apps Terminal Plugin (bash) on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png" height=24> Pi-Apps Terminal Plugin (bash) on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png" height=24> Pi-Apps Terminal Plugin (bash) on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Pi-Apps Terminal Plugin (bash)/icon-64.png"> Pi-Apps Terminal Plugin (bash)
 > Pi-apps terminal is a script that lets you use pi-apps from the terminal, its written in bash.

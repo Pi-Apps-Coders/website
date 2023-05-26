@@ -3,7 +3,7 @@ title: Install System Monitoring Center on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=24> System Monitoring Center on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=24> System Monitoring Center on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/System Monitoring Center/icon-64.png"> System Monitoring Center
 > Graphical Linux System Monitor that provides information about CPU/RAM/Disk/Network/GPU performance, sensors, processes, users, startup programs, services and system info.

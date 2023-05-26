@@ -3,7 +3,7 @@ title: Install Friday Night Funkin' Rewritten on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Friday Night Funkin' Rewritten/icon-64.png" height=24> Friday Night Funkin' Rewritten on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Friday Night Funkin' Rewritten/icon-64.png" height=24> Friday Night Funkin' Rewritten on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Friday Night Funkin' Rewritten/icon-64.png"> Friday Night Funkin' Rewritten
 > Friday Night Funkin’ is a musical rhythm game where you compete in freestyle music battles.

@@ -3,7 +3,7 @@ title: Install Conky Rings on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Conky Rings/icon-64.png" height=24> Conky Rings on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Conky Rings/icon-64.png" height=24> Conky Rings on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Conky Rings/icon-64.png"> Conky Rings
 > Animated gauges and graphs of your system, on your desktop.

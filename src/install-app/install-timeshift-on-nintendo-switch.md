@@ -3,7 +3,7 @@ title: Install Timeshift on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Timeshift/icon-64.png" height=24> Timeshift on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Timeshift/icon-64.png" height=24> Timeshift on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Timeshift/icon-64.png"> Timeshift
 > System restore tool for Linux that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS.

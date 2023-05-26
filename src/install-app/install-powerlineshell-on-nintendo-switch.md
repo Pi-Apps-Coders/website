@@ -3,7 +3,7 @@ title: Install Powerline-Shell on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=24> Powerline-Shell on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=24> Powerline-Shell on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Powerline-Shell/icon-64.png"> Powerline-Shell
 > A beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh:

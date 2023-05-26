@@ -3,7 +3,7 @@ title: Install Thunderbird on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Thunderbird/icon-64.png" height=24> Thunderbird on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Thunderbird/icon-64.png" height=24> Thunderbird on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Thunderbird/icon-64.png"> Thunderbird
 > Email client with many features like a tabbed interface, smart spam filter, address book, search and filter tools, encryption, and numerous add-ons.

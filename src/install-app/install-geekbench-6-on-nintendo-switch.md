@@ -3,7 +3,7 @@ title: Install Geekbench 6 on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Geekbench 6/icon-64.png" height=24> Geekbench 6 on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Geekbench 6/icon-64.png" height=24> Geekbench 6 on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Geekbench 6/icon-64.png"> Geekbench 6
 > Geekbench 6 is a cross-platform benchmark that measures your system's performance with the press of a button. 

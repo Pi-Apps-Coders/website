@@ -3,7 +3,7 @@ title: Install Shattered Pixel Dungeon on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png" height=24> Shattered Pixel Dungeon on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png" height=24> Shattered Pixel Dungeon on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png"> Shattered Pixel Dungeon
 > Shattered Pixel Dungeon is a Roguelike Dungeon Crawler RPG with pixel art graphics.

@@ -3,7 +3,7 @@ title: Install Microsoft Teams on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Microsoft Teams/icon-64.png" height=24> Microsoft Teams on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Microsoft Teams/icon-64.png" height=24> Microsoft Teams on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Microsoft Teams/icon-64.png"> Microsoft Teams
 > Microsoft Teams is a proprietary business communication platform developed by Microsoft, as part of the Microsoft 365 family of products. 

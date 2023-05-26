@@ -3,7 +3,7 @@ title: Install Minecraft Java Prism Launcher on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png" height=24> Minecraft Java Prism Launcher on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png" height=24> Minecraft Java Prism Launcher on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png"> Minecraft Java Prism Launcher
 > Prism Launcher is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.

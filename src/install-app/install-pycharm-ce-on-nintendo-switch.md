@@ -3,7 +3,7 @@ title: Install Pycharm CE on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Pycharm CE/icon-64.png" height=24> Pycharm CE on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Pycharm CE/icon-64.png" height=24> Pycharm CE on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Pycharm CE/icon-64.png"> Pycharm CE
 > Python Community Edition IDE for Professional and Educational Developers.

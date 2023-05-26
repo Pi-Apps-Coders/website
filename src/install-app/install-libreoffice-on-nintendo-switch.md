@@ -3,7 +3,7 @@ title: Install LibreOffice on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/LibreOffice/icon-64.png" height=24> LibreOffice on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/LibreOffice/icon-64.png" height=24> LibreOffice on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/LibreOffice/icon-64.png"> LibreOffice
 > Free office suite including a word editor, slideshow, spreadsheet, database, and image editor

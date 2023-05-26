@@ -3,7 +3,7 @@ title: Install Minecraft Java GDLauncher on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=24> Minecraft Java GDLauncher on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=24> Minecraft Java GDLauncher on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png"> Minecraft Java GDLauncher
 > GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. This is a CUSTOM BUILD of GDLauncher for ARM32/ARM64 support.

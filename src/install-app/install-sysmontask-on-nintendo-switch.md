@@ -3,7 +3,7 @@ title: Install SysMonTask on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/SysMonTask/icon-64.png" height=24> SysMonTask on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/SysMonTask/icon-64.png" height=24> SysMonTask on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/SysMonTask/icon-64.png"> SysMonTask
 > Linux system monitor similar to the Windows task manager, written in Python.

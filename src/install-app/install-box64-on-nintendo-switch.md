@@ -3,7 +3,7 @@ title: Install Box64 on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Box64/icon-64.png" height=24> Box64 on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Box64/icon-64.png" height=24> Box64 on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Box64/icon-64.png"> Box64
 > Easily emulate x86_64 linux apps on ARM64.

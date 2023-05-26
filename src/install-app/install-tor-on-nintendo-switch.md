@@ -3,7 +3,7 @@ title: Install Tor on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Tor/icon-64.png" height=24> Tor on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Tor/icon-64.png" height=24> Tor on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Tor/icon-64.png"> Tor
 > The Tor Browser is a web broswer that anonymizes your web traffic using the Tor network, making it easy to protect your identity online.

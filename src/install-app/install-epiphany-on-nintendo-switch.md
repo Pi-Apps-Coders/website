@@ -3,7 +3,7 @@ title: Install Epiphany on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Epiphany/icon-64.png" height=24> Epiphany on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Epiphany/icon-64.png" height=24> Epiphany on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Epiphany/icon-64.png"> Epiphany
 > Epiphany is a lightweight web browser based on the WebKit rendering engine. It is also known as GNOME Web.

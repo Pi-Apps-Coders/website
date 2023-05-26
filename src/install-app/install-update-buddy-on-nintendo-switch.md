@@ -3,7 +3,7 @@ title: Install Update Buddy on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Update Buddy/icon-64.png" height=24> Update Buddy on <img src=/img/other-icons/switchroot-icon.png height=24> Nintendo Switch
+# Install <img src="/img/app-icons/Update Buddy/icon-64.png" height=24> Update Buddy on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Update Buddy/icon-64.png"> Update Buddy
 > Automatically check for APT updates on boot.
