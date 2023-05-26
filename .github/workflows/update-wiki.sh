@@ -139,7 +139,7 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
       if ! git diff --exit-code "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" >/dev/null;then
         export-svg "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
       else
-        git restore "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
+        git restore "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png" || export-svg "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
       fi      
       categorymessage="Then click on the $mainfolder category, which leads to the $subfolder category."
     else
@@ -307,7 +307,7 @@ EOF
       if ! git diff --exit-code "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" >/dev/null;then
         export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
       else
-        git restore "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
+        git restore "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png" || export-svg "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.svg" "$GITHUB_WORKSPACE/src/img/app-icons/$app/app-selection.png"
       fi
       cd "$CPWD"
     fi
