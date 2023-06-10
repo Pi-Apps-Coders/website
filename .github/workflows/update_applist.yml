@@ -81,6 +81,7 @@ jobs:
           npm ci
           npm run build
           cp CNAME _site/CNAME
+          cp google6dec36f39e57b8f9.html _site/google6dec36f39e57b8f9.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
