@@ -6,7 +6,8 @@ title: Install Minecraft Java Server on Nvidia Jetson | Pi-Apps
 # Install <img src="/img/app-icons/Minecraft Java Server/icon-64.png" height=24> Minecraft Java Server on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Minecraft Java Server/icon-64.png"> Minecraft Java Server
-> This is a simple tool to create a Minecraft server: Vanilla, Fabric, Forge, Paper, Bukkit, Spigot, Sponge, Purpur and Tuinity are supported
+> This is a simple tool to create a Minecraft server: Vanilla, Fabric, Forge, Paper, Sponge, Purpur are supported
+> (Bukkit and Spigot support not currently present until https://serverjars.com is able to rebuild their database)
 > 
 > You can play over your local network (or you can create a port forward on your internet router/modem at port 25565 to play over the internet)
 > 
