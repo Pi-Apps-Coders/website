@@ -12,4 +12,4 @@ However you can chance the launcher theme to a present dark or light theme as we
 
 All you have to do is head the to the Pi-Apps settings and use the dropdown labeled **App List Style**
 
-<img src="{{ '/img/screenshots/settings.png' | url }}"/>
+{% image "Pi-Apps Settings", "./src/img/screenshots/settings.png", "./src/img/screenshots/settings dark.png" %}

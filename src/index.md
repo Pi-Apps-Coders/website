@@ -7,6 +7,7 @@ hero:
   100% open-source bash scripts (including the GUI).'
   image:
     light: "./src/img/screenshots/main window.png"
+    dark: "./src/img/screenshots/main window dark.png"
   button:
     url: /install
     content: 'Install Now'
@@ -23,7 +24,7 @@ hero:
       </div>
     </div>
     <div class="column">
-      {% image "Details Window", "./src/img/screenshots/details window.png" %}
+      {% image "Details Window", "./src/img/screenshots/details window.png", "./src/img/screenshots/details window dark.png" %}
     </div>
   </div>
 
@@ -37,7 +38,7 @@ hero:
       </div>
     </div>
     <div class="column">
-      {% image "Manage", "./src/img/screenshots/manage.png" %}
+      {% image "Manage", "./src/img/screenshots/manage.png", "./src/img/screenshots/manage dark.png" %}
     </div>
   </div>
 
@@ -52,7 +53,7 @@ hero:
       </div>
     </div>
     <div class="column">
-      {% image "Updates Available", "./src/img/screenshots/updates available.png" %}
+      {% image "Updates Available", "./src/img/screenshots/updates available.png", "./src/img/screenshots/updates available dark.png" %}
     </div>
   </div>
 
@@ -66,7 +67,7 @@ hero:
       </div>
     </div>
     <div class="column">
-      {% image "Customization", "./src/img/screenshots/settings.png" %}
+      {% image "Customization", "./src/img/screenshots/settings.png", "./src/img/screenshots/settings dark.png" %}
     </div>
   </div>
 </div>

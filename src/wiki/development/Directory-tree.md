@@ -14,21 +14,33 @@ eleventyNavigation:
    - `CHANGELOG.md` [This file](https://github.com/Botspot/pi-apps/blob/master/CHANGELOG.md) is a written history for all important events for Pi-Apps, including dates for when each app was added. It's worth a read! :)
    - `COPYING` This file contains the GNU General Public License v3 for Pi-Apps.
    - `createapp` GUI script - this is run when you click "Create App" in Settings.  
-![create app](/img/screenshots/create%20app.png?raw=true)
-   - `gui` The main GUI window. This script  is responsible for displaying the App list and the Details page.  
-![main window](/img/screenshots/main%20window.png?raw=true)
-   - `install` This script is used to install Pi-Apps. Adds a couple menu launchers, and makes sure YAD is installed.
+<div>
+    {% image "Pi-Apps Create App", "./src/img/screenshots/create app.png", "./src/img/screenshots/create app dark.png" %}
+</div>
+
+ - - `gui` The main GUI window. This script  is responsible for displaying the App list and the Details page.  
+<div>
+    {% image "Pi-Apps Create App", "./src/img/screenshots/main window.png", "./src/img/screenshots/main window dark.png" %}
+</div>
+
+ - - `install` This script is used to install Pi-Apps. Adds a couple menu launchers, and makes sure YAD is installed.
    - `manage` This script handles installing, uninstalling, and updating Apps. It does not check or update any files outside the `apps/` directory.
    - `install_packages` If an App requires some `apt` packages in order to run, its `install` script will run the `install_packages` function. install_packages records which app installed what (using a dummy deb file based on the hash of the app name), so when you uninstall an App, those packages will be removed.
    - `preload` This script generates the app list for the `gui` script. If no files have been modified since last launch, `preload` won't regenerate the app list, but instead will return a previously saved version of the list. This approach reduces Pi-Apps's launch time by around 1 second.
    - `purge_packages` This does exactly the opposite of `install_packages` This function is run when an App is being uninstalled. purge_packages will uninstall all packages the app installed.
    - `README.md` The main description of Pi-Apps.
    - `settings` This GUI script is executed when you launch 'Pi-Apps Settings' from the Menu.  
-![settings](/img/screenshots/settings.png?raw=true)
-   - `uninstall` Uninstalls Pi-Apps and removes the menu launchers. Asks permission to uninstall YAD.
+<div>
+    {% image "Pi-Apps Settings", "./src/img/screenshots/settings.png", "./src/img/screenshots/settings dark.png" %}
+</div>
+
+ - - `uninstall` Uninstalls Pi-Apps and removes the menu launchers. Asks permission to uninstall YAD.
    - `updater` This GUI script is executed every time  the `gui` script is launched. Updater first compares today's date against the `last-update-check` file. If it's time to check for updates, `updater` first checks for App updates, then checks for other files/folders that have been modified or created. If anything can be updated, a dialog will open and ask permission to update:  
-![updates](/img/screenshots/updates%20available.png?raw=true)
-   - `data/` This folder holds all local data that should not be overwritten by updates.
+<div>
+    {% image "Pi-Apps Settings", "./src/img/screenshots/updates available.png", "./src/img/screenshots/updates available dark.png" %}
+</div>
+
+ - - `data/` This folder holds all local data that should not be overwritten by updates.
      - `installed-packages/` (**DEPRECATED!**) This keeps track of any/all APT packages each app installed. This folder is written to by the `pkg-install` script.
      For example, if Pi Power Tools installs `xserver-xephyr` and `expect`, then the `installed-packages/Pi Power Tools` file will contain "xserver-xephyr expect".
      - `preload/` This directory is used by the `preload` script to improve Pi-Apps' launch time by storing the app list for later use.
