@@ -69,21 +69,105 @@
 <li><code>api</code> This script contains bash functions that are used by other Pi-Apps core scripts. This is intended to reduce redundant code and to make it easier for a third-party to create their own scripts.</li>
 <li><code>CHANGELOG.md</code> <a href="https://github.com/Botspot/pi-apps/blob/master/CHANGELOG.md">This file</a> is a written history for all important events for Pi-Apps, including dates for when each app was added. It's worth a read! :)</li>
 <li><code>COPYING</code> This file contains the GNU General Public License v3 for Pi-Apps.</li>
-<li><code>createapp</code> GUI script - this is run when you click &quot;Create App&quot; in Settings.<br>
-<img src="/img/screenshots/create%20app.png?raw=true" alt="create app"></li>
-<li><code>gui</code> The main GUI window. This script  is responsible for displaying the App list and the Details page.<br>
-<img src="/img/screenshots/main%20window.png?raw=true" alt="main window"></li>
+<li><code>createapp</code> GUI script - this is run when you click &quot;Create App&quot; in Settings.</li>
+</ul>
+</li>
+</ul>
+<div>
+    <picture>
+      <source type="image/webp" srcset="/img/built/u8LDnLiNQc-330.webp 330w" sizes="100vw" media="(prefers-color-scheme: dark)">
+  <source type="image/png" srcset="/img/built/u8LDnLiNQc-330.png 330w" sizes="100vw" media="(prefers-color-scheme: dark)">
+      <source type="image/webp" srcset="/img/built/1nk-JDCd4V-313.webp 313w" sizes="100vw">
+  <source type="image/png" srcset="/img/built/1nk-JDCd4V-313.png 313w" sizes="100vw">
+      <img
+        class="undefined"
+        src="/img/built/1nk-JDCd4V-313.png"
+        width="313"
+        height="332"
+        alt="Pi-Apps Create App"
+        loading="lazy"
+        decoding="async">
+    </picture>
+</div>
+<ul>
+<li>
+<ul>
+<li><code>gui</code> The main GUI window. This script  is responsible for displaying the App list and the Details page.</li>
+</ul>
+</li>
+</ul>
+<div>
+    <picture>
+      <source type="image/webp" srcset="/img/built/3yGhg4kbgU-340.webp 340w" sizes="100vw" media="(prefers-color-scheme: dark)">
+  <source type="image/png" srcset="/img/built/3yGhg4kbgU-340.png 340w" sizes="100vw" media="(prefers-color-scheme: dark)">
+      <source type="image/webp" srcset="/img/built/Ix7yDUsJ8F-322.webp 322w" sizes="100vw">
+  <source type="image/png" srcset="/img/built/Ix7yDUsJ8F-322.png 322w" sizes="100vw">
+      <img
+        class="undefined"
+        src="/img/built/Ix7yDUsJ8F-322.png"
+        width="322"
+        height="626"
+        alt="Pi-Apps Create App"
+        loading="lazy"
+        decoding="async">
+    </picture>
+</div>
+<ul>
+<li>
+<ul>
 <li><code>install</code> This script is used to install Pi-Apps. Adds a couple menu launchers, and makes sure YAD is installed.</li>
 <li><code>manage</code> This script handles installing, uninstalling, and updating Apps. It does not check or update any files outside the <code>apps/</code> directory.</li>
 <li><code>install_packages</code> If an App requires some <code>apt</code> packages in order to run, its <code>install</code> script will run the <code>install_packages</code> function. install_packages records which app installed what (using a dummy deb file based on the hash of the app name), so when you uninstall an App, those packages will be removed.</li>
 <li><code>preload</code> This script generates the app list for the <code>gui</code> script. If no files have been modified since last launch, <code>preload</code> won't regenerate the app list, but instead will return a previously saved version of the list. This approach reduces Pi-Apps's launch time by around 1 second.</li>
 <li><code>purge_packages</code> This does exactly the opposite of <code>install_packages</code> This function is run when an App is being uninstalled. purge_packages will uninstall all packages the app installed.</li>
 <li><code>README.md</code> The main description of Pi-Apps.</li>
-<li><code>settings</code> This GUI script is executed when you launch 'Pi-Apps Settings' from the Menu.<br>
-<img src="/img/screenshots/settings.png?raw=true" alt="settings"></li>
+<li><code>settings</code> This GUI script is executed when you launch 'Pi-Apps Settings' from the Menu.</li>
+</ul>
+</li>
+</ul>
+<div>
+    <picture>
+      <source type="image/webp" srcset="/img/built/HZQTnUHM84-371.webp 371w" sizes="100vw" media="(prefers-color-scheme: dark)">
+  <source type="image/png" srcset="/img/built/HZQTnUHM84-371.png 371w" sizes="100vw" media="(prefers-color-scheme: dark)">
+      <source type="image/webp" srcset="/img/built/uqN-S6iajn-348.webp 348w" sizes="100vw">
+  <source type="image/png" srcset="/img/built/uqN-S6iajn-348.png 348w" sizes="100vw">
+      <img
+        class="undefined"
+        src="/img/built/uqN-S6iajn-348.png"
+        width="348"
+        height="481"
+        alt="Pi-Apps Settings"
+        loading="lazy"
+        decoding="async">
+    </picture>
+</div>
+<ul>
+<li>
+<ul>
 <li><code>uninstall</code> Uninstalls Pi-Apps and removes the menu launchers. Asks permission to uninstall YAD.</li>
-<li><code>updater</code> This GUI script is executed every time  the <code>gui</code> script is launched. Updater first compares today's date against the <code>last-update-check</code> file. If it's time to check for updates, <code>updater</code> first checks for App updates, then checks for other files/folders that have been modified or created. If anything can be updated, a dialog will open and ask permission to update:<br>
-<img src="/img/screenshots/updates%20available.png?raw=true" alt="updates"></li>
+<li><code>updater</code> This GUI script is executed every time  the <code>gui</code> script is launched. Updater first compares today's date against the <code>last-update-check</code> file. If it's time to check for updates, <code>updater</code> first checks for App updates, then checks for other files/folders that have been modified or created. If anything can be updated, a dialog will open and ask permission to update:</li>
+</ul>
+</li>
+</ul>
+<div>
+    <picture>
+      <source type="image/webp" srcset="/img/built/YmDOIFG6EZ-330.webp 330w" sizes="100vw" media="(prefers-color-scheme: dark)">
+  <source type="image/png" srcset="/img/built/YmDOIFG6EZ-330.png 330w" sizes="100vw" media="(prefers-color-scheme: dark)">
+      <source type="image/webp" srcset="/img/built/m31d64tYny-314.webp 314w" sizes="100vw">
+  <source type="image/png" srcset="/img/built/m31d64tYny-314.png 314w" sizes="100vw">
+      <img
+        class="undefined"
+        src="/img/built/m31d64tYny-314.png"
+        width="314"
+        height="332"
+        alt="Pi-Apps Settings"
+        loading="lazy"
+        decoding="async">
+    </picture>
+</div>
+<ul>
+<li>
+<ul>
 <li><code>data/</code> This folder holds all local data that should not be overwritten by updates.
 <ul>
 <li><code>installed-packages/</code> (<strong>DEPRECATED!</strong>) This keeps track of any/all APT packages each app installed. This folder is written to by the <code>pkg-install</code> script.<br>
