@@ -1,6 +1,6 @@
 ---
 layout: layouts/main.njk
-title: Home
+title: Raspberry Pi App Store
 hero:
   title: 'Pi-Apps'
   description: 'The most popular app store for Raspberry Pi computers. 
