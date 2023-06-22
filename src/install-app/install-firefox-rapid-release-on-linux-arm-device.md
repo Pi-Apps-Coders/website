@@ -6,7 +6,7 @@ title: Install Firefox Rapid Release on Linux ARM Device | Pi-Apps
 # Install <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=24> Firefox Rapid Release on Linux ARM Device
 
 ## <img src="/img/app-icons/Firefox Rapid Release/icon-64.png"> Firefox Rapid Release
-> Latest stable Mozilla Firefox version available. (Downloaded from Ubuntu Repo)
+> Latest stable Mozilla Firefox version available. (Downloaded from Mozilla Team Official PPA)
 > Mozilla Firefox, is a free and open-source web browser developed by the Mozilla Foundation.
 > 
 > To run: Menu -> Internet -> Firefox Web Browser

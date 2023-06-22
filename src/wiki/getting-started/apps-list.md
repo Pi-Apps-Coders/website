@@ -1253,12 +1253,10 @@ To run in a terminal: epiphany-browser
 ```
 
 ### <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=32> ***[Firefox Rapid Release](https://github.com/Botspot/pi-apps/tree/master/apps/Firefox%20Rapid%20Release)***
-https://firefox.com - Scripts made by chunky-milk
-Added to Pi-Apps by Tejas Singh YT
-Original Web-Browser made by Mozilla Foundation.<br />
+https://firefox.com - Mozilla Foundation.<br />
 ARM32/ARM64 - 22,627 Users!!
 ```
-Latest stable Mozilla Firefox version available. (Downloaded from Ubuntu Repo)
+Latest stable Mozilla Firefox version available. (Downloaded from Mozilla Team Official PPA)
 Mozilla Firefox, is a free and open-source web browser developed by the Mozilla Foundation.
 
 To run: Menu -> Internet -> Firefox Web Browser
