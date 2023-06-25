@@ -1974,7 +1974,7 @@ To run in a terminal: mu-editor
 
 ### <img src="/img/app-icons/Notepad ++/icon-64.png" height=32> ***[Notepad ++](https://github.com/Botspot/pi-apps/tree/master/apps/Notepad%20++)***
 https://notepad-plus-plus.org/ - App added to pi-apps by RPICoder<br />
-ARM32 ONLY - 8,595 Users!
+ARM32/ARM64 - 8,595 Users!
 ```
 Notepad++ is a free source code editor and Notepad replacement that supports several languages. 
 To run: Menu -> Accessories -> Notepad++
@@ -3071,10 +3071,12 @@ To see all QEMU commands you can run: open a terminal, type 'qemu', and press th
 ```
 
 ### <img src="/img/app-icons/Wine (x86)/icon-64.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
-https://www.winehq.org/ - Script by Itai-Nelken and Botspot<br />
+https://www.winehq.org/ - Wine Developers: https://wiki.winehq.org/Who%27s_Who
+Box86 Developer: @ptitSeb on GitHub
+Script Writer and Packager: @theofficialgman and other pi-apps contributors on GitHub<br />
 ARM32 ONLY - 43,589 Users!!
 ```
-Run x86 Windows apps with a box86-emulated version of x86 wine.
+Run x86 Windows apps with a box86-emulated version of x86 wine-8.11.
 To run: wine path/to/file.exe
 To configure wine: go to 'Wine configuration' in main menu or type in terminal: wine winecfg
 Not all Windows applications will work under Wine. It's a good idea to check online if your program can run, or if something can be tweaked to make it work.
@@ -3082,4 +3084,23 @@ Not all Windows applications will work under Wine. It's a good idea to check onl
 Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
 
 Need support with running a game or app with wine and box86? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
+```
+
+### <img src="/img/app-icons/Wine (x64)/icon-64.png" height=32> ***[Wine (x64)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x64))***
+https://www.winehq.org/ - Wine Developers: https://wiki.winehq.org/Who%27s_Who
+Box64 Developer: @ptitSeb on GitHub
+Script Writer and Packager: @theofficialgman and other pi-apps contributors on GitHub<br />
+ARM64 ONLY
+```
+Run x86 and x64 Windows apps with a box64-emulated version x86/x64 wine-8.11 (WOW64 mode enabled).
+To run: wine path/to/file.exe
+To configure wine: go to 'Wine configuration' in main menu or type in terminal: wine winecfg
+Not all Windows applications will work under Wine. It's a good idea to check online if your program can run, or if something can be tweaked to make it work.
+
+Note: x86 32bit applications use the new Wine WOW64 mode. The WOW64 mode allows for running x86 Windows applications on x86_64 without any x86 Linux userspace.
+Note: This mode is experimental in Wine and Box64 support for x86 code still need some work. However, many applications already work.
+
+Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
+
+Need support with running a game or app with wine and box64? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
 ```

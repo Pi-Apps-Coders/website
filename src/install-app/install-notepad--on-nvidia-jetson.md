@@ -1,9 +1,9 @@
 ---
-title: Install Notepad ++ on Linux ARM Device | Pi-Apps
+title: Install Notepad ++ on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Notepad ++/icon-64.png" height=24> Notepad ++ on Linux ARM Device
+# Install <img src="/img/app-icons/Notepad ++/icon-64.png" height=24> Notepad ++ on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Notepad ++/icon-64.png"> Notepad ++
 > Notepad++ is a free source code editor and Notepad replacement that supports several languages. 
@@ -11,21 +11,21 @@ title: Install Notepad ++ on Linux ARM Device | Pi-Apps
 > 
 > This app runs with the help of box86 and wine.
 
-Fortunately, Notepad ++ is very easy to install on your Linux ARM Device in just two steps.
-1. Install Pi-Apps - the best app installer for Linux ARM Device.
+Fortunately, Notepad ++ is very easy to install on your Nvidia Jetson in just two steps.
+1. Install Pi-Apps - the best app installer for Nvidia Jetson.
 2. Use Pi-Apps to install Notepad ++.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Notepad ++ will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson TX1, Jetson Nano, Jetson TX2, Jetson Xavier, or Jetson Orin).
+Notepad ++ will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Linux ARM Device with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Nvidia Jetson with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 ```bash
