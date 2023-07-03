@@ -2875,17 +2875,6 @@ To run: Menu -> Accessories -> Screenshot
 To run in terminal: gnome-screenshot
 ```
 
-### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
-https://github.com/RobinLinus/snapdrop - @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 5,863 Users!
-```
-Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
-To run: Menu -> Internet -> Snapdrop
-To run in a terminal: /opt/snapdrop/Snapdrop
-To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
-Now drag and drop files to the website, and the other device will see the files and download them.
-```
-
 ### <img src="/img/app-icons/Snap Store/icon-64.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
 https://snapcraft.io/store - Installation script and made by RPICoder<br />
 ARM32/ARM64 - 23,583 Users!!
