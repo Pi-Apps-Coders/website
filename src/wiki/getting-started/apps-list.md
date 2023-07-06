@@ -7,6 +7,16 @@ eleventyNavigation:
 ---
 ## Appearance
 
+### <img src="/img/app-icons/Caskaydia Cove NF/icon-64.png" height=32> ***[Caskaydia Cove NF](https://github.com/Botspot/pi-apps/tree/master/apps/Caskaydia%20Cove%20NF)***
+nerdfonts.com - Original Font: Microsoft Corporation (https://github.com/microsoft/cascadia-code)
+Patched font: Nerd Fonts (https://nerdfonts.com)
+Pi-Apps installer: (https://github.com/libewa)<br />
+ARM32/ARM64
+```
+A fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
+This font will be installed in /usr/local/share/fonts and will be available in most programs on next restart.
+```
+
 ### <img src="/img/app-icons/Color Emoji font/icon-64.png" height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
 ARM32/ARM64 - 5,905 Users!
 ```
