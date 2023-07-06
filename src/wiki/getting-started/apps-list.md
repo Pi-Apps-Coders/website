@@ -75,6 +75,16 @@ To run in a terminal: themeconverter
 Uninstalling this app should restore all of your original theme configuration. If something breaks due to this theme, please report it.
 ```
 
+### <img src="/img/app-icons/Oh My Posh/icon-64.png" height=32> ***[Oh My Posh](https://github.com/Botspot/pi-apps/tree/master/apps/Oh%20My%20Posh)***
+ohmyposh.dev - OhMyPosh by Jan De Dobbeleer. https://github.com/jandedobbeleer/oh-my-posh
+Pi Apps script by libewa (https://github.com/libewa) and theofficialgman (https://github.com/theofficialgman)<br />
+ARM32/ARM64
+```
+The snappy and most customisable cross platform/shell prompt renderer.
+The installer will automatically install the default profile ("jandedobbeleer") into /etc/bash_completion.d/oh-my-posh. To change this, see https://ohmyposh.dev/docs/installation/customize
+You also need a compatible font like Cascaydia Cove.
+```
+
 ### <img src="/img/app-icons/Oomox Theme Designer/icon-64.png" height=32> ***[Oomox Theme Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Oomox%20Theme%20Designer)***
 https://github.com/themix-project/oomox<br />
 ARM32/ARM64 - 2,086 Users!
