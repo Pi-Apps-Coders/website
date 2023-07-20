@@ -3046,7 +3046,7 @@ Monero is probably the best currency for PC mining, as its mining algorithm is s
 
 ### <img src="/img/app-icons/Box64/icon-64.png" height=32> ***[Box64](https://github.com/Botspot/pi-apps/tree/master/apps/Box64)***
 https://github.com/ptitSeb/box64 - ptitseb for creating box64
-debs made by @ryanfortner (GitHub)<br />
+debs made by Pi-Apps-Coders development team<br />
 ARM64 ONLY - 14,318 Users!!
 ```
 Easily emulate x86_64 linux apps on ARM64.
@@ -3057,7 +3057,8 @@ Because Box64 uses the native versions of some "system" libraries, like libc, li
 ```
 
 ### <img src="/img/app-icons/Box86/icon-64.png" height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***
-https://github.com/ptitSeb/box86 - Itai-Nelken for his box86 debs and script creation<br />
+https://github.com/ptitSeb/box86 - ptitseb for creating box64
+debs made by Pi-Apps-Coders development team<br />
 ARM32/ARM64 - 64,048 Users!!
 ```
 Easily emulate x86 linux apps on ARM32.
