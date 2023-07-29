@@ -927,33 +927,6 @@ Your User Data folder is where you place custom content (like songpacks):
 ~/.stepmania-5.1
 ```
 
-### <img src="/img/app-icons/Stunt Rally/icon-64.png" height=32> ***[Stunt Rally](https://github.com/Botspot/pi-apps/tree/master/apps/Stunt%20Rally)***
-http://stuntrally.tuxfamily.org/ - Compiled and packaged into a deb by Itai-Nelken and ryanfortner.
-Added to pi-apps by Itai-Nelken.<br />
-ARM32/ARM64 - 7,147 Users!
-```
-Racing game with rally style driving, mostly on gravel.
-WARNING: at least 2GB of free disk space is needed!
-
-Pi-Apps automatically sets the game's settings for best performance. Feel free to experiment and find the best settings for you.
-
-Stunt Rally features a rich variety of 172 tracks in 34 sceneries also on other planets.
-Track difficulty ranges from short and easy, to very difficult stunt tracks including jumps, skewed loops, pipes winding in 3D, obstacles, or all of the above.
-Vehicle options: 20 cars, 1 motorbike, 3 hovering spaceships and 1 bouncing sphere.
-The latter provide a fast and easier gameplay on flat tracks.
-Game modes include:
-Single Race, Tutorials, Championships, Challenges, Multiplayer and Split Screen.
-Also Replays and Ghost drive are present.
-The Track Editor allows creating and modifying tracks. It uses a 3D spline generated road.
-
-To run: Menu -> Games -> Stunt Rally
-To run in terminal: stuntrally
-
-To run track editor: Menu -> Games -> Stunt Rally Track Editor
-To run in terminal: sr-editor
-
-```
-
 ### <img src="/img/app-icons/Tetris CLI/icon-64.png" height=32> ***[Tetris CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Tetris%20CLI)***
 https://github.com/k-vernooy/tetris - DEB packages hosted by ryanfortner<br />
 ARM32/ARM64 - 4,234 Users!
