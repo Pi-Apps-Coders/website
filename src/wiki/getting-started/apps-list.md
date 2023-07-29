@@ -1899,7 +1899,9 @@ To run in a terminal: gh
 ```
 
 ### <img src="/img/app-icons/Github Desktop/icon-64.png" height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
-https://desktop.github.com/ - Added to pi-apps and compiled by theofficialgman<br />
+https://desktop.github.com/ - Github Desktop contributors: https://github.com/desktop/desktop/graphs/contributors
+@shiftkey: continued maintenance of the Linux fork
+@theofficialgman: port to ARMhf/ARM64 now upstreamed at the Linux fork<br />
 ARM32/ARM64 - 3,382 Users!
 ```
 Github Desktop is a GUI git client.
