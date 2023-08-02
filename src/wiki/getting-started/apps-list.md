@@ -1091,6 +1091,17 @@ To run: Menu -> Internet -> Persepolis Download Manager
 To run in a terminal: persepolis
 ```
 
+### <img src="/img/app-icons/RiiTag-RPC/icon-64.png" height=32> ***[RiiTag-RPC](https://github.com/Botspot/pi-apps/tree/master/apps/RiiTag-RPC)***
+tag.rc24.xyz - RiiTag and RiiTag-RPC created by the team of RiiConnect24.
+Script created by libewa.<br />
+ARM64 ONLY
+```
+Show what games you're playing on your Wii and Wii U in Discord.
+Make sure to sign up for the service at https://tag.rc24.xyz/
+
+To run in a terminal: riitag-rpc
+```
+
 ### <img src="/img/app-icons/SpeedTest-CLI/icon-64.png" height=32> ***[SpeedTest-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/SpeedTest-CLI)***
 https://www.speedtest.net/<br />
 ARM32/ARM64 - 14,302 Users!!
