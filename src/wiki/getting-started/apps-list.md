@@ -77,7 +77,7 @@ Uninstalling this app should restore all of your original theme configuration. I
 
 ### <img src="/img/app-icons/Oh My Posh/icon-64.png" height=32> ***[Oh My Posh](https://github.com/Botspot/pi-apps/tree/master/apps/Oh%20My%20Posh)***
 ohmyposh.dev - OhMyPosh by Jan De Dobbeleer. https://github.com/jandedobbeleer/oh-my-posh
-Pi Apps script by libewa (https://github.com/libewa) and theofficialgman (https://github.com/theofficialgman)<br />
+Pi-Apps script by libewa (https://github.com/libewa) and theofficialgman (https://github.com/theofficialgman)<br />
 ARM32/ARM64 - 49 Users
 ```
 The snappy and most customisable cross platform/shell prompt renderer.
@@ -101,7 +101,7 @@ To run in a terminal: oomox-gui
 
 ### <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=32> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***
 https://github.com/techcoder20/RPI-PowerlineShell-Installer.git - Installation Script Created By RPICoder
-Added To Pi Apps By Botspot<br />
+Added To Pi-Apps By Botspot<br />
 ARM32/ARM64 - 3,297 Users!
 ```
 A beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh:
@@ -207,7 +207,7 @@ sudo apt install kolourpaint
 
 ### <img src="/img/app-icons/GIMP/icon-64.png" height=32> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
 https://www.gimp.org/ - Made by The GIMP Team
-Added to Pi Apps by Lightstrike on Discord<br />
+Added to Pi-Apps by Lightstrike on Discord<br />
 Package app - 36,553 Users!!
 ```
 Create images and edit photographs
@@ -532,7 +532,7 @@ To exit: select "Quit" in the game's main menu.
 
 ### <img src="/img/app-icons/Doom 3/icon-64.png" height=32> ***[Doom 3](https://github.com/Botspot/pi-apps/tree/master/apps/Doom%203)***
 https://github.com/techcoder20/RPIDoom3Installer.git - Script Created By RPI Coder
-Added To Pi apps by Botspot
+Added To Pi-Apps by Botspot
 
 Testers:
 Lukefrenner
@@ -2770,7 +2770,7 @@ and it makes life easier by eliminating the use of quotes for apps with a space 
 https://github.com/techcoder20/PiAppsTerminalAdvanced - App made by and added to pi-apps by RPICoder<br />
 ARM32 ONLY - 1,328 Users
 ```
-This is a terminal version of pi apps but with more features.
+This is a terminal version of Pi-Apps but with more features.
 
 Usage
 pi-apps [argument]
@@ -2781,7 +2781,7 @@ Available Arguments:
 "list-uninstalled"  Prints all uninstalled apps
 "install [appname]"  Install any app available in pi-apps
 "uninstall [appname]"  Uninstall any app available in pi-apps
-"search [appname]"  Search for a app in pi apps
+"search [appname]"  Search for a app in pi-apps
 "website [appname]"  Prints website for app
 "update"  Update pi-apps
 "gui"  Launches gui for pi-apps

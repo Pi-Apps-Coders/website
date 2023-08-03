@@ -6,7 +6,7 @@ title: Install Pi-Apps Terminal Plugin (python) on Raspberry Pi | Pi-Apps
 # Install <img src="/img/app-icons/Pi-Apps Terminal Plugin (python)/icon-64.png" height=24> Pi-Apps Terminal Plugin (python) on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Pi-Apps Terminal Plugin (python)/icon-64.png"> Pi-Apps Terminal Plugin (python)
-> This is a terminal version of pi apps but with more features.
+> This is a terminal version of Pi-Apps but with more features.
 > 
 > Usage
 > pi-apps [argument]
@@ -17,7 +17,7 @@ title: Install Pi-Apps Terminal Plugin (python) on Raspberry Pi | Pi-Apps
 > "list-uninstalled"  Prints all uninstalled apps
 > "install [appname]"  Install any app available in pi-apps
 > "uninstall [appname]"  Uninstall any app available in pi-apps
-> "search [appname]"  Search for a app in pi apps
+> "search [appname]"  Search for a app in pi-apps
 > "website [appname]"  Prints website for app
 > "update"  Update pi-apps
 > "gui"  Launches gui for pi-apps
