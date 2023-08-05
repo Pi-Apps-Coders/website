@@ -10,7 +10,7 @@ title: Install LineRider on Linux ARM Device | Pi-Apps
 > This app, LineRider Community Edition, is a C# rewrite of the original flash game.
 > 
 > To run: Menu -> Games -> LineRider
-> To run in a terminal: mono ~/LineRider/linerider.exe
+> To run in a terminal: linerider
 > 
 > To view other's creations, go to https://reddit.com/r/linerider or https://discord.gg/QWu6R5w
 
