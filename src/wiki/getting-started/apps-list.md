@@ -1382,16 +1382,6 @@ To run: Menu -> Internet -> Caprine
 To run in a terminal: /opt/Caprine/caprine
 ```
 
-### <img src="/img/app-icons/Email Checker/icon-64.png" height=32> ***[Email Checker](https://github.com/Botspot/pi-apps/tree/master/apps/Email%20Checker)***
-https://github.com/Botspot/raspi-email-checker<br />
-ARM32/ARM64 - 1,869 Users!
-```
-Continuously checks for new emails and display a notification if there are any.
-When you click install, a window will appear for you to enter the email account's information and the time interval to check.
-If you want to change the settings later, just click the Install button again.
-Originally adapted from: https://learn.adafruit.com/raspberry-pi-e-mail-notifier-using-leds/python-script
-```
-
 ### <img src="/img/app-icons/Microsoft Teams/icon-64.png" height=32> ***[Microsoft Teams](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20Teams)***
 https://github.com/IsmaelMartinez/teams-for-linux - @IsmaelMartinez on GitHub for the creation of the app.<br />
 ARM32/ARM64 - 4,226 Users!
@@ -1850,17 +1840,6 @@ To run: Menu -> Programming -> Arduino IDE.
 To run in a terminal: arduino
 ```
 
-### <img src="/img/app-icons/BlockPi/icon-64.png" height=32> ***[BlockPi](https://github.com/Botspot/pi-apps/tree/master/apps/BlockPi)***
-https://github.com/alienzhangyw/BlockPi - Botspot made the app's install scripts<br />
-ARM32/ARM64 - 4,585 Users!
-```
-Create python programs using drag-n-drop blocks
-A visual programming editor app for Raspberry Pi, built on Google Blockly, made for RPi users or kids to learn coding.
-
-To run: Menu -> Programming -> BlockPi
-To run in a terminal: /opt/BlockPi/blockpi
-```
-
 ### <img src="/img/app-icons/BlueJ Java IDE/icon-64.png" height=32> ***[BlueJ Java IDE](https://github.com/Botspot/pi-apps/tree/master/apps/BlueJ%20Java%20IDE)***
 https://bluej.org - open-sorcerer64<br />
 Package app - 27,392 Users!!
@@ -2295,19 +2274,6 @@ A sync manager that syncs folders to different devices no matter where you are!
 
 To run: Menu -> Internet -> Syncthing
 To run in a terminal: syncthing
-```
-
-### <img src="/img/app-icons/Sysmon/icon-64.png" height=32> ***[Sysmon](https://github.com/Botspot/pi-apps/tree/master/apps/Sysmon)***
-https://github.com/t0xic0der/sysmon - @t0xic0der on GitHub for the creation of the app
-@ryanfortner on GitHub for the scripts<br />
-ARM32/ARM64 - 2,469 Users!
-```
-Monitor your Raspberry Pi using a web browser on another computer.
-This is a background service that hosts a website at <your Pi's IP address>:6969. Using any computer on your local network, you can go to that website and view many useful statistics. (And some useless ones too)
-
-For testing purposes, you can look at the website from the Pi itself by launching Chromium browser and going to http://localhost:6969
-
-As mentioned earlier, the website is only visible to computers in the local network.
 ```
 
 ### <img src="/img/app-icons/SysMonTask/icon-64.png" height=32> ***[SysMonTask](https://github.com/Botspot/pi-apps/tree/master/apps/SysMonTask)***
@@ -2764,29 +2730,6 @@ It has all the commands you will ever need:
 'gui' - launch pi-apps regularly.
 
 and it makes life easier by eliminating the use of quotes for apps with a space in their name (unless you are using 'multi-install' or 'multi-uninstall').
-```
-
-### <img src="/img/app-icons/Pi-Apps Terminal Plugin (python)/icon-64.png" height=32> ***[Pi-Apps Terminal Plugin (python)](https://github.com/Botspot/pi-apps/tree/master/apps/Pi-Apps%20Terminal%20Plugin%20(python))***
-https://github.com/techcoder20/PiAppsTerminalAdvanced - App made by and added to pi-apps by RPICoder<br />
-ARM32 ONLY - 1,331 Users
-```
-This is a terminal version of Pi-Apps but with more features.
-
-Usage
-pi-apps [argument]
-
-Available Arguments: 
-"list-all"  Prints the list of available apps that are installable
-"list-installed"  Prints all installed apps
-"list-uninstalled"  Prints all uninstalled apps
-"install [appname]"  Install any app available in pi-apps
-"uninstall [appname]"  Uninstall any app available in pi-apps
-"search [appname]"  Search for a app in pi-apps
-"website [appname]"  Prints website for app
-"update"  Update pi-apps
-"gui"  Launches gui for pi-apps
-
-Run "pi-apps help" to get this information
 ```
 
 ### <img src="/img/app-icons/PiGro/icon-64.png" height=32> ***[PiGro](https://github.com/Botspot/pi-apps/tree/master/apps/PiGro)***
