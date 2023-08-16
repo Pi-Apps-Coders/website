@@ -3577,17 +3577,17 @@
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/wiki/</loc>
-    <lastmod>2023-08-16</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pi-apps.io/tags/install-app/</loc>
     <lastmod>2023-08-16</lastmod>
   </url>
   
   <url>
     <loc>https://pi-apps.io/tags/install/</loc>
+    <lastmod>2023-08-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/tags/wiki/</loc>
     <lastmod>2023-08-16</lastmod>
   </url>
   
