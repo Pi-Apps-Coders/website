@@ -1589,6 +1589,11 @@ ARM32/ARM64 - 19,412 Users!!
 ```
 Free and open source software for video recording and live streaming.
 
+Available Versions:
+ARM64 - Ubuntu Focal/Jammy, Debian Bookworm: 29.1.3
+ARM64 - Ubuntu Bionic: 28.1.2
+ARM32/ARM64 - Debian Buster/Bullseye: 27.2.X
+
 To run: Menu -> Sound & Video -> OBS Studio
 To run in a terminal: obs
 ```
