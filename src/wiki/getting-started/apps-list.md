@@ -606,7 +606,7 @@ To view other's creations, go to https://reddit.com/r/linerider or https://disco
 ```
 
 ### <img src="/img/app-icons/Marathon/icon-64.png" height=32> ***[Marathon](https://github.com/Botspot/pi-apps/tree/master/apps/Marathon)***
-https://https://alephone.lhowon.org - Rak1ta on github for the install scripts
+https://alephone.lhowon.org - Rak1ta on github for the install scripts
 theofficialgman for tweaking them and adding them to pi-apps
 The developers at https://github.com/Aleph-One-Marathon<br />
 ARM32/ARM64 - 815 Users
