@@ -1725,6 +1725,17 @@ To run: Menu -> Office -> Abiword.
 To run in terminal: abiword.
 ```
 
+### <img src="/img/app-icons/Gnumeric/icon-64.png" height=32> ***[Gnumeric](https://github.com/Botspot/pi-apps/tree/master/apps/Gnumeric)***
+http://www.gnumeric.org/ - Botspot<br />
+Package app
+```
+Fast, reliable spreadsheet program
+Ons of the spreadsheet programs specifically written for Linux, Gnumeric is lightweight, fast, and very responsive. It can save as .gnumeric files, .ods files, or even the familiar Microsoft Office .xls filetype.
+
+To run: Menu -> Office -> Gnumeric
+To run in a terminal: gnumeric
+```
+
 ### <img src="/img/app-icons/Libreoffice MS theme/icon-64.png" height=32> ***[Libreoffice MS theme](https://github.com/Botspot/pi-apps/tree/master/apps/Libreoffice%20MS%20theme)***
 https://github.com/Botspot/libreoffice-ms-theme - Botspot made this script and theme.<br />
 ARM32/ARM64 - 8,063 Users!
@@ -2965,22 +2976,6 @@ QEMU 6.1 for Buster, system QEMU for other distros (Bullseye is currently using 
 To see all QEMU commands you can run: open a terminal, type 'qemu', and press the Tab key a couple times.
 ```
 
-### <img src="/img/app-icons/Wine (x86)/icon-64.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
-https://www.winehq.org/ - Wine Developers: https://wiki.winehq.org/Who%27s_Who
-Box86 Developer: @ptitSeb on GitHub
-Script Writer and Packager: @theofficialgman and other pi-apps contributors on GitHub<br />
-ARM32 ONLY - 44,999 Users!!
-```
-Run x86 Windows apps with a box86-emulated version of x86 wine-8.16.
-To run: wine path/to/file.exe
-To configure wine: go to 'Wine configuration' in main menu or type in terminal: wine winecfg
-Not all Windows applications will work under Wine. It's a good idea to check online if your program can run, or if something can be tweaked to make it work.
-
-Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
-
-Need support with running a game or app with wine and box86? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
-```
-
 ### <img src="/img/app-icons/Wine (x64)/icon-64.png" height=32> ***[Wine (x64)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x64))***
 https://www.winehq.org/ - Wine Developers: https://wiki.winehq.org/Who%27s_Who
 Box64 Developer: @ptitSeb on GitHub
@@ -2998,4 +2993,20 @@ Note: This mode is experimental in Wine and Box64 support for x86 code still nee
 Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
 
 Need support with running a game or app with wine and box64? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
+```
+
+### <img src="/img/app-icons/Wine (x86)/icon-64.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
+https://www.winehq.org/ - Wine Developers: https://wiki.winehq.org/Who%27s_Who
+Box86 Developer: @ptitSeb on GitHub
+Script Writer and Packager: @theofficialgman and other pi-apps contributors on GitHub<br />
+ARM32 ONLY - 44,999 Users!!
+```
+Run x86 Windows apps with a box86-emulated version of x86 wine-8.16.
+To run: wine path/to/file.exe
+To configure wine: go to 'Wine configuration' in main menu or type in terminal: wine winecfg
+Not all Windows applications will work under Wine. It's a good idea to check online if your program can run, or if something can be tweaked to make it work.
+
+Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
+
+Need support with running a game or app with wine and box86? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
 ```
