@@ -18,12 +18,15 @@ To uninstall Pi-Apps you can use the built in uninstall script
 ```
 
 #### Supported systems:
-
+##### Raspberry Pi:
 - <img src="/img/other-icons/raspberrypi-icon.svg" height="14"> [**Raspberry Pi OS**](https://www.raspberrypi.com/software/operating-systems/) (32-bit/64-bit) (Buster/Bullseye): <span style="color:var(--success-dark);">fully supported</span>
-- <img src=/img/other-icons/switchroot-icon.png height="14"> [**Switchroot L4T Ubuntu Bionic**](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide) and [**L4S Ubuntu Jammy**](https://wiki.switchroot.org/en/Linux/Ubuntu-Jammy-Install-Guide): <span style="color:var(--success-dark);">fully supported (incompatible apps are hidden)</span>
-- <img src="/img/other-icons/ubuntu-icon.svg" height="14"> [**Raspberry Pi Ubuntu**](https://ubuntu.com/desktop/flavours) (GNOME, Mate, KDE, Budgie, etc) <span style="color:var(--warn-dark);">not actively tested, but we fix issues if they are reported</span>
+- <img src="/img/other-icons/ubuntu-icon.svg" height="14"> [**Raspberry Pi Ubuntu**](https://ubuntu.com/desktop/flavours) (GNOME, Mate, KDE, Budgie, etc): <span style="color:var(--warn-dark);">not actively tested, but we fix issues if they are reported</span>
 - <img src="/img/other-icons/pop-os.svg" height="14"> [**Raspberry Pi Pop_OS!**](https://pop.system76.com/): <span style="color:var(--warn-dark);">you may encounter errors installing or running some apps</span>
-- [**Nvidia Jetson**](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), [**Pine64**](https://www.pine64.org/), [**Orange Pi**](http://www.orangepi.org/), [**Radxa**](https://rockpi.org/), [**Bananna Pi**](https://banana-pi.org/), [**Khadas**](https://www.khadas.com/), [**Inovato**](https://www.inovato.com/), [**Libre Computer**](https://libre.computer/), and other **ARM Debian/Ubuntu** Based Devices: <span style="color:var(--warn-dark);">not actively tested, most apps should work (pi-specific apps are hidden). Only official Debian/Ubuntu ports should be used on these devices for the best compatibility</span>
+##### Nintendo Switch and Nvidia Jetson:
+- <img src=/img/other-icons/switchroot-icon.png height="14"> [**Switchroot L4T Ubuntu Bionic**](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide) and [**Switchroot L4T Ubuntu Jammy**](https://wiki.switchroot.org/en/Linux/Ubuntu-Jammy-Install-Guide): <span style="color:var(--success-dark);">fully supported (incompatible apps are hidden)</span>
+- <img src=/img/other-icons/nvidia-icon.svg height="14"> [**Nvidia Jetson**](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/): <span style="color:var(--success-dark);">fully supported (incompatible apps are hidden)</span>
+##### Other ARM Hardware:
+- [**Pine64**](https://www.pine64.org/), [**Orange Pi**](http://www.orangepi.org/), [**Radxa**](https://rockpi.org/), [**Bananna Pi**](https://banana-pi.org/), [**Khadas**](https://www.khadas.com/), [**Inovato**](https://www.inovato.com/), [**Libre Computer**](https://libre.computer/), and other **ARM Debian/Ubuntu** Based Devices: <span style="color:var(--warn-dark);">not actively tested, most apps should work (pi-specific apps are hidden). Only official Debian/Ubuntu ports should be used on these devices for the best compatibility</span>
 - **Android**, **ChromeOS**, **Kali Linux**, **non-ARM**, **other Debian** and **non-Debian** operating systems: <span style="color:var(--danger-dark);">Not supported. Your mileage may vary. Expect the majority of apps to be broken</span>
 
 </div>
