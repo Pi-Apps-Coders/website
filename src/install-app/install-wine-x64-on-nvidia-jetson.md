@@ -17,6 +17,8 @@ title: Install Wine (x64) on Nvidia Jetson | Pi-Apps
 > Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
 > 
 > Need support with running a game or app with wine and box64? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
+> 
+> Box86/Box64 Game compatibility list: https://box86.org/app/
 
 Fortunately, Wine (x64) is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

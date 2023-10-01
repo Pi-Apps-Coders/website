@@ -2949,7 +2949,11 @@ Easily emulate x86_64 linux apps on ARM64.
 
 Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian).
 
-Because Box64 uses the native versions of some "system" libraries, like libc, libm, SDL, and OpenGL, it's easy to integrate and use with most applications, and performance can be surprisingly high in many cases.
+Because Box64 uses the native versions of some "system" libraries, like libc, libm, SDL, OpenGL, and Vulkan, it's easy to integrate and use with most applications, and performance can be surprisingly high in many cases.
+
+Box86/Box64 Game compatibility list: https://box86.org/app/
+
+To run in a terminal: box64
 ```
 
 ### <img src="/img/app-icons/Box86/icon-64.png" height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***
@@ -2958,9 +2962,12 @@ debs made by Pi-Apps-Coders development team<br />
 ARM32/ARM64 - 67,809 Users!!
 ```
 Easily emulate x86 linux apps on ARM32.
+
 Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux, like ARM (host system needs to be 32bit little-endian).
-Because Box86 uses the native versions of some "system" libraries, like libc, libm, SDL and OpenGL, it's easy to integrate and use, and performance can be surprisingly high in some cases.
-Box86 now integrates a DynaRec (dynamic recompiler) for the ARM platform, providing a speed boost between 5 to 10 times faster than only using the interpreter.
+
+Because Box86 uses the native versions of some "system" libraries, like libc, libm, SDL, OpenGL, and Vulkan, it's easy to integrate and use, and performance can be surprisingly high in some cases.
+
+Box86/Box64 Game compatibility list: https://box86.org/app/
 
 To run in a terminal: box86
 ```
@@ -2993,6 +3000,8 @@ Note: This mode is experimental in Wine and Box64 support for x86 code still nee
 Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
 
 Need support with running a game or app with wine and box64? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
+
+Box86/Box64 Game compatibility list: https://box86.org/app/
 ```
 
 ### <img src="/img/app-icons/Wine (x86)/icon-64.png" height=32> ***[Wine (x86)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x86))***
@@ -3009,4 +3018,6 @@ Not all Windows applications will work under Wine. It's a good idea to check onl
 Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
 
 Need support with running a game or app with wine and box86? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
+
+Box86/Box64 Game compatibility list: https://box86.org/app/
 ```

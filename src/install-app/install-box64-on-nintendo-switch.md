@@ -10,7 +10,11 @@ title: Install Box64 on Nintendo Switch | Pi-Apps
 > 
 > Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian).
 > 
-> Because Box64 uses the native versions of some "system" libraries, like libc, libm, SDL, and OpenGL, it's easy to integrate and use with most applications, and performance can be surprisingly high in many cases.
+> Because Box64 uses the native versions of some "system" libraries, like libc, libm, SDL, OpenGL, and Vulkan, it's easy to integrate and use with most applications, and performance can be surprisingly high in many cases.
+> 
+> Box86/Box64 Game compatibility list: https://box86.org/app/
+> 
+> To run in a terminal: box64
 
 Fortunately, Box64 is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

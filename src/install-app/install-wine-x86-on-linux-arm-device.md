@@ -14,6 +14,8 @@ title: Install Wine (x86) on Linux ARM Device | Pi-Apps
 > Note: the applications installed with wine will appear under the wine category in the main menu, and they will stay there even after uninstalling wine.
 > 
 > Need support with running a game or app with wine and box86? Ask it on the Pi Labs Discord: https://discord.gg/JKNQXprqUd
+> 
+> Box86/Box64 Game compatibility list: https://box86.org/app/
 
 Fortunately, Wine (x86) is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
