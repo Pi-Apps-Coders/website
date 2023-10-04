@@ -2108,7 +2108,7 @@ To run in terminal: ~/autostar/main.sh
 https://www.bleachbit.org/<br />
 ARM32/ARM64 - 6,826 Users!
 ```
-BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer. Not outdated like the APT repo's BleachBit.
+BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer.
 
 Like CCleaner on Windows, BleachBit frees space by deleting unimportant files and helps maintain your privacy by deleting sensitive data. 
 And, just like CCleaner, there’s more you can do with BleachBit than just clicking a single button.

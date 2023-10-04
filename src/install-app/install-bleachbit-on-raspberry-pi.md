@@ -6,7 +6,7 @@ title: Install BleachBit on Raspberry Pi | Pi-Apps
 # Install <img src="/img/app-icons/BleachBit/icon-64.png" height=24> BleachBit on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/BleachBit/icon-64.png"> BleachBit
-> BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer. Not outdated like the APT repo's BleachBit.
+> BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer.
 > 
 > Like CCleaner on Windows, BleachBit frees space by deleting unimportant files and helps maintain your privacy by deleting sensitive data. 
 > And, just like CCleaner, there’s more you can do with BleachBit than just clicking a single button.
