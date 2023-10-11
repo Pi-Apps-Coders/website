@@ -19,7 +19,7 @@ To uninstall Pi-Apps you can use the built in uninstall script
 
 ### Supported systems:
 #### Raspberry Pi <img src="/img/other-icons/raspberrypi-icon.svg" height="14">:
-- <img src="/img/other-icons/raspberrypi-icon.svg" height="14"> [**Raspberry Pi OS**](https://www.raspberrypi.com/software/operating-systems/) (32-bit/64-bit) (Buster/Bullseye): <span style="color:var(--success-dark);">fully supported</span>
+- <img src="/img/other-icons/raspberrypi-icon.svg" height="14"> [**Raspberry Pi OS**](https://www.raspberrypi.com/software/operating-systems/) (32-bit/64-bit) (Bullseye/Bookworm): <span style="color:var(--success-dark);">fully supported</span>
 - <img src="/img/other-icons/ubuntu-icon.svg" height="14"> [**Raspberry Pi Ubuntu**](https://ubuntu.com/download/raspberry-pi) (Jammy/22.04 LTS) (GNOME, Mate, KDE, Budgie, etc): <span style="color:var(--success-dark);">fully supported</span>
 - <img src="/img/other-icons/pop-os.svg" height="14"> [**Raspberry Pi Pop_OS!**](https://pop.system76.com/): <span style="color:var(--warn-dark);">you may encounter errors installing or running some apps</span>
 #### Nintendo Switch <img src=/img/other-icons/switch-icon.svg height="14"> and Nvidia Jetson <img src=/img/other-icons/nvidia-icon.svg height="14">:
