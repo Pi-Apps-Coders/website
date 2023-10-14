@@ -25,7 +25,7 @@ Fortunately, Pale Moon is very easy to install on your Linux ARM Device in just 
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Pale Moon will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+Pale Moon will only run on an Ubuntu/Debian ARM64 OS. Pi-Apps will not let you install Pale Moon on an Ubuntu/Debian ARM32 OS.
 </div>
 <div class="simple-install-content content">
 

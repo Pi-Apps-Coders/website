@@ -1254,7 +1254,7 @@ To run in terminal: min
 
 ### <img src="/img/app-icons/Pale Moon/icon-64.png" height=32> ***[Pale Moon](https://github.com/Botspot/pi-apps/tree/master/apps/Pale%20Moon)***
 https://www.palemoon.org/ - Botspot<br />
-ARM32/ARM64 - 2,036 Users!
+ARM64 ONLY - 2,036 Users!
 ```
 A distant fork of Firefox, this is a lightweight and customizable web browser.
 Pale Moon offers you a browsing experience in a browser completely built
