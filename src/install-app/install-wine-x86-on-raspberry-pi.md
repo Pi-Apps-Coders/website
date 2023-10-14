@@ -6,7 +6,7 @@ title: Install Wine (x86) on Raspberry Pi | Pi-Apps
 # Install <img src="/img/app-icons/Wine (x86)/icon-64.png" height=24> Wine (x86) on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Wine (x86)/icon-64.png"> Wine (x86)
-> Run x86 Windows apps with a box86-emulated version of x86 wine-8.17.
+> Run x86 Windows apps with a box86-emulated version of x86 wine-8.18.
 > To run: wine path/to/file.exe
 > To configure wine: go to 'Wine configuration' in main menu or type in terminal: wine winecfg
 > Not all Windows applications will work under Wine. It's a good idea to check online if your program can run, or if something can be tweaked to make it work.
