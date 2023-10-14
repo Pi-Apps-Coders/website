@@ -2487,16 +2487,13 @@ https://sites.google.com/site/ffmulticonverter/ - Thanks to Crilum on GitHub for
 Thanks to ilstad on GitHub and all Contributors for creating FF Multi Converter!<br />
 ARM32/ARM64 - 3,114 Users!
 ```
-FF Multi Converter is a simple graphical application for Linux which enables you to convert audio,
-video, image and document files.
+Simple file conversions for audio, video, images and documents.
 
-It uses FFmpeg for audio/video files, the ImageMagick software suite for image conversions and
-unoconv for document files.
+It uses FFmpeg for audio/video files, the ImageMagick software suite for image conversions and unoconv for document files.
 
-The goal of FF Multi Converter is to gather the most popular multimedia types in one application
-and provide conversion options for them easily through a user-friendly graphical interface.
+The goal of FF Multi Converter is to gather the most popular multimedia types in one application and provide conversion options for them easily through a user-friendly graphical interface.
 
-To run: Menu -> Accesories -> FF Multi Converter
+To run: Menu -> Office -> FF Multi Converter
 To run in a terminal: ffmulticonverter
 ```
 

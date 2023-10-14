@@ -6,16 +6,13 @@ title: Install FF Multi Converter on Nintendo Switch | Pi-Apps
 # Install <img src="/img/app-icons/FF Multi Converter/icon-64.png" height=24> FF Multi Converter on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/FF Multi Converter/icon-64.png"> FF Multi Converter
-> FF Multi Converter is a simple graphical application for Linux which enables you to convert audio,
-> video, image and document files.
+> Simple file conversions for audio, video, images and documents.
 > 
-> It uses FFmpeg for audio/video files, the ImageMagick software suite for image conversions and
-> unoconv for document files.
+> It uses FFmpeg for audio/video files, the ImageMagick software suite for image conversions and unoconv for document files.
 > 
-> The goal of FF Multi Converter is to gather the most popular multimedia types in one application
-> and provide conversion options for them easily through a user-friendly graphical interface.
+> The goal of FF Multi Converter is to gather the most popular multimedia types in one application and provide conversion options for them easily through a user-friendly graphical interface.
 > 
-> To run: Menu -> Accesories -> FF Multi Converter
+> To run: Menu -> Office -> FF Multi Converter
 > To run in a terminal: ffmulticonverter
 
 Fortunately, FF Multi Converter is very easy to install on your Nintendo Switch in just two steps.
