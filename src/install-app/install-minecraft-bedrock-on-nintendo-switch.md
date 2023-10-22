@@ -9,13 +9,13 @@ title: Install Minecraft Bedrock on Nintendo Switch | Pi-Apps
 > Unofficial launcher for Minecraft Bedrock edition
 > NOTE: For better performance and smooth FPS, we recommend an older Bedrock version like 1.16.40 as it doesn't contain renderdragon or RTX code.
 > 
->  ∙ Sign in with a Google Play account with Minecraft purchased
+>  ∙ Sign in with a Google Play account with Minecraft purchased (if login does not work, close and re-open the application)
 >  ∙ Active comunity to ask for help
 >  ∙ FPS Counter mod
 >  ∙ And much more!
 > 
 > To run: Menu -> Games -> Minecraft Bedrock Launcher
-> To run in a terminal: GALLIUM_HUD=simple,fps /opt/MCBedrock.AppImage
+> To run in a terminal: GALLIUM_HUD=simple,fps ~/.local/bin/MCBedrock.AppImage
 
 Fortunately, Minecraft Bedrock is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.
