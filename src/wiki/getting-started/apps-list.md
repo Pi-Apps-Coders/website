@@ -1777,6 +1777,17 @@ Run from Menu: Menu -> Accessories -> Notejot
 Run from Terminal: flatpak run io.github.lainsce.Notejot
 ```
 
+### <img src="/img/app-icons/Open-Typer/icon-64.png" height=32> ***[Open-Typer](https://github.com/Botspot/pi-apps/tree/master/apps/Open-Typer)***
+https://github.com/Open-Typer/Open-Typer<br />
+ARM32/ARM64
+```
+Open-Typer is an open source typing tutor application which aims to make learning to touch type easier.
+Using Qt, Open-Typer runs on many devices, while still maintaining ease of use.
+
+To run: Menu -> Education -> Open-Typer
+To run in terminal: /opt/Open-Typer.AppImage
+```
+
 ### <img src="/img/app-icons/WPS Office/icon-64.png" height=32> ***[WPS Office](https://github.com/Botspot/pi-apps/tree/master/apps/WPS%20Office)***
 https://www.wps.com - Botspot figured out how to install WPS Office on PiOS64. (dependency handling)
 Botspot figured out how to install WPS Office on PiOS32. (chroot setup)<br />
