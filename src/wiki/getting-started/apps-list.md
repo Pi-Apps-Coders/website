@@ -221,7 +221,7 @@ To run in terminal: gimp
 
 ### <img src="/img/app-icons/Inkscape/icon-64.png" height=32> ***[Inkscape](https://github.com/Botspot/pi-apps/tree/master/apps/Inkscape)***
 https://inkscape.org - 1Spinne in issue #1262<br />
-Package app - 10,713 Users!!
+Package app - 10,346 Users!!
 ```
 Popular free vector graphics editor
 
@@ -347,7 +347,7 @@ To run in a terminal: Fritzing --parts $HOME/.local/share/fritzing/parts
 
 ### <img src="/img/app-icons/LibreCAD/icon-64.png" height=32> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***
 https://librecad.org/ - @Jai-JAP for adding this app to pi-apps<br />
-Package app - 3,957 Users!
+Package app - 3,589 Users!
 ```
 Open Source 2D-CAD
 LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. Support and documentation are free from our large, dedicated community of users, contributors and developers.
@@ -986,7 +986,7 @@ To run in terminal: ~/cloudbuddy/main.sh
 
 ### <img src="/img/app-icons/Deluge/icon-64.png" height=32> ***[Deluge](https://github.com/Botspot/pi-apps/tree/master/apps/Deluge)***
 https://www.deluge-torrent.org - Botspot<br />
-Package app - 7,028 Users!
+Package app - 5,906 Users!
 ```
 Lightweight BitTorrent client
 Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
@@ -1012,7 +1012,7 @@ To run in a terminal: deskreen
 
 ### <img src="/img/app-icons/Filezilla/icon-64.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
 https://filezilla-project.org/ - Botspot<br />
-Package app - 11,735 Users!!
+Package app - 11,637 Users!!
 ```
 Download and upload files via FTP, FTPS, and HTTP
 This all allows you to connect to file-sharing servers on your home network or on the world wide web.
@@ -1712,7 +1712,7 @@ To run in a terminal: ~/youtubuddy/gui
 
 ### <img src="/img/app-icons/AbiWord/icon-64.png" height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
 http://www.abisource.com/ -  open-sorcerer64<br />
-Package app - 3,303 Users!
+Package app - 3,164 Users!
 ```
 A free and open-source alternative to Microsoft Word.  
 
@@ -1748,7 +1748,7 @@ Currently, the tabbed interface works for Calc, Impress, and Writer. Base and Ma
 
 ### <img src="/img/app-icons/LibreOffice/icon-64.png" height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
 https://www.libreoffice.org - Botspot<br />
-Package app - 98,168 Users!!
+Package app - 88,474 Users!!
 ```
 Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
 To run: Menu -> Office -> LibreOffice
@@ -1926,7 +1926,7 @@ To run in a terminal: ~/jgrasp/bin/jgrasp
 
 ### <img src="/img/app-icons/Mu/icon-64.png" height=32> ***[Mu](https://github.com/Botspot/pi-apps/tree/master/apps/Mu)***
 https://codewith.mu/ - Botspot<br />
-Package app - 36,345 Users!!
+Package app - 26,692 Users!!
 ```
 A simple Python editor for beginner programmers.
 This is probably the simplest Python code editor available, with an intuitive UI designed to make sense on first run. Mu is the recommended Python IDE by the Raspberry Pi Foundation.
@@ -2002,7 +2002,7 @@ To run in a terminal: scratch2
 
 ### <img src="/img/app-icons/Scratch 3/icon-64.png" height=32> ***[Scratch 3](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%203)***
 https://scratch.mit.edu - Botspot<br />
-Package app - 233,686 Users!!
+Package app - 45,845 Users!!
 ```
 Enjoy learning computer programming with drag-n-drop blocks!
 This is Raspberry Pi's official electron build of Scratch 3 and it runs offline.
@@ -2188,7 +2188,7 @@ To run in a terminal: baobab
 
 ### <img src="/img/app-icons/GParted/icon-64.png" height=32> ***[GParted](https://github.com/Botspot/pi-apps/tree/master/apps/GParted)***
 https://gparted.org - Botspot<br />
-Package app - 56,487 Users!!
+Package app - 55,381 Users!!
 ```
 Graphically manage disk partitions
 With GParted you can resize, copy, and move partitions without data loss, enabling you to:
