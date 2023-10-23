@@ -7,7 +7,7 @@ title: Install Downgrade Chromium on Raspberry Pi | Pi-Apps
 
 ## <img src="/img/app-icons/Downgrade Chromium/icon-64.png"> Downgrade Chromium
 > Change Chromium versions easily.
-> Chromium 65, 72, 74, 78, 84, 86, 88, 92, and 95.
+> Chromium 65, 72, 74, 78, 84, 86, 88, 92, 95, 98, 101, 104, 109, 113, and 116.
 > Uninstall the app to go back to the latest Chromium version available.
 > Beware that downgrading Chromium versions can mess up your config folder. To be safe, this app makes a backup of Chromium's config folder. When uninstalling, you will have the opportunity to restore the backup config folder.
 > Using older browser versions can be a security risk, proceed with caution.
