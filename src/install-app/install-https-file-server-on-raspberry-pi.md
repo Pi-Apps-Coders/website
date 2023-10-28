@@ -19,8 +19,8 @@ Fortunately, Https File Server is very easy to install on your Raspberry Pi in j
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bullseye**.
-Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3 and the Pi 4.
+For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
+Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
 Https File Server will only run on PiOS 32-bit. Pi-Apps will not let you install Https File Server on PiOS 64-bit.
 </div>
 <div class="simple-install-content content">

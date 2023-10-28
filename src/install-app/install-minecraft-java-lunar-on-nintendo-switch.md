@@ -34,7 +34,7 @@ Fortunately, Minecraft Java Lunar is very easy to install on your Nintendo Switc
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu](https://wiki.switchroot.org/en/Linux/Ubuntu-Install-Guide), which is currently version **5.1.0 Ubuntu Bionic**.
+For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Jammy](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-jammy-installation-guide), which is currently version **5.1.2 Ubuntu Jammy**.
 Minecraft Java Lunar will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
