@@ -100,16 +100,16 @@ echo "[Desktop Entry]
 Name=Ultimaker Cura
 GenericName=3D Printing Software
 Comment=Cura converts 3D models into paths for a 3D printer. It prepares your print for maximum accuracy, minimum printing time and good reliability with many extra features that make your print come out great.
-Exec=bash -c 'sudo modprobe fuse; ~/Cura.AppImage'
+Exec=/opt/Cura.AppImage %f
 Icon=$(dirname $0)/icon-64.png
 Terminal=false
 Type=Application
-MimeType=application/sla;application/vnd.ms-3mfdocument;application/prs.wavefront-obj;image/bmp;image/gif;image/jpeg;image/png;model/x3d+xml;
+MimeType=application/sla;application/vnd.ms-3mfdocument;application/prs.wavefront-obj;model/x3d+xml;model/stl;
 Categories=Graphics;Education;Development;Science;
 Keywords=3D;Printing;
-StartupNotify=true" > ~/.local/share/applications/cura.desktop
+StartupNotify=true" | sudo tee /usr/share/applications/cura.desktop
 ```
-This ⏫ was taken from the Cura app's `install-32` script. It creates a file at `~/.local/share/applications/cura.desktop`. (Don't forget to make the uninstall script remove it!)
+This ⏫ was taken from the Cura app's `install-32` script. It creates a file at `/usr/share/applications/cura.desktop`. (Don't forget to make the uninstall script remove it!)
  - Delete files with `rm /path/to/file-i-wanna-delete.txt`. It's good practice to use `rm -f` to hide errors in case the file doesn't exist. For deleting entire folders, use `rm -rf`.
  - Move files to the Trash with `gio trash /path/to/file/or/folder-i-wanna-delete`.
 
