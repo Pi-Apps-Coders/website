@@ -160,15 +160,15 @@ And to <strong>remove</strong> all packages your app installed earlier:<br>
 Name=Ultimaker Cura
 GenericName=3D Printing Software
 Comment=Cura converts 3D models into paths for a 3D printer. It prepares your print for maximum accuracy, minimum printing time and good reliability with many extra features that make your print come out great.
-Exec=bash -c 'sudo modprobe fuse; ~/Cura.AppImage'
+Exec=/opt/Cura.AppImage %f
 Icon=<span class="token variable"><span class="token variable">$(</span><span class="token function">dirname</span> $0<span class="token variable">)</span></span>/icon-64.png
 Terminal=false
 Type=Application
-MimeType=application/sla;application/vnd.ms-3mfdocument;application/prs.wavefront-obj;image/bmp;image/gif;image/jpeg;image/png;model/x3d+xml;
+MimeType=application/sla;application/vnd.ms-3mfdocument;application/prs.wavefront-obj;model/x3d+xml;model/stl;
 Categories=Graphics;Education;Development;Science;
 Keywords=3D;Printing;
-StartupNotify=true"</span> <span class="token operator">></span> ~/.local/share/applications/cura.desktop</code></pre>
-<p>This ⏫ was taken from the Cura app's <code>install-32</code> script. It creates a file at <code>~/.local/share/applications/cura.desktop</code>. (Don't forget to make the uninstall script remove it!)</p>
+StartupNotify=true"</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> /usr/share/applications/cura.desktop</code></pre>
+<p>This ⏫ was taken from the Cura app's <code>install-32</code> script. It creates a file at <code>/usr/share/applications/cura.desktop</code>. (Don't forget to make the uninstall script remove it!)</p>
 <ul>
 <li>Delete files with <code>rm /path/to/file-i-wanna-delete.txt</code>. It's good practice to use <code>rm -f</code> to hide errors in case the file doesn't exist. For deleting entire folders, use <code>rm -rf</code>.</li>
 <li>Move files to the Trash with <code>gio trash /path/to/file/or/folder-i-wanna-delete</code>.</li>
