@@ -1490,32 +1490,6 @@ Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/S
 NOTE: The app files are stored in ~/bongocam/
 ```
 
-### <img src="/img/app-icons/Chromium Widevine/icon-64.png" height=32> ***[Chromium Widevine](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium%20Widevine)***
-https://github.com/Botspot/chromium-v84-widevine<br />
-ARM32 ONLY - 18,128 Users!!
-```
-Widevine DRM support for any version of chromium-browser.
-This adds ChromeOS's Widevine video decoding library to Chromium, and creates a second menu button with a ChromeOS user-agent. All websites will think your Pi is a Chromebook!
-Unlike Ventz's Chromium Media Edition, or even the official libwidevinecdm0 package, this app is unique to support all versions of Chromium, before version 84 and after version 84. Feel free to downgrade your browser for better video performance! (Using the "Downgrade Chromium" app)
-
-To run: Menu -> Internet -> Chromium Widevine.
-To test DRM: https://bitmovin.com/demos/drm
-For normal browsing, it's advisable to use the standard Chromium launcher.
-
-This is known to work on these websites:
-• Netflix
-• Hulu
-• Amazon Prime
-• Disney+
-• HBO
-• Spotify
-• Pandora
-• Hoopla
-• MUBI
-• BritBox
-• Bell Satellite TV
-```
-
 ### <img src="/img/app-icons/FreeTube/icon-64.png" height=32> ***[FreeTube](https://github.com/Botspot/pi-apps/tree/master/apps/FreeTube)***
 https://freetubeapp.io/ - Installation Script and added to Pi-Apps by RPICoder<br />
 ARM32/ARM64 - 15,951 Users!!
