@@ -1004,10 +1004,13 @@ Thanks to Crilum on GitHub for making the scripts.
 Thanks to ryanfortner on GitHub for having and hosting the debs!<br />
 ARM32/ARM64 - 2,503 Users!
 ```
-Share your desktop to your browser, and turn any device into a second screen!
+Share your screen to any device on the local network that has a web browser.
+This is not a remote desktop, but a simple tool for making other devices show what is on your screen. Client devices can only view your screen - they cannot move the mouse or interact with your computer at all. Useful for whenever you want your screen to appear somewhere else quickly, like a movie night, powerpoint presentation, or even a prank!
 
 To run: Menu -> Programming -> Deskreen
 To run in a terminal: deskreen
+
+This is privacy-friendly and does not use cloud resources, but it is written in Electron and consumes a lot of CPU processing power when in use. It is not suitable for Pi models older than the Pi4.
 ```
 
 ### <img src="/img/app-icons/Filezilla/icon-64.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
