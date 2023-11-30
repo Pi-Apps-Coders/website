@@ -2700,11 +2700,19 @@ and it makes life easier by eliminating the use of quotes for apps with a space 
 https://github.com/actionschnitzel/PiGro-Aid-<br />
 ARM32/ARM64 - 11,614 Users!!
 ```
-PiGro is a program designed to make all Debian-based distributions easier to use on the Pi.
-The most common terminal commands can be executed with one click.
+A system configuration tool inspired by openSUSE's YaST but with the user-friendliness of Linux Mint. PiGro equips Raspberry Pi OS with graphical interfaces for tasks that would otherwise require the terminal. It is also optimized for Ubuntu, Ubuntu Mate, and MX Linux.
+
+Features:
+- System Monitor
+- Easy access to system areas with elevated privileges
+- Powerful update tools
+- Desktop Environment (DE) Theme Changer
+- Autostart Tool
+- Software Center for APT, Pi-Apps & Flatpak
+- Tuning & Overclocking section
 
 To run: Menu -> System Tools -> PiGro
-To run in a terminal: cd ~/PiGro-Aid- ; ~/PiGro-Aid-/start.sh
+To run in a terminal: pigro-jci
 ```
 
 ### <img src="/img/app-icons/PiKISS GUI/icon-64.png" height=32> ***[PiKISS GUI](https://github.com/Botspot/pi-apps/tree/master/apps/PiKISS%20GUI)***
