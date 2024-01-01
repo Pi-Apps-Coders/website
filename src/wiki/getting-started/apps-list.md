@@ -2011,6 +2011,16 @@ Lastly, connect RX from the Raspberry Pi to TX on the RVR.
 There you go! You are now ready to run your programs.
 ```
 
+### <img src="/img/app-icons/Sublime Merge/icon-64.png" height=32> ***[Sublime Merge](https://github.com/Botspot/pi-apps/tree/master/apps/Sublime%20Merge)***
+https://www.sublimemerge.com/ - Added to pi-apps by theofficialgman<br />
+ARM64 ONLY
+```
+Git Client, done Sublime. Line-by-line Staging. Commit Editing. Unmatched Performance.
+
+To run: Menu -> Programming -> Sublime Merge
+To run in a terminal: smerge
+```
+
 ### <img src="/img/app-icons/Sublime Text/icon-64.png" height=32> ***[Sublime Text](https://github.com/Botspot/pi-apps/tree/master/apps/Sublime%20Text)***
 https://www.sublimetext.com/ - Added to pi-apps by Itai Nelken<br />
 ARM32/ARM64 - 6,960 Users!
@@ -2023,7 +2033,7 @@ However on arm64 based Operating Systems this runs the latest Sublime Text 4 wit
 
 To run: Menu -> Programming -> Sublime Text
 To run in a terminal if you are using a 32-bit OS: box86 ~/'Sublime Text 2'/sublime_text
-To run in a terminal if you are using a 64-bit OS: /opt/sublime_text/sublime_text
+To run in a terminal if you are using a 64-bit OS: subl
 ```
 
 ### <img src="/img/app-icons/Turbowarp/icon-64.png" height=32> ***[Turbowarp](https://github.com/Botspot/pi-apps/tree/master/apps/Turbowarp)***

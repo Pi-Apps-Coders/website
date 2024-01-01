@@ -14,7 +14,7 @@ title: Install Sublime Text on Linux ARM Device | Pi-Apps
 > 
 > To run: Menu -> Programming -> Sublime Text
 > To run in a terminal if you are using a 32-bit OS: box86 ~/'Sublime Text 2'/sublime_text
-> To run in a terminal if you are using a 64-bit OS: /opt/sublime_text/sublime_text
+> To run in a terminal if you are using a 64-bit OS: subl
 
 Fortunately, Sublime Text is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
