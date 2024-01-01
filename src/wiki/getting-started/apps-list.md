@@ -2807,18 +2807,6 @@ To run: Menu -> Preferences -> Snap Store
 To run in a terminal: snap-store
 ```
 
-### <img src="/img/app-icons/Temps/icon-64.png" height=32> ***[Temps](https://github.com/Botspot/pi-apps/tree/master/apps/Temps)***
-https://github.com/musicpro/temps - Thanks to Crilum on GitHub for making the scripts.
-Thanks to jackd248 on GitHub for the original temps.
-Thanks to promusic on GitHub for forking and continuing development on this awesome app!<br />
-ARM32/ARM64 - 2,213 Users!
-```
-Temps is a modern and minimal menubar application based on Electron with actual weather information and forecast.
-
-To run: Menu -> Accessories -> Temps
-To run in a terminal: temps
-```
-
 ### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
 https://github.com/debrouxl/tilp_and_gfm - @ryanfortner (GitHub)<br />
 Package app - 780 Users
