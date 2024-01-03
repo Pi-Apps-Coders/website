@@ -1704,7 +1704,7 @@ To run in terminal: abiword.
 
 ### <img src="/img/app-icons/Gnumeric/icon-64.png" height=32> ***[Gnumeric](https://github.com/Botspot/pi-apps/tree/master/apps/Gnumeric)***
 http://www.gnumeric.org/ - Botspot<br />
-Package app - 854 Users
+Package app - 700 Users
 ```
 Fast, reliable spreadsheet program
 Ons of the spreadsheet programs specifically written for Linux, Gnumeric is lightweight, fast, and very responsive. It can save as .gnumeric files, .ods files, or even the familiar Microsoft Office .xls filetype.
@@ -1725,7 +1725,7 @@ Currently, the tabbed interface works for Calc, Impress, and Writer. Base and Ma
 
 ### <img src="/img/app-icons/LibreOffice/icon-64.png" height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
 https://www.libreoffice.org - Botspot<br />
-Package app - 97,480 Users!!
+Package app - 98,660 Users!!
 ```
 Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
 To run: Menu -> Office -> LibreOffice
@@ -2166,7 +2166,7 @@ To run in a terminal: ~/CommanderPi/src/start.sh
 
 ### <img src="/img/app-icons/Disk Usage Analyzer/icon-64.png" height=32> ***[Disk Usage Analyzer](https://github.com/Botspot/pi-apps/tree/master/apps/Disk%20Usage%20Analyzer)***
 https://wiki.gnome.org/Apps/DiskUsageAnalyzer - Botspot<br />
-Package app - 48,595 Users!!
+Package app - 49,781 Users!!
 ```
 Ever wonder where you put that big file, or why your SD card is full? Now you can, with a glance at a pie chart.
 To run: Menu -> System Tools -> Disk Usage Analyzer
