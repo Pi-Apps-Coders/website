@@ -1,27 +1,26 @@
 ---
-title: Install WhatsApp on Raspberry Pi | Pi-Apps
+title: Install StackEdit on Raspberry Pi | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/WhatsApp/icon-64.png" height=24> WhatsApp on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/StackEdit/icon-64.png" height=24> StackEdit on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
-## <img src="/img/app-icons/WhatsApp/icon-64.png"> WhatsApp
-> Whatsapp Web webapp
-> 
-> A simple Whatsapp Web chromium webapp.
-> 
-> To run: Menu -> Internet -> WhatsApp
+## <img src="/img/app-icons/StackEdit/icon-64.png"> StackEdit
+> Full-featured, open-source Markdown editor.
+> StackEdit uses the same markdown library as Stack Overflow and is fully compatible with Github README.md files as well.
+> This is Botspot's preferred tool to write the README for all his repositories.
+> To run: Menu -> Programming -> StackEdit
 
-Fortunately, WhatsApp is very easy to install on your Raspberry Pi in just two steps.
+Fortunately, StackEdit is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
-2. Use Pi-Apps to install WhatsApp.
+2. Use Pi-Apps to install StackEdit.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-WhatsApp will run on either PiOS 32-bit or 64-bit.
+StackEdit will run on either PiOS 32-bit or 64-bit.
 </div>
 <div class="simple-install-content content">
 
@@ -37,16 +36,16 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 </div>
 <div class="simple-install-content content">
 
-## Install WhatsApp
+## Install StackEdit
 
-Now that you have Pi-Apps installed, it is time to install WhatsApp.
+Now that you have Pi-Apps installed, it is time to install StackEdit.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Internet category, which leads to the Communication category.
-<img src="/img/category-selections/Communication.png">
-Now scroll down to find WhatsApp in the list.
-<img src="/img/app-icons/WhatsApp/app-selection.png">
-Just click Install and Pi-Apps will install WhatsApp for you!
+Then click on the Programming category.
+<img src="/img/category-selections/Programming.png">
+Now scroll down to find StackEdit in the list.
+<img src="/img/app-icons/StackEdit/app-selection.png">
+Just click Install and Pi-Apps will install StackEdit for you!
 </div>
 <div class="simple-install-content content">
 

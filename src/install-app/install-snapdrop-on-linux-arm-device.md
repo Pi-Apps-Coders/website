@@ -1,26 +1,25 @@
 ---
-title: Install WhatsApp on Linux ARM Device | Pi-Apps
+title: Install Snapdrop on Linux ARM Device | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/WhatsApp/icon-64.png" height=24> WhatsApp on Linux ARM Device
+# Install <img src="/img/app-icons/Snapdrop/icon-64.png" height=24> Snapdrop on Linux ARM Device
 
-## <img src="/img/app-icons/WhatsApp/icon-64.png"> WhatsApp
-> Whatsapp Web webapp
-> 
-> A simple Whatsapp Web chromium webapp.
-> 
-> To run: Menu -> Internet -> WhatsApp
+## <img src="/img/app-icons/Snapdrop/icon-64.png"> Snapdrop
+> Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
+> To run: Menu -> Internet -> Snapdrop
+> To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
+> Now drag and drop files to the website, and the other device will see the files and download them.
 
-Fortunately, WhatsApp is very easy to install on your Linux ARM Device in just two steps.
+Fortunately, Snapdrop is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
-2. Use Pi-Apps to install WhatsApp.
+2. Use Pi-Apps to install Snapdrop.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-WhatsApp will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+Snapdrop will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
 </div>
 <div class="simple-install-content content">
 
@@ -36,16 +35,16 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 </div>
 <div class="simple-install-content content">
 
-## Install WhatsApp
+## Install Snapdrop
 
-Now that you have Pi-Apps installed, it is time to install WhatsApp.
+Now that you have Pi-Apps installed, it is time to install Snapdrop.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Internet category, which leads to the Communication category.
-<img src="/img/category-selections/Communication.png">
-Now scroll down to find WhatsApp in the list.
-<img src="/img/app-icons/WhatsApp/app-selection.png">
-Just click Install and Pi-Apps will install WhatsApp for you!
+Then click on the Tools category.
+<img src="/img/category-selections/Tools.png">
+Now scroll down to find Snapdrop in the list.
+<img src="/img/app-icons/Snapdrop/app-selection.png">
+Just click Install and Pi-Apps will install Snapdrop for you!
 </div>
 <div class="simple-install-content content">
 

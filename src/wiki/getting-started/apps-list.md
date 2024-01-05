@@ -1411,18 +1411,14 @@ to run in a terminal: WINEPREFIX=$HOME/.config/wechat-prefix wine "$HOME/.config
 ```
 
 ### <img src="/img/app-icons/WhatsApp/icon-64.png" height=32> ***[WhatsApp](https://github.com/Botspot/pi-apps/tree/master/apps/WhatsApp)***
-no website - Apps compiled using Nativefier and DEB packages hosted by cycool29
-Nativefier made by jiahaog.
-Thanks to Botspot for help with debugging the menu shortcut and for creating pi-apps!<br />
+no website - theofficialgman<br />
 ARM32/ARM64 - 9,746 Users!
 ```
-Nativefier Whatsapp Web webapp
+Whatsapp Web webapp
 
-A simple Whatsapp Web chromium webapp wrapped in electron with nativefier.
-it has a tray icon, so it doesn't take space on the taskbar, but keeps running in the background.
+A simple Whatsapp Web chromium webapp.
 
-To run: Menu -> Internet -> Whatsapp Web
-To run in a terminal: /opt/WhatsApp/WhatsApp
+To run: Menu -> Internet -> WhatsApp
 ```
 
 ### <img src="/img/app-icons/Zoom/icon-64.png" height=32> ***[Zoom](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom)***
@@ -2009,6 +2005,16 @@ Connect TX from the Raspberry Pi to RX on RVR.
 Lastly, connect RX from the Raspberry Pi to TX on the RVR.
 
 There you go! You are now ready to run your programs.
+```
+
+### <img src="/img/app-icons/StackEdit/icon-64.png" height=32> ***[StackEdit](https://github.com/Botspot/pi-apps/tree/master/apps/StackEdit)***
+https://stackedit.io/ - theofficialgman<br />
+ARM32/ARM64 - 1,002 Users
+```
+Full-featured, open-source Markdown editor.
+StackEdit uses the same markdown library as Stack Overflow and is fully compatible with Github README.md files as well.
+This is Botspot's preferred tool to write the README for all his repositories.
+To run: Menu -> Programming -> StackEdit
 ```
 
 ### <img src="/img/app-icons/Sublime Merge/icon-64.png" height=32> ***[Sublime Merge](https://github.com/Botspot/pi-apps/tree/master/apps/Sublime%20Merge)***
@@ -2792,6 +2798,16 @@ Package app - 26,757 Users!!
 Simple interface for capturing screenshots, similar to the Windows Snipping Tool.
 To run: Menu -> Accessories -> Screenshot
 To run in terminal: gnome-screenshot
+```
+
+### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
+https://github.com/RobinLinus/snapdrop - theofficialgman<br />
+ARM32/ARM64 - 5,859 Users!
+```
+Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
+To run: Menu -> Internet -> Snapdrop
+To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
+Now drag and drop files to the website, and the other device will see the files and download them.
 ```
 
 ### <img src="/img/app-icons/Snap Store/icon-64.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
