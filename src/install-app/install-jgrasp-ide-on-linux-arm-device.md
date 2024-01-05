@@ -10,7 +10,7 @@ title: Install jGRASP IDE on Linux ARM Device | Pi-Apps
 > This IDE is used by many learning institutions and colleges for their classes.
 > 
 > To run: Menu -> Programming -> jGRASP
-> To run in a terminal: ~/jgrasp/bin/jgrasp
+> To run in a terminal: jgrasp
 
 Fortunately, jGRASP IDE is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

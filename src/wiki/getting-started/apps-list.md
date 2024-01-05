@@ -1887,14 +1887,14 @@ To run in a terminal: /opt/ideaIC/bin/idea.sh
 ```
 
 ### <img src="/img/app-icons/jGRASP IDE/icon-64.png" height=32> ***[jGRASP IDE](https://github.com/Botspot/pi-apps/tree/master/apps/jGRASP%20IDE)***
-https://www.jgrasp.org/index.html - Botspot made this app.<br />
+https://www.jgrasp.org/index.html - Botspot created and theofficialgman edited and updated.<br />
 ARM32/ARM64 - 1,039 Users
 ```
 An IDE with visualizations for improving software comprehensibility.
 This IDE is used by many learning institutions and colleges for their classes.
 
 To run: Menu -> Programming -> jGRASP
-To run in a terminal: ~/jgrasp/bin/jgrasp
+To run in a terminal: jgrasp
 ```
 
 ### <img src="/img/app-icons/Mu/icon-64.png" height=32> ***[Mu](https://github.com/Botspot/pi-apps/tree/master/apps/Mu)***
