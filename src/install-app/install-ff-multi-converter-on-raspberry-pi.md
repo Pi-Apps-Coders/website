@@ -10,10 +10,10 @@ title: Install FF Multi Converter on Raspberry Pi | Pi-Apps
 > 
 > It uses FFmpeg for audio/video files, the ImageMagick software suite for image conversions and unoconv for document files.
 > 
-> The goal of FF Multi Converter is to gather the most popular multimedia types in one application and provide conversion options for them easily through a user-friendly graphical interface.
+> The goal of FF Converter is to gather the most popular multimedia types in one application and provide conversion options for them easily through a user-friendly graphical interface.
 > 
-> To run: Menu -> Office -> FF Multi Converter
-> To run in a terminal: ffmulticonverter
+> To run: Menu -> Office -> FF Converter
+> To run in a terminal: ffconverter
 
 Fortunately, FF Multi Converter is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.

@@ -2487,18 +2487,18 @@ To run in a terminal: ducopanel
 ```
 
 ### <img src="/img/app-icons/FF Multi Converter/icon-64.png" height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
-https://sites.google.com/site/ffmulticonverter/ - Thanks to Crilum on GitHub for writing the scripts.
-Thanks to ilstad on GitHub and all Contributors for creating FF Multi Converter!<br />
+https://github.com/l-koehler/FF-converter - Thanks to Crilum on GitHub for writing the scripts.
+Thanks to ilstad and l-koehler on GitHub and all Contributors for creating FF Converter!<br />
 ARM32/ARM64 - 3,639 Users!
 ```
 Simple file conversions for audio, video, images and documents.
 
 It uses FFmpeg for audio/video files, the ImageMagick software suite for image conversions and unoconv for document files.
 
-The goal of FF Multi Converter is to gather the most popular multimedia types in one application and provide conversion options for them easily through a user-friendly graphical interface.
+The goal of FF Converter is to gather the most popular multimedia types in one application and provide conversion options for them easily through a user-friendly graphical interface.
 
-To run: Menu -> Office -> FF Multi Converter
-To run in a terminal: ffmulticonverter
+To run: Menu -> Office -> FF Converter
+To run in a terminal: ffconverter
 ```
 
 ### <img src="/img/app-icons/Flameshot/icon-64.png" height=32> ***[Flameshot](https://github.com/Botspot/pi-apps/tree/master/apps/Flameshot)***
