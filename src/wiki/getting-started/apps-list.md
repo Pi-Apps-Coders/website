@@ -1431,7 +1431,7 @@ This works by running the x86 Zoom Linux app inside the box86/box64 emulator.
 Performance is good enough on the Pi4. Turning off HD video in Zoom's settings is recommended.
 
 To run: Menu -> Internet -> Zoom
-To run in a terminal: ~/zoom/runzoom.sh
+To run in a terminal: ~/zoom/ZoomLauncher
 ```
 
 ### <img src="/img/app-icons/Zoom PWA/icon-64.png" height=32> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***

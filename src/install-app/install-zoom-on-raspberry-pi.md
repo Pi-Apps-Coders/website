@@ -12,7 +12,7 @@ title: Install Zoom on Raspberry Pi | Pi-Apps
 > Performance is good enough on the Pi4. Turning off HD video in Zoom's settings is recommended.
 > 
 > To run: Menu -> Internet -> Zoom
-> To run in a terminal: ~/zoom/runzoom.sh
+> To run in a terminal: ~/zoom/ZoomLauncher
 
 Fortunately, Zoom is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
