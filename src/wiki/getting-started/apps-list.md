@@ -794,13 +794,13 @@ To run in a terminal: pacman_sdl
 ```
 
 ### <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png" height=32> ***[PPSSPP (PSP emulator)](https://github.com/Botspot/pi-apps/tree/master/apps/PPSSPP%20(PSP%20emulator))***
-http://ppsspp.org - Added to pi-apps by @ryanfortner (Github)<br />
+http://ppsspp.org - theofficialgman<br />
 ARM32/ARM64 - 14,006 Users!!
 ```
 A PSP emulator that can run PSP games in full HD and can upscale textures also.
 
-To run: Menu > Games > PPSSPP
-To run in a terminal: ~/ppsspp/PPSSPPSDL
+To run: Menu > Games > PPSSPPSDL
+To run in a terminal: PPSSPPSDL
 ```
 
 ### <img src="/img/app-icons/Project OutFox/icon-64.png" height=32> ***[Project OutFox](https://github.com/Botspot/pi-apps/tree/master/apps/Project%20OutFox)***

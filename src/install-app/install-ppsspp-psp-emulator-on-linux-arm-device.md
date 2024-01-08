@@ -8,8 +8,8 @@ title: Install PPSSPP (PSP emulator) on Linux ARM Device | Pi-Apps
 ## <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png"> PPSSPP (PSP emulator)
 > A PSP emulator that can run PSP games in full HD and can upscale textures also.
 > 
-> To run: Menu > Games > PPSSPP
-> To run in a terminal: ~/ppsspp/PPSSPPSDL
+> To run: Menu > Games > PPSSPPSDL
+> To run in a terminal: PPSSPPSDL
 
 Fortunately, PPSSPP (PSP emulator) is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
