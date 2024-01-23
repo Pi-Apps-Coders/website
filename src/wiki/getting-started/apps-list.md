@@ -1850,6 +1850,8 @@ ARM32/ARM64 - 3,682 Users!
 IntelliJ IDEA is an IDE designed to maximize developer productivity.
 It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
 
+WARNING for all 32-bit OS users: All JetBrains applications are deprecated on 32-bit OS. Move to a 64-bit OS to be able to use the latest version.
+
 To run: Menu -> Programming -> IntelliJ IDEA
 To run in a terminal: /opt/ideaIC/bin/idea.sh
 ```
@@ -1904,11 +1906,14 @@ https://www.jetbrains.com/pycharm/ - Thanks to gam3t3chelectronicshobbyhouse a.k
 ARM32/ARM64 - 10,304 Users!!
 ```
 Python Community Edition IDE for Professional and Educational Developers.
-To run: Menu -> Programming -> Pycharm Community Edition
-To run in a terminal: /opt/pycharm-community/bin/pycharm.sh
 
 You must configure the IDE to run each script ("py" file), or create a new environment.
 For Educational purposes, the "EDUtools" plugin can be installed. Go to the right corner from the Pycharm start up portal: Configurate > Plugins > Search for: EDUtools > Install it and restart the IDE. Then you will able to select "Learn and Teach" for courses.
+
+WARNING for all 32-bit OS users: All JetBrains applications are deprecated on 32-bit OS. Move to a 64-bit OS to be able to use the latest version.
+
+To run: Menu -> Programming -> Pycharm Community Edition
+To run in a terminal: /opt/pycharm-community/bin/pycharm.sh
 ```
 
 ### <img src="/img/app-icons/Remarkable/icon-64.png" height=32> ***[Remarkable](https://github.com/Botspot/pi-apps/tree/master/apps/Remarkable)***

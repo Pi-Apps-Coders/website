@@ -7,11 +7,14 @@ title: Install Pycharm CE on Raspberry Pi | Pi-Apps
 
 ## <img src="/img/app-icons/Pycharm CE/icon-64.png"> Pycharm CE
 > Python Community Edition IDE for Professional and Educational Developers.
-> To run: Menu -> Programming -> Pycharm Community Edition
-> To run in a terminal: /opt/pycharm-community/bin/pycharm.sh
 > 
 > You must configure the IDE to run each script ("py" file), or create a new environment.
 > For Educational purposes, the "EDUtools" plugin can be installed. Go to the right corner from the Pycharm start up portal: Configurate > Plugins > Search for: EDUtools > Install it and restart the IDE. Then you will able to select "Learn and Teach" for courses.
+> 
+> WARNING for all 32-bit OS users: All JetBrains applications are deprecated on 32-bit OS. Move to a 64-bit OS to be able to use the latest version.
+> 
+> To run: Menu -> Programming -> Pycharm Community Edition
+> To run in a terminal: /opt/pycharm-community/bin/pycharm.sh
 
 Fortunately, Pycharm CE is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
