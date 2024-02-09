@@ -461,6 +461,19 @@ To run: Menu -> Games -> Celeste Classic
 To run in a terminal: /usr/local/share/celeste/ccleste
 ```
 
+### <img src="/img/app-icons/Celeste64/icon-64.png" height=32> ***[Celeste64](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste64)***
+Extremely OK Games<br />
+ARM32/ARM64
+```
+Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer.
+Created in a week(ish) by the Celeste team to celebrate the game’s sixth anniversary!
+
+Controllers are recommended.
+
+To run: Menu -> Games -> Celeste64
+To run in a terminal: Celeste64
+```
+
 ### <img src="/img/app-icons/Chiaki/icon-64.png" height=32> ***[Chiaki](https://github.com/Botspot/pi-apps/tree/master/apps/Chiaki)***
 https://github.com/Fredrum/chiaki/wiki/Chiaki-for-the-Raspberry-Pi - Chiaki software implementation by Florian Märkl: https://github.com/thestr4ng3r
 Raspberry Pi fork implementation by Blueroom VR: https://github.com/Fredrum
