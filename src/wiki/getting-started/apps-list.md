@@ -462,7 +462,7 @@ To run in a terminal: /usr/local/share/celeste/ccleste
 ```
 
 ### <img src="/img/app-icons/Celeste64/icon-64.png" height=32> ***[Celeste64](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste64)***
-Extremely OK Games<br />
+https://maddymakesgamesinc.itch.io/celeste64 - Extremely OK Games<br />
 ARM32/ARM64
 ```
 Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer.
