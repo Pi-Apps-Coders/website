@@ -447,6 +447,19 @@ To run: Menu -> Games -> AstroMenace
 To run in a terminal: ~/astromenace-master/astromenace
 ```
 
+### <img src="/img/app-icons/Celeste64/icon-64.png" height=32> ***[Celeste64](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste64)***
+https://maddymakesgamesinc.itch.io/celeste64 - Extremely OK Games<br />
+ARM32/ARM64 - 94 Users
+```
+Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer.
+Created in a week(ish) by the Celeste team to celebrate the game’s sixth anniversary!
+
+Controllers are recommended.
+
+To run: Menu -> Games -> Celeste64
+To run in a terminal: Celeste64
+```
+
 ### <img src="/img/app-icons/Celeste Classic/icon-64.png" height=32> ***[Celeste Classic](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste%20Classic)***
 lemon32767 for the classic celeste port
 theofficialgman for better controller support additions and the pi-apps script
@@ -459,19 +472,6 @@ This game can be played with controllers or with keyboard. The general mapping i
 
 To run: Menu -> Games -> Celeste Classic
 To run in a terminal: /usr/local/share/celeste/ccleste
-```
-
-### <img src="/img/app-icons/Celeste64/icon-64.png" height=32> ***[Celeste64](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste64)***
-https://maddymakesgamesinc.itch.io/celeste64 - Extremely OK Games<br />
-ARM32/ARM64 - 94 Users
-```
-Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer.
-Created in a week(ish) by the Celeste team to celebrate the game’s sixth anniversary!
-
-Controllers are recommended.
-
-To run: Menu -> Games -> Celeste64
-To run in a terminal: Celeste64
 ```
 
 ### <img src="/img/app-icons/Chiaki/icon-64.png" height=32> ***[Chiaki](https://github.com/Botspot/pi-apps/tree/master/apps/Chiaki)***
@@ -1210,6 +1210,18 @@ Mozilla Firefox, is a free and open-source web browser developed by the Mozilla 
 
 To run: Menu -> Internet -> Firefox Web Browser
 To run in terminal: firefox
+```
+
+### <img src="/img/app-icons/Floorp/icon-64.png" height=32> ***[Floorp](https://github.com/Botspot/pi-apps/tree/master/apps/Floorp)***
+https://floorp.app/en/ - Botspot<br />
+ARM64 ONLY
+```
+Based on Firefox, includes extra privacy features and customization.
+This approaches Vivaldi-level customization, but it's a fork of Firefox instead of Chromium. It has dynamic New Tab backgrounds like Brave does, with a right sidebar like Microsoft Edge. Includes support for multiple workspaces and includes anti-tracking by default.
+This version from Pi-Apps will add some extensions: uBlock Origin, h264ify, and UANaughtyList - the same extensions included with the PiOS Bullseye Firefox build.
+
+To run: Menu -> Internet -> Floorp
+To run in a terminal: floorp
 ```
 
 ### <img src="/img/app-icons/Flow/icon-64.png" height=32> ***[Flow](https://github.com/Botspot/pi-apps/tree/master/apps/Flow)***
