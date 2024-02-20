@@ -8,7 +8,7 @@ eleventyNavigation:
 # How to change your Themes in Pi-Apps
 
 By default Pi-Apps follows your system GTK theme.
-However you can chance the launcher theme to a present dark or light theme as well as use any available installed GTK themes.
+However you can change the launcher theme to a present dark or light theme as well as use any available installed GTK themes.
 
 All you have to do is head the to the Pi-Apps settings and use the dropdown labeled **App List Style**
 
