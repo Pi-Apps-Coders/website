@@ -20,7 +20,7 @@ Fortunately, Notejot is very easy to install on your Raspberry Pi in just two st
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-Notejot will only run on PiOS 64-bit. Pi-Apps will not let you install Notejot on PiOS 32-bit.
+**Notejot will only run on PiOS 64-bit.** Pi-Apps will not let you install Notejot on PiOS 32-bit.
 </div>
 <div class="simple-install-content content">
 
