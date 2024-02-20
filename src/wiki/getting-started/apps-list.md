@@ -343,6 +343,26 @@ To run: Menu -> Programming/Development -> Fritzing
 To run in a terminal: Fritzing --parts $HOME/.local/share/fritzing/parts
 ```
 
+### <img src="/img/app-icons/KiCad/icon-64.png" height=32> ***[KiCad](https://github.com/Botspot/pi-apps/tree/master/apps/KiCad)***
+https://www.kicad.org/ - Botspot<br />
+ARM32/ARM64
+```
+Electronics Design Automation Suite - newer than what is available from APT
+On PiOS Bookworm, only KiCad 6 is available from apt. KiCad 7 has a number of improvements over KiCad 6:
+- Custom fonts
+- Drag and drop
+- Command line interface
+- Layout enhancements
+- Smarter algorothms and crash reporting
+- Much more at https://www.kicad.org/blog/2023/02/Version-7.0.0-Released/
+
+To run: Menu -> Other -> KiCad
+To run in a terminal: kicad
+
+Note: If you are using PiOS Bullseye, only KiCad 5.1.9 is available from APT but Pi-Apps will install KiCad 6.0.11.
+If you are still on PiOS Buster or Ubuntu, Pi-Apps will install the default version available from the repositories.
+```
+
 ### <img src="/img/app-icons/LibreCAD/icon-64.png" height=32> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***
 https://librecad.org/ - @Jai-JAP for adding this app to pi-apps<br />
 Package app - 4,632 Users!
