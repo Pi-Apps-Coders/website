@@ -175,10 +175,10 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
           archmessage="$app will run on either PiOS 32-bit or 64-bit."
           ;;
         32)
-          archmessage="$app will only run on PiOS 32-bit. Pi-Apps will not let you install $app on PiOS 64-bit."
+          archmessage="**$app will only run on PiOS 32-bit.** Pi-Apps will not let you install $app on PiOS 64-bit."
           ;;
         64)
-          archmessage="$app will only run on PiOS 64-bit. Pi-Apps will not let you install $app on PiOS 32-bit."
+          archmessage="**$app will only run on PiOS 64-bit.** Pi-Apps will not let you install $app on PiOS 32-bit."
           ;;
       esac
     elif [ "$hardware" == "Nintendo Switch" ] || [ "$hardware" == "Nvidia Jetson" ]; then
