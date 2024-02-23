@@ -45,9 +45,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Box64.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Tools category, which leads to the Emulation category.
+Then click on the <b>Tools</b> category, which leads to the <b>Emulation</b> category.
 <img src="/img/category-selections/Emulation.png">
-Now scroll down to find Box64 in the list.
+Now scroll down to find <b>Box64</b> in the list.
 <img src="/img/app-icons/Box64/app-selection.png">
 Just click Install and Pi-Apps will install Box64 for you!
 </div>

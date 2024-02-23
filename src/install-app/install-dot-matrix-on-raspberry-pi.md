@@ -41,9 +41,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Dot Matrix.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Creative Arts category.
+Then click on the <b>Creative Arts</b> category.
 <img src="/img/category-selections/Creative Arts.png">
-Now scroll down to find Dot Matrix in the list.
+Now scroll down to find <b>Dot Matrix</b> in the list.
 <img src="/img/app-icons/Dot Matrix/app-selection.png">
 Just click Install and Pi-Apps will install Dot Matrix for you!
 </div>

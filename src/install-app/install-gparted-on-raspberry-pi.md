@@ -45,9 +45,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install GParted.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the System Management category.
+Then click on the <b>System Management</b> category.
 <img src="/img/category-selections/System Management.png">
-Now scroll down to find GParted in the list.
+Now scroll down to find <b>GParted</b> in the list.
 <img src="/img/app-icons/GParted/app-selection.png">
 Just click Install and Pi-Apps will install GParted for you!
 </div>

@@ -51,9 +51,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Kodi.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Multimedia category.
+Then click on the <b>Multimedia</b> category.
 <img src="/img/category-selections/Multimedia.png">
-Now scroll down to find Kodi in the list.
+Now scroll down to find <b>Kodi</b> in the list.
 <img src="/img/app-icons/Kodi/app-selection.png">
 Just click Install and Pi-Apps will install Kodi for you!
 </div>

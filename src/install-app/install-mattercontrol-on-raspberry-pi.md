@@ -43,9 +43,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install MatterControl.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Engineering category.
+Then click on the <b>Engineering</b> category.
 <img src="/img/category-selections/Engineering.png">
-Now scroll down to find MatterControl in the list.
+Now scroll down to find <b>MatterControl</b> in the list.
 <img src="/img/app-icons/MatterControl/app-selection.png">
 Just click Install and Pi-Apps will install MatterControl for you!
 </div>

@@ -42,9 +42,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Epiphany.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Internet category, which leads to the Browsers category.
+Then click on the <b>Internet</b> category, which leads to the <b>Browsers</b> category.
 <img src="/img/category-selections/Browsers.png">
-Now scroll down to find Epiphany in the list.
+Now scroll down to find <b>Epiphany</b> in the list.
 <img src="/img/app-icons/Epiphany/app-selection.png">
 Just click Install and Pi-Apps will install Epiphany for you!
 </div>

@@ -50,9 +50,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install StepMania.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Games category.
+Then click on the <b>Games</b> category.
 <img src="/img/category-selections/Games.png">
-Now scroll down to find StepMania in the list.
+Now scroll down to find <b>StepMania</b> in the list.
 <img src="/img/app-icons/StepMania/app-selection.png">
 Just click Install and Pi-Apps will install StepMania for you!
 </div>

@@ -40,9 +40,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Conky.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Appearance category.
+Then click on the <b>Appearance</b> category.
 <img src="/img/category-selections/Appearance.png">
-Now scroll down to find Conky in the list.
+Now scroll down to find <b>Conky</b> in the list.
 <img src="/img/app-icons/Conky/app-selection.png">
 Just click Install and Pi-Apps will install Conky for you!
 </div>

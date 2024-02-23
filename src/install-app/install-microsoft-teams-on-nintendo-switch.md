@@ -43,9 +43,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Microsoft Teams.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Internet category, which leads to the Communication category.
+Then click on the <b>Internet</b> category, which leads to the <b>Communication</b> category.
 <img src="/img/category-selections/Communication.png">
-Now scroll down to find Microsoft Teams in the list.
+Now scroll down to find <b>Microsoft Teams</b> in the list.
 <img src="/img/app-icons/Microsoft Teams/app-selection.png">
 Just click Install and Pi-Apps will install Microsoft Teams for you!
 </div>

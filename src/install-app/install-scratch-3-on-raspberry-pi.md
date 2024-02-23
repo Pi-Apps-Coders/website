@@ -42,9 +42,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Scratch 3.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Programming category.
+Then click on the <b>Programming</b> category.
 <img src="/img/category-selections/Programming.png">
-Now scroll down to find Scratch 3 in the list.
+Now scroll down to find <b>Scratch 3</b> in the list.
 <img src="/img/app-icons/Scratch 3/app-selection.png">
 Just click Install and Pi-Apps will install Scratch 3 for you!
 </div>

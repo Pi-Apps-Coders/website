@@ -42,9 +42,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Pixelorama.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Creative Arts category.
+Then click on the <b>Creative Arts</b> category.
 <img src="/img/category-selections/Creative Arts.png">
-Now scroll down to find Pixelorama in the list.
+Now scroll down to find <b>Pixelorama</b> in the list.
 <img src="/img/app-icons/Pixelorama/app-selection.png">
 Just click Install and Pi-Apps will install Pixelorama for you!
 </div>

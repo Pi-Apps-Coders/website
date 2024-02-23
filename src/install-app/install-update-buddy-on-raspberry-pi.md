@@ -41,9 +41,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Update Buddy.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the System Management category.
+Then click on the <b>System Management</b> category.
 <img src="/img/category-selections/System Management.png">
-Now scroll down to find Update Buddy in the list.
+Now scroll down to find <b>Update Buddy</b> in the list.
 <img src="/img/app-icons/Update Buddy/app-selection.png">
 Just click Install and Pi-Apps will install Update Buddy for you!
 </div>

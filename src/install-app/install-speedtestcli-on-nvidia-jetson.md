@@ -42,9 +42,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install SpeedTest-CLI.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Internet category.
+Then click on the <b>Internet</b> category.
 <img src="/img/category-selections/Internet.png">
-Now scroll down to find SpeedTest-CLI in the list.
+Now scroll down to find <b>SpeedTest-CLI</b> in the list.
 <img src="/img/app-icons/SpeedTest-CLI/app-selection.png">
 Just click Install and Pi-Apps will install SpeedTest-CLI for you!
 </div>

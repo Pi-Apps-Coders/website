@@ -46,9 +46,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Hyper.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Terminals category.
+Then click on the <b>Terminals</b> category.
 <img src="/img/category-selections/Terminals.png">
-Now scroll down to find Hyper in the list.
+Now scroll down to find <b>Hyper</b> in the list.
 <img src="/img/app-icons/Hyper/app-selection.png">
 Just click Install and Pi-Apps will install Hyper for you!
 </div>

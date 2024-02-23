@@ -48,9 +48,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install HTTrack Website Copier.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Internet category.
+Then click on the <b>Internet</b> category.
 <img src="/img/category-selections/Internet.png">
-Now scroll down to find HTTrack Website Copier in the list.
+Now scroll down to find <b>HTTrack Website Copier</b> in the list.
 <img src="/img/app-icons/HTTrack Website Copier/app-selection.png">
 Just click Install and Pi-Apps will install HTTrack Website Copier for you!
 </div>

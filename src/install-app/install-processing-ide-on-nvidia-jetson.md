@@ -42,9 +42,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Processing IDE.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Programming category.
+Then click on the <b>Programming</b> category.
 <img src="/img/category-selections/Programming.png">
-Now scroll down to find Processing IDE in the list.
+Now scroll down to find <b>Processing IDE</b> in the list.
 <img src="/img/app-icons/Processing IDE/app-selection.png">
 Just click Install and Pi-Apps will install Processing IDE for you!
 </div>

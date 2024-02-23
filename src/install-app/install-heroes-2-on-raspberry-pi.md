@@ -41,9 +41,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Heroes 2.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Games category.
+Then click on the <b>Games</b> category.
 <img src="/img/category-selections/Games.png">
-Now scroll down to find Heroes 2 in the list.
+Now scroll down to find <b>Heroes 2</b> in the list.
 <img src="/img/app-icons/Heroes 2/app-selection.png">
 Just click Install and Pi-Apps will install Heroes 2 for you!
 </div>

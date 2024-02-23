@@ -44,9 +44,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Shattered Pixel Dungeon.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Games category.
+Then click on the <b>Games</b> category.
 <img src="/img/category-selections/Games.png">
-Now scroll down to find Shattered Pixel Dungeon in the list.
+Now scroll down to find <b>Shattered Pixel Dungeon</b> in the list.
 <img src="/img/app-icons/Shattered Pixel Dungeon/app-selection.png">
 Just click Install and Pi-Apps will install Shattered Pixel Dungeon for you!
 </div>

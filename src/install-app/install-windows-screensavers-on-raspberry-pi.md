@@ -48,9 +48,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Windows Screensavers.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Appearance category.
+Then click on the <b>Appearance</b> category.
 <img src="/img/category-selections/Appearance.png">
-Now scroll down to find Windows Screensavers in the list.
+Now scroll down to find <b>Windows Screensavers</b> in the list.
 <img src="/img/app-icons/Windows Screensavers/app-selection.png">
 Just click Install and Pi-Apps will install Windows Screensavers for you!
 </div>

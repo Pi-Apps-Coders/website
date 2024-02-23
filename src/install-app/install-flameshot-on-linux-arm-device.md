@@ -41,9 +41,9 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Flameshot.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the Tools category.
+Then click on the <b>Tools</b> category.
 <img src="/img/category-selections/Tools.png">
-Now scroll down to find Flameshot in the list.
+Now scroll down to find <b>Flameshot</b> in the list.
 <img src="/img/app-icons/Flameshot/app-selection.png">
 Just click Install and Pi-Apps will install Flameshot for you!
 </div>
