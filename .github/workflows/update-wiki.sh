@@ -51,7 +51,7 @@ generate-wiki() {
         [[ ! -z "$script_website" ]] && [[ ! -z "$script_credits" ]] && echo "$script_website - $script_credits<br />"
         [[ ! -z "$script_website" ]] && [[ -z "$script_credits" ]] && echo "$script_website<br />"
         [[ -z "$script_website" ]] && [[ ! -z "$script_credits" ]] && echo "$script_credits<br />"
-        sed -i '$a\' "$CODE_WORKSPACE/apps/$script/description"
+        sed -i "\$a\\" "$CODE_WORKSPACE/apps/$script/description"
         echo "$arch_users"
         echo '```'
         cat "$CODE_WORKSPACE/apps/$script/description"
@@ -141,7 +141,7 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
       else
         git restore "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png" || export-svg "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.svg" "$GITHUB_WORKSPACE/src/img/category-selections/$subfolder.png"
       fi      
-      categorymessage="Then click on the $mainfolder category, which leads to the $subfolder category."
+      categorymessage="Then click on the <b>$mainfolder</b> category, which leads to the <b>$subfolder</b> category."
     else
       #app is in single category
       #future work: add generation commands for creating the first layer SVGs
@@ -150,7 +150,7 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
       # else
       #   git restore "$GITHUB_WORKSPACE/src/img/category-selections/$category.png"
       # fi
-      categorymessage="Then click on the $category category."
+      categorymessage="Then click on the <b>$category</b> category."
     fi
     cd "$CPWD"
     
@@ -279,7 +279,7 @@ First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
 $categorymessage
 <img src="/img/category-selections/$(echo "$category" | awk -F/ '{print $NF}').png">
-Now scroll down to find $app in the list.
+Now scroll down to find <b>$app</b> in the list.
 <img src="/img/app-icons/$app/app-selection.png">
 Just click Install and Pi-Apps will install $app for you!
 </div>
