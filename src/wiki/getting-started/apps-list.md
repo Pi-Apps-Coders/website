@@ -1372,6 +1372,23 @@ To run in a terminal: /opt/teams-for-linux/run-teams.sh
 Build with nativefier. 
 ```
 
+### <img src="/img/app-icons/Signal/icon-64.png" height=32> ***[Signal](https://github.com/Botspot/pi-apps/tree/master/apps/Signal)***
+https://www.signal.org - Botspot<br />
+ARM64 ONLY
+```
+Secure messaging client (phone number required)
+Supports text chats, voice calls, and video calls. Signal cannot view the contents of your chats, and when governments demand all data about a particular user, all Signal can provide them with is the sign-up date and the last login date. Impressive.
+
+This is an unofficial build of Signal Desktop for ARM64, hosted on this repo: https://github.com/dennisameling/Signal-Desktop
+If you wish to compile it yourself then good luck. Let us know if you figure it out.
+
+To run: Menu -> Internet -> Signal
+To run in a terminal: "/opt/Signal Unofficial/signal-desktop-unofficial" --no-sandbox
+
+For new users: you first need to install Signal on a smartphone to set up your account. Then run Signal Desktop and it will show a QR code. Scan the QR code with the phone to authenticate Signal Desktop.
+Important note: all messages sent and received BEFORE authorizing Signal Desktop will never appear in the message history on Signal Desktop. So if you want to use Signal Desktop, try to set it up sooner rather than later. To migrate to a new Linux OS and keep your message history, copy your "$HOME/.config/Signal Unofficial" folder to the new system.
+```
+
 ### <img src="/img/app-icons/Telegram/icon-64.png" height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
 https://github.com/telegramdesktop/tdesktop<br />
 ARM64 ONLY - 7,497 Users!
