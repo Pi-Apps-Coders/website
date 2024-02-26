@@ -1201,7 +1201,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=308303<br />
 ARM32/ARM64 - 4,655 Users!
 ```
 Change Chromium versions easily.
-Chromium 65, 72, 74, 78, 84, 86, 88, 92, 95, 98, 101, 104, 109, 113, and 116.
+Chromium 65, 72, 74, 78, 84, 86, 88, 92, 95, 98, 101, 104, 109, 113, 116, 119, 120, and 121. (on 64-bit you can only go as far back as 92)
 Uninstall the app to go back to the latest Chromium version available.
 Beware that downgrading Chromium versions can mess up your config folder. To be safe, this app makes a backup of Chromium's config folder. When uninstalling, you will have the opportunity to restore the backup config folder.
 Using older browser versions can be a security risk, proceed with caution.
@@ -1255,6 +1255,18 @@ This is a preview version, and you are bound to find places where it does not wo
 
 To run: Menu -> Internet -> Flow Browser
 To run in a terminal: flow
+```
+
+### <img src="/img/app-icons/LibreWolf/icon-64.png" height=32> ***[LibreWolf](https://github.com/Botspot/pi-apps/tree/master/apps/LibreWolf)***
+https://librewolf.net/ - Botspot<br />
+ARM64 ONLY
+```
+A custom version of Firefox, focused on privacy, security and freedom.
+
+Note: This is not the LibreWolf arm64 appimage. Installing from here will install LibreWolf to your system as a native app with best performance.
+
+To run: Menu -> Internet -> LibreWolf
+To run in a terminal: /opt/librewolf/librewolf
 ```
 
 ### <img src="/img/app-icons/Min/icon-64.png" height=32> ***[Min](https://github.com/Botspot/pi-apps/tree/master/apps/Min)***
