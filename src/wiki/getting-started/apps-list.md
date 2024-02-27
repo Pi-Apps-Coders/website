@@ -860,6 +860,7 @@ This emulates the Linux x86_64 version of Steam using Box86 and Box64.
 
 In most cases, you WILL need to REBOOT before running Steam for the first time to prevent errors.
 To run: Menu -> Games -> Steam
+To run in a terminal: steam
 ```
 
 ### <img src="/img/app-icons/Steam Link/icon-64.png" height=32> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
