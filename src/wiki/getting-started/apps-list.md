@@ -1793,6 +1793,25 @@ Run from Menu: Menu -> Accessories -> Notejot
 Run from Terminal: flatpak run io.github.lainsce.Notejot
 ```
 
+### <img src="/img/app-icons/Obsidian/icon-64.png" height=32> ***[Obsidian](https://github.com/Botspot/pi-apps/tree/master/apps/Obsidian)***
+https://obsidian.md/ - Botspot<br />
+ARM64 ONLY
+```
+Powerful knowledge base using plain text Markdown files (for note-taking & project management)
+
+Note-taking is incredibly personal. Tried every app, but something always irks you? You deserve better.
+For those who can't custom-build a solution for themselves, Obsidian is as close as you can get, with plugins, themes, and custom CSS at your disposal. 
+
+With Obsidian, your data sits in a local folder. Never leave your life's work held hostage in the cloud again.
+
+Vibrant Community
+With more than 50,000 members in our Discord chat and 30,000 members on our forum, Obsidian has one of the largest note-taking communities.
+Our community welcomes anyone who uses Obsidian or is interested in Obsidian, no matter your language, country, or field. Come join us!
+
+To run from Menu: Menu -> Office -> Obsidian
+To run from Terminal: obsidian
+```
+
 ### <img src="/img/app-icons/Open-Typer/icon-64.png" height=32> ***[Open-Typer](https://github.com/Botspot/pi-apps/tree/master/apps/Open-Typer)***
 https://github.com/Open-Typer/Open-Typer<br />
 ARM32/ARM64 - 216 Users
