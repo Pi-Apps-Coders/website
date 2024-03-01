@@ -127,7 +127,7 @@ To run in a terminal: ulauncher
 
 ### <img src="/img/app-icons/Windows Screensavers/icon-64.png" height=32> ***[Windows Screensavers](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Screensavers)***
 https://github.com/Botspot/Screensavers - Botspot<br />
-ARM32 ONLY - 2,387 Users!
+ARM32/ARM64 - 2,387 Users!
 ```
 14 Windows screensavers that run well on Raspberry Pi.
 
