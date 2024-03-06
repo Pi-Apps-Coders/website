@@ -2851,6 +2851,20 @@ To run: Menu -> Accessories -> PiSafe
 To run in a terminal: pisafe
 ```
 
+### <img src="/img/app-icons/QR Code Reader/icon-64.png" height=32> ***[QR Code Reader](https://github.com/Botspot/pi-apps/tree/master/apps/QR%20Code%20Reader)***
+https://github.com/hongquan/CoBang - Botspot<br />
+ARM64 ONLY
+```
+CoBang app - simple lightweight QR code and barcode scanner, uses the webcam.
+Not sure if this is compatible with the Raspberry Pi Cameras, but it should work with those if you set one up as a normal video output device.
+It also supports importing a picture of a QR code.
+
+To run: Menu -> Graphics -> CoBang
+To run in a terminal: flatpak run vn.hoabinh.quan.CoBang
+
+Quick tip: In testing, it seems that the scanned URL is displayed below the bottom edge of the window. It is still there, but you cannot see it. And the scrollbar is one of those auto-hiding ones. To see the URL, you just need to scroll down, or increase the height of the program window.
+```
+
 ### <img src="/img/app-icons/Scrcpy/icon-64.png" height=32> ***[Scrcpy](https://github.com/Botspot/pi-apps/tree/master/apps/Scrcpy)***
 https://github.com/Genymobile/scrcpy<br />
 ARM32/ARM64 - 14,423 Users!!
