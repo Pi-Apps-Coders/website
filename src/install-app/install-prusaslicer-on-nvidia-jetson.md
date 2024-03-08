@@ -8,7 +8,7 @@ title: Install PrusaSlicer on Nvidia Jetson | Pi-Apps
 ## <img src="/img/app-icons/PrusaSlicer/icon-64.png"> PrusaSlicer
 > Takes a 3D model and slices it for use in a 3D printer.
 > To run: Menu -> Programming -> PrusaSlicer
-> To run in a terminal: /opt/PrusaSlicer.AppImage
+> To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 /opt/PrusaSlicer.AppImage
 
 Fortunately, PrusaSlicer is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

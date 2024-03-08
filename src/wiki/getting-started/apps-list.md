@@ -439,7 +439,7 @@ ARM32/ARM64 - 4,304 Users!
 ```
 Takes a 3D model and slices it for use in a 3D printer.
 To run: Menu -> Programming -> PrusaSlicer
-To run in a terminal: /opt/PrusaSlicer.AppImage
+To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 /opt/PrusaSlicer.AppImage
 ```
 ## Games
 
