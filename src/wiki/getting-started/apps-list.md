@@ -1688,6 +1688,22 @@ To run: Menu -> Programming -> Sonic Pi
 To run in a terminal: sonic-pi
 ```
 
+### <img src="/img/app-icons/Sound Recorder/icon-64.png" height=32> ***[Sound Recorder](https://github.com/Botspot/pi-apps/tree/master/apps/Sound%20Recorder)***
+https://wiki.gnome.org/Apps/SoundRecorder - Botspot<br />
+Package app
+```
+Record audio from the microphone
+This is a very simple app but it gets the job done easier than a more complicated choice such as VLC or Audacity.
+You have to plug in an audio input device such as a webcam or USB microphone or USB sound card, then make sure it is set as default by right-clicking on the microphone icon on your taskbar.
+
+To run: Menu -> Sound & Viceo -> Sound Recorder
+To run in a terminal: gnome-sound-recorder
+
+Tips:
+1. In testing, the recorded audio quality was just a loud buzzing sound and impossible to hear anything else. If this happens to you, try changing the Audio Channel to Mono instead of Stereo.
+2. You are supposed to leave the recorded audio in the app, and to actually save the audio somewhere, you are supposed to "export" it to a folder of your choice. But pro users may just want to access the audio right where it is, so here is the folder for saved recordings: ~/.local/share/org.gnome.SoundRecorder
+```
+
 ### <img src="/img/app-icons/WACUP (new WinAmp)/icon-64.png" height=32> ***[WACUP (new WinAmp)](https://github.com/Botspot/pi-apps/tree/master/apps/WACUP%20(new%20WinAmp))***
 https://getwacup.com/ - Botspot for the scripts
 ralf1307 (github) issue #192 for the suggestion.<br />
