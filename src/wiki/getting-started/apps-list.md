@@ -2826,38 +2826,6 @@ To run: Menu -> System Tools -> PiGro
 To run in a terminal: pigro-jci
 ```
 
-### <img src="/img/app-icons/PiKISS GUI/icon-64.png" height=32> ***[PiKISS GUI](https://github.com/Botspot/pi-apps/tree/master/apps/PiKISS%20GUI)***
-https://github.com/Jai-JAP/PiKISS-GUI - @krishenriksen on Github for creating PiKISS-GUI.
-@Jai-JAP on Github for modifying the app to add semi-automated app syncs from piKISS & adding this app to Pi-Apps.<br />
-ARM32/ARM64 - 9,926 Users!
-```
-PiKISS GUI is a GTK frontend for PiKISS
-
-To run: Menu -> Accessories -> PiKISS GUI
-To run in a terminal: ~/.local/bin/pikiss-gui
-
-To Sync apps with PiKISS:
-Run: Menu -> Accessories -> PiKISS GUI Sync Apps
-(or)
-From terminal run: ~/local/share/pikiss-gui/getapps.sh
-```
-
-### <img src="/img/app-icons/piKiss/icon-64.png" height=32> ***[piKiss](https://github.com/Botspot/pi-apps/tree/master/apps/piKiss)***
-https://github.com/jmcerrejon/PiKISS<br />
-ARM32/ARM64 - 31,102 Users!!
-```
-A bunch of scripts with a menu to make your life easier. 
-To run: Menu -> System Tools -> PiKiss
-To run in a terminal: ~/piKiss/piKiss.sh
- ∙ Easy system configuration
- ∙ Ability to install your favourite games like Half Life
- ∙ Emulators galore!
- ∙ Install apps like OBS and Cool-Retro-Term!
- ∙ AND MUCH MORE!
-
-ATTENTION! The pi-kiss maintainer only uses edge versions of software. This means that if you installed something and it works, it does not mean that it will work in the future. Currently only Bullseye is supported, operation on Buster and similar systems is not guaranteed. Do not rush to remove your programs, you may not be able to install them in the future.
-```
-
 ### <img src="/img/app-icons/PiSafe/icon-64.png" height=32> ***[PiSafe](https://github.com/Botspot/pi-apps/tree/master/apps/PiSafe)***
 https://github.com/RichardMidnight/pi-safe<br />
 ARM32/ARM64 - 5,266 Users!
