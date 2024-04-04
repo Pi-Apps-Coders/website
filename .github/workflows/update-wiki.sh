@@ -182,8 +182,8 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
           ;;
       esac
     elif [ "$hardware" == "Nintendo Switch" ] || [ "$hardware" == "Nvidia Jetson" ]; then
-      if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-jetson-18.04"; then
-        # skip generating webpage if app is hidden on jetson-18.04
+      if grep -q "$app|hidden" "$CODE_WORKSPACE/etc/category-overrides-jetson-generic"; then
+        # skip generating webpage if app is hidden on jetson-generic
         echo "Skipping page generation for $app on $hardware"
         continue
       fi
@@ -229,7 +229,7 @@ For the best chance of this working, we recommend using the latest version of [S
       hw_img="<img src=/img/other-icons/switch-icon.svg height=24> "
     elif [[ "$hardware" == "Nvidia Jetson" ]]; then
       hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson TX1, Jetson Nano, Jetson TX2, Jetson Xavier, or Jetson Orin)."
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin)."
       hw_img="<img src=/img/other-icons/nvidia-icon.svg height=24> "
     else
       hw_compat_message="## Compatibility
