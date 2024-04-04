@@ -87,6 +87,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-amiberry-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-amiberry-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-amiberry-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -133,6 +143,16 @@
   
   <url>
     <loc>https://pi-apps.io/install-app/install-antimicrox-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-antimicrox-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-antimicrox-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -397,6 +417,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-boxy-svg-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-boxy-svg-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-boxy-svg-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -527,6 +557,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-celeste64-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-celeste64-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-celeste64-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -607,6 +647,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-codex-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-codex-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-codex-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -682,12 +732,32 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-cool-retro-term-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-cool-retro-term-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-cool-retro-term-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
   <url>
     <loc>https://pi-apps.io/install-app/install-cura-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-cura-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-cura-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -847,6 +917,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-drawing-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-drawing-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-drawing-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -993,6 +1073,16 @@
   
   <url>
     <loc>https://pi-apps.io/install-app/install-flameshot-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-flameshot-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-flameshot-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -1453,16 +1543,6 @@
   
   <url>
     <loc>https://pi-apps.io/install-app/install-kodi-on-linux-arm-device/</loc>
-    <lastmod>2024-04-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pi-apps.io/install-app/install-kodi-on-nintendo-switch/</loc>
-    <lastmod>2024-04-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pi-apps.io/install-app/install-kodi-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -1947,6 +2027,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-musescore-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-musescore-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-musescore-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -2033,6 +2123,16 @@
   
   <url>
     <loc>https://pi-apps.io/install-app/install-nodejs-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-nodejs-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-nodejs-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -2157,12 +2257,32 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-openscad-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-openscad-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-openscad-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
   <url>
     <loc>https://pi-apps.io/install-app/install-opentyper-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-opentyper-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-opentyper-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -2377,6 +2497,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-ppsspp-psp-emulator-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-ppsspp-psp-emulator-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-ppsspp-psp-emulator-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -2557,6 +2687,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-quartz-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-quartz-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-quartz-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -2587,12 +2727,32 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-remarkable-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-remarkable-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-remarkable-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
   <url>
     <loc>https://pi-apps.io/install-app/install-renoise-demo-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-renoise-demo-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-renoise-demo-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -2977,6 +3137,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-sublime-text-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-sublime-text-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-sublime-text-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
@@ -3123,6 +3293,16 @@
   
   <url>
     <loc>https://pi-apps.io/install-app/install-tetris-cli-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-tetris-cli-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-tetris-cli-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -3383,6 +3563,16 @@
   
   <url>
     <loc>https://pi-apps.io/install-app/install-vivaldi-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-vivaldi-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-vivaldi-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -3687,12 +3877,32 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-youtubuddy-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-youtubuddy-on-nvidia-jetson/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-youtubuddy-on-raspberry-pi/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
   <url>
     <loc>https://pi-apps.io/install-app/install-zoom-on-linux-arm-device/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-zoom-on-nintendo-switch/</loc>
+    <lastmod>2024-04-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-zoom-on-nvidia-jetson/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
@@ -3737,12 +3947,12 @@
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/install/</loc>
+    <loc>https://pi-apps.io/tags/wiki/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/wiki/</loc>
+    <loc>https://pi-apps.io/tags/install/</loc>
     <lastmod>2024-04-04</lastmod>
   </url>
   
