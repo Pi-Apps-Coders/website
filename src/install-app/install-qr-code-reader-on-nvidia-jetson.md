@@ -22,7 +22,7 @@ Fortunately, QR Code Reader is very easy to install on your Nvidia Jetson in jus
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson TX1, Jetson Nano, Jetson TX2, Jetson Xavier, or Jetson Orin).
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin).
 QR Code Reader will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">

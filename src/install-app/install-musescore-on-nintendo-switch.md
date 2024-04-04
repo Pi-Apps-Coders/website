@@ -1,35 +1,24 @@
 ---
-title: Install Kodi on Nintendo Switch | Pi-Apps
+title: Install MuseScore on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Kodi/icon-64.png" height=24> Kodi on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
+# Install <img src="/img/app-icons/MuseScore/icon-64.png" height=24> MuseScore on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
-## <img src="/img/app-icons/Kodi/icon-64.png"> Kodi
-> Kodi is the ultimate entertainment center.
-> Kodi excels at:
-> - Movies
-> - TV Shows
-> - Music
-> - Photos
-> - Games
-> - Skins and add-ons
-> - Controllable with mouse, keyboard, web interface, smartphone apps, game controllers, and TV remotes
-> 
-> To run: Menu -> Sound & Video -> Kodi
-> To run in a terminal: kodi
-> 
-> To make this run on startup, consider using the Autostar app.
+## <img src="/img/app-icons/MuseScore/icon-64.png"> MuseScore
+> Professional music notation software - LATEST MuseScore 4!
+> To run: Menu -> Sound & Video -> MuseScore 4
+> To run in terminal: mscore
 
-Fortunately, Kodi is very easy to install on your Nintendo Switch in just two steps.
+Fortunately, MuseScore is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.
-2. Use Pi-Apps to install Kodi.
+2. Use Pi-Apps to install MuseScore.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Jammy](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-jammy-installation-guide), which is currently version **5.1.2 Ubuntu Jammy**.
-Kodi will run on L4T Ubuntu ARM64.
+MuseScore will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
@@ -45,16 +34,16 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 </div>
 <div class="simple-install-content content">
 
-## Install Kodi
+## Install MuseScore
 
-Now that you have Pi-Apps installed, it is time to install Kodi.
+Now that you have Pi-Apps installed, it is time to install MuseScore.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
 Then click on the <b>Multimedia</b> category.
 <img src="/img/category-selections/Multimedia.png">
-Now scroll down to find <b>Kodi</b> in the list.
-<img src="/img/app-icons/Kodi/app-selection.png">
-Just click Install and Pi-Apps will install Kodi for you!
+Now scroll down to find <b>MuseScore</b> in the list.
+<img src="/img/app-icons/MuseScore/app-selection.png">
+Just click Install and Pi-Apps will install MuseScore for you!
 </div>
 <div class="simple-install-content content">
 
