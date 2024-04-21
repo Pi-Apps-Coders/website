@@ -1594,14 +1594,15 @@ To run in terminal: mscore
 ```
 
 ### <img src="/img/app-icons/OBS Studio/icon-64.png" height=32> ***[OBS Studio](https://github.com/Botspot/pi-apps/tree/master/apps/OBS%20Studio)***
-https://obsproject.com/ - Install script made by Botspot and RPICoder :)<br />
+https://obsproject.com/ - theofficialgman<br />
 ARM32/ARM64 - 23,557 Users!!
 ```
 Free and open source software for video recording and live streaming.
 
 Available Versions:
-ARM32/ARM64 - Debian Bookworm: 30.0.0
-ARM64 - Ubuntu Jammy: 30.0.0
+ARM32/ARM64 - Debian Bookworm: 30.1.2
+ARM64 - Ubuntu Noble: 30.1.2
+ARM64 - Ubuntu Jammy: 30.1.2
 ARM32/ARM64 - Debian Bullseye: 29.1.3
 ARM64 - Ubuntu Focal: 29.1.3
 ARM64 - Ubuntu Bionic: 28.1.2
