@@ -12,6 +12,7 @@ title: Install Deskreen on Nintendo Switch | Pi-Apps
 > To run: Menu -> Programming -> Deskreen
 > To run in a terminal: deskreen
 > 
+> Does not work on Wayland, meaning it is fairly useless on Pi OS Bookworm unless you swiched to X11.
 > This is privacy-friendly and does not use cloud resources, but it is written in Electron and consumes a lot of CPU processing power when in use. It is not suitable for Pi models older than the Pi4.
 
 Fortunately, Deskreen is very easy to install on your Nintendo Switch in just two steps.
