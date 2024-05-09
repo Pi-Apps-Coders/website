@@ -1279,6 +1279,19 @@ To run: Menu -> Internet -> Min
 To run in terminal: min
 ```
 
+### <img src="/img/app-icons/Mullvad/icon-64.png" height=32> ***[Mullvad](https://github.com/Botspot/pi-apps/tree/master/apps/Mullvad)***
+https://sourceforge.net/projects/tor-browser-ports/files/<br />
+ARM32/ARM64
+```
+Mullvad Browser is security-minded browser meant for use with a VPN.
+Default settings will block trackers, browser fingerprinting, ads, insecure HTTP connections, and more.
+
+Mullvad Browser is a fork of the Tor browser, and includes uBlock Origin and the Mullvad extensions preinstalled.
+
+To run: Menu -> Internet -> Mullvad Browser
+To run in a terminal: ~/mullvad-browser/Browser/start-mullvad-browser
+```
+
 ### <img src="/img/app-icons/Pale Moon/icon-64.png" height=32> ***[Pale Moon](https://github.com/Botspot/pi-apps/tree/master/apps/Pale%20Moon)***
 https://www.palemoon.org/ - Botspot<br />
 ARM64 ONLY - 2,310 Users!
