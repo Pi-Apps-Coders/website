@@ -225,7 +225,7 @@ Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most R
       hw_img="<img src=/img/other-icons/raspberrypi-icon.svg height=24> "
     elif [[ "$hardware" == "Nintendo Switch" ]]; then
       hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Jammy](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-jammy-installation-guide), which is currently version **5.1.2 Ubuntu Jammy**."
+For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Noble](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-noble-installation-guide), which is currently version **5.1.2 Ubuntu Noble**."
       hw_img="<img src=/img/other-icons/switch-icon.svg height=24> "
     elif [[ "$hardware" == "Nvidia Jetson" ]]; then
       hw_compat_message="## Compatibility
