@@ -18,7 +18,7 @@ Fortunately, System Monitoring Center is very easy to install on your Nintendo S
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Jammy](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-jammy-installation-guide), which is currently version **5.1.2 Ubuntu Jammy**.
+For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Noble](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-noble-installation-guide), which is currently version **5.1.2 Ubuntu Noble**.
 System Monitoring Center will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
