@@ -26,7 +26,7 @@ It depends! Some application binaries come directly from their official develope
 
 # Who wrote Pi-Apps?
 
-Pi-Apps's main developers are GitHub users [Botspot](https://github.com/Botspot) and [theofficialgman](https://github.com/theofficialgman). [Itai-Nelken](https://github.com/Itai-Nelken) is also an additional maintainer. Pi-Apps has many other contributors, you can find them listed below sorted by number of commits contributed to the Pi-Apps.
+Pi-Apps's main developers are GitHub users [Botspot](https://github.com/Botspot) and [theofficialgman](https://github.com/theofficialgman). Pi-Apps has many other contributors, you can find them listed below sorted by number of commits contributed to the Pi-Apps.
 
 </div>
 <div class="infobox top">
