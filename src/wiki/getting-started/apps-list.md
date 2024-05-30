@@ -1292,22 +1292,6 @@ To run: Menu -> Internet -> Mullvad Browser
 To run in a terminal: ~/mullvad-browser/Browser/start-mullvad-browser
 ```
 
-### <img src="/img/app-icons/Pale Moon/icon-64.png" height=32> ***[Pale Moon](https://github.com/Botspot/pi-apps/tree/master/apps/Pale%20Moon)***
-https://www.palemoon.org/ - Botspot<br />
-ARM64 ONLY - 2,301 Users!
-```
-A distant fork of Firefox, this is a lightweight and customizable web browser.
-Pale Moon offers you a browsing experience in a browser completely built
-from its own, independently developed source that has been forked off from
-Mozilla's code a number of years ago, with carefully selected
-features and optimizations to improve the browser's stability and user
-experience, while offering full customization and a growing collection of
-extensions and themes to make the browser truly your own.
-
-To run: Menu -> Internet -> Pale Moon
-To run in a terminal: palemoon
-```
-
 ### <img src="/img/app-icons/Puffin/icon-64.png" height=32> ***[Puffin](https://github.com/Botspot/pi-apps/tree/master/apps/Puffin)***
 https://www.puffin.com/raspberry-pi/ - Botspot added this app to Pi-Apps.<br />
 ARM32/ARM64 - 14,162 Users!!
