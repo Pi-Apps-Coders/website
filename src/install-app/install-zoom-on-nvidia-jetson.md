@@ -12,7 +12,7 @@ title: Install Zoom on Nvidia Jetson | Pi-Apps
 > Performance is good enough on the Pi4. Turning off HD video in Zoom's settings is recommended.
 > 
 > To run: Menu -> Internet -> Zoom
-> To run in a terminal: ~/zoom/ZoomLauncher
+> To run in a terminal: /opt/zoom/ZoomLauncher
 
 Fortunately, Zoom is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
