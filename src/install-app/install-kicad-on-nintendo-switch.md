@@ -18,8 +18,10 @@ title: Install KiCad on Nintendo Switch | Pi-Apps
 > To run: Menu -> Other -> KiCad
 > To run in a terminal: kicad
 > 
-> Note: If you are using PiOS Bullseye, only KiCad 5.1.9 is available from APT but Pi-Apps will install KiCad 6.0.11.
-> If you are still on PiOS Buster or Ubuntu, Pi-Apps will install the default version available from the repositories.
+> Note:
+> If you are using PiOS Bookworm, only KiCad 6.0.11 is available from APT, but Pi-Apps will install KiCad 7.0.11 using bookworm-backports.
+> - If you are using PiOS Bullseye, only KiCad 5.1.9 is available from APT, but Pi-Apps will install KiCad 6.0.11 using bullseye-backports.
+> - If you are still on PiOS Buster or Ubuntu, Pi-Apps will install the default version available from the repositories.
 
 Fortunately, KiCad is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.
