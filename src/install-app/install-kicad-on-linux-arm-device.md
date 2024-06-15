@@ -7,11 +7,13 @@ title: Install KiCad on Linux ARM Device | Pi-Apps
 
 ## <img src="/img/app-icons/KiCad/icon-64.png"> KiCad
 > Electronics Design Automation Suite - newer than what is available from APT
-> On PiOS Bookworm, only KiCad 6 is available from apt. KiCad 7 has a number of improvements over KiCad 6:
+> On PiOS Bookworm, this will install KiCAD 8.0.3, whereas only KiCad 6 is available from apt. KiCad 8 has a number of improvements over KiCad 6:
+> - Thousands of new footprints
+> - Easy importing of boards and libraries from other PCB designers
 > - Custom fonts
+> - Add graphics to the schematic or board
 > - Drag and drop
 > - Command line interface
-> - Layout enhancements
 > - Smarter algorothms and crash reporting
 > - Much more at https://www.kicad.org/blog/2023/02/Version-7.0.0-Released/
 > 
@@ -19,7 +21,6 @@ title: Install KiCad on Linux ARM Device | Pi-Apps
 > To run in a terminal: kicad
 > 
 > Note:
-> If you are using PiOS Bookworm, only KiCad 6.0.11 is available from APT, but Pi-Apps will install KiCad 7.0.11 using bookworm-backports.
 > - If you are using PiOS Bullseye, only KiCad 5.1.9 is available from APT, but Pi-Apps will install KiCad 6.0.11 using bullseye-backports.
 > - If you are still on PiOS Buster or Ubuntu, Pi-Apps will install the default version available from the repositories.
 
