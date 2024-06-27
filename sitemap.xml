@@ -1047,6 +1047,16 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-firefox-rapid-release-on-nintendo-switch/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-firefox-rapid-release-on-nvidia-jetson/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-firefox-rapid-release-on-raspberry-pi/</loc>
     <lastmod>2024-06-27</lastmod>
   </url>
@@ -1663,6 +1673,16 @@
   
   <url>
     <loc>https://pi-apps.io/install-app/install-librewolf-on-linux-arm-device/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-librewolf-on-nintendo-switch/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-librewolf-on-nvidia-jetson/</loc>
     <lastmod>2024-06-27</lastmod>
   </url>
   
@@ -3383,6 +3403,16 @@
   
   <url>
     <loc>https://pi-apps.io/install-app/install-tor-on-linux-arm-device/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-tor-on-nintendo-switch/</loc>
+    <lastmod>2024-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-tor-on-nvidia-jetson/</loc>
     <lastmod>2024-06-27</lastmod>
   </url>
   
