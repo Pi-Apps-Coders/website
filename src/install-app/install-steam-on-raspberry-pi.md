@@ -10,7 +10,7 @@ title: Install Steam on Raspberry Pi | Pi-Apps
 > 
 > In most cases, you WILL need to REBOOT before running Steam for the first time to prevent errors.
 > To run: Menu -> Games -> Steam
-> To run in a terminal: steam
+> To run in a terminal: /usr/local/bin/steam
 
 Fortunately, Steam is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
