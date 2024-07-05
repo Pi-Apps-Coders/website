@@ -790,7 +790,7 @@ To run in a terminal: ~/.local/bin/com.thebrokenrail.MCPIRebornClient.AppImage
 https://github.com/ebuc99/pacman - Pac-Man source code from ebuc99 on github https://github.com/ebuc99/pacman<br />
 ARM32/ARM64 - 12,614 Users!!
 ```
-Pac-Man clone in SLD2 and C/C++
+Pac-Man clone in SDL2 and C/C++
 To run: Menu -> Games -> Pacman (SDL)
 To run in a terminal: pacman_sdl
 ```

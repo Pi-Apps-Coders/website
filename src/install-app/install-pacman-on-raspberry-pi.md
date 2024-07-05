@@ -6,7 +6,7 @@ title: Install Pac-Man on Raspberry Pi | Pi-Apps
 # Install <img src="/img/app-icons/Pac-Man/icon-64.png" height=24> Pac-Man on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Pac-Man/icon-64.png"> Pac-Man
-> Pac-Man clone in SLD2 and C/C++
+> Pac-Man clone in SDL2 and C/C++
 > To run: Menu -> Games -> Pacman (SDL)
 > To run in a terminal: pacman_sdl
 
