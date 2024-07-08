@@ -2763,7 +2763,7 @@ ARM32/ARM64 - 9,138 Users!
 ```
 JavaScript code outside a web browser.
 Node.js is used for all npm packages and is the foundation of Electron.
-As usual, this app will keep it updated.
+As usual, this app will keep it updated to the latest LTS release.
 
 To run in a terminal: node
 ```
