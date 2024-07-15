@@ -2,7 +2,7 @@
 
 # <img src="/img/other-icons/debian-icon.svg" height="20" /> Debian / <img src="/img/other-icons/raspberrypi-icon.svg" height="20" /> Pi OS / <img src="/img/other-icons/ubuntu-icon.svg" height="20" /> Ubuntu (ARM32/64)
 
-Installing Pi-Apps is as simple as runing this one command in a terminal
+Installing Pi-Apps is as simple as running this one command in a terminal
 ```bash
 wget -qO- https://raw.githubusercontent.com/Botspot/pi-apps/master/install | bash
 ```
@@ -34,7 +34,7 @@ To uninstall Pi-Apps you can use the built in uninstall script
 - <img src="/img/other-icons/ubuntu-icon.svg" height="14"> [Ubuntu Focal 20.04/Jammy 22.04/Noble 24.04](https://ubuntu.com/download/desktop) (Official Releases from Canonical **ONLY**): <span style="color:var(--warn-dark);">Not actively tested but all available apps should work</span>
 
 ### Unsupported systems:
-- All **UNOFFICIAL** Debian and Ubuntu based releases (unless mentioned above): <span style="color:var(--danger-dark);">Expect may apps to have issues.</span>
+- All **UNOFFICIAL** Debian and Ubuntu based releases (unless mentioned above): <span style="color:var(--danger-dark);">Expect many apps to have issues.</span>
   - Examples: **Orange Pi OS**, <img src="/img/other-icons/pop-os.svg" height="14"> [**Pop_OS!**](https://pop.system76.com/), **Kali Linux**, and **ChromeOS Crostini** Debian Container
 - Anything Non-Debian and Non-Ubuntu: <span style="color:var(--danger-dark);">Expect the majority of apps and the appstore to be broken.</span>
   - Examples: **Slackware**, **RHEL**, **Fedora**, **SUSE**, **Arch Linux**, **Gentoo**, **Void Linux**, **NixOS**
