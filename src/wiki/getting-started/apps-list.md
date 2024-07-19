@@ -64,17 +64,6 @@ To run: Menu -> Accessories -> Lightpad
 To run in a terminal: com.github.libredeb.lightpad
 ```
 
-### <img src="/img/app-icons/Mac OS Theme/icon-64.png" height=32> ***[Mac OS Theme](https://github.com/Botspot/pi-apps/tree/master/apps/Mac%20OS%20Theme)***
-https://github.com/techcoder20/MacOSBigSurThemeConverter - App Made By And Added To Pi-Apps By RPI Coder<br />
-ARM32 ONLY - 11,818 Users!!
-```
-Realistic Light/Dark Mac OS Big Sur appearance theme. Uses XFCE desktop.
-This is a bash script that will make your plain Raspberry Pi OS LXDE desktop look similar to MacOSBigSur. You can switch between light and dark themes using the themeconverter.
-To run: Menu -> Accessories -> ThemeConverter
-To run in a terminal: themeconverter
-Uninstalling this app should restore all of your original theme configuration. If something breaks due to this theme, please report it.
-```
-
 ### <img src="/img/app-icons/Oh My Posh/icon-64.png" height=32> ***[Oh My Posh](https://github.com/Botspot/pi-apps/tree/master/apps/Oh%20My%20Posh)***
 ohmyposh.dev - OhMyPosh by Jan De Dobbeleer. https://github.com/jandedobbeleer/oh-my-posh
 Pi-Apps script by libewa (https://github.com/libewa) and theofficialgman (https://github.com/theofficialgman)<br />
