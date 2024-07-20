@@ -1547,6 +1547,18 @@ To run: Menu -> Internet -> FreeTube
 To run in a terminal: /opt/FreeTube/freetube
 ```
 
+### <img src="/img/app-icons/Kdenlive/icon-64.png" height=32> ***[Kdenlive](https://github.com/Botspot/pi-apps/tree/master/apps/Kdenlive)***
+https://kdenlive.org/ - Botspot<br />
+ARM64 ONLY
+```
+Newest version of a popular video editor, compatible with PiOS Bookworm
+Most Linux video editors have issues on Wayland, including the default (old) version of Kdenlive available with sudo apt install.
+This version is straight from flatpak, and probably less than a month old.
+
+To run: Menu -> Sound & Video -> Kdenlive
+To run in a terminal: flatpak run --file-forwarding org.kde.kdenlive
+```
+
 ### <img src="/img/app-icons/Kodi/icon-64.png" height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***
 https://kodi.tv/about - Botspot<br />
 ARM32/ARM64 - 16,193 Users!!
