@@ -1512,6 +1512,26 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-kdenlive-on-linux-arm-device/</loc>
+    <lastmod>2024-07-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-kdenlive-on-nintendo-switch/</loc>
+    <lastmod>2024-07-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-kdenlive-on-nvidia-jetson/</loc>
+    <lastmod>2024-07-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-kdenlive-on-raspberry-pi/</loc>
+    <lastmod>2024-07-20</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-keepassxc-on-linux-arm-device/</loc>
     <lastmod>2024-07-20</lastmod>
   </url>
@@ -3982,12 +4002,12 @@
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/wiki/</loc>
+    <loc>https://pi-apps.io/tags/install/</loc>
     <lastmod>2024-07-20</lastmod>
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/install/</loc>
+    <loc>https://pi-apps.io/tags/wiki/</loc>
     <lastmod>2024-07-20</lastmod>
   </url>
   
