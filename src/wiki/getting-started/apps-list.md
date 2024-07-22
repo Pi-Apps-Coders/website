@@ -3070,7 +3070,7 @@ Box64 Developer: @ptitSeb on GitHub
 Script Writer and Packager: @theofficialgman and other pi-apps contributors on GitHub<br />
 ARM64 ONLY - 16,889 Users!!
 ```
-Run x86 and x64 Windows apps with a box64-emulated version x86/x64 wine-9.3 (WOW64 mode enabled).
+Run x86 and x64 Windows apps with a box64-emulated version x86/x64 wine-9.13 (WOW64 mode enabled).
 To run: wine path/to/file.exe
 To configure wine: go to 'Wine configuration' in main menu or type in terminal: wine winecfg
 Not all Windows applications will work under Wine. It's a good idea to check online if your program can run, or if something can be tweaked to make it work.
@@ -3091,7 +3091,7 @@ Box86 Developer: @ptitSeb on GitHub
 Script Writer and Packager: @theofficialgman and other pi-apps contributors on GitHub<br />
 ARM32 ONLY - 48,909 Users!!
 ```
-Run x86 Windows apps with a box86-emulated version of x86 wine-9.3.
+Run x86 Windows apps with a box86-emulated version of x86 wine-9.13.
 To run: wine path/to/file.exe
 To configure wine: go to 'Wine configuration' in main menu or type in terminal: wine winecfg
 Not all Windows applications will work under Wine. It's a good idea to check online if your program can run, or if something can be tweaked to make it work.
