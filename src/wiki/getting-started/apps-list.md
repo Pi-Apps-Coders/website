@@ -433,6 +433,28 @@ Takes a 3D model and slices it for use in a 3D printer.
 To run: Menu -> Programming -> PrusaSlicer
 To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 /opt/PrusaSlicer.AppImage
 ```
+
+### <img src="/img/app-icons/VARA HF/icon-64.png" height=32> ***[VARA HF](https://github.com/Botspot/pi-apps/tree/master/apps/VARA%20HF)***
+https://rosmodem.wordpress.com/ - Added to pi-apps by Eric Wiessner (KI7POL)
+
+Special thanks: Sebastien "ptitSeb" Chevalier (box86/box64), Esme "madewokherd" Povirk (wine-mono functions), 
+MarcoDT (Artemis, early programming encouragement), Botspot / theofficialgman (Pi-Apps Wine installer), 
+everyone who's helped and inspired Winelink (OH8STN, K0SWE, KD2ROS, PE1RRR, LB4PJ, K7MHI, WH6AZ, KM4ACK, KR0SIV), 
+Pat team (LA5NTA, K0SWE), proof-of-concept Winlink on Linux guides (K6ETA, DCJ21), ARDOP devs (KN6KB, G8BPQ, KG4JJA), 
+those who got me interested in ham radio (N7ACW, AD7HE, KK6FVG), and everyone who tries to keep ham radio open source.
+
+"My humanity is bound up in yours, for we can only be human together" - Nelson Mandela<br />
+ARM32/ARM64
+```
+A shareware HF modem for amateur radio messaging.
+
+VARA modems require a messaging app (such as Pat, Winlink Express, VarAC, or VARAChat), an amateur radio transceiver, and cables to connect audio and PTT control from your Pi to the transceiver.
+
+Run from Menu: Menu -> Accessories -> VARA HF
+Run from Terminal: wine "C:\VARA\VARA.exe"
+
+This app runs with the help of Box86/Box64 and Wine.
+```
 ## Games
 
 ### <img src="/img/app-icons/Amiberry/icon-64.png" height=32> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***
