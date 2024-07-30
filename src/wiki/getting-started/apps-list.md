@@ -281,7 +281,7 @@ To run in a terminal: pinta
 ### <img src="/img/app-icons/Pixelorama/icon-64.png" height=32> ***[Pixelorama](https://github.com/Botspot/pi-apps/tree/master/apps/Pixelorama)***
 https://orama-interactive.itch.io/pixelorama - Emmanouil Papadeas for writing Pixelorama
 
-theofficialgman for compiling godot and Pixelorama<br />
+theofficialgman for the installation script<br />
 ARM32/ARM64 - 2,565 Users!
 ```
 Pixelorama is a free and open source pixel art editor, proudly created with the Godot Engine, by Orama Interactive.
