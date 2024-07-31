@@ -2542,17 +2542,6 @@ Run from Menu: Menu -> Accesories -> AntiMicroX
 Run from Terminal: antimicrox
 ```
 
-### <img src="/img/app-icons/BalenaEtcher/icon-64.png" height=32> ***[BalenaEtcher](https://github.com/Botspot/pi-apps/tree/master/apps/BalenaEtcher)***
-https://github.com/Pi-Apps-Coders/files/blob/main/CompileCommands.md#balenaetcher - @theofficialgman (GitHub)
-@Itai-Nelken (GitHub)
-@ryanfortner (GitHub)<br />
-ARM32/ARM64 - 39,761 Users!!
-```
-Flash SD cards with a disk image. Many file types supported.
-To run: Menu -> Accessories -> balenaEtcher
-To run in a terminal: balena-etcher
-```
-
 ### <img src="/img/app-icons/ckb-next/icon-64.png" height=32> ***[ckb-next](https://github.com/Botspot/pi-apps/tree/master/apps/ckb-next)***
 https://github.com/ckb-next/ckb-next - @ryanfortner (GitHub)<br />
 Package app - 480 Users
