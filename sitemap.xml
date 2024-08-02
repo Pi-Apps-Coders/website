@@ -1382,26 +1382,6 @@
   </url>
   
   <url>
-    <loc>https://pi-apps.io/install-app/install-hyper-on-linux-arm-device/</loc>
-    <lastmod>2024-08-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pi-apps.io/install-app/install-hyper-on-nintendo-switch/</loc>
-    <lastmod>2024-08-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pi-apps.io/install-app/install-hyper-on-nvidia-jetson/</loc>
-    <lastmod>2024-08-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pi-apps.io/install-app/install-hyper-on-raspberry-pi/</loc>
-    <lastmod>2024-08-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://pi-apps.io/install-app/install-imager-on-linux-arm-device/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
@@ -3992,12 +3972,12 @@
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/install/</loc>
+    <loc>https://pi-apps.io/tags/wiki/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/wiki/</loc>
+    <loc>https://pi-apps.io/tags/install/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   
