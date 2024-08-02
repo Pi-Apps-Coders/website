@@ -2446,11 +2446,12 @@ https://github.com/Swordfish90/cool-retro-term<br />
 ARM32/ARM64 - 6,749 Users!
 ```
 Simulates an old CRT terminal.
-This is fully hardware accelerated as long as your Fake KMS GPU driver is enabled.
 Yes, it's a usable pi@raspberrypi terminal emulator.
 
 To run: Menu -> System Tools -> Cool Retro Term
 To run in terminal: ~/cool-retro-term/cool-retro-term
+
+Note: This is fully hardware accelerated as long as you have the GPU driver enabled in raspi-config (this is on by default).
 ```
 
 ### <img src="/img/app-icons/Guake Terminal/icon-64.png" height=32> ***[Guake Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Guake%20Terminal)***

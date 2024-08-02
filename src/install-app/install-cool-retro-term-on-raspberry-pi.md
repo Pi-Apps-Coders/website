@@ -7,11 +7,12 @@ title: Install Cool Retro Term on Raspberry Pi | Pi-Apps
 
 ## <img src="/img/app-icons/Cool Retro Term/icon-64.png"> Cool Retro Term
 > Simulates an old CRT terminal.
-> This is fully hardware accelerated as long as your Fake KMS GPU driver is enabled.
 > Yes, it's a usable pi@raspberrypi terminal emulator.
 > 
 > To run: Menu -> System Tools -> Cool Retro Term
 > To run in terminal: ~/cool-retro-term/cool-retro-term
+> 
+> Note: This is fully hardware accelerated as long as you have the GPU driver enabled in raspi-config (this is on by default).
 
 Fortunately, Cool Retro Term is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
