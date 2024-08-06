@@ -301,6 +301,18 @@ To run in a terminal: shotwell
 ```
 ## Engineering
 
+### <img src="/img/app-icons/Bambu Studio/icon-64.png" height=32> ***[Bambu Studio](https://github.com/Botspot/pi-apps/tree/master/apps/Bambu%20Studio)***
+https://bambulab.com/en/download/studio - Botspot<br />
+ARM64 ONLY
+```
+Optimized 3D slicing software for BambuLab and other printers
+This is based on PrusaSlicer, but brings project-based workflows, more features, and better default presets.
+This will not render the 3D models as smoothly as Cura will, as it is a flatpak running under xwayland.
+
+To run: Menu -> Graphics -> BambuStudio
+To run in a terminal: flatpak run  --command=entrypoint --file-forwarding com.bambulab.BambuStudio
+```
+
 ### <img src="/img/app-icons/Cura/icon-64.png" height=32> ***[Cura](https://github.com/Botspot/pi-apps/tree/master/apps/Cura)***
 https://github.com/smartavionics/Cura<br />
 ARM32/ARM64 - 12,062 Users!!
