@@ -6,7 +6,7 @@ title: Install Tabby on Linux ARM Device | Pi-Apps
 # Install <img src="/img/app-icons/Tabby/icon-64.png" height=24> Tabby on Linux ARM Device
 
 ## <img src="/img/app-icons/Tabby/icon-64.png"> Tabby
->  A terminal for a more modern age 
+> A terminal for a more modern age 
 > Tabby (formerly Terminus) is a highly configurable terminal emulator, SSH and serial client for Windows, macOS and Linux.
 > 
 > Run from Terminal: tabby

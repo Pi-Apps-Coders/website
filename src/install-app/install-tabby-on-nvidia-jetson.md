@@ -6,7 +6,7 @@ title: Install Tabby on Nvidia Jetson | Pi-Apps
 # Install <img src="/img/app-icons/Tabby/icon-64.png" height=24> Tabby on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Tabby/icon-64.png"> Tabby
->  A terminal for a more modern age 
+> A terminal for a more modern age 
 > Tabby (formerly Terminus) is a highly configurable terminal emulator, SSH and serial client for Windows, macOS and Linux.
 > 
 > Run from Terminal: tabby
