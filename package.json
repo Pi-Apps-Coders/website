@@ -27,6 +27,7 @@
   "homepage": "https://pi-apps.io/",
   "devDependencies": {
     "@11ty/eleventy": "2.0.1",
+    "@11ty/eleventy-fetch": "4.0.1",
     "@11ty/eleventy-img": "3.1.0",
     "@11ty/eleventy-navigation": "0.3.5",
     "@11ty/eleventy-plugin-rss": "1.2.0",
@@ -41,8 +42,5 @@
     "markdown-it-table-of-contents": "0.6.0",
     "markdownlint-cli": "0.34.0",
     "markdown-it-eleventy-img": "0.10.1"
-  },
-  "dependencies": {
-    "@11ty/eleventy-fetch": "4.0.0"
   }
 }
