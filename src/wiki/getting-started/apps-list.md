@@ -2692,7 +2692,7 @@ Note: Running Linux Wifi Hotspot from the Menu will turn on your Wifi, becuause 
 
 ### <img src="/img/app-icons/Monero GUI/icon-64.png" height=32> ***[Monero GUI](https://github.com/Botspot/pi-apps/tree/master/apps/Monero%20GUI)***
 https://getmonero.org - Botspot<br />
-ARM32/ARM64 - 431 Users
+ARM64 ONLY - 431 Users
 ```
 Store Monero cryptocurrency with the official wallet software.
 Monero is a privacy currency, allowing easy money transfers to others without oppresive governments, hackers, or foreign adversaries knowing how much you sent or to whom.

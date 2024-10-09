@@ -22,7 +22,7 @@ Fortunately, Monero GUI is very easy to install on your Linux ARM Device in just
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Monero GUI will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+Monero GUI will only run on an Ubuntu/Debian ARM64 OS. Pi-Apps will not let you install Monero GUI on an Ubuntu/Debian ARM32 OS.
 </div>
 <div class="simple-install-content content">
 
