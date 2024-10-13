@@ -1377,14 +1377,14 @@ To run: Menu -> Internet -> Caprine
 To run in a terminal: /opt/Caprine/caprine
 ```
 
-### <img src="/img/app-icons/LegCord/icon-64.png" height=32> ***[LegCord](https://github.com/Botspot/pi-apps/tree/master/apps/LegCord)***
+### <img src="/img/app-icons/Legcord/icon-64.png" height=32> ***[Legcord](https://github.com/Botspot/pi-apps/tree/master/apps/Legcord)***
 https://github.com/Legcord/Legcord - @ryanfortner (GitHub)<br />
 ARM32/ARM64
 ```
-LegCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 It has all features you would expect from the official Discord desktop client, in addition to various ways to improve the experience.
 
-This was formerly named ArmCord until the ARM company threatened a lawsuit. LegCord it is!
+This was formerly named ArmCord until the ARM company threatened a lawsuit. Legcord it is!
 
 To run: Menu -> Internet -> Legcord
 To run in a terminal: legcord

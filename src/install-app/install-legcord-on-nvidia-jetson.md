@@ -1,28 +1,28 @@
 ---
-title: Install LegCord on Nvidia Jetson | Pi-Apps
+title: Install Legcord on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/LegCord/icon-64.png" height=24> LegCord on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Legcord/icon-64.png" height=24> Legcord on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
-## <img src="/img/app-icons/LegCord/icon-64.png"> LegCord
-> LegCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+## <img src="/img/app-icons/Legcord/icon-64.png"> Legcord
+> Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 > It has all features you would expect from the official Discord desktop client, in addition to various ways to improve the experience.
 > 
-> This was formerly named ArmCord until the ARM company threatened a lawsuit. LegCord it is!
+> This was formerly named ArmCord until the ARM company threatened a lawsuit. Legcord it is!
 > 
 > To run: Menu -> Internet -> Legcord
 > To run in a terminal: legcord
 
-Fortunately, LegCord is very easy to install on your Nvidia Jetson in just two steps.
+Fortunately, Legcord is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
-2. Use Pi-Apps to install LegCord.
+2. Use Pi-Apps to install Legcord.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin).
-LegCord will run on L4T Ubuntu ARM64.
+Legcord will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
@@ -38,16 +38,16 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 </div>
 <div class="simple-install-content content">
 
-## Install LegCord
+## Install Legcord
 
-Now that you have Pi-Apps installed, it is time to install LegCord.
+Now that you have Pi-Apps installed, it is time to install Legcord.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
 Then click on the <b>Internet</b> category, which leads to the <b>Communication</b> category.
 <img src="/img/category-selections/Communication.png">
-Now scroll down to find <b>LegCord</b> in the list.
-<img src="/img/app-icons/LegCord/app-selection.png">
-Just click Install and Pi-Apps will install LegCord for you!
+Now scroll down to find <b>Legcord</b> in the list.
+<img src="/img/app-icons/Legcord/app-selection.png">
+Just click Install and Pi-Apps will install Legcord for you!
 </div>
 <div class="simple-install-content content">
 
