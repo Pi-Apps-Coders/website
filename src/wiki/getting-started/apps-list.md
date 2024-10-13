@@ -2888,7 +2888,7 @@ Now drag and drop files to the website, and the other device will see the files 
 
 ### <img src="/img/app-icons/Snap Store/icon-64.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
 https://snapcraft.io/store - Installation script and made by RPICoder<br />
-ARM32/ARM64 - 32,185 Users!!
+ARM64 ONLY - 32,185 Users!!
 ```
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross‐platform and dependency‐free.
 This makes it easy to find and install Snaps.

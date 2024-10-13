@@ -22,7 +22,7 @@ Fortunately, Snap Store is very easy to install on your Linux ARM Device in just
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Snap Store will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+Snap Store will only run on an Ubuntu/Debian ARM64 OS. Pi-Apps will not let you install Snap Store on an Ubuntu/Debian ARM32 OS.
 </div>
 <div class="simple-install-content content">
 
