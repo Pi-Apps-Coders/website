@@ -1379,7 +1379,7 @@ To run in a terminal: /opt/Caprine/caprine
 
 ### <img src="/img/app-icons/Legcord/icon-64.png" height=32> ***[Legcord](https://github.com/Botspot/pi-apps/tree/master/apps/Legcord)***
 https://github.com/Legcord/Legcord - @ryanfortner (GitHub)<br />
-ARM32/ARM64
+ARM32/ARM64 - 4,059 Users!
 ```
 Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 It has all features you would expect from the official Discord desktop client, in addition to various ways to improve the experience.
