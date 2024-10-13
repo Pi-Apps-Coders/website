@@ -25,16 +25,6 @@ This installs Noto Color Emoji font.
 To test if it works, go to: https://tmh.conlang.org/emoji-language/all-emoji.html
 ```
 
-### <img src="/img/app-icons/Conky Rings/icon-64.png" height=32> ***[Conky Rings](https://github.com/Botspot/pi-apps/tree/master/apps/Conky%20Rings)***
-https://github.com/Botspot/rpi_conky/tree/master/conky_rings - phoenixbyrd for the files
-ryanfortner for the scripts
-Botspot for coloring the theme<br />
-ARM32/ARM64 - 6,557 Users!
-```
-Animated gauges and graphs of your system, on your desktop.
-Displays system uptime, core-specific CPU usage, CPU speed, CPU temperature, top 5 processes by CPU usage, storage usage for boot and root partitions, RAM usage, SWAP usage, top 5 processes by RAM usage, and describes the current Linux environment.
-```
-
 ### <img src="/img/app-icons/Conky/icon-64.png" height=32> ***[Conky](https://github.com/Botspot/pi-apps/tree/master/apps/Conky)***
 https://github.com/Botspot/rpi_conky<br />
 ARM32/ARM64 - 30,008 Users!!
@@ -43,6 +33,16 @@ Monitors CPU, RAM, disk usage, and more.
 This sits on your desktop, refreshing once a second, with pretty graphs showing you all you need to know.
 To run: it should autostart on boot.
 To run in a terminal: conky
+```
+
+### <img src="/img/app-icons/Conky Rings/icon-64.png" height=32> ***[Conky Rings](https://github.com/Botspot/pi-apps/tree/master/apps/Conky%20Rings)***
+https://github.com/Botspot/rpi_conky/tree/master/conky_rings - phoenixbyrd for the files
+ryanfortner for the scripts
+Botspot for coloring the theme<br />
+ARM32/ARM64 - 6,557 Users!
+```
+Animated gauges and graphs of your system, on your desktop.
+Displays system uptime, core-specific CPU usage, CPU speed, CPU temperature, top 5 processes by CPU usage, storage usage for boot and root partitions, RAM usage, SWAP usage, top 5 processes by RAM usage, and describes the current Linux environment.
 ```
 
 ### <img src="/img/app-icons/Geany Dark Mode/icon-64.png" height=32> ***[Geany Dark Mode](https://github.com/Botspot/pi-apps/tree/master/apps/Geany%20Dark%20Mode)***
@@ -493,6 +493,19 @@ To run: Menu -> Games -> AstroMenace
 To run in a terminal: ~/astromenace-master/astromenace
 ```
 
+### <img src="/img/app-icons/Celeste64/icon-64.png" height=32> ***[Celeste64](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste64)***
+https://maddymakesgamesinc.itch.io/celeste64 - Extremely OK Games<br />
+ARM32/ARM64 - 1,657 Users!
+```
+Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer.
+Created in a week(ish) by the Celeste team to celebrate the game’s sixth anniversary!
+
+Controllers are recommended.
+
+To run: Menu -> Games -> Celeste64
+To run in a terminal: Celeste64
+```
+
 ### <img src="/img/app-icons/Celeste Classic/icon-64.png" height=32> ***[Celeste Classic](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste%20Classic)***
 lemon32767 for the classic celeste port
 theofficialgman for better controller support additions and the pi-apps script
@@ -505,19 +518,6 @@ This game can be played with controllers or with keyboard. The general mapping i
 
 To run: Menu -> Games -> Celeste Classic
 To run in a terminal: /usr/local/share/celeste/ccleste
-```
-
-### <img src="/img/app-icons/Celeste64/icon-64.png" height=32> ***[Celeste64](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste64)***
-https://maddymakesgamesinc.itch.io/celeste64 - Extremely OK Games<br />
-ARM32/ARM64 - 1,657 Users!
-```
-Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer.
-Created in a week(ish) by the Celeste team to celebrate the game’s sixth anniversary!
-
-Controllers are recommended.
-
-To run: Menu -> Games -> Celeste64
-To run in a terminal: Celeste64
 ```
 
 ### <img src="/img/app-icons/Chiaki/icon-64.png" height=32> ***[Chiaki](https://github.com/Botspot/pi-apps/tree/master/apps/Chiaki)***
@@ -883,15 +883,6 @@ To run in a terminal: shattered-pixel-dungeon
 Saves and configs are stored in: ~/.local/share/.shatteredpixel/shattered-pixel-dungeon
 ```
 
-### <img src="/img/app-icons/Steam Link/icon-64.png" height=32> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
-Botspot<br />
-Package app - 9,939 Users!
-```
-The Steam Link app brings desktop gaming to your Raspberry Pi. Just pair a controller to your device, connect to a computer running Steam on the same local network, and start playing your existing Steam games.
-To run: Menu -> Games -> Steam Link
-To run in a terminal: steamlink
-```
-
 ### <img src="/img/app-icons/Steam/icon-64.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
 ARM64 ONLY - 29,433 Users!!
 ```
@@ -900,6 +891,15 @@ This emulates the Linux x86_64 version of Steam using Box86 and Box64.
 In most cases, you WILL need to REBOOT before running Steam for the first time to prevent errors.
 To run: Menu -> Games -> Steam
 To run in a terminal: /usr/local/bin/steam
+```
+
+### <img src="/img/app-icons/Steam Link/icon-64.png" height=32> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
+Botspot<br />
+Package app - 9,939 Users!
+```
+The Steam Link app brings desktop gaming to your Raspberry Pi. Just pair a controller to your device, connect to a computer running Steam on the same local network, and start playing your existing Steam games.
+To run: Menu -> Games -> Steam Link
+To run in a terminal: steamlink
 ```
 
 ### <img src="/img/app-icons/StepMania/icon-64.png" height=32> ***[StepMania](https://github.com/Botspot/pi-apps/tree/master/apps/StepMania)***
@@ -1364,16 +1364,6 @@ To run in a terminal: vivaldi-stable
 ```
 ## Internet/Communication
 
-### <img src="/img/app-icons/ArmCord/icon-64.png" height=32> ***[ArmCord](https://github.com/Botspot/pi-apps/tree/master/apps/ArmCord)***
-https://github.com/ArmCord/ArmCord - @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 4,059 Users!
-```
-ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
-
-To run: Menu -> Internet -> ArmCord
-To run in a terminal: armcord
-```
-
 ### <img src="/img/app-icons/Caprine/icon-64.png" height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
 https://sindresorhus.com/caprine/<br />
 ARM32/ARM64 - 3,667 Users!
@@ -1385,6 +1375,19 @@ Caprine is a third-party app and is not affiliated with Facebook.
 
 To run: Menu -> Internet -> Caprine
 To run in a terminal: /opt/Caprine/caprine
+```
+
+### <img src="/img/app-icons/LegCord/icon-64.png" height=32> ***[LegCord](https://github.com/Botspot/pi-apps/tree/master/apps/LegCord)***
+https://github.com/Legcord/Legcord - @ryanfortner (GitHub)<br />
+ARM32/ARM64
+```
+LegCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+It has all features you would expect from the official Discord desktop client, in addition to various ways to improve the experience.
+
+This was formerly named ArmCord until the ARM company threatened a lawsuit. LegCord it is!
+
+To run: Menu -> Internet -> Legcord
+To run in a terminal: legcord
 ```
 
 ### <img src="/img/app-icons/Microsoft Teams/icon-64.png" height=32> ***[Microsoft Teams](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20Teams)***
@@ -1479,18 +1482,6 @@ A simple Whatsapp Web chromium webapp.
 To run: Menu -> Internet -> WhatsApp
 ```
 
-### <img src="/img/app-icons/Zoom PWA/icon-64.png" height=32> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***
-theofficialgman<br />
-ARM32/ARM64 - 2,734 Users!
-```
-Progressive Web App for Zoom
-This is chromium-browser running Zoom. Performance is much better that emulated x86/x86_64 Zoom in almost all cases.
-Both versions can be installed at the same time and will not interfere with each another.
-
-To run: Menu -> Internet -> Zoom PWA
-To run in a terminal: zoom-pwa
-```
-
 ### <img src="/img/app-icons/Zoom/icon-64.png" height=32> ***[Zoom](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom)***
 https://github.com/Botspot/pi-apps/issues/188<br />
 ARM32/ARM64 - 22,951 Users!!
@@ -1502,6 +1493,18 @@ Performance is good enough on the Pi4. Turning off HD video in Zoom's settings i
 
 To run: Menu -> Internet -> Zoom
 To run in a terminal: /opt/zoom/ZoomLauncher
+```
+
+### <img src="/img/app-icons/Zoom PWA/icon-64.png" height=32> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***
+theofficialgman<br />
+ARM32/ARM64 - 2,734 Users!
+```
+Progressive Web App for Zoom
+This is chromium-browser running Zoom. Performance is much better that emulated x86/x86_64 Zoom in almost all cases.
+Both versions can be installed at the same time and will not interfere with each another.
+
+To run: Menu -> Internet -> Zoom PWA
+To run in a terminal: zoom-pwa
 ```
 ## Multimedia
 
@@ -1973,6 +1976,16 @@ To run: Menu -> Accesories -> Electron Fiddle
 To run in a terminal: electron-fiddle
 ```
 
+### <img src="/img/app-icons/Github-CLI/icon-64.png" height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
+https://cli.github.com/ - Added to pi-apps by Itai-Nelken<br />
+ARM32/ARM64 - 7,979 Users!
+```
+gh is GitHub on the command line.
+It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
+
+To run in a terminal: gh
+```
+
 ### <img src="/img/app-icons/Github Desktop/icon-64.png" height=32> ***[Github Desktop](https://github.com/Botspot/pi-apps/tree/master/apps/Github%20Desktop)***
 https://desktop.github.com/ - Github Desktop contributors: https://github.com/desktop/desktop/graphs/contributors
 @shiftkey: continued maintenance of the Linux fork
@@ -1984,16 +1997,6 @@ Focus on what matters instead of fighting with Git. Whether you're new to Git or
 
 To run: Menu -> Accessories -> Github Desktop
 To run in a terminal: github-desktop
-```
-
-### <img src="/img/app-icons/Github-CLI/icon-64.png" height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
-https://cli.github.com/ - Added to pi-apps by Itai-Nelken<br />
-ARM32/ARM64 - 7,979 Users!
-```
-gh is GitHub on the command line.
-It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
-
-To run in a terminal: gh
 ```
 
 ### <img src="/img/app-icons/Gnome Builder IDE/icon-64.png" height=32> ***[Gnome Builder IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Builder%20IDE)***
@@ -2342,17 +2345,6 @@ To run in a terminal: 'neofetch'
 This version of Neofetch is better than what can be found by default from APT. It correctly detects CPU and GPU info on ARM systems - details which are hidden in the official version.
 ```
 
-### <img src="/img/app-icons/Pi Power Tools/icon-64.png" height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
-https://github.com/Botspot/Pi-Power-Tools<br />
-ARM32/ARM64 - 31,455 Users!!
-```
-Easily edit RaspiOS image files with a suite of useful tools.
-All features: Advanced Mount, Shrink, Expand, Flash, Boot in a VM, Download, Mount (View), Edit partitions, and Repair.
-
-To run: Menu -> Accessories -> Pi Power Tools
-To run in a terminal: ~/Pi-Power-Tools/home
-```
-
 ### <img src="/img/app-icons/Pika Backup/icon-64.png" height=32> ***[Pika Backup](https://github.com/Botspot/pi-apps/tree/master/apps/Pika%20Backup)***
 https://github.com/sophie-h/pika-backup - Thanks to:
  - @sophie-h on GitHub for creating this app
@@ -2375,6 +2367,17 @@ Pika Backup is designed to save your personal data and does not support complete
 
 To run: Menu -> Accessories -> Pika Backup
 To run in a terminal: flatpak run org.gnome.World.PikaBackup
+```
+
+### <img src="/img/app-icons/Pi Power Tools/icon-64.png" height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
+https://github.com/Botspot/Pi-Power-Tools<br />
+ARM32/ARM64 - 31,455 Users!!
+```
+Easily edit RaspiOS image files with a suite of useful tools.
+All features: Advanced Mount, Shrink, Expand, Flash, Boot in a VM, Download, Mount (View), Edit partitions, and Repair.
+
+To run: Menu -> Accessories -> Pi Power Tools
+To run in a terminal: ~/Pi-Power-Tools/home
 ```
 
 ### <img src="/img/app-icons/Synaptic/icon-64.png" height=32> ***[Synaptic](https://github.com/Botspot/pi-apps/tree/master/apps/Synaptic)***
@@ -2873,6 +2876,16 @@ To run: Menu -> Accessories -> Screenshot
 To run in terminal: gnome-screenshot
 ```
 
+### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
+https://github.com/RobinLinus/snapdrop - theofficialgman<br />
+ARM32/ARM64 - 8,034 Users!
+```
+Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
+To run: Menu -> Internet -> Snapdrop
+To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
+Now drag and drop files to the website, and the other device will see the files and download them.
+```
+
 ### <img src="/img/app-icons/Snap Store/icon-64.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
 https://snapcraft.io/store - Installation script and made by RPICoder<br />
 ARM32/ARM64 - 32,172 Users!!
@@ -2884,16 +2897,6 @@ Beware that Snap packages can be slow and buggy, especially on Raspberry Pi comp
 
 To run: Menu -> Preferences -> Snap Store
 To run in a terminal: snap-store
-```
-
-### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
-https://github.com/RobinLinus/snapdrop - theofficialgman<br />
-ARM32/ARM64 - 8,034 Users!
-```
-Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
-To run: Menu -> Internet -> Snapdrop
-To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
-Now drag and drop files to the website, and the other device will see the files and download them.
 ```
 
 ### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***

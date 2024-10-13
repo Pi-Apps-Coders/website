@@ -1,25 +1,28 @@
 ---
-title: Install ArmCord on Nintendo Switch | Pi-Apps
+title: Install LegCord on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/ArmCord/icon-64.png" height=24> ArmCord on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
+# Install <img src="/img/app-icons/LegCord/icon-64.png" height=24> LegCord on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
-## <img src="/img/app-icons/ArmCord/icon-64.png"> ArmCord
-> ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+## <img src="/img/app-icons/LegCord/icon-64.png"> LegCord
+> LegCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
+> It has all features you would expect from the official Discord desktop client, in addition to various ways to improve the experience.
 > 
-> To run: Menu -> Internet -> ArmCord
-> To run in a terminal: armcord
+> This was formerly named ArmCord until the ARM company threatened a lawsuit. LegCord it is!
+> 
+> To run: Menu -> Internet -> Legcord
+> To run in a terminal: legcord
 
-Fortunately, ArmCord is very easy to install on your Nintendo Switch in just two steps.
+Fortunately, LegCord is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.
-2. Use Pi-Apps to install ArmCord.
+2. Use Pi-Apps to install LegCord.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Noble](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-noble-installation-guide), which is currently version **5.1.2 Ubuntu Noble**.
-ArmCord will run on L4T Ubuntu ARM64.
+LegCord will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
@@ -35,16 +38,16 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 </div>
 <div class="simple-install-content content">
 
-## Install ArmCord
+## Install LegCord
 
-Now that you have Pi-Apps installed, it is time to install ArmCord.
+Now that you have Pi-Apps installed, it is time to install LegCord.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
 Then click on the <b>Internet</b> category, which leads to the <b>Communication</b> category.
 <img src="/img/category-selections/Communication.png">
-Now scroll down to find <b>ArmCord</b> in the list.
-<img src="/img/app-icons/ArmCord/app-selection.png">
-Just click Install and Pi-Apps will install ArmCord for you!
+Now scroll down to find <b>LegCord</b> in the list.
+<img src="/img/app-icons/LegCord/app-selection.png">
+Just click Install and Pi-Apps will install LegCord for you!
 </div>
 <div class="simple-install-content content">
 
