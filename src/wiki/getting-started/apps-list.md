@@ -2182,6 +2182,18 @@ To run in a terminal if you are using a 32-bit OS: box86 ~/'Sublime Text 2'/subl
 To run in a terminal if you are using a 64-bit OS: subl
 ```
 
+### <img src="/img/app-icons/Thonny/icon-64.png" height=32> ***[Thonny](https://github.com/Botspot/pi-apps/tree/master/apps/Thonny)***
+https://thonny.org - Added to pi apps by justaPancakeGuy<br />
+Package app
+```
+Thonny is a simple Python IDE with features useful for learning programming.
+
+It comes with a debugger which is able to visualize all the conceptual steps
+taken to run a Python program (executing statements, evaluating expressions,
+maintaining the call stack). There is a GUI for installing 3rd party packages
+and special mode for learning about references.
+```
+
 ### <img src="/img/app-icons/Turbowarp/icon-64.png" height=32> ***[Turbowarp](https://github.com/Botspot/pi-apps/tree/master/apps/Turbowarp)***
 https://turbowarp.org/ - App added to pi-apps by Raspberry Pi News (bit.ly/rpnsite)
 
