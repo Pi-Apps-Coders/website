@@ -10,6 +10,10 @@ title: Install Sonic Pi on Nvidia Jetson | Pi-Apps
 > 
 > To run: Menu -> Programming -> Sonic Pi
 > To run in a terminal: sonic-pi
+> 
+> IMPORTANT NOTE: Sonic Pi on Raspberry Pi OS Bookworm ignores your choice of audio output device. If Sonic Pi fails to play any sound, you need to install a package to let you fix it.
+> sudo apt install qpwgraph
+> Then run qpwgraph, find the SuperCollider node, disconnect its connection to the wrong audio output device and then connect it to the right one. It may be necessary to repeat this process after a reboot..
 
 Fortunately, Sonic Pi is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
