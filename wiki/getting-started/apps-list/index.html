@@ -1560,6 +1560,10 @@ ARM32/ARM64 - 3,067 Users!</p>
 
 To run: Menu -&gt; Programming -&gt; Sonic Pi
 To run in a terminal: sonic-pi
+
+IMPORTANT NOTE: Sonic Pi on Raspberry Pi OS Bookworm ignores your choice of audio output device. If Sonic Pi fails to play any sound, you need to install a package to let you fix it.
+sudo apt install qpwgraph
+Then run qpwgraph, find the SuperCollider node, disconnect its connection to the wrong audio output device and then connect it to the right one. It may be necessary to repeat this process after a reboot..
 </code></pre>
 <h3 id="sound-recorder" tabindex="-1"><img src="/img/app-icons/Sound Recorder/icon-64.png" height=32> <em><strong><a href="https://github.com/Botspot/pi-apps/tree/master/apps/Sound%20Recorder">Sound Recorder</a></strong></em> <a class="direct-link" href="#sound-recorder" aria-hidden="true">#</a></h3>
 <p><a href="https://wiki.gnome.org/Apps/SoundRecorder">https://wiki.gnome.org/Apps/SoundRecorder</a> - Botspot<br /><br>
