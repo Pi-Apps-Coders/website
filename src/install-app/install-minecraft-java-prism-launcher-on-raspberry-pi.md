@@ -11,7 +11,7 @@ title: Install Minecraft Java Prism Launcher on Raspberry Pi | Pi-Apps
 > Features of the launcher:
 > - Microsoft, Mojang, and PC GamePass Account support
 > - Curseforge Modrinth FTB ATLauncher and Technic Mod and Modpack browser and updater
-> - Automatic Java 8/17/21 installation (when available)
+> - Automatic Java 8/17/21 installation (when available) and selection
 > - Fabric, Forge, and Quilt mod loading
 > - Supports minecraft versions from the old beta/alphas and old snapshots all the way up the latest snapshots
 > 
