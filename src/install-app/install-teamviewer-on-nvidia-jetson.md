@@ -7,9 +7,13 @@ title: Install TeamViewer on Nvidia Jetson | Pi-Apps
 
 ## <img src="/img/app-icons/TeamViewer/icon-64.png"> TeamViewer
 > Remote desktop server and client software.
+> 
 > To run: Menu -> Internet -> TeamViewer
 > To run in terminal: teamviewer
-> If you get an error running it from command line follow the instructions it gives you. They're very simple to follow.
+> 
+> NOTE: If your system uses Wayland, it cannot accept incoming connections. If you cannot connect to this machine with Teamviewer, either disable Wayland or switch to RustDesk which actually works and is more secure.
+> On Raspberry Pi OS, Wayland can be disabled by running "sudo raspi-config" in a terminal and navigating to Advanced Options, where Wayland/X11 can be toggled.
+> Again, RustDesk is recommended. It's open source and works better.
 
 Fortunately, TeamViewer is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
