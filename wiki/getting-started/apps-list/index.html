@@ -1038,9 +1038,13 @@ To run in a terminal: speedtest
 <p><a href="https://github.com/Benmac83/Teamviewer-installer-for-pi">https://github.com/Benmac83/Teamviewer-installer-for-pi</a> - Benmac83 on the Botspot discord server, GYKGamer on GitHub for the heads up on the client/host preview, and theofficialgman for the scripts<br /><br>
 ARM32/ARM64 - 11,988 Users!!</p>
 <pre><code>Remote desktop server and client software.
+
 To run: Menu -&gt; Internet -&gt; TeamViewer
 To run in terminal: teamviewer
-If you get an error running it from command line follow the instructions it gives you. They're very simple to follow.
+
+NOTE: If your system uses Wayland, it cannot accept incoming connections. If you cannot connect to this machine with Teamviewer, either disable Wayland or switch to RustDesk which actually works and is more secure.
+On Raspberry Pi OS, Wayland can be disabled by running &quot;sudo raspi-config&quot; in a terminal and navigating to Advanced Options, where Wayland/X11 can be toggled.
+Again, RustDesk is recommended. It's open source and works better.
 </code></pre>
 <h3 id="transmission" tabindex="-1"><img src="/img/app-icons/Transmission/icon-64.png" height=32> <em><strong><a href="https://github.com/Botspot/pi-apps/tree/master/apps/Transmission">Transmission</a></strong></em> <a class="direct-link" href="#transmission" aria-hidden="true">#</a></h3>
 <p><a href="https://transmissionbt.com">https://transmissionbt.com</a> - Botspot<br /><br>
