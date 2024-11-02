@@ -2361,6 +2361,21 @@ To run: Menu -> System Tools -> Disk Usage Analyzer
 To run in a terminal: baobab
 ```
 
+### <img src="/img/app-icons/Fastfetch/icon-64.png" height=32> ***[Fastfetch](https://github.com/Botspot/pi-apps/tree/master/apps/Fastfetch)***
+https://github.com/fastfetch-cli/fastfetch<br />
+ARM32/ARM64
+```
+Fastfetch is a neofetch-like tool for fetching system information and displaying it prettily.
+It is written mainly in C, with performance and customizability in mind.
+
+To run in a terminal (with default options): fastfetch
+
+Run with all supported modules and find what interests you: fastfetch -c all.jsonc
+Find all data that fastfetch detects: fastfetch -s <module> --format json
+Display help messages: fastfetch --help
+Generate config file based on command line arguments: fastfetch --arg1 --arg2 --gen-config
+```
+
 ### <img src="/img/app-icons/GParted/icon-64.png" height=32> ***[GParted](https://github.com/Botspot/pi-apps/tree/master/apps/GParted)***
 https://gparted.org - Botspot<br />
 Package app - 89,212 Users!!
