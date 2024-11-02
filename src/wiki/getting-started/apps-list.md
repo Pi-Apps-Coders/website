@@ -1093,6 +1093,22 @@ Make sure to sign up for the service at https://tag.rc24.xyz/
 To run in a terminal: riitag-rpc
 ```
 
+### <img src="/img/app-icons/RustDesk/icon-64.png" height=32> ***[RustDesk](https://github.com/Botspot/pi-apps/tree/master/apps/RustDesk)***
+https://rustdesk.com/ - Botspot<br />
+ARM32/ARM64
+```
+Open-source secure remote desktop connection software, better than AnyDesk or TeamViewer
+RustDesk seems like the best choice and is one of the few that actually works well on Raspberry Pi. (Especially with Wayland)
+This will install the server and viewer. You can connect to other RustDesk-enabled computers, or connect to this system from elsewhere. Connections can be made between two devices with access to the Internet, with no need for port forwarding or other changes to the network configuration. 
+They even have a viewer online, in addition to phone and PC apps. You can use any device as a controlling viewer by going to to https://rustdesk.com/web
+
+To run: Menu -> Internet -> RustDesk
+To run in a terminal: rustdesk
+The background service should start automatically on boot. To run it in a terminal: /usr/bin/rustdesk --service
+
+Note: for faster speeds and higher security, consider setting up your own RustDesk self-hosted server.
+```
+
 ### <img src="/img/app-icons/SpeedTest-CLI/icon-64.png" height=32> ***[SpeedTest-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/SpeedTest-CLI)***
 https://www.speedtest.net/<br />
 ARM32/ARM64 - 21,676 Users!!
