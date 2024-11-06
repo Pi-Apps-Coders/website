@@ -1,9 +1,9 @@
 ---
-title: Install Godot on Raspberry Pi | Pi-Apps
+title: Install Godot on Linux ARM Device | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Godot/icon-64.png" height=24> Godot on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Godot/icon-64.png" height=24> Godot on Linux ARM Device
 
 ## <img src="/img/app-icons/Godot/icon-64.png"> Godot
 > Your free, open‑source game engine.
@@ -13,22 +13,21 @@ title: Install Godot on Raspberry Pi | Pi-Apps
 > To run from GUI: Menu -> Programming -> Godot
 > To run in a terminal: godot
 
-Fortunately, Godot is very easy to install on your Raspberry Pi in just two steps.
-1. Install Pi-Apps - the best app installer for Raspberry Pi.
+Fortunately, Godot is very easy to install on your Linux ARM Device in just two steps.
+1. Install Pi-Apps - the best app installer for Linux ARM Device.
 2. Use Pi-Apps to install Godot.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
-Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-Godot will run on either PiOS 32-bit or 64-bit.
+For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
+Godot will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
 </div>
 <div class="simple-install-content content">
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Raspberry Pi with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Linux ARM Device with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 ```bash

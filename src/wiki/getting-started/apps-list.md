@@ -626,17 +626,15 @@ As this game is still a work in progress, some settings (like setting fullscreen
 ```
 
 ### <img src="/img/app-icons/Godot/icon-64.png" height=32> ***[Godot](https://github.com/Botspot/pi-apps/tree/master/apps/Godot)***
-https://github.com/hiulit/Unofficial-Godot-Engine-Raspberry-Pi - Credits to Irtexo for putting it on Pi-Apps.
-Credits to Hiulit for porting it to the Raspberry Pi.
-Credits to Juan Linietsky and Ariel Manzur for creating Godot Engine.<br />
+https://godotengine.org/ - Credits to Juan Linietsky and Ariel Manzur for creating Godot Engine.<br />
 ARM32/ARM64 - 5,472 Users!
 ```
-Open Source Game Engine that runs fine on the Raspberry Pi (for 2d games).
-For the export instructions for Raspberry Pi, go to the website.
-This software will only run on the Raspberry Pi 4/Raspberry Pi 400.
-GLES2 projects are recommended.
+Your free, open‑source game engine.
+Develop your 2D & 3D games, cross-platform projects, or even XR ideas!
+
+Godot 4.X requires Vulkan 1.0, OpenGL 3.3, or OpenGLES 3.0 compatible hardware (eg: Pi4 and newer)
 To run from GUI: Menu -> Programming -> Godot
-To run in a terminal: ~/Godot/godot_*-stable_rpi4_editor*
+To run in a terminal: godot
 ```
 
 ### <img src="/img/app-icons/Heroes 2/icon-64.png" height=32> ***[Heroes 2](https://github.com/Botspot/pi-apps/tree/master/apps/Heroes%202)***
