@@ -1337,18 +1337,6 @@ To run: Menu -> Internet -> Mullvad Browser
 To run in a terminal: ~/mullvad-browser/Browser/start-mullvad-browser
 ```
 
-### <img src="/img/app-icons/Puffin/icon-64.png" height=32> ***[Puffin](https://github.com/Botspot/pi-apps/tree/master/apps/Puffin)***
-https://www.puffin.com/raspberry-pi/ - Botspot added this app to Pi-Apps.<br />
-ARM32/ARM64 - 16,048 Users!!
-```
-Speeds up web browsing thanks to cloud servers.
-This web browser uses cloud servers to load websites for you, instead of making your Pi do it all.
-Result: a claimed 1600% browsing speed increase.
-
-To run: Menu -> Internet -> Puffin Internet Terminal (Demo)
-To run in a terminal: puffin-internet-terminal-demo
-```
-
 ### <img src="/img/app-icons/Quartz/icon-64.png" height=32> ***[Quartz](https://github.com/Botspot/pi-apps/tree/master/apps/Quartz)***
 https://github.com/ksharindam/quartz-browser-qt5<br />
 ARM32/ARM64 - 1,979 Users!
