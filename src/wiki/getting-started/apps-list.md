@@ -17,6 +17,21 @@ A fun, new monospaced font that includes programming ligatures and is designed t
 This font will be installed in /usr/local/share/fonts and will be available in most programs on next restart.
 ```
 
+### <img src="/img/app-icons/Colored Man Pages/icon-64.png" height=32> ***[Colored Man Pages](https://github.com/Botspot/pi-apps/tree/master/apps/Colored%20Man%20Pages)***
+Botspot<br />
+ARM32/ARM64
+```
+Add a bit of color coding to the documentation for linux commands.
+You may have used the man command before.
+man grep
+man sudo
+man ffmpeg
+These are the manuals for all your linux commands, but everything is black and white. This script adds a red color to the program flag options, and gives a green color to any underlined text in the document. Result: more easily readible and digestable manpages.
+
+To customize the colors, go familiarize yourself with the shell color codes here: https://misc.flogisoft.com/bash/tip_colors_and_formatting
+Then, as root, go edit this file: /usr/local/bin/man
+```
+
 ### <img src="/img/app-icons/Color Emoji font/icon-64.png" height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
 ARM32/ARM64 - 7,758 Users!
 ```
