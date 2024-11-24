@@ -2666,6 +2666,19 @@ To run: Menu -> Accessories -> Ducopanel
 To run in a terminal: ducopanel
 ```
 
+### <img src="/img/app-icons/Feather Wallet/icon-64.png" height=32> ***[Feather Wallet](https://github.com/Botspot/pi-apps/tree/master/apps/Feather%20Wallet)***
+https://featherwallet.org - Botspot
+and austin2804 on discord for the description<br />
+ARM32/ARM64
+```
+Store Monero cryptocurrency with Feather Wallet - better experience than Monero GUI
+Monero is a privacy currency, allowing easy money transfers to others without oppresive governments, hackers, or foreign adversaries knowing how much you sent or to whom.
+Feather wallet allows you to store your currency securely. Usually this requires downloading the whole blockchain (Around 60gb for a pruned node), but Feather Wallet allows you to connect to remote nodes and will fetch the blockchain data very fast so you can get transacting quickly. It will check a list of nodes speed and pick the fastest one. Chances are if you have used the offical Monero GUI wallet you have experienced crashes, and sometimes annoying bugs. If you want a less buggy, more simple wallet Feather wallet is for you! It just works....
+
+To run: Menu -> Internet -> Feather Wallet
+To run in a terminal: /opt/feather.AppImage
+```
+
 ### <img src="/img/app-icons/FF Multi Converter/icon-64.png" height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
 https://github.com/l-koehler/FF-converter - Thanks to Crilum on GitHub for writing the scripts.
 Thanks to ilstad and l-koehler on GitHub and all Contributors for creating FF Converter!<br />
