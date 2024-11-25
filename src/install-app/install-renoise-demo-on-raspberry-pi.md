@@ -13,7 +13,6 @@ title: Install Renoise (Demo) on Raspberry Pi | Pi-Apps
 > This version is only a demo, you can buy the full version at: https://www.renoise.com/shop
 > Renoise Demo Restrictions
 > 
->  · No ASIO support on Windows
 >  · Rendering to .wav is disabled
 >  · Rendering/resampling selections is disabled
 >  · Rendering/freezing plugin instruments to samples is disabled
