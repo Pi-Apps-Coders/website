@@ -2648,38 +2648,6 @@ To run in a terminal: ckb-next
 **DISCLAIMER**: this is NOT an official Corsair product and does not come with a warranty. Also, not all Corsair products are fully supported. Use at your own risk.
 ```
 
-### <img src="/img/app-icons/Ducopanel/icon-64.png" height=32> ***[Ducopanel](https://github.com/Botspot/pi-apps/tree/master/apps/Ducopanel)***
-https://github.com/ponsato/ducopanel - @ponsato (GitHub) for the program
-@ryanfortner (GitHub) for the scripts<br />
-ARM64 ONLY - 650 Users
-```
-Desktop app to manage Duino-Coin miners and tools.
-
-You can upload the code to any Arduino board, mine with all the boards or with the ones you choose, mine with the PC (choosing the cores you want), and much more.
-You can also connect to your official wallet and perform any operation without leaving the application, as well as see the live status of the network and servers.
-This development makes everything related to DuinoCoin even easier, based exclusively on the official tools.
-
-ElectronJs has been used for this purpose.
-
-To run: Menu -> Accessories -> Ducopanel
-To run in a terminal: ducopanel
-```
-
-### <img src="/img/app-icons/Feather Wallet/icon-64.png" height=32> ***[Feather Wallet](https://github.com/Botspot/pi-apps/tree/master/apps/Feather%20Wallet)***
-https://featherwallet.org - Botspot
-and austin2804 on discord for the description<br />
-ARM32/ARM64
-```
-Store Monero cryptocurrency with Feather Wallet - better experience than Monero GUI
-Monero is a privacy currency, allowing easy money transfers to others without oppresive governments, hackers, or foreign adversaries knowing how much you sent or to whom.
-Feather wallet allows you to store your currency securely. Usually this requires downloading the whole blockchain (Around 60gb for a pruned node), but Feather Wallet allows you to connect to remote nodes and will fetch the blockchain data very fast so you can get transacting quickly. It will check a list of nodes speed and pick the fastest one. Chances are if you have used the offical Monero GUI wallet you have experienced crashes, and sometimes annoying bugs. If you want a less buggy, more simple wallet Feather wallet is for you! It just works....
-
-This site compares Feather to the official Monero wallet software: https://docs.featherwallet.org/guides/features
-
-To run: Menu -> Internet -> Feather Wallet
-To run in a terminal: /opt/feather.AppImage
-```
-
 ### <img src="/img/app-icons/FF Multi Converter/icon-64.png" height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
 https://github.com/l-koehler/FF-converter - Thanks to Crilum on GitHub for writing the scripts.
 Thanks to ilstad and l-koehler on GitHub and all Contributors for creating FF Converter!<br />
@@ -2791,19 +2759,6 @@ Features:
  - Enable IEEE 80211n, IEEE 80211ac modes
 
 Note: Running Linux Wifi Hotspot from the Menu will turn on your Wifi, becuause trying to start a Hotspot with your Wifi off won't work.
-```
-
-### <img src="/img/app-icons/Monero GUI/icon-64.png" height=32> ***[Monero GUI](https://github.com/Botspot/pi-apps/tree/master/apps/Monero%20GUI)***
-https://getmonero.org - Botspot<br />
-ARM64 ONLY - 501 Users
-```
-Store Monero cryptocurrency with the official wallet software.
-Monero is a privacy currency, allowing easy money transfers to others without oppresive governments, hackers, or foreign adversaries knowing how much you sent or to whom.
-The Monero wallet software allows you to store your currency securely. Usually this requires downloading the whole blockchain (over 400GB for Bitcoin), but Monero wallet has "simple mode" which avoids taking up your disk space.
-
-To run: Menu -> Internet -> Monero GUI
-To run in a terminal: monero-wallet-gui
-To run the CLI version in a terminal: monero-wallet-cli
 ```
 
 ### <img src="/img/app-icons/More RAM/icon-64.png" height=32> ***[More RAM](https://github.com/Botspot/pi-apps/tree/master/apps/More%20RAM)***
@@ -3095,6 +3050,52 @@ Xfburn is a tool to help burning CDs and DVDs. It fits well in the Xfce Desktop 
 
 To run: Menu -> Multimedia -> Xfburn
 To run in terminal: xfburn
+```
+## Tools/Crypto
+
+### <img src="/img/app-icons/Ducopanel/icon-64.png" height=32> ***[Ducopanel](https://github.com/Botspot/pi-apps/tree/master/apps/Ducopanel)***
+https://github.com/ponsato/ducopanel - @ponsato (GitHub) for the program
+@ryanfortner (GitHub) for the scripts<br />
+ARM64 ONLY - 650 Users
+```
+Desktop app to manage Duino-Coin miners and tools.
+
+You can upload the code to any Arduino board, mine with all the boards or with the ones you choose, mine with the PC (choosing the cores you want), and much more.
+You can also connect to your official wallet and perform any operation without leaving the application, as well as see the live status of the network and servers.
+This development makes everything related to DuinoCoin even easier, based exclusively on the official tools.
+
+ElectronJs has been used for this purpose.
+
+To run: Menu -> Accessories -> Ducopanel
+To run in a terminal: ducopanel
+```
+
+### <img src="/img/app-icons/Feather Wallet/icon-64.png" height=32> ***[Feather Wallet](https://github.com/Botspot/pi-apps/tree/master/apps/Feather%20Wallet)***
+https://featherwallet.org - Botspot
+and austin2804 on discord for the description<br />
+ARM32/ARM64
+```
+Store Monero cryptocurrency with Feather Wallet - better experience than Monero GUI
+Monero is a privacy currency, allowing easy money transfers to others without oppresive governments, hackers, or foreign adversaries knowing how much you sent or to whom.
+Feather wallet allows you to store your currency securely. Usually this requires downloading the whole blockchain (Around 60gb for a pruned node), but Feather Wallet allows you to connect to remote nodes and will fetch the blockchain data very fast so you can get transacting quickly. It will check a list of nodes speed and pick the fastest one. Chances are if you have used the offical Monero GUI wallet you have experienced crashes, and sometimes annoying bugs. If you want a less buggy, more simple wallet Feather wallet is for you! It just works....
+
+This site compares Feather to the official Monero wallet software: https://docs.featherwallet.org/guides/features
+
+To run: Menu -> Internet -> Feather Wallet
+To run in a terminal: /opt/feather.AppImage
+```
+
+### <img src="/img/app-icons/Monero GUI/icon-64.png" height=32> ***[Monero GUI](https://github.com/Botspot/pi-apps/tree/master/apps/Monero%20GUI)***
+https://getmonero.org - Botspot<br />
+ARM64 ONLY - 501 Users
+```
+Store Monero cryptocurrency with the official wallet software.
+Monero is a privacy currency, allowing easy money transfers to others without oppresive governments, hackers, or foreign adversaries knowing how much you sent or to whom.
+The Monero wallet software allows you to store your currency securely. Usually this requires downloading the whole blockchain (over 400GB for Bitcoin), but Monero wallet has "simple mode" which avoids taking up your disk space.
+
+To run: Menu -> Internet -> Monero GUI
+To run in a terminal: monero-wallet-gui
+To run the CLI version in a terminal: monero-wallet-cli
 ```
 
 ### <img src="/img/app-icons/XMRig/icon-64.png" height=32> ***[XMRig](https://github.com/Botspot/pi-apps/tree/master/apps/XMRig)***
