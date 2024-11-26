@@ -1404,6 +1404,17 @@ Official Vivaldi browser for ARM Linux.
 To run: Menu -> Internet -> Vivaldi
 To run in a terminal: vivaldi-stable
 ```
+
+### <img src="/img/app-icons/Zen/icon-64.png" height=32> ***[Zen](https://github.com/Botspot/pi-apps/tree/master/apps/Zen)***
+https://zen-browser.app/ - Botspot<br />
+ARM64 ONLY
+```
+Privacy-focused browser based on Firefox
+Zen Browser has side tabs by default and is very customizeable if you know a bit of CSS, or are willing to find someone else's mod files. It is said to run fast, and is competely open-source and takes design elements from Arc Browser.
+
+To run: Menu -> Internet -> Zen Browser
+To run in a terminal: zen-browser
+```
 ## Internet/Communication
 
 ### <img src="/img/app-icons/Caprine/icon-64.png" height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
