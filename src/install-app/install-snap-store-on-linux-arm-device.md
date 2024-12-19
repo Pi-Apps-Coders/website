@@ -11,8 +11,8 @@ title: Install Snap Store on Linux ARM Device | Pi-Apps
 > 
 > Beware that Snap packages can be slow and buggy, especially on Raspberry Pi computers. Many would advise finding non-Snap ways to install apps you use often.
 > 
-> To run: Menu -> Preferences -> Snap Store
-> To run in a terminal: snap-store
+> To run: Menu -> Internet -> App Center
+> To run in a terminal: /snap/bin/snap-store
 
 Fortunately, Snap Store is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.

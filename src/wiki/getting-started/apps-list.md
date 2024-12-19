@@ -2961,8 +2961,8 @@ This makes it easy to find and install Snaps.
 
 Beware that Snap packages can be slow and buggy, especially on Raspberry Pi computers. Many would advise finding non-Snap ways to install apps you use often.
 
-To run: Menu -> Preferences -> Snap Store
-To run in a terminal: snap-store
+To run: Menu -> Internet -> App Center
+To run in a terminal: /snap/bin/snap-store
 ```
 
 ### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
