@@ -1,5 +1,6 @@
 ---
 title: Install Ducopanel on Raspberry Pi | Pi-Apps
+description: Install Ducopanel on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

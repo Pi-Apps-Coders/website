@@ -1,5 +1,6 @@
 ---
 title: Install Transmission on Raspberry Pi | Pi-Apps
+description: Install Transmission on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

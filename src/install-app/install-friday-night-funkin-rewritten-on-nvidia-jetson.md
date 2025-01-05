@@ -1,5 +1,6 @@
 ---
 title: Install Friday Night Funkin' Rewritten on Nvidia Jetson | Pi-Apps
+description: Install Friday Night Funkin' Rewritten on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

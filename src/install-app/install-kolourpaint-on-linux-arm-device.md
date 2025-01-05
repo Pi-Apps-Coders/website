@@ -1,5 +1,6 @@
 ---
 title: Install Kolourpaint on Linux ARM Device | Pi-Apps
+description: Install Kolourpaint on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

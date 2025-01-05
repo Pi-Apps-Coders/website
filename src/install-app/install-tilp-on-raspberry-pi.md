@@ -1,5 +1,6 @@
 ---
 title: Install TiLP on Raspberry Pi | Pi-Apps
+description: Install TiLP on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

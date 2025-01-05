@@ -1,5 +1,6 @@
 ---
 title: Install Persepolis Download Manager on Raspberry Pi | Pi-Apps
+description: Install Persepolis Download Manager on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

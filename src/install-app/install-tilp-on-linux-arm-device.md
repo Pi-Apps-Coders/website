@@ -1,5 +1,6 @@
 ---
 title: Install TiLP on Linux ARM Device | Pi-Apps
+description: Install TiLP on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

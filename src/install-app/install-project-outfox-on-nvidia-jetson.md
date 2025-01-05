@@ -1,5 +1,6 @@
 ---
 title: Install Project OutFox on Nvidia Jetson | Pi-Apps
+description: Install Project OutFox on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

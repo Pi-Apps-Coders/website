@@ -1,5 +1,6 @@
 ---
 title: Install GIMP on Raspberry Pi | Pi-Apps
+description: Install GIMP on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

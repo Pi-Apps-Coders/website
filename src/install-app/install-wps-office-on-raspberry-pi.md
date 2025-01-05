@@ -1,5 +1,6 @@
 ---
 title: Install WPS Office on Raspberry Pi | Pi-Apps
+description: Install WPS Office on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

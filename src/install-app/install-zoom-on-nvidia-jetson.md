@@ -1,5 +1,6 @@
 ---
 title: Install Zoom on Nvidia Jetson | Pi-Apps
+description: Install Zoom on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

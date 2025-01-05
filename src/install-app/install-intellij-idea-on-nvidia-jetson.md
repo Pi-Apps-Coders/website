@@ -1,5 +1,6 @@
 ---
 title: Install Intellij IDEA on Nvidia Jetson | Pi-Apps
+description: Install Intellij IDEA on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

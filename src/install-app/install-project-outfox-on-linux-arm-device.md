@@ -1,5 +1,6 @@
 ---
 title: Install Project OutFox on Linux ARM Device | Pi-Apps
+description: Install Project OutFox on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

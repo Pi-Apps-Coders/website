@@ -1,5 +1,6 @@
 ---
 title: Install Electron Fiddle on Nvidia Jetson | Pi-Apps
+description: Install Electron Fiddle on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

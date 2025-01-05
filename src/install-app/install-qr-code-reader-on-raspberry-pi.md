@@ -1,5 +1,6 @@
 ---
 title: Install QR Code Reader on Raspberry Pi | Pi-Apps
+description: Install QR Code Reader on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

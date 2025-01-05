@@ -1,5 +1,6 @@
 ---
 title: Install Visual Studio Code on Raspberry Pi | Pi-Apps
+description: Install Visual Studio Code on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

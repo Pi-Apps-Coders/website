@@ -1,5 +1,6 @@
 ---
 title: Install Xfburn on Raspberry Pi | Pi-Apps
+description: Install Xfburn on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

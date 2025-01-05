@@ -1,5 +1,6 @@
 ---
 title: Install Sublime Merge on Nvidia Jetson | Pi-Apps
+description: Install Sublime Merge on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Shattered Pixel Dungeon on Raspberry Pi | Pi-Apps
+description: Install Shattered Pixel Dungeon on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

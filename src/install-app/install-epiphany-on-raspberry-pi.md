@@ -1,5 +1,6 @@
 ---
 title: Install Epiphany on Raspberry Pi | Pi-Apps
+description: Install Epiphany on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Sound Recorder on Nvidia Jetson | Pi-Apps
+description: Install Sound Recorder on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install XMRig on Nvidia Jetson | Pi-Apps
+description: Install XMRig on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

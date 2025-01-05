@@ -1,5 +1,6 @@
 ---
 title: Install Github Desktop on Raspberry Pi | Pi-Apps
+description: Install Github Desktop on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

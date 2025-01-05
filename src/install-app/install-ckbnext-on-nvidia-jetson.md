@@ -1,5 +1,6 @@
 ---
 title: Install ckb-next on Nvidia Jetson | Pi-Apps
+description: Install ckb-next on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

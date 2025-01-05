@@ -1,5 +1,6 @@
 ---
 title: Install Github-CLI on Nintendo Switch | Pi-Apps
+description: Install Github-CLI on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

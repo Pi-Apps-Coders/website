@@ -1,5 +1,6 @@
 ---
 title: Install Gnumeric on Nintendo Switch | Pi-Apps
+description: Install Gnumeric on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

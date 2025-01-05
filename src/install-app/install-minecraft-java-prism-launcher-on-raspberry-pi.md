@@ -1,5 +1,6 @@
 ---
 title: Install Minecraft Java Prism Launcher on Raspberry Pi | Pi-Apps
+description: Install Minecraft Java Prism Launcher on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

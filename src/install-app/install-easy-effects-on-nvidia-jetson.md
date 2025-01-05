@@ -1,5 +1,6 @@
 ---
 title: Install Easy Effects on Nvidia Jetson | Pi-Apps
+description: Install Easy Effects on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

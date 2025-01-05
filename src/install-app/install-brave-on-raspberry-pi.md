@@ -1,5 +1,6 @@
 ---
 title: Install Brave on Raspberry Pi | Pi-Apps
+description: Install Brave on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

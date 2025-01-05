@@ -1,5 +1,6 @@
 ---
 title: Install Shattered Pixel Dungeon on Nvidia Jetson | Pi-Apps
+description: Install Shattered Pixel Dungeon on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

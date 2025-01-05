@@ -1,5 +1,6 @@
 ---
 title: Install Linux Wifi Hotspot on Nvidia Jetson | Pi-Apps
+description: Install Linux Wifi Hotspot on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

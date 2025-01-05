@@ -1,5 +1,6 @@
 ---
 title: Install VARA HF on Nintendo Switch | Pi-Apps
+description: Install VARA HF on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

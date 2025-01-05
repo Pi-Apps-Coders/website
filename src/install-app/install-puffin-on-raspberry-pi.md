@@ -1,5 +1,6 @@
 ---
 title: Install Puffin on Raspberry Pi | Pi-Apps
+description: Install Puffin on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

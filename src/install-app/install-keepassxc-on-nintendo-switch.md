@@ -1,5 +1,6 @@
 ---
 title: Install KeePassXC on Nintendo Switch | Pi-Apps
+description: Install KeePassXC on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

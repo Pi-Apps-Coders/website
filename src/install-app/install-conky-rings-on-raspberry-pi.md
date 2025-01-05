@@ -1,5 +1,6 @@
 ---
 title: Install Conky Rings on Raspberry Pi | Pi-Apps
+description: Install Conky Rings on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

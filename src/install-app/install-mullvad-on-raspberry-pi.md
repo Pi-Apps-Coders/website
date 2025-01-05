@@ -1,5 +1,6 @@
 ---
 title: Install Mullvad on Raspberry Pi | Pi-Apps
+description: Install Mullvad on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

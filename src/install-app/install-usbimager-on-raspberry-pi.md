@@ -1,5 +1,6 @@
 ---
 title: Install USBImager on Raspberry Pi | Pi-Apps
+description: Install USBImager on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

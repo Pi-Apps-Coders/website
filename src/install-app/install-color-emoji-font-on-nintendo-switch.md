@@ -1,5 +1,6 @@
 ---
 title: Install Color Emoji font on Nintendo Switch | Pi-Apps
+description: Install Color Emoji font on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

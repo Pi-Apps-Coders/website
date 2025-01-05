@@ -1,5 +1,6 @@
 ---
 title: Install Tetris CLI on Nintendo Switch | Pi-Apps
+description: Install Tetris CLI on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

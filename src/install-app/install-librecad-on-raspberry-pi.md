@@ -1,5 +1,6 @@
 ---
 title: Install LibreCAD on Raspberry Pi | Pi-Apps
+description: Install LibreCAD on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

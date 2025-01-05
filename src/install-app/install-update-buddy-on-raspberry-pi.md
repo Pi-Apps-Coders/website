@@ -1,5 +1,6 @@
 ---
 title: Install Update Buddy on Raspberry Pi | Pi-Apps
+description: Install Update Buddy on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

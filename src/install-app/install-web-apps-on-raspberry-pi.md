@@ -1,5 +1,6 @@
 ---
 title: Install Web Apps on Raspberry Pi | Pi-Apps
+description: Install Web Apps on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

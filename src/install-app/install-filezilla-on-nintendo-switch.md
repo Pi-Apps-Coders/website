@@ -1,5 +1,6 @@
 ---
 title: Install Filezilla on Nintendo Switch | Pi-Apps
+description: Install Filezilla on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

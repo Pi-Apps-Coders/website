@@ -1,5 +1,6 @@
 ---
 title: Install All Is Well on Nintendo Switch | Pi-Apps
+description: Install All Is Well on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

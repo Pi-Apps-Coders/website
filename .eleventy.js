@@ -1,6 +1,5 @@
 const { DateTime } = require("luxon");
 const fs = require("fs");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const pluginTOC = require('eleventy-plugin-toc')
@@ -90,7 +89,6 @@ module.exports = function (eleventyConfig) {
 
 
   // Add plugins
-  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
@@ -115,6 +113,11 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
       "dd LLL yyyy"
     );
+  });
+
+  eleventyConfig.addNunjucksFilter("absoluteUrl", (href, base) => {
+    let { URL } = require("url");
+    return (new URL(href, base)).toString()
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string

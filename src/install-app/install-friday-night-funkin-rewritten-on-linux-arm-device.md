@@ -1,5 +1,6 @@
 ---
 title: Install Friday Night Funkin' Rewritten on Linux ARM Device | Pi-Apps
+description: Install Friday Night Funkin' Rewritten on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

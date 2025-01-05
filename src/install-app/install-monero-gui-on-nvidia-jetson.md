@@ -1,5 +1,6 @@
 ---
 title: Install Monero GUI on Nvidia Jetson | Pi-Apps
+description: Install Monero GUI on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

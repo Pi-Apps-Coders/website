@@ -1,5 +1,6 @@
 ---
 title: Install BlueJ Java IDE on Nvidia Jetson | Pi-Apps
+description: Install BlueJ Java IDE on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

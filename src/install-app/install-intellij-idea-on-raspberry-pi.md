@@ -1,5 +1,6 @@
 ---
 title: Install Intellij IDEA on Raspberry Pi | Pi-Apps
+description: Install Intellij IDEA on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

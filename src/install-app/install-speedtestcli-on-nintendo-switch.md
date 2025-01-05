@@ -1,5 +1,6 @@
 ---
 title: Install SpeedTest-CLI on Nintendo Switch | Pi-Apps
+description: Install SpeedTest-CLI on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

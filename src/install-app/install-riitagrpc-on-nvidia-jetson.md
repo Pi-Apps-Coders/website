@@ -1,5 +1,6 @@
 ---
 title: Install RiiTag-RPC on Nvidia Jetson | Pi-Apps
+description: Install RiiTag-RPC on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

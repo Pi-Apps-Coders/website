@@ -1,5 +1,6 @@
 ---
 title: Install Libreoffice MS theme on Nvidia Jetson | Pi-Apps
+description: Install Libreoffice MS theme on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

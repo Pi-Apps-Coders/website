@@ -1,5 +1,6 @@
 ---
 title: Install WhatsApp on Raspberry Pi | Pi-Apps
+description: Install WhatsApp on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

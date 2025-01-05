@@ -1,5 +1,6 @@
 ---
 title: Install AntiMicroX on Nvidia Jetson | Pi-Apps
+description: Install AntiMicroX on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

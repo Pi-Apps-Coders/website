@@ -1,5 +1,6 @@
 ---
 title: Install Remarkable on Raspberry Pi | Pi-Apps
+description: Install Remarkable on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

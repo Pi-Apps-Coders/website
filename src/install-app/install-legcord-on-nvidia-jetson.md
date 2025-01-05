@@ -1,5 +1,6 @@
 ---
 title: Install Legcord on Nvidia Jetson | Pi-Apps
+description: Install Legcord on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

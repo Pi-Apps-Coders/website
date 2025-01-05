@@ -1,5 +1,6 @@
 ---
 title: Install Zoom PWA on Raspberry Pi | Pi-Apps
+description: Install Zoom PWA on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

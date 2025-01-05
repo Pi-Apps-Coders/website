@@ -1,5 +1,6 @@
 ---
 title: Install Sonic Pi on Nintendo Switch | Pi-Apps
+description: Install Sonic Pi on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

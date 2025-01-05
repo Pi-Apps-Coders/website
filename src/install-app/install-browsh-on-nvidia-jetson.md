@@ -1,5 +1,6 @@
 ---
 title: Install Browsh on Nvidia Jetson | Pi-Apps
+description: Install Browsh on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Unciv on Nvidia Jetson | Pi-Apps
+description: Install Unciv on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

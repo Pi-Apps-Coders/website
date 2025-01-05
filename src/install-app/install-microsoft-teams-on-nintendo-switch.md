@@ -1,5 +1,6 @@
 ---
 title: Install Microsoft Teams on Nintendo Switch | Pi-Apps
+description: Install Microsoft Teams on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

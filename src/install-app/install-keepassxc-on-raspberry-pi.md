@@ -1,5 +1,6 @@
 ---
 title: Install KeePassXC on Raspberry Pi | Pi-Apps
+description: Install KeePassXC on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

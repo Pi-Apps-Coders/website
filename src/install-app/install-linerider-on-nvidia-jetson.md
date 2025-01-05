@@ -1,5 +1,6 @@
 ---
 title: Install LineRider on Nvidia Jetson | Pi-Apps
+description: Install LineRider on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

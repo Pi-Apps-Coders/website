@@ -1,5 +1,6 @@
 ---
 title: Install HTTrack Website Copier on Nvidia Jetson | Pi-Apps
+description: Install HTTrack Website Copier on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

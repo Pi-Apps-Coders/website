@@ -1,5 +1,6 @@
 ---
 title: Install Synaptic on Nintendo Switch | Pi-Apps
+description: Install Synaptic on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

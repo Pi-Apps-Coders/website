@@ -1,5 +1,6 @@
 ---
 title: Install Notepad ++ on Nvidia Jetson | Pi-Apps
+description: Install Notepad ++ on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

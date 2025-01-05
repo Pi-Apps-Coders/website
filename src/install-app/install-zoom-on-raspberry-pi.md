@@ -1,5 +1,6 @@
 ---
 title: Install Zoom on Raspberry Pi | Pi-Apps
+description: Install Zoom on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

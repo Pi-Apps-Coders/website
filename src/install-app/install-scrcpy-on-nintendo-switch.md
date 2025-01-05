@@ -1,5 +1,6 @@
 ---
 title: Install Scrcpy on Nintendo Switch | Pi-Apps
+description: Install Scrcpy on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

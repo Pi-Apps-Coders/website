@@ -1,5 +1,6 @@
 ---
 title: Install Boxy SVG on Nvidia Jetson | Pi-Apps
+description: Install Boxy SVG on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

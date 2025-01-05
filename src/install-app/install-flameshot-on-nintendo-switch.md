@@ -1,5 +1,6 @@
 ---
 title: Install Flameshot on Nintendo Switch | Pi-Apps
+description: Install Flameshot on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

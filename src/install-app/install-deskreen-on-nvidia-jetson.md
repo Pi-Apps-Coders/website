@@ -1,5 +1,6 @@
 ---
 title: Install Deskreen on Nvidia Jetson | Pi-Apps
+description: Install Deskreen on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

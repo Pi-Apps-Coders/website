@@ -1,5 +1,6 @@
 ---
 title: Install PiGro on Raspberry Pi | Pi-Apps
+description: Install PiGro on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

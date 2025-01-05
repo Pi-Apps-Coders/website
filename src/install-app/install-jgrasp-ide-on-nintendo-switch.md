@@ -1,5 +1,6 @@
 ---
 title: Install jGRASP IDE on Nintendo Switch | Pi-Apps
+description: Install jGRASP IDE on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Scrcpy on Nvidia Jetson | Pi-Apps
+description: Install Scrcpy on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

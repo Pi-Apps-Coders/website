@@ -1,5 +1,6 @@
 ---
 title: Install Angry IP scanner on Nintendo Switch | Pi-Apps
+description: Install Angry IP scanner on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

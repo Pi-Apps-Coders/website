@@ -1,5 +1,6 @@
 ---
 title: Install Sublime Text on Nvidia Jetson | Pi-Apps
+description: Install Sublime Text on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

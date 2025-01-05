@@ -1,5 +1,6 @@
 ---
 title: Install Ducopanel on Nintendo Switch | Pi-Apps
+description: Install Ducopanel on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

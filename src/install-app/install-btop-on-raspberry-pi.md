@@ -1,5 +1,6 @@
 ---
 title: Install btop++ on Raspberry Pi | Pi-Apps
+description: Install btop++ on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

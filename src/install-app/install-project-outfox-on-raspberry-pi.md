@@ -1,5 +1,6 @@
 ---
 title: Install Project OutFox on Raspberry Pi | Pi-Apps
+description: Install Project OutFox on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

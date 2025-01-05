@@ -1,5 +1,6 @@
 ---
 title: Install Marathon on Raspberry Pi | Pi-Apps
+description: Install Marathon on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

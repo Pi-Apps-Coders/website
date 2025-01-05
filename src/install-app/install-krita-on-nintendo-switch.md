@@ -1,5 +1,6 @@
 ---
 title: Install Krita on Nintendo Switch | Pi-Apps
+description: Install Krita on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

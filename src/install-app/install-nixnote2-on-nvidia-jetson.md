@@ -1,5 +1,6 @@
 ---
 title: Install NixNote2 on Nvidia Jetson | Pi-Apps
+description: Install NixNote2 on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

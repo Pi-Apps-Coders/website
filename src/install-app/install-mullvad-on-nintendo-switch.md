@@ -1,5 +1,6 @@
 ---
 title: Install Mullvad on Nintendo Switch | Pi-Apps
+description: Install Mullvad on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

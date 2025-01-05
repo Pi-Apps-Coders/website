@@ -1,5 +1,6 @@
 ---
 title: Install Minecraft Java GDLauncher on Nvidia Jetson | Pi-Apps
+description: Install Minecraft Java GDLauncher on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

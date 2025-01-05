@@ -1,5 +1,6 @@
 ---
 title: Install All Is Well on Raspberry Pi | Pi-Apps
+description: Install All Is Well on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

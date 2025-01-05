@@ -1,5 +1,6 @@
 ---
 title: Install Cool Retro Term on Linux ARM Device | Pi-Apps
+description: Install Cool Retro Term on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

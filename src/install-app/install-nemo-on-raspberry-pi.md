@@ -1,5 +1,6 @@
 ---
 title: Install Nemo on Raspberry Pi | Pi-Apps
+description: Install Nemo on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

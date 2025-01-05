@@ -1,5 +1,6 @@
 ---
 title: Install Disk Usage Analyzer on Nvidia Jetson | Pi-Apps
+description: Install Disk Usage Analyzer on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

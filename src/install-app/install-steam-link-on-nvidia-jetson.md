@@ -1,5 +1,6 @@
 ---
 title: Install Steam Link on Nvidia Jetson | Pi-Apps
+description: Install Steam Link on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

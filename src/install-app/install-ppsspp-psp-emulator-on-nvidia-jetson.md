@@ -1,5 +1,6 @@
 ---
 title: Install PPSSPP (PSP emulator) on Nvidia Jetson | Pi-Apps
+description: Install PPSSPP (PSP emulator) on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

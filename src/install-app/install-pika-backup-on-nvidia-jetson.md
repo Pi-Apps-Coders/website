@@ -1,5 +1,6 @@
 ---
 title: Install Pika Backup on Nvidia Jetson | Pi-Apps
+description: Install Pika Backup on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

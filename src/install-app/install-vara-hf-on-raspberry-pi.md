@@ -1,5 +1,6 @@
 ---
 title: Install VARA HF on Raspberry Pi | Pi-Apps
+description: Install VARA HF on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Zen on Raspberry Pi | Pi-Apps
+description: Install Zen on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install QR Code Reader on Nintendo Switch | Pi-Apps
+description: Install QR Code Reader on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

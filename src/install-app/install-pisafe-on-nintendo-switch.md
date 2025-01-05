@@ -1,5 +1,6 @@
 ---
 title: Install PiSafe on Nintendo Switch | Pi-Apps
+description: Install PiSafe on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

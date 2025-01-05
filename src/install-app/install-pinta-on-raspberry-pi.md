@@ -1,5 +1,6 @@
 ---
 title: Install Pinta on Raspberry Pi | Pi-Apps
+description: Install Pinta on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

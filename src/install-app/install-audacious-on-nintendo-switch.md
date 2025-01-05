@@ -1,5 +1,6 @@
 ---
 title: Install Audacious on Nintendo Switch | Pi-Apps
+description: Install Audacious on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

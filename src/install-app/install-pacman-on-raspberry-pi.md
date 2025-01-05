@@ -1,5 +1,6 @@
 ---
 title: Install Pac-Man on Raspberry Pi | Pi-Apps
+description: Install Pac-Man on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

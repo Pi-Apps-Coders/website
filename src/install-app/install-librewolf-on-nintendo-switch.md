@@ -1,5 +1,6 @@
 ---
 title: Install LibreWolf on Nintendo Switch | Pi-Apps
+description: Install LibreWolf on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

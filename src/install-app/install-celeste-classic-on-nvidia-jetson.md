@@ -1,5 +1,6 @@
 ---
 title: Install Celeste Classic on Nvidia Jetson | Pi-Apps
+description: Install Celeste Classic on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

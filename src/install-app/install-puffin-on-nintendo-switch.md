@@ -1,5 +1,6 @@
 ---
 title: Install Puffin on Nintendo Switch | Pi-Apps
+description: Install Puffin on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

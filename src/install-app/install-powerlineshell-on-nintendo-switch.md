@@ -1,5 +1,6 @@
 ---
 title: Install Powerline-Shell on Nintendo Switch | Pi-Apps
+description: Install Powerline-Shell on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

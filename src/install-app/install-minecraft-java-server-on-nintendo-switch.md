@@ -1,5 +1,6 @@
 ---
 title: Install Minecraft Java Server on Nintendo Switch | Pi-Apps
+description: Install Minecraft Java Server on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

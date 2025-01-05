@@ -1,5 +1,6 @@
 ---
 title: Install Scrcpy on Raspberry Pi | Pi-Apps
+description: Install Scrcpy on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

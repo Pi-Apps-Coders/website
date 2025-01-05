@@ -1,5 +1,6 @@
 ---
 title: Install Arduino on Nvidia Jetson | Pi-Apps
+description: Install Arduino on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

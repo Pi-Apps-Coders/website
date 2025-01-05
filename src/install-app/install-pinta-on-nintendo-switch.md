@@ -1,5 +1,6 @@
 ---
 title: Install Pinta on Nintendo Switch | Pi-Apps
+description: Install Pinta on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

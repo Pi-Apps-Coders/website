@@ -1,5 +1,6 @@
 ---
 title: Install jGRASP IDE on Nvidia Jetson | Pi-Apps
+description: Install jGRASP IDE on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Bongo Cam on Raspberry Pi | Pi-Apps
+description: Install Bongo Cam on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install SimpleScreenRecorder on Nvidia Jetson | Pi-Apps
+description: Install SimpleScreenRecorder on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

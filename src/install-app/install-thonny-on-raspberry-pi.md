@@ -1,5 +1,6 @@
 ---
 title: Install Thonny on Raspberry Pi | Pi-Apps
+description: Install Thonny on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

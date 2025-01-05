@@ -1,5 +1,6 @@
 ---
 title: Install Gnome Builder IDE on Linux ARM Device | Pi-Apps
+description: Install Gnome Builder IDE on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

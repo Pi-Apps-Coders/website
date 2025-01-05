@@ -1,5 +1,6 @@
 ---
 title: Install Dot Matrix on Raspberry Pi | Pi-Apps
+description: Install Dot Matrix on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

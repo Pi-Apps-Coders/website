@@ -1,5 +1,6 @@
 ---
 title: Install Snapdrop on Nintendo Switch | Pi-Apps
+description: Install Snapdrop on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

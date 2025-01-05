@@ -1,5 +1,6 @@
 ---
 title: Install Web Apps on Nvidia Jetson | Pi-Apps
+description: Install Web Apps on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

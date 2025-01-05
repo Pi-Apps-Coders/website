@@ -1,5 +1,6 @@
 ---
 title: Install Better Chromium on Raspberry Pi | Pi-Apps
+description: Install Better Chromium on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

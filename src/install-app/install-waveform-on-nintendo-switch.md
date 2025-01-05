@@ -1,5 +1,6 @@
 ---
 title: Install Waveform on Nintendo Switch | Pi-Apps
+description: Install Waveform on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

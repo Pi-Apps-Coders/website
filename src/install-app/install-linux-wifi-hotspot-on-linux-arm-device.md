@@ -1,5 +1,6 @@
 ---
 title: Install Linux Wifi Hotspot on Linux ARM Device | Pi-Apps
+description: Install Linux Wifi Hotspot on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

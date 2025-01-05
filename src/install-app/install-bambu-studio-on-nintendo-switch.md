@@ -1,5 +1,6 @@
 ---
 title: Install Bambu Studio on Nintendo Switch | Pi-Apps
+description: Install Bambu Studio on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

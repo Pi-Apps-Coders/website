@@ -1,5 +1,6 @@
 ---
 title: Install Colored Man Pages on Nintendo Switch | Pi-Apps
+description: Install Colored Man Pages on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

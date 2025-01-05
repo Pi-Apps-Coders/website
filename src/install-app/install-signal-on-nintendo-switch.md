@@ -1,5 +1,6 @@
 ---
 title: Install Signal on Nintendo Switch | Pi-Apps
+description: Install Signal on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

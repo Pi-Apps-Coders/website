@@ -1,5 +1,6 @@
 ---
 title: Install BlockBench on Nintendo Switch | Pi-Apps
+description: Install BlockBench on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

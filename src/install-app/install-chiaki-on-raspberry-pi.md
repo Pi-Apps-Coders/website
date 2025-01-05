@@ -1,5 +1,6 @@
 ---
 title: Install Chiaki on Raspberry Pi | Pi-Apps
+description: Install Chiaki on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

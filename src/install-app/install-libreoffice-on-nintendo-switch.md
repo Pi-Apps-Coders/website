@@ -1,5 +1,6 @@
 ---
 title: Install LibreOffice on Nintendo Switch | Pi-Apps
+description: Install LibreOffice on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

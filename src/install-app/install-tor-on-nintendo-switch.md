@@ -1,5 +1,6 @@
 ---
 title: Install Tor on Nintendo Switch | Pi-Apps
+description: Install Tor on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

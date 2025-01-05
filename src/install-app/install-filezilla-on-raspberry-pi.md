@@ -1,5 +1,6 @@
 ---
 title: Install Filezilla on Raspberry Pi | Pi-Apps
+description: Install Filezilla on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

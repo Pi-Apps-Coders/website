@@ -1,5 +1,6 @@
 ---
 title: Install Descent 2 on Raspberry Pi | Pi-Apps
+description: Install Descent 2 on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

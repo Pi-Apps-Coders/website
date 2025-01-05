@@ -1,5 +1,6 @@
 ---
 title: Install Min on Nintendo Switch | Pi-Apps
+description: Install Min on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

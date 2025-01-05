@@ -1,5 +1,6 @@
 ---
 title: Install Heroes 2 on Raspberry Pi | Pi-Apps
+description: Install Heroes 2 on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

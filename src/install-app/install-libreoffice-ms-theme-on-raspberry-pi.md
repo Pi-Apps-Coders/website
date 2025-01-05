@@ -1,5 +1,6 @@
 ---
 title: Install Libreoffice MS theme on Raspberry Pi | Pi-Apps
+description: Install Libreoffice MS theme on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

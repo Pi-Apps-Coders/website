@@ -1,5 +1,6 @@
 ---
 title: Install Clam Antivirus on Raspberry Pi | Pi-Apps
+description: Install Clam Antivirus on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

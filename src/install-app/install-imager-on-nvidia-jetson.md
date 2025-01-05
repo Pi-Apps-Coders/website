@@ -1,5 +1,6 @@
 ---
 title: Install Imager on Nvidia Jetson | Pi-Apps
+description: Install Imager on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

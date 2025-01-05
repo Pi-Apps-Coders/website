@@ -1,5 +1,6 @@
 ---
 title: Install Github Desktop on Nvidia Jetson | Pi-Apps
+description: Install Github Desktop on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Min on Nvidia Jetson | Pi-Apps
+description: Install Min on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

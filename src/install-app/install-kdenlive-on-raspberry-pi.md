@@ -1,5 +1,6 @@
 ---
 title: Install Kdenlive on Raspberry Pi | Pi-Apps
+description: Install Kdenlive on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

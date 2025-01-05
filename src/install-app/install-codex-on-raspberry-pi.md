@@ -1,5 +1,6 @@
 ---
 title: Install Codex on Raspberry Pi | Pi-Apps
+description: Install Codex on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

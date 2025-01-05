@@ -1,5 +1,6 @@
 ---
 title: Install AbiWord on Nvidia Jetson | Pi-Apps
+description: Install AbiWord on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

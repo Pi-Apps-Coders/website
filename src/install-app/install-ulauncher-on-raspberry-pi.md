@@ -1,5 +1,6 @@
 ---
 title: Install Ulauncher on Raspberry Pi | Pi-Apps
+description: Install Ulauncher on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

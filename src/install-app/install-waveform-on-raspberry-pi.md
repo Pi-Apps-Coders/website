@@ -1,5 +1,6 @@
 ---
 title: Install Waveform on Raspberry Pi | Pi-Apps
+description: Install Waveform on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install AndroidBuddy on Raspberry Pi | Pi-Apps
+description: Install AndroidBuddy on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

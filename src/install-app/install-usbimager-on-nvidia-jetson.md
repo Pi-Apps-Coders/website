@@ -1,5 +1,6 @@
 ---
 title: Install USBImager on Nvidia Jetson | Pi-Apps
+description: Install USBImager on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

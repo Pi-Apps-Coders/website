@@ -1,5 +1,6 @@
 ---
 title: Install Disk Usage Analyzer on Raspberry Pi | Pi-Apps
+description: Install Disk Usage Analyzer on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

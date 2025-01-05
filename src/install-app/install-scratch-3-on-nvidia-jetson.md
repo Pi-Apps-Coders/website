@@ -1,5 +1,6 @@
 ---
 title: Install Scratch 3 on Nvidia Jetson | Pi-Apps
+description: Install Scratch 3 on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

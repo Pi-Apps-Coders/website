@@ -1,5 +1,6 @@
 ---
 title: Install tldr on Nvidia Jetson | Pi-Apps
+description: Install tldr on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

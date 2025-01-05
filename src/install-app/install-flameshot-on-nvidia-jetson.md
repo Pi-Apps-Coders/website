@@ -1,5 +1,6 @@
 ---
 title: Install Flameshot on Nvidia Jetson | Pi-Apps
+description: Install Flameshot on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

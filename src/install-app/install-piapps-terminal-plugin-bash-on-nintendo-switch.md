@@ -1,5 +1,6 @@
 ---
 title: Install Pi-Apps Terminal Plugin (bash) on Nintendo Switch | Pi-Apps
+description: Install Pi-Apps Terminal Plugin (bash) on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

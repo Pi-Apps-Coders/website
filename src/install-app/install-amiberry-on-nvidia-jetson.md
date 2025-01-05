@@ -1,5 +1,6 @@
 ---
 title: Install Amiberry on Nvidia Jetson | Pi-Apps
+description: Install Amiberry on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

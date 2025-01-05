@@ -1,5 +1,6 @@
 ---
 title: Install BalenaEtcher on Nvidia Jetson | Pi-Apps
+description: Install BalenaEtcher on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Telegram on Raspberry Pi | Pi-Apps
+description: Install Telegram on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

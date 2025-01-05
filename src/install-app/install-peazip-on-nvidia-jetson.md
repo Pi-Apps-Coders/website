@@ -1,5 +1,6 @@
 ---
 title: Install PeaZip on Nvidia Jetson | Pi-Apps
+description: Install PeaZip on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

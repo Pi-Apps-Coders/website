@@ -1,5 +1,6 @@
 ---
 title: Install AstroMenace on Nvidia Jetson | Pi-Apps
+description: Install AstroMenace on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

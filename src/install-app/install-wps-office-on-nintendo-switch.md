@@ -1,5 +1,6 @@
 ---
 title: Install WPS Office on Nintendo Switch | Pi-Apps
+description: Install WPS Office on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

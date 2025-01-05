@@ -1,5 +1,6 @@
 ---
 title: Install AntiMicroX on Nintendo Switch | Pi-Apps
+description: Install AntiMicroX on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

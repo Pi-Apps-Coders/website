@@ -1,5 +1,6 @@
 ---
 title: Install Sublime Text on Nintendo Switch | Pi-Apps
+description: Install Sublime Text on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

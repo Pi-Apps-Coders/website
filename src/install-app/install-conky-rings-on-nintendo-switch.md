@@ -1,5 +1,6 @@
 ---
 title: Install Conky Rings on Nintendo Switch | Pi-Apps
+description: Install Conky Rings on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

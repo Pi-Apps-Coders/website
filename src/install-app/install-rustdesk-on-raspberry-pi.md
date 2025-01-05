@@ -1,5 +1,6 @@
 ---
 title: Install RustDesk on Raspberry Pi | Pi-Apps
+description: Install RustDesk on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

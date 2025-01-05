@@ -1,5 +1,6 @@
 ---
 title: Install Notepad ++ on Nintendo Switch | Pi-Apps
+description: Install Notepad ++ on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Tor on Raspberry Pi | Pi-Apps
+description: Install Tor on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

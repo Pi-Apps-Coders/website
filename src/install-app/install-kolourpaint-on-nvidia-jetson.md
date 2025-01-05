@@ -1,5 +1,6 @@
 ---
 title: Install Kolourpaint on Nvidia Jetson | Pi-Apps
+description: Install Kolourpaint on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

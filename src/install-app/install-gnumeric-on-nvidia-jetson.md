@@ -1,5 +1,6 @@
 ---
 title: Install Gnumeric on Nvidia Jetson | Pi-Apps
+description: Install Gnumeric on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

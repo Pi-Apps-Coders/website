@@ -1,5 +1,6 @@
 ---
 title: Install Inkscape on Linux ARM Device | Pi-Apps
+description: Install Inkscape on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

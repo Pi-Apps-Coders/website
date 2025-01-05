@@ -1,5 +1,6 @@
 ---
 title: Install LibreCAD on Nvidia Jetson | Pi-Apps
+description: Install LibreCAD on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

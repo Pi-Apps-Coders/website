@@ -1,5 +1,6 @@
 ---
 title: Install FreeTube on Raspberry Pi | Pi-Apps
+description: Install FreeTube on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install ckb-next on Nintendo Switch | Pi-Apps
+description: Install ckb-next on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

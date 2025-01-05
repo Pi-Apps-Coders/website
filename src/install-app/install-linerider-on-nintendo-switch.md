@@ -1,5 +1,6 @@
 ---
 title: Install LineRider on Nintendo Switch | Pi-Apps
+description: Install LineRider on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Caprine on Nvidia Jetson | Pi-Apps
+description: Install Caprine on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

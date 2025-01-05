@@ -1,5 +1,6 @@
 ---
 title: Install RiiTag-RPC on Nintendo Switch | Pi-Apps
+description: Install RiiTag-RPC on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

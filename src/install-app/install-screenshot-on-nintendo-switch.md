@@ -1,5 +1,6 @@
 ---
 title: Install Screenshot on Nintendo Switch | Pi-Apps
+description: Install Screenshot on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

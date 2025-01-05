@@ -1,5 +1,6 @@
 ---
 title: Install Caskaydia Cove NF on Nvidia Jetson | Pi-Apps
+description: Install Caskaydia Cove NF on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Pi Power Tools on Raspberry Pi | Pi-Apps
+description: Install Pi Power Tools on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

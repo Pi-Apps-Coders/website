@@ -1,5 +1,6 @@
 ---
 title: Install Webcord on Nvidia Jetson | Pi-Apps
+description: Install Webcord on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

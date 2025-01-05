@@ -1,5 +1,6 @@
 ---
 title: Install Deluge on Raspberry Pi | Pi-Apps
+description: Install Deluge on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

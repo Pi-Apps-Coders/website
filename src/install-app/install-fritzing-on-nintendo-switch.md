@@ -1,5 +1,6 @@
 ---
 title: Install Fritzing on Nintendo Switch | Pi-Apps
+description: Install Fritzing on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Electron Fiddle on Raspberry Pi | Pi-Apps
+description: Install Electron Fiddle on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

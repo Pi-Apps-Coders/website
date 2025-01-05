@@ -1,5 +1,6 @@
 ---
 title: Install Geekbench 6 on Nvidia Jetson | Pi-Apps
+description: Install Geekbench 6 on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

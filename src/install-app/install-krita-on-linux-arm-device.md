@@ -1,5 +1,6 @@
 ---
 title: Install Krita on Linux ARM Device | Pi-Apps
+description: Install Krita on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

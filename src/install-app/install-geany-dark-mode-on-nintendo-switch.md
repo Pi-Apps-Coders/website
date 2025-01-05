@@ -1,5 +1,6 @@
 ---
 title: Install Geany Dark Mode on Nintendo Switch | Pi-Apps
+description: Install Geany Dark Mode on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

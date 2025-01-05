@@ -1,5 +1,6 @@
 ---
 title: Install Web Apps on Linux ARM Device | Pi-Apps
+description: Install Web Apps on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

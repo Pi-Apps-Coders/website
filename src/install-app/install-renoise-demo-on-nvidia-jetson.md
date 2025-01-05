@@ -1,5 +1,6 @@
 ---
 title: Install Renoise (Demo) on Nvidia Jetson | Pi-Apps
+description: Install Renoise (Demo) on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

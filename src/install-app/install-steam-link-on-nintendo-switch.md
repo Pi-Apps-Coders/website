@@ -1,5 +1,6 @@
 ---
 title: Install Steam Link on Nintendo Switch | Pi-Apps
+description: Install Steam Link on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

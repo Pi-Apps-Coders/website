@@ -1,5 +1,6 @@
 ---
 title: Install KeePassXC on Nvidia Jetson | Pi-Apps
+description: Install KeePassXC on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

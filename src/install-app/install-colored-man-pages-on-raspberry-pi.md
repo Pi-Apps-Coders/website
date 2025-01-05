@@ -1,5 +1,6 @@
 ---
 title: Install Colored Man Pages on Raspberry Pi | Pi-Apps
+description: Install Colored Man Pages on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

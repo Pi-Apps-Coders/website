@@ -1,5 +1,6 @@
 ---
 title: Install Mullvad on Nvidia Jetson | Pi-Apps
+description: Install Mullvad on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

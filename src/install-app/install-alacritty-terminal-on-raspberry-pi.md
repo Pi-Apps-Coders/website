@@ -1,5 +1,6 @@
 ---
 title: Install Alacritty Terminal on Raspberry Pi | Pi-Apps
+description: Install Alacritty Terminal on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

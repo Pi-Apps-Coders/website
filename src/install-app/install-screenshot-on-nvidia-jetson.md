@@ -1,5 +1,6 @@
 ---
 title: Install Screenshot on Nvidia Jetson | Pi-Apps
+description: Install Screenshot on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

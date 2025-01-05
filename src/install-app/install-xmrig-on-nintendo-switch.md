@@ -1,5 +1,6 @@
 ---
 title: Install XMRig on Nintendo Switch | Pi-Apps
+description: Install XMRig on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

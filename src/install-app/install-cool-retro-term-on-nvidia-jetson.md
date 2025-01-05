@@ -1,5 +1,6 @@
 ---
 title: Install Cool Retro Term on Nvidia Jetson | Pi-Apps
+description: Install Cool Retro Term on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

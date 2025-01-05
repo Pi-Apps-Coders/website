@@ -1,5 +1,6 @@
 ---
 title: Install Screenshot on Raspberry Pi | Pi-Apps
+description: Install Screenshot on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

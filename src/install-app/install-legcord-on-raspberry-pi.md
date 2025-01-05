@@ -1,5 +1,6 @@
 ---
 title: Install Legcord on Raspberry Pi | Pi-Apps
+description: Install Legcord on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install PrusaSlicer on Nvidia Jetson | Pi-Apps
+description: Install PrusaSlicer on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

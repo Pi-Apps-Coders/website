@@ -1,5 +1,6 @@
 ---
 title: Install RiiTag-RPC on Raspberry Pi | Pi-Apps
+description: Install RiiTag-RPC on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

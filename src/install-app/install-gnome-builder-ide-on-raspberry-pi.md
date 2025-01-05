@@ -1,5 +1,6 @@
 ---
 title: Install Gnome Builder IDE on Raspberry Pi | Pi-Apps
+description: Install Gnome Builder IDE on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

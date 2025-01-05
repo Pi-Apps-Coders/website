@@ -1,5 +1,6 @@
 ---
 title: Install Gnumeric on Raspberry Pi | Pi-Apps
+description: Install Gnumeric on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

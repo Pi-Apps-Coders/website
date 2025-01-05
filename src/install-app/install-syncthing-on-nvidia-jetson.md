@@ -1,5 +1,6 @@
 ---
 title: Install Syncthing on Nvidia Jetson | Pi-Apps
+description: Install Syncthing on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

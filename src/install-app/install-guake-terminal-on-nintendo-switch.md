@@ -1,5 +1,6 @@
 ---
 title: Install Guake Terminal on Nintendo Switch | Pi-Apps
+description: Install Guake Terminal on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

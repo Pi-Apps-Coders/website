@@ -1,5 +1,6 @@
 ---
 title: Install Celeste Classic on Raspberry Pi | Pi-Apps
+description: Install Celeste Classic on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

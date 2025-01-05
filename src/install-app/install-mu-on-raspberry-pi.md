@@ -1,5 +1,6 @@
 ---
 title: Install Mu on Raspberry Pi | Pi-Apps
+description: Install Mu on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

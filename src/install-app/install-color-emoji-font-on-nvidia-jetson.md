@@ -1,5 +1,6 @@
 ---
 title: Install Color Emoji font on Nvidia Jetson | Pi-Apps
+description: Install Color Emoji font on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

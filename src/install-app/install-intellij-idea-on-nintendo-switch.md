@@ -1,5 +1,6 @@
 ---
 title: Install Intellij IDEA on Nintendo Switch | Pi-Apps
+description: Install Intellij IDEA on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

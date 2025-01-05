@@ -1,5 +1,6 @@
 ---
 title: Install Downgrade Chromium on Raspberry Pi | Pi-Apps
+description: Install Downgrade Chromium on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

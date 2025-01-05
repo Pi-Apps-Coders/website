@@ -1,5 +1,6 @@
 ---
 title: Install Thunderbird on Raspberry Pi | Pi-Apps
+description: Install Thunderbird on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

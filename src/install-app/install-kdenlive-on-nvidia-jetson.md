@@ -1,5 +1,6 @@
 ---
 title: Install Kdenlive on Nvidia Jetson | Pi-Apps
+description: Install Kdenlive on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

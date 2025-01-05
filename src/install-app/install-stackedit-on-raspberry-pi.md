@@ -1,5 +1,6 @@
 ---
 title: Install StackEdit on Raspberry Pi | Pi-Apps
+description: Install StackEdit on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install KiCad on Nvidia Jetson | Pi-Apps
+description: Install KiCad on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install VeraCrypt on Nintendo Switch | Pi-Apps
+description: Install VeraCrypt on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

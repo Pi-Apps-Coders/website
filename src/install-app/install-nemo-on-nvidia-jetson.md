@@ -1,5 +1,6 @@
 ---
 title: Install Nemo on Nvidia Jetson | Pi-Apps
+description: Install Nemo on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

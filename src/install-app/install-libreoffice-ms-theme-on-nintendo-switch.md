@@ -1,5 +1,6 @@
 ---
 title: Install Libreoffice MS theme on Nintendo Switch | Pi-Apps
+description: Install Libreoffice MS theme on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

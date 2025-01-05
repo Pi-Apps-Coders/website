@@ -1,5 +1,6 @@
 ---
 title: Install Geekbench 6 on Nintendo Switch | Pi-Apps
+description: Install Geekbench 6 on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

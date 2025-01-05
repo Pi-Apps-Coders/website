@@ -1,5 +1,6 @@
 ---
 title: Install Eagle CAD on Raspberry Pi | Pi-Apps
+description: Install Eagle CAD on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

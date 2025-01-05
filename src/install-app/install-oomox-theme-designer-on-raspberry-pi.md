@@ -1,5 +1,6 @@
 ---
 title: Install Oomox Theme Designer on Raspberry Pi | Pi-Apps
+description: Install Oomox Theme Designer on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

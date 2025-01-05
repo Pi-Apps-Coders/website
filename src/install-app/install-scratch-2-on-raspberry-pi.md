@@ -1,5 +1,6 @@
 ---
 title: Install Scratch 2 on Raspberry Pi | Pi-Apps
+description: Install Scratch 2 on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

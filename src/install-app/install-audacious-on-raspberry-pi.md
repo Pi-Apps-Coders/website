@@ -1,5 +1,6 @@
 ---
 title: Install Audacious on Raspberry Pi | Pi-Apps
+description: Install Audacious on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

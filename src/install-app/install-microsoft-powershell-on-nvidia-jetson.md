@@ -1,5 +1,6 @@
 ---
 title: Install Microsoft PowerShell on Nvidia Jetson | Pi-Apps
+description: Install Microsoft PowerShell on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Waveform on Nvidia Jetson | Pi-Apps
+description: Install Waveform on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

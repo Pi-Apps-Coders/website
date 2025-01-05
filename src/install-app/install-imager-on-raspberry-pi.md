@@ -1,5 +1,6 @@
 ---
 title: Install Imager on Raspberry Pi | Pi-Apps
+description: Install Imager on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

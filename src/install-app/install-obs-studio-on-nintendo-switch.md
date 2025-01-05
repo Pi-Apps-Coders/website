@@ -1,5 +1,6 @@
 ---
 title: Install OBS Studio on Nintendo Switch | Pi-Apps
+description: Install OBS Studio on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Remarkable on Nintendo Switch | Pi-Apps
+description: Install Remarkable on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Flameshot on Raspberry Pi | Pi-Apps
+description: Install Flameshot on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

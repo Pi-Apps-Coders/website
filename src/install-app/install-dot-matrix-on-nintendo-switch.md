@@ -1,5 +1,6 @@
 ---
 title: Install Dot Matrix on Nintendo Switch | Pi-Apps
+description: Install Dot Matrix on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

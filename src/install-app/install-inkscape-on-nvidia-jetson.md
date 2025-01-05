@@ -1,5 +1,6 @@
 ---
 title: Install Inkscape on Nvidia Jetson | Pi-Apps
+description: Install Inkscape on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

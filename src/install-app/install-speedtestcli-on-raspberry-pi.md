@@ -1,5 +1,6 @@
 ---
 title: Install SpeedTest-CLI on Raspberry Pi | Pi-Apps
+description: Install SpeedTest-CLI on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

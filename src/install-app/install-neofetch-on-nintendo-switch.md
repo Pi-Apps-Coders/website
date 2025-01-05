@@ -1,5 +1,6 @@
 ---
 title: Install Neofetch on Nintendo Switch | Pi-Apps
+description: Install Neofetch on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

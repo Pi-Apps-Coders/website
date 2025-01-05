@@ -1,5 +1,6 @@
 ---
 title: Install Fritzing on Raspberry Pi | Pi-Apps
+description: Install Fritzing on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install PrusaSlicer on Raspberry Pi | Pi-Apps
+description: Install PrusaSlicer on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

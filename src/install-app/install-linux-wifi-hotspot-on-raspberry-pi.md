@@ -1,5 +1,6 @@
 ---
 title: Install Linux Wifi Hotspot on Raspberry Pi | Pi-Apps
+description: Install Linux Wifi Hotspot on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

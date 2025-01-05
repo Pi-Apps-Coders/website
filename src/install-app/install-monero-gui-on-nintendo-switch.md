@@ -1,5 +1,6 @@
 ---
 title: Install Monero GUI on Nintendo Switch | Pi-Apps
+description: Install Monero GUI on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

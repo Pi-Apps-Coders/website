@@ -1,5 +1,6 @@
 ---
 title: Install System Monitoring Center on Nintendo Switch | Pi-Apps
+description: Install System Monitoring Center on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Ulauncher on Nvidia Jetson | Pi-Apps
+description: Install Ulauncher on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Windows Screensavers on Raspberry Pi | Pi-Apps
+description: Install Windows Screensavers on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

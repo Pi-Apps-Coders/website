@@ -1,5 +1,6 @@
 ---
 title: Install Zoom PWA on Nintendo Switch | Pi-Apps
+description: Install Zoom PWA on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

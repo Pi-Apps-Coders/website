@@ -1,5 +1,6 @@
 ---
 title: Install Tabby on Raspberry Pi | Pi-Apps
+description: Install Tabby on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -241,6 +241,7 @@ For the best chance of this working, we recommend using the latest LTS of Ubuntu
     cat <<EOF > "$markdown_full_path"
 ---
 title: Install $app on $hardware | Pi-Apps
+description: Install $app on $hardware using Pi-Apps
 ---
 <div class="simple-install-content content">
 

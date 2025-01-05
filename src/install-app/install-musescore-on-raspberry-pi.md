@@ -1,5 +1,6 @@
 ---
 title: Install MuseScore on Raspberry Pi | Pi-Apps
+description: Install MuseScore on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

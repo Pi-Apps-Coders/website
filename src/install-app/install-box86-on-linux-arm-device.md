@@ -1,5 +1,6 @@
 ---
 title: Install Box86 on Linux ARM Device | Pi-Apps
+description: Install Box86 on Linux ARM Device using Pi-Apps
 ---
 <div class="simple-install-content content">
 

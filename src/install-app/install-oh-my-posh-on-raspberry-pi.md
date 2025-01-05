@@ -1,5 +1,6 @@
 ---
 title: Install Oh My Posh on Raspberry Pi | Pi-Apps
+description: Install Oh My Posh on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

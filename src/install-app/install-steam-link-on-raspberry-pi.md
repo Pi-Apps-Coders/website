@@ -1,5 +1,6 @@
 ---
 title: Install Steam Link on Raspberry Pi | Pi-Apps
+description: Install Steam Link on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

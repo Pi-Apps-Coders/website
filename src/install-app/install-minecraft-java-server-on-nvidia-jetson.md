@@ -1,5 +1,6 @@
 ---
 title: Install Minecraft Java Server on Nvidia Jetson | Pi-Apps
+description: Install Minecraft Java Server on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

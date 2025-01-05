@@ -1,5 +1,6 @@
 ---
 title: Install HTTrack Website Copier on Raspberry Pi | Pi-Apps
+description: Install HTTrack Website Copier on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

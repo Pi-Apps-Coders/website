@@ -1,5 +1,6 @@
 ---
 title: Install AbiWord on Raspberry Pi | Pi-Apps
+description: Install AbiWord on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install CloudBuddy on Nvidia Jetson | Pi-Apps
+description: Install CloudBuddy on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Minecraft Java Prism Launcher on Nvidia Jetson | Pi-Apps
+description: Install Minecraft Java Prism Launcher on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

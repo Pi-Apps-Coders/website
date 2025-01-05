@@ -1,5 +1,6 @@
 ---
 title: Install Audacity on Raspberry Pi | Pi-Apps
+description: Install Audacity on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

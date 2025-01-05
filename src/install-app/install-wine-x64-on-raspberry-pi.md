@@ -1,5 +1,6 @@
 ---
 title: Install Wine (x64) on Raspberry Pi | Pi-Apps
+description: Install Wine (x64) on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

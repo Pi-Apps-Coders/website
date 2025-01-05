@@ -1,5 +1,6 @@
 ---
 title: Install BlueJ Java IDE on Raspberry Pi | Pi-Apps
+description: Install BlueJ Java IDE on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

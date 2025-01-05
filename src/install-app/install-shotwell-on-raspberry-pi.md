@@ -1,5 +1,6 @@
 ---
 title: Install Shotwell on Raspberry Pi | Pi-Apps
+description: Install Shotwell on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

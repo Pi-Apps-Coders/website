@@ -1,5 +1,6 @@
 ---
 title: Install QEMU on Raspberry Pi | Pi-Apps
+description: Install QEMU on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

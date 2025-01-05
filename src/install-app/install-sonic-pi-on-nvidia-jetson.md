@@ -1,5 +1,6 @@
 ---
 title: Install Sonic Pi on Nvidia Jetson | Pi-Apps
+description: Install Sonic Pi on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

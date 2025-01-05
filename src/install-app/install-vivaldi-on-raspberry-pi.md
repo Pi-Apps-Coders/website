@@ -1,5 +1,6 @@
 ---
 title: Install Vivaldi on Raspberry Pi | Pi-Apps
+description: Install Vivaldi on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Monero GUI on Raspberry Pi | Pi-Apps
+description: Install Monero GUI on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

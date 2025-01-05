@@ -1,5 +1,6 @@
 ---
 title: Install LibreCAD on Nintendo Switch | Pi-Apps
+description: Install LibreCAD on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

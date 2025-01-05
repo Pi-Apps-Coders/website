@@ -1,5 +1,6 @@
 ---
 title: Install BalenaEtcher on Raspberry Pi | Pi-Apps
+description: Install BalenaEtcher on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

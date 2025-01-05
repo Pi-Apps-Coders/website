@@ -1,5 +1,6 @@
 ---
 title: Install PPSSPP (PSP emulator) on Nintendo Switch | Pi-Apps
+description: Install PPSSPP (PSP emulator) on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

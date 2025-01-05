@@ -1,5 +1,6 @@
 ---
 title: Install Update Buddy on Nvidia Jetson | Pi-Apps
+description: Install Update Buddy on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Cool Retro Term on Raspberry Pi | Pi-Apps
+description: Install Cool Retro Term on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Pycharm CE on Nvidia Jetson | Pi-Apps
+description: Install Pycharm CE on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

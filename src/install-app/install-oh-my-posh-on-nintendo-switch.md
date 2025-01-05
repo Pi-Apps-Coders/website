@@ -1,5 +1,6 @@
 ---
 title: Install Oh My Posh on Nintendo Switch | Pi-Apps
+description: Install Oh My Posh on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

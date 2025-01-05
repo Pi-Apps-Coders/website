@@ -1,5 +1,6 @@
 ---
 title: Install Drawing on Nintendo Switch | Pi-Apps
+description: Install Drawing on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Sphero SDK on Raspberry Pi | Pi-Apps
+description: Install Sphero SDK on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

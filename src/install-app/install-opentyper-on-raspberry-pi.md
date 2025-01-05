@@ -1,5 +1,6 @@
 ---
 title: Install Open-Typer on Raspberry Pi | Pi-Apps
+description: Install Open-Typer on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

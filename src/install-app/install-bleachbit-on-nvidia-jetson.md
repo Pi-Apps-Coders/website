@@ -1,5 +1,6 @@
 ---
 title: Install BleachBit on Nvidia Jetson | Pi-Apps
+description: Install BleachBit on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install NixNote2 on Nintendo Switch | Pi-Apps
+description: Install NixNote2 on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

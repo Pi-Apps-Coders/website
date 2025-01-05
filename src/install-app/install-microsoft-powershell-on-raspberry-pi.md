@@ -1,5 +1,6 @@
 ---
 title: Install Microsoft PowerShell on Raspberry Pi | Pi-Apps
+description: Install Microsoft PowerShell on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

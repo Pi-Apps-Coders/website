@@ -1,5 +1,6 @@
 ---
 title: Install Bambu Studio on Raspberry Pi | Pi-Apps
+description: Install Bambu Studio on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

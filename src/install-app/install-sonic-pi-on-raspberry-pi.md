@@ -1,5 +1,6 @@
 ---
 title: Install Sonic Pi on Raspberry Pi | Pi-Apps
+description: Install Sonic Pi on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

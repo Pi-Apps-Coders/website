@@ -1,5 +1,6 @@
 ---
 title: Install WACUP (new WinAmp) on Raspberry Pi | Pi-Apps
+description: Install WACUP (new WinAmp) on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

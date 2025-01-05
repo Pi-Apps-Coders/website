@@ -1,5 +1,6 @@
 ---
 title: Install Kdenlive on Nintendo Switch | Pi-Apps
+description: Install Kdenlive on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

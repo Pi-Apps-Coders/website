@@ -1,5 +1,6 @@
 ---
 title: Install Pac-Man on Nvidia Jetson | Pi-Apps
+description: Install Pac-Man on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

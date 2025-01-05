@@ -1,5 +1,6 @@
 ---
 title: Install Friday Night Funkin' Rewritten on Nintendo Switch | Pi-Apps
+description: Install Friday Night Funkin' Rewritten on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install WhatsApp on Nvidia Jetson | Pi-Apps
+description: Install WhatsApp on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Notejot on Nvidia Jetson | Pi-Apps
+description: Install Notejot on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install OpenSCAD on Nvidia Jetson | Pi-Apps
+description: Install OpenSCAD on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

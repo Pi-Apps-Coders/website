@@ -1,5 +1,6 @@
 ---
 title: Install Chromium on Raspberry Pi | Pi-Apps
+description: Install Chromium on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

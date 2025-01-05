@@ -1,5 +1,6 @@
 ---
 title: Install MuseScore on Nintendo Switch | Pi-Apps
+description: Install MuseScore on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Tetris CLI on Nvidia Jetson | Pi-Apps
+description: Install Tetris CLI on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

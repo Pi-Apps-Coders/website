@@ -1,5 +1,6 @@
 ---
 title: Install All Is Well on Nvidia Jetson | Pi-Apps
+description: Install All Is Well on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

@@ -1,5 +1,6 @@
 ---
 title: Install Renoise (Demo) on Raspberry Pi | Pi-Apps
+description: Install Renoise (Demo) on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

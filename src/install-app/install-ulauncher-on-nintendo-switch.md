@@ -1,5 +1,6 @@
 ---
 title: Install Ulauncher on Nintendo Switch | Pi-Apps
+description: Install Ulauncher on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

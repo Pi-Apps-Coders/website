@@ -1,5 +1,6 @@
 ---
 title: Install Syncthing on Nintendo Switch | Pi-Apps
+description: Install Syncthing on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

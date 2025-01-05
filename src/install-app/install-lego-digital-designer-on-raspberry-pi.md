@@ -1,5 +1,6 @@
 ---
 title: Install Lego Digital Designer on Raspberry Pi | Pi-Apps
+description: Install Lego Digital Designer on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

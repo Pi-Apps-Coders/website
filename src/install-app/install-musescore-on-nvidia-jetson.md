@@ -1,5 +1,6 @@
 ---
 title: Install MuseScore on Nvidia Jetson | Pi-Apps
+description: Install MuseScore on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

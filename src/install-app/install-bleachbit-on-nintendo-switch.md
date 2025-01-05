@@ -1,5 +1,6 @@
 ---
 title: Install BleachBit on Nintendo Switch | Pi-Apps
+description: Install BleachBit on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

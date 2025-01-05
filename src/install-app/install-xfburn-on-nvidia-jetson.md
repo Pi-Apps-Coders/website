@@ -1,5 +1,6 @@
 ---
 title: Install Xfburn on Nvidia Jetson | Pi-Apps
+description: Install Xfburn on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

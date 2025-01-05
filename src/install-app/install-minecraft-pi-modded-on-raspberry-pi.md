@@ -1,5 +1,6 @@
 ---
 title: Install Minecraft Pi (Modded) on Raspberry Pi | Pi-Apps
+description: Install Minecraft Pi (Modded) on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

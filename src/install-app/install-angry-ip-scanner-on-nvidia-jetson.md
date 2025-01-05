@@ -1,5 +1,6 @@
 ---
 title: Install Angry IP scanner on Nvidia Jetson | Pi-Apps
+description: Install Angry IP scanner on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

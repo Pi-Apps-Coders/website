@@ -1,5 +1,6 @@
 ---
 title: Install TeamViewer on Raspberry Pi | Pi-Apps
+description: Install TeamViewer on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

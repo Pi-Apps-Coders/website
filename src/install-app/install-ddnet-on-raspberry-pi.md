@@ -1,5 +1,6 @@
 ---
 title: Install DDNet on Raspberry Pi | Pi-Apps
+description: Install DDNet on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

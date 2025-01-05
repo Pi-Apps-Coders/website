@@ -1,5 +1,6 @@
 ---
 title: Install Doom 3 on Raspberry Pi | Pi-Apps
+description: Install Doom 3 on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

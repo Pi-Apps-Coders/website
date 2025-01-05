@@ -1,5 +1,6 @@
 ---
 title: Install Pixelorama on Nintendo Switch | Pi-Apps
+description: Install Pixelorama on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 

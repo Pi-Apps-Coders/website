@@ -1,5 +1,6 @@
 ---
 title: Install LibreWolf on Nvidia Jetson | Pi-Apps
+description: Install LibreWolf on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 

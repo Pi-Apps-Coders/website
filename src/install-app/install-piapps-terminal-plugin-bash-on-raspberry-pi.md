@@ -1,5 +1,6 @@
 ---
 title: Install Pi-Apps Terminal Plugin (bash) on Raspberry Pi | Pi-Apps
+description: Install Pi-Apps Terminal Plugin (bash) on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

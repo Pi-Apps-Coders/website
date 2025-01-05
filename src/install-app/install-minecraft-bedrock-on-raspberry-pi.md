@@ -1,5 +1,6 @@
 ---
 title: Install Minecraft Bedrock on Raspberry Pi | Pi-Apps
+description: Install Minecraft Bedrock on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 

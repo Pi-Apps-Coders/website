@@ -1,5 +1,6 @@
 ---
 title: Install Kolourpaint on Raspberry Pi | Pi-Apps
+description: Install Kolourpaint on Raspberry Pi using Pi-Apps
 ---
 <div class="simple-install-content content">
 
