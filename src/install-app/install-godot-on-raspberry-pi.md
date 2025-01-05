@@ -52,5 +52,5 @@ Just click Install and Pi-Apps will install Godot for you!
 </div>
 <div class="simple-install-content content">
 
-Pi-Apps is a free and open source tool made by [Botspot and other contributors](/about/#contributors). Find out more at https://pi-apps.io
+Pi-Apps is a free and open source tool made by [Botspot, theofficialgman, and other contributors](/about/#contributors). Find out more at https://pi-apps.io
 </div>
