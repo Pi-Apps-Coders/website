@@ -286,7 +286,7 @@ Just click Install and Pi-Apps will install $app for you!
 </div>
 <div class="simple-install-content content">
 
-Pi-Apps is a free and open source tool made by [Botspot and other contributors](/about/#contributors). Find out more at https://pi-apps.io
+Pi-Apps is a free and open source tool made by [Botspot, theofficialgman, and other contributors](/about/#contributors). Find out more at https://pi-apps.io
 </div>
 EOF
     num_users="$(echo "$clicklist" | grep "[0-9] $app"'$' | awk '{print $1}' | head -n1)"
