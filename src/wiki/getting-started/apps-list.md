@@ -359,6 +359,20 @@ To run: Menu -> Programming/Development -> Fritzing
 To run in a terminal: Fritzing --parts $HOME/.local/share/fritzing/parts
 ```
 
+### <img src="/img/app-icons/INAV Configurator/icon-64.png" height=32> ***[INAV Configurator](https://github.com/Botspot/pi-apps/tree/master/apps/INAV%20Configurator)***
+https://github.com/iNavFlight/inav-configurator - Botspot<br />
+ARM64 ONLY
+```
+Configure the brains of any flying craft
+INAV is a firmware that can be flashed to many flight controllers used in DIY drones and remote control aircraft. INAV Configurator lets you program and customize the INAV firmware running on these flight controllers.
+As opposed to ArduPilot (with the Mission Planner app) which focuses on autonomous navigation for any vehicle, INAV is geared towards flying craft and allows easier configuration for manual flight modes, GPS waypoints, etc. If you are just getting into this, go watch some YouTube tutorials about using it.
+
+Note: this installs INAV Configurator version 8. Make sure your flight controller is running INAV v8, not v7.
+
+To run: Menu -> Accessories -> INAV Configurator
+To run in a terminal: inav-configurator
+```
+
 ### <img src="/img/app-icons/KiCad/icon-64.png" height=32> ***[KiCad](https://github.com/Botspot/pi-apps/tree/master/apps/KiCad)***
 https://www.kicad.org/ - Botspot<br />
 ARM32/ARM64 - 1,495 Users
