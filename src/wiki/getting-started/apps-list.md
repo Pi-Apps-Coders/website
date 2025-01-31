@@ -2851,7 +2851,7 @@ As usual, this app will keep it updated to the latest LTS release.
 To run in a terminal: node
 ```
 
-### <img src="/img/app-icons/Ollama/icon-64.png" height=32> ***[Ollama](https://github.com/Botspot/pi-apps/tree/master/apps/Ollama)***
+### <img src="/img/app-icons/Ollama GUI/icon-64.png" height=32> ***[Ollama GUI](https://github.com/Botspot/pi-apps/tree/master/apps/Ollama%20GUI)***
 https://ollama.com - Botspot<br />
 ARM64 ONLY
 ```

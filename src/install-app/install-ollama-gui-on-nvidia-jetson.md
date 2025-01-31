@@ -1,12 +1,12 @@
 ---
-title: Install Ollama on Nvidia Jetson | Pi-Apps
-description: Install Ollama on Nvidia Jetson using Pi-Apps
+title: Install Ollama GUI on Nvidia Jetson | Pi-Apps
+description: Install Ollama GUI on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Ollama/icon-64.png" height=24> Ollama on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/Ollama GUI/icon-64.png" height=24> Ollama GUI on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
-## <img src="/img/app-icons/Ollama/icon-64.png"> Ollama
+## <img src="/img/app-icons/Ollama GUI/icon-64.png"> Ollama GUI
 > Run LLMs like ChatGPT locally without the Internet
 > ChatGPT is a large language AI model that requires several GPUs to run, but other AI models are a lot smaller. Some have been compressed enough to fit in 8GB of RAM, meaning that you could ask a local AI questions without any internet connection. On a low-power computer, the writing speed will be slow, and the accuracy is worse than larger cloud models, but it is still useful in situations where you need some information and have high privacy standards or have no Internet connection.
 > 
@@ -24,15 +24,15 @@ description: Install Ollama on Nvidia Jetson using Pi-Apps
 > To run the GUI in a terminal: /opt/ollama-gui/ollama-gui-runner.sh
 > To run Ollama's CLI interface in a terminal: ollama
 
-Fortunately, Ollama is very easy to install on your Nvidia Jetson in just two steps.
+Fortunately, Ollama GUI is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
-2. Use Pi-Apps to install Ollama.
+2. Use Pi-Apps to install Ollama GUI.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin).
-Ollama will run on L4T Ubuntu ARM64.
+Ollama GUI will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
@@ -48,16 +48,16 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 </div>
 <div class="simple-install-content content">
 
-## Install Ollama
+## Install Ollama GUI
 
-Now that you have Pi-Apps installed, it is time to install Ollama.
+Now that you have Pi-Apps installed, it is time to install Ollama GUI.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
 Then click on the <b>Tools</b> category.
 <img src="/img/category-selections/Tools.png">
-Now scroll down to find <b>Ollama</b> in the list.
-<img src="/img/app-icons/Ollama/app-selection.png">
-Just click Install and Pi-Apps will install Ollama for you!
+Now scroll down to find <b>Ollama GUI</b> in the list.
+<img src="/img/app-icons/Ollama GUI/app-selection.png">
+Just click Install and Pi-Apps will install Ollama GUI for you!
 </div>
 <div class="simple-install-content content">
 
