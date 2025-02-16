@@ -2507,6 +2507,22 @@ To run: Menu -> System Tools -> SysMonTask
 To run in a terminal: sysmontask
 ```
 
+### <img src="/img/app-icons/Systemd Pilot/icon-64.png" height=32> ***[Systemd Pilot](https://github.com/Botspot/pi-apps/tree/master/apps/Systemd%20Pilot)***
+https://github.com/mfat/systemd-pilot - Botspot<br />
+ARM32/ARM64
+```
+Desktop application for managing systemd services. it can be described as a gui for systemctl.
+Features:
+- List system services on local machine or remote hosts
+- Quickly deploy a new service using a template
+- Start, Stop, Restart services, show status
+- Easy search. Just start typing and the app will find relevant services
+- Lightweight and easy on system resources (just a single Python script)
+
+To run: Menu -> Preferences -> Systemd Pilot
+To run in a terminal: systemd-pilot
+```
+
 ### <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=32> ***[System Monitoring Center](https://github.com/Botspot/pi-apps/tree/master/apps/System%20Monitoring%20Center)***
 https://github.com/hakandundar34coding/system-monitoring-center - @hakandundar34coding (GitHub)
 @ryanfortner (GitHub)<br />
