@@ -3008,6 +3008,8 @@ https://apps.gnome.org/app/org.gnome.Screenshot - Botspot<br />
 Package app - 44,243 Users!!
 ```
 Simple interface for capturing screenshots, similar to the Windows Snipping Tool.
+NOTE: This does not work on Wayland!! Use Flameshot.
+
 To run: Menu -> Accessories -> Screenshot
 To run in terminal: gnome-screenshot
 ```

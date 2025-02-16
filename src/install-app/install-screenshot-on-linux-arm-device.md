@@ -8,6 +8,8 @@ description: Install Screenshot on Linux ARM Device using Pi-Apps
 
 ## <img src="/img/app-icons/Screenshot/icon-64.png"> Screenshot
 > Simple interface for capturing screenshots, similar to the Windows Snipping Tool.
+> NOTE: This does not work on Wayland!! Use Flameshot.
+> 
 > To run: Menu -> Accessories -> Screenshot
 > To run in terminal: gnome-screenshot
 
