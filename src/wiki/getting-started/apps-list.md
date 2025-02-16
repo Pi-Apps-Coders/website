@@ -2726,6 +2726,19 @@ Find out today with Geekbench 6.
 To run in a terminal: geekbench6
 ```
 
+### <img src="/img/app-icons/Gnome Maps/icon-64.png" height=32> ***[Gnome Maps](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Maps)***
+https://apps.gnome.org/Maps/ - Botspot<br />
+Package app
+```
+Minimalistic maps program, requires an Internet connection
+Gnome Maps gives you quick access to maps all across the world. It allows you to quickly find the place you’re looking for by searching for a city or street, or locate a place to meet a friend.
+
+Maps uses the collaborative OpenStreetMap database, made by hundreds of thousands of people across the globe.
+
+To run: Menu -> Accessories -> Maps
+To run in a terminal: gapplication launch org.gnome.Maps
+```
+
 ### <img src="/img/app-icons/Https File Server/icon-64.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
 http://www.rejetto.com/hfs/?f=intro<br />
 ARM32 ONLY - 1,646 Users!
@@ -2871,6 +2884,27 @@ NOTE: The pre-included models use about 6-7 GB of RAM. To prevent the screen fro
 To run: Menu -> Education -> Ollama GUI
 To run the GUI in a terminal: /opt/ollama-gui/ollama-gui-runner.sh
 To run Ollama's CLI interface in a terminal: ollama
+```
+
+### <img src="/img/app-icons/Organic Maps/icon-64.png" height=32> ***[Organic Maps](https://github.com/Botspot/pi-apps/tree/master/apps/Organic%20Maps)***
+https://flathub.org/apps/app.organicmaps.desktop - Botspot<br />
+ARM64 ONLY
+```
+Free offline maps for everyone
+The Linux version of Organic Maps has not reached feature parity with the Android and iPhone versions yet, and has not been optimized for mobile devices yet. Organic Maps is the ultimate companion app for travelers, tourists, hikers, and cyclists:
+
+- Detailed offline maps with places that don't exist on other maps, thanks to OpenStreetMap
+- Cycling routes, hiking trails, and walking paths
+- Contour lines, elevation profiles, peaks, and slopes
+- Turn-by-turn walking, cycling, and car navigation with voice guidance
+- Fast offline search on the map
+- Bookmarks and tracks export and import in KML, KMZ, GPX formats
+- Dark Mode to protect your eyes
+- Countries and regions don't take a lot of space
+- Free and open-source
+
+To run: Menu -> Education -> Organic Maps
+To run in a terminal: flatpak run --branch=stable --arch=aarch64 --command=OMaps app.organicmaps.desktop
 ```
 
 ### <img src="/img/app-icons/PeaZip/icon-64.png" height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***
