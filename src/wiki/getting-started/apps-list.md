@@ -1470,6 +1470,20 @@ To run in a terminal: /opt/teams-for-linux/run-teams.sh
 Build with nativefier. 
 ```
 
+### <img src="/img/app-icons/OnionShare/icon-64.png" height=32> ***[OnionShare](https://github.com/Botspot/pi-apps/tree/master/apps/OnionShare)***
+https://onionshare.org/ - Botspot<br />
+ARM64 ONLY
+```
+Securely and anonymously share files, host websites, and chat with friends using the Tor network.
+Two people anywhere in the world with OnionShare can communicate peer-to-peer completely privately.
+
+Read their Security Design document here: https://docs.onionshare.org/2.6.2/en/security.html which explains what attack vectors are protected against, and what precautions are necessary to keep total anonymity.
+
+This installs OnionShare from flatpak.
+To run: Menu -> Internet -> OnionShare
+To run in a terminal: /usr/bin/flatpak run --command=onionshare org.onionshare.OnionShare
+```
+
 ### <img src="/img/app-icons/Signal/icon-64.png" height=32> ***[Signal](https://github.com/Botspot/pi-apps/tree/master/apps/Signal)***
 https://www.signal.org - Botspot<br />
 ARM64 ONLY - 1,918 Users!
