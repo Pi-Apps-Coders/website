@@ -1668,8 +1668,9 @@ ARM64 ONLY - 1,263 Users
 ```
 Newest version of a popular video editor, compatible with PiOS Bookworm
 Most Linux video editors have issues on Wayland, including the default (old) version of Kdenlive available with sudo apt install.
-This version is straight from flatpak, and probably less than a month old.
+This version is straight from flatpak, and is kept quite up to date.
 
+Good video tutorial video here: https://www.youtube.com/watch?v=zYD0b8LpiQA
 To run: Menu -> Sound & Video -> Kdenlive
 To run in a terminal: flatpak run --file-forwarding org.kde.kdenlive
 ```
