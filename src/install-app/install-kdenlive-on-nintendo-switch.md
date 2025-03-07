@@ -11,7 +11,7 @@ description: Install Kdenlive on Nintendo Switch using Pi-Apps
 > Most Linux video editors have issues on Wayland, including the default (old) version of Kdenlive available with sudo apt install.
 > This version is straight from flatpak, and is kept quite up to date.
 > 
-> Good video tutorial video here: https://www.youtube.com/watch?v=zYD0b8LpiQA
+> Good video tutorial video here: https://youtu.be/zYD0b8LpiQA
 > To run: Menu -> Sound & Video -> Kdenlive
 > To run in a terminal: flatpak run --file-forwarding org.kde.kdenlive
 
