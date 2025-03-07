@@ -792,8 +792,8 @@ It is easier to explain with an example of an updater script.
 ```bash
 #!/bin/bash
 
-webVer=$(get_release angryip/ipscan)
-all_url="https://github.com/angryip/ipscan/releases/download/${webVer}/ipscan_${webVer}_all.deb"
+version=$(get_release angryip/ipscan)
+all_url="https://github.com/angryip/ipscan/releases/download/${version}/ipscan_${version}_all.deb"
 
 source $GITHUB_WORKSPACE/.github/workflows/update_github_script.sh
 ```
@@ -816,7 +816,7 @@ get_prerelease_raw() {
 `get_release` followed by the app `githubowner/reponame` will obtain the latest github release version number<br>
 `get_prerelease` followed by the app `githubowner/reponame` will obtain the latest github prerelease version number.
 
-For pi-apps install scripts written with this in mind, this version number can be used to automatically generate a pi-apps PR with the updated version. Simply set the URL of the deb/binary found on the github with the `webVer` variable substituted in `all_url` for install scripts, `armhf_url` for install-32 scripts, and `arm64_url` for install-64 scripts, and call the update_github_script. Pi-apps install scripts should be formated with a `version` varaible for this automatic script to update with the latest version.<br>
+For pi-apps install scripts written with this in mind, this version number can be used to automatically generate a pi-apps PR with the updated version. Simply set the URL of the deb/binary found on the github with the `version` variable substituted in `all_url` for install scripts, `armhf_url` for install-32 scripts, and `arm64_url` for install-64 scripts, and call the update_github_script. Pi-apps install scripts should be formated with a `version` varaible for this automatic script to update with the latest version.<br>
 See angry ip scanners's `install` file for an example:
 ```bash
 #!/bin/bash
@@ -861,9 +861,7 @@ case "$arch" in
 esac
 ```
 
-#### Updated apps verification QEMU armhf/arm64 Chroot:<br>
+#### Updated apps verification via GitHub Actions ARM:<br>
 The github actions tests the install and uninstall scripts of each updated app on PiOS Bullseye and Bookworm armhf and arm64 images before creating a pull request for the automatic updates. If any script fails for a particular app on any image then the changes are dropped for that app and an error message is added to the pull request comment.
 
-This is accomplished by running pi-apps in github actions through a QEMU powered chroot (since github actions does not have armhf/arm64 hosted runners). The QEMU chroot is setup using https://github.com/theofficialgman/arm-runner-action which is a fork of https://github.com/pguyot/arm-runner-action with added functionality to run commands as the `runner` user, github action's default non-root user.
-
-This method of testing is NOT foolproof and app developers should make sure that their scripts error and exit in the event of an install or uninstall failure. Running in QEMU is also NOT the same as running on bare-metal arm hardware. An exception for [one app has already had to be made due to issues](https://github.com/Botspot/pi-apps/commit/10e55a74ea26ca4e4a11aad68dab1ce62a4d099f).
+This is accomplished by running pi-apps in github actions through a PiOS Bullseye/Bookworm armhf/arm64 chroot on the ubuntu-24.04-arm runner. The chroot is setup using https://github.com/theofficialgman/chroot-runner-action which is a distant fork of https://github.com/pguyot/arm-runner-action with removed functionality for QEMU (since it is not needed) and added functionality to run commands as the `runner` user, github action's default non-root user.
