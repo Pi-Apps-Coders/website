@@ -901,6 +901,26 @@ To run: Menu -> Accessories -> pychess
 To run in terminal: pychess
 ```
 
+### <img src="/img/app-icons/Ruffle/icon-64.png" height=32> ***[Ruffle](https://github.com/Botspot/pi-apps/tree/master/apps/Ruffle)***
+https://ruffle.rs<br />
+ARM32/ARM64
+```
+Ruffle is a open source Adobe Flash Player emulator aimed at having the best compatibility as the official Adobe Flash Player (which is proprietary, EOL and has many unpatched security vulnerabilities)
+
+Ruffle is a constant work in progress, so except a lot of nigthly updates and bugs/broken features until a stable release in the future.
+
+This will compile the latest branch from source which as of writing this is nightly-2025-03-08.
+
+Raspberry Pi specific note: Ruffle defaults to the Vulkan rendering backend, which causes issues like graphical issues and break certain Flash content on the Pi's GPU. To solve this, switch to the OpenGL rendering backend which is more stable on the Pi's GPU.
+
+To switch rendering backends:
+Menu --> Preferences --> Graphics Backend (Default --> OpenGL)
+Then restart the app and you should be good to go.
+
+To run: Menu -> Games -> Ruffle
+To run in a terminal: ruffle
+```
+
 ### <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png" height=32> ***[Shattered Pixel Dungeon](https://github.com/Botspot/pi-apps/tree/master/apps/Shattered%20Pixel%20Dungeon)***
 https://shatteredpixel.com/ - Evan Debenham for his work on Shattered Pixel Dungeon and keeping it Open Source
 Watabou for the original Pixel Dungeon and making it Open Source<br />
