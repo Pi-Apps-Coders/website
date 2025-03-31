@@ -62,7 +62,7 @@ hero:
       <div>
         <h1>Lightweight & Customizable</h1>
         <div class="subtitle">
-          Pi-Apps uses YAD which itself is built on the GTK toolkit, which requires little system resources. Pi-Apps also follows your system theme and lets you customize its GUI with any installed GTK themes.</a>
+          Pi-Apps uses YAD which itself is built on the GTK toolkit, which requires not a lot of system resources. Pi-Apps also follows your system theme and lets you customize its GUI with any installed GTK themes.</a>
         </div>
       </div>
     </div>
@@ -85,7 +85,7 @@ You don't need to be a programmer to help!
 
 ## Discord
 
-Join our cheerful community. Communicate with other users, get support, or get involved with development:
+Join our helpful community. Communicate with other users, get support, or get involved with development:
 
 <a class="button type-link size-small" href="https://discord.gg/RXSTvaUvuu" target="_blank">Botspot Discord</a>
 
