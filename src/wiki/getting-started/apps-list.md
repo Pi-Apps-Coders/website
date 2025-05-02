@@ -576,6 +576,18 @@ On a PS5, go to: Settings -> System -> Remote Play -> Link Device.
 You can now double-click your console in Chiaki's main window to start remote play!
 ```
 
+### <img src="/img/app-icons/CrazyCattle3D/icon-64.png" height=32> ***[CrazyCattle3D](https://github.com/Botspot/pi-apps/tree/master/apps/CrazyCattle3D)***
+https://4nn4t4t.itch.io/crazycattle3d<br />
+ARM32/ARM64
+```
+A battle royale rage game about sheep; will you have what it takes to survive?
+
+This game uses the Godot game engine, which it's game engine can run on ARM32/ARM64 without any modifications.
+
+To run: Menu -> Games -> CrazyCattle3D
+To run in a terminal: crazycattle3d
+```
+
 ### <img src="/img/app-icons/DDNet/icon-64.png" height=32> ***[DDNet](https://github.com/Botspot/pi-apps/tree/master/apps/DDNet)***
 https://ddnet.org/ - Install Script made by Kolpix#1391
 Thanks to Crilum on Github for helping<br />
