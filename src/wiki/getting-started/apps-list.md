@@ -948,6 +948,16 @@ To run in a terminal: shattered-pixel-dungeon
 Saves and configs are stored in: ~/.local/share/.shatteredpixel/shattered-pixel-dungeon
 ```
 
+### <img src="/img/app-icons/Steam/icon-64.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
+ARM64 ONLY - 39,515 Users!!
+```
+This emulates the Linux x86_64 version of Steam using Box86 and Box64.
+
+In most cases, you WILL need to REBOOT before running Steam for the first time to prevent errors.
+To run: Menu -> Games -> Steam
+To run in a terminal: /usr/local/bin/steam
+```
+
 ### <img src="/img/app-icons/Steam Link/icon-64.png" height=32> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
 Botspot<br />
 Package app - 14,238 Users!!
