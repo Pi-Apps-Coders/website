@@ -45,7 +45,7 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 
 ## Install Minecraft Bedrock
 
-Now that you have Pi-Apps installed, it is time to install Minecraft Bedrock.
+Now that you have Pi-Apps installed, it is time to install the Launcher for Minecraft Bedrock Edition.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
 Then click on the <b>Games</b> category.
