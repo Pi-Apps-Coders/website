@@ -348,6 +348,21 @@ To run: Menu -> Programming -> Eagle
 To run in a terminal: eagle
 ```
 
+### <img src="/img/app-icons/FreeCAD/icon-64.png" height=32> ***[FreeCAD](https://github.com/Botspot/pi-apps/tree/master/apps/FreeCAD)***
+https://www.freecad.org/ - FreeCAD is developed by these people:
+https://wiki.freecad.org/Contributors
+
+FreeCAD was put to PiApps by Vlad:
+https://github.com/ooovlad<br />
+ARM64 ONLY
+```
+FreeCAD is an open-source parametric 3D CAD modeler designed for general-purpose feature-based design. FreeCAD is available on Windows, macOS, and Linux, and integrates heavily with Python for scripting and automation. It supports various  file formats such as STEP, IGES, OBJ, STL, DWG, DXF, SVG, SHP, DAE, IFC or OFF, NASTRAN, VRML, OpenSCAD CSG and many more, in addition to FreeCAD's native FCStd file format.
+FreeCAD is used in fields like mechanical engineering, product design, and architecture, making it suitable for both professional and hobbyist projects.
+
+To run: Menu -> Graphics -> FreeCAD
+To run from terminal: `/opt/FreeCAD.AppImage` or `FreeCAD`
+```
+
 ### <img src="/img/app-icons/Fritzing/icon-64.png" height=32> ***[Fritzing](https://github.com/Botspot/pi-apps/tree/master/apps/Fritzing)***
 https://fritzing.org/ - theofficialgman for writing the install script<br />
 ARM32/ARM64 - 6,150 Users!
