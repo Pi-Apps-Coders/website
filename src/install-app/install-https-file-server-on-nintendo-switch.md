@@ -1,10 +1,10 @@
 ---
-title: Install Https File Server on Linux ARM Device | Pi-Apps
-description: Install Https File Server on Linux ARM Device using Pi-Apps
+title: Install Https File Server on Nintendo Switch | Pi-Apps
+description: Install Https File Server on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Https File Server/icon-64.png" height=24> Https File Server on Linux ARM Device
+# Install <img src="/img/app-icons/Https File Server/icon-64.png" height=24> Https File Server on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Https File Server/icon-64.png"> Https File Server
 > Simple file-sharing webserver. Other computers on your local network can connect to your computer from the web browser and download files you share.
@@ -13,21 +13,21 @@ description: Install Https File Server on Linux ARM Device using Pi-Apps
 > To run: Menu -> Applications -> HTTPS File Server
 > To run in a terminal: npm exec --yes hfs@latest
 
-Fortunately, Https File Server is very easy to install on your Linux ARM Device in just two steps.
-1. Install Pi-Apps - the best app installer for Linux ARM Device.
+Fortunately, Https File Server is very easy to install on your Nintendo Switch in just two steps.
+1. Install Pi-Apps - the best app installer for Nintendo Switch.
 2. Use Pi-Apps to install Https File Server.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Https File Server will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Noble](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-noble-installation-guide), which is currently version **5.1.2 Ubuntu Noble**.
+Https File Server will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Linux ARM Device with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Nintendo Switch with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 ```bash
