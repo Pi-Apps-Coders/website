@@ -1124,6 +1124,17 @@ To run in terminal: filezilla
 Note: For more cloud-storage, see the CloudBuddy app.
 ```
 
+### <img src="/img/app-icons/Https File Server/icon-64.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
+https://github.com/rejetto/hfs - Botspot<br />
+ARM32/ARM64 - 1,673 Users!
+```
+Simple file-sharing webserver. Other computers on your local network can connect to your computer from the web browser and download files you share.
+Or, you can enable port forwarding on your router so that anyone on the Internet can download your files.
+
+To run: Menu -> Applications -> HTTPS File Server
+To run in a terminal: npm exec --yes hfs@latest
+```
+
 ### <img src="/img/app-icons/HTTrack Website Copier/icon-64.png" height=32> ***[HTTrack Website Copier](https://github.com/Botspot/pi-apps/tree/master/apps/HTTrack%20Website%20Copier)***
 https://httrack.com - Thanks to:
  - Xavier Roche and all contributors for creating HTTrack!
@@ -2821,17 +2832,6 @@ Maps uses the collaborative OpenStreetMap database, made by hundreds of thousand
 
 To run: Menu -> Accessories -> Maps
 To run in a terminal: gapplication launch org.gnome.Maps
-```
-
-### <img src="/img/app-icons/Https File Server/icon-64.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
-https://github.com/rejetto/hfs - Botspot<br />
-ARM32/ARM64 - 1,673 Users!
-```
-Simple file-sharing webserver. Other computers on your local network can connect to your computer from the web browser and download files you share.
-Or, you can enable port forwarding on your router so that anyone on the Internet can download your files.
-
-To run: Menu -> Applications -> HTTPS File Server
-To run in a terminal: npm exec --yes hfs@latest
 ```
 
 ### <img src="/img/app-icons/Imager/icon-64.png" height=32> ***[Imager](https://github.com/Botspot/pi-apps/tree/master/apps/Imager)***
