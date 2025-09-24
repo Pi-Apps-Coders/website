@@ -10,7 +10,7 @@ description: Install Tor on Nvidia Jetson using Pi-Apps
 > The Tor Browser is a web broswer that anonymizes your web traffic using the Tor network, making it easy to protect your identity online.
 > 
 > To run: Menu -> Internet -> Tor Browser
-> To run in a terminal: ~/.local/share/tor-browser/Browser/start-tor-browser
+> To run in a terminal: ~/.local/share/tor-browser/Browser/start-tor-browser -v
 
 Fortunately, Tor is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
