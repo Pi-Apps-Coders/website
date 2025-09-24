@@ -3385,6 +3385,20 @@ QEMU 6.1 for Buster, system QEMU for other distros (Bullseye is currently using 
 To see all QEMU commands you can run: open a terminal, type 'qemu', and press the Tab key a couple times.
 ```
 
+### <img src="/img/app-icons/Waydroid/icon-64.png" height=32> ***[Waydroid](https://github.com/Botspot/pi-apps/tree/master/apps/Waydroid)***
+https://waydro.id/ - Botspot<br />
+ARM64 ONLY
+```
+Boot a full Android OS on systems running Wayland based desktop environments.
+No virtualization or emulation involved, just a namespaces container, so the performance is indistinguishable from natively installing Android on the same hardware.
+
+Installed apps will be added to the Menu, and can be run separately from the familiar Android UI.
+This won't work on operating systems using X11, you must switch to Wayland.
+
+To run: Menu -> Accessories -> Waydroid
+To run in a terminal: waydroid show-full-ui
+```
+
 ### <img src="/img/app-icons/Wine (x64)/icon-64.png" height=32> ***[Wine (x64)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x64))***
 https://www.winehq.org/ - Wine Developers: https://wiki.winehq.org/Who%27s_Who
 Box64 Developer: @ptitSeb on GitHub
