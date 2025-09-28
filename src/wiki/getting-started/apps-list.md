@@ -1829,7 +1829,7 @@ To run ReaPack: Open Reaper, go to the "Extentions" menu, and hover over the "Re
 https://renoise.com - Thanks to:
  - Renoise developer for making Renoise, and providing Raspberry Pi builds!
  - @Crilum on GitHub for adding the app to Pi-Apps<br />
-ARM32/ARM64 - 677 Users
+ARM64 ONLY - 677 Users
 ```
 Renoise is a cross-platform Digital Audio Workstation with a unique top-down approach to music composition known as a tracker interface.
 
