@@ -3397,6 +3397,10 @@ This won't work on operating systems using X11, you must switch to Wayland.
 
 To run: Menu -> Accessories -> Waydroid
 To run in a terminal: waydroid show-full-ui
+
+NOTE: For better compatibility with game controllers, this script enables udev and uevent access to Waydroid during installation. These options are usually off by default for people who want to test Android malware in a sandbox. To disable:
+waydroid prop set persist.waydroid.udev false
+waydroid prop set persist.waydroid.uevent false
 ```
 
 ### <img src="/img/app-icons/Wine (x64)/icon-64.png" height=32> ***[Wine (x64)](https://github.com/Botspot/pi-apps/tree/master/apps/Wine%20(x64))***

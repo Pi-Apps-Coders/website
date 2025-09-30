@@ -15,6 +15,10 @@ description: Install Waydroid on Nvidia Jetson using Pi-Apps
 > 
 > To run: Menu -> Accessories -> Waydroid
 > To run in a terminal: waydroid show-full-ui
+> 
+> NOTE: For better compatibility with game controllers, this script enables udev and uevent access to Waydroid during installation. These options are usually off by default for people who want to test Android malware in a sandbox. To disable:
+> waydroid prop set persist.waydroid.udev false
+> waydroid prop set persist.waydroid.uevent false
 
 Fortunately, Waydroid is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
