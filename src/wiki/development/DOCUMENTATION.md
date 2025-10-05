@@ -862,6 +862,6 @@ esac
 ```
 
 #### Updated apps verification via GitHub Actions ARM:<br>
-The github actions tests the install and uninstall scripts of each updated app on PiOS Bullseye and Bookworm armhf and arm64 images before creating a pull request for the automatic updates. If any script fails for a particular app on any image then the changes are dropped for that app and an error message is added to the pull request comment.
+The github actions tests the install and uninstall scripts of each updated app on PiOS Bookworm and Trixie armhf and arm64 images before creating a pull request for the automatic updates. If any script fails for a particular app on any image then the changes are dropped for that app and an error message is added to the pull request comment.
 
-This is accomplished by running pi-apps in github actions through a PiOS Bullseye/Bookworm armhf/arm64 chroot on the ubuntu-24.04-arm runner. The chroot is setup using https://github.com/theofficialgman/chroot-runner-action which is a distant fork of https://github.com/pguyot/arm-runner-action with removed functionality for QEMU (since it is not needed) and added functionality to run commands as the `runner` user, github action's default non-root user.
+This is accomplished by running pi-apps in github actions through a PiOS Bookworm/Trixie armhf/arm64 chroot on the ubuntu-24.04-arm runner. The chroot is setup using https://github.com/theofficialgman/chroot-runner-action which is a distant fork of https://github.com/pguyot/arm-runner-action with removed functionality for QEMU (since it is not needed) and added functionality to run commands as the `runner` user, github action's default non-root user.
