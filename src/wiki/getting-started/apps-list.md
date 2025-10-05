@@ -1427,13 +1427,24 @@ To run in a terminal: quartz_browser
 ```
 
 ### <img src="/img/app-icons/Tor/icon-64.png" height=32> ***[Tor](https://github.com/Botspot/pi-apps/tree/master/apps/Tor)***
-https://sourceforge.net/projects/tor-browser-ports/files/<br />
+https://nightlies.tbb.torproject.org/nightly-builds/tor-browser-builds/ - Tor Browser is developed by The Tor Project, Inc.
+https://www.torproject.org/about/people/
+
+Tor Browser ARM64 Nightly was put to Pi-Apps by oovlad
+https://github.com/ooovlad<br />
 ARM32/ARM64 - 44,099 Users!!
 ```
-The Tor Browser is a web broswer that anonymizes your web traffic using the Tor network, making it easy to protect your identity online.
+The Tor Browser is a free web browser built on Firefox that helps you surf the web anonymously by routing your connection through a secure, global network of volunteer servers known as Tor network. Your data is encrypted, and your IP address is hidden by onion routing, protecting you from trackers, advertisers, and prying eyes. With built-in features like tracker blocking and script protection, Tor Browser ensures a safer online experience. Perfect for private browsing, accessing restricted sites, or exploring the web without leaving a trace.
 
-To run: Menu -> Internet -> Tor Browser
-To run in a terminal: ~/.local/share/tor-browser/Browser/start-tor-browser -v
+Native aarch64 builds are coming! This is an official nightly aarch64 Linux build.
+Note: if you use armhf system (32-bit OS), it will install older (2024-02-12) stable community build (updates for armhf are abandoned by mainainer). Aarch64 nightly version for 64-bit OS is updated in pi-apps every 5 days.
+
+WARNING! This is a build that is currently in development. It is mainly for testing purposes, you should expect bugs. However, this is the only up-to-date Tor Browser package that is available for arm64 at this moment. Once a stable version is released, it will replace the nightly build in one of the next app updates.
+
+To run: Menu -> Internet -> Tor Browser Nightly
+To run from terminal: `~/.local/share/tor-browser/start-tor-browser.desktop`
+
+To remove user-data after uninstall use `rm -rf ~/.local/share/tor-browser`
 ```
 
 ### <img src="/img/app-icons/Vivaldi/icon-64.png" height=32> ***[Vivaldi](https://github.com/Botspot/pi-apps/tree/master/apps/Vivaldi)***
