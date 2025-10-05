@@ -710,21 +710,20 @@ To run in a terminal:
 ```
 
 ### <img src="/img/app-icons/Minecraft Bedrock/icon-64.png" height=32> ***[Minecraft Bedrock](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Bedrock)***
-https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/appimage - Install script written by RaspberryPiNews on YT
-Appimage made by ChristopherHX on Github
+https://minecraft-linux.github.io/ - Flatpak made by ChristopherHX on Github
 Program made by everyone at [minecraft-linux](https://github.com/minecraft-linux) on Github<br />
-ARM32/ARM64 - 41,971 Users!!
+ARM64 ONLY - 41,971 Users!!
 ```
 Unofficial launcher for Minecraft Bedrock edition
-NOTE: For better performance and smooth FPS, we recommend an older Bedrock version like 1.16.40 as it doesn't contain renderdragon or RTX code.
+NOTE: It is worth tinkering with older Bedrock versions like 1.16.40 as they doesn't contain renderdragon or RTX code and may result in a smoother experience or better FPS.
 
- ∙ Sign in with a Google Play account with Minecraft purchased (if login does not work, close and re-open the application)
+ ∙ Sign in with a Google Play account with Minecraft purchased for Android (if login does not work, close and re-open the application)
  ∙ Active comunity to ask for help
  ∙ FPS Counter mod
  ∙ And much more!
 
 To run: Menu -> Games -> Minecraft Bedrock Launcher
-To run in a terminal: GALLIUM_HUD=simple,fps ~/.local/bin/MCBedrock.AppImage
+To run in a terminal: flatpak run io.mrarm.mcpelauncher
 ```
 
 ### <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=32> ***[Minecraft Java GDLauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20GDLauncher)***

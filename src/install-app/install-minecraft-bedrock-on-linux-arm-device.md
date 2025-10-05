@@ -8,15 +8,15 @@ description: Install Minecraft Bedrock on Linux ARM Device using Pi-Apps
 
 ## <img src="/img/app-icons/Minecraft Bedrock/icon-64.png"> Minecraft Bedrock
 > Unofficial launcher for Minecraft Bedrock edition
-> NOTE: For better performance and smooth FPS, we recommend an older Bedrock version like 1.16.40 as it doesn't contain renderdragon or RTX code.
+> NOTE: It is worth tinkering with older Bedrock versions like 1.16.40 as they doesn't contain renderdragon or RTX code and may result in a smoother experience or better FPS.
 > 
->  ∙ Sign in with a Google Play account with Minecraft purchased (if login does not work, close and re-open the application)
+>  ∙ Sign in with a Google Play account with Minecraft purchased for Android (if login does not work, close and re-open the application)
 >  ∙ Active comunity to ask for help
 >  ∙ FPS Counter mod
 >  ∙ And much more!
 > 
 > To run: Menu -> Games -> Minecraft Bedrock Launcher
-> To run in a terminal: GALLIUM_HUD=simple,fps ~/.local/bin/MCBedrock.AppImage
+> To run in a terminal: flatpak run io.mrarm.mcpelauncher
 
 Fortunately, Minecraft Bedrock is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
@@ -26,7 +26,7 @@ Fortunately, Minecraft Bedrock is very easy to install on your Linux ARM Device 
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Minecraft Bedrock will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+Minecraft Bedrock will only run on an Ubuntu/Debian ARM64 OS. Pi-Apps will not let you install Minecraft Bedrock on an Ubuntu/Debian ARM32 OS.
 </div>
 <div class="simple-install-content content">
 

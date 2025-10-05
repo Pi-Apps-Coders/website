@@ -8,15 +8,15 @@ description: Install Minecraft Bedrock on Nvidia Jetson using Pi-Apps
 
 ## <img src="/img/app-icons/Minecraft Bedrock/icon-64.png"> Minecraft Bedrock
 > Unofficial launcher for Minecraft Bedrock edition
-> NOTE: For better performance and smooth FPS, we recommend an older Bedrock version like 1.16.40 as it doesn't contain renderdragon or RTX code.
+> NOTE: It is worth tinkering with older Bedrock versions like 1.16.40 as they doesn't contain renderdragon or RTX code and may result in a smoother experience or better FPS.
 > 
->  ∙ Sign in with a Google Play account with Minecraft purchased (if login does not work, close and re-open the application)
+>  ∙ Sign in with a Google Play account with Minecraft purchased for Android (if login does not work, close and re-open the application)
 >  ∙ Active comunity to ask for help
 >  ∙ FPS Counter mod
 >  ∙ And much more!
 > 
 > To run: Menu -> Games -> Minecraft Bedrock Launcher
-> To run in a terminal: GALLIUM_HUD=simple,fps ~/.local/bin/MCBedrock.AppImage
+> To run in a terminal: flatpak run io.mrarm.mcpelauncher
 
 Fortunately, Minecraft Bedrock is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
