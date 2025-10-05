@@ -1291,12 +1291,22 @@ To run: Menu -&gt; Internet -&gt; Quartz Browser
 To run in a terminal: quartz_browser
 </code></pre>
 <h3 id="tor" tabindex="-1"><img src="/img/app-icons/Tor/icon-64.png" height=32> <em><strong><a href="https://github.com/Botspot/pi-apps/tree/master/apps/Tor">Tor</a></strong></em> <a class="direct-link" href="#tor" aria-hidden="true">#</a></h3>
-<p><a href="https://sourceforge.net/projects/tor-browser-ports/files/">https://sourceforge.net/projects/tor-browser-ports/files/</a><br /><br>
+<p><a href="https://nightlies.tbb.torproject.org/nightly-builds/tor-browser-builds/">https://nightlies.tbb.torproject.org/nightly-builds/tor-browser-builds/</a> - Tor Browser is developed by The Tor Project, Inc.<br>
+<a href="https://www.torproject.org/about/people/">https://www.torproject.org/about/people/</a></p>
+<p>Tor Browser ARM64 Nightly was put to Pi-Apps by oovlad<br>
+<a href="https://github.com/ooovlad">https://github.com/ooovlad</a><br /><br>
 ARM32/ARM64 - 44,099 Users!!</p>
-<pre><code>The Tor Browser is a web broswer that anonymizes your web traffic using the Tor network, making it easy to protect your identity online.
+<pre><code>The Tor Browser is a free web browser built on Firefox that helps you surf the web anonymously by routing your connection through a secure, global network of volunteer servers known as Tor network. Your data is encrypted, and your IP address is hidden by onion routing, protecting you from trackers, advertisers, and prying eyes. With built-in features like tracker blocking and script protection, Tor Browser ensures a safer online experience. Perfect for private browsing, accessing restricted sites, or exploring the web without leaving a trace.
 
-To run: Menu -&gt; Internet -&gt; Tor Browser
-To run in a terminal: ~/.local/share/tor-browser/Browser/start-tor-browser -v
+Native aarch64 builds are coming! This is an official nightly aarch64 Linux build.
+Note: if you use armhf system (32-bit OS), it will install older (2024-02-12) stable community build (updates for armhf are abandoned by mainainer). Aarch64 nightly version for 64-bit OS is updated in pi-apps every 5 days.
+
+WARNING! This is a build that is currently in development. It is mainly for testing purposes, you should expect bugs. However, this is the only up-to-date Tor Browser package that is available for arm64 at this moment. Once a stable version is released, it will replace the nightly build in one of the next app updates.
+
+To run: Menu -&gt; Internet -&gt; Tor Browser Nightly
+To run from terminal: `~/.local/share/tor-browser/start-tor-browser.desktop`
+
+To remove user-data after uninstall use `rm -rf ~/.local/share/tor-browser`
 </code></pre>
 <h3 id="vivaldi" tabindex="-1"><img src="/img/app-icons/Vivaldi/icon-64.png" height=32> <em><strong><a href="https://github.com/Botspot/pi-apps/tree/master/apps/Vivaldi">Vivaldi</a></strong></em> <a class="direct-link" href="#vivaldi" aria-hidden="true">#</a></h3>
 <p><a href="https://vivaldi.com">https://vivaldi.com</a> - Big thanks to chunky-milk for app idea and install script:<br>
