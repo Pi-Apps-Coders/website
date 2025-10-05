@@ -70,13 +70,12 @@ By default, this will apply the "spyder-dark" theme, (Botspot's favorite!), but 
 ```
 
 ### <img src="/img/app-icons/Lightpad/icon-64.png" height=32> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***
-https://github.com/libredeb/lightpad - Installation Script Made By RPICoder
-App Added To Pi-Apps by RPICoder<br />
-ARM32/ARM64 - 10,524 Users!!
+https://github.com/libredeb/lightpad<br />
+ARM64 ONLY - 10,524 Users!!
 ```
 LightPad is a lightweight, simple and powerful application launcher.
 To run: Menu -> Accessories -> Lightpad
-To run in a terminal: com.github.libredeb.lightpad
+To run in a terminal: io.github.libredeb.lightpad
 ```
 
 ### <img src="/img/app-icons/Oh My Posh/icon-64.png" height=32> ***[Oh My Posh](https://github.com/Botspot/pi-apps/tree/master/apps/Oh%20My%20Posh)***

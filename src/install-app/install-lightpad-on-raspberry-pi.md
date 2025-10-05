@@ -9,7 +9,7 @@ description: Install Lightpad on Raspberry Pi using Pi-Apps
 ## <img src="/img/app-icons/Lightpad/icon-64.png"> Lightpad
 > LightPad is a lightweight, simple and powerful application launcher.
 > To run: Menu -> Accessories -> Lightpad
-> To run in a terminal: com.github.libredeb.lightpad
+> To run in a terminal: io.github.libredeb.lightpad
 
 Fortunately, Lightpad is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
@@ -20,7 +20,7 @@ Fortunately, Lightpad is very easy to install on your Raspberry Pi in just two s
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-Lightpad will run on either PiOS 32-bit or 64-bit.
+**Lightpad will only run on PiOS 64-bit.** Pi-Apps will not let you install Lightpad on PiOS 32-bit.
 </div>
 <div class="simple-install-content content">
 
