@@ -22,7 +22,7 @@ Fortunately, Eagle CAD is very easy to install on your Raspberry Pi in just two 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-**Eagle CAD will only run on PiOS 32-bit.** Pi-Apps will not let you install Eagle CAD on PiOS 64-bit.
+Eagle CAD will run on either PiOS 32-bit or 64-bit.
 </div>
 <div class="simple-install-content content">
 
