@@ -489,6 +489,25 @@ To run: Menu -> Programming -> PrusaSlicer
 To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 /opt/PrusaSlicer.AppImage
 ```
 
+### <img src="/img/app-icons/SolveSpace/icon-64.png" height=32> ***[SolveSpace](https://github.com/Botspot/pi-apps/tree/master/apps/SolveSpace)***
+https://solvespace.com/tutorial.pl - Botspot<br />
+Package app
+```
+Free (GPLv3) parametric 3d CAD tool.
+This is a simpler and more beginner friendly alternative to FreeCAD. It has enough features to do everything most people need, with notable exceptions being chamfers and fillets.
+It runs quite well on Raspberry Pi hardware.
+Main features:
+- modeling 3d parts — draw with extrudes, revolves, helixes and Boolean (union / difference / intersection) operations
+- modeling 2d parts — draw the part as a single section, and export DXF, PDF, SVG; use 3d assembly to verify fit
+- 3d-printed parts — export the STL or other triangle mesh expected by most 3d printers
+- preparing CAM data — export 2d vector art for a waterjet machine or laser cutter; or generate STEP or STL, for import into third-party CAM software for machining
+- mechanism design — use the constraint solver to simulate planar or spatial linkages, with pin, ball, or slide joints
+- plane and solid geometry — replace hand-solved trigonometry and spreadsheets with a live dimensioned drawing
+
+To run: Menu -> Graphics -> SolveSpace
+To run in a terminal: solvespace
+```
+
 ### <img src="/img/app-icons/VARA HF/icon-64.png" height=32> ***[VARA HF](https://github.com/Botspot/pi-apps/tree/master/apps/VARA%20HF)***
 https://rosmodem.wordpress.com/ - Added to pi-apps by Eric Wiessner (KI7POL)
 
