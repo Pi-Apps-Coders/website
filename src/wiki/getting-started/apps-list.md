@@ -2557,6 +2557,34 @@ To run: Menu -> Accessories -> Pi Power Tools
 To run in a terminal: ~/Pi-Power-Tools/home
 ```
 
+### <img src="/img/app-icons/Plasma Discover/icon-64.png" height=32> ***[Plasma Discover](https://github.com/Botspot/pi-apps/tree/master/apps/Plasma%20Discover)***
+https://apps.kde.org/discover/ - Botspot<br />
+Package app
+```
+Easy to use app store for flatpak and apt packages
+This is your classic GUI "app store", featuring screenshots, written reviews, and a one-click button to install new apps. It's geared toward desktop users and is not Raspberry Pi or ARM specific. Everything offered in it should work, and it is a good place to find easy-to-install apps that do not really need Pi-Apps to simplify the install process.
+
+To run: Menu -> System Tools -> Discover
+To run in a terminal: plasma-discover
+
+By default, Discover will show a mix of apt packages and flatpaks, which can get pretty confusing. Also it seems to prefer apt packages, even though flatpak versions are generally newer.
+To only see apt packages, run this: plasma-discover --backends packagekit
+To only see flatpaks: plasma-discover --backends flatpak
+```
+
+### <img src="/img/app-icons/Snap Store/icon-64.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
+https://snapcraft.io/store - Installation script and made by RPICoder<br />
+ARM64 ONLY - 39,979 Users!!
+```
+Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross‐platform and dependency‐free.
+This makes it easy to find and install Snaps.
+
+Beware that Snap packages can be slow and buggy, especially on Raspberry Pi computers. Many would advise finding non-Snap ways to install apps you use often.
+
+To run: Menu -> Internet -> App Center
+To run in a terminal: /snap/bin/snap-store
+```
+
 ### <img src="/img/app-icons/Synaptic/icon-64.png" height=32> ***[Synaptic](https://github.com/Botspot/pi-apps/tree/master/apps/Synaptic)***
 https://www.lifewire.com/guide-to-synaptic-package-manager-220570y - Botspot<br />
 Package app - 63,332 Users!!
@@ -3121,19 +3149,6 @@ Share files with nearby devices on the local network. Inspired by Apple's Airdro
 To run: Menu -> Internet -> Snapdrop
 To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
 Now drag and drop files to the website, and the other device will see the files and download them.
-```
-
-### <img src="/img/app-icons/Snap Store/icon-64.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
-https://snapcraft.io/store - Installation script and made by RPICoder<br />
-ARM64 ONLY - 39,979 Users!!
-```
-Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross‐platform and dependency‐free.
-This makes it easy to find and install Snaps.
-
-Beware that Snap packages can be slow and buggy, especially on Raspberry Pi computers. Many would advise finding non-Snap ways to install apps you use often.
-
-To run: Menu -> Internet -> App Center
-To run in a terminal: /snap/bin/snap-store
 ```
 
 ### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
