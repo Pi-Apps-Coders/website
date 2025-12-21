@@ -1922,6 +1922,23 @@ To run from Menu: Menu -> Sound and Video -> Waveform 11
 To run from Terminal: Waveform11
 ```
 
+### <img src="/img/app-icons/YouTube Player/icon-64.png" height=32> ***[YouTube Player](https://github.com/Botspot/pi-apps/tree/master/apps/YouTube%20Player)***
+https://github.com/trizen/pipe-viewer - Botspot<br />
+ARM64 ONLY
+```
+Simple YouTube search engine, downloader and player.
+- No web browser required! Easily search for videos and play them with a double-click.
+- Extremely lightweight - just a perl script.
+- Perfect for systems with low RAM or no web browser installed.
+- Supports searches, playlist URLs, and direct YouTube links.
+
+Right-click a search result for more options - for example downloading, adding to your watchlist, or showing yt-dlp output in a terminal in case you are having trouble getting videos to play.
+NOTE: this app is a re-skin of an app called GTK+ Pipe Viewer.
+
+To run: Menu -> Sound & Video -> YouTube Player
+To run in a terminal: gtk-pipe-viewer
+```
+
 ### <img src="/img/app-icons/YouTubuddy/icon-64.png" height=32> ***[YouTubuddy](https://github.com/Botspot/pi-apps/tree/master/apps/YouTubuddy)***
 https://github.com/Botspot/youtubuddy - Botspot added this to Pi-Apps.<br />
 ARM32/ARM64 - 29,867 Users!!
