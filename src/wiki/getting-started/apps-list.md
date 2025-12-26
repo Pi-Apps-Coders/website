@@ -1938,20 +1938,6 @@ NOTE: this app is a re-skin of an app called GTK+ Pipe Viewer.
 To run: Menu -> Sound & Video -> YouTube Player
 To run in a terminal: gtk-pipe-viewer
 ```
-
-### <img src="/img/app-icons/YouTubuddy/icon-64.png" height=32> ***[YouTubuddy](https://github.com/Botspot/pi-apps/tree/master/apps/YouTubuddy)***
-https://github.com/Botspot/youtubuddy - Botspot added this to Pi-Apps.<br />
-ARM32/ARM64 - 29,949 Users!!
-```
-Simple YouTube search engine, downloader and player.
-- No web browser required! Easily search for videos and play them with a few clicks.
-- Extremely lightweight - one bash script.
-- Perfect for downloading/playing batches of videos with a few clicks.
-- Supports searches, playlist URLs, and direct YouTube links. In addition, this supports URLs to many other video sites for easy downloading.
-
-To run: Menu -> Internet -> YouTubuddy
-To run in a terminal: ~/youtubuddy/gui
-```
 ## Office
 
 ### <img src="/img/app-icons/AbiWord/icon-64.png" height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
@@ -2038,6 +2024,19 @@ Our community welcomes anyone who uses Obsidian or is interested in Obsidian, no
 
 To run from Menu: Menu -> Office -> Obsidian
 To run from Terminal: obsidian
+```
+
+### <img src="/img/app-icons/OnlyOffice/icon-64.png" height=32> ***[OnlyOffice](https://github.com/Botspot/pi-apps/tree/master/apps/OnlyOffice)***
+https://www.onlyoffice.com/download-desktop - Botspot<br />
+ARM64 ONLY
+```
+Open source Microsoft Office alternative, with a better interface than LibreOffice
+OpenOffice combines the best features of WPS Office and LibreOffice: it has a more familiar interface, and it's actually open source. It can edit documents, spreadsheets, presentations, and PDFs.
+
+To run: Menu -> Office -> ONLYOFFICE
+To run in a terminal: onlyoffice-desktopeditors
+
+NOTE: You may encounter slow performance because OnlyOffice cannot run natively in Wayland. It uses a Qt5 window with CEF for the GUI, all as a X11 window.
 ```
 
 ### <img src="/img/app-icons/Open-Typer/icon-64.png" height=32> ***[Open-Typer](https://github.com/Botspot/pi-apps/tree/master/apps/Open-Typer)***
