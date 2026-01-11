@@ -7,9 +7,9 @@ description: Install Color Emoji font on Raspberry Pi using Pi-Apps
 # Install <img src="/img/app-icons/Color Emoji font/icon-64.png" height=24> Color Emoji font on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/Color Emoji font/icon-64.png"> Color Emoji font
-> Installs two fonts to display all emojis in the Unicode Emoji 13.0.
+> Installs two fonts to display all emojis in color in Unicode 13.0.
 > This installs Noto Color Emoji font.
-> To test if it works, go to: https://tmh.conlang.org/emoji-language/all-emoji.html
+> To test if it works, go to: https://web.archive.org/web/20240112181458/https://tmh.conlang.org/emoji-language/all-emoji.html
 
 Fortunately, Color Emoji font is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
