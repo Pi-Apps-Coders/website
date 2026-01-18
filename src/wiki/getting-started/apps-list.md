@@ -1791,6 +1791,9 @@ ARM32/ARM64 - 4,627 Users!
 Professional music notation software - LATEST MuseScore 4!
 To run: Menu -> Sound & Video -> MuseScore 4
 To run in terminal: mscore
+
+NOTE: MuseScore no longer produces any 32bit builds, so ARMhf will not receieve any future updates past version 4.5.2
+Please use a 64bit OS for MuseScore
 ```
 
 ### <img src="/img/app-icons/OBS Studio/icon-64.png" height=32> ***[OBS Studio](https://github.com/Botspot/pi-apps/tree/master/apps/OBS%20Studio)***

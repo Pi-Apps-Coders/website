@@ -10,6 +10,9 @@ description: Install MuseScore on Linux ARM Device using Pi-Apps
 > Professional music notation software - LATEST MuseScore 4!
 > To run: Menu -> Sound & Video -> MuseScore 4
 > To run in terminal: mscore
+> 
+> NOTE: MuseScore no longer produces any 32bit builds, so ARMhf will not receieve any future updates past version 4.5.2
+> Please use a 64bit OS for MuseScore
 
 Fortunately, MuseScore is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
