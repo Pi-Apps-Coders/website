@@ -2537,6 +2537,28 @@ To run: Menu -> System Tools -> GParted
 To run in a terminal: sudo gparted
 ```
 
+### <img src="/img/app-icons/Mission Center/icon-64.png" height=32> ***[Mission Center](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Center)***
+https://gitlab.com/mission-center-devs/mission-center<br />
+ARM32/ARM64
+```
+Beautiful and powerful task manager
+
+Features:
+   * Monitor overall or per-thread CPU usage
+   * See system process, thread, and handle count, uptime, clock speed (base and current), cache sizes
+   * Monitor RAM and Swap usage
+   * See a breakdown how the memory is being used by the system
+   * Monitor Disk utilization and transfer rates
+   * Monitor network utilization and transfer speeds
+   * See network interface information such as network card name, connection type (Wi-Fi or Ethernet), wireless speeds and frequency, hardware address, IP address
+   * Monitor system fans (even the pi5's active cooler)
+   * See a breakdown of resource usage by app and process
+   * Supports a minified summary view for simple monitoring
+   * Use hardware accelerated rendering for all the graphs in an effort to reduce CPU and overall resource usage
+   * Uses GTK4 and Libadwaita
+   * Written in Rust
+```
+
 ### <img src="/img/app-icons/Neofetch/icon-64.png" height=32> ***[Neofetch](https://github.com/Botspot/pi-apps/tree/master/apps/Neofetch)***
 https://github.com/dylanaraps/neofetch - App Credit: dylanaraps - (GitHub: https://github.com/dylanaraps)
 Patches: theofficialgman<br />
