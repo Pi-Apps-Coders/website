@@ -40,6 +40,26 @@ This installs Noto Color Emoji font.
 To test if it works, go to: https://web.archive.org/web/20240112181458/https://tmh.conlang.org/emoji-language/all-emoji.html
 ```
 
+### <img src="/img/app-icons/Command Not Found/icon-64.png" height=32> ***[Command Not Found](https://github.com/Botspot/pi-apps/tree/master/apps/Command%20Not%20Found)***
+Botspot<br />
+Package app
+```
+Suggests which package to install if command not found
+This makes the terminal much easier to use. If you try to run a command that does not exist, this will either suggest the right package to install, or try to suggest similar names if no exact matches are found. This tool is so helpful that it comes by default on Ubuntu, but not Pi OS for whatever reason.
+
+It changes this:
+    $ filezilla
+    bash: filezilla: command not found
+To this:
+    $ filezilla
+    Command 'filezilla' not found, but can be installed with:
+    sudo apt install filezilla
+
+IMPORTANT: After installation, if it seems to do nothing, run this command:
+sudo update-command-not-found
+Then open a new terminal and try running a program that is not installed.
+```
+
 ### <img src="/img/app-icons/Conky/icon-64.png" height=32> ***[Conky](https://github.com/Botspot/pi-apps/tree/master/apps/Conky)***
 https://github.com/Botspot/rpi_conky<br />
 ARM32/ARM64 - 35,012 Users!!
