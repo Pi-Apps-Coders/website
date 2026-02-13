@@ -692,6 +692,20 @@ To run in terminal: love $HOME/.love_games/friday_night_funkin_rewritten/funkin-
 As this game is still a work in progress, some settings (like setting fullscreen mode) can only be changed via an ini file: ~/.local/share/love/funkin-rewritten/settings.ini
 ```
 
+### <img src="/img/app-icons/GB Studio/icon-64.png" height=32> ***[GB Studio](https://github.com/Botspot/pi-apps/tree/master/apps/GB%20Studio)***
+Botspot<br />
+ARM64 ONLY
+```
+GB Studio is a drag and drop game creator for making Game Boy games.
+
+It is designed to be usable by people with little to no previous programming knowledge using simple visual scripting but also provides multiple access points for advanced users to access the game engine's virtual machine (GBVM) and to directly modify game engine's C and SM83 assembly code through plugins.
+
+You can generate ROM files that can be run in an emulator, on a web page or on real Game Boy hardware.
+
+To run: Menu -> Accessories -> GB Studio
+To run in a terminal: gb-studio
+```
+
 ### <img src="/img/app-icons/Godot/icon-64.png" height=32> ***[Godot](https://github.com/Botspot/pi-apps/tree/master/apps/Godot)***
 https://godotengine.org/ - Credits to Juan Linietsky and Ariel Manzur for creating Godot Engine.<br />
 ARM32/ARM64 - 9,712 Users!
