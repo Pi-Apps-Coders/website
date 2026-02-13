@@ -693,7 +693,7 @@ As this game is still a work in progress, some settings (like setting fullscreen
 ```
 
 ### <img src="/img/app-icons/GB Studio/icon-64.png" height=32> ***[GB Studio](https://github.com/Botspot/pi-apps/tree/master/apps/GB%20Studio)***
-Botspot<br />
+https://www.gbstudio.dev/ - Botspot<br />
 ARM64 ONLY
 ```
 GB Studio is a drag and drop game creator for making Game Boy games.
