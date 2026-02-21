@@ -2136,6 +2136,41 @@ If you are using a 64-bit OS:
 ```
 ## Programming
 
+### <img src="/img/app-icons/Antigravity/icon-64.png" height=32> ***[Antigravity](https://github.com/Botspot/pi-apps/tree/master/apps/Antigravity)***
+https://antigravity.google/ - Creator of the App: Google LLC
+Publisher on pi-apps: Infiloo (https://guns.lol/infiloo)
+Significant edits made by botspot to fix the <br />
+ARM64 ONLY
+```
+Google's AI agent IDE powered by Gemini 3 Pro for autonomous, end-to-end software development.
+
+Intended for the following programming languages: Python, Go, Java, C/C++, C#, PHP, Ruby.
+
+To run: Menu -> Programming -> Antigravity
+To run in a terminal: antigravity
+
+Description and Features
+Google Antigravity is an agent-first Integrated Development Environment (IDE) designed to handle complex, multi-step software tasks autonomously. It fundamentally changes the development workflow by allowing developers to manage and orchestrate an AI agent rather than writing every line of code manually.
+
+Key Usage:
+
+Orchestration: Provide the agent with a high-level task (a detailed prompt) in the built-in Agent Manager, such as "Build a simple web application with user authentication."
+
+Review and Approve: The agent generates an Implementation Plan and a Task List. The developer reviews these plans and approves the steps before execution begins.
+
+Autonomous Execution: The agent autonomously writes, tests, and debugs the code, interacting with the editor, terminal, and integrated browser as needed.
+
+Outstanding Features:
+
+Agent-First Architecture: AI agents can perform complex tasks across the entire development stack (code, terminal, browser).
+
+High Transparency: Provides detailed artifacts (plans, code diffs, logs, screenshots) for full visibility and control over the AI's actions.
+
+Gemini 3 Integration: Leverage the power of advanced large language models for sophisticated code generation and problem-solving.
+
+NOTE: This app uses an extremely insane workaround to run Google's closed-source language server (language_server_linux_arm) on ARM64 kernels that don't use 48-bit address space. It compiles a custom lightweight kernel and runs the language server inside a QEMU KVM virtual machine, then forwards all inputs (prompts) and outputs (responses) through network sockets to the rest of the IDE. If the chat in Antigravity seems broken, this extremely hacky workaround is likely at fault. Open an issue on pi-apps and we'll try to fix it for you.
+```
+
 ### <img src="/img/app-icons/Arduino/icon-64.png" height=32> ***[Arduino](https://github.com/Botspot/pi-apps/tree/master/apps/Arduino)***
 https://www.arduino.cc/en/main/software<br />
 ARM32/ARM64 - 41,803 Users!!
