@@ -1098,7 +1098,7 @@ Warning, using this improperly may get you in a lot of trouble. Be sure you're w
 
 ### <img src="/img/app-icons/AnyDesk/icon-64.png" height=32> ***[AnyDesk](https://github.com/Botspot/pi-apps/tree/master/apps/AnyDesk)***
 https://anydesk.com/en/downloads/raspberry-pi - Botspot<br />
-ARM64 ONLY
+ARM64 ONLY - 9,503 Users!
 ```
 Remote desktop server and client software
 AnyDesk is free for private use and offers flexible license models for organizations.
@@ -1905,6 +1905,22 @@ Renoise Demo Restrictions
 
 To Run from Menu: Menu -> Sound and Video -> Renoise
 To run in Terminal: renoise
+```
+
+### <img src="/img/app-icons/Shellbeats/icon-64.png" height=32> ***[Shellbeats](https://github.com/Botspot/pi-apps/tree/master/apps/Shellbeats)***
+https://shellbeats.com/ - Botspot for rewriting the scripts and making the icon,
+codemaster010 on github for suggesting it<br />
+ARM32/ARM64
+```
+Stream or download audio from youtube, in your terminal
+If you play a lot of music on youtube in the background, then Shellbeats if for you.
+It only streams the audio, using much less internet bandwidth and CPU compared to playing the video.
+
+Shellbeats supports searching, streaming, downloading, and more.
+
+To run:
+Open a terminal and type:
+shellbeats
 ```
 
 ### <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=32> ***[SimpleScreenRecorder](https://github.com/Botspot/pi-apps/tree/master/apps/SimpleScreenRecorder)***
