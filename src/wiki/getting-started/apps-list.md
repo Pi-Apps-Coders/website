@@ -1096,6 +1096,21 @@ To run in a terminal: ipscan
 Warning, using this improperly may get you in a lot of trouble. Be sure you're within legal limits.
 ```
 
+### <img src="/img/app-icons/AnyDesk/icon-64.png" height=32> ***[AnyDesk](https://github.com/Botspot/pi-apps/tree/master/apps/AnyDesk)***
+https://anydesk.com/en/downloads/raspberry-pi - Botspot<br />
+ARM64 ONLY
+```
+Remote desktop server and client software
+AnyDesk is free for private use and offers flexible license models for organizations.
+
+To run: Menu -> Internet -> AnyDesk
+To run in a terminal: anydesk
+
+NOTE: If your system uses Wayland, it cannot accept incoming connections. If you cannot connect to this machine with AnyDesk, either disable Wayland or switch to RustDesk which actually works and is more secure.
+On Raspberry Pi OS, Wayland can be disabled by running "sudo raspi-config" in a terminal and navigating to Advanced Options, where Wayland/X11 can be toggled.
+Again, RustDesk is recommended. It's open source and works better.
+```
+
 ### <img src="/img/app-icons/CloudBuddy/icon-64.png" height=32> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
 https://github.com/Botspot/cloudbuddy - Botspot made, Botspot added.<br />
 ARM32/ARM64 - 12,416 Users!!
