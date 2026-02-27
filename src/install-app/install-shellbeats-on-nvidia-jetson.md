@@ -8,14 +8,13 @@ description: Install Shellbeats on Nvidia Jetson using Pi-Apps
 
 ## <img src="/img/app-icons/Shellbeats/icon-64.png"> Shellbeats
 > Stream or download audio from youtube, in your terminal
-> If you play a lot of music on youtube in the background, then Shellbeats if for you.
+> If you play a lot of music from youtube in the background, then Shellbeats is for you.
 > It only streams the audio, using much less internet bandwidth and CPU compared to playing the video.
 > 
 > Shellbeats supports searching, streaming, downloading, and more.
 > 
-> To run:
-> Open a terminal and type:
-> shellbeats
+> To run: Menu -> Sound & Video -> Shellbeats
+> To run in a terminal: shellbeats
 
 Fortunately, Shellbeats is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.

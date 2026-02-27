@@ -1913,14 +1913,13 @@ codemaster010 on github for suggesting it<br />
 ARM32/ARM64
 ```
 Stream or download audio from youtube, in your terminal
-If you play a lot of music on youtube in the background, then Shellbeats if for you.
+If you play a lot of music from youtube in the background, then Shellbeats is for you.
 It only streams the audio, using much less internet bandwidth and CPU compared to playing the video.
 
 Shellbeats supports searching, streaming, downloading, and more.
 
-To run:
-Open a terminal and type:
-shellbeats
+To run: Menu -> Sound & Video -> Shellbeats
+To run in a terminal: shellbeats
 ```
 
 ### <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=32> ***[SimpleScreenRecorder](https://github.com/Botspot/pi-apps/tree/master/apps/SimpleScreenRecorder)***
