@@ -3347,6 +3347,26 @@
   </url>
   
   <url>
+    <loc>https://pi-apps.io/install-app/install-shellbeats-on-linux-arm-device/</loc>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-shellbeats-on-nintendo-switch/</loc>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-shellbeats-on-nvidia-jetson/</loc>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pi-apps.io/install-app/install-shellbeats-on-raspberry-pi/</loc>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pi-apps.io/install-app/install-shotwell-on-linux-arm-device/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
@@ -4542,12 +4562,12 @@
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/install/</loc>
+    <loc>https://pi-apps.io/tags/wiki/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
   
   <url>
-    <loc>https://pi-apps.io/tags/wiki/</loc>
+    <loc>https://pi-apps.io/tags/install/</loc>
     <lastmod>2026-02-27</lastmod>
   </url>
   
