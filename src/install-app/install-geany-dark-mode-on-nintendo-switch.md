@@ -9,7 +9,7 @@ description: Install Geany Dark Mode on Nintendo Switch using Pi-Apps
 ## <img src="/img/app-icons/Geany Dark Mode/icon-64.png"> Geany Dark Mode
 > Proper appearance theme for the Geany text editor.
 > Geany's default color scheme looks horrible. Fortunately, this app will make it look good.
-> By default, this will apply the "spyder-dark" theme, (Botspot's favorite!), but it will also install many other themes to try out as well. To switch themes in Geany: View -> Change Color Scheme.
+> By default, this will apply the "botspot-dark" theme, but it will also install many other themes to try out as well. To switch themes in Geany: View -> Change Color Scheme.
 
 Fortunately, Geany Dark Mode is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.

@@ -86,7 +86,7 @@ ARM32/ARM64 - 7,877 Users!
 ```
 Proper appearance theme for the Geany text editor.
 Geany's default color scheme looks horrible. Fortunately, this app will make it look good.
-By default, this will apply the "spyder-dark" theme, (Botspot's favorite!), but it will also install many other themes to try out as well. To switch themes in Geany: View -> Change Color Scheme.
+By default, this will apply the "botspot-dark" theme, but it will also install many other themes to try out as well. To switch themes in Geany: View -> Change Color Scheme.
 ```
 
 ### <img src="/img/app-icons/Lightpad/icon-64.png" height=32> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***
