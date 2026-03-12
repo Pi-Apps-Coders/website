@@ -24,7 +24,7 @@ description: Install Minecraft Pi (Modded) on Linux ARM Device using Pi-Apps
 > Mouse scroll doesn't exist, you need to use your mouse to drag stuff like the crafting menu.
 > 
 > To run: Menu -> Games -> Minecraft Pi (Modded)
-> To run in a terminal: ~/.local/bin/com.thebrokenrail.MCPIRebornClient.AppImage
+> To run in a terminal: ~/.local/bin/com.thebrokenrail.MCPIReborn.AppImage
 
 Fortunately, Minecraft Pi (Modded) is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
