@@ -7,8 +7,13 @@ description: Install Eagle CAD on Nintendo Switch using Pi-Apps
 # Install <img src="/img/app-icons/Eagle CAD/icon-64.png" height=24> Eagle CAD on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Eagle CAD/icon-64.png"> Eagle CAD
-> Design printed circuit boards.
+> Discontinued utility in 2020 in favor of Autodesk Fusion to design printed circuit boards.
+> 
+> For ARM32:
 > This is Eagle CAD's last 32-bit Linux release (7.7.0), emulated using Box86. Subsequent Eagle releases dropped 32-bit support.
+> 
+> For ARM64:
+> This is Eagle CAD's last version (9.6.2), emulated using Box64. Autodesk merged Eagle's features into Autodesk Fusion and discontinued Eagle in 2020.
 > 
 > To run: Menu -> Programming -> Eagle
 > To run in a terminal: eagle

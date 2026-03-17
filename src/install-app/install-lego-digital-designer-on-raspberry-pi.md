@@ -11,7 +11,7 @@ description: Install Lego Digital Designer on Raspberry Pi using Pi-Apps
 > This is Lego's official (discontinued) brick design program. With it, you can build your own sets within the editor and paint the pieces any color you wish.
 > Afterwards, you can generate step-by-step building plans and print them out. Or you could place your creation into a desert background and take a picture of it to share with friends.
 > 
-> This program runs extremely well on RPi. The only problem I (Botspot) could find was the sound effects don't work.
+> This program runs extremely well on RPi. If it launches in 'safe mode', go into the app's settings and drag the slider to the left, then restart the app.
 
 Fortunately, Lego Digital Designer is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
@@ -22,7 +22,7 @@ Fortunately, Lego Digital Designer is very easy to install on your Raspberry Pi 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-**Lego Digital Designer will only run on PiOS 32-bit.** Pi-Apps will not let you install Lego Digital Designer on PiOS 64-bit.
+Lego Digital Designer will run on either PiOS 32-bit or 64-bit.
 </div>
 <div class="simple-install-content content">
 

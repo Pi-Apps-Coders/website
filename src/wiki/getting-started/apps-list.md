@@ -293,13 +293,13 @@ To run in a terminal: krita
 
 ### <img src="/img/app-icons/Lego Digital Designer/icon-64.png" height=32> ***[Lego Digital Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Lego%20Digital%20Designer)***
 https://github.com/Botspot/lego-digital-designer-rpi - Botspot<br />
-ARM32 ONLY - 3,440 Users!
+ARM32/ARM64 - 3,440 Users!
 ```
 Play with virtual Lego blocks and create your own plans!
 This is Lego's official (discontinued) brick design program. With it, you can build your own sets within the editor and paint the pieces any color you wish.
 Afterwards, you can generate step-by-step building plans and print them out. Or you could place your creation into a desert background and take a picture of it to share with friends.
 
-This program runs extremely well on RPi. The only problem I (Botspot) could find was the sound effects don't work.
+This program runs extremely well on RPi. If it launches in 'safe mode', go into the app's settings and drag the slider to the left, then restart the app.
 ```
 
 ### <img src="/img/app-icons/Pinta/icon-64.png" height=32> ***[Pinta](https://github.com/Botspot/pi-apps/tree/master/apps/Pinta)***
@@ -360,8 +360,13 @@ To run in a terminal: ~/Cura.AppImage
 http://eagle.autodesk.com/eagle/software-versions/1 - Botspot made this app.<br />
 ARM32/ARM64 - 3,144 Users!
 ```
-Design printed circuit boards.
+Discontinued utility in 2020 in favor of Autodesk Fusion to design printed circuit boards.
+
+For ARM32:
 This is Eagle CAD's last 32-bit Linux release (7.7.0), emulated using Box86. Subsequent Eagle releases dropped 32-bit support.
+
+For ARM64:
+This is Eagle CAD's last version (9.6.2), emulated using Box64. Autodesk merged Eagle's features into Autodesk Fusion and discontinued Eagle in 2020.
 
 To run: Menu -> Programming -> Eagle
 To run in a terminal: eagle
@@ -634,18 +639,18 @@ You have to create a Port Forwarding with the protocol udp and the Port of your 
 
 ### <img src="/img/app-icons/Descent 1/icon-64.png" height=32> ***[Descent 1](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%201)***
 https://www.dxx-rebirth.com/<br />
-ARM32 ONLY - 2,861 Users!
+ARM32/ARM64 - 2,861 Users!
 ```
 D1X-Rebirth - source port of Descent: First Strike from 1995
-This package installs the shareware version, if you own the full game you can copy the game data to ~/.d1x-rebirth directory (replacing existing files).
+This package installs the shareware version, if you own the full game you can copy the game data to /opt/d1x-rebirth directory (replacing existing files).
 To run: Menu -> Games -> Descent 1
-To run in a terminal: ~/.d1x-rebirth/d1x-rebirth-rpi -hogdir ~/.d1x-rebirth
+To run in a terminal: d1x-rebirth
 To exit: select "Quit" in the game's main menu.
 ```
 
 ### <img src="/img/app-icons/Descent 2/icon-64.png" height=32> ***[Descent 2](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%202)***
 https://www.dxx-rebirth.com/<br />
-ARM32 ONLY - 2,616 Users!
+ARM32/ARM64 - 2,616 Users!
 ```
 D2X-Rebirth - source port of Descent 2: Counterstrike from 1996
 This package installs the shareware version, if you own the full game you can copy the game data to ~/.d2x-rebirth directory (replacing existing files).
@@ -720,12 +725,12 @@ To run in a terminal: godot
 
 ### <img src="/img/app-icons/Heroes 2/icon-64.png" height=32> ***[Heroes 2](https://github.com/Botspot/pi-apps/tree/master/apps/Heroes%202)***
 https://github.com/ihhub/fheroes2<br />
-ARM32 ONLY - 4,326 Users!
+ARM32/ARM64 - 4,326 Users!
 ```
 Free implementation of Heroes of Might and Magic II game engine.
-This package installs the shareware version, if you own the full game you can copy the game data to ~/.fheroes2 directory (replacing existing files).
+This package installs the shareware version, if you own the full game you can copy the game data to /opt/fheroes2 directory (replacing existing files).
 To run: Menu -> Games -> Free Heroes 2
-To run in a terminal: ~/.fheroes2/fheroes2-rpi
+To run in a terminal: fheroes2
 ```
 
 ### <img src="/img/app-icons/LineRider/icon-64.png" height=32> ***[LineRider](https://github.com/Botspot/pi-apps/tree/master/apps/LineRider)***
@@ -1713,7 +1718,7 @@ Also see MuseScore2 and Sonic-Pi
 ### <img src="/img/app-icons/Bongo Cam/icon-64.png" height=32> ***[Bongo Cam](https://github.com/Botspot/pi-apps/tree/master/apps/Bongo%20Cam)***
 https://github.com/kuroni/bongocat-osu - Install code made by Raspberry Pi News on Youtube
 Original app made by kuromi: https://github.com/kuroni/bongocat-osu<br />
-ARM32 ONLY - 3,181 Users!
+ARM32/ARM64 - 3,181 Users!
 ```
 If you want to make a video but don't want to show your face, why not use this animated cat program?
 This app displays a cat. It can type on the keyboard or move the mouse. It mirrors your mouse movements.
@@ -1721,10 +1726,10 @@ This app displays a cat. It can type on the keyboard or move the mouse. It mirro
 Default keyboard shortcuts: Z and X to tap on the keyboard, C to wear sunglasses, and V to wave.
 
 To run: Menu -> Sound & Video -> Bongo Cam
-To run in a terminal: ~/bongocam/bongo
+To run in a terminal: bongo
 
 Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/Settings
-NOTE: The app files are stored in ~/bongocam/
+NOTE: This app can't see your mouse movements on Wayland desktops. To make it work the best, switch to X11.
 ```
 
 ### <img src="/img/app-icons/Botspot Screen Recorder/icon-64.png" height=32> ***[Botspot Screen Recorder](https://github.com/Botspot/pi-apps/tree/master/apps/Botspot%20Screen%20Recorder)***
@@ -1976,7 +1981,7 @@ Tips:
 ### <img src="/img/app-icons/WACUP (new WinAmp)/icon-64.png" height=32> ***[WACUP (new WinAmp)](https://github.com/Botspot/pi-apps/tree/master/apps/WACUP%20(new%20WinAmp))***
 https://getwacup.com/ - Botspot for the scripts
 ralf1307 (github) issue #192 for the suggestion.<br />
-ARM32 ONLY - 2,690 Users!
+ARM32/ARM64 - 2,690 Users!
 ```
 Cross-platform audio player - emulated Windows app
 ```

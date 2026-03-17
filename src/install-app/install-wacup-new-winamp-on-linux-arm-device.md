@@ -17,7 +17,7 @@ Fortunately, WACUP (new WinAmp) is very easy to install on your Linux ARM Device
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-WACUP (new WinAmp) will only run on an Ubuntu/Debian ARM32 OS. Pi-Apps will not let you install WACUP (new WinAmp) on an Ubuntu/Debian ARM64 OS.
+WACUP (new WinAmp) will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
 </div>
 <div class="simple-install-content content">
 

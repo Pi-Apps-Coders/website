@@ -8,9 +8,9 @@ description: Install Descent 1 on Raspberry Pi using Pi-Apps
 
 ## <img src="/img/app-icons/Descent 1/icon-64.png"> Descent 1
 > D1X-Rebirth - source port of Descent: First Strike from 1995
-> This package installs the shareware version, if you own the full game you can copy the game data to ~/.d1x-rebirth directory (replacing existing files).
+> This package installs the shareware version, if you own the full game you can copy the game data to /opt/d1x-rebirth directory (replacing existing files).
 > To run: Menu -> Games -> Descent 1
-> To run in a terminal: ~/.d1x-rebirth/d1x-rebirth-rpi -hogdir ~/.d1x-rebirth
+> To run in a terminal: d1x-rebirth
 > To exit: select "Quit" in the game's main menu.
 
 Fortunately, Descent 1 is very easy to install on your Raspberry Pi in just two steps.
@@ -22,7 +22,7 @@ Fortunately, Descent 1 is very easy to install on your Raspberry Pi in just two 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-**Descent 1 will only run on PiOS 32-bit.** Pi-Apps will not let you install Descent 1 on PiOS 64-bit.
+Descent 1 will run on either PiOS 32-bit or 64-bit.
 </div>
 <div class="simple-install-content content">
 

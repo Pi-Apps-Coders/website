@@ -1,10 +1,10 @@
 ---
-title: Install Bongo Cam on Raspberry Pi | Pi-Apps
-description: Install Bongo Cam on Raspberry Pi using Pi-Apps
+title: Install Bongo Cam on Nintendo Switch | Pi-Apps
+description: Install Bongo Cam on Nintendo Switch using Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Bongo Cam/icon-64.png" height=24> Bongo Cam on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Bongo Cam/icon-64.png" height=24> Bongo Cam on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Bongo Cam/icon-64.png"> Bongo Cam
 > If you want to make a video but don't want to show your face, why not use this animated cat program?
@@ -18,22 +18,21 @@ description: Install Bongo Cam on Raspberry Pi using Pi-Apps
 > Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/Settings
 > NOTE: This app can't see your mouse movements on Wayland desktops. To make it work the best, switch to X11.
 
-Fortunately, Bongo Cam is very easy to install on your Raspberry Pi in just two steps.
-1. Install Pi-Apps - the best app installer for Raspberry Pi.
+Fortunately, Bongo Cam is very easy to install on your Nintendo Switch in just two steps.
+1. Install Pi-Apps - the best app installer for Nintendo Switch.
 2. Use Pi-Apps to install Bongo Cam.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
-Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-Bongo Cam will run on either PiOS 32-bit or 64-bit.
+For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Noble](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-noble-installation-guide), which is currently version **5.1.2 Ubuntu Noble**.
+Bongo Cam will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Raspberry Pi with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Nintendo Switch with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 ```bash

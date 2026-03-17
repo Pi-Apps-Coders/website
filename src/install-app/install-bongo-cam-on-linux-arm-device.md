@@ -13,10 +13,10 @@ description: Install Bongo Cam on Linux ARM Device using Pi-Apps
 > Default keyboard shortcuts: Z and X to tap on the keyboard, C to wear sunglasses, and V to wave.
 > 
 > To run: Menu -> Sound & Video -> Bongo Cam
-> To run in a terminal: ~/bongocam/bongo
+> To run in a terminal: bongo
 > 
 > Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/Settings
-> NOTE: The app files are stored in ~/bongocam/
+> NOTE: This app can't see your mouse movements on Wayland desktops. To make it work the best, switch to X11.
 
 Fortunately, Bongo Cam is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
@@ -26,7 +26,7 @@ Fortunately, Bongo Cam is very easy to install on your Linux ARM Device in just 
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Bongo Cam will only run on an Ubuntu/Debian ARM32 OS. Pi-Apps will not let you install Bongo Cam on an Ubuntu/Debian ARM64 OS.
+Bongo Cam will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
 </div>
 <div class="simple-install-content content">
 

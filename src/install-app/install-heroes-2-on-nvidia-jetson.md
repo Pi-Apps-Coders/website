@@ -1,10 +1,10 @@
 ---
-title: Install Heroes 2 on Linux ARM Device | Pi-Apps
-description: Install Heroes 2 on Linux ARM Device using Pi-Apps
+title: Install Heroes 2 on Nvidia Jetson | Pi-Apps
+description: Install Heroes 2 on Nvidia Jetson using Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Heroes 2/icon-64.png" height=24> Heroes 2 on Linux ARM Device
+# Install <img src="/img/app-icons/Heroes 2/icon-64.png" height=24> Heroes 2 on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Heroes 2/icon-64.png"> Heroes 2
 > Free implementation of Heroes of Might and Magic II game engine.
@@ -12,21 +12,21 @@ description: Install Heroes 2 on Linux ARM Device using Pi-Apps
 > To run: Menu -> Games -> Free Heroes 2
 > To run in a terminal: fheroes2
 
-Fortunately, Heroes 2 is very easy to install on your Linux ARM Device in just two steps.
-1. Install Pi-Apps - the best app installer for Linux ARM Device.
+Fortunately, Heroes 2 is very easy to install on your Nvidia Jetson in just two steps.
+1. Install Pi-Apps - the best app installer for Nvidia Jetson.
 2. Use Pi-Apps to install Heroes 2.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Heroes 2 will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin).
+Heroes 2 will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Linux ARM Device with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Nvidia Jetson with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 ```bash
