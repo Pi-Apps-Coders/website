@@ -12,7 +12,7 @@ description: Install Tetris CLI on Nintendo Switch using Pi-Apps
 > As one of the most recognizable and influential video game brands in the world, it’s no wonder why there are hundreds of millions of Tetris products being played, worn, and enjoyed by fans in their everyday lives. For over thirty-five years, the game and brand have truly transcended the barriers of culture and language, resulting in a fun and exciting playing experience for everyone, everywhere!
 > 
 > To run: Menu -> Games -> Tetris CLI
-> To run in a terminal: tetris
+> To run in a terminal: tetris-cli
 
 Fortunately, Tetris CLI is very easy to install on your Nintendo Switch in just two steps.
 1. Install Pi-Apps - the best app installer for Nintendo Switch.
