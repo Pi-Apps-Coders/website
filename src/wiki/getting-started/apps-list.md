@@ -1141,31 +1141,6 @@ On Raspberry Pi OS, Wayland can be disabled by running "sudo raspi-config" in a 
 Again, RustDesk is recommended. It's open source and works better.
 ```
 
-### <img src="/img/app-icons/CloudBuddy/icon-64.png" height=32> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
-https://github.com/Botspot/cloudbuddy - Botspot made, Botspot added.<br />
-ARM32/ARM64 - 12,580 Users!!
-```
-CloudBuddy is the ultimate wizard for cloud storage. Google Drive, Onedrive, Dropbox, and many more.
-Botspot made this gui frontend for the popular rclone tool to connect to your cloud drives, download from them, upload to them, mount them to your file manager, and more. In addition, CloudBuddy features an interactive file browser to easily generate shareable links and to perform various server-side operations.
-
-To run: Menu -> Internet -> CloudBuddy
-To run in terminal: ~/cloudbuddy/main.sh
-```
-
-### <img src="/img/app-icons/Deluge/icon-64.png" height=32> ***[Deluge](https://github.com/Botspot/pi-apps/tree/master/apps/Deluge)***
-https://www.deluge-torrent.org - Botspot<br />
-Package app - 14,597 Users!!
-```
-Lightweight BitTorrent client
-Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
-
-To run: Menu -> Internet -> Deluge
-To run in a terminal: deluge-gtk
-
-Also see the Transmission app.
-Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Deluge at your own risk.
-```
-
 ### <img src="/img/app-icons/Deskreen/icon-64.png" height=32> ***[Deskreen](https://github.com/Botspot/pi-apps/tree/master/apps/Deskreen)***
 https://deskreen.com/ - Thanks to pavlobu and all contibuters for developing Deskreen.
 Thanks to Crilum on GitHub for making the scripts.
@@ -1180,97 +1155,6 @@ To run in a terminal: deskreen
 
 Does not work on Wayland, meaning it is fairly useless on Pi OS Bookworm unless you swiched to X11.
 This is privacy-friendly and does not use cloud resources, but it is written in Electron and consumes a lot of CPU processing power when in use. It is not suitable for Pi models older than the Pi4.
-```
-
-### <img src="/img/app-icons/Filezilla/icon-64.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
-https://filezilla-project.org/ - Botspot<br />
-Package app - 36,655 Users!!
-```
-Download and upload files via FTP, FTPS, and HTTP
-This all allows you to connect to file-sharing servers on your home network or on the world wide web.
-To run: Menu -> Internet -> Filezilla
-To run in terminal: filezilla
-Note: For more cloud-storage, see the CloudBuddy app.
-```
-
-### <img src="/img/app-icons/Https File Server/icon-64.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
-https://github.com/rejetto/hfs - Botspot<br />
-ARM32/ARM64 - 2,451 Users!
-```
-Simple file-sharing webserver. Other computers on your local network can connect to your computer from the web browser and download files you share.
-Or, you can enable port forwarding on your router so that anyone on the Internet can download your files.
-
-To run: Menu -> Applications -> HTTPS File Server
-To run in a terminal: npm exec --yes hfs@latest
-```
-
-### <img src="/img/app-icons/HTTrack Website Copier/icon-64.png" height=32> ***[HTTrack Website Copier](https://github.com/Botspot/pi-apps/tree/master/apps/HTTrack%20Website%20Copier)***
-https://httrack.com - Thanks to:
- - Xavier Roche and all contributors for creating HTTrack!
- - Thanks to Crilum on GitHub for adding HTTrack to Pi-Apps!<br />
-Package app - 6,105 Users!
-```
-HTTrack is a free and easy-to-use offline browser utility.
-
-It allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site's relative link-structure. Simply open a page of the "mirrored" website in your browser, and you can browse the site from link to link, as if you were viewing it online. HTTrack can also update an existing mirrored site, and resume interrupted downloads. HTTrack is fully configurable, and has an integrated help system. 
-
-This will also install WebHTTrack, which is a graphical version of HTTrack that uses a locally served website as a GUI.
-
-To run HTTrack:
-Run from Terminal: httrack
-
-To run WebHTTrack (graphical version of HTTrack):
-Run from Terminal: webhttrack
-Run from Menu: Menu -> Internet -> WebHTTrack Website Copier
-```
-
-### <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=32> ***[Persepolis Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Persepolis%20Download%20Manager)***
-https://persepolisdm.github.io/<br />
-ARM32/ARM64 - 2,468 Users!
-```
-Persepolis is a Download Manager and a GUI For aria2. 
-
-It's written in Python. Persepolis is a Sample of Free and open source software. It's developed For GNU/Linux Distributions, BSDs, macOS and Microsoft Windows. 
-
-To run: Menu -> Internet -> Persepolis Download Manager
-To run in a terminal: persepolis
-```
-
-### <img src="/img/app-icons/qBittorrent/icon-64.png" height=32> ***[qBittorrent](https://github.com/Botspot/pi-apps/tree/master/apps/qBittorrent)***
-https://www.qbittorrent.org - Original qBittorrent authors at https://www.qbittorrent.org
-
-Pi-Apps submitter: petesimon@yahoo.com https://github.com/petesimon<br />
-Package app
-```
-Open-source software alternative to µTorrent.
-
-To run: Menu -> Internet -> qBittorrent
-To run in a terminal: qbittorrent
-
-This app is a bittorrent downloading and uploading application simiar to uTorrent, Transmission and Deluge.
-- Polished µTorrent-like User Interface
-- No Ads
-- Well-integrated and extensible Search Engine
-- Simultaneous search in many Torrent search sites
-- Category-specific search requests (e.g. Books, Music, Software)
-- RSS feed support with advanced download filters (incl. regex)
-- Many Bittorrent extensions supported:
-  - Magnet links
-  - Distributed hash table (DHT), peer exchange protocol (PEX), local peer discovery (LSD)
-  - Private torrents
-  - Encrypted connections
-  - and many more...
-- Remote control through Web user interface, written with AJAX
-- Nearly identical to the regular GUI
-- Sequential downloading (Download in order)
-- Advanced control over torrents, trackers and peers
-- Torrents queueing and prioritizing
-- Torrent content selection and prioritizing
-- Bandwidth scheduler
-- Torrent creation tool
-- IP Filtering (eMule & PeerGuardian format compatible)
-- IPv6 compliant
-- UPnP / NAT-PMP port forwarding support
 ```
 
 ### <img src="/img/app-icons/RiiTag-RPC/icon-64.png" height=32> ***[RiiTag-RPC](https://github.com/Botspot/pi-apps/tree/master/apps/RiiTag-RPC)***
@@ -1326,20 +1210,6 @@ On Raspberry Pi OS, Wayland can be disabled by running "sudo raspi-config" in a 
 Again, RustDesk is recommended. It's open source and works better.
 ```
 
-### <img src="/img/app-icons/Transmission/icon-64.png" height=32> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***
-https://transmissionbt.com - Botspot<br />
-Package app - 85,167 Users!!
-```
-Lightweight BitTorrent client
-Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
-
-To run: Menu -> Internet -> Transmission
-To run in a terminal: transmission-gtk
-
-Also see the Deluge app.
-Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Transmission at your own risk.
-```
-
 ### <img src="/img/app-icons/Web Apps/icon-64.png" height=32> ***[Web Apps](https://github.com/Botspot/pi-apps/tree/master/apps/Web%20Apps)***
 https://itsfoss.com/web-app-manager-linux-mint/ - linuxmint for maintaining the application
 theofficialgman for packaging it for pi-apps<br />
@@ -1352,22 +1222,6 @@ If there are multiple browsers installed on the system, Web Apps will let you ch
 
 To run: Menu -> Internet -> Web Apps
 To run in a terminal: webapp-manager
-```
-
-### <img src="/img/app-icons/Xtreme Download Manager/icon-64.png" height=32> ***[Xtreme Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Xtreme%20Download%20Manager)***
-https://xtremedownloadmanager.com<br />
-ARM32/ARM64 - 14,920 Users!!
-```
-Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, save and convert streaming videos from thousands of websites, resume broken/dead downloads and schedule downloads.
-
-XDM seamlessly integrates with Google Chrome, Mozilla Firefox Quantum, Opera, Vivaldi and many popular browsers, to take over downloads and saving streaming videos from web.
-
-XDM has built in video converter which lets you convert downloaded videos to popular MP4 and MP3 formats.
-
-Support for HTTP, HTTPS, FTP, DASH, HLS, HDS protocols, firewalls, proxy servers, PAC scripts, file redirects, cookies, authorization, download queue, scheduler and many more feature makes XDM a very useful tool
-
-To run: Menu -> Internet -> Xtreme Download Manager
-To run in a terminal: /opt/xdman/xdman
 ```
 ## Internet/Browsers
 
@@ -1753,6 +1607,153 @@ Both versions can be installed at the same time and will not interfere with each
 
 To run: Menu -> Internet -> Zoom PWA
 To run in a terminal: zoom-pwa
+```
+## Internet/Download & Upload
+
+### <img src="/img/app-icons/CloudBuddy/icon-64.png" height=32> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
+https://github.com/Botspot/cloudbuddy - Botspot made, Botspot added.<br />
+ARM32/ARM64 - 12,580 Users!!
+```
+CloudBuddy is the ultimate wizard for cloud storage. Google Drive, Onedrive, Dropbox, and many more.
+Botspot made this gui frontend for the popular rclone tool to connect to your cloud drives, download from them, upload to them, mount them to your file manager, and more. In addition, CloudBuddy features an interactive file browser to easily generate shareable links and to perform various server-side operations.
+
+To run: Menu -> Internet -> CloudBuddy
+To run in terminal: ~/cloudbuddy/main.sh
+```
+
+### <img src="/img/app-icons/Deluge/icon-64.png" height=32> ***[Deluge](https://github.com/Botspot/pi-apps/tree/master/apps/Deluge)***
+https://www.deluge-torrent.org - Botspot<br />
+Package app - 14,597 Users!!
+```
+Lightweight BitTorrent client
+Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
+
+To run: Menu -> Internet -> Deluge
+To run in a terminal: deluge-gtk
+
+Also see the Transmission app.
+Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Deluge at your own risk.
+```
+
+### <img src="/img/app-icons/Filezilla/icon-64.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
+https://filezilla-project.org/ - Botspot<br />
+Package app - 36,655 Users!!
+```
+Download and upload files via FTP, FTPS, and HTTP
+This all allows you to connect to file-sharing servers on your home network or on the world wide web.
+To run: Menu -> Internet -> Filezilla
+To run in terminal: filezilla
+Note: For more cloud-storage, see the CloudBuddy app.
+```
+
+### <img src="/img/app-icons/Https File Server/icon-64.png" height=32> ***[Https File Server](https://github.com/Botspot/pi-apps/tree/master/apps/Https%20File%20Server)***
+https://github.com/rejetto/hfs - Botspot<br />
+ARM32/ARM64 - 2,451 Users!
+```
+Simple file-sharing webserver. Other computers on your local network can connect to your computer from the web browser and download files you share.
+Or, you can enable port forwarding on your router so that anyone on the Internet can download your files.
+
+To run: Menu -> Applications -> HTTPS File Server
+To run in a terminal: npm exec --yes hfs@latest
+```
+
+### <img src="/img/app-icons/HTTrack Website Copier/icon-64.png" height=32> ***[HTTrack Website Copier](https://github.com/Botspot/pi-apps/tree/master/apps/HTTrack%20Website%20Copier)***
+https://httrack.com - Thanks to:
+ - Xavier Roche and all contributors for creating HTTrack!
+ - Thanks to Crilum on GitHub for adding HTTrack to Pi-Apps!<br />
+Package app - 6,105 Users!
+```
+HTTrack is a free and easy-to-use offline browser utility.
+
+It allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer. HTTrack arranges the original site's relative link-structure. Simply open a page of the "mirrored" website in your browser, and you can browse the site from link to link, as if you were viewing it online. HTTrack can also update an existing mirrored site, and resume interrupted downloads. HTTrack is fully configurable, and has an integrated help system. 
+
+This will also install WebHTTrack, which is a graphical version of HTTrack that uses a locally served website as a GUI.
+
+To run HTTrack:
+Run from Terminal: httrack
+
+To run WebHTTrack (graphical version of HTTrack):
+Run from Terminal: webhttrack
+Run from Menu: Menu -> Internet -> WebHTTrack Website Copier
+```
+
+### <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=32> ***[Persepolis Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Persepolis%20Download%20Manager)***
+https://persepolisdm.github.io/<br />
+ARM32/ARM64 - 2,468 Users!
+```
+Persepolis is a Download Manager and a GUI For aria2. 
+
+It's written in Python. Persepolis is a Sample of Free and open source software. It's developed For GNU/Linux Distributions, BSDs, macOS and Microsoft Windows. 
+
+To run: Menu -> Internet -> Persepolis Download Manager
+To run in a terminal: persepolis
+```
+
+### <img src="/img/app-icons/qBittorrent/icon-64.png" height=32> ***[qBittorrent](https://github.com/Botspot/pi-apps/tree/master/apps/qBittorrent)***
+https://www.qbittorrent.org - Original qBittorrent authors at https://www.qbittorrent.org
+
+Pi-Apps submitter: petesimon@yahoo.com https://github.com/petesimon<br />
+Package app
+```
+Open-source software alternative to µTorrent.
+
+To run: Menu -> Internet -> qBittorrent
+To run in a terminal: qbittorrent
+
+This app is a bittorrent downloading and uploading application simiar to uTorrent, Transmission and Deluge.
+- Polished µTorrent-like User Interface
+- No Ads
+- Well-integrated and extensible Search Engine
+- Simultaneous search in many Torrent search sites
+- Category-specific search requests (e.g. Books, Music, Software)
+- RSS feed support with advanced download filters (incl. regex)
+- Many Bittorrent extensions supported:
+  - Magnet links
+  - Distributed hash table (DHT), peer exchange protocol (PEX), local peer discovery (LSD)
+  - Private torrents
+  - Encrypted connections
+  - and many more...
+- Remote control through Web user interface, written with AJAX
+- Nearly identical to the regular GUI
+- Sequential downloading (Download in order)
+- Advanced control over torrents, trackers and peers
+- Torrents queueing and prioritizing
+- Torrent content selection and prioritizing
+- Bandwidth scheduler
+- Torrent creation tool
+- IP Filtering (eMule & PeerGuardian format compatible)
+- IPv6 compliant
+- UPnP / NAT-PMP port forwarding support
+```
+
+### <img src="/img/app-icons/Transmission/icon-64.png" height=32> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***
+https://transmissionbt.com - Botspot<br />
+Package app - 85,167 Users!!
+```
+Lightweight BitTorrent client
+Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
+
+To run: Menu -> Internet -> Transmission
+To run in a terminal: transmission-gtk
+
+Also see the Deluge app.
+Note: Torrents can contain illegal material, like pirated movies or cracked games. You use Transmission at your own risk.
+```
+
+### <img src="/img/app-icons/Xtreme Download Manager/icon-64.png" height=32> ***[Xtreme Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Xtreme%20Download%20Manager)***
+https://xtremedownloadmanager.com<br />
+ARM32/ARM64 - 14,920 Users!!
+```
+Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, save and convert streaming videos from thousands of websites, resume broken/dead downloads and schedule downloads.
+
+XDM seamlessly integrates with Google Chrome, Mozilla Firefox Quantum, Opera, Vivaldi and many popular browsers, to take over downloads and saving streaming videos from web.
+
+XDM has built in video converter which lets you convert downloaded videos to popular MP4 and MP3 formats.
+
+Support for HTTP, HTTPS, FTP, DASH, HLS, HDS protocols, firewalls, proxy servers, PAC scripts, file redirects, cookies, authorization, download queue, scheduler and many more feature makes XDM a very useful tool
+
+To run: Menu -> Internet -> Xtreme Download Manager
+To run in a terminal: /opt/xdman/xdman
 ```
 ## Multimedia
 

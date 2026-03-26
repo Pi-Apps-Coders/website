@@ -43,8 +43,8 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Persepolis Download Manager.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the <b>Internet</b> category.
-<img src="/img/category-selections/Internet.png">
+Then click on the <b>Internet</b> category, which leads to the <b>Download & Upload</b> category.
+<img src="/img/category-selections/Download & Upload.png">
 Now scroll down to find <b>Persepolis Download Manager</b> in the list.
 <img src="/img/app-icons/Persepolis Download Manager/app-selection.png">
 Just click Install and Pi-Apps will install Persepolis Download Manager for you!

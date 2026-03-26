@@ -45,8 +45,8 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install Deluge.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the <b>Internet</b> category.
-<img src="/img/category-selections/Internet.png">
+Then click on the <b>Internet</b> category, which leads to the <b>Download & Upload</b> category.
+<img src="/img/category-selections/Download & Upload.png">
 Now scroll down to find <b>Deluge</b> in the list.
 <img src="/img/app-icons/Deluge/app-selection.png">
 Just click Install and Pi-Apps will install Deluge for you!
