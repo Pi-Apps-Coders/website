@@ -677,6 +677,31 @@ To run: Menu -> Games -> Doom3Demo
 To run in a terminal: cd ~/Doom3Demo ; ~/Doom3Demo/dhewm3
 ```
 
+### <img src="/img/app-icons/En Croissant/icon-64.png" height=32> ***[En Croissant](https://github.com/Botspot/pi-apps/tree/master/apps/En%20Croissant)***
+https://encroissant.org/ - Original project:
+Francisco B. Salgueiro
+https://github.com/franciscoBSalgueiro/en-croissant
+
+Pi-Apps packaging:
+Alex Bowles<br />
+ARM32/ARM64
+```
+The Ultimate Chess Toolkit.
+
+En Croissant is a powerful chess database, analysis, and preparation tool.
+
+Features:
+• PGN database management
+• Chess engine analysis
+• Opening preparation tools
+• Modern fast UI built with Tauri
+
+This Pi-Apps package compiles the latest official release from source, providing a clean, up-to-date build with full compatibility across ARM systems.
+
+To run: Menu -> Games -> En Croissant
+To run in a terminal: en-croissant
+```
+
 ### <img src="/img/app-icons/Friday Night Funkin' Rewritten/icon-64.png" height=32> ***[Friday Night Funkin' Rewritten](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Rewritten)***
 https://github.com/HTV04/funkin-rewritten - HTV04 For this Engine. 
 LOVE2D devs
