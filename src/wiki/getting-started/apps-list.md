@@ -1677,6 +1677,20 @@ Run from Terminal: webhttrack
 Run from Menu: Menu -> Internet -> WebHTTrack Website Copier
 ```
 
+### <img src="/img/app-icons/OnionShare/icon-64.png" height=32> ***[OnionShare](https://github.com/Botspot/pi-apps/tree/master/apps/OnionShare)***
+https://onionshare.org/ - Botspot<br />
+ARM64 ONLY - 1,121 Users
+```
+Securely and anonymously share files, host websites, and chat with friends using the Tor network.
+Two people anywhere in the world with OnionShare can communicate peer-to-peer completely privately.
+
+Read their Security Design document here: https://docs.onionshare.org/2.6.2/en/security.html which explains what attack vectors are protected against, and what precautions are necessary to keep total anonymity.
+
+This installs OnionShare from flatpak.
+To run: Menu -> Internet -> OnionShare
+To run in a terminal: /usr/bin/flatpak run --command=onionshare org.onionshare.OnionShare
+```
+
 ### <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=32> ***[Persepolis Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Persepolis%20Download%20Manager)***
 https://persepolisdm.github.io/<br />
 ARM32/ARM64 - 2,468 Users!
@@ -1724,6 +1738,16 @@ This app is a bittorrent downloading and uploading application simiar to uTorren
 - IP Filtering (eMule & PeerGuardian format compatible)
 - IPv6 compliant
 - UPnP / NAT-PMP port forwarding support
+```
+
+### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
+https://github.com/RobinLinus/snapdrop - theofficialgman<br />
+ARM32/ARM64 - 11,788 Users!!
+```
+Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
+To run: Menu -> Internet -> Snapdrop
+To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
+Now drag and drop files to the website, and the other device will see the files and download them.
 ```
 
 ### <img src="/img/app-icons/Transmission/icon-64.png" height=32> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***
@@ -3219,20 +3243,6 @@ To run the GUI in a terminal: /opt/ollama-gui/ollama-gui-runner.sh
 To run Ollama's CLI interface in a terminal: ollama
 ```
 
-### <img src="/img/app-icons/OnionShare/icon-64.png" height=32> ***[OnionShare](https://github.com/Botspot/pi-apps/tree/master/apps/OnionShare)***
-https://onionshare.org/ - Botspot<br />
-ARM64 ONLY - 1,121 Users
-```
-Securely and anonymously share files, host websites, and chat with friends using the Tor network.
-Two people anywhere in the world with OnionShare can communicate peer-to-peer completely privately.
-
-Read their Security Design document here: https://docs.onionshare.org/2.6.2/en/security.html which explains what attack vectors are protected against, and what precautions are necessary to keep total anonymity.
-
-This installs OnionShare from flatpak.
-To run: Menu -> Internet -> OnionShare
-To run in a terminal: /usr/bin/flatpak run --command=onionshare org.onionshare.OnionShare
-```
-
 ### <img src="/img/app-icons/Organic Maps/icon-64.png" height=32> ***[Organic Maps](https://github.com/Botspot/pi-apps/tree/master/apps/Organic%20Maps)***
 https://flathub.org/apps/app.organicmaps.desktop - Botspot<br />
 ARM64 ONLY - 1,975 Users!
@@ -3359,16 +3369,6 @@ NOTE: This does not work on Wayland!! Use Flameshot.
 
 To run: Menu -> Accessories -> Screenshot
 To run in terminal: gnome-screenshot
-```
-
-### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
-https://github.com/RobinLinus/snapdrop - theofficialgman<br />
-ARM32/ARM64 - 11,788 Users!!
-```
-Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
-To run: Menu -> Internet -> Snapdrop
-To use: Open a web browser on the other computer/smartphone and go to snapdrop.net
-Now drag and drop files to the website, and the other device will see the files and download them.
 ```
 
 ### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***

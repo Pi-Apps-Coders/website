@@ -45,8 +45,8 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 Now that you have Pi-Apps installed, it is time to install OnionShare.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
-Then click on the <b>Tools</b> category.
-<img src="/img/category-selections/Tools.png">
+Then click on the <b>Internet</b> category, which leads to the <b>Download & Upload</b> category.
+<img src="/img/category-selections/Download & Upload.png">
 Now scroll down to find <b>OnionShare</b> in the list.
 <img src="/img/app-icons/OnionShare/app-selection.png">
 Just click Install and Pi-Apps will install OnionShare for you!
