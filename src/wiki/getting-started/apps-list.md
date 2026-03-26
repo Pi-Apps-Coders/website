@@ -1236,6 +1236,43 @@ To run: Menu -> Internet -> Persepolis Download Manager
 To run in a terminal: persepolis
 ```
 
+### <img src="/img/app-icons/qBittorrent/icon-64.png" height=32> ***[qBittorrent](https://github.com/Botspot/pi-apps/tree/master/apps/qBittorrent)***
+https://www.qbittorrent.org - Original qBittorrent authors at https://www.qbittorrent.org
+
+Pi-Apps submitter: petesimon@yahoo.com https://github.com/petesimon<br />
+Package app
+```
+Open-source software alternative to µTorrent.
+
+To run: Menu -> Internet -> qBittorrent
+To run in a terminal: qbittorrent
+
+This app is a bittorrent downloading and uploading application simiar to uTorrent, Transmission and Deluge.
+- Polished µTorrent-like User Interface
+- No Ads
+- Well-integrated and extensible Search Engine
+- Simultaneous search in many Torrent search sites
+- Category-specific search requests (e.g. Books, Music, Software)
+- RSS feed support with advanced download filters (incl. regex)
+- Many Bittorrent extensions supported:
+  - Magnet links
+  - Distributed hash table (DHT), peer exchange protocol (PEX), local peer discovery (LSD)
+  - Private torrents
+  - Encrypted connections
+  - and many more...
+- Remote control through Web user interface, written with AJAX
+- Nearly identical to the regular GUI
+- Sequential downloading (Download in order)
+- Advanced control over torrents, trackers and peers
+- Torrents queueing and prioritizing
+- Torrent content selection and prioritizing
+- Bandwidth scheduler
+- Torrent creation tool
+- IP Filtering (eMule & PeerGuardian format compatible)
+- IPv6 compliant
+- UPnP / NAT-PMP port forwarding support
+```
+
 ### <img src="/img/app-icons/RiiTag-RPC/icon-64.png" height=32> ***[RiiTag-RPC](https://github.com/Botspot/pi-apps/tree/master/apps/RiiTag-RPC)***
 tag.rc24.xyz - RiiTag and RiiTag-RPC created by the team of RiiConnect24.
 Script created by libewa.<br />
