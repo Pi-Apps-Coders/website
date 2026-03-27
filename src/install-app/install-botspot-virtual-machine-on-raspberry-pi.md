@@ -17,7 +17,8 @@ description: Install Botspot Virtual Machine on Raspberry Pi using Pi-Apps
 > To run the simplified graphical interface: Menu -> Office -> Botspot Virtual Machine
 > To see the help options for the full command-line interface: ~/.local/share/bvm/bvm help
 > 
-> NOTE: This software is in BETA. It was released just a few days ago and may have bugs. You are expected to report all issues and ask questions by clicking on the github.com link at the top of this window, then click on the Issues tab. It's also a good idea in general to read through the latest announcements there to learn more about how to use BVM, along with more tips and tricks.
+> NOTE: Report all issues and ask questions by clicking on the github.com link at the top of this window, then click on the Issues tab. It's also a good idea in general to read through the latest announcements to learn how to use BVM, along with other tips and tricks.
+> All frequently asked questions are answered here: https://github.com/Botspot/bvm/discussions/35
 
 Fortunately, Botspot Virtual Machine is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
