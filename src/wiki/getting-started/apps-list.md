@@ -2952,6 +2952,23 @@ To run manually: Menu -> System Tools -> Guake Terminal
 To run in a terminal: guake
 ```
 
+### <img src="/img/app-icons/kitty/icon-64.png" height=32> ***[kitty](https://github.com/Botspot/pi-apps/tree/master/apps/kitty)***
+https://sw.kovidgoyal.net/kitty/ - Original project:
+Kovid Goyal
+https://github.com/kovidgoyal/kitty
+
+Pi-Apps packaging:
+Alex Bowles<br />
+ARM64 ONLY
+```
+The fast, feature-rich, GPU based terminal emulator.
+
+Enjoy smooth performance, tabs and splits, advanced rendering, and extensive customisation. Perfect if you spend a lot of time in the terminal and want something faster and more capable than the default.
+
+To run: Menu -> System Tools -> kitty
+To run in a terminal: kitty
+```
+
 ### <img src="/img/app-icons/Microsoft PowerShell/icon-64.png" height=32> ***[Microsoft PowerShell](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20PowerShell)***
 https://docs.microsoft.com/en-us/powershell/scripting/install/install-raspbian?view=powershell-7.2 - Made by Microsoft [ Open Source Code ]
 Ported by TurquoiseTNT<br />
