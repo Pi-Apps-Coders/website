@@ -2829,7 +2829,7 @@ To run in a terminal: /snap/bin/snap-store
 ```
 
 ### <img src="/img/app-icons/Synaptic/icon-64.png" height=32> ***[Synaptic](https://github.com/Botspot/pi-apps/tree/master/apps/Synaptic)***
-https://www.lifewire.com/guide-to-synaptic-package-manager-220570y - Botspot<br />
+https://www.nongnu.org/synaptic/ - Botspot<br />
 Package app - 70,955 Users!!
 ```
 Advanced APT-package-management tool
@@ -3187,7 +3187,7 @@ Overall, this app is designed to get the most out of ZRAM. Even if your device n
 ```
 
 ### <img src="/img/app-icons/Nautilus/icon-64.png" height=32> ***[Nautilus](https://github.com/Botspot/pi-apps/tree/master/apps/Nautilus)***
-https://wiki.gnome.org/Apps/Files - Botspot<br />
+https://apps.gnome.org/Nautilus/ - Botspot<br />
 Package app - 83,946 Users!!
 ```
 Feature-rich file manager for the GNOME desktop
