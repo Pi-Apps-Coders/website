@@ -90,7 +90,7 @@ By default, this will apply the "botspot-dark" theme, but it will also install m
 ```
 
 ### <img src="/img/app-icons/Lightpad/icon-64.png" height=32> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***
-https://github.com/libredeb/lightpad<br />
+https://lightpad.sourceforge.io/<br />
 ARM64 ONLY - 11,288 Users!!
 ```
 LightPad is a lightweight, simple and powerful application launcher.
@@ -123,7 +123,7 @@ To run in a terminal: oomox-gui
 ```
 
 ### <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=32> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***
-https://github.com/techcoder20/RPI-PowerlineShell-Installer.git - Installation Script Created By RPICoder
+https://github.com/techcoder20/RPI-PowerlineShell-Installer - Installation Script Created By RPICoder
 Added To Pi-Apps By Botspot<br />
 ARM32/ARM64 - 5,922 Users!
 ```
@@ -179,7 +179,7 @@ To run in terminal: xsnow
 ## Creative Arts
 
 ### <img src="/img/app-icons/BlockBench/icon-64.png" height=32> ***[BlockBench](https://github.com/Botspot/pi-apps/tree/master/apps/BlockBench)***
-https://github.com/JannisX11/blockbench - JannisX11 (GitHub) for creating the program<br />
+https://www.blockbench.net/ - JannisX11 (GitHub) for creating the program<br />
 ARM32/ARM64 - 6,065 Users!
 ```
 Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures. Models can be exported into standardized formats, to be shared, rendered, 3D-printed, or used in game engines. There are also multiple dedicated formats for Minecraft Java and Bedrock Edition with format-specific features.
@@ -214,7 +214,7 @@ Run from Terminal: flatpak run io.github.lainsce.DotMatrix
 ```
 
 ### <img src="/img/app-icons/Drawing/icon-64.png" height=32> ***[Drawing](https://github.com/Botspot/pi-apps/tree/master/apps/Drawing)***
-https://github.com/maoschanz/drawing - Botspot<br />
+https://maoschanz.github.io/drawing/ - Botspot<br />
 ARM32/ARM64 - 7,292 Users!
 ```
 Simple program used to hand-draw png images.
@@ -326,7 +326,7 @@ To run in a terminal: pixelorama
 ```
 
 ### <img src="/img/app-icons/Shotwell/icon-64.png" height=32> ***[Shotwell](https://github.com/Botspot/pi-apps/tree/master/apps/Shotwell)***
-https://shotwell-project.org/doc/html/ - Botspot<br />
+https://shotwell-project.org/ - Botspot<br />
 Package app - 76,175 Users!!
 ```
 Organize, edit, and publish your photos.
@@ -357,7 +357,7 @@ To run in a terminal: ~/Cura.AppImage
 ```
 
 ### <img src="/img/app-icons/Eagle CAD/icon-64.png" height=32> ***[Eagle CAD](https://github.com/Botspot/pi-apps/tree/master/apps/Eagle%20CAD)***
-http://eagle.autodesk.com/eagle/software-versions/1 - Botspot made this app.<br />
+https://www.autodesk.com/products/eagle/overview - Botspot made this app.<br />
 ARM32/ARM64 - 3,155 Users!
 ```
 Discontinued utility in 2020 in favor of Autodesk Fusion to design printed circuit boards.
@@ -515,7 +515,7 @@ To run in a terminal: MESA_GL_VERSION_OVERRIDE=3.3 /opt/PrusaSlicer.AppImage
 ```
 
 ### <img src="/img/app-icons/SolveSpace/icon-64.png" height=32> ***[SolveSpace](https://github.com/Botspot/pi-apps/tree/master/apps/SolveSpace)***
-https://solvespace.com/tutorial.pl - Botspot<br />
+https://solvespace.com/ - Botspot<br />
 Package app - 503 Users
 ```
 Free (GPLv3) parametric 3d CAD tool.
@@ -557,7 +557,7 @@ This app runs with the help of Box86/Box64 and Wine.
 ## Games
 
 ### <img src="/img/app-icons/Amiberry/icon-64.png" height=32> ***[Amiberry](https://github.com/Botspot/pi-apps/tree/master/apps/Amiberry)***
-https://github.com/midwan/amiberry/ - Program created by Dimitris Panokostas (midwan) on GitHub.
+https://amiberry.com/ - Program created by Dimitris Panokostas (midwan) on GitHub.
 Debian packages created by @ryanfortner (GitHub)
 Scripts created by @ryanfortner (GitHub)<br />
 ARM32/ARM64 - 8,652 Users!
@@ -569,7 +569,7 @@ To run in a terminal: /opt/amiberry/amiberry
 ```
 
 ### <img src="/img/app-icons/AstroMenace/icon-64.png" height=32> ***[AstroMenace](https://github.com/Botspot/pi-apps/tree/master/apps/AstroMenace)***
-https://github.com/viewizard/astromenace - All contributer in github page
+https://viewizard.com/ - All contributer in github page
 added to pi-apps by Painadath
 samuelpainadath@gmail.com<br />
 ARM32/ARM64 - 10,749 Users!!
@@ -749,7 +749,7 @@ To run in a terminal: godot
 ```
 
 ### <img src="/img/app-icons/Heroes 2/icon-64.png" height=32> ***[Heroes 2](https://github.com/Botspot/pi-apps/tree/master/apps/Heroes%202)***
-https://github.com/ihhub/fheroes2<br />
+https://ihhub.github.io/fheroes2/<br />
 ARM32/ARM64 - 4,390 Users!
 ```
 Free implementation of Heroes of Might and Magic II game engine.
@@ -1018,6 +1018,7 @@ Saves and configs are stored in: ~/.local/share/.shatteredpixel/shattered-pixel-
 ```
 
 ### <img src="/img/app-icons/Steam/icon-64.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
+https://store.steampowered.com/about/download<br />
 ARM64 ONLY - 52,403 Users!!
 ```
 This emulates the Linux x86_64 version of Steam using Box86 and Box64.
@@ -1056,7 +1057,7 @@ Your User Data folder is where you place custom content (like songpacks):
 ```
 
 ### <img src="/img/app-icons/Tetris CLI/icon-64.png" height=32> ***[Tetris CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Tetris%20CLI)***
-https://github.com/k-vernooy/tetris - DEB packages hosted by ryanfortner<br />
+https://web.archive.org/web/20250801161441/https://github.com/k-vernooy/tetris - DEB packages hosted by ryanfortner<br />
 ARM32/ARM64 - 16,633 Users!!
 ```
 ASCII/CLI rendition of the Tetris game.
@@ -1158,7 +1159,7 @@ This is privacy-friendly and does not use cloud resources, but it is written in 
 ```
 
 ### <img src="/img/app-icons/RiiTag-RPC/icon-64.png" height=32> ***[RiiTag-RPC](https://github.com/Botspot/pi-apps/tree/master/apps/RiiTag-RPC)***
-tag.rc24.xyz - RiiTag and RiiTag-RPC created by the team of RiiConnect24.
+https://github.com/RiiConnect24/RiiTag-RPC - RiiTag and RiiTag-RPC created by the team of RiiConnect24.
 Script created by libewa.<br />
 ARM64 ONLY - 276 Users
 ```
@@ -1211,7 +1212,7 @@ Again, RustDesk is recommended. It's open source and works better.
 ```
 
 ### <img src="/img/app-icons/Web Apps/icon-64.png" height=32> ***[Web Apps](https://github.com/Botspot/pi-apps/tree/master/apps/Web%20Apps)***
-https://itsfoss.com/web-app-manager-linux-mint/ - linuxmint for maintaining the application
+https://github.com/linuxmint/webapp-manager - linuxmint for maintaining the application
 theofficialgman for packaging it for pi-apps<br />
 ARM32/ARM64 - 16,606 Users!!
 ```
@@ -1275,7 +1276,7 @@ NOTE: This will also install firefox-esr
 ```
 
 ### <img src="/img/app-icons/Chromium/icon-64.png" height=32> ***[Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium)***
-Botspot<br />
+https://www.chromium.org/Home/ - Botspot<br />
 Package app - 685,998 Users!!
 ```
 Open-source version of Google Chrome.
@@ -1306,7 +1307,7 @@ All deb files are downloaded from https://archive.raspberrypi.org/debian/pool/ma
 ```
 
 ### <img src="/img/app-icons/Epiphany/icon-64.png" height=32> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***
-https://gitlab.gnome.org/GNOME/epiphany - open-sorcerrer64<br />
+https://apps.gnome.org/Epiphany/ - open-sorcerrer64<br />
 Package app - 12,607 Users!!
 ```
 Epiphany is a lightweight web browser based on the WebKit rendering engine. It is also known as GNOME Web.
@@ -1389,7 +1390,7 @@ To run in a terminal: ~/mullvad-browser/Browser/start-mullvad-browser
 ```
 
 ### <img src="/img/app-icons/Puffin/icon-64.png" height=32> ***[Puffin](https://github.com/Botspot/pi-apps/tree/master/apps/Puffin)***
-https://www.puffin.com/raspberry-pi/ - Botspot added this app to Pi-Apps.<br />
+https://www.puffin.com/secure-browser - Botspot added this app to Pi-Apps.<br />
 ARM64 ONLY - 18,028 Users!!
 ```
 Speeds up web browsing thanks to cloud servers.
@@ -1420,7 +1421,7 @@ To run in a terminal: quartz_browser
 ```
 
 ### <img src="/img/app-icons/Tor/icon-64.png" height=32> ***[Tor](https://github.com/Botspot/pi-apps/tree/master/apps/Tor)***
-https://nightlies.tbb.torproject.org/nightly-builds/tor-browser-builds/ - Tor Browser is developed by The Tor Project, Inc.
+https://www.torproject.org/ - Tor Browser is developed by The Tor Project, Inc.
 https://www.torproject.org/about/people/
 
 Tor Browser ARM64 Nightly was put to Pi-Apps by oovlad
@@ -1467,7 +1468,7 @@ To run in a terminal: zen-browser
 ## Internet/Communication
 
 ### <img src="/img/app-icons/Caprine/icon-64.png" height=32> ***[Caprine](https://github.com/Botspot/pi-apps/tree/master/apps/Caprine)***
-https://sindresorhus.com/caprine/<br />
+https://github.com/sindresorhus/caprine<br />
 ARM32/ARM64 - 5,729 Users!
 ```
 Caprine is an unofficial and privacy focused Facebook Messenger app with many useful features. 
@@ -1480,7 +1481,7 @@ To run in a terminal: /opt/Caprine/caprine
 ```
 
 ### <img src="/img/app-icons/Legcord/icon-64.png" height=32> ***[Legcord](https://github.com/Botspot/pi-apps/tree/master/apps/Legcord)***
-https://github.com/Legcord/Legcord - @ryanfortner (GitHub)<br />
+https://legcord.app/ - @ryanfortner (GitHub)<br />
 ARM32/ARM64 - 7,104 Users!
 ```
 Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
@@ -1523,7 +1524,7 @@ Important note: all messages sent and received BEFORE authorizing Signal Desktop
 ```
 
 ### <img src="/img/app-icons/Telegram/icon-64.png" height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
-https://github.com/telegramdesktop/tdesktop<br />
+https://desktop.telegram.org/<br />
 ARM64 ONLY - 16,229 Users!!
 ```
 Telegram is a free and open source, cross-platform, cloud-based instant messaging software. This service also provides end-to-end encrypted video calling, VoIP, file sharing and several other features. 
@@ -1533,7 +1534,7 @@ To run from terminal: flatpak run org.telegram.desktop
 ```
 
 ### <img src="/img/app-icons/Thunderbird/icon-64.png" height=32> ***[Thunderbird](https://github.com/Botspot/pi-apps/tree/master/apps/Thunderbird)***
-https://www.thunderbird.net/features - Botspot<br />
+https://www.thunderbird.net/ - Botspot<br />
 Package app - 72,996 Users!!
 ```
 Email client with many features like a tabbed interface, smart spam filter, address book, search and filter tools, encryption, and numerous add-ons.
@@ -1574,7 +1575,7 @@ to run in a terminal: WINEPREFIX=$HOME/.config/wechat-prefix wine "$HOME/.config
 ```
 
 ### <img src="/img/app-icons/WhatsApp/icon-64.png" height=32> ***[WhatsApp](https://github.com/Botspot/pi-apps/tree/master/apps/WhatsApp)***
-no website - theofficialgman<br />
+https://web.whatsapp.com/ - theofficialgman<br />
 ARM32/ARM64 - 24,109 Users!!
 ```
 Whatsapp Web webapp
@@ -1741,7 +1742,7 @@ This app is a bittorrent downloading and uploading application simiar to uTorren
 ```
 
 ### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
-https://github.com/RobinLinus/snapdrop - theofficialgman<br />
+https://snapdrop.net/ - theofficialgman<br />
 ARM32/ARM64 - 11,794 Users!!
 ```
 Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
@@ -1838,7 +1839,7 @@ echo $XDG_CURRENT_DESKTOP
 ```
 
 ### <img src="/img/app-icons/Easy Effects/icon-64.png" height=32> ***[Easy Effects](https://github.com/Botspot/pi-apps/tree/master/apps/Easy%20Effects)***
-https://github.com/wwmm/easyeffects - Botspot<br />
+https://wwmm.github.io/easyeffects/ - Botspot<br />
 Package app - 3,691 Users!
 ```
 Useful audio effects that are applied to all system sounds
@@ -1882,7 +1883,7 @@ To run in a terminal: flatpak run --file-forwarding org.kde.kdenlive
 ```
 
 ### <img src="/img/app-icons/Kodi/icon-64.png" height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***
-https://kodi.tv/about - Botspot<br />
+https://kodi.tv/ - Botspot<br />
 ARM32/ARM64 - 28,285 Users!!
 ```
 Kodi is the ultimate entertainment center.
@@ -2036,7 +2037,7 @@ To run in a terminal: simplescreenrecorder
 ```
 
 ### <img src="/img/app-icons/Sonic Pi/icon-64.png" height=32> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
-https://sonic-pi.net/#rp<br />
+https://sonic-pi.net/<br />
 ARM32/ARM64 - 5,149 Users!
 ```
 Write code to make music. Latest version of Sonic Pi.
@@ -2107,7 +2108,7 @@ To run in a terminal: gtk-pipe-viewer
 ## Office
 
 ### <img src="/img/app-icons/AbiWord/icon-64.png" height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
-http://www.abisource.com/ -  open-sorcerer64<br />
+https://github.com/AbiWord/abiword -  open-sorcerer64<br />
 Package app - 9,479 Users!
 ```
 A free and open-source alternative to Microsoft Word.  
@@ -2122,7 +2123,7 @@ To run in terminal: abiword.
 ```
 
 ### <img src="/img/app-icons/Gnumeric/icon-64.png" height=32> ***[Gnumeric](https://github.com/Botspot/pi-apps/tree/master/apps/Gnumeric)***
-http://www.gnumeric.org/ - Botspot<br />
+https://gnome.pages.gitlab.gnome.org/gnumeric-web/ - Botspot<br />
 Package app - 4,488 Users!
 ```
 Fast, reliable spreadsheet program
@@ -2193,7 +2194,7 @@ To run from Terminal: obsidian
 ```
 
 ### <img src="/img/app-icons/OnlyOffice/icon-64.png" height=32> ***[OnlyOffice](https://github.com/Botspot/pi-apps/tree/master/apps/OnlyOffice)***
-https://www.onlyoffice.com/download-desktop - Botspot<br />
+https://www.onlyoffice.com/ - Botspot<br />
 ARM64 ONLY - 1,071 Users
 ```
 Open source Microsoft Office alternative, with a better interface than LibreOffice
@@ -2206,7 +2207,7 @@ NOTE: You may encounter slow performance because OnlyOffice cannot run natively 
 ```
 
 ### <img src="/img/app-icons/Open-Typer/icon-64.png" height=32> ***[Open-Typer](https://github.com/Botspot/pi-apps/tree/master/apps/Open-Typer)***
-https://github.com/Open-Typer/Open-Typer<br />
+https://open-typer.github.io/<br />
 ARM32/ARM64 - 1,751 Users!
 ```
 Open-Typer is an open source typing tutor application which aims to make learning to touch type easier.
@@ -2217,7 +2218,7 @@ To run in terminal: /opt/Open-Typer.AppImage
 ```
 
 ### <img src="/img/app-icons/ProjectLibre/icon-64.png" height=32> ***[ProjectLibre](https://github.com/Botspot/pi-apps/tree/master/apps/ProjectLibre)***
-https://www.projectlibre.com/product/1-alternative-microsoft-project-open-source - Botspot<br />
+https://www.projectlibre.com/projectlibre-desktop/ - Botspot<br />
 ARM32/ARM64 - 1,813 Users!
 ```
 A desktop replacement for Microsoft Project - a project management software
@@ -2318,7 +2319,7 @@ To run in a terminal: bluej
 ```
 
 ### <img src="/img/app-icons/Codex/icon-64.png" height=32> ***[Codex](https://github.com/Botspot/pi-apps/tree/master/apps/Codex)***
-https://github.com/jcv8000/Codex<br />
+https://codexnotes.com/<br />
 ARM32/ARM64 - 3,678 Users!
 ```
 A free note-taking software for programmers and Computer Science students.
@@ -2367,7 +2368,7 @@ To run in a terminal: github-desktop
 ```
 
 ### <img src="/img/app-icons/Gnome Builder IDE/icon-64.png" height=32> ***[Gnome Builder IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Builder%20IDE)***
-https://wiki.gnome.org/Apps/Builder<br />
+https://apps.gnome.org/Builder/<br />
 ARM64 ONLY - 1,145 Users
 ```
 Builder is an actively developed Integrated Development Environment for GNOME.
@@ -2694,7 +2695,7 @@ To run in a terminal: ~/CommanderPi/src/start.sh
 ```
 
 ### <img src="/img/app-icons/Disk Usage Analyzer/icon-64.png" height=32> ***[Disk Usage Analyzer](https://github.com/Botspot/pi-apps/tree/master/apps/Disk%20Usage%20Analyzer)***
-https://wiki.gnome.org/Apps/DiskUsageAnalyzer - Botspot<br />
+https://apps.gnome.org/Baobab/ - Botspot<br />
 Package app - 128,491 Users!!
 ```
 Ever wonder where you put that big file, or why your SD card is full? Now you can, with a glance at a pie chart.
@@ -2732,7 +2733,7 @@ To run in a terminal: sudo gparted
 ```
 
 ### <img src="/img/app-icons/Mission Center/icon-64.png" height=32> ***[Mission Center](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Center)***
-https://gitlab.com/mission-center-devs/mission-center<br />
+https://missioncenter.io/<br />
 ARM32/ARM64 - 600 Users
 ```
 Beautiful and powerful task manager
@@ -2916,7 +2917,7 @@ To run in a terminal: ~/update-buddy/onstartup.sh
 ## Terminals
 
 ### <img src="/img/app-icons/Alacritty Terminal/icon-64.png" height=32> ***[Alacritty Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Alacritty%20Terminal)***
-https://github.com/alacritty/alacritty - theofficialgman for building the debs.
+https://alacritty.org/ - theofficialgman for building the debs.
 barnumbirr on github for making the debian sources.<br />
 ARM32/ARM64 - 6,241 Users!
 ```
@@ -2940,7 +2941,7 @@ Note: This is fully hardware accelerated as long as you have the GPU driver enab
 ```
 
 ### <img src="/img/app-icons/Guake Terminal/icon-64.png" height=32> ***[Guake Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Guake%20Terminal)***
-http://guake-project.org/ - Botspot<br />
+https://guake.github.io/ - Botspot<br />
 ARM32/ARM64 - 4,668 Users!
 ```
 Guake is a top-down terminal, inspirated by the famous terminal used in Quake.
@@ -2970,7 +2971,7 @@ To run in a terminal: kitty
 ```
 
 ### <img src="/img/app-icons/Microsoft PowerShell/icon-64.png" height=32> ***[Microsoft PowerShell](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20PowerShell)***
-https://docs.microsoft.com/en-us/powershell/scripting/install/install-raspbian?view=powershell-7.2 - Made by Microsoft [ Open Source Code ]
+https://learn.microsoft.com/powershell/ - Made by Microsoft [ Open Source Code ]
 Ported by TurquoiseTNT<br />
 ARM32/ARM64 - 9,187 Users!
 ```
@@ -3030,7 +3031,7 @@ Run from Terminal: antimicrox
 ```
 
 ### <img src="/img/app-icons/BalenaEtcher/icon-64.png" height=32> ***[BalenaEtcher](https://github.com/Botspot/pi-apps/tree/master/apps/BalenaEtcher)***
-https://github.com/Pi-Apps-Coders/files/blob/main/CompileCommands.md#balenaetcher - @theofficialgman (GitHub)
+https://etcher.balena.io/ - @theofficialgman (GitHub)
 @Itai-Nelken (GitHub)
 @ryanfortner (GitHub)<br />
 ARM64 ONLY - 53,927 Users!!
@@ -3124,7 +3125,7 @@ To run in a terminal: gapplication launch org.gnome.Maps
 ```
 
 ### <img src="/img/app-icons/Imager/icon-64.png" height=32> ***[Imager](https://github.com/Botspot/pi-apps/tree/master/apps/Imager)***
-https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility - Botspot<br />
+https://www.raspberrypi.com/software/ - Botspot<br />
 Package app - 591,136 Users!!
 ```
 Raspberry Pi's official SD card imaging utility.
@@ -3134,7 +3135,7 @@ To run in terminal: rpi-imager
 ```
 
 ### <img src="/img/app-icons/KeePassXC/icon-64.png" height=32> ***[KeePassXC](https://github.com/Botspot/pi-apps/tree/master/apps/KeePassXC)***
-https://github.com/keepassxreboot/keepassxc - @ryanfortner (GitHub) for the scripts
+https://keepassxc.org/ - @ryanfortner (GitHub) for the scripts
 @raspbian-addons maintainers for the deb<br />
 ARM32/ARM64 - 7,013 Users!
 ```
@@ -3261,7 +3262,7 @@ To run Ollama's CLI interface in a terminal: ollama
 ```
 
 ### <img src="/img/app-icons/Organic Maps/icon-64.png" height=32> ***[Organic Maps](https://github.com/Botspot/pi-apps/tree/master/apps/Organic%20Maps)***
-https://flathub.org/apps/app.organicmaps.desktop - Botspot<br />
+https://organicmaps.app/ - Botspot<br />
 ARM64 ONLY - 1,982 Users!
 ```
 Free offline maps for everyone
@@ -3317,7 +3318,7 @@ and it makes life easier by eliminating the use of quotes for apps with a space 
 ```
 
 ### <img src="/img/app-icons/PiGro/icon-64.png" height=32> ***[PiGro](https://github.com/Botspot/pi-apps/tree/master/apps/PiGro)***
-https://github.com/actionschnitzel/PiGro-Aid-<br />
+https://zestful-pigroxtrmo.wordpress.com/<br />
 ARM32/ARM64 - 21,935 Users!!
 ```
 A system configuration tool inspired by openSUSE's YaST but with the user-friendliness of Linux Mint. PiGro equips Raspberry Pi OS with graphical interfaces for tasks that would otherwise require the terminal. It is also optimized for Ubuntu, Ubuntu Mate, and MX Linux.
@@ -3378,7 +3379,7 @@ Notes:
 ```
 
 ### <img src="/img/app-icons/Screenshot/icon-64.png" height=32> ***[Screenshot](https://github.com/Botspot/pi-apps/tree/master/apps/Screenshot)***
-https://apps.gnome.org/app/org.gnome.Screenshot - Botspot<br />
+https://gitlab.gnome.org/Archive/gnome-screenshot - Botspot<br />
 Package app - 61,958 Users!!
 ```
 Simple interface for capturing screenshots, similar to the Windows Snipping Tool.
@@ -3389,7 +3390,7 @@ To run in terminal: gnome-screenshot
 ```
 
 ### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
-https://github.com/debrouxl/tilp_and_gfm - @ryanfortner (GitHub)<br />
+http://lpg.ticalc.org/prj_tilp/ - @ryanfortner (GitHub)<br />
 Package app - 2,166 Users!
 ```
 TiLP is a linking program for Texas Instruments graphing calculators. It can transfer apps, programs, and more to a calculator.
@@ -3399,7 +3400,7 @@ To run in a terminal: tilp
 ```
 
 ### <img src="/img/app-icons/tldr/icon-64.png" height=32> ***[tldr](https://github.com/Botspot/pi-apps/tree/master/apps/tldr)***
-https://dbrgn.github.io/tealdeer - the main developer - dbrgn (Danilo Bargen)<br />
+https://tldr.sh/ - the main developer - dbrgn (Danilo Bargen)<br />
 ARM32/ARM64 - 5,758 Users!
 ```
 The tldr project is a collection of community-maintained help pages for command-line tools, that aims to be a simpler, more approachable complement to traditional man pages.
@@ -3422,7 +3423,7 @@ To run from terminal, type: usbimager.
 ```
 
 ### <img src="/img/app-icons/VeraCrypt/icon-64.png" height=32> ***[VeraCrypt](https://github.com/Botspot/pi-apps/tree/master/apps/VeraCrypt)***
-https://www.veracrypt.fr/en/Documentation.html - nielsbaloe on Github suggested this be added.
+https://veracrypt.io/ - nielsbaloe on Github suggested this be added.
 Botspot added it.<br />
 ARM32/ARM64 - 10,346 Users!!
 ```
@@ -3533,7 +3534,7 @@ To run the CLI version in a terminal: monero-wallet-cli
 ```
 
 ### <img src="/img/app-icons/XMRig/icon-64.png" height=32> ***[XMRig](https://github.com/Botspot/pi-apps/tree/master/apps/XMRig)***
-https://github.com/xmrig/xmrig - Thanks to
+https://xmrig.com/ - Thanks to
  - Everyone who has contributed to XMRig!
  - Crilum on Github for writing install/uninstall scripts!
  - @GYKgamer on Github for suggesting this!<br />
@@ -3577,7 +3578,7 @@ All frequently asked questions are answered here: https://github.com/Botspot/bvm
 ```
 
 ### <img src="/img/app-icons/Box64/icon-64.png" height=32> ***[Box64](https://github.com/Botspot/pi-apps/tree/master/apps/Box64)***
-https://github.com/ptitSeb/box64 - ptitseb for creating box64
+https://box86.org/ - ptitseb for creating box64
 debs made by Pi-Apps-Coders development team<br />
 ARM64 ONLY - 129,862 Users!!
 ```
@@ -3593,7 +3594,7 @@ To run in a terminal: box64
 ```
 
 ### <img src="/img/app-icons/Box86/icon-64.png" height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***
-https://github.com/ptitSeb/box86 - ptitseb for creating box64
+https://box86.org/ - ptitseb for creating box64
 debs made by Pi-Apps-Coders development team<br />
 ARM32/ARM64 - 138,050 Users!!
 ```
