@@ -220,7 +220,7 @@ generate-install-page() { #Generate app install guide for one app. Assumes GITHU
 
     if [[ "$hardware" == "Raspberry Pi" ]]; then
       hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
+For the best chance of this working, we recommend using the latest 64-bit version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Trixie**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5."
       hw_img="<img src=/img/other-icons/raspberrypi-icon.svg height=24> "
     elif [[ "$hardware" == "Nintendo Switch" ]]; then
@@ -229,7 +229,7 @@ For the best chance of this working, we recommend using the latest version of [S
       hw_img="<img src=/img/other-icons/switch-icon.svg height=24> "
     elif [[ "$hardware" == "Nvidia Jetson" ]]; then
       hw_compat_message="## Compatibility
-For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin)."
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier or Jetson Orin)."
       hw_img="<img src=/img/other-icons/nvidia-icon.svg height=24> "
     else
       hw_compat_message="## Compatibility
