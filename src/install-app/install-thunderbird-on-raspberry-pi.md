@@ -18,7 +18,7 @@ Fortunately, Thunderbird is very easy to install on your Raspberry Pi in just tw
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
+For the best chance of this working, we recommend using the latest 64-bit version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Trixie**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
 Thunderbird will run on either PiOS 32-bit or 64-bit.
 </div>

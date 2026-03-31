@@ -20,7 +20,7 @@ Fortunately, Zen is very easy to install on your Raspberry Pi in just two steps.
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
+For the best chance of this working, we recommend using the latest 64-bit version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Trixie**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
 **Zen will only run on PiOS 64-bit.** Pi-Apps will not let you install Zen on PiOS 32-bit.
 </div>
