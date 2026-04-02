@@ -1158,6 +1158,48 @@ Does not work on Wayland, meaning it is fairly useless on Pi OS Bookworm unless 
 This is privacy-friendly and does not use cloud resources, but it is written in Electron and consumes a lot of CPU processing power when in use. It is not suitable for Pi models older than the Pi4.
 ```
 
+### <img src="/img/app-icons/Ethernet Hotspot/icon-64.png" height=32> ***[Ethernet Hotspot](https://github.com/Botspot/pi-apps/tree/master/apps/Ethernet%20Hotspot)***
+https://github.com/Botspot/ethernet-hotspot - Botspot<br />
+ARM32/ARM64
+```
+Share your WiFi connection with other devices, using an Ethernet cable
+This is useful for when you only have one WiFi adapter, but you want multiple devices to use that one internet connection, without buying any additional hardware.
+With this script, I'm using a Raspberry Pi's built-in ethernet port to share its internet connection to other downstream devices.
+
+To connect multiple devices downstream, use an ethernet switch.
+
+To run: Menu -> System Tools -> Ethernet Hotspot
+To run in a terminal: sudo ethernet-hotspot
+```
+
+### <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png" height=32> ***[Linux Wifi Hotspot](https://github.com/Botspot/pi-apps/tree/master/apps/Linux%20Wifi%20Hotspot)***
+https://github.com/lakinduakash/linux-wifi-hotspot - Thanks to:
+ - @lakinduakash on GitHub (as well as all contributors) for creating this app
+ - @Crilum on GitHub for adding this app to Pi-Apps<br />
+ARM32/ARM64 - 13,409 Users!!
+```
+A feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface.
+
+Run GUI from Menu: Menu -> System Tools -> Wifi Hotspot
+Run GUI from Terminal: wihotspot
+Run CLI from Terminal: create_ap
+
+Features:
+ - Share your wifi like in Windows - Use wifi and enable hotspot at the same time.
+ - Share a wifi access point from any network interface
+ - Share wifi via QR code
+ - MAC filter
+ - View connected devices
+ - Includes both CLI and GUI.
+ - Supports both 2.4GHz and 5GHz - You can be connected to a 5GHz network and have your hotspot on a 2.4GHz network.
+ - Customise wifi channel, Change MAC address, etc.
+ - Hide SSID
+ - Customize gateway IP address
+ - Enable IEEE 80211n, IEEE 80211ac modes
+
+Note: Running Linux Wifi Hotspot from the Menu will turn on your Wifi, becuause trying to start a Hotspot with your Wifi off won't work.
+```
+
 ### <img src="/img/app-icons/RiiTag-RPC/icon-64.png" height=32> ***[RiiTag-RPC](https://github.com/Botspot/pi-apps/tree/master/apps/RiiTag-RPC)***
 https://github.com/RiiConnect24/RiiTag-RPC - RiiTag and RiiTag-RPC created by the team of RiiConnect24.
 Script created by libewa.<br />
@@ -3143,34 +3185,6 @@ KeePassXC is a modern, secure, and open-source password manager that stores and 
 
 To run: Menu -> Accessories -> KeePassXC
 To run in a terminal: keepassxc
-```
-
-### <img src="/img/app-icons/Linux Wifi Hotspot/icon-64.png" height=32> ***[Linux Wifi Hotspot](https://github.com/Botspot/pi-apps/tree/master/apps/Linux%20Wifi%20Hotspot)***
-https://github.com/lakinduakash/linux-wifi-hotspot - Thanks to:
- - @lakinduakash on GitHub (as well as all contributors) for creating this app
- - @Crilum on GitHub for adding this app to Pi-Apps<br />
-ARM32/ARM64 - 13,409 Users!!
-```
-A feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface.
-
-Run GUI from Menu: Menu -> System Tools -> Wifi Hotspot
-Run GUI from Terminal: wihotspot
-Run CLI from Terminal: create_ap
-
-Features:
- - Share your wifi like in Windows - Use wifi and enable hotspot at the same time.
- - Share a wifi access point from any network interface
- - Share wifi via QR code
- - MAC filter
- - View connected devices
- - Includes both CLI and GUI.
- - Supports both 2.4GHz and 5GHz - You can be connected to a 5GHz network and have your hotspot on a 2.4GHz network.
- - Customise wifi channel, Change MAC address, etc.
- - Hide SSID
- - Customize gateway IP address
- - Enable IEEE 80211n, IEEE 80211ac modes
-
-Note: Running Linux Wifi Hotspot from the Menu will turn on your Wifi, becuause trying to start a Hotspot with your Wifi off won't work.
 ```
 
 ### <img src="/img/app-icons/More RAM/icon-64.png" height=32> ***[More RAM](https://github.com/Botspot/pi-apps/tree/master/apps/More%20RAM)***
