@@ -7,17 +7,16 @@ description: Install En Croissant on Raspberry Pi using Pi-Apps
 # Install <img src="/img/app-icons/En Croissant/icon-64.png" height=24> En Croissant on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
 
 ## <img src="/img/app-icons/En Croissant/icon-64.png"> En Croissant
-> The Ultimate Chess Toolkit.
+> The Ultimate Chess Toolkit
 > 
-> En Croissant is a powerful chess database, analysis, and preparation tool.
+> En-Croissant is an open-source, cross-platform chess GUI that aims to be powerful, customizable and easy to use.
 > 
 > Features:
-> • PGN database management
-> • Chess engine analysis
-> • Opening preparation tools
-> • Modern fast UI built with Tauri
-> 
-> This Pi-Apps package compiles the latest official release from source, providing a clean, up-to-date build with full compatibility across ARM systems.
+> • Store and analyze your games from lichess.org and chess.com
+> • Multi-engine analysis. Supports all UCI engines
+> • Prepare a repertoire and train it with spaced repetition
+> • Simple engine and database installation and management
+> • Absolute or partial position search in the database
 > 
 > To run: Menu -> Games -> En Croissant
 > To run in a terminal: en-croissant
