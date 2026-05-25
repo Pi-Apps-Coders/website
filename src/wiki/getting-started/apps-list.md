@@ -2769,7 +2769,7 @@ To run in a terminal: sudo gparted
 
 ### <img src="/img/app-icons/Mission Center/icon-64.png" height=32> ***[Mission Center](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Center)***
 https://missioncenter.io/<br />
-ARM32/ARM64 - 1,060 Users
+ARM64 ONLY - 1,060 Users
 ```
 Beautiful and powerful task manager
 

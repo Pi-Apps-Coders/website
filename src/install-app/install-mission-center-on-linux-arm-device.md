@@ -32,7 +32,7 @@ Fortunately, Mission Center is very easy to install on your Linux ARM Device in 
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Mission Center will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+Mission Center will only run on an Ubuntu/Debian ARM64 OS. Pi-Apps will not let you install Mission Center on an Ubuntu/Debian ARM32 OS.
 </div>
 <div class="simple-install-content content">
 
