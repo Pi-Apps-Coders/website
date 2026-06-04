@@ -573,6 +573,23 @@ To run: Menu -> Games -> AstroMenace
 To run in a terminal: ~/astromenace-master/astromenace
 ```
 
+### <img src="/img/app-icons/Azahar/icon-64.png" height=32> ***[Azahar](https://github.com/Botspot/pi-apps/tree/master/apps/Azahar)***
+azahar-emu.org - Azahar team for development (see contributors at https://github.com/azahar-emu/azahar/graphs/contributors)
+Crilum for writing scripts<br />
+ARM64 ONLY
+```
+Azahar is an open-source 3DS emulator project based on Citra.
+
+It was created from the merging of PabloMK7's Citra fork and the Lime3DS project, both of which emerged shortly after Citra was taken down.
+The goal of this project is to be the de-facto platform for future development.
+
+IMPORTANT: You have to disable hardware shaders for playable performance:
+Azahar Menu -> Emulation -> Configure -> Graphics -> Advanced -> Turn OFF `Enable hardware shader`
+
+To run from menu: Games -> Azahar
+To run from terminal: flatpak run org.azahar_emu.Azahar
+```
+
 ### <img src="/img/app-icons/Celeste64/icon-64.png" height=32> ***[Celeste64](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste64)***
 https://maddymakesgamesinc.itch.io/celeste64 - Extremely OK Games<br />
 ARM32/ARM64 - 6,316 Users!
@@ -3287,6 +3304,15 @@ The Linux version of Organic Maps has not reached feature parity with the Androi
 
 To run: Menu -> Education -> Organic Maps
 To run in a terminal: flatpak run --branch=stable --arch=aarch64 --command=OMaps app.organicmaps.desktop
+```
+
+### <img src="/img/app-icons/Packet/icon-64.png" height=32> ***[Packet](https://github.com/Botspot/pi-apps/tree/master/apps/Packet)***
+https://github.com/nozwock/packet<br />
+ARM64 ONLY - 140 Users
+```
+A partial implementation of Google's Quick Share protocol that lets you send and receive files wirelessly from Android devices using Quick Share, or another device with Packet.
+
+Packet may require Bluetooth to be enabled for some devices. The devices must be connected to a Wi-Fi network with mDNS.
 ```
 
 ### <img src="/img/app-icons/PeaZip/icon-64.png" height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***
