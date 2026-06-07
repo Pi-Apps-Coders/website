@@ -711,6 +711,24 @@ To run: Menu -> Games -> En Croissant
 To run in a terminal: en-croissant
 ```
 
+### <img src="/img/app-icons/Friday Night Funkin' Shadow Engine/icon-64.png" height=32> ***[Friday Night Funkin' Shadow Engine](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Shadow%20Engine)***
+https://github.com/ShadowEngineTeam/FNF-Shadow-Engine - Shadow Engine Team for creating the Shadow Engine
+Shadow Mario for the Psych Engine
+ninjamuffin99 for the Friday Night Funkin' Game itself<br />
+ARM32/ARM64
+```
+Shadow Engine is a highly modified Psych Engine 0.7.3 fork for Friday Night Funkin'. It features advanced modding capabilities, Lua/Luau and Haxe scripting support, improved performance, and additional features over the base Psych Engine.
+
+This engine is ready to be modded and includes features like V-Slice, scripted states, and more.
+
+WARNING: Some songs, states, and stages may use shaders or have too many sprites, which can cause FPS drops on Raspberry Pi. Shaders and Low Quality options can be toggled in the game settings, or just simply make window small :D
+
+To install mods: place the mod folder or unzip the mod into ~/.ShadowEngine/mods/
+
+To run: Menu -> Games -> Friday Night Funkin' Shadow Engine
+To run in a terminal: ~/.ShadowEngine/ShadowEngine
+```
+
 ### <img src="/img/app-icons/Friday Night Funkin' Rewritten/icon-64.png" height=32> ***[Friday Night Funkin' Rewritten](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Rewritten)***
 https://github.com/HTV04/funkin-rewritten - HTV04 For this Engine. 
 LOVE2D devs
