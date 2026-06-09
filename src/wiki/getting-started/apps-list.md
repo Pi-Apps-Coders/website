@@ -526,6 +526,28 @@ To run: Menu -> Graphics -> SolveSpace
 To run in a terminal: solvespace
 ```
 
+### <img src="/img/app-icons/VARA FM/icon-64.png" height=32> ***[VARA FM](https://github.com/Botspot/pi-apps/tree/master/apps/VARA%20FM)***
+https://downloads.winlink.org/ - Added to pi-apps by Fredrik Lundhag after using VARA HF from Eric Wiessner (KI7POL) as a template.
+
+Special thanks: Sebastien "ptitSeb" Chevalier (box86/box64), Esme "madewokherd" Povirk (wine-mono functions),
+MarcoDT (Artemis, early programming encouragement), Botspot / theofficialgman (Pi-Apps Wine installer),
+everyone who's helped and inspired Winelink (OH8STN, K0SWE, KD2ROS, PE1RRR, LB4PJ, K7MHI, WH6AZ, KM4ACK, KR0SIV),
+Pat team (LA5NTA, K0SWE), proof-of-concept Winlink on Linux guides (K6ETA, DCJ21), ARDOP devs (KN6KB, G8BPQ, KG4JJA),
+those who got me interested in ham radio (N7ACW, AD7HE, KK6FVG), and everyone who tries to keep ham radio open source.
+
+"My humanity is bound up in yours, for we can only be human together" - Nelson Mandela<br />
+ARM32/ARM64
+```
+A shareware FM modem for amateur radio messaging.
+
+VARA modems require a messaging app (such as Pat, Winlink Express, VarAC, or VARAChat), an amateur radio transceiver, and cables to connect audio and PTT control from your Pi to the transceiver.
+
+Run from Menu: Menu -> Accessories -> VARA FM
+Run from Terminal: wine "C:\VARAFM\VARAFM.exe"
+
+This app runs with the help of Box86/Box64 and Wine.
+```
+
 ### <img src="/img/app-icons/VARA HF/icon-64.png" height=32> ***[VARA HF](https://github.com/Botspot/pi-apps/tree/master/apps/VARA%20HF)***
 https://rosmodem.wordpress.com/ - Added to pi-apps by Eric Wiessner (KI7POL)
 
@@ -544,6 +566,27 @@ VARA modems require a messaging app (such as Pat, Winlink Express, VarAC, or VAR
 
 Run from Menu: Menu -> Accessories -> VARA HF
 Run from Terminal: wine "C:\VARA\VARA.exe"
+
+This app runs with the help of Box86/Box64 and Wine.
+```
+
+### <img src="/img/app-icons/Winlink Express/icon-64.png" height=32> ***[Winlink Express](https://github.com/Botspot/pi-apps/tree/master/apps/Winlink%20Express)***
+https://winlink.org/ - Winlink Express is developed by the Winlink Development Team (Amateur Radio Safety Foundation, Inc.).
+
+Special thanks: Sebastien "ptitSeb" Chevalier (box86/box64), the Pi-Apps Wine installer maintainers (Botspot / theofficialgman), and everyone who helps keep ham radio on Linux working.
+
+See https://winlink.org/ for more information.
+
+Added to pi-apps by Fredrik Lundhag after using VARA HF from Eric Wiessner (KI7POL) as a template.<br />
+ARM32/ARM64
+```
+A ham radio messaging client for the Winlink radio email network.
+
+Winlink Express (formerly RMS Express) is the standard Windows client for sending and receiving email over amateur radio, with or without an internet connection. It works with software modems such as VARA FM, VARA HF, and ARDOP.
+
+Winlink Express requires a software modem (such as VARA FM or VARA HF), an amateur radio transceiver, and cables to connect audio and PTT control from your Pi to the transceiver.
+
+Run from Menu: Menu -> Accessories -> Winlink Express
 
 This app runs with the help of Box86/Box64 and Wine.
 ```
