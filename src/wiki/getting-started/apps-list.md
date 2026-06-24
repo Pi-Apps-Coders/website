@@ -1517,22 +1517,6 @@ To run: Menu -> Internet -> Puffin Internet Terminal (Demo)
 To run in a terminal: puffin-internet-terminal-demo
 ```
 
-### <img src="/img/app-icons/Quartz/icon-64.png" height=32> ***[Quartz](https://github.com/Botspot/pi-apps/tree/master/apps/Quartz)***
-https://github.com/ksharindam/quartz-browser-qt5<br />
-ARM32/ARM64 - 2,962 Users!
-```
-A useful fast Web Browser for Windows and Linux written in pyqt5 webkit.
-
-This browser is aimed at ease of use, faster page loading, very short startup time.
-
-This has minimal settings to avoid confusion.Yet it has most useful settings, such as load images on/off, javascript on/off, change font.
-
-To save pages to read later, print feature can be used to save as pdf. And it can also export the whole page as png image.
-
-To run: Menu -> Internet -> Quartz Browser
-To run in a terminal: quartz_browser
-```
-
 ### <img src="/img/app-icons/Tor/icon-64.png" height=32> ***[Tor](https://github.com/Botspot/pi-apps/tree/master/apps/Tor)***
 https://www.torproject.org/ - Tor Browser is developed by The Tor Project, Inc.
 https://www.torproject.org/about/people/
@@ -2566,26 +2550,6 @@ WARNING for all 32-bit OS users: All JetBrains applications are deprecated on 32
 
 To run: Menu -> Programming -> Pycharm
 To run in a terminal: /opt/pycharm-community/bin/pycharm.sh
-```
-
-### <img src="/img/app-icons/Remarkable/icon-64.png" height=32> ***[Remarkable](https://github.com/Botspot/pi-apps/tree/master/apps/Remarkable)***
-https://remarkableapp.github.io - Added to Pi-Apps by Itai-Nelken.
-Thanks to seiferteric on GitHub for providing the DEB package fix.<br />
-ARM32/ARM64 - 2,672 Users!
-```
-A fully featured Markdown editor for Linux.
-Remarkable has many features including:
-- Live Preview with Synchronized Scrolling
-- Syntax Highlighting
-- GitHub Flavored Markdown Support
-- HTML and PDF Export
-- Dialogs for adding images, links and tables
-- Styles
-- Custom CSS Support
-- Keyboard Shortcuts
-
-To run: Menu -> Accessories -> Remarkable
-To run in a terminal: remarkable
 ```
 
 ### <img src="/img/app-icons/Scratch 2/icon-64.png" height=32> ***[Scratch 2](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%202)***
