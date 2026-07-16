@@ -11,7 +11,7 @@ eleventyNavigation:
 nerdfonts.com - Original Font: Microsoft Corporation (https://github.com/microsoft/cascadia-code)
 Patched font: Nerd Fonts (https://nerdfonts.com)
 Pi-Apps installer: (https://github.com/libewa)<br />
-ARM32/ARM64 - 2,560 Users!
+ARM32/ARM64 - 2,561 Users!
 ```
 A fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.
 This font will be installed in /usr/local/share/fonts and will be available in most programs on next restart.
@@ -19,7 +19,7 @@ This font will be installed in /usr/local/share/fonts and will be available in m
 
 ### <img src="/img/app-icons/Colored Man Pages/icon-64.png" height=32> ***[Colored Man Pages](https://github.com/Botspot/pi-apps/tree/master/apps/Colored%20Man%20Pages)***
 Botspot<br />
-ARM32/ARM64 - 2,303 Users!
+ARM32/ARM64 - 2,304 Users!
 ```
 Add a bit of color coding to the documentation for linux commands.
 You may have used the man command before.
@@ -33,7 +33,7 @@ Then, as root, go edit this file: /usr/local/bin/man
 ```
 
 ### <img src="/img/app-icons/Color Emoji font/icon-64.png" height=32> ***[Color Emoji font](https://github.com/Botspot/pi-apps/tree/master/apps/Color%20Emoji%20font)***
-ARM32/ARM64 - 10,261 Users!!
+ARM32/ARM64 - 10,263 Users!!
 ```
 Installs two fonts to display all emojis in color in Unicode 13.0.
 This installs Noto Color Emoji font.
@@ -42,7 +42,7 @@ To test if it works, go to: https://web.archive.org/web/20240112181458/https://t
 
 ### <img src="/img/app-icons/Command Not Found/icon-64.png" height=32> ***[Command Not Found](https://github.com/Botspot/pi-apps/tree/master/apps/Command%20Not%20Found)***
 Botspot<br />
-Package app - 11,069 Users!!
+Package app - 11,114 Users!!
 ```
 Suggests which package to install if command not found
 This makes the terminal much easier to use. If you try to run a command that does not exist, this will either suggest the right package to install, or try to suggest similar names if no exact matches are found. This tool is so helpful that it comes by default on Ubuntu, but not Pi OS for whatever reason.
@@ -62,7 +62,7 @@ Then open a new terminal and try running a program that is not installed.
 
 ### <img src="/img/app-icons/Conky/icon-64.png" height=32> ***[Conky](https://github.com/Botspot/pi-apps/tree/master/apps/Conky)***
 https://github.com/Botspot/rpi_conky<br />
-ARM32/ARM64 - 36,513 Users!!
+ARM32/ARM64 - 36,524 Users!!
 ```
 Monitors CPU, RAM, disk usage, and more.
 This sits on your desktop, refreshing once a second, with pretty graphs showing you all you need to know.
@@ -74,7 +74,7 @@ To run in a terminal: conky
 https://github.com/Botspot/rpi_conky/tree/master/conky_rings - phoenixbyrd for the files
 ryanfortner for the scripts
 Botspot for coloring the theme<br />
-ARM32/ARM64 - 8,963 Users!
+ARM32/ARM64 - 8,964 Users!
 ```
 Animated gauges and graphs of your system, on your desktop.
 Displays system uptime, core-specific CPU usage, CPU speed, CPU temperature, top 5 processes by CPU usage, storage usage for boot and root partitions, RAM usage, SWAP usage, top 5 processes by RAM usage, and describes the current Linux environment.
@@ -82,7 +82,7 @@ Displays system uptime, core-specific CPU usage, CPU speed, CPU temperature, top
 
 ### <img src="/img/app-icons/Geany Dark Mode/icon-64.png" height=32> ***[Geany Dark Mode](https://github.com/Botspot/pi-apps/tree/master/apps/Geany%20Dark%20Mode)***
 https://github.com/codebrainz/geany-themes - Botspot. Oh yeah.<br />
-ARM32/ARM64 - 8,263 Users!
+ARM32/ARM64 - 8,265 Users!
 ```
 Proper appearance theme for the Geany text editor.
 Geany's default color scheme looks horrible. Fortunately, this app will make it look good.
@@ -91,7 +91,7 @@ By default, this will apply the "botspot-dark" theme, but it will also install m
 
 ### <img src="/img/app-icons/Lightpad/icon-64.png" height=32> ***[Lightpad](https://github.com/Botspot/pi-apps/tree/master/apps/Lightpad)***
 https://lightpad.sourceforge.io/<br />
-ARM64 ONLY - 11,614 Users!!
+ARM64 ONLY - 11,617 Users!!
 ```
 LightPad is a lightweight, simple and powerful application launcher.
 To run: Menu -> Accessories -> Lightpad
@@ -101,7 +101,7 @@ To run in a terminal: io.github.libredeb.lightpad
 ### <img src="/img/app-icons/Oh My Posh/icon-64.png" height=32> ***[Oh My Posh](https://github.com/Botspot/pi-apps/tree/master/apps/Oh%20My%20Posh)***
 ohmyposh.dev - OhMyPosh by Jan De Dobbeleer. https://github.com/jandedobbeleer/oh-my-posh
 Pi-Apps script by libewa (https://github.com/libewa) and theofficialgman (https://github.com/theofficialgman)<br />
-ARM32/ARM64 - 2,231 Users!
+ARM32/ARM64 - 2,232 Users!
 ```
 The snappy and most customisable cross platform/shell prompt renderer.
 The installer will automatically install the default profile ("jandedobbeleer") into /etc/bash_completion.d/oh-my-posh. To change this, see https://ohmyposh.dev/docs/installation/customize
@@ -110,7 +110,7 @@ You also need a compatible font like Cascaydia Cove.
 
 ### <img src="/img/app-icons/Oomox Theme Designer/icon-64.png" height=32> ***[Oomox Theme Designer](https://github.com/Botspot/pi-apps/tree/master/apps/Oomox%20Theme%20Designer)***
 https://github.com/themix-project/oomox<br />
-ARM32/ARM64 - 5,383 Users!
+ARM32/ARM64 - 5,387 Users!
 ```
 A tool to customize icons, xrdb and GTK themes. 
 
@@ -125,7 +125,7 @@ To run in a terminal: oomox-gui
 ### <img src="/img/app-icons/Powerline-Shell/icon-64.png" height=32> ***[Powerline-Shell](https://github.com/Botspot/pi-apps/tree/master/apps/Powerline-Shell)***
 https://github.com/techcoder20/RPI-PowerlineShell-Installer - Installation Script Created By RPICoder
 Added To Pi-Apps By Botspot<br />
-ARM32/ARM64 - 6,105 Users!
+ARM32/ARM64 - 6,107 Users!
 ```
 A beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh:
 
@@ -139,7 +139,7 @@ A beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh:
 ### <img src="/img/app-icons/Ulauncher/icon-64.png" height=32> ***[Ulauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Ulauncher)***
 https://ulauncher.io/ - RPiCoder on Discord recommended this.
 Botspot made the scripts.<br />
-ARM32/ARM64 - 11,597 Users!!
+ARM32/ARM64 - 11,598 Users!!
 ```
 All-in-one application launcher, Google search engine, calculator, file manager...
 This is the best app launcher I've ever seen, though it can be a bit slow when searching. - Botspot
@@ -150,7 +150,7 @@ To run in a terminal: ulauncher
 
 ### <img src="/img/app-icons/Windows Screensavers/icon-64.png" height=32> ***[Windows Screensavers](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Screensavers)***
 https://github.com/Botspot/Screensavers - Botspot<br />
-ARM32/ARM64 - 6,626 Users!
+ARM32/ARM64 - 6,628 Users!
 ```
 14 Windows screensavers that run well on Raspberry Pi.
 
@@ -167,7 +167,7 @@ In addition to the Windows Screensavers, Botspot's Screensaver GUI also allows c
 
 ### <img src="/img/app-icons/XSnow/icon-64.png" height=32> ***[XSnow](https://github.com/Botspot/pi-apps/tree/master/apps/XSnow)***
 https://www.ratrabbit.nl/ratrabbit/xsnow/ - Thanks to Willem Vermin for developing this project.<br />
-ARM32/ARM64 - 3,598 Users!
+ARM32/ARM64 - 3,592 Users!
 ```
 This turns your desktop wallpaper into an animated winter wonderland!
 Features falling snowflakes, flying birds, scenery like trees and deer, the moon, Santa, flapping birds, and more.
@@ -180,7 +180,7 @@ To run in terminal: xsnow
 
 ### <img src="/img/app-icons/BlockBench/icon-64.png" height=32> ***[BlockBench](https://github.com/Botspot/pi-apps/tree/master/apps/BlockBench)***
 https://www.blockbench.net/ - JannisX11 (GitHub) for creating the program<br />
-ARM32/ARM64 - 6,416 Users!
+ARM32/ARM64 - 6,423 Users!
 ```
 Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures. Models can be exported into standardized formats, to be shared, rendered, 3D-printed, or used in game engines. There are also multiple dedicated formats for Minecraft Java and Bedrock Edition with format-specific features.
 
@@ -190,7 +190,7 @@ To run in a terminal: blockbench
 
 ### <img src="/img/app-icons/Boxy SVG/icon-64.png" height=32> ***[Boxy SVG](https://github.com/Botspot/pi-apps/tree/master/apps/Boxy%20SVG)***
 https://boxy-svg.com/ - Botspot<br />
-ARM32/ARM64 - 6,268 Users!
+ARM32/ARM64 - 6,271 Users!
 ```
 Quick and streamlined vector graphics creator.
 Boxy SVG is both simple but powerful, capable of whipping up a quick logo design in minutes or building the most sophisticated digital artwork. Unlike Inkscape or other Linux SVG editors, Boxy SVG uses Chromium's rendering engine for the SVG - the most complete and stable way for making your vector image appear as intended. It is easy to export to PNG, PDF, or numerous other image formats.
@@ -215,7 +215,7 @@ Run from Terminal: flatpak run io.github.lainsce.DotMatrix
 
 ### <img src="/img/app-icons/Drawing/icon-64.png" height=32> ***[Drawing](https://github.com/Botspot/pi-apps/tree/master/apps/Drawing)***
 https://maoschanz.github.io/drawing/ - Botspot<br />
-ARM32/ARM64 - 7,726 Users!
+ARM32/ARM64 - 7,729 Users!
 ```
 Simple program used to hand-draw png images.
 
@@ -229,7 +229,7 @@ sudo apt install kolourpaint
 ### <img src="/img/app-icons/GIMP/icon-64.png" height=32> ***[GIMP](https://github.com/Botspot/pi-apps/tree/master/apps/GIMP)***
 https://www.gimp.org/ - Made by The GIMP Team
 Added to Pi-Apps by Lightstrike on Discord<br />
-Package app - 91,362 Users!!
+Package app - 91,381 Users!!
 ```
 Create images and edit photographs
 
@@ -242,7 +242,7 @@ To run in terminal: gimp
 
 ### <img src="/img/app-icons/Inkscape/icon-64.png" height=32> ***[Inkscape](https://github.com/Botspot/pi-apps/tree/master/apps/Inkscape)***
 https://inkscape.org - 1Spinne in issue #1262<br />
-Package app - 29,874 Users!!
+Package app - 29,890 Users!!
 ```
 Popular free vector graphics editor
 
@@ -261,7 +261,7 @@ Note: Also see the Boxy SVG tool.
 
 ### <img src="/img/app-icons/Kolourpaint/icon-64.png" height=32> ***[Kolourpaint](https://github.com/Botspot/pi-apps/tree/master/apps/Kolourpaint)***
 https://apps.kde.org/kolourpaint/ - Botspot<br />
-Package app - 11,173 Users!!
+Package app - 11,175 Users!!
 ```
 An easy-to-use paint program.
 KolourPaint is a simple painting program to quickly create raster images. It is useful as a touch-up tool and simple image editing tasks.
@@ -304,7 +304,7 @@ This program runs extremely well on RPi. If it launches in 'safe mode', go into 
 
 ### <img src="/img/app-icons/Pinta/icon-64.png" height=32> ***[Pinta](https://github.com/Botspot/pi-apps/tree/master/apps/Pinta)***
 https://www.pinta-project.com/ - Botspot<br />
-Package app - 3,805 Users!
+Package app - 3,806 Users!
 ```
 A powerful painting program including numberous adjustments, drawing tools, multiple layers, and a flexible interface.
 
@@ -327,7 +327,7 @@ To run in a terminal: pixelorama
 
 ### <img src="/img/app-icons/Shotwell/icon-64.png" height=32> ***[Shotwell](https://github.com/Botspot/pi-apps/tree/master/apps/Shotwell)***
 https://shotwell-project.org/ - Botspot<br />
-Package app - 80,351 Users!!
+Package app - 80,372 Users!!
 ```
 Organize, edit, and publish your photos.
 To run: Menu -> Graphics -> Shotwell
@@ -337,7 +337,7 @@ To run in a terminal: shotwell
 
 ### <img src="/img/app-icons/Bambu Studio/icon-64.png" height=32> ***[Bambu Studio](https://github.com/Botspot/pi-apps/tree/master/apps/Bambu%20Studio)***
 https://bambulab.com/en/download/studio - Botspot<br />
-ARM64 ONLY - 6,740 Users!
+ARM64 ONLY - 6,748 Users!
 ```
 Optimized 3D slicing software for BambuLab and other printers
 This is based on PrusaSlicer, but brings project-based workflows, more features, and better default presets.
@@ -349,7 +349,7 @@ To run in a terminal: flatpak run  --command=entrypoint --file-forwarding com.ba
 
 ### <img src="/img/app-icons/Cura/icon-64.png" height=32> ***[Cura](https://github.com/Botspot/pi-apps/tree/master/apps/Cura)***
 https://github.com/smartavionics/Cura<br />
-ARM32/ARM64 - 18,710 Users!!
+ARM32/ARM64 - 18,714 Users!!
 ```
 Takes a 3D model and slices it for use in a 3D printer.
 To run: Menu -> Programming -> Ultimaker Cura
@@ -358,7 +358,7 @@ To run in a terminal: ~/Cura.AppImage
 
 ### <img src="/img/app-icons/Eagle CAD/icon-64.png" height=32> ***[Eagle CAD](https://github.com/Botspot/pi-apps/tree/master/apps/Eagle%20CAD)***
 https://www.autodesk.com/products/eagle/overview - Botspot made this app.<br />
-ARM32/ARM64 - 3,346 Users!
+ARM32/ARM64 - 3,347 Users!
 ```
 Discontinued utility in 2020 in favor of Autodesk Fusion to design printed circuit boards.
 
@@ -378,7 +378,7 @@ https://wiki.freecad.org/Contributors
 
 FreeCAD was put to PiApps by Vlad:
 https://github.com/ooovlad<br />
-ARM64 ONLY - 3,948 Users!
+ARM64 ONLY - 3,953 Users!
 ```
 FreeCAD is an open-source parametric 3D CAD modeler designed for general-purpose feature-based design. FreeCAD is available on Windows, macOS, and Linux, and integrates heavily with Python for scripting and automation. It supports various  file formats such as STEP, IGES, OBJ, STL, DWG, DXF, SVG, SHP, DAE, IFC or OFF, NASTRAN, VRML, OpenSCAD CSG and many more, in addition to FreeCAD's native FCStd file format.
 FreeCAD is used in fields like mechanical engineering, product design, and architecture, making it suitable for both professional and hobbyist projects.
@@ -389,7 +389,7 @@ To run from terminal: `/opt/FreeCAD.AppImage` or `FreeCAD`
 
 ### <img src="/img/app-icons/Fritzing/icon-64.png" height=32> ***[Fritzing](https://github.com/Botspot/pi-apps/tree/master/apps/Fritzing)***
 https://fritzing.org/ - theofficialgman for writing the install script<br />
-ARM32/ARM64 - 7,558 Users!
+ARM32/ARM64 - 7,562 Users!
 ```
 The Fritzing application is an Electronic Design Automation software with a low entry barrier, suited for the needs of makers and hobbyists.
 It offers a unique real-life "breadboard" view, and a parts library with many commonly used high-level components. Fritzing makes it very easy to communicate about circuits, as well as to turn them into PCB layouts ready for production. 
@@ -414,7 +414,7 @@ To run in a terminal: inav-configurator
 
 ### <img src="/img/app-icons/KiCad/icon-64.png" height=32> ***[KiCad](https://github.com/Botspot/pi-apps/tree/master/apps/KiCad)***
 https://www.kicad.org/ - Botspot<br />
-ARM32/ARM64 - 4,540 Users!
+ARM32/ARM64 - 4,546 Users!
 ```
 Electronics Design Automation Suite - newer than what is available from APT
 On PiOS Bookworm, this will install KiCAD 8.0.3, whereas only KiCad 6 is available from apt. KiCad 8 has a number of improvements over KiCad 6:
@@ -437,7 +437,7 @@ Note:
 
 ### <img src="/img/app-icons/LibreCAD/icon-64.png" height=32> ***[LibreCAD](https://github.com/Botspot/pi-apps/tree/master/apps/LibreCAD)***
 https://librecad.org/ - @Jai-JAP for adding this app to pi-apps<br />
-Package app - 12,476 Users!!
+Package app - 12,479 Users!!
 ```
 Open Source 2D-CAD
 LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. Support and documentation are free from our large, dedicated community of users, contributors and developers.
@@ -485,7 +485,7 @@ To run in a terminal: LIBGL_ALWAYS_SOFTWARE=1 mono ~/MissionPlanner-latest/Missi
 ### <img src="/img/app-icons/OpenSCAD/icon-64.png" height=32> ***[OpenSCAD](https://github.com/Botspot/pi-apps/tree/master/apps/OpenSCAD)***
 http://www.openscad.org/
 https://github.com/koendv/openscad-raspberrypi<br />
-ARM32/ARM64 - 7,983 Users!
+ARM32/ARM64 - 7,985 Users!
 ```
 OpenSCAD is software for creating solid 3D CAD models.
 
@@ -500,7 +500,7 @@ To run in a terminal (on 64-bit OS): openscad-nightly
 
 ### <img src="/img/app-icons/PrusaSlicer/icon-64.png" height=32> ***[PrusaSlicer](https://github.com/Botspot/pi-apps/tree/master/apps/PrusaSlicer)***
 https://github.com/davidk/PrusaSlicer-ARM.AppImage<br />
-ARM32/ARM64 - 9,255 Users!
+ARM32/ARM64 - 9,257 Users!
 ```
 Takes a 3D model and slices it for use in a 3D printer.
 To run: Menu -> Programming -> PrusaSlicer
@@ -536,7 +536,7 @@ Pat team (LA5NTA, K0SWE), proof-of-concept Winlink on Linux guides (K6ETA, DCJ21
 those who got me interested in ham radio (N7ACW, AD7HE, KK6FVG), and everyone who tries to keep ham radio open source.
 
 "My humanity is bound up in yours, for we can only be human together" - Nelson Mandela<br />
-ARM32/ARM64 - 78 Users
+ARM32/ARM64 - 81 Users
 ```
 A shareware FM modem for amateur radio messaging.
 
@@ -558,7 +558,7 @@ Pat team (LA5NTA, K0SWE), proof-of-concept Winlink on Linux guides (K6ETA, DCJ21
 those who got me interested in ham radio (N7ACW, AD7HE, KK6FVG), and everyone who tries to keep ham radio open source.
 
 "My humanity is bound up in yours, for we can only be human together" - Nelson Mandela<br />
-ARM32/ARM64 - 1,815 Users!
+ARM32/ARM64 - 1,817 Users!
 ```
 A shareware HF modem for amateur radio messaging.
 
@@ -596,7 +596,7 @@ This app runs with the help of Box86/Box64 and Wine.
 https://amiberry.com/ - Program created by Dimitris Panokostas (midwan) on GitHub.
 Debian packages created by @ryanfortner (GitHub)
 Scripts created by @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 9,114 Users!
+ARM32/ARM64 - 9,115 Users!
 ```
 Amiberry is a well-optimized, high-performance emulator for running Amiga games on low-power ARM boards like Raspberry Pi.
 
@@ -608,7 +608,7 @@ To run in a terminal: /opt/amiberry/amiberry
 https://viewizard.com/ - All contributer in github page
 added to pi-apps by Painadath
 samuelpainadath@gmail.com<br />
-ARM32/ARM64 - 11,283 Users!!
+ARM32/ARM64 - 11,290 Users!!
 ```
 Immerse into a decisive battle against tons of cunning foes, face the terrifying bosses and protect your homeland throughout 15 diverse levels of the game. The hardcore gameplay of AstroMenace, packed with pure non-stop action, will become a full scale test for your basic instinct of survival.
 
@@ -619,7 +619,7 @@ To run in a terminal: ~/astromenace-master/astromenace
 ### <img src="/img/app-icons/Azahar/icon-64.png" height=32> ***[Azahar](https://github.com/Botspot/pi-apps/tree/master/apps/Azahar)***
 azahar-emu.org - Azahar team for development (see contributors at https://github.com/azahar-emu/azahar/graphs/contributors)
 Crilum for writing scripts<br />
-ARM64 ONLY - 167 Users
+ARM64 ONLY - 169 Users
 ```
 Azahar is an open-source 3DS emulator project based on Citra.
 
@@ -635,7 +635,7 @@ To run from terminal: flatpak run org.azahar_emu.Azahar
 
 ### <img src="/img/app-icons/Celeste64/icon-64.png" height=32> ***[Celeste64](https://github.com/Botspot/pi-apps/tree/master/apps/Celeste64)***
 https://maddymakesgamesinc.itch.io/celeste64 - Extremely OK Games<br />
-ARM32/ARM64 - 6,521 Users!
+ARM32/ARM64 - 6,526 Users!
 ```
 Relive the magic of Celeste Mountain alongside Madeline in this small, heartfelt 3D platformer.
 Created in a week(ish) by the Celeste team to celebrate the game’s sixth anniversary!
@@ -650,7 +650,7 @@ To run in a terminal: Celeste64
 lemon32767 for the classic celeste port
 theofficialgman for better controller support additions and the pi-apps script
 Matt Thorson and Noel Berry for making the original game<br />
-ARM32/ARM64 - 8,599 Users!
+ARM32/ARM64 - 8,603 Users!
 ```
 This is a C source port of the original celeste (Celeste classic) for the PICO-8, designed to be portable.
 
@@ -662,7 +662,7 @@ To run in a terminal: /usr/local/share/celeste/ccleste
 
 ### <img src="/img/app-icons/CrazyCattle3D/icon-64.png" height=32> ***[CrazyCattle3D](https://github.com/Botspot/pi-apps/tree/master/apps/CrazyCattle3D)***
 https://4nn4t4t.itch.io/crazycattle3d<br />
-ARM32/ARM64 - 3,785 Users!
+ARM32/ARM64 - 3,791 Users!
 ```
 A battle royale rage game about sheep; will you have what it takes to survive?
 
@@ -675,7 +675,7 @@ To run in a terminal: crazycattle3d
 ### <img src="/img/app-icons/DDNet/icon-64.png" height=32> ***[DDNet](https://github.com/Botspot/pi-apps/tree/master/apps/DDNet)***
 https://ddnet.org/ - Install Script made by Kolpix#1391
 Thanks to Crilum on Github for helping<br />
-ARM32/ARM64 - 2,578 Users!
+ARM32/ARM64 - 2,580 Users!
 ```
 DDRaceNetwork is a 2D cooperative platformer experience. Work together with up to 64 people and push your way through maps.
 You will see the best and worst in your teammates when they save you from certain death or leave you behind in the dust.
@@ -703,7 +703,7 @@ To exit: select "Quit" in the game's main menu.
 
 ### <img src="/img/app-icons/Descent 2/icon-64.png" height=32> ***[Descent 2](https://github.com/Botspot/pi-apps/tree/master/apps/Descent%202)***
 https://www.dxx-rebirth.com/<br />
-ARM32/ARM64 - 2,868 Users!
+ARM32/ARM64 - 2,871 Users!
 ```
 D2X-Rebirth - source port of Descent 2: Counterstrike from 1996
 This package installs the shareware version, if you own the full game you can copy the game data to ~/.d2x-rebirth directory (replacing existing files).
@@ -720,7 +720,7 @@ Testers:
 Lukefrenner
 Botspot
 Nikolay Dubnov<br />
-ARM32/ARM64 - 34,735 Users!!
+ARM32/ARM64 - 34,746 Users!!
 ```
 Doom 3 is a 2004 horror first-person shooter video game developed by id Software and published by Activision.
 In this game a massive demonic invasion has overwhelmed the Union Aerospace Corporation's (UAC) Mars Research Facility, leaving only chaos and horror in its wake.
@@ -737,7 +737,7 @@ https://github.com/franciscoBSalgueiro/en-croissant
 
 Pi-Apps packaging:
 Alex Bowles<br />
-ARM32/ARM64 - 187 Users
+ARM32/ARM64 - 191 Users
 ```
 The Ultimate Chess Toolkit
 
@@ -758,7 +758,7 @@ To run in a terminal: en-croissant
 https://github.com/ShadowEngineTeam/FNF-Shadow-Engine - Shadow Engine Team for creating the Shadow Engine
 Shadow Mario for the Psych Engine
 ninjamuffin99 for the Friday Night Funkin' Game itself<br />
-ARM32/ARM64 - 138 Users
+ARM32/ARM64 - 141 Users
 ```
 Shadow Engine is a highly modified Psych Engine 0.7.3 fork for Friday Night Funkin'. It features advanced modding capabilities, Lua/Luau and Haxe scripting support, improved performance, and additional features over the base Psych Engine.
 
@@ -777,7 +777,7 @@ https://github.com/HTV04/funkin-rewritten - HTV04 For this Engine.
 LOVE2D devs
 AM7999#8935 For putting this up on Pi-Apps
 And ninjamuffin99 for the original Friday Night Funkin' Game<br />
-ARM32/ARM64 - 7,070 Users!
+ARM32/ARM64 - 7,073 Users!
 ```
 Friday Night Funkin’ is a musical rhythm game where you compete in freestyle music battles.
 The father of your girlfriend is always a pain, because no matter what you do, you may never be good enough for his daughter. In Friday Night Funkin, you are the "Boyfriend", and this cliché comes together in a colorful and musical mash. The fun of Friday and the stress of meeting your significant other's father will make your knees shake and your heart tingle.
@@ -794,7 +794,7 @@ As this game is still a work in progress, some settings (like setting fullscreen
 
 ### <img src="/img/app-icons/GB Studio/icon-64.png" height=32> ***[GB Studio](https://github.com/Botspot/pi-apps/tree/master/apps/GB%20Studio)***
 https://www.gbstudio.dev/ - Botspot<br />
-ARM64 ONLY - 1,106 Users
+ARM64 ONLY - 1,116 Users
 ```
 GB Studio is a drag and drop game creator for making Game Boy games.
 
@@ -808,7 +808,7 @@ To run in a terminal: gb-studio
 
 ### <img src="/img/app-icons/Godot/icon-64.png" height=32> ***[Godot](https://github.com/Botspot/pi-apps/tree/master/apps/Godot)***
 https://godotengine.org/ - Credits to Juan Linietsky and Ariel Manzur for creating Godot Engine.<br />
-ARM32/ARM64 - 10,768 Users!!
+ARM32/ARM64 - 10,776 Users!!
 ```
 Your free, open‑source game engine.
 Develop your 2D & 3D games, cross-platform projects, or even XR ideas!
@@ -830,7 +830,7 @@ To run in a terminal: fheroes2
 
 ### <img src="/img/app-icons/LineRider/icon-64.png" height=32> ***[LineRider](https://github.com/Botspot/pi-apps/tree/master/apps/LineRider)***
 https://github.com/Sussy-OS/LRA-Community-Edition - Sussy-OS (rb24#0032), Cycool, and theofficialgman for writing the install script Sussy-OS (rb24#0032) for making it work on linux, o7Moon for special features, and Boštjan Čadež for the original https://linerider.com game.<br />
-ARM32/ARM64 - 9,242 Users!
+ARM32/ARM64 - 9,244 Users!
 ```
 Draw a track for a sledder to ride on. Make it sync with music and share your work with friends!
 This app, LineRider Community Edition, is a C# rewrite of the original flash game.
@@ -864,7 +864,7 @@ To run in a terminal:
 ### <img src="/img/app-icons/Minecraft Bedrock/icon-64.png" height=32> ***[Minecraft Bedrock](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Bedrock)***
 https://minecraft-linux.github.io/ - Flatpak made by ChristopherHX on Github
 Program made by everyone at [minecraft-linux](https://github.com/minecraft-linux) on Github<br />
-ARM64 ONLY - 46,887 Users!!
+ARM64 ONLY - 46,900 Users!!
 ```
 Unofficial launcher for Minecraft Bedrock edition
 NOTE: It is worth tinkering with older Bedrock versions like 1.16.40 as they doesn't contain renderdragon or RTX code and may result in a smoother experience or better FPS.
@@ -880,7 +880,7 @@ To run in a terminal: flatpak run io.mrarm.mcpelauncher
 
 ### <img src="/img/app-icons/Minecraft Java GDLauncher/icon-64.png" height=32> ***[Minecraft Java GDLauncher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20GDLauncher)***
 https://gdevs.io/ - theofficialgman<br />
-ARM32/ARM64 - 17,288 Users!!
+ARM32/ARM64 - 17,296 Users!!
 ```
 GDLauncher is simple, yet powerful Minecraft launcher with a strong focus on the user experience. This is a CUSTOM BUILD of GDLauncher for ARM32/ARM64 support.
 
@@ -918,7 +918,7 @@ Note: GDLauncher GitHub/Discord does NOT support this CUSTOM BUILD, any issues s
 ### <img src="/img/app-icons/Minecraft Java Prism Launcher/icon-64.png" height=32> ***[Minecraft Java Prism Launcher](https://github.com/Botspot/pi-apps/tree/master/apps/Minecraft%20Java%20Prism%20Launcher)***
 https://prismlauncher.org/ - Prism Launcher contributors: https://github.com/PrismLauncher/PrismLauncher/graphs/contributors
 theofficialgman for packaging arm32/arm64 debs<br />
-ARM32/ARM64 - 33,843 Users!!
+ARM32/ARM64 - 33,862 Users!!
 ```
 Prism Launcher is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. Focused on user freedom and free redistributability.
 
@@ -954,7 +954,7 @@ Mojang for creating the Minecraft server.
 theofficialgman who wrote the script
 GYKGAMER for the initial idea/implementation
 Crilum for bugtesting<br />
-ARM32/ARM64 - 17,432 Users!!
+ARM32/ARM64 - 17,445 Users!!
 ```
 This is a simple tool to create a Minecraft server: Vanilla, Fabric, Forge, Paper, Folia, and Purpur are supported
 
@@ -978,7 +978,7 @@ If you uninstall or update this app for whatever reason, your world, mod, and ve
 https://discord.com/invite/aDqejQGMMy - Game mods made by TheBrokenRail#5376 on Discord
 
 Ported to Pi-Apps by TheBrokenRail#5376 on Discord with a little help from Botspot.<br />
-ARM32/ARM64 - 80,312 Users!!
+ARM32/ARM64 - 80,332 Users!!
 ```
 A modded version of Minecraft: Pi Edition with things like survival mode, multiplayer support, and more!
 
@@ -1002,7 +1002,7 @@ To run in a terminal: ~/.local/bin/com.thebrokenrail.MCPIReborn.AppImage
 
 ### <img src="/img/app-icons/Pac-Man/icon-64.png" height=32> ***[Pac-Man](https://github.com/Botspot/pi-apps/tree/master/apps/Pac-Man)***
 https://github.com/ebuc99/pacman - Pac-Man source code from ebuc99 on github https://github.com/ebuc99/pacman<br />
-ARM32/ARM64 - 30,713 Users!!
+ARM32/ARM64 - 30,722 Users!!
 ```
 Pac-Man clone in SDL2 and C/C++
 To run: Menu -> Games -> Pacman (SDL)
@@ -1011,7 +1011,7 @@ To run in a terminal: pacman_sdl
 
 ### <img src="/img/app-icons/PPSSPP (PSP emulator)/icon-64.png" height=32> ***[PPSSPP (PSP emulator)](https://github.com/Botspot/pi-apps/tree/master/apps/PPSSPP%20(PSP%20emulator))***
 http://ppsspp.org - theofficialgman<br />
-ARM32/ARM64 - 26,251 Users!!
+ARM32/ARM64 - 26,261 Users!!
 ```
 A PSP emulator that can run PSP games in full HD and can upscale textures also.
 
@@ -1043,7 +1043,7 @@ Your User Data folder is where you place custom content (like songpacks):
 ### <img src="/img/app-icons/PyChess/icon-64.png" height=32> ***[PyChess](https://github.com/Botspot/pi-apps/tree/master/apps/PyChess)***
 http://www.pychess.org/ - Rak1ta
 Crilum<br />
-ARM32/ARM64 - 11,976 Users!!
+ARM32/ARM64 - 11,979 Users!!
 ```
 PyChess is a chess client for playing and analyzing chess games. It is intended to be usable both for those totally new to chess as well as advanced users who want to use a computer to further enhance their play.
 When you get sick of playing computer players you can login to FICS (the Free Internet Chess Server) and play against people all over the world. PyChess has a built-in Timeseal client, so you won't lose clock time during a game due to lag. PyChess also has pre-move support, which means you can make (or start making) a move before your opponent has made their move.
@@ -1055,7 +1055,7 @@ To run in terminal: pychess
 
 ### <img src="/img/app-icons/Ruffle/icon-64.png" height=32> ***[Ruffle](https://github.com/Botspot/pi-apps/tree/master/apps/Ruffle)***
 https://ruffle.rs<br />
-ARM32/ARM64 - 767 Users
+ARM32/ARM64 - 761 Users
 ```
 Ruffle is a open source Adobe Flash Player emulator aimed at having the best compatibility as the official Adobe Flash Player (which is proprietary, EOL and has many unpatched security vulnerabilities)
 
@@ -1076,7 +1076,7 @@ To run in a terminal: ruffle
 ### <img src="/img/app-icons/Shattered Pixel Dungeon/icon-64.png" height=32> ***[Shattered Pixel Dungeon](https://github.com/Botspot/pi-apps/tree/master/apps/Shattered%20Pixel%20Dungeon)***
 https://shatteredpixel.com/ - Evan Debenham for his work on Shattered Pixel Dungeon and keeping it Open Source
 Watabou for the original Pixel Dungeon and making it Open Source<br />
-ARM32/ARM64 - 8,795 Users!
+ARM32/ARM64 - 8,802 Users!
 ```
 Shattered Pixel Dungeon is a Roguelike Dungeon Crawler RPG with pixel art graphics.
 Every game is a unique challenge, with four different playable characters, randomized levels and enemies, and hundreds of items to collect and use.
@@ -1090,7 +1090,7 @@ Saves and configs are stored in: ~/.local/share/.shatteredpixel/shattered-pixel-
 
 ### <img src="/img/app-icons/Steam/icon-64.png" height=32> ***[Steam](https://github.com/Botspot/pi-apps/tree/master/apps/Steam)***
 https://store.steampowered.com/about/download<br />
-ARM64 ONLY - 56,292 Users!!
+ARM64 ONLY - 56,333 Users!!
 ```
 This emulates the Linux x86_64 version of Steam using Box86 and Box64.
 
@@ -1101,7 +1101,7 @@ To run in a terminal: /usr/local/bin/steam
 
 ### <img src="/img/app-icons/Steam Link/icon-64.png" height=32> ***[Steam Link](https://github.com/Botspot/pi-apps/tree/master/apps/Steam%20Link)***
 Botspot<br />
-Package app - 20,628 Users!!
+Package app - 20,637 Users!!
 ```
 The Steam Link app brings desktop gaming to your Raspberry Pi. Just pair a controller to your device, connect to a computer running Steam on the same local network, and start playing your existing Steam games.
 To run: Menu -> Games -> Steam Link
@@ -1110,7 +1110,7 @@ To run in a terminal: steamlink
 
 ### <img src="/img/app-icons/StepMania/icon-64.png" height=32> ***[StepMania](https://github.com/Botspot/pi-apps/tree/master/apps/StepMania)***
 https://www.stepmania.com/ - Stepmania contributors: https://github.com/stepmania/stepmania/graphs/contributors<br />
-ARM32/ARM64 - 2,094 Users!
+ARM32/ARM64 - 2,096 Users!
 ```
 StepMania is a free and open source, cross-platform rhythm game. It supports common key-based rhythm game formats (including 4-panel and 5-panel dance games among others), as well as keyboard and dance pad controllers.
 It is customizable with user-made add-ons such as themes, and provides an integrated editor for creating your own simfiles.
@@ -1129,7 +1129,7 @@ Your User Data folder is where you place custom content (like songpacks):
 
 ### <img src="/img/app-icons/Tetris CLI/icon-64.png" height=32> ***[Tetris CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Tetris%20CLI)***
 https://web.archive.org/web/20250801161441/https://github.com/k-vernooy/tetris - DEB packages hosted by ryanfortner<br />
-ARM32/ARM64 - 17,732 Users!!
+ARM32/ARM64 - 17,740 Users!!
 ```
 ASCII/CLI rendition of the Tetris game.
 
@@ -1152,7 +1152,7 @@ Enhanced Descriptions and Script Reviews by cycool29
 
 Tested by Botspot
   Github: https://github.com/Botspot<br />
-ARM32/ARM64 - 7,579 Users!
+ARM32/ARM64 - 7,584 Users!
 ```
 An open-source, mod-friendly Android+Desktop remake of Civ V
 
@@ -1169,7 +1169,7 @@ To run in a terminal: ~/Unciv/Unciv.sh
 ### <img src="/img/app-icons/WorldPainter/icon-64.png" height=32> ***[WorldPainter](https://github.com/Botspot/pi-apps/tree/master/apps/WorldPainter)***
 https://www.worldpainter.net/ - Credits to Irtexo for creating the initial scripts.
 Credits to the worldpainter creators : https://www.worldpainter.net/trac/wiki/Credits<br />
-ARM32/ARM64 - 4,952 Users!
+ARM32/ARM64 - 4,955 Users!
 ```
 WorldPainter is an interactive map generator for Minecraft.
 It allows you to "paint" landscapes using similar tools as a regular paint program.
@@ -1183,7 +1183,7 @@ To run in a terminal: /opt/worldpainter/worldpainter
 ### <img src="/img/app-icons/Angry IP scanner/icon-64.png" height=32> ***[Angry IP scanner](https://github.com/Botspot/pi-apps/tree/master/apps/Angry%20IP%20scanner)***
 https://angryip.org - @Itai-Nelken (GitHub)
 @ryanfortner (GitHub)<br />
-ARM64 ONLY - 39,758 Users!!
+ARM64 ONLY - 39,773 Users!!
 ```
 Scans local networks as well as Internet
 IP Range, Random or file in any format.
@@ -1200,7 +1200,7 @@ Warning, using this improperly may get you in a lot of trouble. Be sure you're w
 
 ### <img src="/img/app-icons/AnyDesk/icon-64.png" height=32> ***[AnyDesk](https://github.com/Botspot/pi-apps/tree/master/apps/AnyDesk)***
 https://anydesk.com/en/downloads/raspberry-pi - Botspot<br />
-ARM64 ONLY - 10,742 Users!!
+ARM64 ONLY - 10,747 Users!!
 ```
 Remote desktop server and client software
 AnyDesk is free for private use and offers flexible license models for organizations.
@@ -1217,7 +1217,7 @@ Again, RustDesk is recommended. It's open source and works better.
 https://deskreen.com/ - Thanks to pavlobu and all contibuters for developing Deskreen.
 Thanks to Crilum on GitHub for making the scripts.
 Thanks to ryanfortner on GitHub for having and hosting the debs!<br />
-ARM32/ARM64 - 5,114 Users!
+ARM32/ARM64 - 5,115 Users!
 ```
 Share your screen to any device on the local network that has a web browser.
 This is not a remote desktop, but a simple tool for making other devices show what is on your screen. Client devices can only view your screen - they cannot move the mouse or interact with your computer at all. Useful for whenever you want your screen to appear somewhere else quickly, like a movie night, powerpoint presentation, or even a prank!
@@ -1231,7 +1231,7 @@ This is privacy-friendly and does not use cloud resources, but it is written in 
 
 ### <img src="/img/app-icons/Ethernet Hotspot/icon-64.png" height=32> ***[Ethernet Hotspot](https://github.com/Botspot/pi-apps/tree/master/apps/Ethernet%20Hotspot)***
 https://github.com/Botspot/ethernet-hotspot - Botspot<br />
-ARM32/ARM64 - 565 Users
+ARM32/ARM64 - 569 Users
 ```
 Share your WiFi connection with other devices, using an Ethernet cable
 This is useful for when you only have one WiFi adapter, but you want multiple devices to use that one internet connection, without buying any additional hardware.
@@ -1247,7 +1247,7 @@ To run in a terminal: sudo ethernet-hotspot
 https://github.com/lakinduakash/linux-wifi-hotspot - Thanks to:
  - @lakinduakash on GitHub (as well as all contributors) for creating this app
  - @Crilum on GitHub for adding this app to Pi-Apps<br />
-ARM32/ARM64 - 14,088 Users!!
+ARM32/ARM64 - 14,089 Users!!
 ```
 A feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface.
 
@@ -1284,7 +1284,7 @@ To run in a terminal: riitag-rpc
 
 ### <img src="/img/app-icons/RustDesk/icon-64.png" height=32> ***[RustDesk](https://github.com/Botspot/pi-apps/tree/master/apps/RustDesk)***
 https://rustdesk.com/ - Botspot<br />
-ARM32/ARM64 - 17,684 Users!!
+ARM32/ARM64 - 17,712 Users!!
 ```
 Open-source secure remote desktop connection software, better than AnyDesk or TeamViewer
 RustDesk seems like the best choice and is one of the few that actually works well on Raspberry Pi. (Especially with Wayland)
@@ -1300,7 +1300,7 @@ Note: for faster speeds and higher security, consider setting up your own RustDe
 
 ### <img src="/img/app-icons/SpeedTest-CLI/icon-64.png" height=32> ***[SpeedTest-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/SpeedTest-CLI)***
 https://www.speedtest.net/<br />
-ARM32/ARM64 - 32,950 Users!!
+ARM32/ARM64 - 32,955 Users!!
 ```
 Test your internet speed from a terminal!
 Are you familiar with speedtest.net? This tool is created by the same team.
@@ -1312,7 +1312,7 @@ To run in a terminal: speedtest
 
 ### <img src="/img/app-icons/TeamViewer/icon-64.png" height=32> ***[TeamViewer](https://github.com/Botspot/pi-apps/tree/master/apps/TeamViewer)***
 https://github.com/Benmac83/Teamviewer-installer-for-pi - Benmac83 on the Botspot discord server, GYKGamer on GitHub for the heads up on the client/host preview, and theofficialgman for the scripts<br />
-ARM32/ARM64 - 17,375 Users!!
+ARM32/ARM64 - 17,383 Users!!
 ```
 Remote desktop server and client software.
 
@@ -1327,7 +1327,7 @@ Again, RustDesk is recommended. It's open source and works better.
 ### <img src="/img/app-icons/Web Apps/icon-64.png" height=32> ***[Web Apps](https://github.com/Botspot/pi-apps/tree/master/apps/Web%20Apps)***
 https://github.com/linuxmint/webapp-manager - linuxmint for maintaining the application
 theofficialgman for packaging it for pi-apps<br />
-ARM32/ARM64 - 17,438 Users!!
+ARM32/ARM64 - 17,443 Users!!
 ```
 Run websites as if they were apps.
 This is Linux Mint's official Web Apps program. Using it, you can run any website as a standalone app.
@@ -1341,7 +1341,7 @@ To run in a terminal: webapp-manager
 
 ### <img src="/img/app-icons/Better Chromium/icon-64.png" height=32> ***[Better Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Better%20Chromium)***
 Botspot<br />
-ARM32/ARM64 - 54,383 Users!!
+ARM32/ARM64 - 54,402 Users!!
 ```
 Make the most of your browser.
 This is a collection of improvements for various aspects of Chromium.
@@ -1365,7 +1365,7 @@ Note: To enable Google Chrome Sync, first enable it here, then go to Chromium's 
 
 ### <img src="/img/app-icons/Brave/icon-64.png" height=32> ***[Brave](https://github.com/Botspot/pi-apps/tree/master/apps/Brave)***
 https://brave.com/ - brave browser developers and google<br />
-ARM64 ONLY - 26,515 Users!!
+ARM64 ONLY - 26,536 Users!!
 ```
 The new Brave browser blocks ads and trackers that slow you down and invade your privacy.
 Discover a new way of thinking about how the web can work.
@@ -1390,7 +1390,7 @@ NOTE: This will also install firefox-esr
 
 ### <img src="/img/app-icons/Chromium/icon-64.png" height=32> ***[Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium)***
 https://www.chromium.org/Home/ - Botspot<br />
-Package app - 732,919 Users!!
+Package app - 733,277 Users!!
 ```
 Open-source version of Google Chrome.
 If you are using Raspberry Pi OS, this browser has been optimized by the Raspberry Pi Foundation to include hardware acceleration and other various performance improvements.
@@ -1404,7 +1404,7 @@ To run in a terminal: chromium-browser
 
 ### <img src="/img/app-icons/Downgrade Chromium/icon-64.png" height=32> ***[Downgrade Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Downgrade%20Chromium)***
 https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=308303<br />
-ARM32/ARM64 - 6,863 Users!
+ARM32/ARM64 - 6,865 Users!
 ```
 Change Chromium versions easily.
 This tool makes it easy to try out older versions of Chromium from Raspberry Pi OS.
@@ -1421,7 +1421,7 @@ All deb files are downloaded from https://archive.raspberrypi.org/debian/pool/ma
 
 ### <img src="/img/app-icons/Epiphany/icon-64.png" height=32> ***[Epiphany](https://github.com/Botspot/pi-apps/tree/master/apps/Epiphany)***
 https://apps.gnome.org/Epiphany/ - open-sorcerrer64<br />
-Package app - 13,217 Users!!
+Package app - 13,218 Users!!
 ```
 Epiphany is a lightweight web browser based on the WebKit rendering engine. It is also known as GNOME Web.
 
@@ -1433,7 +1433,7 @@ To run in a terminal: epiphany-browser
 
 ### <img src="/img/app-icons/Firefox Rapid Release/icon-64.png" height=32> ***[Firefox Rapid Release](https://github.com/Botspot/pi-apps/tree/master/apps/Firefox%20Rapid%20Release)***
 https://firefox.com - Mozilla Foundation.<br />
-ARM32/ARM64 - 39,940 Users!!
+ARM32/ARM64 - 39,950 Users!!
 ```
 Latest stable Mozilla Firefox version available. (Downloaded from Mozilla Team Official PPA)
 Mozilla Firefox, is a free and open-source web browser developed by the Mozilla Foundation.
@@ -1456,7 +1456,7 @@ To run in a terminal: floorp
 
 ### <img src="/img/app-icons/Flow/icon-64.png" height=32> ***[Flow](https://github.com/Botspot/pi-apps/tree/master/apps/Flow)***
 https://www.ekioh.com/flow-browser/ - Botspot<br />
-ARM32/ARM64 - 4,018 Users!
+ARM32/ARM64 - 4,019 Users!
 ```
 High-performance browser built from the ground up without relying on Chromium.
 This is a closed source web browser specifically designed for running on the Raspberry Pi platform. It makes extensive usage of the GPU, and it outperforms many faster computers on the same benchmark.
@@ -1481,7 +1481,7 @@ To run in a terminal: /opt/librewolf/librewolf
 
 ### <img src="/img/app-icons/Min/icon-64.png" height=32> ***[Min](https://github.com/Botspot/pi-apps/tree/master/apps/Min)***
 https://minbrowser.org/ - @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 6,793 Users!
+ARM32/ARM64 - 6,796 Users!
 ```
 A fast, minimal browser that protects your privacy.
 
@@ -1491,7 +1491,7 @@ To run in terminal: min
 
 ### <img src="/img/app-icons/Mullvad/icon-64.png" height=32> ***[Mullvad](https://github.com/Botspot/pi-apps/tree/master/apps/Mullvad)***
 https://sourceforge.net/projects/tor-browser-ports/files/<br />
-ARM32/ARM64 - 3,181 Users!
+ARM32/ARM64 - 3,182 Users!
 ```
 Mullvad Browser is security-minded browser meant for use with a VPN.
 Default settings will block trackers, browser fingerprinting, ads, insecure HTTP connections, and more.
@@ -1523,7 +1523,7 @@ https://www.torproject.org/about/people/
 
 Tor Browser ARM64 Nightly was put to Pi-Apps by oovlad
 https://github.com/ooovlad<br />
-ARM32/ARM64 - 53,224 Users!!
+ARM32/ARM64 - 53,247 Users!!
 ```
 The Tor Browser is a free web browser built on Firefox that helps you surf the web anonymously by routing your connection through a secure, global network of volunteer servers known as Tor network. Your data is encrypted, and your IP address is hidden by onion routing, protecting you from trackers, advertisers, and prying eyes. With built-in features like tracker blocking and script protection, Tor Browser ensures a safer online experience. Perfect for private browsing, accessing restricted sites, or exploring the web without leaving a trace.
 
@@ -1543,7 +1543,7 @@ https://vivaldi.com - Big thanks to chunky-milk for app idea and install script:
 https://github.com/chunky-milk/pi-bashscripts-files/tree/main/vivaldi
 
 Icon, description, and everything else required by pi-apps by Itai-Nelken<br />
-ARM32/ARM64 - 15,201 Users!!
+ARM32/ARM64 - 15,204 Users!!
 ```
 Fast, private browser with unique features.
 Official Vivaldi browser for ARM Linux.
@@ -1554,7 +1554,7 @@ To run in a terminal: vivaldi-stable
 
 ### <img src="/img/app-icons/Zen/icon-64.png" height=32> ***[Zen](https://github.com/Botspot/pi-apps/tree/master/apps/Zen)***
 https://zen-browser.app/ - Botspot<br />
-ARM64 ONLY - 2,181 Users!
+ARM64 ONLY - 2,185 Users!
 ```
 Privacy-focused browser based on Firefox
 Zen Browser has side tabs by default and is very customizeable if you know a bit of CSS, or are willing to find someone else's mod files. It is said to run fast, and is competely open-source and takes design elements from Arc Browser.
@@ -1579,7 +1579,7 @@ To run in a terminal: /opt/Caprine/caprine
 
 ### <img src="/img/app-icons/Legcord/icon-64.png" height=32> ***[Legcord](https://github.com/Botspot/pi-apps/tree/master/apps/Legcord)***
 https://legcord.app/ - @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 7,566 Users!
+ARM32/ARM64 - 7,571 Users!
 ```
 Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight.
 It has all features you would expect from the official Discord desktop client, in addition to various ways to improve the experience.
@@ -1592,7 +1592,7 @@ To run in a terminal: legcord
 
 ### <img src="/img/app-icons/Microsoft Teams/icon-64.png" height=32> ***[Microsoft Teams](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20Teams)***
 https://github.com/IsmaelMartinez/teams-for-linux - @IsmaelMartinez on GitHub for the creation of the app.<br />
-ARM32/ARM64 - 11,449 Users!!
+ARM32/ARM64 - 11,456 Users!!
 ```
 Microsoft Teams is a proprietary business communication platform developed by Microsoft, as part of the Microsoft 365 family of products. 
 Teams primarily competes with the similar service Slack, offering workspace chat and videoconferencing, file storage, and application integration. 
@@ -1605,7 +1605,7 @@ Build with nativefier.
 
 ### <img src="/img/app-icons/Signal/icon-64.png" height=32> ***[Signal](https://github.com/Botspot/pi-apps/tree/master/apps/Signal)***
 https://www.signal.org - Botspot<br />
-ARM64 ONLY - 5,379 Users!
+ARM64 ONLY - 5,380 Users!
 ```
 Secure messaging client (phone number required)
 Supports text chats, voice calls, and video calls. Signal cannot view the contents of your chats, and when governments demand all data about a particular user, all Signal can provide them with is the sign-up date and the last login date. Impressive.
@@ -1622,7 +1622,7 @@ Important note: all messages sent and received BEFORE authorizing Signal Desktop
 
 ### <img src="/img/app-icons/Telegram/icon-64.png" height=32> ***[Telegram](https://github.com/Botspot/pi-apps/tree/master/apps/Telegram)***
 https://desktop.telegram.org/<br />
-ARM64 ONLY - 17,409 Users!!
+ARM64 ONLY - 17,420 Users!!
 ```
 Telegram is a free and open source, cross-platform, cloud-based instant messaging software. This service also provides end-to-end encrypted video calling, VoIP, file sharing and several other features. 
 
@@ -1632,7 +1632,7 @@ To run from terminal: flatpak run org.telegram.desktop
 
 ### <img src="/img/app-icons/Thunderbird/icon-64.png" height=32> ***[Thunderbird](https://github.com/Botspot/pi-apps/tree/master/apps/Thunderbird)***
 https://www.thunderbird.net/ - Botspot<br />
-Package app - 76,795 Users!!
+Package app - 76,818 Users!!
 ```
 Email client with many features like a tabbed interface, smart spam filter, address book, search and filter tools, encryption, and numerous add-ons.
 To run: Menu -> Internet -> Thunderbird
@@ -1641,7 +1641,7 @@ To run in a terminal: thunderbird
 
 ### <img src="/img/app-icons/Webcord/icon-64.png" height=32> ***[Webcord](https://github.com/Botspot/pi-apps/tree/master/apps/Webcord)***
 https://github.com/SpacingBat3/WebCord/ - Discord app by SpacingBat3<br />
-ARM32/ARM64 - 51,052 Users!!
+ARM32/ARM64 - 51,060 Users!!
 ```
 Fast Discord client for ARM that mimics the official Discord client.
 The app runs independent to chromium and can be hidden to the system tray unlike other solutions out there.
@@ -1673,7 +1673,7 @@ to run in a terminal: WINEPREFIX=$HOME/.config/wechat-prefix wine "$HOME/.config
 
 ### <img src="/img/app-icons/WhatsApp/icon-64.png" height=32> ***[WhatsApp](https://github.com/Botspot/pi-apps/tree/master/apps/WhatsApp)***
 https://web.whatsapp.com/ - theofficialgman<br />
-ARM32/ARM64 - 25,390 Users!!
+ARM32/ARM64 - 25,401 Users!!
 ```
 Whatsapp Web webapp
 
@@ -1684,7 +1684,7 @@ To run: Menu -> Internet -> WhatsApp
 
 ### <img src="/img/app-icons/Zoom/icon-64.png" height=32> ***[Zoom](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom)***
 https://github.com/Botspot/pi-apps/issues/188<br />
-ARM32/ARM64 - 27,505 Users!!
+ARM32/ARM64 - 27,509 Users!!
 ```
 Zoom video calls on the Raspberry Pi.
 This is the full desktop app, so you can use virtual backgrounds and Gallery View!
@@ -1697,7 +1697,7 @@ To run in a terminal: /opt/zoom/ZoomLauncher
 
 ### <img src="/img/app-icons/Zoom PWA/icon-64.png" height=32> ***[Zoom PWA](https://github.com/Botspot/pi-apps/tree/master/apps/Zoom%20PWA)***
 theofficialgman<br />
-ARM32/ARM64 - 4,538 Users!
+ARM32/ARM64 - 4,539 Users!
 ```
 Progressive Web App for Zoom
 This is chromium-browser running Zoom. Performance is much better that emulated x86/x86_64 Zoom in almost all cases.
@@ -1710,7 +1710,7 @@ To run in a terminal: zoom-pwa
 
 ### <img src="/img/app-icons/CloudBuddy/icon-64.png" height=32> ***[CloudBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/CloudBuddy)***
 https://github.com/Botspot/cloudbuddy - Botspot made, Botspot added.<br />
-ARM32/ARM64 - 13,094 Users!!
+ARM32/ARM64 - 13,095 Users!!
 ```
 CloudBuddy is the ultimate wizard for cloud storage. Google Drive, Onedrive, Dropbox, and many more.
 Botspot made this gui frontend for the popular rclone tool to connect to your cloud drives, download from them, upload to them, mount them to your file manager, and more. In addition, CloudBuddy features an interactive file browser to easily generate shareable links and to perform various server-side operations.
@@ -1721,7 +1721,7 @@ To run in terminal: ~/cloudbuddy/main.sh
 
 ### <img src="/img/app-icons/Deluge/icon-64.png" height=32> ***[Deluge](https://github.com/Botspot/pi-apps/tree/master/apps/Deluge)***
 https://www.deluge-torrent.org - Botspot<br />
-Package app - 15,144 Users!!
+Package app - 15,145 Users!!
 ```
 Lightweight BitTorrent client
 Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
@@ -1735,7 +1735,7 @@ Note: Torrents can contain illegal material, like pirated movies or cracked game
 
 ### <img src="/img/app-icons/Filezilla/icon-64.png" height=32> ***[Filezilla](https://github.com/Botspot/pi-apps/tree/master/apps/Filezilla)***
 https://filezilla-project.org/ - Botspot<br />
-Package app - 38,581 Users!!
+Package app - 38,590 Users!!
 ```
 Download and upload files via FTP, FTPS, and HTTP
 This all allows you to connect to file-sharing servers on your home network or on the world wide web.
@@ -1759,7 +1759,7 @@ To run in a terminal: npm exec --yes hfs@latest
 https://httrack.com - Thanks to:
  - Xavier Roche and all contributors for creating HTTrack!
  - Thanks to Crilum on GitHub for adding HTTrack to Pi-Apps!<br />
-Package app - 6,402 Users!
+Package app - 6,404 Users!
 ```
 HTTrack is a free and easy-to-use offline browser utility.
 
@@ -1777,7 +1777,7 @@ Run from Menu: Menu -> Internet -> WebHTTrack Website Copier
 
 ### <img src="/img/app-icons/OnionShare/icon-64.png" height=32> ***[OnionShare](https://github.com/Botspot/pi-apps/tree/master/apps/OnionShare)***
 https://onionshare.org/ - Botspot<br />
-ARM64 ONLY - 1,291 Users
+ARM64 ONLY - 1,293 Users
 ```
 Securely and anonymously share files, host websites, and chat with friends using the Tor network.
 Two people anywhere in the world with OnionShare can communicate peer-to-peer completely privately.
@@ -1791,7 +1791,7 @@ To run in a terminal: /usr/bin/flatpak run --command=onionshare org.onionshare.O
 
 ### <img src="/img/app-icons/Persepolis Download Manager/icon-64.png" height=32> ***[Persepolis Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Persepolis%20Download%20Manager)***
 https://persepolisdm.github.io/<br />
-ARM32/ARM64 - 2,589 Users!
+ARM32/ARM64 - 2,591 Users!
 ```
 Persepolis is a Download Manager and a GUI For aria2. 
 
@@ -1805,7 +1805,7 @@ To run in a terminal: persepolis
 https://www.qbittorrent.org - Original qBittorrent authors at https://www.qbittorrent.org
 
 Pi-Apps submitter: petesimon@yahoo.com https://github.com/petesimon<br />
-Package app - 2,468 Users!
+Package app - 2,479 Users!
 ```
 Open-source software alternative to µTorrent.
 
@@ -1840,7 +1840,7 @@ This app is a bittorrent downloading and uploading application simiar to uTorren
 
 ### <img src="/img/app-icons/Snapdrop/icon-64.png" height=32> ***[Snapdrop](https://github.com/Botspot/pi-apps/tree/master/apps/Snapdrop)***
 https://snapdrop.net/ - theofficialgman<br />
-ARM32/ARM64 - 12,171 Users!!
+ARM32/ARM64 - 12,175 Users!!
 ```
 Share files with nearby devices on the local network. Inspired by Apple's Airdrop.
 To run: Menu -> Internet -> Snapdrop
@@ -1850,7 +1850,7 @@ Now drag and drop files to the website, and the other device will see the files 
 
 ### <img src="/img/app-icons/Transmission/icon-64.png" height=32> ***[Transmission](https://github.com/Botspot/pi-apps/tree/master/apps/Transmission)***
 https://transmissionbt.com - Botspot<br />
-Package app - 89,925 Users!!
+Package app - 89,959 Users!!
 ```
 Lightweight BitTorrent client
 Use this to download torrent files from the Internet. For example, you can download a Torrent version of Raspberry Pi OS.
@@ -1864,7 +1864,7 @@ Note: Torrents can contain illegal material, like pirated movies or cracked game
 
 ### <img src="/img/app-icons/Xtreme Download Manager/icon-64.png" height=32> ***[Xtreme Download Manager](https://github.com/Botspot/pi-apps/tree/master/apps/Xtreme%20Download%20Manager)***
 https://xtremedownloadmanager.com<br />
-ARM32/ARM64 - 15,566 Users!!
+ARM32/ARM64 - 15,569 Users!!
 ```
 Xtreme Download Manager is a powerful tool to increase download speed up-to 500%, save and convert streaming videos from thousands of websites, resume broken/dead downloads and schedule downloads.
 
@@ -1881,7 +1881,7 @@ To run in a terminal: /opt/xdman/xdman
 
 ### <img src="/img/app-icons/Audacious/icon-64.png" height=32> ***[Audacious](https://github.com/Botspot/pi-apps/tree/master/apps/Audacious)***
 https://audacious-media-player.org/ - Botspot<br />
-Package app - 42,334 Users!!
+Package app - 42,340 Users!!
 ```
 Lightweight but flexible audio player
 This is a playlist-style audio player, allowing you to drag folders and files to the list. It includes numerous audio effects, visualizations, and skins - even several Winamp ones!
@@ -1891,7 +1891,7 @@ To run in a terminal: audacious
 
 ### <img src="/img/app-icons/Audacity/icon-64.png" height=32> ***[Audacity](https://github.com/Botspot/pi-apps/tree/master/apps/Audacity)***
 https://www.audacityteam.org/ - Botspot<br />
-Package app - 39,985 Users!!
+Package app - 40,009 Users!!
 ```
 Easy-to-use audio editor with numerous features
 Supports live-recording, import/export, editing, effects, plugins, visualizations, keyboard shurtcuts, and much more.
@@ -1919,7 +1919,7 @@ NOTE: This app can't see your mouse movements on Wayland desktops. To make it wo
 
 ### <img src="/img/app-icons/Botspot Screen Recorder/icon-64.png" height=32> ***[Botspot Screen Recorder](https://github.com/Botspot/pi-apps/tree/master/apps/Botspot%20Screen%20Recorder)***
 https://github.com/Botspot/botspot-screen-recorder - Botspot<br />
-ARM32/ARM64 - 2,448 Users!
+ARM32/ARM64 - 2,454 Users!
 ```
 All-in-one screen recording utility for wlroots Wayland compositors like Wayfire, LabWC and Sway.
 Botspot Screen Recorder (BSR) makes it easy to record the screen on Wayland Pi OS. Without this, the only real option was to use the wf-recorder command-line tool, which was quite limited in features.
@@ -1937,7 +1937,7 @@ echo $XDG_CURRENT_DESKTOP
 
 ### <img src="/img/app-icons/Easy Effects/icon-64.png" height=32> ***[Easy Effects](https://github.com/Botspot/pi-apps/tree/master/apps/Easy%20Effects)***
 https://wwmm.github.io/easyeffects/ - Botspot<br />
-Package app - 4,246 Users!
+Package app - 4,247 Users!
 ```
 Useful audio effects that are applied to all system sounds
 Is that one video too quiet and you need the volume boosted? Or do you want to add some echo to your favorite music, or are your speakers set up backwards and you need to swap the left and right outputs?
@@ -1954,7 +1954,7 @@ To run in a terminal: easyeffects
 
 ### <img src="/img/app-icons/FreeTube/icon-64.png" height=32> ***[FreeTube](https://github.com/Botspot/pi-apps/tree/master/apps/FreeTube)***
 https://freetubeapp.io/ - Installation Script and added to Pi-Apps by RPICoder<br />
-ARM32/ARM64 - 32,273 Users!!
+ARM32/ARM64 - 32,274 Users!!
 ```
 Privacy-friendly YouTube player.
 Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript.
@@ -1981,7 +1981,7 @@ To run in a terminal: flatpak run --file-forwarding org.kde.kdenlive
 
 ### <img src="/img/app-icons/Kodi/icon-64.png" height=32> ***[Kodi](https://github.com/Botspot/pi-apps/tree/master/apps/Kodi)***
 https://kodi.tv/ - Botspot<br />
-ARM32/ARM64 - 29,711 Users!!
+ARM32/ARM64 - 29,721 Users!!
 ```
 Kodi is the ultimate entertainment center.
 Kodi excels at:
@@ -2003,7 +2003,7 @@ To make this run on startup, consider using the Autostar app.
 https://lmms.io - Thanks to:
  - the LMMS community for developing LMMS
  - @Crilum on GitHub for adding LMMS to Pi-Apps <br />
-Package app - 9,122 Users!
+Package app - 9,126 Users!
 ```
 LMMS (Let’s Make Music) is a free, open-source and cross-platform software for making music on your computer, made by musicians, for musicians. It comes with a user-friendly and modern interface.
 
@@ -2025,7 +2025,7 @@ To run in a terminal: lmms
 ### <img src="/img/app-icons/MuseScore/icon-64.png" height=32> ***[MuseScore](https://github.com/Botspot/pi-apps/tree/master/apps/MuseScore)***
 https://musescore.org - Botspot
 theofficialgman for appimages<br />
-ARM32/ARM64 - 5,083 Users!
+ARM32/ARM64 - 5,082 Users!
 ```
 Professional music notation software - LATEST MuseScore 4!
 To run: Menu -> Sound & Video -> MuseScore 4
@@ -2037,7 +2037,7 @@ Please use a 64bit OS for MuseScore
 
 ### <img src="/img/app-icons/OBS Studio/icon-64.png" height=32> ***[OBS Studio](https://github.com/Botspot/pi-apps/tree/master/apps/OBS%20Studio)***
 https://obsproject.com/ - theofficialgman<br />
-ARM32/ARM64 - 38,401 Users!!
+ARM32/ARM64 - 38,409 Users!!
 ```
 Free and open source software for video recording and live streaming.
 
@@ -2055,7 +2055,7 @@ To run in a terminal: obs
 
 ### <img src="/img/app-icons/Reaper/icon-64.png" height=32> ***[Reaper](https://github.com/Botspot/pi-apps/tree/master/apps/Reaper)***
 https://reaper.fm - Thanks to @Crilum on GitHub for adding this app to Pi-Apps<br />
-ARM32/ARM64 - 5,612 Users!
+ARM32/ARM64 - 5,611 Users!
 ```
 REAPER is a complete digital audio production application for computers, offering a full multitrack audio and MIDI recording, editing, processing, mixing and mastering toolset.
 REAPER supports a vast range of hardware, digital formats and plugins, and can be comprehensively extended, scripted and modified.
@@ -2100,7 +2100,7 @@ To run in Terminal: renoise
 ### <img src="/img/app-icons/Shellbeats/icon-64.png" height=32> ***[Shellbeats](https://github.com/Botspot/pi-apps/tree/master/apps/Shellbeats)***
 https://shellbeats.com/ - Botspot for rewriting the scripts and making the icon,
 codemaster010 on github for suggesting it<br />
-ARM32/ARM64 - 459 Users
+ARM32/ARM64 - 462 Users
 ```
 Stream or download audio from youtube, in your terminal
 If you play a lot of music from youtube in the background, then Shellbeats is for you.
@@ -2115,7 +2115,7 @@ To run in a terminal: shellbeats
 ### <img src="/img/app-icons/SimpleScreenRecorder/icon-64.png" height=32> ***[SimpleScreenRecorder](https://github.com/Botspot/pi-apps/tree/master/apps/SimpleScreenRecorder)***
 https://www.maartenbaert.be/simplescreenrecorder/ - App Made by: MaartenBaert
 Suggestion from Kolpix<br />
-Package app - 14,038 Users!!
+Package app - 14,043 Users!!
 ```
 Feature-rich screen recorder for X11 and OpenGL
 NOTE: THIS WILL NOT WORK on Wayland desktops! For that, go try out the Botspot Screen Recorder app.
@@ -2135,7 +2135,7 @@ To run in a terminal: simplescreenrecorder
 
 ### <img src="/img/app-icons/Sonic Pi/icon-64.png" height=32> ***[Sonic Pi](https://github.com/Botspot/pi-apps/tree/master/apps/Sonic%20Pi)***
 https://sonic-pi.net/<br />
-ARM32/ARM64 - 5,457 Users!
+ARM32/ARM64 - 5,459 Users!
 ```
 Write code to make music. Latest version of Sonic Pi.
 
@@ -2149,7 +2149,7 @@ Then run qpwgraph, find the SuperCollider node, disconnect its connection to the
 
 ### <img src="/img/app-icons/Sound Recorder/icon-64.png" height=32> ***[Sound Recorder](https://github.com/Botspot/pi-apps/tree/master/apps/Sound%20Recorder)***
 https://wiki.gnome.org/Apps/SoundRecorder - Botspot<br />
-Package app - 10,367 Users!!
+Package app - 10,370 Users!!
 ```
 Record audio from the microphone
 This is a very simple app but it gets the job done easier than a more complicated choice such as VLC or Audacity.
@@ -2188,7 +2188,7 @@ To run from Terminal: Waveform11
 
 ### <img src="/img/app-icons/YouTube Player/icon-64.png" height=32> ***[YouTube Player](https://github.com/Botspot/pi-apps/tree/master/apps/YouTube%20Player)***
 https://github.com/trizen/pipe-viewer - Botspot<br />
-ARM64 ONLY - 4,714 Users!
+ARM64 ONLY - 4,735 Users!
 ```
 Simple YouTube search engine, downloader and player.
 - No web browser required! Easily search for videos and play them with a double-click.
@@ -2206,7 +2206,7 @@ To run in a terminal: gtk-pipe-viewer
 
 ### <img src="/img/app-icons/AbiWord/icon-64.png" height=32> ***[AbiWord](https://github.com/Botspot/pi-apps/tree/master/apps/AbiWord)***
 https://github.com/AbiWord/abiword -  open-sorcerer64<br />
-Package app - 10,092 Users!!
+Package app - 10,097 Users!!
 ```
 A free and open-source alternative to Microsoft Word.  
 
@@ -2221,7 +2221,7 @@ To run in terminal: abiword.
 
 ### <img src="/img/app-icons/Gnumeric/icon-64.png" height=32> ***[Gnumeric](https://github.com/Botspot/pi-apps/tree/master/apps/Gnumeric)***
 https://gnome.pages.gitlab.gnome.org/gnumeric-web/ - Botspot<br />
-Package app - 4,901 Users!
+Package app - 4,903 Users!
 ```
 Fast, reliable spreadsheet program
 Ons of the spreadsheet programs specifically written for Linux, Gnumeric is lightweight, fast, and very responsive. It can save as .gnumeric files, .ods files, or even the familiar Microsoft Office .xls filetype.
@@ -2232,7 +2232,7 @@ To run in a terminal: gnumeric
 
 ### <img src="/img/app-icons/Libreoffice MS theme/icon-64.png" height=32> ***[Libreoffice MS theme](https://github.com/Botspot/pi-apps/tree/master/apps/Libreoffice%20MS%20theme)***
 https://github.com/Botspot/libreoffice-ms-theme - Botspot made this script and theme.<br />
-ARM32/ARM64 - 19,649 Users!!
+ARM32/ARM64 - 19,648 Users!!
 ```
 Make Libreoffice to look like Microsoft office - icon theme and tabbed interface.
 The icon theme was obtained from here: https://www.deviantart.com/charliecnr/art/Office-2013-theme-for-LibreOffice-512127527
@@ -2242,7 +2242,7 @@ Currently, the tabbed interface works for Calc, Impress, and Writer. Base and Ma
 
 ### <img src="/img/app-icons/LibreOffice/icon-64.png" height=32> ***[LibreOffice](https://github.com/Botspot/pi-apps/tree/master/apps/LibreOffice)***
 https://www.libreoffice.org - Botspot<br />
-Package app - 248,293 Users!!
+Package app - 248,390 Users!!
 ```
 Free office suite including a word editor, slideshow, spreadsheet, database, and image editor
 To run: Menu -> Office -> LibreOffice
@@ -2273,7 +2273,7 @@ Run from Terminal: flatpak run io.github.lainsce.Notejot
 
 ### <img src="/img/app-icons/Obsidian/icon-64.png" height=32> ***[Obsidian](https://github.com/Botspot/pi-apps/tree/master/apps/Obsidian)***
 https://obsidian.md/ - Botspot<br />
-ARM64 ONLY - 7,074 Users!
+ARM64 ONLY - 7,080 Users!
 ```
 Powerful knowledge base using plain text Markdown files (for note-taking & project management)
 
@@ -2292,7 +2292,7 @@ To run from Terminal: obsidian
 
 ### <img src="/img/app-icons/OnlyOffice/icon-64.png" height=32> ***[OnlyOffice](https://github.com/Botspot/pi-apps/tree/master/apps/OnlyOffice)***
 https://www.onlyoffice.com/ - Botspot<br />
-ARM64 ONLY - 2,048 Users!
+ARM64 ONLY - 2,052 Users!
 ```
 Open source Microsoft Office alternative, with a better interface than LibreOffice
 OpenOffice combines the best features of WPS Office and LibreOffice: it has a more familiar interface, and it's actually open source. It can edit documents, spreadsheets, presentations, and PDFs.
@@ -2305,7 +2305,7 @@ NOTE: You may encounter slow performance because OnlyOffice cannot run natively 
 
 ### <img src="/img/app-icons/Open-Typer/icon-64.png" height=32> ***[Open-Typer](https://github.com/Botspot/pi-apps/tree/master/apps/Open-Typer)***
 https://open-typer.github.io/<br />
-ARM32/ARM64 - 1,914 Users!
+ARM32/ARM64 - 1,915 Users!
 ```
 Open-Typer is an open source typing tutor application which aims to make learning to touch type easier.
 Using Qt, Open-Typer runs on many devices, while still maintaining ease of use.
@@ -2316,7 +2316,7 @@ To run in terminal: /opt/Open-Typer.AppImage
 
 ### <img src="/img/app-icons/ProjectLibre/icon-64.png" height=32> ***[ProjectLibre](https://github.com/Botspot/pi-apps/tree/master/apps/ProjectLibre)***
 https://www.projectlibre.com/projectlibre-desktop/ - Botspot<br />
-ARM32/ARM64 - 1,994 Users!
+ARM32/ARM64 - 1,995 Users!
 ```
 A desktop replacement for Microsoft Project - a project management software
 It is capable of sharing files with Microsoft Project and has very similar functionality (Gantt, PERT diagram, histogram, charts, reports, detailed usage), as well as tree views which aren't in MS Project.
@@ -2329,7 +2329,7 @@ To run in a terminal: projectlibre
 ### <img src="/img/app-icons/WPS Office/icon-64.png" height=32> ***[WPS Office](https://github.com/Botspot/pi-apps/tree/master/apps/WPS%20Office)***
 https://www.wps.com - Botspot figured out how to install WPS Office on PiOS64. (dependency handling)
 Botspot figured out how to install WPS Office on PiOS32. (chroot setup)<br />
-ARM32/ARM64 - 12,643 Users!!
+ARM32/ARM64 - 12,654 Users!!
 ```
 This is a Chinese clone of Microsoft Office.
 It includes Word, Excel, PowerPoint, a PDF viewer, and a web browser. It appears to be free software and you don't need to create an account to use it.
@@ -2360,7 +2360,7 @@ If you are using a 64-bit OS:
 https://antigravity.google/ - Creator of the App: Google LLC
 Publisher on pi-apps: Infiloo (https://guns.lol/infiloo)
 Significant edits made by botspot to fix the <br />
-ARM64 ONLY - 1,197 Users
+ARM64 ONLY - 1,210 Users
 ```
 Google's AI agent IDE powered by Gemini 3 Pro for autonomous, end-to-end software development.
 
@@ -2393,7 +2393,7 @@ NOTE: This app uses an extremely insane workaround to run Google's closed-source
 
 ### <img src="/img/app-icons/Arduino/icon-64.png" height=32> ***[Arduino](https://github.com/Botspot/pi-apps/tree/master/apps/Arduino)***
 https://www.arduino.cc/en/main/software<br />
-ARM32/ARM64 - 45,032 Users!!
+ARM32/ARM64 - 45,049 Users!!
 ```
 Arduino IDE 1.8.X. Now called Arduino IDE Legacy, based on the Java and Python Frameworks.
 Arduino IDE 2.X has not been released for ARMhf/ARM64 Linux, based on the Electron and Javascript/Typescript Frameworks.
@@ -2405,7 +2405,7 @@ To run in a terminal: arduino
 
 ### <img src="/img/app-icons/BlueJ Java IDE/icon-64.png" height=32> ***[BlueJ Java IDE](https://github.com/Botspot/pi-apps/tree/master/apps/BlueJ%20Java%20IDE)***
 https://bluej.org - open-sorcerer64<br />
-Package app - 41,485 Users!!
+Package app - 41,492 Users!!
 ```
 A simple but powerful Java IDE.
 
@@ -2417,7 +2417,7 @@ To run in a terminal: bluej
 
 ### <img src="/img/app-icons/Codex/icon-64.png" height=32> ***[Codex](https://github.com/Botspot/pi-apps/tree/master/apps/Codex)***
 https://codexnotes.com/<br />
-ARM32/ARM64 - 4,013 Users!
+ARM32/ARM64 - 4,017 Users!
 ```
 A free note-taking software for programmers and Computer Science students.
 
@@ -2443,7 +2443,7 @@ To run in a terminal: electron-fiddle
 
 ### <img src="/img/app-icons/Github-CLI/icon-64.png" height=32> ***[Github-CLI](https://github.com/Botspot/pi-apps/tree/master/apps/Github-CLI)***
 https://cli.github.com/ - Added to pi-apps by Itai-Nelken<br />
-ARM32/ARM64 - 13,305 Users!!
+ARM32/ARM64 - 13,308 Users!!
 ```
 gh is GitHub on the command line.
 It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
@@ -2455,7 +2455,7 @@ To run in a terminal: gh
 https://desktop.github.com/ - Github Desktop contributors: https://github.com/desktop/desktop/graphs/contributors
 @shiftkey: continued maintenance of the Linux fork
 @theofficialgman: port to ARMhf/ARM64 now upstreamed at the Linux fork<br />
-ARM32/ARM64 - 20,305 Users!!
+ARM32/ARM64 - 20,315 Users!!
 ```
 Github Desktop is a GUI git client.
 Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.
@@ -2466,7 +2466,7 @@ To run in a terminal: github-desktop
 
 ### <img src="/img/app-icons/Gnome Builder IDE/icon-64.png" height=32> ***[Gnome Builder IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Builder%20IDE)***
 https://apps.gnome.org/Builder/<br />
-ARM64 ONLY - 1,258 Users
+ARM64 ONLY - 1,259 Users
 ```
 Builder is an actively developed Integrated Development Environment for GNOME.
 It combines integrated support for essential GNOME technologies such as GTK+, GLib, and GNOME APIs with features that any developer will appreciate, like syntax highlighting and snippets.
@@ -2501,7 +2501,7 @@ To run in a terminal: jgrasp
 
 ### <img src="/img/app-icons/Mu/icon-64.png" height=32> ***[Mu](https://github.com/Botspot/pi-apps/tree/master/apps/Mu)***
 https://codewith.mu/ - Botspot<br />
-Package app - 97,378 Users!!
+Package app - 97,400 Users!!
 ```
 A simple Python editor for beginner programmers.
 This is probably the simplest Python code editor available, with an intuitive UI designed to make sense on first run. Mu is the recommended Python IDE by the Raspberry Pi Foundation.
@@ -2512,7 +2512,7 @@ To run in a terminal: mu-editor
 
 ### <img src="/img/app-icons/Notepad ++/icon-64.png" height=32> ***[Notepad ++](https://github.com/Botspot/pi-apps/tree/master/apps/Notepad%20++)***
 https://notepad-plus-plus.org/ - App added to pi-apps by RPICoder<br />
-ARM32/ARM64 - 21,213 Users!!
+ARM32/ARM64 - 21,219 Users!!
 ```
 Notepad++ is a free source code editor and Notepad replacement that supports several languages. 
 To run: Menu -> Accessories -> Notepad++
@@ -2523,7 +2523,7 @@ This app runs with the help of box86 and wine.
 ### <img src="/img/app-icons/Processing IDE/icon-64.png" height=32> ***[Processing IDE](https://github.com/Botspot/pi-apps/tree/master/apps/Processing%20IDE)***
 https://processing.org/ - added by pi-dev500
 updated by theofficialgman<br />
-ARM32/ARM64 - 3,985 Users!
+ARM32/ARM64 - 3,987 Users!
 ```
 Simple Java IDE
 Processing 4 is an IDE + Programming Language used for Visual Arts.
@@ -2535,7 +2535,7 @@ To run in a terminal: ~/.local/share/processing-*/processing
 
 ### <img src="/img/app-icons/Pycharm CE/icon-64.png" height=32> ***[Pycharm CE](https://github.com/Botspot/pi-apps/tree/master/apps/Pycharm%20CE)***
 https://www.jetbrains.com/pycharm/ - Thanks to gam3t3chelectronicshobbyhouse a.k.a 'Gam3t3ch' for "Installing PyCharm on Raspberry Pi 4" from element14. Also, fabianmendes for introducing it into pi-apps.<br />
-ARM32/ARM64 - 21,948 Users!!
+ARM32/ARM64 - 21,952 Users!!
 ```
 Python IDE for Professional and Educational Developers.
 
@@ -2564,7 +2564,7 @@ To run in a terminal: scratch2
 
 ### <img src="/img/app-icons/Scratch 3/icon-64.png" height=32> ***[Scratch 3](https://github.com/Botspot/pi-apps/tree/master/apps/Scratch%203)***
 https://scratch.mit.edu - Botspot<br />
-Package app - 133,636 Users!!
+Package app - 133,692 Users!!
 ```
 Enjoy learning computer programming with drag-n-drop blocks!
 This is Raspberry Pi's official electron build of Scratch 3 and it runs offline.
@@ -2577,7 +2577,7 @@ Note: Consider trying Turbowarp or Scratch 2 - both run faster than this version
 https://sdk.sphero.com - Sphero SDK maintainers
 zShqdows (GitHub)
 ryanfortner (GitHub) for some improvements<br />
-ARM32/ARM64 - 768 Users
+ARM32/ARM64 - 769 Users
 ```
 Software Development Kit for the Sphero RVR Robot
 
@@ -2618,7 +2618,7 @@ To run in a terminal: smerge
 
 ### <img src="/img/app-icons/Sublime Text/icon-64.png" height=32> ***[Sublime Text](https://github.com/Botspot/pi-apps/tree/master/apps/Sublime%20Text)***
 https://www.sublimetext.com/ - Added to pi-apps by Itai Nelken<br />
-ARM32/ARM64 - 13,870 Users!!
+ARM32/ARM64 - 13,873 Users!!
 ```
 Cross-platform source code editor with a Python application programming interface.
 It natively supports many programming languages and markup languages. Additional features can be added with plugins.
@@ -2633,7 +2633,7 @@ To run in a terminal if you are using a 64-bit OS: subl
 
 ### <img src="/img/app-icons/Thonny/icon-64.png" height=32> ***[Thonny](https://github.com/Botspot/pi-apps/tree/master/apps/Thonny)***
 https://thonny.org - Added to pi apps by justaPancakeGuy<br />
-Package app - 308,640 Users!!
+Package app - 308,960 Users!!
 ```
 Thonny is a simple Python IDE with features useful for learning programming.
 
@@ -2647,7 +2647,7 @@ and special mode for learning about references.
 https://turbowarp.org/ - App added to pi-apps by Raspberry Pi News (bit.ly/rpnsite)
 
 Made by the TurboWarp dev team (https://github.com/TurboWarp/)<br />
-ARM32/ARM64 - 7,321 Users!
+ARM32/ARM64 - 7,326 Users!
 ```
 Scratch 3 Desktop, but runs much faster. Also known as 'TurboWarp'
 TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Also has dark mode, addons, and more. It even works when you're offline, just like the original Scratch Desktop.
@@ -2660,7 +2660,7 @@ To run in a terminal: /opt/TurboWarp/turbowarp-desktop
 https://code.visualstudio.com/ - Install script written by RaspberryPiNews on YT
 Small change to description by CleanMachine1
 Original program made by Microsoft<br />
-ARM32/ARM64 - 51,176 Users!!
+ARM32/ARM64 - 51,196 Users!!
 ```
 Visual Studio Code is a free source-code editor made by Microsoft.
 Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git
@@ -2673,7 +2673,7 @@ To run in a terminal: code
 
 ### <img src="/img/app-icons/VSCodium/icon-64.png" height=32> ***[VSCodium](https://github.com/Botspot/pi-apps/tree/master/apps/VSCodium)***
 https://vscodium.com/ - Added to pi-apps by @ryanfortner (Github)<br />
-ARM32/ARM64 - 9,263 Users!
+ARM32/ARM64 - 9,266 Users!
 ```
 Visual Studio Code builds without the telemetry and tracking.
 Microsoft's vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under this not-FLOSS license and contains telemetry/tracking.
@@ -2685,7 +2685,7 @@ To run: codium
 
 ### <img src="/img/app-icons/All Is Well/icon-64.png" height=32> ***[All Is Well](https://github.com/Botspot/pi-apps/tree/master/apps/All%20Is%20Well)***
 https://github.com/spectrumgamer75/All-is-well<br />
-ARM32/ARM64 - 35,026 Users!!
+ARM32/ARM64 - 35,041 Users!!
 ```
 ALL IS WELL is a bash script that allows users to easily update and upgrade their repositories and packages on linux.
 It will also fix any broken packages and dependencies. Forget about typing all update/upgrade commands  manually, when ALL IS WELL!
@@ -2696,7 +2696,7 @@ To run in a terminal: ~/All-is-well/aiw/aiwrpi.sh 'All Is Well'
 
 ### <img src="/img/app-icons/Autostar/icon-64.png" height=32> ***[Autostar](https://github.com/Botspot/pi-apps/tree/master/apps/Autostar)***
 https://github.com/Botspot/autostar - Botspot made, Botspot added.<br />
-ARM32/ARM64 - 19,086 Users!!
+ARM32/ARM64 - 19,089 Users!!
 ```
 Simple utility to make programs run on boot. The sky's the limit.
 People use this to:
@@ -2711,7 +2711,7 @@ To run in terminal: ~/autostar/main.sh
 
 ### <img src="/img/app-icons/BleachBit/icon-64.png" height=32> ***[BleachBit](https://github.com/Botspot/pi-apps/tree/master/apps/BleachBit)***
 https://www.bleachbit.org/<br />
-ARM32/ARM64 - 19,020 Users!!
+ARM32/ARM64 - 19,022 Users!!
 ```
 BleachBit is a free and open-source disk space cleaner, privacy manager, and computer system optimizer.
 
@@ -2736,7 +2736,7 @@ To run in a terminal: bleachbit
 https://github.com/aristocratos/btop - Thanks to:
  - aristocratos and all contributers.
  - Crilum on GitHub for writing the scripts.<br />
-ARM32/ARM64 - 17,384 Users!!
+ARM32/ARM64 - 17,389 Users!!
 ```
 Awesome terminal resource monitor and task manager, similar to htop.
 
@@ -2750,7 +2750,7 @@ If you want to look at screenshots of btop, go to the GitHub README.
 
 ### <img src="/img/app-icons/Clam Antivirus/icon-64.png" height=32> ***[Clam Antivirus](https://github.com/Botspot/pi-apps/tree/master/apps/Clam%20Antivirus)***
 https://gitlab.com/dave_m/clamtk<br />
-ARM32/ARM64 - 24,544 Users!!
+ARM32/ARM64 - 24,549 Users!!
 ```
 Open-source antivirus for your pi
 Run with the command "clamtk" or go to Menu > Utility > ClamTK.
@@ -2763,7 +2763,7 @@ Run with the command "clamtk" or go to Menu > Utility > ClamTK.
 
 ### <img src="/img/app-icons/CommanderPi/icon-64.png" height=32> ***[CommanderPi](https://github.com/Botspot/pi-apps/tree/master/apps/CommanderPi)***
 https://github.com/Jack477/CommanderPi<br />
-ARM32/ARM64 - 56,131 Users!!
+ARM32/ARM64 - 56,136 Users!!
 ```
 Easy RaspberryPi4 GUI system management
 Using CommanderPi, you can change overclock settings, bootloader settings, switch kernels, and view performance diagnostics.
@@ -2773,7 +2773,7 @@ To run in a terminal: ~/CommanderPi/src/start.sh
 
 ### <img src="/img/app-icons/Disk Usage Analyzer/icon-64.png" height=32> ***[Disk Usage Analyzer](https://github.com/Botspot/pi-apps/tree/master/apps/Disk%20Usage%20Analyzer)***
 https://apps.gnome.org/Baobab/ - Botspot<br />
-Package app - 136,415 Users!!
+Package app - 136,461 Users!!
 ```
 Ever wonder where you put that big file, or why your SD card is full? Now you can, with a glance at a pie chart.
 To run: Menu -> System Tools -> Disk Usage Analyzer
@@ -2782,7 +2782,7 @@ To run in a terminal: baobab
 
 ### <img src="/img/app-icons/Fastfetch/icon-64.png" height=32> ***[Fastfetch](https://github.com/Botspot/pi-apps/tree/master/apps/Fastfetch)***
 https://github.com/fastfetch-cli/fastfetch<br />
-ARM32/ARM64 - 6,960 Users!
+ARM32/ARM64 - 6,961 Users!
 ```
 Fastfetch is a neofetch-like tool for fetching system information and displaying it prettily.
 It is written mainly in C, with performance and customizability in mind.
@@ -2797,7 +2797,7 @@ Generate config file based on command line arguments: fastfetch --arg1 --arg2 --
 
 ### <img src="/img/app-icons/GParted/icon-64.png" height=32> ***[GParted](https://github.com/Botspot/pi-apps/tree/master/apps/GParted)***
 https://gparted.org - Botspot<br />
-Package app - 162,881 Users!!
+Package app - 162,939 Users!!
 ```
 Graphically manage disk partitions
 With GParted you can resize, copy, and move partitions without data loss, enabling you to:
@@ -2811,7 +2811,7 @@ To run in a terminal: sudo gparted
 
 ### <img src="/img/app-icons/Mission Center/icon-64.png" height=32> ***[Mission Center](https://github.com/Botspot/pi-apps/tree/master/apps/Mission%20Center)***
 https://missioncenter.io/<br />
-ARM64 ONLY - 1,377 Users
+ARM64 ONLY - 1,381 Users
 ```
 Beautiful and powerful task manager
 
@@ -2834,7 +2834,7 @@ Features:
 ### <img src="/img/app-icons/Neofetch/icon-64.png" height=32> ***[Neofetch](https://github.com/Botspot/pi-apps/tree/master/apps/Neofetch)***
 https://github.com/dylanaraps/neofetch - App Credit: dylanaraps - (GitHub: https://github.com/dylanaraps)
 Patches: theofficialgman<br />
-ARM32/ARM64 - 42,763 Users!!
+ARM32/ARM64 - 42,769 Users!!
 ```
 An aesthetically pleasing bash script to show system information.
 
@@ -2847,7 +2847,7 @@ This version of Neofetch is better than what can be found by default from APT. I
 https://github.com/sophie-h/pika-backup - Thanks to:
  - @sophie-h on GitHub for creating this app
  - @Crilum on GitHub for adding this app to Pi-Apps<br />
-ARM64 ONLY - 4,472 Users!
+ARM64 ONLY - 4,473 Users!
 ```
 An easy way to backup all your drives. 
 
@@ -2869,7 +2869,7 @@ To run in a terminal: flatpak run org.gnome.World.PikaBackup
 
 ### <img src="/img/app-icons/Pi Power Tools/icon-64.png" height=32> ***[Pi Power Tools](https://github.com/Botspot/pi-apps/tree/master/apps/Pi%20Power%20Tools)***
 https://github.com/Botspot/Pi-Power-Tools<br />
-ARM32/ARM64 - 45,306 Users!!
+ARM32/ARM64 - 45,317 Users!!
 ```
 Easily edit RaspiOS image files with a suite of useful tools.
 All features: Advanced Mount, Shrink, Expand, Flash, Boot in a VM, Download, Mount (View), Edit partitions, and Repair.
@@ -2880,7 +2880,7 @@ To run in a terminal: ~/Pi-Power-Tools/home
 
 ### <img src="/img/app-icons/Plasma Discover/icon-64.png" height=32> ***[Plasma Discover](https://github.com/Botspot/pi-apps/tree/master/apps/Plasma%20Discover)***
 https://apps.kde.org/discover/ - Botspot<br />
-Package app - 13,029 Users!!
+Package app - 13,045 Users!!
 ```
 Easy to use app store for flatpak and apt packages
 This is your classic GUI "app store", featuring screenshots, written reviews, and a one-click button to install new apps. It's geared toward desktop users and is not Raspberry Pi or ARM specific. Everything offered in it should work, and it is a good place to find easy-to-install apps that do not really need Pi-Apps to simplify the install process.
@@ -2895,7 +2895,7 @@ To only see flatpaks: plasma-discover --backends flatpak
 
 ### <img src="/img/app-icons/Snap Store/icon-64.png" height=32> ***[Snap Store](https://github.com/Botspot/pi-apps/tree/master/apps/Snap%20Store)***
 https://snapcraft.io/store - Installation script and made by RPICoder<br />
-ARM64 ONLY - 44,255 Users!!
+ARM64 ONLY - 44,263 Users!!
 ```
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross‐platform and dependency‐free.
 This makes it easy to find and install Snaps.
@@ -2908,7 +2908,7 @@ To run in a terminal: /snap/bin/snap-store
 
 ### <img src="/img/app-icons/Synaptic/icon-64.png" height=32> ***[Synaptic](https://github.com/Botspot/pi-apps/tree/master/apps/Synaptic)***
 https://www.nongnu.org/synaptic/ - Botspot<br />
-Package app - 75,378 Users!!
+Package app - 75,397 Users!!
 ```
 Advanced APT-package-management tool
 To run: Menu -> Preferences -> Synaptic Package Manager
@@ -2917,7 +2917,7 @@ To run in terminal: sudo synaptic
 
 ### <img src="/img/app-icons/Syncthing/icon-64.png" height=32> ***[Syncthing](https://github.com/Botspot/pi-apps/tree/master/apps/Syncthing)***
 https://syncthing.net - @theofficialgman on GitHub for the scripts<br />
-ARM32/ARM64 - 5,594 Users!
+ARM32/ARM64 - 5,597 Users!
 ```
 A sync manager that syncs folders to different devices no matter where you are!
 
@@ -2928,7 +2928,7 @@ To run in a terminal: syncthing
 ### <img src="/img/app-icons/SysMonTask/icon-64.png" height=32> ***[SysMonTask](https://github.com/Botspot/pi-apps/tree/master/apps/SysMonTask)***
 https://github.com/KrispyCamel4u/SysMonTask - @KrispyCamel4u (GitHub) for the program
 @ryanfortner (GitHub) for the scripts<br />
-ARM32/ARM64 - 13,678 Users!!
+ARM32/ARM64 - 13,679 Users!!
 ```
 Linux system monitor similar to the Windows task manager, written in Python.
 
@@ -2938,7 +2938,7 @@ To run in a terminal: sysmontask
 
 ### <img src="/img/app-icons/Systemd Pilot/icon-64.png" height=32> ***[Systemd Pilot](https://github.com/Botspot/pi-apps/tree/master/apps/Systemd%20Pilot)***
 https://github.com/mfat/systemd-pilot - Botspot<br />
-ARM32/ARM64 - 2,551 Users!
+ARM32/ARM64 - 2,554 Users!
 ```
 Desktop application for managing systemd services. it can be described as a gui for systemctl.
 Features:
@@ -2955,7 +2955,7 @@ To run in a terminal: systemd-pilot
 ### <img src="/img/app-icons/System Monitoring Center/icon-64.png" height=32> ***[System Monitoring Center](https://github.com/Botspot/pi-apps/tree/master/apps/System%20Monitoring%20Center)***
 https://github.com/hakandundar34coding/system-monitoring-center - @hakandundar34coding (GitHub)
 @ryanfortner (GitHub)<br />
-ARM32/ARM64 - 37,595 Users!!
+ARM32/ARM64 - 37,612 Users!!
 ```
 Graphical Linux System Monitor that provides information about CPU/RAM/Disk/Network/GPU performance, sensors, processes, users, startup programs, services and system info.
 
@@ -2973,7 +2973,7 @@ https://github.com/linuxmint/timeshift
 Added and updated on pi-apps: Itai-Nelken and theofficialgman
 https://github.com/Itai-Nelken/
 https://github.com/theofficialgman<br />
-ARM32/ARM64 - 12,912 Users!!
+ARM32/ARM64 - 12,917 Users!!
 ```
 System restore tool for Linux that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS.
 Creates filesystem snapshots using rsync+hardlinks, or BTRFS snapshots. Supports scheduled snapshots, multiple backup levels, and exclude filters. Snapshots can be restored while system is running or from Live CD/USB.
@@ -2984,7 +2984,7 @@ To run CLI interface from terminal: timeshift
 
 ### <img src="/img/app-icons/Update Buddy/icon-64.png" height=32> ***[Update Buddy](https://github.com/Botspot/pi-apps/tree/master/apps/Update%20Buddy)***
 https://github.com/Botspot/update-buddy<br />
-ARM32/ARM64 - 28,440 Users!!
+ARM32/ARM64 - 28,447 Users!!
 ```
 Automatically check for APT updates on boot.
 If anything can be upgraded, asks permission to upgrade.
@@ -2996,7 +2996,7 @@ To run in a terminal: ~/update-buddy/onstartup.sh
 ### <img src="/img/app-icons/Alacritty Terminal/icon-64.png" height=32> ***[Alacritty Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Alacritty%20Terminal)***
 https://alacritty.org/ - theofficialgman for building the debs.
 barnumbirr on github for making the debian sources.<br />
-ARM32/ARM64 - 6,585 Users!
+ARM32/ARM64 - 6,586 Users!
 ```
 A fast, cross-platform, OpenGL terminal emulator
 
@@ -3019,7 +3019,7 @@ Note: This is fully hardware accelerated as long as you have the GPU driver enab
 
 ### <img src="/img/app-icons/Guake Terminal/icon-64.png" height=32> ***[Guake Terminal](https://github.com/Botspot/pi-apps/tree/master/apps/Guake%20Terminal)***
 https://guake.github.io/ - Botspot<br />
-ARM32/ARM64 - 4,869 Users!
+ARM32/ARM64 - 4,870 Users!
 ```
 Guake is a top-down terminal, inspirated by the famous terminal used in Quake.
 
@@ -3037,7 +3037,7 @@ https://github.com/kovidgoyal/kitty
 
 Pi-Apps packaging:
 Alex Bowles<br />
-ARM64 ONLY - 390 Users
+ARM64 ONLY - 394 Users
 ```
 The fast, feature-rich, GPU based terminal emulator.
 
@@ -3050,7 +3050,7 @@ To run in a terminal: kitty
 ### <img src="/img/app-icons/Microsoft PowerShell/icon-64.png" height=32> ***[Microsoft PowerShell](https://github.com/Botspot/pi-apps/tree/master/apps/Microsoft%20PowerShell)***
 https://learn.microsoft.com/powershell/ - Made by Microsoft [ Open Source Code ]
 Ported by TurquoiseTNT<br />
-ARM32/ARM64 - 9,803 Users!
+ARM32/ARM64 - 9,807 Users!
 ```
 PowerShell is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets.
 
@@ -3062,7 +3062,7 @@ In terminal: pwsh
 https://tabby.sh/ - Thanks to:
  - Eugeny and all contributors for creating Tabby!
  - @Jai-JAP on GitHub for armv7l and aarch64 upstream build support<br />
-ARM32/ARM64 - 7,162 Users!
+ARM32/ARM64 - 7,161 Users!
 ```
 A terminal for a more modern age 
 Tabby (formerly Terminus) is a highly configurable terminal emulator, SSH and serial client for Windows, macOS and Linux.
@@ -3074,7 +3074,7 @@ Run from Menu: Menu -> Accessories -> Tabby
 
 ### <img src="/img/app-icons/AndroidBuddy/icon-64.png" height=32> ***[AndroidBuddy](https://github.com/Botspot/pi-apps/tree/master/apps/AndroidBuddy)***
 https://github.com/Botspot/androidbuddy - Botspot<br />
-ARM32/ARM64 - 19,351 Users!!
+ARM32/ARM64 - 19,357 Users!!
 ```
 Share your keyboard, mouse, screen, internet connection, files, and more with your Android phone.
 
@@ -3097,7 +3097,7 @@ https://antimicrox.github.io/ - Thanks to:
  - All contributers for creating AntiMicroX.
  - ryanfortner for his information on how to build AntiMicroX.
  - Crilum on GitHub for writing the install/uninstall scripts.<br />
-ARM32/ARM64 - 9,373 Users!
+ARM32/ARM64 - 9,379 Users!
 ```
 A graphical program used to map keyboard buttons and mouse controls to a gamepad.
 
@@ -3111,7 +3111,7 @@ Run from Terminal: antimicrox
 https://etcher.balena.io/ - @theofficialgman (GitHub)
 @Itai-Nelken (GitHub)
 @ryanfortner (GitHub)<br />
-ARM64 ONLY - 56,470 Users!!
+ARM64 ONLY - 56,485 Users!!
 ```
 Flash SD cards with a disk image. Many file types supported.
 To run: Menu -> Accessories -> balenaEtcher
@@ -3138,7 +3138,7 @@ To run in a terminal: ckb-next
 ### <img src="/img/app-icons/FF Multi Converter/icon-64.png" height=32> ***[FF Multi Converter](https://github.com/Botspot/pi-apps/tree/master/apps/FF%20Multi%20Converter)***
 https://github.com/l-koehler/FF-converter - Thanks to Crilum on GitHub for writing the scripts.
 Thanks to ilstad and l-koehler on GitHub and all Contributors for creating FF Converter!<br />
-ARM32/ARM64 - 9,523 Users!
+ARM32/ARM64 - 9,526 Users!
 ```
 Simple file conversions for audio, video, images and documents.
 
@@ -3155,7 +3155,7 @@ https://flameshot.org/ - Flameshot.org for creating the tool + all github contri
 CleanMachine1 for the install scripts and suggestion
 Itai-Nelken for finding the .deb files for installing
 Chunky-Milk for hosting the .deb file in their Github<br />
-ARM32/ARM64 - 17,135 Users!!
+ARM32/ARM64 - 17,140 Users!!
 ```
 A simple tool to take screenshots of your screen or just parts of the screen. It is similar to Microsoft's Snipping Tool.
 
@@ -3178,7 +3178,7 @@ To run in a terminal: geekbench5
 
 ### <img src="/img/app-icons/Geekbench 6/icon-64.png" height=32> ***[Geekbench 6](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench%206)***
 https://www.geekbench.com/<br />
-ARM64 ONLY - 17,058 Users!!
+ARM64 ONLY - 17,064 Users!!
 ```
 Geekbench 6 is a cross-platform benchmark that measures your system's performance with the press of a button. 
 How will your mobile device or desktop computer perform when push comes to crunch? 
@@ -3190,7 +3190,7 @@ To run in a terminal: geekbench6
 
 ### <img src="/img/app-icons/Gnome Maps/icon-64.png" height=32> ***[Gnome Maps](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Maps)***
 https://apps.gnome.org/Maps/ - Botspot<br />
-Package app - 9,018 Users!
+Package app - 9,025 Users!
 ```
 Minimalistic maps program, requires an Internet connection
 Gnome Maps gives you quick access to maps all across the world. It allows you to quickly find the place you’re looking for by searching for a city or street, or locate a place to meet a friend.
@@ -3203,7 +3203,7 @@ To run in a terminal: gapplication launch org.gnome.Maps
 
 ### <img src="/img/app-icons/Imager/icon-64.png" height=32> ***[Imager](https://github.com/Botspot/pi-apps/tree/master/apps/Imager)***
 https://www.raspberrypi.com/software/ - Botspot<br />
-Package app - 633,547 Users!!
+Package app - 633,875 Users!!
 ```
 Raspberry Pi's official SD card imaging utility.
 This includes many features and customizations you can make to the image before flashing, and is overall very reliable.
@@ -3214,7 +3214,7 @@ To run in terminal: rpi-imager
 ### <img src="/img/app-icons/KeePassXC/icon-64.png" height=32> ***[KeePassXC](https://github.com/Botspot/pi-apps/tree/master/apps/KeePassXC)***
 https://keepassxc.org/ - @ryanfortner (GitHub) for the scripts
 @raspbian-addons maintainers for the deb<br />
-ARM32/ARM64 - 7,480 Users!
+ARM32/ARM64 - 7,484 Users!
 ```
 KeePassXC is a modern, secure, and open-source password manager that stores and manages sensitive information.
 
@@ -3224,7 +3224,7 @@ To run in a terminal: keepassxc
 
 ### <img src="/img/app-icons/More RAM/icon-64.png" height=32> ***[More RAM](https://github.com/Botspot/pi-apps/tree/master/apps/More%20RAM)***
 https://forums.raspberrypi.com/viewtopic.php?t=327238 - Botspot<br />
-ARM32/ARM64 - 89,158 Users!!
+ARM32/ARM64 - 89,192 Users!!
 ```
 Of course Pi-Apps lets you download more RAM!
 Have you ever been using your Raspberry Pi when the screen froze? Most likely, your system ran out of RAM.
@@ -3255,7 +3255,7 @@ Overall, this app is designed to get the most out of ZRAM. Even if your device n
 
 ### <img src="/img/app-icons/Nautilus/icon-64.png" height=32> ***[Nautilus](https://github.com/Botspot/pi-apps/tree/master/apps/Nautilus)***
 https://apps.gnome.org/Nautilus/ - Botspot<br />
-Package app - 88,914 Users!!
+Package app - 88,939 Users!!
 ```
 Feature-rich file manager for the GNOME desktop
 To run: Menu -> Accessories -> Nautilus
@@ -3265,7 +3265,7 @@ To run in terminal: nautilus
 ### <img src="/img/app-icons/Nemo/icon-64.png" height=32> ***[Nemo](https://github.com/Botspot/pi-apps/tree/master/apps/Nemo)***
 https://github.com/linuxmint/nemo - open-sorcerer64
 linuxmint<br />
-Package app - 20,993 Users!!
+Package app - 21,002 Users!!
 ```
 File manager and graphical shell for Cinnamon, also works well on other desktop environments.
 
@@ -3279,7 +3279,7 @@ To run in terminal: nemo
 ### <img src="/img/app-icons/Node.js/icon-64.png" height=32> ***[Node.js](https://github.com/Botspot/pi-apps/tree/master/apps/Node.js)***
 https://nodesource.com/ - Script by ilobilo
 Script improved by Itai-Nelken<br />
-ARM32/ARM64 - 23,417 Users!!
+ARM32/ARM64 - 23,444 Users!!
 ```
 JavaScript code outside a web browser.
 Node.js is used for all npm packages and is the foundation of Electron.
@@ -3290,7 +3290,7 @@ To run in a terminal: node
 
 ### <img src="/img/app-icons/Ollama GUI/icon-64.png" height=32> ***[Ollama GUI](https://github.com/Botspot/pi-apps/tree/master/apps/Ollama%20GUI)***
 https://ollama.com - Botspot<br />
-ARM64 ONLY - 6,902 Users!
+ARM64 ONLY - 6,906 Users!
 ```
 Run LLMs like ChatGPT locally without the Internet
 ChatGPT is a large language AI model that requires several GPUs to run, but other AI models are a lot smaller. Some have been compressed enough to fit in 8GB of RAM, meaning that you could ask a local AI questions without any internet connection. On a low-power computer, the writing speed will be slow, and the accuracy is worse than larger cloud models, but it is still useful in situations where you need some information and have high privacy standards or have no Internet connection.
@@ -3312,7 +3312,7 @@ To run Ollama's CLI interface in a terminal: ollama
 
 ### <img src="/img/app-icons/Organic Maps/icon-64.png" height=32> ***[Organic Maps](https://github.com/Botspot/pi-apps/tree/master/apps/Organic%20Maps)***
 https://organicmaps.app/ - Botspot<br />
-ARM64 ONLY - 2,514 Users!
+ARM64 ONLY - 2,521 Users!
 ```
 Free offline maps for everyone
 The Linux version of Organic Maps has not reached feature parity with the Android and iPhone versions yet, and has not been optimized for mobile devices yet. Organic Maps is the ultimate companion app for travelers, tourists, hikers, and cyclists:
@@ -3333,7 +3333,7 @@ To run in a terminal: flatpak run --branch=stable --arch=aarch64 --command=OMaps
 
 ### <img src="/img/app-icons/Packet/icon-64.png" height=32> ***[Packet](https://github.com/Botspot/pi-apps/tree/master/apps/Packet)***
 https://github.com/nozwock/packet<br />
-ARM64 ONLY - 217 Users
+ARM64 ONLY - 218 Users
 ```
 A partial implementation of Google's Quick Share protocol that lets you send and receive files wirelessly from Android devices using Quick Share, or another device with Packet.
 
@@ -3342,7 +3342,7 @@ Packet may require Bluetooth to be enabled for some devices. The devices must be
 
 ### <img src="/img/app-icons/PeaZip/icon-64.png" height=32> ***[PeaZip](https://github.com/Botspot/pi-apps/tree/master/apps/PeaZip)***
 https://peazip.github.io - @ryanfortner (GitHub)<br />
-ARM64 ONLY - 12,491 Users!!
+ARM64 ONLY - 12,499 Users!!
 ```
 PeaZip is free file archiver utility, based on Open Source technologies of 7-Zip, p7zip, Brotli, FreeArc, PAQ, Zstandard, and PEA projects.
 
@@ -3377,7 +3377,7 @@ and it makes life easier by eliminating the use of quotes for apps with a space 
 
 ### <img src="/img/app-icons/PiGro/icon-64.png" height=32> ***[PiGro](https://github.com/Botspot/pi-apps/tree/master/apps/PiGro)***
 https://zestful-pigroxtrmo.wordpress.com/<br />
-ARM32/ARM64 - 22,785 Users!!
+ARM32/ARM64 - 22,786 Users!!
 ```
 A system configuration tool inspired by openSUSE's YaST but with the user-friendliness of Linux Mint. PiGro equips Raspberry Pi OS with graphical interfaces for tasks that would otherwise require the terminal. It is also optimized for Ubuntu, Ubuntu Mate, and MX Linux.
 
@@ -3396,7 +3396,7 @@ To run in a terminal: pigro-jci
 
 ### <img src="/img/app-icons/PiSafe/icon-64.png" height=32> ***[PiSafe](https://github.com/Botspot/pi-apps/tree/master/apps/PiSafe)***
 https://github.com/RichardMidnight/pi-safe<br />
-ARM32/ARM64 - 9,569 Users!
+ARM32/ARM64 - 9,570 Users!
 ```
 Create compressed image files.  Flash SD cards from a disk image. Many file types supported.
 To run: Menu -> Accessories -> PiSafe
@@ -3405,7 +3405,7 @@ To run in a terminal: pisafe
 
 ### <img src="/img/app-icons/QR Code Reader/icon-64.png" height=32> ***[QR Code Reader](https://github.com/Botspot/pi-apps/tree/master/apps/QR%20Code%20Reader)***
 https://github.com/hongquan/CoBang - Botspot<br />
-ARM64 ONLY - 1,864 Users!
+ARM64 ONLY - 1,865 Users!
 ```
 CoBang app - simple lightweight QR code and barcode scanner, uses the webcam.
 Not sure if this is compatible with the Raspberry Pi Cameras, but it should work with those if you set one up as a normal video output device.
@@ -3419,7 +3419,7 @@ Quick tip: In testing, it seems that the scanned URL is displayed below the bott
 
 ### <img src="/img/app-icons/Scrcpy/icon-64.png" height=32> ***[Scrcpy](https://github.com/Botspot/pi-apps/tree/master/apps/Scrcpy)***
 https://github.com/Genymobile/scrcpy<br />
-ARM32/ARM64 - 28,107 Users!!
+ARM32/ARM64 - 28,118 Users!!
 ```
 Connect and control your Android smartphone.
 This is similar to a remote desktop, where you can view the device's screen and navigate it normally.
@@ -3438,7 +3438,7 @@ Notes:
 
 ### <img src="/img/app-icons/Screenshot/icon-64.png" height=32> ***[Screenshot](https://github.com/Botspot/pi-apps/tree/master/apps/Screenshot)***
 https://gitlab.gnome.org/Archive/gnome-screenshot - Botspot<br />
-Package app - 66,188 Users!!
+Package app - 66,211 Users!!
 ```
 Simple interface for capturing screenshots, similar to the Windows Snipping Tool.
 NOTE: This does not work on Wayland!! Use Flameshot.
@@ -3449,7 +3449,7 @@ To run in terminal: gnome-screenshot
 
 ### <img src="/img/app-icons/TiLP/icon-64.png" height=32> ***[TiLP](https://github.com/Botspot/pi-apps/tree/master/apps/TiLP)***
 http://lpg.ticalc.org/prj_tilp/ - @ryanfortner (GitHub)<br />
-Package app - 2,307 Users!
+Package app - 2,308 Users!
 ```
 TiLP is a linking program for Texas Instruments graphing calculators. It can transfer apps, programs, and more to a calculator.
 
@@ -3459,7 +3459,7 @@ To run in a terminal: tilp
 
 ### <img src="/img/app-icons/tldr/icon-64.png" height=32> ***[tldr](https://github.com/Botspot/pi-apps/tree/master/apps/tldr)***
 https://tldr.sh/ - the main developer - dbrgn (Danilo Bargen)<br />
-ARM32/ARM64 - 6,019 Users!
+ARM32/ARM64 - 6,020 Users!
 ```
 The tldr project is a collection of community-maintained help pages for command-line tools, that aims to be a simpler, more approachable complement to traditional man pages.
 
@@ -3472,7 +3472,7 @@ It also is more digestable than man pages which blasts pages of useless stuff at
 
 ### <img src="/img/app-icons/USBImager/icon-64.png" height=32> ***[USBImager](https://github.com/Botspot/pi-apps/tree/master/apps/USBImager)***
 https://bztsrc.gitlab.io/usbimager/<br />
-ARM32/ARM64 - 20,944 Users!!
+ARM32/ARM64 - 20,946 Users!!
 ```
 A very minimal GUI app that can write compressed disk images to USB drives.
 USBImager is a very useful and minimal app that works like etcher and Raspberry Pi imager but needs less resources, (it's less then 400kb).
@@ -3483,7 +3483,7 @@ To run from terminal, type: usbimager.
 ### <img src="/img/app-icons/VeraCrypt/icon-64.png" height=32> ***[VeraCrypt](https://github.com/Botspot/pi-apps/tree/master/apps/VeraCrypt)***
 https://veracrypt.io/ - nielsbaloe on Github suggested this be added.
 Botspot added it.<br />
-ARM32/ARM64 - 10,909 Users!!
+ARM32/ARM64 - 10,910 Users!!
 ```
 Open source disk encryption software
 - Creates a virtual encrypted disk within a file and mounts it as a real disk.
@@ -3515,7 +3515,7 @@ To run in a terminal: vmware-view
 
 ### <img src="/img/app-icons/Windows Flasher/icon-64.png" height=32> ***[Windows Flasher](https://github.com/Botspot/pi-apps/tree/master/apps/Windows%20Flasher)***
 https://github.com/Botspot/wor-flasher - Botspot<br />
-ARM32/ARM64 - 56,700 Users!!
+ARM32/ARM64 - 56,712 Users!!
 ```
 Install Windows 10 or Windows 11 on a Raspberry Pi SD card.
 This tool is a 100% legal way to use any Debian or Ubuntu Linux operating system to flash a RPi's SD card with the necessary files to run Windows 10 or 11.
@@ -3537,7 +3537,7 @@ If you encounter problems, we recommend you run WoR-flasher in a terminal to cat
 
 ### <img src="/img/app-icons/Xfburn/icon-64.png" height=32> ***[Xfburn](https://github.com/Botspot/pi-apps/tree/master/apps/Xfburn)***
 https://docs.xfce.org/apps/xfburn/start - @Rak1ta (GitHub)<br />
-Package app - 37,590 Users!!
+Package app - 37,599 Users!!
 ```
 Xfburn is a tool to help burning CDs and DVDs. It fits well in the Xfce Desktop Environment but can be used anywhere.
 
@@ -3619,7 +3619,7 @@ Monero is probably the best currency for PC mining, as its mining algorithm is s
 
 ### <img src="/img/app-icons/Botspot Virtual Machine/icon-64.png" height=32> ***[Botspot Virtual Machine](https://github.com/Botspot/pi-apps/tree/master/apps/Botspot%20Virtual%20Machine)***
 https://github.com/Botspot/bvm - Botspot<br />
-ARM64 ONLY - 14,470 Users!!
+ARM64 ONLY - 14,478 Users!!
 ```
 Run Windows 11 in a high-speed virtual machine on Linux
 BVM is a virtual machine optimized for Windows 11 on ARM hardware like Raspberry Pi. It downloads, converts, configures, installs, and debloats the OS automatically, and all that's needed from you is to watch and wait patiently.
@@ -3638,7 +3638,7 @@ All frequently asked questions are answered here: https://github.com/Botspot/bvm
 ### <img src="/img/app-icons/Box64/icon-64.png" height=32> ***[Box64](https://github.com/Botspot/pi-apps/tree/master/apps/Box64)***
 https://box86.org/ - ptitseb for creating box64
 debs made by Pi-Apps-Coders development team<br />
-ARM64 ONLY - 142,950 Users!!
+ARM64 ONLY - 143,057 Users!!
 ```
 Easily emulate x86_64 linux apps on ARM64.
 
@@ -3654,7 +3654,7 @@ To run in a terminal: box64
 ### <img src="/img/app-icons/Box86/icon-64.png" height=32> ***[Box86](https://github.com/Botspot/pi-apps/tree/master/apps/Box86)***
 https://box86.org/ - ptitseb for creating box64
 debs made by Pi-Apps-Coders development team<br />
-ARM32/ARM64 - 144,671 Users!!
+ARM32/ARM64 - 144,730 Users!!
 ```
 Easily emulate x86 linux apps on ARM32.
 
@@ -3690,7 +3690,7 @@ For more information see https://github.com/AndreRH/hangover/blob/master/README.
 ### <img src="/img/app-icons/QEMU/icon-64.png" height=32> ***[QEMU](https://github.com/Botspot/pi-apps/tree/master/apps/QEMU)***
 https://www.qemu.org/ - Added to Pi-Apps by Itai-Nelken
 debs compiled and packaged using QEMU2DEB (tool by Itai-Nelken) by ryanfortner.<br />
-ARM32/ARM64 - 15,738 Users!!
+ARM32/ARM64 - 15,740 Users!!
 ```
 QEMU is a generic and open source machine emulator and virtualizer.
 QEMU 6.1 for Buster, system QEMU for other distros (Bullseye is currently using 7.0).
@@ -3700,7 +3700,7 @@ To see all QEMU commands you can run: open a terminal, type 'qemu', and press th
 
 ### <img src="/img/app-icons/Waydroid/icon-64.png" height=32> ***[Waydroid](https://github.com/Botspot/pi-apps/tree/master/apps/Waydroid)***
 https://waydro.id/ - Botspot<br />
-ARM64 ONLY - 2,301 Users!
+ARM64 ONLY - 2,306 Users!
 ```
 Boot a full Android OS on systems running Wayland based desktop environments.
 No virtualization or emulation involved, just a namespaces container, so the performance is indistinguishable from natively installing Android on the same hardware.
@@ -3722,7 +3722,7 @@ waydroid prop set persist.waydroid.uevent false
 https://www.winehq.org/ - Wine Developers: https://wiki.winehq.org/Who%27s_Who
 Box64 Developer: @ptitSeb on GitHub
 Script Writer and Packager: @theofficialgman and other pi-apps contributors on GitHub<br />
-ARM64 ONLY - 55,246 Users!!
+ARM64 ONLY - 55,279 Users!!
 ```
 Run x86 and x64 Windows apps with a box64-emulated version x86/x64 wine-9.17 (WOW64 mode enabled).
 To run: wine path/to/file.exe
@@ -3743,7 +3743,7 @@ Box86/Box64 Game compatibility list: https://box86.org/app/
 https://www.winehq.org/ - Wine Developers: https://wiki.winehq.org/Who%27s_Who
 Box86 Developer: @ptitSeb on GitHub
 Script Writer and Packager: @theofficialgman and other pi-apps contributors on GitHub<br />
-ARM32 ONLY - 53,028 Users!!
+ARM32 ONLY - 53,034 Users!!
 ```
 Run x86 Windows apps with a box86-emulated version of x86 wine-9.17.
 To run: wine path/to/file.exe
