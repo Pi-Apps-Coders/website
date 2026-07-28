@@ -754,24 +754,6 @@ To run: Menu -> Games -> En Croissant
 To run in a terminal: en-croissant
 ```
 
-### <img src="/img/app-icons/Friday Night Funkin' Shadow Engine/icon-64.png" height=32> ***[Friday Night Funkin' Shadow Engine](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Shadow%20Engine)***
-https://github.com/ShadowEngineTeam/FNF-Shadow-Engine - Shadow Engine Team for creating the Shadow Engine
-Shadow Mario for the Psych Engine
-ninjamuffin99 for the Friday Night Funkin' Game itself<br />
-ARM32/ARM64 - 169 Users
-```
-Shadow Engine is a highly modified Psych Engine 0.7.3 fork for Friday Night Funkin'. It features advanced modding capabilities, Lua/Luau and Haxe scripting support, improved performance, and additional features over the base Psych Engine.
-
-This engine is ready to be modded and includes features like V-Slice, scripted states, and more.
-
-WARNING: Some songs, states, and stages may use shaders or have too many sprites, which can cause FPS drops on Raspberry Pi. Shaders and Low Quality options can be toggled in the game settings, or just simply make window small :D
-
-To install mods: place the mod folder or unzip the mod into ~/.ShadowEngine/mods/
-
-To run: Menu -> Games -> Friday Night Funkin' Shadow Engine
-To run in a terminal: ~/.ShadowEngine/ShadowEngine
-```
-
 ### <img src="/img/app-icons/Friday Night Funkin' Rewritten/icon-64.png" height=32> ***[Friday Night Funkin' Rewritten](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Rewritten)***
 https://github.com/HTV04/funkin-rewritten - HTV04 For this Engine. 
 LOVE2D devs
@@ -790,6 +772,24 @@ To run: Menu -> Games -> Friday Night Funkin' Rewritten
 To run in terminal: love $HOME/.love_games/friday_night_funkin_rewritten/funkin-rewritten.love
 
 As this game is still a work in progress, some settings (like setting fullscreen mode) can only be changed via an ini file: ~/.local/share/love/funkin-rewritten/settings.ini
+```
+
+### <img src="/img/app-icons/Friday Night Funkin' Shadow Engine/icon-64.png" height=32> ***[Friday Night Funkin' Shadow Engine](https://github.com/Botspot/pi-apps/tree/master/apps/Friday%20Night%20Funkin'%20Shadow%20Engine)***
+https://github.com/ShadowEngineTeam/FNF-Shadow-Engine - Shadow Engine Team for creating the Shadow Engine
+Shadow Mario for the Psych Engine
+ninjamuffin99 for the Friday Night Funkin' Game itself<br />
+ARM32/ARM64 - 169 Users
+```
+Shadow Engine is a highly modified Psych Engine 0.7.3 fork for Friday Night Funkin'. It features advanced modding capabilities, Lua/Luau and Haxe scripting support, improved performance, and additional features over the base Psych Engine.
+
+This engine is ready to be modded and includes features like V-Slice, scripted states, and more.
+
+WARNING: Some songs, states, and stages may use shaders or have too many sprites, which can cause FPS drops on Raspberry Pi. Shaders and Low Quality options can be toggled in the game settings, or just simply make window small :D
+
+To install mods: place the mod folder or unzip the mod into ~/.ShadowEngine/mods/
+
+To run: Menu -> Games -> Friday Night Funkin' Shadow Engine
+To run in a terminal: ~/.ShadowEngine/ShadowEngine
 ```
 
 ### <img src="/img/app-icons/GB Studio/icon-64.png" height=32> ***[GB Studio](https://github.com/Botspot/pi-apps/tree/master/apps/GB%20Studio)***
@@ -1386,6 +1386,19 @@ To run: Menu -> Internet -> Browsh
 To run in a terminal: browsh
 
 NOTE: This will also install firefox-esr
+```
+
+### <img src="/img/app-icons/Chrome/icon-64.png" height=32> ***[Chrome](https://github.com/Botspot/pi-apps/tree/master/apps/Chrome)***
+https://www.google.com/chrome - Botspot<br />
+ARM64 ONLY
+```
+Google Chrome browser - stable, beta, unstable, canary versions
+This is Google's official Chrome ARM Linux build. Our installer will offer the stable version, but you can also click the checkbox to install Beta, Unstable, and Canary versions if you prefer to run the latest version.
+
+Updates are not handled by Pi-Apps, but through normal apt package updates.
+
+Note: for privacy reasons, we recommend most users continue using Chromium builds. The Chromium build from Pi OS is open source and has minor performance tweaks and better default privacy settings. It also supports Widevine video playback and Google account sync, if you use the Better Chromium app from Pi-Apps.
+If you are not on Pi OS and want the Pi OS version of Chromium, go visit the Downgrade Chromium app on Pi-Apps.
 ```
 
 ### <img src="/img/app-icons/Chromium/icon-64.png" height=32> ***[Chromium](https://github.com/Botspot/pi-apps/tree/master/apps/Chromium)***
