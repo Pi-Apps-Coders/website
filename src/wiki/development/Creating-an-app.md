@@ -5,23 +5,27 @@ eleventyNavigation:
   order: 3
 ---
 
-# Creating an app for Pi-Apps
+# Submitting an app to be added to Pi-Apps
 
-**It's easy to make your own Pi-App!**
+If you're reading this, you are probably thinking about submitting a new app to be added to Pi-Apps. Welcome! Please understand that Pi-Apps is maintained by volunteers, and we have high standards for which apps are added. As we are a small team, we value quality over quantity. We manually review each potential app for quality and usefulness to average Linux users.
 
-Please note that if you want to *submit* your app to the official Pi-Apps repository, we have a few guidelines:
+If you are not sure if an app fits the guidelines, feel free to ask us before you spend a bunch of time writing scripts and a description for it! It's OK to ask first! We appreciate it.
 
 - The app needs to be useful for people who use their Raspberry Pi as an everyday, desktop computer.
-    - Apps that are meant to run on a headless Pi will not be accepted. (Rosetta@home, pihole, etc)
-    - Apps that are not designed for everyday GUI users won't be accepted. (command-line file servers, webservers, etc)
+  - Apps that are meant to run on a headless Pi will not be accepted. (Rosetta@home, pihole, etc)
+  - Apps that are not designed for everyday GUI users won't be accepted. (command-line file servers, webservers, etc)
+  - Low-effort apps with questionable usefulness will be rejected.
 - The app needs to be legal to download and use. (No piracy allowed)
-    - Paid apps are allowed. If your app has a free demo mode (like Doom 3), please ask the user if they want the demo mode or the full version.
-- The app should be appropriate for all ages. After all, Raspberry Pis are designed with children in mind.
-- Applications that support both ARM32 and ARM64 are preferred, ARM64 ONLY applications are tolerated, and new ARM32 ONLY applications will likely not be accepted
+  - Paid apps are allowed. If your app has a free demo mode (like Doom 3), please ask the user if they want the demo mode or the full version.
+- The app should be appropriate for all ages. After all, Raspberry Pi is designed with children in mind.
+- Update 2026: ARM64-only apps are perfectly fine. If the app runs on 32-bit ARM that's fine, but not required anymore.
 - The app may not have any malicious content. Any attempt to upload viruses, zip bombs, or any sort of software will result in a swift ban from all pi-apps repos and a report of such malicious activity to GitHub.
+- The app needs to look legitimate, established, and under active maintainance.
+  - AI-generated apps that appear to be low quality will not be accepted.
+  - Apps that appear to be beginner level coding projects with low likelihood of being maintained will not be accepted.
 - Even if your app follows all of these guidelines, there still may be a reason we decide not to add it to the official Pi-Apps repository. If that happens, you can still take advantage of Pi-Apps's features by telling your users to import the zip file for your app.
 
-Note about Package Apps:
+Note about Package Apps (APT and Flatpak Apps):
 
 Pi-Apps was never intended to be a GUI for apt. The only reason we have package-apps is to avoid limiting the options for a given task. For example, if you need an image editor, the best option may be an apt package, so it's best to include them for comparison rather than giving script-apps an unfair advantage.
 
