@@ -498,6 +498,18 @@ To run in a terminal (on 32-bit OS): OpenSCAD.AppImage
 To run in a terminal (on 64-bit OS): openscad-nightly
 ```
 
+### <img src="/img/app-icons/OrcaSlicer/icon-64.png" height=32> ***[OrcaSlicer](https://github.com/Botspot/pi-apps/tree/master/apps/OrcaSlicer)***
+https://orcaslicer.com - This app is created by OrcaSlicer Official.
+Added to PiApps by Parker927 on Github.<br />
+ARM64 ONLY
+```
+Get even more perfect 3D prints!
+OrcaSlicer is a powerful, free and open-source 3D printer slicer with cutting edge features for FDM printing. It supports a wide range of printers from manufacturers including Bambu Lab, Prusa, Voron, Creality, and many more.
+
+To run: Menu -> Graphics -> OrcaSlicer
+To run in a terminal: flatpak run com.orcaslicer.OrcaSlicer
+```
+
 ### <img src="/img/app-icons/PrusaSlicer/icon-64.png" height=32> ***[PrusaSlicer](https://github.com/Botspot/pi-apps/tree/master/apps/PrusaSlicer)***
 https://github.com/davidk/PrusaSlicer-ARM.AppImage<br />
 ARM32/ARM64 - 9,362 Users!
