@@ -58,14 +58,15 @@
 <main class="container tmpl-wiki">
   <div class="row row-reverse">
   <div class="wiki-content content">
-    <h1 id="creating-an-app-for-pi-apps" tabindex="-1">Creating an app for Pi-Apps <a class="direct-link" href="#creating-an-app-for-pi-apps" aria-hidden="true">#</a></h1>
-<p><strong>It's easy to make your own Pi-App!</strong></p>
-<p>Please note that if you want to <em>submit</em> your app to the official Pi-Apps repository, we have a few guidelines:</p>
+    <h1 id="submitting-an-app-to-be-added-to-pi-apps" tabindex="-1">Submitting an app to be added to Pi-Apps <a class="direct-link" href="#submitting-an-app-to-be-added-to-pi-apps" aria-hidden="true">#</a></h1>
+<p>If you're reading this, you are probably thinking about submitting a new app to be added to Pi-Apps. Welcome! Please understand that Pi-Apps is maintained by volunteers, and we have high standards for which apps are added. As we are a small team, we value quality over quantity. We manually review each potential app for quality and usefulness to average Linux users.</p>
+<p>If you are not sure if an app fits the guidelines, feel free to ask us before you spend a bunch of time writing scripts and a description for it! It's OK to ask first! We appreciate it.</p>
 <ul>
 <li>The app needs to be useful for people who use their Raspberry Pi as an everyday, desktop computer.
 <ul>
 <li>Apps that are meant to run on a headless Pi will not be accepted. (Rosetta@home, pihole, etc)</li>
 <li>Apps that are not designed for everyday GUI users won't be accepted. (command-line file servers, webservers, etc)</li>
+<li>Low-effort apps with questionable usefulness will be rejected.</li>
 </ul>
 </li>
 <li>The app needs to be legal to download and use. (No piracy allowed)
@@ -73,12 +74,18 @@
 <li>Paid apps are allowed. If your app has a free demo mode (like Doom 3), please ask the user if they want the demo mode or the full version.</li>
 </ul>
 </li>
-<li>The app should be appropriate for all ages. After all, Raspberry Pis are designed with children in mind.</li>
-<li>Applications that support both ARM32 and ARM64 are preferred, ARM64 ONLY applications are tolerated, and new ARM32 ONLY applications will likely not be accepted</li>
+<li>The app should be appropriate for all ages. After all, Raspberry Pi is designed with children in mind.</li>
+<li>Update 2026: ARM64-only apps are perfectly fine. If the app runs on 32-bit ARM that's fine, but not required anymore.</li>
 <li>The app may not have any malicious content. Any attempt to upload viruses, zip bombs, or any sort of software will result in a swift ban from all pi-apps repos and a report of such malicious activity to GitHub.</li>
+<li>The app needs to look legitimate, established, and under active maintainance.
+<ul>
+<li>AI-generated apps that appear to be low quality will not be accepted.</li>
+<li>Apps that appear to be beginner level coding projects with low likelihood of being maintained will not be accepted.</li>
+</ul>
+</li>
 <li>Even if your app follows all of these guidelines, there still may be a reason we decide not to add it to the official Pi-Apps repository. If that happens, you can still take advantage of Pi-Apps's features by telling your users to import the zip file for your app.</li>
 </ul>
-<p>Note about Package Apps:</p>
+<p>Note about Package Apps (APT and Flatpak Apps):</p>
 <p>Pi-Apps was never intended to be a GUI for apt. The only reason we have package-apps is to avoid limiting the options for a given task. For example, if you need an image editor, the best option may be an apt package, so it's best to include them for comparison rather than giving script-apps an unfair advantage.</p>
 <p>In other words, package apps need to <em>compliment preexisting script-apps.</em> A proposed package-app in a completely new category will not be accepted.</p>
 <p>The remainder of this page will explain how to make an app.</p>
