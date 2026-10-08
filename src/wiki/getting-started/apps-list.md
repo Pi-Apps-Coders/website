@@ -2708,6 +2708,23 @@ Microsoft's vscode source code is open source (MIT-licensed), but the product av
 To run: Menu -> Programming -> VSCodium
 To run: codium
 ```
+
+### <img src="/img/app-icons/Zed/icon-64.png" height=32> ***[Zed](https://github.com/Botspot/pi-apps/tree/master/apps/Zed)***
+https://zed.dev/ - Original project:
+Zed Industries
+https://github.com/zed-industries/zed
+
+Pi-Apps packaging:
+Alex Bowles<br />
+ARM64 ONLY
+```
+Your last next editor
+
+Zed is a minimal code editor crafted for speed and collaboration with humans and AI.
+
+To run:  Menu -> Programming -> Zed
+To run in a terminal: zed
+```
 ## System Management
 
 ### <img src="/img/app-icons/All Is Well/icon-64.png" height=32> ***[All Is Well](https://github.com/Botspot/pi-apps/tree/master/apps/All%20Is%20Well)***
