@@ -3232,6 +3232,18 @@ Find out today with Geekbench 6.
 To run in a terminal: geekbench6
 ```
 
+### <img src="/img/app-icons/Geekbench 7/icon-64.png" height=32> ***[Geekbench 7](https://github.com/Botspot/pi-apps/tree/master/apps/Geekbench%207)***
+https://www.geekbench.com/<br />
+ARM64 ONLY
+```
+Geekbench 7 is a cross-platform benchmark that measures your system's performance with the press of a button. 
+How will your mobile device or desktop computer perform when push comes to crunch? 
+How will it compare to the newest devices on the market? 
+Find out today with Geekbench 7.
+
+To run in a terminal: geekbench7
+```
+
 ### <img src="/img/app-icons/Gnome Maps/icon-64.png" height=32> ***[Gnome Maps](https://github.com/Botspot/pi-apps/tree/master/apps/Gnome%20Maps)***
 https://apps.gnome.org/Maps/ - Botspot<br />
 Package app - 9,841 Users!
