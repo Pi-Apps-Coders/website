@@ -37,7 +37,7 @@ ARM32/ARM64 - 10,404 Users!!
 ```
 Installs two fonts to display all emojis in color in Unicode 13.0.
 This installs Noto Color Emoji font.
-To test if it works, go to: https://web.archive.org/web/20240112181458/https://tmh.conlang.org/emoji-language/all-emoji.html
+To test if it works, go to: https://web.archive.org/web/20240112181458/tmh.conlang.org/emoji-language/all-emoji.html
 ```
 
 ### <img src="/img/app-icons/Command Not Found/icon-64.png" height=32> ***[Command Not Found](https://github.com/Botspot/pi-apps/tree/master/apps/Command%20Not%20Found)***

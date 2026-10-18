@@ -9,7 +9,7 @@ description: Install Color Emoji font on Linux ARM Device using Pi-Apps
 ## <img src="/img/app-icons/Color Emoji font/icon-64.png"> Color Emoji font
 > Installs two fonts to display all emojis in color in Unicode 13.0.
 > This installs Noto Color Emoji font.
-> To test if it works, go to: https://web.archive.org/web/20240112181458/https://tmh.conlang.org/emoji-language/all-emoji.html
+> To test if it works, go to: https://web.archive.org/web/20240112181458/tmh.conlang.org/emoji-language/all-emoji.html
 
 Fortunately, Color Emoji font is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
